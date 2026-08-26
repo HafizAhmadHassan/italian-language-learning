@@ -46,6 +46,7 @@ export default function Settings() {
 
   useEffect(() => {
     document.documentElement.classList.toggle('dark', darkMode);
+    window.dispatchEvent(new Event('darkmode-change'));
   }, [darkMode]);
 
   const handleSave = () => {
