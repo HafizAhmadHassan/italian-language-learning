@@ -11,6 +11,8 @@ import {
   Mic,
   LogOut,
   User,
+  Sun,
+  Moon,
 } from 'lucide-react';
 import { motion } from 'framer-motion';
 import auth from '../../services/auth';
@@ -54,6 +56,14 @@ export default function AppLayout() {
     navigate('/login');
   };
 
+  const toggleDark = () => {
+    const next = !dark;
+    setDark(next);
+    storage.set('darkMode', next);
+    document.documentElement.classList.toggle('dark', next);
+    window.dispatchEvent(new Event('darkmode-change'));
+  };
+
   const getNavClass = ({ isActive }) => {
     if (isActive) {
       return dark
@@ -84,13 +94,26 @@ export default function AppLayout() {
           borderColor: dark ? '#2E323C' : 'rgba(124,182,157,0.2)',
         }}
       >
-        <div className="flex items-center gap-3 px-6 py-6">
-          <div className="w-9 h-9 rounded-xl bg-italian-green flex items-center justify-center text-white font-heading font-bold text-sm">
-            IT
+        <div className="flex items-center justify-between px-6 py-6">
+          <div className="flex items-center gap-3">
+            <div className="w-9 h-9 rounded-xl bg-italian-green flex items-center justify-center text-white font-heading font-bold text-sm">
+              IT
+            </div>
+            <span className="font-heading font-semibold text-lg" style={{ color: dark ? '#E5E5E5' : '#2D2D2D' }}>
+              Parla Italiano
+            </span>
           </div>
-          <span className="font-heading font-semibold text-lg" style={{ color: dark ? '#E5E5E5' : '#2D2D2D' }}>
-            Parla Italiano
-          </span>
+          <motion.button
+            whileTap={{ scale: 0.9 }}
+            onClick={toggleDark}
+            className="w-9 h-9 rounded-xl flex items-center justify-center transition-colors"
+            style={{
+              backgroundColor: dark ? '#22252E' : 'rgba(124,182,157,0.1)',
+              color: dark ? '#FBBF24' : '#6B7280',
+            }}
+          >
+            {dark ? <Sun size={18} /> : <Moon size={18} />}
+          </motion.button>
         </div>
 
         <nav className="flex-1 px-3 py-2 space-y-1">
@@ -166,6 +189,20 @@ export default function AppLayout() {
           </NavLink>
         ))}
       </nav>
+
+      {/* Mobile Dark Mode Toggle */}
+      <motion.button
+        whileTap={{ scale: 0.9 }}
+        onClick={toggleDark}
+        className="md:hidden fixed bottom-20 right-4 z-50 w-11 h-11 rounded-full shadow-lg flex items-center justify-center"
+        style={{
+          backgroundColor: dark ? '#22252E' : '#FFFFFF',
+          color: dark ? '#FBBF24' : '#6B7280',
+          boxShadow: dark ? '0 4px 12px rgba(0,0,0,0.4)' : '0 4px 12px rgba(0,0,0,0.1)',
+        }}
+      >
+        {dark ? <Sun size={20} /> : <Moon size={20} />}
+      </motion.button>
     </div>
   );
 }
