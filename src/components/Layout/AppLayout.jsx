@@ -54,13 +54,13 @@ export default function AppLayout() {
     navigate('/login');
   };
 
-  const sidebarBg = dark ? 'bg-italian-dark-card' : 'bg-italian-cream/60';
-  const sidebarBorder = dark ? 'border-italian-dark-border' : 'border-italian-sage/20';
+  const sidebarBg = dark ? 'bg-[#1A1D24]' : 'bg-italian-cream/60';
+  const sidebarBorder = dark ? 'border-[#2E323C]' : 'border-italian-sage/20';
   const textColor = dark ? 'text-gray-200' : 'text-italian-charcoal';
   const textMuted = dark ? 'text-gray-400' : 'text-gray-500';
-  const hoverBg = dark ? 'hover:bg-italian-dark-surface' : 'hover:bg-italian-sage/10';
+  const hoverBg = dark ? 'hover:bg-[#22252E]' : 'hover:bg-italian-sage/10';
   const activeBg = dark ? 'bg-italian-green/20 text-italian-green' : 'bg-italian-green/10 text-italian-green';
-  const bottomBarBg = dark ? 'bg-italian-dark-card border-italian-dark-border' : 'bg-white border-gray-200';
+  const bottomBarBg = dark ? 'bg-[#1A1D24] border-[#2E323C]' : 'bg-white border-gray-200';
 
   return (
     <div className={`flex h-screen overflow-hidden ${dark ? 'bg-[#111318]' : 'bg-italian-light'}`}>
