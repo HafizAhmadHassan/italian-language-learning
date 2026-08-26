@@ -3058,6 +3058,646 @@ const lessons = [
       },
     ],
   },
+  {
+    id: 'lesson-41',
+    title: 'Transportation',
+    level: 'B2',
+    unit: 9,
+    unitTitle: 'Advanced Topics',
+    description: 'Learn vocabulary and phrases for getting around Italian cities.',
+    duration: 15,
+    steps: [
+      {
+        type: 'learn',
+        content: {
+          title: 'Transportation Vocabulary',
+          text: 'Master Italian transportation terms for navigating cities and countryside.',
+          items: [
+            { italian: 'La stazione', english: 'The station', pronunciation: 'stah-TSYOH-neh' },
+            { italian: 'Il binario', english: 'The platform (track)', pronunciation: 'bee-NAH-ryoh' },
+            { italian: 'Il treno', english: 'The train', pronunciation: 'TREH-noh' },
+            { italian: 'La metro', english: 'The subway', pronunciation: 'MEH-troh' },
+            { italian: "L'autobus", english: 'The bus', pronunciation: 'OW-toh-boos' },
+            { italian: 'Il biglietto', english: 'The ticket', pronunciation: 'beel-YEHT-toh' },
+            { italian: "L'aereo", english: 'The airplane', pronunciation: 'ah-EH-reh-oh' },
+            { italian: 'La fermata', english: 'The stop (bus stop)', pronunciation: 'fehr-MAH-tah' },
+          ],
+        },
+      },
+      {
+        type: 'example',
+        content: {
+          dialogue: [
+            { speaker: 'A', italian: 'Scusi, dov\'e la stazione?', english: 'Excuse me, where is the station?' },
+            { speaker: 'B', italian: 'Vada dritto, poi giri a sinistra.', english: 'Go straight, then turn left.' },
+            { speaker: 'A', italian: 'A che ora parte il treno per Roma?', english: 'What time does the train to Rome leave?' },
+            { speaker: 'B', italian: 'Alle otto e mezza, dal binario cinque.', english: 'At eight thirty, from platform five.' },
+          ],
+        },
+      },
+      {
+        type: 'multiple_choice',
+        content: {
+          question: 'What does "il binario" mean?',
+          options: ['The bus stop', 'The platform/track', 'The ticket', 'The train'],
+          answer: 'The platform/track',
+        },
+      },
+      {
+        type: 'translation',
+        content: {
+          direction: 'it-to-en',
+          sentence: 'Devo prendere il metro per andare in centro.',
+          answer: 'I need to take the subway to go downtown.',
+          hint: 'prendere = to take',
+        },
+      },
+      {
+        type: 'listening',
+        content: {
+          italian: 'Il treno per Firenze parte alle nove.',
+          answer: 'The train to Florence leaves at nine.',
+          options: ['The train to Florence leaves at nine.', 'The train to Rome leaves at nine.', 'The bus to Florence leaves at nine.', 'The train to Florence arrives at nine.'],
+        },
+      },
+      {
+        type: 'fill_blank',
+        content: {
+          sentence: 'Qual e la ___ prossima per Milano?',
+          answer: 'fermata',
+          hint: 'stop (for bus/metro)',
+        },
+      },
+    ],
+  },
+  {
+    id: 'lesson-42',
+    title: 'Technology',
+    level: 'B2',
+    unit: 9,
+    unitTitle: 'Advanced Topics',
+    description: 'Learn technology-related Italian vocabulary for modern life.',
+    duration: 15,
+    steps: [
+      {
+        type: 'learn',
+        content: {
+          title: 'Technology Vocabulary',
+          text: 'Essential Italian tech vocabulary for the digital age.',
+          items: [
+            { italian: 'Il computer', english: 'The computer', pronunciation: 'kohm-POO-ter' },
+            { italian: 'Il telefono', english: 'The phone', pronunciation: 'teh-LEH-foh-noh' },
+            { italian: "Lo smartphone", english: 'The smartphone', pronunciation: 'SMART-fon' },
+            { italian: "L'internet", english: 'The internet', pronunciation: 'een-tehr-NEHT' },
+            { italian: 'La password', english: 'The password', pronunciation: 'PAHS-word' },
+            { italian: 'Il sito web', english: 'The website', pronunciation: 'SEE-toh WEHB' },
+            { italian: "L'applicazione", english: 'The app', pronunciation: 'ahp-plee-kah-TSYOH-neh' },
+            { italian: 'La chat', english: 'The chat', pronunciation: 'CHAHT' },
+          ],
+        },
+      },
+      {
+        type: 'example',
+        content: {
+          dialogue: [
+            { speaker: 'A', italian: 'Hai il numero di telefono di Marco?', english: 'Do you have Marco\'s phone number?' },
+            { speaker: 'B', italian: 'Si, te lo mando per WhatsApp.', english: 'Yes, I\'ll send it to you on WhatsApp.' },
+            { speaker: 'A', italian: 'Perfetto, grazie!', english: 'Perfect, thanks!' },
+          ],
+        },
+      },
+      {
+        type: 'multiple_choice',
+        content: {
+          question: 'What is "l\'applicazione" in English?',
+          options: ['The computer', 'The app', 'The website', 'The password'],
+          answer: 'The app',
+        },
+      },
+      {
+        type: 'translation',
+        content: {
+          direction: 'it-to-en',
+          sentence: 'Non riesco a connettermi a internet.',
+          answer: 'I can\'t connect to the internet.',
+          hint: 'connettermi = to connect (myself)',
+        },
+      },
+      {
+        type: 'fill_blank',
+        content: {
+          sentence: 'Qual e la tua ___ di accesso?',
+          answer: 'password',
+          hint: 'password',
+        },
+      },
+    ],
+  },
+  {
+    id: 'lesson-43',
+    title: 'Environment',
+    level: 'B2',
+    unit: 9,
+    unitTitle: 'Advanced Topics',
+    description: 'Discuss environmental topics and sustainability in Italian.',
+    duration: 15,
+    steps: [
+      {
+        type: 'learn',
+        content: {
+          title: 'Environment Vocabulary',
+          text: 'Learn to discuss nature, pollution, and sustainability in Italian.',
+          items: [
+            { italian: "L'ambiente", english: 'The environment', pronunciation: 'ahm-BYEN-teh' },
+            { italian: "L'inquinamento", english: 'Pollution', pronunciation: 'een-kwee-nah-MEHN-toh' },
+            { italian: 'Il riciclo', english: 'Recycling', pronunciation: 'ree-CHEE-kloh' },
+            { italian: "L'energia rinnovabile", english: 'Renewable energy', pronunciation: 'eh-NEHR-jah reen-noh-VAH-bee-leh' },
+            { italian: 'Il cambiamento climatico', english: 'Climate change', pronunciation: 'kahm-byah-MEHN-toh klee-MAH-tee-koh' },
+            { italian: 'La foresta', english: 'The forest', pronunciation: 'foh-REHS-tah' },
+            { italian: 'Il fiume', english: 'The river', pronunciation: 'FYOO-meh' },
+            { italian: 'La montagna', english: 'The mountain', pronunciation: 'mohn-TAH-nyah' },
+          ],
+        },
+      },
+      {
+        type: 'example',
+        content: {
+          dialogue: [
+            { speaker: 'A', italian: 'Cosa possiamo fare per l\'ambiente?', english: 'What can we do for the environment?' },
+            { speaker: 'B', italian: 'Possiamo riciclare e usare meno plastica.', english: 'We can recycle and use less plastic.' },
+            { speaker: 'A', italian: 'Hai ragione. Dobbiamo fare qualcosa.', english: 'You\'re right. We must do something.' },
+          ],
+        },
+      },
+      {
+        type: 'multiple_choice',
+        content: {
+          question: 'What does "il cambiamento climatico" mean?',
+          options: ['The weather', 'Climate change', 'The forest', 'Recycling'],
+          answer: 'Climate change',
+        },
+      },
+      {
+        type: 'translation',
+        content: {
+          direction: 'it-to-en',
+          sentence: 'Dobbiamo proteggere le nostre foreste.',
+          answer: 'We must protect our forests.',
+          hint: 'proteggere = to protect',
+        },
+      },
+      {
+        type: 'fill_blank',
+        content: {
+          sentence: 'Il ___ e un problema grande nel mondo.',
+          answer: 'riciclo',
+          hint: 'recycling',
+        },
+      },
+    ],
+  },
+  {
+    id: 'lesson-44',
+    title: 'Media and News',
+    level: 'B2',
+    unit: 9,
+    unitTitle: 'Advanced Topics',
+    description: 'Understand Italian media vocabulary and discuss current events.',
+    duration: 15,
+    steps: [
+      {
+        type: 'learn',
+        content: {
+          title: 'Media Vocabulary',
+          text: 'Key vocabulary for discussing news, TV, and media in Italian.',
+          items: [
+            { italian: 'Il giornale', english: 'The newspaper', pronunciation: 'johr-NAH-leh' },
+            { italian: 'La televisione', english: 'The television', pronunciation: 'teh-leh-vee-SYOH-neh' },
+            { italian: 'Il telegiornale', english: 'The TV news', pronunciation: 'teh-leh-johr-NAH-leh' },
+            { italian: 'La notizia', english: 'The news item', pronunciation: 'noh-TEE-tsyah' },
+            { italian: 'L\'articolo', english: 'The article', pronunciation: 'ahr-TEE-koh-loh' },
+            { italian: 'Il film', english: 'The movie', pronunciation: 'FEELM' },
+            { italian: 'La serie TV', english: 'The TV series', pronunciation: 'SEH-ree-eh TV' },
+            { italian: 'Il documentario', english: 'The documentary', pronunciation: 'doh-koo-mehn-TAH-ryoh' },
+          ],
+        },
+      },
+      {
+        type: 'example',
+        content: {
+          dialogue: [
+            { speaker: 'A', italian: 'Hai visto il telegiornale stasera?', english: 'Did you watch the news tonight?' },
+            { speaker: 'B', italian: 'No, cosa e successo?', english: 'No, what happened?' },
+            { speaker: 'A', italian: 'C\'era un\'interessante documentario sulla politica.', english: 'There was an interesting documentary about politics.' },
+          ],
+        },
+      },
+      {
+        type: 'multiple_choice',
+        content: {
+          question: 'What is "il telegiornale"?',
+          options: ['The newspaper', 'The TV news', 'The magazine', 'The article'],
+          answer: 'The TV news',
+        },
+      },
+      {
+        type: 'translation',
+        content: {
+          direction: 'it-to-en',
+          sentence: 'Leggo il giornale ogni mattina.',
+          answer: 'I read the newspaper every morning.',
+          hint: 'leggo = I read (from leggere)',
+        },
+      },
+      {
+        type: 'fill_blank',
+        content: {
+          sentence: 'Ho letto un ___ interessante sul giornale.',
+          answer: 'articolo',
+          hint: 'article',
+        },
+      },
+    ],
+  },
+  {
+    id: 'lesson-45',
+    title: 'Italian Cooking',
+    level: 'B2',
+    unit: 9,
+    unitTitle: 'Advanced Topics',
+    description: 'Learn cooking vocabulary and traditional Italian recipes.',
+    duration: 15,
+    steps: [
+      {
+        type: 'learn',
+        content: {
+          title: 'Cooking Vocabulary',
+          text: 'Essential vocabulary for Italian cuisine and cooking.',
+          items: [
+            { italian: 'La ricetta', english: 'The recipe', pronunciation: 'ree-CHEHT-tah' },
+            { italian: 'Il ingrediente', english: 'The ingredient', pronunciation: 'een-greh-DYEN-teh' },
+            { italian: 'Cuocere', english: 'To cook', pronunciation: 'KWOH-cheh-reh' },
+            { italian: 'Mescolare', english: 'To mix', pronunciation: 'meh-skoh-LAH-reh' },
+            { italian: 'Tagliare', english: 'To cut', pronunciation: 'tah-LYAH-reh' },
+            { italian: 'Aggiungere', english: 'To add', pronunciation: 'ahd-JOON-jeh-reh' },
+            { italian: 'Il forno', english: 'The oven', pronunciation: 'FOHR-noh' },
+            { italian: 'La padella', english: 'The frying pan', pronunciation: 'pah-DEHL-lah' },
+          ],
+        },
+      },
+      {
+        type: 'example',
+        content: {
+          dialogue: [
+            { speaker: 'A', italian: 'Che cosa stai preparando?', english: 'What are you preparing?' },
+            { speaker: 'B', italian: 'Sto facendo la pasta al ragu.', english: 'I\'m making pasta with meat sauce.' },
+            { speaker: 'A', italian: 'Che profumo! Cosa ci metti?', english: 'It smells great! What do you put in it?' },
+            { speaker: 'B', italian: 'Pomodori, cipolla, aglio e basilico.', english: 'Tomatoes, onion, garlic, and basil.' },
+          ],
+        },
+      },
+      {
+        type: 'multiple_choice',
+        content: {
+          question: 'What does "cuocere" mean?',
+          options: ['To cut', 'To mix', 'To cook', 'To add'],
+          answer: 'To cook',
+        },
+      },
+      {
+        type: 'translation',
+        content: {
+          direction: 'it-to-en',
+          sentence: 'Aggiungi un po\' di sale alla salsa.',
+          answer: 'Add a little salt to the sauce.',
+          hint: 'aggiungi = add (imperative)',
+        },
+      },
+      {
+        type: 'fill_blank',
+        content: {
+          sentence: 'Prima taglia le verdure, poi le ___ nella padella.',
+          answer: 'mescoli',
+          hint: 'mix (conjugated)',
+        },
+      },
+    ],
+  },
+  {
+    id: 'lesson-46',
+    title: 'Idiomatic Expressions',
+    level: 'C1',
+    unit: 10,
+    unitTitle: 'Mastery',
+    description: 'Master common Italian idioms and expressions for natural speech.',
+    duration: 18,
+    steps: [
+      {
+        type: 'learn',
+        content: {
+          title: 'Italian Idioms',
+          text: 'Idiomatic expressions add color and authenticity to your Italian. Here are essential ones:',
+          items: [
+            { italian: 'In bocca al lupo', english: 'Good luck (literally: into the mouth of the wolf)', pronunciation: 'in BOHK-kah ahl LOO-poh' },
+            { italian: 'Che pasta!', english: 'What a fool! (literally: what dough!)', pronunciation: 'keh PAHS-tah' },
+            { italian: 'Avere le mani bucate', english: 'To be clumsy / unlucky with money', pronunciation: 'ah-VEH-reh leh MAH-nee boo-KAH-teh' },
+            { italian: 'Non avere peli sulla lingua', english: 'To speak one\'s mind bluntly', pronunciation: 'nohn ah-VEH-reh PEH-lee SOOL-lah LEEN-gwah' },
+            { italian: 'Essere al settimo cielo', english: 'To be over the moon', pronunciation: 'ehs-SEH-reh ahl SEHT-tee-moh CHEH-loh' },
+            { italian: 'Mettere mano alla tasca', english: 'To reach for one\'s wallet', pronunciation: 'MEHT-teh-reh MAH-noh ahl-lah TAH-skah' },
+          ],
+        },
+      },
+      {
+        type: 'example',
+        content: {
+          dialogue: [
+            { speaker: 'A', italian: 'Domani ho l\'esame. Sono nervosissimo!', english: 'Tomorrow I have the exam. I\'m so nervous!' },
+            { speaker: 'B', italian: 'In bocca al lupo! Lo farai benissimo.', english: 'Good luck! You\'ll do great.' },
+            { speaker: 'A', italian: 'Grazie, speriamo bene!', english: 'Thanks, let\'s hope so!' },
+          ],
+        },
+      },
+      {
+        type: 'multiple_choice',
+        content: {
+          question: 'What does "Essere al settimo cielo" mean?',
+          options: ['To be very tired', 'To be over the moon', 'To be lost', 'To be hungry'],
+          answer: 'To be over the moon',
+        },
+      },
+      {
+        type: 'translation',
+        content: {
+          direction: 'it-to-en',
+          sentence: 'In bocca al lupo per il tuo colloquio!',
+          answer: 'Good luck for your interview!',
+          hint: 'in bocca al lupo = good luck',
+        },
+      },
+      {
+        type: 'fill_blank',
+        content: {
+          sentence: 'Non avere ___ sulla lingua, dimmi la verita!',
+          answer: 'peli',
+          hint: 'hairs',
+        },
+      },
+    ],
+  },
+  {
+    id: 'lesson-47',
+    title: 'Italian History',
+    level: 'C1',
+    unit: 10,
+    unitTitle: 'Mastery',
+    description: 'Discuss Italian history from ancient Rome to modern times.',
+    duration: 18,
+    steps: [
+      {
+        type: 'learn',
+        content: {
+          title: 'Historical Vocabulary',
+          text: 'Learn to discuss Italian historical periods and events.',
+          items: [
+            { italian: "L'Impero Romano", english: 'The Roman Empire', pronunciation: 'EEM-peh-roh roh-MAH-noh' },
+            { italian: 'Il Rinascimento', english: 'The Renaissance', pronunciation: 'ree-nah-shee-MEHN-toh' },
+            { italian: "L'unificazione", english: 'The unification', pronunciation: 'oo-nee-fee-kah-TSYOH-neh' },
+            { italian: 'Il Risorgimento', english: 'The Resurgence (Italian unification movement)', pronunciation: 'ree-zohr-jee-MEHN-toh' },
+            { italian: 'La Repubblica', english: 'The Republic', pronunciation: 'reh-PPOOB-blee-kah' },
+            { italian: 'Il antico', english: 'The ancient', pronunciation: 'ahn-TEE-koh' },
+            { italian: 'La storia', english: 'The history', pronunciation: 'STOH-ryah' },
+            { italian: 'Il Medioevo', english: 'The Middle Ages', pronunciation: 'MEH-dyoh-EH-voh' },
+          ],
+        },
+      },
+      {
+        type: 'example',
+        content: {
+          dialogue: [
+            { speaker: 'A', italian: 'Stai studiando la storia italiana?', english: 'Are you studying Italian history?' },
+            { speaker: 'B', italian: 'Si, sto leggendo sul Rinascimento.', english: 'Yes, I\'m reading about the Renaissance.' },
+            { speaker: 'A', italian: 'Che periodo affascinante!', english: 'What a fascinating period!' },
+          ],
+        },
+      },
+      {
+        type: 'multiple_choice',
+        content: {
+          question: 'What is "Il Risorgimento"?',
+          options: ['The Renaissance', 'The Italian unification movement', 'The Roman Empire', 'The Middle Ages'],
+          answer: 'The Italian unification movement',
+        },
+      },
+      {
+        type: 'translation',
+        content: {
+          direction: 'it-to-en',
+          sentence: 'L\'Impero Romano e stato uno dei piu grandi della storia.',
+          answer: 'The Roman Empire was one of the greatest in history.',
+          hint: 'stato = been (passato prossimo of essere)',
+        },
+      },
+      {
+        type: 'fill_blank',
+        content: {
+          sentence: 'Il ___ e stato un periodo di grande creativita.',
+          answer: 'Rinascimento',
+          hint: 'The Renaissance',
+        },
+      },
+    ],
+  },
+  {
+    id: 'lesson-48',
+    title: 'Regional Dialects',
+    level: 'C1',
+    unit: 10,
+    unitTitle: 'Mastery',
+    description: 'Learn about Italian regional dialects and cultural variations.',
+    duration: 15,
+    steps: [
+      {
+        type: 'learn',
+        content: {
+          title: 'Regional Italian',
+          text: 'Italy has rich linguistic diversity. Learn about regional variations:',
+          items: [
+            { italian: 'Il dialetto', english: 'The dialect', pronunciation: 'dyah-LEHT-toh' },
+            { italian: 'Il accento', english: 'The accent', pronunciation: 'ahch-CHEN-toh' },
+            { italian: 'Nord', english: 'North', pronunciation: 'NOR' },
+            { italian: 'Sud', english: 'South', pronunciation: 'SOOD' },
+            { italian: 'Il centro', english: 'The center', pronunciation: 'CHEHN-troh' },
+            { italian: 'La tradizione', english: 'The tradition', pronunciation: 'trah-dee-TSYOH-neh' },
+            { italian: 'Il dialetto napoletano', english: 'Neapolitan dialect', pronunciation: 'dyah-LEHT-toh nah-poh-leh-TAH-noh' },
+            { italian: 'Il dialetto milanese', english: 'Milanese dialect', pronunciation: 'dyah-LEHT-toh mee-lah-NEH-zeh' },
+          ],
+        },
+      },
+      {
+        type: 'example',
+        content: {
+          dialogue: [
+            { speaker: 'A', italian: 'Parli anche dialetto?', english: 'Do you also speak dialect?' },
+            { speaker: 'B', italian: 'Si, parlo il napoletano a casa.', english: 'Yes, I speak Neapolitan at home.' },
+            { speaker: 'A', italian: 'Che bello! E molto diverso dall\'italiano?', english: 'How nice! Is it very different from Italian?' },
+            { speaker: 'B', italian: 'Si, un po\'. Ma si capisce.', english: 'Yes, a little. But it\'s understandable.' },
+          ],
+        },
+      },
+      {
+        type: 'multiple_choice',
+        content: {
+          question: 'What does "il dialetto" mean?',
+          options: ['The accent', 'The dialect', 'The tradition', 'The region'],
+          answer: 'The dialect',
+        },
+      },
+      {
+        type: 'translation',
+        content: {
+          direction: 'it-to-en',
+          sentence: 'In Italia ci sono molti dialetti diversi.',
+          answer: 'In Italy there are many different dialects.',
+          hint: 'ci sono = there are',
+        },
+      },
+      {
+        type: 'fill_blank',
+        content: {
+          sentence: 'Il ___ napoletano e molto musicale.',
+          answer: 'dialetto',
+          hint: 'dialect',
+        },
+      },
+    ],
+  },
+  {
+    id: 'lesson-49',
+    title: 'Politics and Society',
+    level: 'C1',
+    unit: 10,
+    unitTitle: 'Mastery',
+    description: 'Discuss Italian politics and social issues fluently.',
+    duration: 18,
+    steps: [
+      {
+        type: 'learn',
+        content: {
+          title: 'Politics Vocabulary',
+          text: 'Essential vocabulary for discussing Italian politics and society.',
+          items: [
+            { italian: 'La politica', english: 'Politics', pronunciation: 'poh-LEE-tee-kah' },
+            { italian: 'Il governo', english: 'The government', pronunciation: 'goh-VEHR-noh' },
+            { italian: 'Il parlamento', english: 'The parliament', pronunciation: 'pahr-lah-MEHN-toh' },
+            { italian: 'Il presidente', english: 'The president', pronunciation: 'preh-zee-DEN-teh' },
+            { italian: 'Il sindaco', english: 'The mayor', pronunciation: 'SEEN-dah-koh' },
+            { italian: 'Le elezioni', english: 'The elections', pronunciation: 'leh eh-leh-TSYOH-neh' },
+            { italian: 'Il partito', english: 'The political party', pronunciation: 'pahr-TEE-toh' },
+            { italian: 'La legge', english: 'The law', pronunciation: 'LEHJ-jeh' },
+          ],
+        },
+      },
+      {
+        type: 'example',
+        content: {
+          dialogue: [
+            { speaker: 'A', italian: 'Cosa pensi delle prossime elezioni?', english: 'What do you think about the upcoming elections?' },
+            { speaker: 'B', italian: 'Spero che la gente voti con consapevolezza.', english: 'I hope people vote with awareness.' },
+            { speaker: 'A', italian: 'E importante partecipare alla vita politica.', english: 'It\'s important to participate in political life.' },
+          ],
+        },
+      },
+      {
+        type: 'multiple_choice',
+        content: {
+          question: 'What is "il sindaco"?',
+          options: ['The president', 'The mayor', 'The minister', 'The senator'],
+          answer: 'The mayor',
+        },
+      },
+      {
+        type: 'translation',
+        content: {
+          direction: 'it-to-en',
+          sentence: 'Il governo ha approvato una nuova legge.',
+          answer: 'The government has approved a new law.',
+          hint: 'ha approvato = has approved',
+        },
+      },
+      {
+        type: 'fill_blank',
+        content: {
+          sentence: 'Le ___ sono previste per la prossima primavera.',
+          answer: 'elezioni',
+          hint: 'elections',
+        },
+      },
+    ],
+  },
+  {
+    id: 'lesson-50',
+    title: 'Italian Philosophy',
+    level: 'C1',
+    unit: 10,
+    unitTitle: 'Mastery',
+    description: 'Explore Italian philosophical traditions and discuss abstract ideas.',
+    duration: 18,
+    steps: [
+      {
+        type: 'learn',
+        content: {
+          title: 'Philosophy Vocabulary',
+          text: 'Learn to discuss philosophy and abstract concepts in Italian.',
+          items: [
+            { italian: 'La filosofia', english: 'Philosophy', pronunciation: 'fee-loh-zoh-FEE-ah' },
+            { italian: 'Il pensiero', english: 'The thought', pronunciation: 'pehn-SYEH-roh' },
+            { italian: 'La verita', english: 'The truth', pronunciation: 'veh-ree-TAH' },
+            { italian: 'La liberta', english: 'Freedom', pronunciation: 'lee-behr-TAH' },
+            { italian: 'La giustizia', english: 'Justice', pronunciation: 'joos-TEE-tsyah' },
+            { italian: 'Il destino', english: 'Destiny / Fate', pronunciation: 'dehs-TEE-noh' },
+            { italian: 'La virtu', english: 'Virtue', pronunciation: 'veer-TOO' },
+            { italian: 'La saggezza', english: 'Wisdom', pronunciation: 'sahd-JEHT-tsah' },
+          ],
+        },
+      },
+      {
+        type: 'example',
+        content: {
+          dialogue: [
+            { speaker: 'A', italian: 'Qual e il significato della vita?', english: 'What is the meaning of life?' },
+            { speaker: 'B', italian: 'Questa e una grande domanda filosofica.', english: 'That is a great philosophical question.' },
+            { speaker: 'A', italian: 'Cosa ne pensi tu?', english: 'What do you think about it?' },
+            { speaker: 'B', italian: 'Penso che la felicita sia nella semplicita.', english: 'I think happiness is in simplicity.' },
+          ],
+        },
+      },
+      {
+        type: 'multiple_choice',
+        content: {
+          question: 'What does "la saggezza" mean?',
+          options: ['Justice', 'Wisdom', 'Freedom', 'Virtue'],
+          answer: 'Wisdom',
+        },
+      },
+      {
+        type: 'translation',
+        content: {
+          direction: 'it-to-en',
+          sentence: 'La liberta di pensiero e un diritto fondamentale.',
+          answer: 'Freedom of thought is a fundamental right.',
+          hint: 'fondamentale = fundamental',
+        },
+      },
+      {
+        type: 'fill_blank',
+        content: {
+          sentence: 'La ___ e importante quanto la liberta.',
+          answer: 'giustizia',
+          hint: 'justice',
+        },
+      },
+    ],
+  },
 ];
 
 export default lessons;

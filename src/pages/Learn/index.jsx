@@ -120,17 +120,13 @@ export default function Learn() {
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
                   {group.lessons.map((lesson) => {
                     const isCompleted = completedIds.includes(lesson.id);
-                    const lessonIdx = lessons.findIndex((l) => l.id === lesson.id);
-                    const prevCompleted =
-                      lessonIdx === 0 || completedIds.includes(lessons[lessonIdx - 1]?.id);
-                    const isLocked = !isCompleted && !prevCompleted;
 
                     return (
                       <LessonCard
                         key={lesson.id}
                         lesson={lesson}
                         isCompleted={isCompleted}
-                        isLocked={isLocked}
+                        isLocked={false}
                       />
                     );
                   })}

@@ -8,7 +8,11 @@ export default function LessonCard({ lesson, isCompleted, isLocked, progress = 0
       ? 'bg-italian-green/12 text-italian-green'
       : lesson.level === 'A2'
         ? 'bg-italian-gold/12 text-italian-gold'
-        : 'bg-italian-red/12 text-italian-red';
+        : lesson.level === 'B1'
+          ? 'bg-italian-red/12 text-italian-red'
+          : lesson.level === 'B2'
+            ? 'bg-italian-sage/12 text-italian-sage'
+            : 'bg-italian-purple/12 text-italian-purple';
 
   const CardWrapper = isLocked ? 'div' : Link;
   const wrapperProps = isLocked ? {} : { to: `/lesson/${lesson.id}` };
