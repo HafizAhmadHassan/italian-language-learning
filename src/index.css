@@ -1,5 +1,7 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:is(.dark *));
+
 @theme {
   --color-italian-green: #009246;
   --color-italian-red: #CE2B37;
