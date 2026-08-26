@@ -3,7 +3,6 @@ import { motion } from 'framer-motion';
 import { BookOpen } from 'lucide-react';
 import lessons from '../../data/lessons';
 import progress from '../../services/progress';
-import storage from '../../services/storage';
 import LessonCard from '../../components/LessonCard';
 
 const fadeUp = {
@@ -18,7 +17,6 @@ const fadeUp = {
 const TABS = ['All', 'A1', 'A2', 'B1', 'B2', 'C1'];
 
 export default function Learn() {
-  useState(() => storage.get('darkMode', false));
   const [activeTab, setActiveTab] = useState('All');
   const p = progress.getProgress();
 
