@@ -9,6 +9,8 @@ const LEVELS = [
   { key: 'A1', label: 'A1' },
   { key: 'A2', label: 'A2' },
   { key: 'B1', label: 'B1' },
+  { key: 'B2', label: 'B2' },
+  { key: 'C1', label: 'C1' },
 ];
 
 function GrammarExercise({ exercise, topicId, sectionIdx, onComplete }) {
@@ -123,6 +125,8 @@ export default function GrammarPage() {
       case 'A1': return 'bg-[#009246]/15 text-[#009246] border-[#009246]/30';
       case 'A2': return 'bg-[#D4A843]/15 text-[#D4A843] border-[#D4A843]/30';
       case 'B1': return 'bg-[#CE2B37]/15 text-[#CE2B37] border-[#CE2B37]/30';
+      case 'B2': return 'bg-[#7CB69D]/15 text-[#7CB69D] border-[#7CB69D]/30';
+      case 'C1': return 'bg-[#9B59B6]/15 text-[#9B59B6] border-[#9B59B6]/30';
       default: return 'bg-white/10 text-white/60 border-white/10';
     }
   };

@@ -26,8 +26,18 @@ const CATEGORIES = [
   { key: 'essential_phrases', label: 'Essential Phrases' },
 ];
 
+const LEVELS = [
+  { key: 'all', label: 'All Levels' },
+  { key: 'A1', label: 'A1' },
+  { key: 'A2', label: 'A2' },
+  { key: 'B1', label: 'B1' },
+  { key: 'B2', label: 'B2' },
+  { key: 'C1', label: 'C1' },
+];
+
 export default function VocabularyPage() {
   const [activeCategory, setActiveCategory] = useState('all');
+  const [activeLevel, setActiveLevel] = useState('all');
   const [search, setSearch] = useState('');
   const [progressData, setProgressData] = useState(progress.getProgress());
   const scrollRef = useRef(null);
@@ -53,6 +63,9 @@ export default function VocabularyPage() {
     if (activeCategory !== 'all') {
       words = words.filter((w) => w.category === activeCategory);
     }
+    if (activeLevel !== 'all') {
+      words = words.filter((w) => w.level === activeLevel);
+    }
     if (search.trim()) {
       const q = search.toLowerCase();
       words = words.filter(
@@ -64,7 +77,7 @@ export default function VocabularyPage() {
       );
     }
     return words;
-  }, [activeCategory, search, nativeLanguage]);
+  }, [activeCategory, activeLevel, search, nativeLanguage]);
 
   const toggleSave = (id) => {
     const p = progress.getProgress();
@@ -138,6 +151,29 @@ export default function VocabularyPage() {
             onChange={(e) => setSearch(e.target.value)}
             className="w-full pl-12 pr-4 py-3 rounded-xl bg-[#252540]/80 border border-white/10 text-white placeholder-white/30 focus:outline-none focus:border-[#009246]/50 focus:ring-1 focus:ring-[#009246]/30 transition-all duration-200"
           />
+        </motion.div>
+
+        <motion.div
+          initial={{ opacity: 0, y: 10 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.18 }}
+          className="mb-4"
+        >
+          <div className="flex gap-2 overflow-x-auto pb-2 scrollbar-hide -mx-4 px-4">
+            {LEVELS.map((lvl) => (
+              <button
+                key={lvl.key}
+                onClick={() => setActiveLevel(lvl.key)}
+                className={`shrink-0 px-4 py-2 rounded-xl text-sm font-semibold transition-all duration-200 ${
+                  activeLevel === lvl.key
+                    ? 'bg-[#D4A843] text-white shadow-lg shadow-[#D4A843]/25'
+                    : 'bg-[#252540] text-white/50 hover:text-white/80 hover:bg-[#2D2D4A] border border-white/5'
+                }`}
+              >
+                {lvl.label}
+              </button>
+            ))}
+          </div>
         </motion.div>
 
         <motion.div
