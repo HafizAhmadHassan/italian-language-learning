@@ -2291,6 +2291,773 @@ const lessons = [
       },
     ],
   },
+  {
+    id: 'lesson-31',
+    title: 'Possessive Adjectives',
+    level: 'B2',
+    unit: 9,
+    unitTitle: 'Upper Intermediate Grammar',
+    description: 'Master possessive adjectives and their agreement patterns in Italian.',
+    duration: 14,
+    steps: [
+      {
+        type: 'learn',
+        content: {
+          title: 'Possessive Adjectives',
+          text: 'Italian possessives agree with the gender of the noun possessed, not the possessor. With singular family nouns, use definite articles:',
+          items: [
+            { italian: 'Mio / Mia', english: 'My (m/f)', pronunciation: 'MYOH / MYAH' },
+            { italian: 'Tuo / Tua', english: 'Your (m/f)', pronunciation: 'TWOH / TWAH' },
+            { italian: 'Suo / Sua', english: 'His/Her/Your formal (m/f)', pronunciation: 'SWOH / SWAH' },
+            { italian: 'Nostro / Nostra', english: 'Our (m/f)', pronunciation: 'NOHS-troh / NOHS-trah' },
+            { italian: 'Vostro / Vostra', english: 'Your all (m/f)', pronunciation: 'VOHS-troh / VOHS-trah' },
+            { italian: 'Loro', english: 'Their', pronunciation: 'LOHR-oh' },
+            { italian: 'Il mio libro', english: 'My book (masc.)', pronunciation: 'eel MYOH LEE-broh' },
+            { italian: 'La mia casa', english: 'My house (fem.)', pronunciation: 'lah MYAH KAH-zah' },
+          ],
+        },
+      },
+      {
+        type: 'example',
+        content: {
+          dialogue: [
+            { speaker: 'A', italian: 'Di chi e questa macchina?', english: 'Whose car is this?' },
+            { speaker: 'B', italian: 'E la macchina di Marco. E la sua.', english: "It's Marco's car. It's his." },
+            { speaker: 'A', italian: 'E il tuo fratello a Roma?', english: 'Is your brother in Rome?' },
+            { speaker: 'B', italian: 'Si, il mio fratello vive a Roma. La mia sorella anche.', english: 'Yes, my brother lives in Rome. My sister too.' },
+          ],
+        },
+      },
+      {
+        type: 'multiple_choice',
+        content: {
+          question: 'Which is correct for "my mother" in Italian?',
+          options: ['Mia madre', 'La mia madre', 'Il mia madre', 'Mio madre'],
+          answer: 'La mia madre',
+        },
+      },
+      {
+        type: 'fill_blank',
+        content: {
+          sentence: '___ fratello e in Italia.',
+          answer: 'Il mio',
+          hint: 'My brother (fratello is masc. sing.)',
+        },
+      },
+      {
+        type: 'translation',
+        content: {
+          direction: 'en-to-it',
+          sentence: 'Our house is beautiful.',
+          answer: 'La nostra casa e bella.',
+          hint: 'casa is feminine, so nostro becomes nostra',
+        },
+      },
+      {
+        type: 'review',
+        content: {
+          title: 'Possessive Adjectives Review',
+          items: [
+            { italian: 'Il mio / La mia', english: 'My (m/f)' },
+            { italian: 'Il tuo / La tua', english: 'Your (m/f)' },
+            { italian: 'Il suo / La sua', english: 'His/Her (m/f)' },
+            { italian: 'Il nostro / La nostra', english: 'Our (m/f)' },
+            { italian: 'I nostri / Le nostre', english: 'Our (m.pl/f.pl)' },
+          ],
+        },
+      },
+    ],
+  },
+  {
+    id: 'lesson-32',
+    title: 'Comparatives and Superlatives',
+    level: 'B2',
+    unit: 9,
+    unitTitle: 'Upper Intermediate Grammar',
+    description: 'Learn to compare things and express the highest degree in Italian.',
+    duration: 14,
+    steps: [
+      {
+        type: 'learn',
+        content: {
+          title: 'Comparisons',
+          text: 'Italian uses specific structures for comparisons:',
+          items: [
+            { italian: 'piu ... di', english: 'more ... than', pronunciation: 'PYOO dee' },
+            { italian: 'meno ... di', english: 'less ... than', pronunciation: 'MEH-noh dee' },
+            { italian: 'cosi ... come', english: 'as ... as', pronunciation: 'KOH-zee KOH-meh' },
+            { italian: 'Il piu / La piu', english: 'The most', pronunciation: 'eel PYOO / lah PYOO' },
+            { italian: 'Il meno / La meno', english: 'The least', pronunciation: 'eel MEH-noh / lah MEH-noh' },
+            { italian: '-issimo/a', english: 'Very/Extremely (suffix)', pronunciation: '-ees-see-moh/mah' },
+            { italian: 'Migliore', english: 'Better (irregular)', pronunciation: 'mee-LYOH-reh' },
+            { italian: 'Peggiore', english: 'Worse (irregular)', pronunciation: 'peh-JOH-reh' },
+            { italian: 'Grande', english: 'Big', pronunciation: 'GRAHN-deh' },
+            { italian: 'Piccolo', english: 'Small', pronunciation: 'PEEK-koh-loh' },
+          ],
+        },
+      },
+      {
+        type: 'example',
+        content: {
+          dialogue: [
+            { speaker: 'A', italian: "Roma e piu bella di Milano?", english: 'Is Rome more beautiful than Milan?' },
+            { speaker: 'B', italian: 'Secondo me, Roma e la citta piu bella d\'Italia.', english: 'In my opinion, Rome is the most beautiful city in Italy.' },
+            { speaker: 'A', italian: 'Milano e piu grande di Roma.', english: 'Milan is bigger than Rome.' },
+            { speaker: 'B', italian: 'Si, ma Roma e molto piu antica.', english: 'Yes, but Rome is much more ancient.' },
+          ],
+        },
+      },
+      {
+        type: 'multiple_choice',
+        content: {
+          question: 'How do you say "more beautiful than" in Italian?',
+          options: ['meno bella di', 'piu bella di', 'cosi bella come', 'bellissima di'],
+          answer: 'piu bella di',
+        },
+      },
+      {
+        type: 'fill_blank',
+        content: {
+          sentence: 'Il caffe e ___ del tè.',
+          answer: 'migliore',
+          hint: 'Better (irregular comparative)',
+        },
+      },
+      {
+        type: 'translation',
+        content: {
+          direction: 'en-to-it',
+          sentence: 'This is the best restaurant in the city.',
+          answer: "Questo e il miglior ristorante della citta.",
+          hint: 'migliore = best (irregular superlative)',
+        },
+      },
+      {
+        type: 'review',
+        content: {
+          title: 'Comparatives Review',
+          items: [
+            { italian: 'piu ... di', english: 'more ... than' },
+            { italian: 'meno ... di', english: 'less ... than' },
+            { italian: '-issimo', english: 'Very/Extremely' },
+            { italian: 'Migliore', english: 'Better/Best' },
+            { italian: 'Peggiore', english: 'Worse/Worst' },
+          ],
+        },
+      },
+    ],
+  },
+  {
+    id: 'lesson-33',
+    title: 'Object Pronouns',
+    level: 'B2',
+    unit: 9,
+    unitTitle: 'Upper Intermediate Grammar',
+    description: 'Master direct, indirect, and combined object pronouns in Italian.',
+    duration: 16,
+    steps: [
+      {
+        type: 'learn',
+        content: {
+          title: 'Direct and Indirect Pronouns',
+          text: 'Pronouns replace nouns to avoid repetition. Direct pronouns answer "what/whom", indirect answer "to whom/for whom":',
+          items: [
+            { italian: 'Mi', english: 'Me (direct/indirect)', pronunciation: 'MEE' },
+            { italian: 'Ti', english: 'You (direct/indirect)', pronunciation: 'TEE' },
+            { italian: 'Lo / La', english: 'Him/Her/It (direct m/f)', pronunciation: 'LOH / LAH' },
+            { italian: 'Gli / Le', english: 'Him/Her (indirect m/f)', pronunciation: 'LEE / LEH' },
+            { italian: 'Ci', english: 'Us', pronunciation: 'CHEE' },
+            { italian: 'Vi', english: 'You all', pronunciation: 'VEE' },
+            { italian: 'Li / Le', english: 'Them (direct m.pl/f.pl)', pronunciation: 'LEE / LEH' },
+            { italian: 'Gli', english: 'Them (indirect)', pronunciation: 'LEE' },
+            { italian: 'Me lo dai?', english: 'Will you give it to me?', pronunciation: 'meh loh DYE' },
+            { italian: 'Gli parlo', english: 'I speak to him/her', pronunciation: 'lee PAHR-loh' },
+          ],
+        },
+      },
+      {
+        type: 'example',
+        content: {
+          dialogue: [
+            { speaker: 'A', italian: 'Hai il libro?', english: 'Do you have the book?' },
+            { speaker: 'B', italian: 'Si, ce l\'ho. Te lo presto volentieri.', english: "Yes, I have it. I'll gladly lend it to you." },
+            { speaker: 'A', italian: 'Grazie! Quando me lo dai?', english: 'Thanks! When will you give it to me?' },
+            { speaker: 'B', italian: 'Te lo do domani.', english: "I'll give it to you tomorrow." },
+          ],
+        },
+      },
+      {
+        type: 'multiple_choice',
+        content: {
+          question: 'What does "gli" mean as an indirect pronoun?',
+          options: ['To me', 'To him', 'To them', 'To us'],
+          answer: 'To him',
+        },
+      },
+      {
+        type: 'fill_blank',
+        content: {
+          sentence: 'Non ___ vedo. Dove sono?',
+          answer: 'li',
+          hint: 'Them (direct, masculine plural)',
+        },
+      },
+      {
+        type: 'translation',
+        content: {
+          direction: 'en-to-it',
+          sentence: "I'll give it to her tomorrow.",
+          answer: 'Glielo do domani.',
+          hint: 'glielo = combined pronoun (gli + lo)',
+        },
+      },
+      {
+        type: 'review',
+        content: {
+          title: 'Object Pronouns Review',
+          items: [
+            { italian: 'Mi / Ti', english: 'Me / You' },
+            { italian: 'Lo / La', english: 'Him / Her (direct)' },
+            { italian: 'Gli / Le', english: 'Him / Her (indirect)' },
+            { italian: 'Ci / Vi', english: 'Us / You all' },
+            { italian: 'Li / Le', english: 'Them (direct)' },
+          ],
+        },
+      },
+    ],
+  },
+  {
+    id: 'lesson-34',
+    title: 'The Imperative Mood',
+    level: 'B2',
+    unit: 9,
+    unitTitle: 'Upper Intermediate Grammar',
+    description: 'Learn to give commands, instructions, and make suggestions in Italian.',
+    duration: 14,
+    steps: [
+      {
+        type: 'learn',
+        content: {
+          title: 'Imperative Forms',
+          text: 'The imperative is used for commands and requests. Forms differ for tu, Lei, noi, and voi:',
+          items: [
+            { italian: 'Parla! (tu)', english: 'Speak! (informal)', pronunciation: 'PAHR-lah' },
+            { italian: 'Parli! (Lei)', english: 'Speak! (formal)', pronunciation: 'PAHR-lee' },
+            { italian: 'Parliamo! (noi)', english: "Let's speak!", pronunciation: 'pahr-lyAH-moh' },
+            { italian: 'Parlate! (voi)', english: 'Speak! (you all)', pronunciation: 'pahr-LAH-teh' },
+            { italian: 'Mangia! (tu)', english: 'Eat!', pronunciation: 'mahn-JAH' },
+            { italian: 'Mangiamo! (noi)', english: "Let's eat!", pronunciation: 'mahn-JAH-moh' },
+            { italian: 'Andate! (voi)', english: 'Go! (you all)', pronunciation: 'ahn-DAH-teh' },
+            { italian: 'Ascolta! (tu)', english: 'Listen!', pronunciation: 'ah-skohl-TAH' },
+          ],
+        },
+      },
+      {
+        type: 'example',
+        content: {
+          dialogue: [
+            { speaker: 'Chef', italian: 'Ascoltate bene! Prima, scaldate l\'olio.', english: 'Listen well! First, heat the oil.' },
+            { speaker: 'Chef', italian: 'Poi, aggiungete l\'aglio. Ma non bruciatelo!', english: 'Then, add the garlic. But don\'t burn it!' },
+            { speaker: 'Student', italian: 'E dopo?', english: 'And after?' },
+            { speaker: 'Chef', italian: 'Aggiungete i pomodori e cuocete per venti minuti. Non mescolate troppo!', english: 'Add the tomatoes and cook for twenty minutes. Don\'t stir too much!' },
+          ],
+        },
+      },
+      {
+        type: 'multiple_choice',
+        content: {
+          question: 'What is the imperative form of "parlare" for "tu"?',
+          options: ['Parlare', 'Parla', 'Parli', 'Parlamo'],
+          answer: 'Parla',
+        },
+      },
+      {
+        type: 'fill_blank',
+        content: {
+          sentence: '___ il tuo dovere! (fare - tu)',
+          answer: 'Fai',
+          hint: 'Imperative of fare for tu',
+        },
+      },
+      {
+        type: 'translation',
+        content: {
+          direction: 'en-to-it',
+          sentence: "Let's go to the beach!",
+          answer: 'Andiamo alla spiaggia!',
+          hint: 'Andiamo = Let\'s go (noi imperative)',
+        },
+      },
+      {
+        type: 'review',
+        content: {
+          title: 'Imperative Review',
+          items: [
+            { italian: 'Tu: -a / -e', english: 'Informal command' },
+            { italian: 'Lei: -i', english: 'Formal command' },
+            { italian: 'Noi: -iamo', english: "Let's..." },
+            { italian: 'Voi: -ate / -ite', english: 'You all command' },
+          ],
+        },
+      },
+    ],
+  },
+  {
+    id: 'lesson-35',
+    title: 'Italian Holidays and Traditions',
+    level: 'B2',
+    unit: 10,
+    unitTitle: 'Culture and Society',
+    description: 'Explore Italian holidays, celebrations, and cultural traditions.',
+    duration: 16,
+    steps: [
+      {
+        type: 'learn',
+        content: {
+          title: 'Holidays and Celebrations',
+          text: 'Italy has rich holiday traditions. Learn the vocabulary:',
+          items: [
+            { italian: "Il Natale", english: 'Christmas', pronunciation: 'eel nah-TAH-leh' },
+            { italian: "L'anno nuovo", english: 'New Year', pronunciation: 'lahn-noh NWOH-voh' },
+            { italian: 'La Pasqua', english: 'Easter', pronunciation: 'lah PAHS-kwah' },
+            { italian: "Il Carnevale", english: 'Carnival', pronunciation: 'eel kahr-neh-VAH-leh' },
+            { italian: "La Festa della Repubblica", english: 'Republic Day (June 2)', pronunciation: 'lah FEHST-tah deh-lah reh-PPOOB-lee-kah' },
+            { italian: "Il Ferragosto", english: 'August holiday', pronunciation: 'eel fehr-rah-GOHS-toh' },
+            { italian: "Tutti i santi", english: 'All Saints Day (Nov 1)', pronunciation: 'TOOT-tee ee SAHN-tee' },
+            { italian: "Il presepe", english: 'Nativity scene', pronunciation: 'eel preh-ZEH-peh' },
+            { italian: "La Befana", english: 'Epiphany gift-giver', pronunciation: 'lah beh-FAH-nah' },
+          ],
+        },
+      },
+      {
+        type: 'example',
+        content: {
+          dialogue: [
+            { speaker: 'A', italian: 'Cosa fate a Natale?', english: 'What do you do at Christmas?' },
+            { speaker: 'B', italian: 'La vigilia mangiamo il pesce con tutta la famiglia.', english: 'On Christmas Eve we eat fish with the whole family.' },
+            { speaker: 'A', italian: 'E a Capodanno?', english: 'And at New Year?' },
+            { speaker: 'B', italian: 'Andiamo a vedere i fuochi d\'artificio e mangiamo cotechino con lenticchie.', english: 'We go see fireworks and eat pork sausage with lentils.' },
+          ],
+        },
+      },
+      {
+        type: 'multiple_choice',
+        content: {
+          question: 'What is traditionally eaten on Christmas Eve in Italy?',
+          options: ['Pizza', 'Fish (Pesce)', 'Pasta', 'Risotto'],
+          answer: 'Fish (Pesce)',
+        },
+      },
+      {
+        type: 'translation',
+        content: {
+          direction: 'it-to-en',
+          sentence: 'A Ferragosto tutti vanno al mare o in montagna.',
+          answer: 'In August everyone goes to the sea or to the mountains.',
+          hint: 'Ferragosto = August holiday, mare = sea',
+        },
+      },
+      {
+        type: 'fill_blank',
+        content: {
+          sentence: 'A ___ si mangia la colomba pasquale.',
+          answer: 'Pasqua',
+          hint: 'The spring holiday with chocolate doves',
+        },
+      },
+      {
+        type: 'review',
+        content: {
+          title: 'Holidays Review',
+          items: [
+            { italian: 'Natale', english: 'Christmas' },
+            { italian: 'Pasqua', english: 'Easter' },
+            { italian: 'Ferragosto', english: 'August holiday' },
+            { italian: 'Carnevale', english: 'Carnival' },
+            { italian: 'Capodanno', english: 'New Year' },
+          ],
+        },
+      },
+    ],
+  },
+  {
+    id: 'lesson-36',
+    title: 'Imperfect Subjunctive',
+    level: 'C1',
+    unit: 11,
+    unitTitle: 'Advanced Grammar',
+    description: 'Master the imperfect subjunctive for hypothetical and unreal situations.',
+    duration: 18,
+    steps: [
+      {
+        type: 'learn',
+        content: {
+          title: 'Congiuntivo Imperfetto',
+          text: 'The imperfect subjunctive is used in hypothetical "if" clauses and after certain expressions in the past:',
+          items: [
+            { italian: 'Se fossi ricco, viaggerei', english: 'If I were rich, I would travel', pronunciation: 'seh FOHS-see ree-COH, vee-ahj-JEH-rye' },
+            { italian: 'Se potessi, lo farei', english: 'If I could, I would do it', pronunciation: 'seh poh-TEHS-see, loh fah-REH-ye' },
+            { italian: 'Volevo che tu venissi', english: 'I wanted you to come', pronunciation: 'voh-LEH-voh keh too veh-NEE-see' },
+            { italian: 'Era come se fossimo a casa', english: 'It was as if we were at home', pronunciation: 'EH-rah KOH-meh seh fohs-SEE-moh AH KAH-zah' },
+            { italian: 'Speravo che tu stessi meglio', english: 'I hoped you were feeling better', pronunciation: 'speh-RAH-voh keh too STEHS-see MEHL-yoh' },
+          ],
+        },
+      },
+      {
+        type: 'example',
+        content: {
+          dialogue: [
+            { speaker: 'A', italian: 'Se avessi piu tempo, cosa faresti?', english: 'If you had more time, what would you do?' },
+            { speaker: 'B', italian: 'Imparerei il giapponese e viaggierei in Giappone.', english: 'I would learn Japanese and travel to Japan.' },
+            { speaker: 'A', italian: 'Sei sicuro che ti piacerebbe?', english: 'Are you sure you would like it?' },
+            { speaker: 'B', italian: 'Si, sarebbe un\'esperienza fantastica!', english: 'Yes, it would be a fantastic experience!' },
+          ],
+        },
+      },
+      {
+        type: 'multiple_choice',
+        content: {
+          question: 'What tense is used in "if" clauses for unreal present situations?',
+          options: ['Present indicative', 'Imperfect subjunctive', 'Future tense', 'Passato prossimo'],
+          answer: 'Imperfect subjunctive',
+        },
+      },
+      {
+        type: 'fill_blank',
+        content: {
+          sentence: 'Se ___ (io) milionario, comprerei una villa.',
+          answer: 'fossi',
+          hint: 'Imperfect subjunctive of essere for io',
+        },
+      },
+      {
+        type: 'translation',
+        content: {
+          direction: 'en-to-it',
+          sentence: 'If I could speak Italian, I would move to Rome.',
+          answer: 'Se potessi parlare italiano, mi trasferirei a Roma.',
+          hint: 'Se = if, potessi = I could (imperf. subj.), mi trasferirei = I would move',
+        },
+      },
+      {
+        type: 'review',
+        content: {
+          title: 'Imperfect Subjunctive Review',
+          items: [
+            { italian: 'Se fossi...', english: 'If I were...' },
+            { italian: 'Se potessi...', english: 'If I could...' },
+            { italian: 'Se avessi...', english: 'If I had...' },
+            { italian: 'Volevo che tu...', english: 'I wanted you to...' },
+            { italian: 'Sarebbe come se...', english: 'It would be as if...' },
+          ],
+        },
+      },
+    ],
+  },
+  {
+    id: 'lesson-37',
+    title: 'Passive Voice',
+    level: 'C1',
+    unit: 11,
+    unitTitle: 'Advanced Grammar',
+    description: 'Learn to form and use the passive voice in Italian.',
+    duration: 16,
+    steps: [
+      {
+        type: 'learn',
+        content: {
+          title: 'Passive Voice',
+          text: 'The passive voice is formed with essere + past participle. It is used when the action is more important than who performs it:',
+          items: [
+            { italian: 'Il libro e scritto da Italo Calvino', english: 'The book is written by Italo Calvino', pronunciation: 'eel LEE-broh eh SKREET-toh dah EE-tah-loh kahl-VEE-noh' },
+            { italian: 'La pizza e mangiata in tutto il mondo', english: 'Pizza is eaten all over the world', pronunciation: 'lah PEET-tsah eh mahn-JAH-tah ehn TOOT-toh eel MOHN-doh' },
+            { italian: 'Sono stati arrestati tre ladri', english: 'Three thieves were arrested', pronunciation: 'SOH-noh STAH-tee ah-rrehs-TAH-tee treh LAH-dree' },
+            { italian: 'La citta e stata fondata dai romani', english: 'The city was founded by the Romans', pronunciation: 'lah CHEET-tah eh STAH-tah fohn-DAH-tah dah-ee roh-MAH-nee' },
+          ],
+        },
+      },
+      {
+        type: 'example',
+        content: {
+          dialogue: [
+            { speaker: 'A', italian: 'Hai letto l\'ultimo libro di Ferrante?', english: 'Have you read Ferrante\'s latest book?' },
+            { speaker: 'B', italian: 'Si, e stato pubblicato l\'anno scorso. E stato tradotto in quaranta lingue.', english: 'Yes, it was published last year. It was translated into forty languages.' },
+            { speaker: 'A', italian: 'E molto popolare all\'estero?', english: 'Is it very popular abroad?' },
+            { speaker: 'B', italian: 'Si, e letto da milioni di persone in tutto il mondo.', english: 'Yes, it is read by millions of people all over the world.' },
+          ],
+        },
+      },
+      {
+        type: 'multiple_choice',
+        content: {
+          question: 'How is the passive voice formed in Italian?',
+          options: ['Avere + past participle', 'Essere + past participle', 'Fare + infinitive', 'Stare + gerund'],
+          answer: 'Essere + past participle',
+        },
+      },
+      {
+        type: 'fill_blank',
+        content: {
+          sentence: 'La pizza ___ mangiata ovunque nel mondo.',
+          answer: 'e',
+          hint: 'Passive: is (essere present tense)',
+        },
+      },
+      {
+        type: 'translation',
+        content: {
+          direction: 'en-to-it',
+          sentence: 'Rome was founded in 753 BC.',
+          answer: "Roma e stata fondata nel 753 a.C.",
+          hint: 'fondata = founded (past part. fem.), e stata = was',
+        },
+      },
+      {
+        type: 'review',
+        content: {
+          title: 'Passive Voice Review',
+          items: [
+            { italian: 'e scritto', english: 'is written' },
+            { italian: 'e stato fatto', english: 'was made' },
+            { italian: 'e letta da', english: 'is read by' },
+            { italian: 'Sono stati venduti', english: 'Were sold' },
+          ],
+        },
+      },
+    ],
+  },
+  {
+    id: 'lesson-38',
+    title: 'Complex Sentences',
+    level: 'C1',
+    unit: 11,
+    unitTitle: 'Advanced Grammar',
+    description: 'Master complex sentence structures with relative clauses and connectors.',
+    duration: 18,
+    steps: [
+      {
+        type: 'learn',
+        content: {
+          title: 'Connectors and Relative Clauses',
+          text: 'Use sophisticated connectors to build complex sentences:',
+          items: [
+            { italian: 'Tuttavia', english: 'However', pronunciation: 'toot-tah-VEE-ah' },
+            { italian: 'Nonostante', english: 'Despite / Although', pronunciation: 'noh-noh-STAHN-teh' },
+            { italian: 'Affinche', english: 'So that / In order to', pronunciation: 'ahf-fee-KEH' },
+            { italian: 'Purche', english: 'Provided that', pronunciation: 'poor-KEH' },
+            { italian: 'Qualora', english: 'In case', pronunciation: 'kwah-LOH-rah' },
+            { italian: 'Cosi come', english: 'Just as', pronunciation: 'KOH-zee KOH-meh' },
+            { italian: 'Il quale / La quale', english: 'Which (relative)', pronunciation: 'eel KWAH-leh / lah KWAH-leh' },
+            { italian: 'I quali / Le quali', english: 'Which (plural)', pronunciation: 'ee KWAH-lee / leh KWAH-lee' },
+          ],
+        },
+      },
+      {
+        type: 'example',
+        content: {
+          dialogue: [
+            { speaker: 'A', italian: 'Hai letto il libro che ti ho prestato?', english: 'Have you read the book I lent you?' },
+            { speaker: 'B', italian: 'Si, l\'ho letto tutto. Nonostante fosse lungo, mi e piaciuto molto.', english: 'Yes, I read it all. Despite being long, I liked it a lot.' },
+            { speaker: 'A', italian: 'Tuttavia il sequel e ancora meglio, il quale e stato pubblicato quest\'anno.', english: 'However the sequel is even better, which was published this year.' },
+            { speaker: 'B', italian: 'Affinche possa leggerlo, ho bisogno che tu me lo presti.', english: 'So that I can read it, I need you to lend it to me.' },
+          ],
+        },
+      },
+      {
+        type: 'multiple_choice',
+        content: {
+          question: 'Which word means "Despite" or "Although"?',
+          options: ['Tuttavia', 'Nonostante', 'Affinche', 'Purche'],
+          answer: 'Nonostante',
+        },
+      },
+      {
+        type: 'fill_blank',
+        content: {
+          sentence: 'Voglio un libro ___ sia interessante.',
+          answer: 'il quale',
+          hint: 'Relative pronoun "which"',
+        },
+      },
+      {
+        type: 'translation',
+        content: {
+          direction: 'en-to-it',
+          sentence: 'However, despite the rain, we went to the museum.',
+          answer: 'Tuttavia, nonostante la pioggia, siamo andati al museo.',
+          hint: 'Tuttavia = however, nonostante = despite',
+        },
+      },
+      {
+        type: 'review',
+        content: {
+          title: 'Complex Sentences Review',
+          items: [
+            { italian: 'Tuttavia', english: 'However' },
+            { italian: 'Nonostante', english: 'Despite' },
+            { italian: 'Affinche', english: 'So that' },
+            { italian: 'Purche', english: 'Provided that' },
+            { italian: 'Il quale', english: 'Which (relative)' },
+          ],
+        },
+      },
+    ],
+  },
+  {
+    id: 'lesson-39',
+    title: 'Formal and Business Italian',
+    level: 'C1',
+    unit: 12,
+    unitTitle: 'Professional Italian',
+    description: 'Master formal writing, business communication, and professional Italian.',
+    duration: 18,
+    steps: [
+      {
+        type: 'learn',
+        content: {
+          title: 'Business Italian',
+          text: 'Professional Italian requires formal registers and specific vocabulary:',
+          items: [
+            { italian: 'Gentile Dottore/Dottoressa', english: 'Dear Doctor (formal letter)', pronunciation: 'jehn-TEE-leh DOHK-toh-reh/DOHK-toh-REHS-sah' },
+            { italian: 'In riferimento a...', english: 'With reference to...', pronunciation: 'een ree-feh-ree-MEHN-toh AH' },
+            { italian: 'Le scrivo per...', english: 'I am writing to you to...', pronunciation: 'leh SKREE-voh pehr' },
+            { italian: 'Resto in attesa di un Suo cortese riscontro', english: 'I remain awaiting your kind reply', pronunciation: 'REHST-oh een aht-TAY-zah dee oon swoh kohr-TEH-zeh ree-SKROHN-toh' },
+            { italian: 'In allegato trovera...', english: 'Attached you will find...', pronunciation: 'een ahl-leh-GAH-toh troh-veh-RAH' },
+            { italian: 'Cordiali saluti', english: 'Kind regards', pronunciation: 'kohr-DYAH-lee sah-LOO-tee' },
+            { italian: 'Disponibilita', english: 'Availability', pronunciation: 'dee-spoh-nee-bee-lee-TAH' },
+            { italian: 'Collaborazione', english: 'Collaboration', pronunciation: 'kohl-lah-boh-rah-TSYOH-neh' },
+          ],
+        },
+      },
+      {
+        type: 'example',
+        content: {
+          dialogue: [
+            { speaker: 'Email', italian: 'Gentile Dott. Rossi, Le scrivo in riferimento alla posizione di lavoro pubblicata sul vostro sito.', english: 'Dear Dr. Rossi, I am writing to you regarding the job position published on your website.' },
+            { speaker: 'Email', italian: 'Sono un ingegnere con cinque anni di esperienza. In allegato trovera il mio curriculum vitae.', english: 'I am an engineer with five years of experience. Attached you will find my CV.' },
+            { speaker: 'Email', italian: 'Resto in attesa di un Suo cortese riscontro. Cordiali saluti.', english: 'I remain awaiting your kind reply. Kind regards.' },
+          ],
+        },
+      },
+      {
+        type: 'multiple_choice',
+        content: {
+          question: 'What is the formal greeting in an Italian business letter?',
+          options: ['Ciao', 'Salve', 'Gentile', 'Egregio'],
+          answer: 'Gentile',
+        },
+      },
+      {
+        type: 'translation',
+        content: {
+          direction: 'en-to-it',
+          sentence: 'I am writing to you regarding the project we discussed.',
+          answer: 'Le scrivo in riferimento al progetto di cui abbiamo parlato.',
+          hint: 'Le scrivo = I write to you (formal), in riferimento a = regarding',
+        },
+      },
+      {
+        type: 'fill_blank',
+        content: {
+          sentence: '___ in attesa di un Suo riscontro.',
+          answer: 'Resto',
+          hint: 'I remain (formal closing)',
+        },
+      },
+      {
+        type: 'review',
+        content: {
+          title: 'Business Italian Review',
+          items: [
+            { italian: 'Gentile', english: 'Dear (formal)' },
+            { italian: 'In riferimento a', english: 'Regarding' },
+            { italian: 'Le scrivo per', english: 'I write to you to' },
+            { italian: 'Resto in attesa', english: 'I remain awaiting' },
+            { italian: 'Cordiali saluti', english: 'Kind regards' },
+          ],
+        },
+      },
+    ],
+  },
+  {
+    id: 'lesson-40',
+    title: 'Italian Art, Literature, and Cinema',
+    level: 'C1',
+    unit: 12,
+    unitTitle: 'Professional Italian',
+    description: 'Explore Italian culture through art, literature, and cinema vocabulary.',
+    duration: 20,
+    steps: [
+      {
+        type: 'learn',
+        content: {
+          title: 'Art and Culture Vocabulary',
+          text: 'Italy has an unparalleled cultural heritage. Learn to discuss it in Italian:',
+          items: [
+            { italian: 'Il Rinascimento', english: 'The Renaissance', pronunciation: 'eel ree-nah-schee-MEHN-toh' },
+            { italian: 'La galleria', english: 'The gallery', pronunciation: 'lah gahl-leh-REE-ah' },
+            { italian: 'Il museo', english: 'The museum', pronunciation: 'eel moo-ZEH-oh' },
+            { italian: 'La scultura', english: 'Sculpture', pronunciation: 'lah skool-TOO-rah' },
+            { italian: "L'architettura", english: 'Architecture', pronunciation: 'lahr-kee-teht-TOO-rah' },
+            { italian: 'Il regista', english: 'The director (film)', pronunciation: 'eel reh-JEES-tah' },
+            { italian: 'Il film', english: 'The film/movie', pronunciation: 'eel FEELM' },
+            { italian: 'Il romanzo', english: 'The novel', pronunciation: 'eel roh-MAHN-tsoh' },
+            { italian: 'La poesia', english: 'Poetry', pronunciation: 'lah poh-eh-ZEE-ah' },
+            { italian: 'L\'opera lirica', english: 'Opera', pronunciation: 'loh-PEH-rah LEE-ree-kah' },
+          ],
+        },
+      },
+      {
+        type: 'example',
+        content: {
+          dialogue: [
+            { speaker: 'A', italian: 'Hai visitato la Galleria degli Uffizi a Firenze?', english: 'Have you visited the Uffizi Gallery in Florence?' },
+            { speaker: 'B', italian: 'Si, ho visto i dipinti di Botticelli, Leonardo e Michelangelo. Erano incredibili!', english: 'Yes, I saw paintings by Botticelli, Leonardo, and Michelangelo. They were incredible!' },
+            { speaker: 'A', italian: 'Il Rinascimento italiano ha cambiato il mondo dell\'arte.', english: 'The Italian Renaissance changed the world of art.' },
+            { speaker: 'B', italian: 'Assolutamente. E come dire, una delle ere piu importanti della storia.', english: 'Absolutely. It was one of the most important eras in history.' },
+          ],
+        },
+      },
+      {
+        type: 'multiple_choice',
+        content: {
+          question: 'What does "Il Rinascimento" mean?',
+          options: ['The Baroque', 'The Renaissance', 'The Medieval Period', 'The Modern Era'],
+          answer: 'The Renaissance',
+        },
+      },
+      {
+        type: 'translation',
+        content: {
+          direction: 'it-to-en',
+          sentence: "Leonardo da Vinci e uno dei registi piu famosi del mondo.",
+          answer: 'Leonardo da Vinci is one of the most famous directors/artists in the world.',
+          hint: 'regista = director, piu famosi = most famous',
+        },
+      },
+      {
+        type: 'fill_blank',
+        content: {
+          sentence: 'Ho letto un ___ bellissimo di Italo Calvino.',
+          answer: 'romanzo',
+          hint: 'A long work of fiction',
+        },
+      },
+      {
+        type: 'review',
+        content: {
+          title: 'Art and Culture Review',
+          items: [
+            { italian: 'Il Rinascimento', english: 'The Renaissance' },
+            { italian: 'La galleria', english: 'The gallery' },
+            { italian: 'Il regista', english: 'The director' },
+            { italian: 'La scultura', english: 'Sculpture' },
+            { italian: "L'opera lirica", english: 'Opera' },
+          ],
+        },
+      },
+    ],
+  },
 ];
 
 export default lessons;
