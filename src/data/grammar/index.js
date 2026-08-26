@@ -1637,12 +1637,34 @@ const grammar = [
     level: 'B2',
     unit: 'Advanced Tenses',
     description: 'The futuro anteriore expresses an action that will have been completed before another future action.',
-    rules: [
-      { rule: 'Formation: avrò/sarò + past participle', example: 'Avrò finito prima delle otto.' },
-      { rule: 'Used with temporal clauses (quando, appena, dopo che)', example: 'Quando sarai arrivato, chiamami.' },
-      { rule: 'Expresses certainty about future completion', example: 'A quest\'ora avranno gia mangiato.' },
+    sections: [
+      {
+        title: 'Formation of Futuro Anteriore',
+        explanation: 'Form with future of avere/essere + past participle: avrò, avrai, avrà... or sarò, sarai, sara... + past participle.',
+        examples: [
+          { italian: 'Avrò finito prima delle otto.', translation: 'I will have finished before eight.' },
+          { italian: 'Saranno partiti domani.', translation: 'They will have left by tomorrow.' },
+        ],
+        exercise: {
+          question: 'How do you form "I will have eaten" in Italian?',
+          options: ['Avrò mangiato', 'Ho mangiato', 'Mangerò', 'Avevo mangiato'],
+          answer: 'Avrò mangiato',
+        },
+      },
+      {
+        title: 'When to Use Futuro Anteriore',
+        explanation: 'Used with temporal clauses (quando, appena, dopo che) and to express certainty about future completion.',
+        examples: [
+          { italian: 'Quando sarai arrivato, chiamami.', translation: 'When you have arrived, call me.' },
+          { italian: 'A quest\'ora avranno gia mangiato.', translation: 'By now they will have already eaten.' },
+        ],
+        exercise: {
+          question: 'Which connector triggers futuro anteriore?',
+          options: ['quando', 'perche', 'ma', 'anche'],
+          answer: 'quando',
+        },
+      },
     ],
-    tips: ['Common with quando, appena, dopo che, una volta che', 'Often replaces passato prossimo in future contexts', 'Formed with future of avere/essere + past participle'],
   },
   {
     id: 'grammar-38',
@@ -1650,12 +1672,34 @@ const grammar = [
     level: 'B2',
     unit: 'Advanced Tenses',
     description: 'The trapassato prossimo describes an action completed before another past action.',
-    rules: [
-      { rule: 'Formation: avevo/ero + past participle', example: 'Quando sono arrivato, lui se n\'era gia andato.' },
-      { rule: 'Used with imperfetto in main clause', example: 'Mentre studiavo, aveva gia pranzato.' },
-      { rule: 'Expresses anteriority in the past', example: 'Non sapevo che tu fossi gia partito.' },
+    sections: [
+      {
+        title: 'Formation of Trapassato Prossimo',
+        explanation: 'Form with imperfetto of avere/essere + past participle: avevo, avevi, aveva... or ero, eri, era... + past participle.',
+        examples: [
+          { italian: 'Quando sono arrivato, lui se n\'era gia andato.', translation: 'When I arrived, he had already left.' },
+          { italian: 'Non sapevo che tu fossi gia partito.', translation: 'I didn\'t know you had already left.' },
+        ],
+        exercise: {
+          question: 'Which auxiliary is used with "arrivare" in trapassato?',
+          options: ['essere', 'avere', 'both', 'neither'],
+          answer: 'essere',
+        },
+      },
+      {
+        title: 'When to Use Trapassato Prossimo',
+        explanation: 'Always used with another past tense. Common with quando, mentre, prima che, dopo che.',
+        examples: [
+          { italian: 'Mentre studiavo, aveva gia pranzato.', translation: 'While I was studying, he had already had lunch.' },
+          { italian: 'Prima che io arrivassi, lei se n\'era andata.', translation: 'Before I arrived, she had already left.' },
+        ],
+        exercise: {
+          question: 'What is the English equivalent of trapassato prossimo?',
+          options: ['Past perfect "had done"', 'Simple past "did"', 'Future perfect "will have done"', 'Imperfect "was doing"'],
+          answer: 'Past perfect "had done"',
+        },
+      },
     ],
-    tips: ['Always used with another past tense', 'Common connector: quando, mentre, prima che', 'Similar to English past perfect "had done"'],
   },
   {
     id: 'grammar-39',
@@ -1663,12 +1707,34 @@ const grammar = [
     level: 'B1',
     unit: 'Pronouns',
     description: 'Direct object pronouns replace the direct object of a verb.',
-    rules: [
-      { rule: 'mi, ti, lo/la, ci, vi, li/le', example: 'Lo vedo ogni giorno.' },
-      { rule: 'Placement: before conjugated verb or attached to infinitive', example: 'Lo voglio comprare / Voglio comprarlo.' },
-      { rule: 'lo replaces masculine singular, la feminine singular', example: 'La conosci? (Do you know her?)' },
+    sections: [
+      {
+        title: 'The Direct Object Pronouns',
+        explanation: 'mi (me), ti (you), lo/la (him/her/it), ci (us), vi (you all), li/le (them).',
+        examples: [
+          { italian: 'Lo vedo ogni giorno.', translation: 'I see him/it every day.' },
+          { italian: 'La conosci? (Do you know her?)', translation: 'Do you know her?' },
+        ],
+        exercise: {
+          question: 'Which pronoun replaces "il libro" (the book)?',
+          options: ['lo', 'la', 'li', 'le'],
+          answer: 'lo',
+        },
+      },
+      {
+        title: 'Placement of Direct Object Pronouns',
+        explanation: 'Before conjugated verb, or attached to infinitive/gerund. With compound tenses, place before auxiliary.',
+        examples: [
+          { italian: 'Lo voglio comprare / Voglio comprarlo.', translation: 'I want to buy it.' },
+          { italian: 'Non lo ho visto.', translation: 'I didn\'t see it.' },
+        ],
+        exercise: {
+          question: 'Where does the pronoun go with an infinitive?',
+          options: ['Attached to the end', 'Before the auxiliary', 'After the verb', 'At the start of sentence'],
+          answer: 'Attached to the end',
+        },
+      },
     ],
-    tips: ['Combine with indirect: me lo, te la, glielo', 'Position changes with compound tenses', 'Often drops articles: lo vedo il libro becomes lo vedo'],
   },
   {
     id: 'grammar-40',
@@ -1676,12 +1742,34 @@ const grammar = [
     level: 'B1',
     unit: 'Pronouns',
     description: 'Indirect object pronouns indicate to whom or for whom an action is done.',
-    rules: [
-      { rule: 'mi, ti, gli/le, ci, vi, gli (loro)', example: 'Gli parlo ogni giorno.' },
-      { rule: 'gli replaces masculine singular indirect object', example: 'Le scrivo una lettera.' },
-      { rule: 'gli (loro) for plural, often placed after verb', example: 'Parlo a loro / Gli parlo.' },
+    sections: [
+      {
+        title: 'The Indirect Object Pronouns',
+        explanation: 'mi (to me), ti (to you), gli/le (to him/her), ci (to us), vi (to you all), gli (to them).',
+        examples: [
+          { italian: 'Gli parlo ogni giorno.', translation: 'I speak to him every day.' },
+          { italian: 'Le scrivo una lettera.', translation: 'I write her a letter.' },
+        ],
+        exercise: {
+          question: 'Which pronoun means "to them"?',
+          options: ['gli', 'le', 'li', 'lo'],
+          answer: 'gli',
+        },
+      },
+      {
+        title: 'Combining Direct and Indirect Pronouns',
+        explanation: 'When combining: me lo, te la, glielo, ce lo, ve lo, glielo (to them + it).',
+        examples: [
+          { italian: 'Me lo dai? (Can you give it to me?)', translation: 'Can you give it to me?' },
+          { italian: 'Glielo spiegherò domani.', translation: 'I will explain it to him tomorrow.' },
+        ],
+        exercise: {
+          question: 'What does "glielo" combine?',
+          options: ['Indirect + Direct', 'Two indirects', 'Two directs', 'Subject + object'],
+          answer: 'Indirect + Direct',
+        },
+      },
     ],
-    tips: ['glielo = indirect + direct combined', 'gli/le = to him/her', 'Position similar to direct object pronouns'],
   },
   {
     id: 'grammar-41',
@@ -1689,12 +1777,34 @@ const grammar = [
     level: 'B1',
     unit: 'Pronouns',
     description: 'Possessive pronouns replace a noun modified by a possessive adjective.',
-    rules: [
-      { rule: 'il mio, il tuo, il suo, il nostro, il vostro, il loro', example: 'Questo libro e il mio.' },
-      { rule: 'Must agree in gender and number with the thing possessed', example: 'La tua casa e grande, la mia e piccola.' },
-      { rule: 'Often preceded by definite article', example: 'Il tuo e buono, il mio e migliore.' },
+    sections: [
+      {
+        title: 'Possessive Pronoun Forms',
+        explanation: 'il mio (mine), il tuo (yours), il suo (his/hers), il nostro (ours), il vostro (yours), il loro (theirs).',
+        examples: [
+          { italian: 'Questo libro e il mio.', translation: 'This book is mine.' },
+          { italian: 'La tua casa e grande, la mia e piccola.', translation: 'Your house is big, mine is small.' },
+        ],
+        exercise: {
+          question: 'What does "il nostro" mean?',
+          options: ['Ours', 'Yours', 'Theirs', 'Mine'],
+          answer: 'Ours',
+        },
+      },
+      {
+        title: 'Agreement Rules',
+        explanation: 'Possessive pronouns agree in gender and number with the thing possessed, not the possessor. Often preceded by definite article.',
+        examples: [
+          { italian: 'Il tuo e buono, il mio e migliore.', translation: 'Yours is good, mine is better.' },
+          { italian: 'Le sue sono le migliori.', translation: 'His/hers are the best (feminine plural things).' },
+        ],
+        exercise: {
+          question: 'Possessive pronouns agree with:',
+          options: ['The thing possessed', 'The possessor', 'The verb', 'The article'],
+          answer: 'The thing possessed',
+        },
+      },
     ],
-    tips: ['Different from possessive adjectives which don\'t use articles (usually)', 'Can stand alone: il mio = mine', 'Agree with the object, not the possessor'],
   },
   {
     id: 'grammar-42',
@@ -1702,12 +1812,34 @@ const grammar = [
     level: 'A2',
     unit: 'Determiners',
     description: 'Demonstratives point out specific people or things.',
-    rules: [
-      { rule: 'questo/quello (this/that) with singular nouns', example: 'Questo libro, quella casa' },
-      { rule: 'questi/quegli (these/those) with plural nouns', example: 'Questi ragazzi, quegli uomini' },
-      { rule: 'quello changes form based on noun: quello/quel/quella/quei/quegli/quelle', example: 'Quel ragazzo, quei libri' },
+    sections: [
+      {
+        title: 'Questo and Quello',
+        explanation: 'questo (this), questi (these), quello (that), quegli (those). Quello changes like an adjective.',
+        examples: [
+          { italian: 'Questo libro e interessante.', translation: 'This book is interesting.' },
+          { italian: 'Quella casa e grande.', translation: 'That house is big.' },
+        ],
+        exercise: {
+          question: 'Which form of "quello" is used with "ragazzo"?',
+          options: ['quel', 'quello', 'quei', 'quelle'],
+          answer: 'quel',
+        },
+      },
+      {
+        title: 'Plural Forms',
+        explanation: 'questi/queste (these), quegli/quelle (those). Quello: quei (masc. pl.), quelle (fem. pl.), quegli (masc. pl. before z, gn, s+cons, ps).',
+        examples: [
+          { italian: 'Questi ragazzi sono bravi.', translation: 'These boys are good.' },
+          { italian: 'Quegli uomini lavorano.', translation: 'Those men work.' },
+        ],
+        exercise: {
+          question: 'Which is the plural of "quello studente"?',
+          options: ['quegli studenti', 'quei studenti', 'quelle studenti', 'quegli studentes'],
+          answer: 'quegli studenti',
+        },
+      },
     ],
-    tips: ['quello is irregular, behaves like an adjective', 'colui/costui = he/this man (formal)', 'quello there / questo here'],
   },
   {
     id: 'grammar-43',
@@ -1715,12 +1847,35 @@ const grammar = [
     level: 'B1',
     unit: 'Pronouns',
     description: 'Relative pronouns connect clauses and refer back to a noun.',
-    rules: [
-      { rule: 'chi = who/whoever (subject)', example: 'Chi parla bene italiano?' },
-      { rule: 'cui = which/whom/that (after preposition)', example: 'La persona con cui parlo.' },
-      { rule: 'che = who/which/that (subject)', example: 'Il ragazzo che vedo e Marco.' },
+    sections: [
+      {
+        title: 'Chi, Che, Cui, Quale',
+        explanation: 'chi = who/whoever (subject, replaces noun+che), che = who/which/that (subject), cui = whom/which (after preposition), quale = which.',
+        examples: [
+          { italian: 'Chi parla bene italiano?', translation: 'Who speaks good Italian?' },
+          { italian: 'Il ragazzo che vedo e Marco.', translation: 'The boy I see is Marco.' },
+          { italian: 'La persona con cui parlo.', translation: 'The person I speak with.' },
+        ],
+        exercise: {
+          question: 'Which relative pronoun is used after a preposition?',
+          options: ['cui', 'che', 'chi', 'quale'],
+          answer: 'cui',
+        },
+      },
+      {
+        title: 'When to Use Each Pronoun',
+        explanation: 'che = subject (no preposition), cui = after prepositions, chi = antecedent+che combined, quale = formal "which".',
+        examples: [
+          { italian: 'Non so chi sia.', translation: 'I don\'t know who it is.' },
+          { italian: 'Il libro di cui parlo.', translation: 'The book I\'m talking about.' },
+        ],
+        exercise: {
+          question: 'Which pronoun combines antecedent and relative?',
+          options: ['chi', 'che', 'cui', 'quale'],
+          answer: 'chi',
+        },
+      },
     ],
-    tips: ['che = subject pronoun (no preposition)', 'cui = after prepositions', 'quale/quales = which (formal)', 'chi = both antecedent and pronoun'],
   },
   {
     id: 'grammar-44',
@@ -1728,12 +1883,34 @@ const grammar = [
     level: 'A2',
     unit: 'Sentence Structure',
     description: 'Italian has several ways to form questions.',
-    rules: [
-      { rule: 'Rising intonation (most common)', example: 'Parli italiano?' },
-      { rule: 'Question words: chi, cosa, dove, quando, come, perche, quanto', example: 'Dove vai?' },
-      { rule: 'Interrogative expression: e vero che...?, e possibile che...?', example: 'E vero che partì?' },
+    sections: [
+      {
+        title: 'Intonation Questions',
+        explanation: 'Simply raise your voice at the end. No word order change needed.',
+        examples: [
+          { italian: 'Parli italiano?', translation: 'Do you speak Italian?' },
+          { italian: 'Sei italiano?', translation: 'Are you Italian?' },
+        ],
+        exercise: {
+          question: 'How do you make a statement into a question in Italian?',
+          options: ['Rising intonation', 'Add "do"', 'Change word order', 'Add a question word'],
+          answer: 'Rising intonation',
+        },
+      },
+      {
+        title: 'Question Words',
+        explanation: 'chi (who), cosa/che (what), dove (where), quando (when), come (how), perche (why), quanto (how much).',
+        examples: [
+          { italian: 'Dove vai?', translation: 'Where are you going?' },
+          { italian: 'Perche non vieni?', translation: 'Why aren\'t you coming?' },
+        ],
+        exercise: {
+          question: 'Which word means "why"?',
+          options: ['perche', 'dove', 'quando', 'come'],
+          answer: 'perche',
+        },
+      },
     ],
-    tips: ['No word order change needed', 'Just rising intonation makes a statement into a question', 'Double questions use o: Vuoi caffè o tè?'],
   },
   {
     id: 'grammar-45',
@@ -1741,12 +1918,35 @@ const grammar = [
     level: 'A2',
     unit: 'Sentence Structure',
     description: 'Exclamations express emotion, surprise, or emphasis.',
-    rules: [
-      { rule: 'Use che + adjective/noun: Che bello! Che fortuna!', example: 'Che bella giornata!' },
-      { rule: 'Use quanto/quanta + noun: Quanta gente!', example: 'Quanta acqua!' },
-      { rule: 'Use cosi/cosi + adjective: Così bello!', example: 'Cosi simpatico!' },
+    sections: [
+      {
+        title: 'Che, Quanto, Cosi in Exclamations',
+        explanation: 'che + noun/adj (what a...), quanto/quanta (how much/many), cosi + adj (so...).',
+        examples: [
+          { italian: 'Che bella giornata!', translation: 'What a beautiful day!' },
+          { italian: 'Quanta gente!', translation: 'So many people!' },
+          { italian: 'Cosi bello!', translation: 'So beautiful!' },
+        ],
+        exercise: {
+          question: 'Which word means "what a" in exclamations?',
+          options: ['che', 'quanto', 'come', 'cosi'],
+          answer: 'che',
+        },
+      },
+      {
+        title: 'Che vs Quanto',
+        explanation: 'che = what (exclamatory), quanto = how much/many. Same structure as questions but with exclamation mark.',
+        examples: [
+          { italian: 'Che fortuna!', translation: 'What luck!' },
+          { italian: 'Quanta acqua!', translation: 'How much water!' },
+        ],
+        exercise: {
+          question: 'Which is correct: "Che bello!" or "Quanto bello!"?',
+          options: ['Che bello!', 'Quanto bello!', 'Both correct', 'Neither correct'],
+          answer: 'Che bello!',
+        },
+      },
     ],
-    tips: ['Che = what (exclamatory)', 'Quanto = how much/many', 'Same structure as questions but with exclamation mark'],
   },
   {
     id: 'grammar-46',
@@ -1754,12 +1954,34 @@ const grammar = [
     level: 'B2',
     unit: 'Sentence Structure',
     description: 'Italian often uses infinitives where English uses gerunds or that-clauses.',
-    rules: [
-      { rule: 'After prepositions: prima di, dopo di, invece di, senza di + infinitive', example: 'Prima di uscire, chiudo la porta.' },
-      { rule: 'After certain verbs: pensare di, sperare di, cercare di', example: 'Cerco di capire.' },
-      { rule: 'After adjectives: e facile/difficile/impossibile + infinitive', example: 'E difficile parlare in pubblico.' },
+    sections: [
+      {
+        title: 'After Prepositions',
+        explanation: 'Italian uses infinitive after prepositions: prima di, dopo di, invece di, senza di, per, etc.',
+        examples: [
+          { italian: 'Prima di uscire, chiudo la porta.', translation: 'Before going out, I close the door.' },
+          { italian: 'Senza di te, non posso.', translation: 'Without you, I can\'t.' },
+        ],
+        exercise: {
+          question: 'Which preposition is followed by infinitive?',
+          options: ['prima di', 'prima a', 'prima in', 'prima per'],
+          answer: 'prima di',
+        },
+      },
+      {
+        title: 'After Verbs and Adjectives',
+        explanation: 'Many verbs take infinitive directly: pensare di, sperare di, cercare di. Adjectives: facile/difficile/impossibile + infinitive.',
+        examples: [
+          { italian: 'Cerco di capire.', translation: 'I\'m trying to understand.' },
+          { italian: 'E difficile parlare in pubblico.', translation: 'It\'s difficult to speak in public.' },
+        ],
+        exercise: {
+          question: '"Cerco di capire" means:',
+          options: ['I\'m trying to understand', 'I\'m looking for understanding', 'I want to understand', 'I need to understand'],
+          answer: 'I\'m trying to understand',
+        },
+      },
     ],
-    tips: ['Italian prefers infinitives over gerunds', 'senza di + infinitive = without doing', 'invece di + infinitive = instead of doing'],
   },
   {
     id: 'grammar-47',
@@ -1767,38 +1989,104 @@ const grammar = [
     level: 'B2',
     unit: 'Special Constructions',
     description: 'The causative construction expresses having someone do something.',
-    rules: [
-      { rule: 'fare + infinitive = to have/make someone do', example: 'Faccio riparare la macchina.' },
-      { rule: 'Conjugate fare, keep infinitive', example: 'Mi faccio tagliare i capelli.' },
-      { rule: 'Farsi fare = to have something done (for oneself)', example: 'Mi faccio fare un vestito.' },
+    sections: [
+      {
+        title: 'Fare + Infinitive',
+        explanation: 'fare + infinitive = to have/make someone do something. Conjugate fare, keep infinitive.',
+        examples: [
+          { italian: 'Faccio riparare la macchina.', translation: 'I\'m having the car repaired.' },
+          { italian: 'Mi faccio tagliare i capelli.', translation: 'I\'m getting my hair cut.' },
+        ],
+        exercise: {
+          question: 'What does "faccio riparare" mean?',
+          options: ['I make repair', 'I\'m having (something) repaired', 'I repair', 'I will repair'],
+          answer: 'I\'m having (something) repaired',
+        },
+      },
+      {
+        title: 'Farsi Fare',
+        explanation: 'farsi fare = to have something done (for oneself). mi faccio fare, ti fai fare, si fa fare...',
+        examples: [
+          { italian: 'Mi faccio fare un vestito.', translation: 'I\'m having a dress made (for me).' },
+          { italian: 'Ti fai fare le unghie?', translation: 'Are you getting your nails done?' },
+        ],
+        exercise: {
+          question: '"Farsi fare" means:',
+          options: ['To do it yourself', 'To have something done for oneself', 'To make someone do', 'To refuse to do'],
+          answer: 'To have something done for oneself',
+        },
+      },
     ],
-    tips: ['fa-fare = he/she makes (someone) do', 'Very common in daily Italian', 'Different from English "make someone do" structure'],
   },
   {
     id: 'grammar-48',
-    title: 'Bisogno + Infinitive / Essere + Adjective + Infinitive',
+    title: 'Bisogna + Infinitive',
     level: 'B1',
     unit: 'Special Constructions',
     description: 'Various impersonal constructions followed by infinitive.',
-    rules: [
-      { rule: 'bisogna + infinitive = it is necessary to', example: 'Bisogna studiare.' },
-      { rule: 'e possibile/impossibile/necessario + infinitive', example: 'E possibile guadagnare molto.' },
-      { rule: 'sembrare + infinitive = to seem to', example: 'Sembra piacerti molto.' },
+    sections: [
+      {
+        title: 'Bisogna and Impersonal Verbs',
+        explanation: 'bisogna = it is necessary, e possibile = it is possible, e difficile = it is difficult, etc. All take infinitive.',
+        examples: [
+          { italian: 'Bisogna studiare.', translation: 'It is necessary to study.' },
+          { italian: 'E possibile guadagnare molto.', translation: 'It is possible to earn a lot.' },
+        ],
+        exercise: {
+          question: 'What does "bisogna" mean?',
+          options: ['It is possible', 'It is necessary', 'It is difficult', 'It is easy'],
+          answer: 'It is necessary',
+        },
+      },
+      {
+        title: 'No Preposition Needed',
+        explanation: 'Unlike English "to do", Italian infinitive follows directly: bisogna fare, e facile fare, etc.',
+        examples: [
+          { italian: 'E difficile parlare in pubblico.', translation: 'It\'s difficult to speak in public.' },
+          { italian: 'Sembra piacerti molto.', translation: 'It seems you like it a lot.' },
+        ],
+        exercise: {
+          question: 'After "bisogna", you use:',
+          options: ['Infinitive directly', 'di + infinitive', 'a + infinitive', 'che + subjunctive'],
+          answer: 'Infinitive directly',
+        },
+      },
     ],
-    tips: ['All impersonal verbs take infinitive', 'No preposition between verb and infinitive', 'Very common in formal and written Italian'],
   },
   {
     id: 'grammar-49',
-    title: 'Temporal Clauses (Temporal Connectors)',
+    title: 'Temporal Clauses',
     level: 'B1',
     unit: 'Connectors',
     description: 'Words and phrases that connect events in time.',
-    rules: [
-      { rule: 'quando (when), prima che (before), dopo che (after)', example: 'Prima che tu vada, mangiamo.' },
-      { rule: 'appena (as soon as), non appena (as soon as)', example: 'Appena arrivo, ti chiamo.' },
-      { rule: 'fino a quando / fino a che (until)', example: 'Aspetto fino a quando arrivi.' },
+    sections: [
+      {
+        title: 'Common Temporal Connectors',
+        explanation: 'quando (when), prima che (before), dopo che (after), appena (as soon as), fino a quando (until).',
+        examples: [
+          { italian: 'Prima che tu vada, mangiamo.', translation: 'Before you go, let\'s eat.' },
+          { italian: 'Appena arrivo, ti chiamo.', translation: 'As soon as I arrive, I\'ll call you.' },
+        ],
+        exercise: {
+          question: 'Which connector means "as soon as"?',
+          options: ['appena', 'quando', 'prima che', 'dopo che'],
+          answer: 'appena',
+        },
+      },
+      {
+        title: 'Mood After Temporal Connectors',
+        explanation: 'quando + present (if main is future), prima che + subjunctive, dopo che + indicative, appena + indicative.',
+        examples: [
+          { italian: 'Quando arriverai, chiamami.', translation: 'When you arrive, call me.' },
+          { italian: 'Dopo che ho mangiato, esco.', translation: 'After I eat, I go out.' },
+        ],
+        exercise: {
+          question: '"Prima che" is followed by:',
+          options: ['Subjunctive', 'Indicative', 'Imperative', 'Conditional'],
+          answer: 'Subjunctive',
+        },
+      },
     ],
-    tips: ['quando + present when main is future', 'prima che + subjunctive', 'dopo che + indicative'],
   },
   {
     id: 'grammar-50',
@@ -1806,12 +2094,34 @@ const grammar = [
     level: 'B1',
     unit: 'Connectors',
     description: 'Conditional sentences express hypothetical situations and their results.',
-    rules: [
-      { rule: 'Real condition: se + present, future', example: 'Se piove, resterò a casa.' },
-      { rule: 'Unreal present: se + imperfetto subjunctive, condizionale', example: 'Se avessi tempo, viaggerei di piu.' },
-      { rule: 'Unreal past: se + trapassato subjunctive, condizionale passato', example: 'Se avessi studiato, avrei passato l\'esame.' },
+    sections: [
+      {
+        title: 'Real Conditions (Type 1)',
+        explanation: 'se + present tense, future tense in main clause. Expresses a possible, likely condition.',
+        examples: [
+          { italian: 'Se piove, restero a casa.', translation: 'If it rains, I\'ll stay home.' },
+          { italian: 'Se studi, passerai l\'esame.', translation: 'If you study, you\'ll pass the exam.' },
+        ],
+        exercise: {
+          question: 'In a real condition, which tenses are used?',
+          options: ['se + present, future', 'se + imperfect, conditional', 'se + subjunctive, conditional', 'se + past, past'],
+          answer: 'se + present, future',
+        },
+      },
+      {
+        title: 'Unreal Conditions (Types 2 and 3)',
+        explanation: 'Type 2 (unreal present): se + imperfetto subjunctive, condizionale. Type 3 (unreal past): se + trapassato subjunctive, condizionale passato.',
+        examples: [
+          { italian: 'Se avessi tempo, viaggerei di piu.', translation: 'If I had time, I would travel more.' },
+          { italian: 'Se avessi studiato, avrei passato l\'esame.', translation: 'If I had studied, I would have passed the exam.' },
+        ],
+        exercise: {
+          question: 'What mood is used after "se" in unreal conditions?',
+          options: ['Subjunctive', 'Indicative', 'Imperative', 'Infinitive'],
+          answer: 'Subjunctive',
+        },
+      },
     ],
-    tips: ['Type 1: real/possible (present + future)', 'Type 2: unreal/hypothetical (imperfetto subj + condizionale)', 'Type 3: unreal past (trapassato subj + condizionale passato)'],
   },
 ];
 
