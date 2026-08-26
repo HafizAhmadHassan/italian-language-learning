@@ -1237,6 +1237,400 @@ const grammar = [
       },
     ],
   },
+  {
+    id: 'grammar-27',
+    title: 'Days, Months, and Seasons',
+    level: 'A1',
+    description: 'Learn the Italian names for days of the week, months, and seasons.',
+    sections: [
+      {
+        title: 'Days of the Week',
+        explanation: 'Days are masculine and not capitalized. The week starts on Monday (lunedì).',
+        examples: [
+          { italian: 'lunedì', translation: 'Monday' },
+          { italian: 'martedì', translation: 'Tuesday' },
+          { italian: 'mercoledì', translation: 'Wednesday' },
+          { italian: 'giovedì', translation: 'Thursday' },
+          { italian: 'venerdì', translation: 'Friday' },
+          { italian: 'sabato', translation: 'Saturday' },
+          { italian: 'domenica', translation: 'Sunday' },
+        ],
+        exercise: {
+          question: 'What day comes after venerdì?',
+          options: ['domenica', 'sabato', 'lunedì', 'giovedì'],
+          answer: 'sabato',
+        },
+      },
+      {
+        title: 'Months of the Year',
+        explanation: 'Months are masculine and not capitalized.',
+        examples: [
+          { italian: 'gennaio', translation: 'January' },
+          { italian: 'febbraio', translation: 'February' },
+          { italian: 'marzo', translation: 'March' },
+          { italian: 'aprile', translation: 'April' },
+          { italian: 'maggio', translation: 'May' },
+          { italian: 'giugno', translation: 'June' },
+        ],
+        exercise: {
+          question: 'What month is "ottobre"?',
+          options: ['September', 'October', 'November', 'December'],
+          answer: 'October',
+        },
+      },
+      {
+        title: 'Seasons',
+        explanation: 'Seasons are masculine. Use "in" + article before seasons.',
+        examples: [
+          { italian: 'la primavera', translation: 'spring' },
+          { italian: "l'estate", translation: 'summer' },
+          { italian: "l'autunno", translation: 'autumn' },
+          { italian: "l'inverno", translation: 'winter' },
+        ],
+        exercise: {
+          question: 'What is "inverno" in English?',
+          options: ['spring', 'summer', 'autumn', 'winter'],
+          answer: 'winter',
+        },
+      },
+    ],
+  },
+  {
+    id: 'grammar-28',
+    title: 'Telling Time',
+    level: 'A1',
+    description: 'Learn to ask and tell the time in Italian.',
+    sections: [
+      {
+        title: 'Asking the Time',
+        explanation: '"Che ore sono?" or "Che ore ha?" to ask the time.',
+        examples: [
+          { italian: 'Che ore sono?', translation: 'What time is it?' },
+          { italian: 'Sono le tre', translation: 'It is three o\'clock' },
+          { italian: 'Sono le otto e mezza', translation: 'It is eight thirty' },
+          { italian: 'Sono le undici e un quarto', translation: 'It is eleven fifteen' },
+        ],
+        exercise: {
+          question: 'How do you say "It is three o\'clock"?',
+          options: ['Sono le tre', 'Sono le tre ore', 'È le tre', 'Sono tre'],
+          answer: 'Sono le tre',
+        },
+      },
+      {
+        title: 'Half and Quarter Hours',
+        explanation: '"Mezza" for half past, "un quarto" for quarter past, "meno un quarto" for quarter to.',
+        examples: [
+          { italian: 'le due e mezza', translation: 'two thirty' },
+          { italian: 'le cinque e un quarto', translation: 'five fifteen' },
+          { italian: 'le sette meno un quarto', translation: 'quarter to seven' },
+        ],
+        exercise: {
+          question: 'What does "meno un quarto" mean?',
+          options: ['quarter past', 'half past', 'quarter to', 'five minutes to'],
+          answer: 'quarter to',
+        },
+      },
+    ],
+  },
+  {
+    id: 'grammar-29',
+    title: 'Comparatives and Superlatives (Irregular)',
+    level: 'B2',
+    description: 'Master irregular comparative and superlative forms in Italian.',
+    sections: [
+      {
+        title: 'Irregular Comparatives',
+        explanation: 'Some common adjectives have completely irregular comparatives.',
+        examples: [
+          { italian: 'buono → migliore', translation: 'good → better' },
+          { italian: 'cattivo → peggiore', translation: 'bad → worse' },
+          { italian: 'grande → maggiore', translation: 'big → greater' },
+          { italian: 'piccolo → minore', translation: 'small → lesser' },
+        ],
+        exercise: {
+          question: 'What is the irregular comparative of "cattivo"?',
+          options: ['più cattivo', 'peggiore', 'cattivissimo', 'meno cattivo'],
+          answer: 'peggiore',
+        },
+      },
+      {
+        title: 'Absolute Superlative (-issimo)',
+        explanation: 'Add -issimo/a/i/e to the adjective for "very/extremely".',
+        examples: [
+          { italian: 'bellissimo', translation: 'very beautiful' },
+          { italian: 'grandissimo', translation: 'very big' },
+          { italian: 'fortissimo', translation: 'very strong' },
+          { italian: 'carissimo', translation: 'very expensive/dear' },
+        ],
+        exercise: {
+          question: 'What does " velocissimo" mean?',
+          options: ['the fastest', 'very fast', 'rather fast', 'too fast'],
+          answer: 'very fast',
+        },
+      },
+    ],
+  },
+  {
+    id: 'grammar-30',
+    title: 'Present Perfect with Essere (Transitive)',
+    level: 'A2',
+    description: 'Learn when to use essere as auxiliary with passato prossimo and how past participles agree.',
+    sections: [
+      {
+        title: 'Movement and State Verbs',
+        explanation: 'Verbs of movement, state, and becoming use essere. Past participle agrees with subject.',
+        examples: [
+          { italian: 'Sono andato/a', translation: 'I went (m/f)' },
+          { italian: 'Sei arrivato/a?', translation: 'Did you arrive? (m/f)' },
+          { italian: 'Siamo partiti/partite', translation: 'We left (m.pl/f.pl)' },
+          { italian: 'Lui è morto', translation: 'He died' },
+        ],
+        exercise: {
+          question: 'A woman says "I went to Rome." Which is correct?',
+          options: ['Sono andato a Roma', 'Sono andata a Roma', 'Ho andato a Roma', 'Ho andata a Roma'],
+          answer: 'Sono andata a Roma',
+        },
+      },
+      {
+        title: 'List of Essere Verbs',
+        explanation: 'Common verbs using essere: andare, venire, arrivare, partire, restare, nascere, morire, diventare, stare, cadere, salire, scendere.',
+        examples: [
+          { italian: 'Sono arrivato tardi', translation: 'I arrived late' },
+          { italian: 'Sei mai stato a Firenze?', translation: 'Have you ever been to Florence?' },
+          { italian: 'Siamo cresciuti insieme', translation: 'We grew up together' },
+        ],
+        exercise: {
+          question: 'Which verb uses "essere" in passato prossimo?',
+          options: ['mangiare', 'parlare', 'andare', 'scrivere'],
+          answer: 'andare',
+        },
+      },
+    ],
+  },
+  {
+    id: 'grammar-31',
+    title: 'Imperfect vs. Passato Prossimo',
+    level: 'B1',
+    description: 'Master the difference between imperfetto and passato prossimo with real examples.',
+    sections: [
+      {
+        title: 'When to Use Each Tense',
+        explanation: 'Imperfetto for ongoing/habitual past actions. Passato prossimo for completed actions.',
+        examples: [
+          { italian: 'Quando ero piccolo giocavo nel parco', translation: 'When I was little I used to play in the park (habit)' },
+          { italian: 'Mentre leggevo, è squillato il telefono', translation: 'While I was reading, the phone rang (ongoing vs completed)' },
+          { italian: 'Ieri ho mangiato la pizza', translation: 'Yesterday I ate pizza (completed action)' },
+        ],
+        exercise: {
+          question: 'Which sentence correctly uses passato prossimo?',
+          options: ['Ieri andavo al mare', 'Ieri sono andato al mare', 'Ieri vado al mare', 'Ieri andrò al mare'],
+          answer: 'Ieri sono andato al mare',
+        },
+      },
+      {
+        title: 'Mixed Tenses in One Sentence',
+        explanation: 'Often both tenses appear together: imperfetto for background, passato prossimo for the main action.',
+        examples: [
+          { italian: 'Mangiavo una pizza quando ho ricevuto il messaggio', translation: 'I was eating a pizza when I received the message' },
+          { italian: 'Pioveva quando sono uscito', translation: 'It was raining when I went out' },
+        ],
+        exercise: {
+          question: 'In "Mangiavo una pizza quando ho ricevuto il messaggio", which action happened first?',
+          options: ['Receiving the message', 'Eating the pizza', 'They happened simultaneously', 'Neither happened'],
+          answer: 'Eating the pizza',
+        },
+      },
+    ],
+  },
+  {
+    id: 'grammar-32',
+    title: 'Ne and Ci Pronouns',
+    level: 'B2',
+    description: 'Master the Italian pronouns ne (of it/them) and ci (there/us).',
+    sections: [
+      {
+        title: 'Ne (of it/them)',
+        explanation: '"Ne" replaces "di + noun" and is used with quantifiers.',
+        examples: [
+          { italian: 'Quanti libri hai? - Ne ho tre', translation: 'How many books do you have? - I have three (of them)' },
+          { italian: 'Ne parlo spesso', translation: 'I often talk about it' },
+          { italian: 'Me ne vado', translation: 'I\'m leaving (of here)' },
+        ],
+        exercise: {
+          question: 'What does "ne" replace in "Ne ho tre"?',
+          options: ['A noun directly', 'di + noun', 'a + noun', 'per + noun'],
+          answer: 'di + noun',
+        },
+      },
+      {
+        title: 'Ci (there/us)',
+        explanation: '"Ci" replaces "a/in/on + place" or "con noi".',
+        examples: [
+          { italian: 'Sei mai stato a Roma? - Ci sono stato', translation: 'Have you ever been to Rome? - I have been there' },
+          { italian: 'Ci penso sempre', translation: 'I always think about it' },
+          { italian: 'Ci vediamo domani', translation: 'We\'ll see each other tomorrow' },
+        ],
+        exercise: {
+          question: 'What does "ci" mean in "Ci sono stato"?',
+          options: ['us', 'them', 'there', 'it'],
+          answer: 'there',
+        },
+      },
+    ],
+  },
+  {
+    id: 'grammar-33',
+    title: 'Double Negation in Italian',
+    level: 'B2',
+    description: 'Understand Italian double negation patterns and negative expressions.',
+    sections: [
+      {
+        title: 'Double Negation',
+        explanation: 'Italian often uses double negation where English uses single negation.',
+        examples: [
+          { italian: 'Non ho niente', translation: 'I don\'t have anything (lit: I don\'t have nothing)' },
+          { italian: 'Non vado mai', translation: 'I never go (lit: I don\'t go never)' },
+          { italian: 'Non parla con nessuno', translation: 'He doesn\'t speak with anyone (lit: with no one)' },
+        ],
+        exercise: {
+          question: 'How do you say "I never go" in Italian?',
+          options: ['Non vado mai', 'Vado mai non', 'Non mai vado', 'Mai non vado'],
+          answer: 'Non vado mai',
+        },
+      },
+      {
+        title: 'Negative Words',
+        explanation: 'Common negative words: non, mai, niente, nulla, nessuno, neanche, nemmeno.',
+        examples: [
+          { italian: 'Non c\'è nessuno', translation: 'There is nobody' },
+          { italian: 'Non voglio niente', translation: 'I don\'t want anything' },
+          { italian: 'Neanche io', translation: 'Me neither' },
+        ],
+        exercise: {
+          question: 'Which word means "nobody" in Italian?',
+          options: ['niente', 'mai', 'nessuno', 'neanche'],
+          answer: 'nessuno',
+        },
+      },
+    ],
+  },
+  {
+    id: 'grammar-34',
+    title: 'Passive Voice with Si Impersonale',
+    level: 'C1',
+    description: 'Use the impersonal "si" construction as an alternative to passive voice.',
+    sections: [
+      {
+        title: 'Si Impersonale',
+        explanation: 'The impersonal "si" is used to express general truths and passive meaning without specifying who performs the action.',
+        examples: [
+          { italian: 'Si parla italiano qui', translation: 'Italian is spoken here (People speak Italian here)' },
+          { italian: 'Si vendono case', translation: 'Houses are for sale (Houses are sold)' },
+          { italian: 'Qui si mangia bene', translation: 'Here people eat well / Here food is well eaten' },
+          { italian: 'A Roma si visitano i monumenti', translation: 'In Rome people visit monuments / Monuments are visited in Rome' },
+        ],
+        exercise: {
+          question: 'What does "Si parla italiano qui" mean?',
+          options: ['One speaks Italian', 'Italian is spoken', 'I speak Italian', 'They speak Italian'],
+          answer: 'Italian is spoken',
+        },
+      },
+      {
+        title: 'Si + Passive with Transitive Verbs',
+        explanation: 'When si impersonale is used with transitive verbs, the past participle agrees with the direct object.',
+        examples: [
+          { italian: 'Si vendono auto', translation: 'Cars are sold (auto is f.pl., so vendono)' },
+          { italian: 'Si è venduta la casa', translation: 'The house was sold (casa is f.sing., so venduta)' },
+          { italian: 'Si sono comprati dei libri', translation: 'Books were bought (libri is m.pl., so comprati)' },
+        ],
+        exercise: {
+          question: 'Which is correct: "Si è venduta/venduto la casa"?',
+          options: ['venduto', 'venduta', 'venduti', 'vendete'],
+          answer: 'venduta',
+        },
+      },
+    ],
+  },
+  {
+    id: 'grammar-35',
+    title: 'Discourse Markers and Fillers',
+    level: 'B1',
+    description: 'Learn Italian discourse markers that make speech sound more natural.',
+    sections: [
+      {
+        title: 'Common Discourse Markers',
+        explanation: 'These words help connect ideas and make speech flow naturally.',
+        examples: [
+          { italian: 'Allora', translation: 'So / Well then' },
+          { italian: 'Insomma', translation: 'Well / In short' },
+          { italian: 'Comunque', translation: 'Anyway / However' },
+          { italian: 'Invece', translation: 'Instead / On the other hand' },
+          { italian: 'Però', translation: 'But / However' },
+          { italian: 'Dunque', translation: 'So / Therefore' },
+          { italian: 'Cioè', translation: 'That is / I mean' },
+          { italian: 'Sai', translation: 'You know (filler)' },
+        ],
+        exercise: {
+          question: 'Which word means "So / Well then" at the beginning of a sentence?',
+          options: ['Comunque', 'Allora', 'Invece', 'Però'],
+          answer: 'Allora',
+        },
+      },
+      {
+        title: 'Using Discourse Markers',
+        explanation: 'These markers help structure speech and writing.',
+        examples: [
+          { italian: 'Allora, cosa facciamo stasera?', translation: 'So, what shall we do tonight?' },
+          { italian: 'Insomma, alla fine è andato bene', translation: 'Well, in the end it went well' },
+          { italian: 'Comunque, torniamo al discorso', translation: 'Anyway, let\'s get back to the topic' },
+        ],
+        exercise: {
+          question: 'What does "cioè" mean when used as a filler?',
+          options: ['Therefore', 'Anyway', 'I mean / That is', 'However'],
+          answer: 'I mean / That is',
+        },
+      },
+    ],
+  },
+  {
+    id: 'grammar-36',
+    title: 'Italian Idioms and Expressions',
+    level: 'B2',
+    description: 'Learn common Italian idiomatic expressions to sound more native.',
+    sections: [
+      {
+        title: 'Common Idioms',
+        explanation: 'Idioms are expressions whose meaning differs from the literal words.',
+        examples: [
+          { italian: 'In bocca al lupo', translation: 'Good luck (lit: in the mouth of the wolf)' },
+          { italian: 'Che palle!', translation: 'What a pain! (lit: what balls!)' },
+          { italian: 'Essere alle strette', translation: 'To be in a tight spot' },
+          { italian: 'Avere il batticuore', translation: 'To be nervous (lit: to have heart-beat)' },
+          { italian: 'Mettere la carrozza davanti ai buoi', translation: 'To put the cart before the oxen' },
+          { italian: 'Non avere peli sulla lingua', translation: 'To be outspoken (lit: not to have hairs on the tongue)' },
+        ],
+        exercise: {
+          question: 'What do you reply to "In bocca al lupo"?',
+          options: ['Grazie', 'Crepi!', 'Buona fortuna', 'Prego'],
+          answer: 'Crepi!',
+        },
+      },
+      {
+        title: 'Food Idioms',
+        explanation: 'Many Italian idioms relate to food and eating.',
+        examples: [
+          { italian: 'Essere un pezzo di pane', translation: 'To be a sweetheart (lit: a piece of bread)' },
+          { italian: 'Essere fuori come un balcone', translation: 'To be crazy (lit: to be outside like a balcony)' },
+          { italian: 'Avere fame da lupo', translation: 'To be very hungry (lit: to be hungry as a wolf)' },
+        ],
+        exercise: {
+          question: 'What does "Avere fame da lupo" mean?',
+          options: ['To be slightly hungry', 'To be very hungry', 'To love wolves', 'To eat a lot'],
+          answer: 'To be very hungry',
+        },
+      },
+    ],
+  },
 ];
 
 export default grammar;
