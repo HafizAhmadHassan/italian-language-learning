@@ -2,7 +2,7 @@ import { useEffect, useCallback } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { X } from 'lucide-react';
 
-export default function Modal({ isOpen, onClose, title, children, dark = false }) {
+export default function Modal({ isOpen, onClose, title, children }) {
   const handleEscape = useCallback(
     (e) => {
       if (e.key === 'Escape') onClose();
@@ -20,11 +20,6 @@ export default function Modal({ isOpen, onClose, title, children, dark = false }
       document.body.style.overflow = '';
     };
   }, [isOpen, handleEscape]);
-
-  const bg = dark ? 'bg-italian-dark-card' : 'bg-white';
-  const border = dark ? 'border-italian-dark-border' : 'border-gray-200';
-  const textColor = dark ? 'text-gray-100' : 'text-italian-charcoal';
-  const mutedText = dark ? 'text-gray-400' : 'text-gray-500';
 
   return (
     <AnimatePresence>
@@ -46,19 +41,19 @@ export default function Modal({ isOpen, onClose, title, children, dark = false }
             animate={{ opacity: 1, scale: 1, y: 0 }}
             exit={{ opacity: 0, scale: 0.95, y: 10 }}
             transition={{ duration: 0.2, ease: 'easeOut' }}
-            className={`relative z-10 w-full max-w-md rounded-2xl border ${border} ${bg} shadow-2xl overflow-hidden`}
+            className="relative z-10 w-full max-w-md rounded-2xl border border-gray-200 dark:border-[#2E323C] bg-white dark:bg-[#1A1D24] shadow-2xl overflow-hidden"
           >
-            <div className={`flex items-center justify-between px-6 py-4 border-b ${border}`}>
-              <h2 className={`text-lg font-semibold font-heading ${textColor}`}>{title}</h2>
+            <div className="flex items-center justify-between px-6 py-4 border-b border-gray-200 dark:border-[#2E323C]">
+              <h2 className="text-lg font-semibold font-heading text-italian-charcoal dark:text-gray-100">{title}</h2>
               <button
                 onClick={onClose}
-                className={`p-1.5 rounded-lg transition-colors hover:bg-gray-100 dark:hover:bg-italian-dark-surface ${mutedText}`}
+                className="p-1.5 rounded-lg transition-colors hover:bg-gray-100 dark:hover:bg-[#22252E] text-gray-500 dark:text-gray-400"
               >
                 <X size={18} />
               </button>
             </div>
 
-            <div className={`p-6 ${textColor}`}>{children}</div>
+            <div className="p-6 text-italian-charcoal dark:text-gray-100">{children}</div>
           </motion.div>
         </motion.div>
       )}

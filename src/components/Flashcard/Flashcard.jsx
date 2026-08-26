@@ -11,7 +11,6 @@ export default function Flashcard({
   onKnow,
   onPractice,
   onFlip,
-  dark = false,
 }) {
   const [flipped, setFlipped] = useState(false);
 
@@ -19,11 +18,6 @@ export default function Flashcard({
     setFlipped((f) => !f);
     onFlip?.(!flipped);
   };
-
-  const bg = dark ? 'bg-italian-dark-card' : 'bg-white';
-  const border = dark ? 'border-italian-dark-border' : 'border-gray-200';
-  const textColor = dark ? 'text-gray-100' : 'text-italian-charcoal';
-  const muted = dark ? 'text-gray-400' : 'text-gray-500';
 
   return (
     <div className="flex flex-col items-center gap-6 w-full max-w-md mx-auto">
@@ -37,16 +31,16 @@ export default function Flashcard({
           {/* Front */}
           <div
             style={{ backfaceVisibility: 'hidden' }}
-            className={`absolute inset-0 flex flex-col items-center justify-center rounded-2xl border ${border} ${bg} p-6 shadow-lg`}
+            className="absolute inset-0 flex flex-col items-center justify-center rounded-2xl border border-gray-200 dark:border-[#2E323C] bg-white dark:bg-[#1A1D24] p-6 shadow-lg"
           >
-            <p className={`text-2xl font-heading font-semibold ${textColor}`}>{front}</p>
+            <p className="text-2xl font-heading font-semibold text-italian-charcoal dark:text-gray-100">{front}</p>
             {pronunciation && (
-              <p className={`mt-2 text-sm ${muted}`}>{pronunciation}</p>
+              <p className="mt-2 text-sm text-gray-500 dark:text-gray-400">{pronunciation}</p>
             )}
             <div className="mt-4">
               <AudioButton text={front} size="sm" />
             </div>
-            <p className={`absolute bottom-4 text-xs ${muted} flex items-center gap-1`}>
+            <p className="absolute bottom-4 text-xs text-gray-500 dark:text-gray-400 flex items-center gap-1">
               <RotateCw size={12} /> Tap to flip
             </p>
           </div>
@@ -54,9 +48,9 @@ export default function Flashcard({
           {/* Back */}
           <div
             style={{ backfaceVisibility: 'hidden', transform: 'rotateY(180deg)' }}
-            className={`absolute inset-0 flex flex-col items-center justify-center rounded-2xl border ${border} bg-italian-green/5 p-6 shadow-lg`}
+            className="absolute inset-0 flex flex-col items-center justify-center rounded-2xl border border-gray-200 dark:border-[#2E323C] bg-italian-green/5 p-6 shadow-lg"
           >
-            <p className={`text-xl font-heading font-medium ${textColor}`}>{back}</p>
+            <p className="text-xl font-heading font-medium text-italian-charcoal dark:text-gray-100">{back}</p>
             <div className="mt-3">
               <AudioButton text={back} size="sm" />
             </div>
