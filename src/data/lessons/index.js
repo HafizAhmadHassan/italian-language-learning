@@ -4650,6 +4650,1217 @@ const lessons = [
       },
     ],
   },
+  {
+    id: 'lesson-66',
+    title: 'At the Pharmacy',
+    level: 'B1',
+    unit: 11,
+    unitTitle: 'Advanced Topics',
+    description: 'Learn how to describe symptoms and request medicine at the pharmacy.',
+    duration: 20,
+    steps: [
+      {
+        type: 'learn',
+        content: {
+          title: 'Pharmacy Vocabulary',
+          text: 'Essential phrases for visiting the farmacia in Italy:',
+          items: [
+            { italian: 'La farmacia', english: 'The pharmacy', pronunciation: 'lah fahr-MAH-chee-ah' },
+            { italian: 'Il farmaco', english: 'The medicine', pronunciation: 'eel fahr-MAH-koh' },
+            { italian: 'La ricetta', english: 'The prescription', pronunciation: 'lah ree-CHEHT-tah' },
+            { italian: 'Senza ricetta', english: 'Without prescription', pronunciation: 'SEHN-tsah ree-CHEHT-tah' },
+            { italian: 'Ho mal di testa', english: 'I have a headache', pronunciation: 'oh mahl dee TEHS-tah' },
+            { italian: 'La febbre', english: 'The fever', pronunciation: 'lah FEHB-breh' },
+            { italian: 'Il raffreddore', english: 'The cold', pronunciation: 'eel rahf-frehd-DOH-reh' },
+            { italian: 'La tosse', english: 'The cough', pronunciation: 'lah TOHS-seh' },
+            { italian: 'Il mal di gola', english: 'The sore throat', pronunciation: 'eel mahl dee GOH-lah' },
+            { italian: 'Il mal di stomaco', english: 'The stomachache', pronunciation: 'eel mahl dee STOH-mah-koh' },
+            { italian: 'La nausea', english: 'Nausea', pronunciation: 'lah NOW-zee-ah' },
+            { italian: 'L\'allergia', english: 'Allergy', pronunciation: 'lahl-LEHR-jah' },
+          ],
+        },
+      },
+      {
+        type: 'example',
+        content: {
+          dialogue: [
+            { speaker: 'Customer', italian: 'Buongiorno, ho bisogno di un farmaco per il mal di testa.', english: 'Good morning, I need a medicine for a headache.' },
+            { speaker: 'Pharmacist', italian: 'Ha la febbre anche?', english: 'Do you also have a fever?' },
+            { speaker: 'Customer', italian: 'No, solo mal di testa.', english: 'No, just a headache.' },
+            { speaker: 'Pharmacist', italian: 'Provi questo, e senza ricetta.', english: 'Try this one, it is without prescription.' },
+            { speaker: 'Customer', italian: 'Quante volte al giorno?', english: 'How many times a day?' },
+            { speaker: 'Pharmacist', italian: 'Tre volte, dopo i pasti.', english: 'Three times, after meals.' },
+          ],
+        },
+      },
+      {
+        type: 'multiple_choice',
+        content: {
+          question: 'How do you say "prescription" in Italian?',
+          options: ['La ricetta', 'La farmacia', 'Il farmaco', 'La nausea'],
+          answer: 'La ricetta',
+        },
+      },
+      {
+        type: 'translation',
+        content: {
+          direction: 'en-to-it',
+          sentence: 'I have had a sore throat for three days.',
+          answer: 'Ho mal di gola da tre giorni.',
+          hint: 'mal di gola = sore throat, da tre giorni = for three days',
+        },
+      },
+      {
+        type: 'fill_blank',
+        content: {
+          sentence: 'Vorrei un farmaco ___ il mal di stomaco, per favore.',
+          answer: 'per',
+          hint: 'Preposition meaning "for"',
+        },
+      },
+      {
+        type: 'review',
+        content: {
+          title: 'Pharmacy Review',
+          items: [
+            { italian: 'La farmacia', english: 'The pharmacy' },
+            { italian: 'La ricetta', english: 'The prescription' },
+            { italian: 'Il farmaco', english: 'The medicine' },
+            { italian: 'Senza ricetta', english: 'Without prescription' },
+            { italian: 'La febbre', english: 'The fever' },
+          ],
+        },
+      },
+    ],
+  },
+  {
+    id: 'lesson-67',
+    title: 'Public Transportation',
+    level: 'A2',
+    unit: 11,
+    unitTitle: 'Advanced Topics',
+    description: 'Learn how to navigate buses, trains, and buy tickets in Italian.',
+    duration: 18,
+    steps: [
+      {
+        type: 'learn',
+        content: {
+          title: 'Transportation Vocabulary',
+          text: 'Get around Italy with these essential transport phrases:',
+          items: [
+            { italian: "L'autobus", english: 'The bus', pronunciation: 'lah-TOH-boos' },
+            { italian: 'Il treno', english: 'The train', pronunciation: 'eel TREH-noh' },
+            { italian: 'La metro', english: 'The subway', pronunciation: 'lah MEH-troh' },
+            { italian: 'Il biglietto', english: 'The ticket', pronunciation: 'eel bee-LYEHT-toh' },
+            { italian: "L'andata", english: 'Outbound / One-way', pronunciation: 'lahn-DAH-tah' },
+            { italian: 'Il ritorno', english: 'Return / Round trip', pronunciation: 'eel ree-TOHR-noh' },
+            { italian: 'La fermata', english: 'The stop', pronunciation: 'lah fehr-MAH-tah' },
+            { italian: 'La banchina', english: 'The platform', pronunciation: 'lah bahn-KEE-nah' },
+            { italian: 'Il binario', english: 'The track', pronunciation: 'eel bee-NAH-ryoh' },
+            { italian: "L'orario", english: 'The schedule', pronunciation: 'loh-RAH-ryoh' },
+            { italian: 'Il ritardo', english: 'The delay', pronunciation: 'eel ree-TAHR-doh' },
+            { italian: 'Il terrapieno', english: 'The platform edge', pronunciation: 'eel tehr-rah-PYEH-noh' },
+          ],
+        },
+      },
+      {
+        type: 'example',
+        content: {
+          dialogue: [
+            { speaker: 'Passenger', italian: 'Quando parte il prossimo treno per Roma?', english: 'When does the next train to Rome leave?' },
+            { speaker: 'Agent', italian: 'Alle dieci e mezza, dal binario cinque.', english: 'At ten thirty, from track five.' },
+            { speaker: 'Passenger', italian: 'Quanto costa un biglietto di sola andata?', english: 'How much does a one-way ticket cost?' },
+            { speaker: 'Agent', italian: 'Venticinque euro. Vuole anche il ritorno?', english: 'Twenty-five euros. Do you also want the return?' },
+            { speaker: 'Passenger', italian: 'Si, per favore.', english: 'Yes, please.' },
+          ],
+        },
+      },
+      {
+        type: 'multiple_choice',
+        content: {
+          question: 'How do you say "platform" (at a train station) in Italian?',
+          options: ['La fermata', 'La banchina', 'Il ritardo', 'L\'andata'],
+          answer: 'La banchina',
+        },
+      },
+      {
+        type: 'translation',
+        content: {
+          direction: 'it-to-en',
+          sentence: 'Il treno ha venti minuti di ritardo.',
+          answer: 'The train has a twenty-minute delay.',
+          hint: 'ritardo = delay, minuti = minutes',
+        },
+      },
+      {
+        type: 'fill_blank',
+        content: {
+          sentence: 'Vorrei un biglietto di ___ andata per Firenze.',
+          answer: 'sola',
+          hint: '___ andata = one-way',
+        },
+      },
+      {
+        type: 'review',
+        content: {
+          title: 'Transportation Review',
+          items: [
+            { italian: "L'autobus", english: 'The bus' },
+            { italian: 'Il treno', english: 'The train' },
+            { italian: 'Il biglietto', english: 'The ticket' },
+            { italian: 'La banchina', english: 'The platform' },
+            { italian: "L'orario", english: 'The schedule' },
+          ],
+        },
+      },
+    ],
+  },
+  {
+    id: 'lesson-68',
+    title: 'Weather & Seasons',
+    level: 'A1',
+    unit: 11,
+    unitTitle: 'Advanced Topics',
+    description: 'Learn to talk about the weather and seasonal activities in Italian.',
+    duration: 15,
+    steps: [
+      {
+        type: 'learn',
+        content: {
+          title: 'Weather Expressions',
+          text: 'Talk about the weather like a native Italian:',
+          items: [
+            { italian: 'Che tempo fa?', english: 'What is the weather like?', pronunciation: 'keh TEHM-poh fah' },
+            { italian: 'Fa caldo', english: 'It is hot', pronunciation: 'fah KAHL-doh' },
+            { italian: 'Fa freddo', english: 'It is cold', pronunciation: 'fah FREHD-doh' },
+            { italian: 'Piove', english: 'It is raining', pronunciation: 'PYOH-veh' },
+            { italian: 'Nevica', english: 'It is snowing', pronunciation: 'neh-VEE-kah' },
+            { italian: 'C\'è il sole', english: 'It is sunny', pronunciation: 'cheh eel SOH-leh' },
+            { italian: 'È nuvoloso', english: 'It is cloudy', pronunciation: 'eh noo-voh-LOH-zoh' },
+            { italian: 'Tira vento', english: 'It is windy', pronunciation: 'TEE-rah VEHN-toh' },
+            { italian: 'La primavera', english: 'Spring', pronunciation: 'lah pree-mah-VEH-rah' },
+            { italian: "L'estate", english: 'Summer', pronunciation: 'leh-STAH-teh' },
+            { italian: "L'autunno", english: 'Autumn', pronunciation: 'lah-TOON-noh' },
+            { italian: "L'inverno", english: 'Winter', pronunciation: 'leen-VEHR-noh' },
+          ],
+        },
+      },
+      {
+        type: 'example',
+        content: {
+          dialogue: [
+            { speaker: 'A', italian: 'Che tempo fa oggi?', english: 'What is the weather like today?' },
+            { speaker: 'B', italian: 'Piove da stamattina.', english: 'It has been raining since this morning.' },
+            { speaker: 'A', italian: 'Che brutto! Ieri faceva caldo.', english: 'How awful! Yesterday it was hot.' },
+            { speaker: 'B', italian: 'Si, ma domani ci sara il sole.', english: 'Yes, but tomorrow there will be sun.' },
+          ],
+        },
+      },
+      {
+        type: 'multiple_choice',
+        content: {
+          question: 'How do you say "It is snowing" in Italian?',
+          options: ['Piove', 'Nevica', 'Tira vento', 'Fa caldo'],
+          answer: 'Nevica',
+        },
+      },
+      {
+        type: 'translation',
+        content: {
+          direction: 'en-to-it',
+          sentence: 'In summer it is very hot.',
+          answer: "In estate fa molto caldo.",
+          hint: 'estate = summer, caldo = hot',
+        },
+      },
+      {
+        type: 'fill_blank',
+        content: {
+          sentence: '___ tempo fa oggi? Fa freddo.',
+          answer: 'Che',
+          hint: 'Question word for "What"',
+        },
+      },
+      {
+        type: 'review',
+        content: {
+          title: 'Weather Review',
+          items: [
+            { italian: 'Fa caldo', english: 'It is hot' },
+            { italian: 'Piove', english: 'It is raining' },
+            { italian: 'Nevica', english: 'It is snowing' },
+            { italian: 'C\'è il sole', english: 'It is sunny' },
+            { italian: 'La primavera', english: 'Spring' },
+          ],
+        },
+      },
+    ],
+  },
+  {
+    id: 'lesson-69',
+    title: 'Writing a Formal Letter',
+    level: 'B2',
+    unit: 12,
+    unitTitle: 'Professional Italian',
+    description: 'Learn to write formal correspondence and business letters in Italian.',
+    duration: 25,
+    steps: [
+      {
+        type: 'learn',
+        content: {
+          title: 'Formal Letter Structure',
+          text: 'Italian formal letters follow a specific structure with polite conventions:',
+          items: [
+            { italian: 'Gentilissimo/a', english: 'Dear Sir/Madam (very formal)', pronunciation: 'jehn-tee-LEES-see-moh/mah' },
+            { italian: 'Spettabile', english: 'To the attention of (company)', pronunciation: 'speht-TAH-bee-leh' },
+            { italian: 'In riferimento a', english: 'In reference to', pronunciation: 'een ree-feh-ree-MEHN-toh ah' },
+            { italian: 'Le scrivo per', english: 'I am writing to you for', pronunciation: 'leh SKREE-voh pehr' },
+            { italian: 'In attesa di una Sua risposta', english: 'Awaiting your reply', pronunciation: 'een ah-TEH-zah dee OO-nah SWAH ree-SPOH-stah' },
+            { italian: 'Cordiali saluti', english: 'Kind regards', pronunciation: 'kohr-DYAH-lee sah-LOO-tee' },
+            { italian: 'Distinti saluti', english: 'Kind regards (formal)', pronunciation: 'dee-STEEHN-tee sah-LOO-tee' },
+            { italian: 'Porgo i miei piu distinti saluti', english: 'I offer my warmest regards', pronunciation: 'POHR-goh ee MYEH-ee pyoo dee-STEEHN-tee sah-LOO-tee' },
+          ],
+        },
+      },
+      {
+        type: 'example',
+        content: {
+          dialogue: [
+            { speaker: 'Elena', italian: 'Gentilissimo Direttore, Le scrivo per informarLa che il progetto e stato completato.', english: 'Dear Director, I am writing to inform you that the project has been completed.' },
+            { speaker: 'Paolo', italian: 'In riferimento alla nostra riunione del 15 marzo, desidero confermare i punti discussi.', english: 'In reference to our meeting of March 15, I wish to confirm the points discussed.' },
+            { speaker: 'Elena', italian: 'In attesa di una Sua risposta, Le porgo i miei piu distinti saluti.', english: 'Awaiting your reply, I offer my warmest regards.' },
+          ],
+        },
+      },
+      {
+        type: 'multiple_choice',
+        content: {
+          question: 'What is the most formal Italian salutation for a letter?',
+          options: ['Ciao', 'Gentilissimo/a', 'Buongiorno', 'Egregio'],
+          answer: 'Gentilissimo/a',
+        },
+      },
+      {
+        type: 'translation',
+        content: {
+          direction: 'en-to-it',
+          sentence: 'I am writing in reference to the job application.',
+          answer: 'Scrivo in riferimento alla candidatura.',
+          hint: 'in riferimento = in reference, candidatura = application',
+        },
+      },
+      {
+        type: 'fill_blank',
+        content: {
+          sentence: '___ attesa di una Sua risposta, Le porgo i miei saluti.',
+          answer: 'In',
+          hint: '___ attesa = awaiting',
+        },
+      },
+      {
+        type: 'review',
+        content: {
+          title: 'Formal Letters Review',
+          items: [
+            { italian: 'Gentilissimo/a', english: 'Dear Sir/Madam' },
+            { italian: 'Le scrivo per', english: 'I am writing to you for' },
+            { italian: 'In riferimento a', english: 'In reference to' },
+            { italian: 'Cordiali saluti', english: 'Kind regards' },
+            { italian: 'In attesa di', english: 'Awaiting' },
+          ],
+        },
+      },
+    ],
+  },
+  {
+    id: 'lesson-70',
+    title: 'At the Bank',
+    level: 'B1',
+    unit: 12,
+    unitTitle: 'Professional Italian',
+    description: 'Learn banking vocabulary, money, accounts, and currency exchange.',
+    duration: 20,
+    steps: [
+      {
+        type: 'learn',
+        content: {
+          title: 'Banking Vocabulary',
+          text: 'Handle financial transactions in Italian with confidence:',
+          items: [
+            { italian: 'La banca', english: 'The bank', pronunciation: 'lah BAHN-kah' },
+            { italian: 'Il conto corrente', english: 'The current account', pronunciation: 'eel KOHN-toh koh-RREHN-teh' },
+            { italian: 'Il conto di risparmio', english: 'The savings account', pronunciation: 'eel KOHN-toh dee ree-SPAHR-myoh' },
+            { italian: 'Il prelievo', english: 'The withdrawal', pronunciation: 'eel preh-LYEH-voh' },
+            { italian: 'Il versamento', english: 'The deposit', pronunciation: 'eel vehr-sah-MEHN-toh' },
+            { italian: 'Il bonifico', english: 'The bank transfer', pronunciation: 'eel boh-NEE-fee-koh' },
+            { italian: 'Il mutuo', english: 'The mortgage', pronunciation: 'eel MOO-twoh' },
+            { italian: 'Il tasso di cambio', english: 'The exchange rate', pronunciation: 'eel TAHSS-oh dee KAHM-byoh' },
+            { italian: 'Cambiare valuta', english: 'To exchange currency', pronunciation: 'kahm-BYAH-reh vah-LOO-tah' },
+            { italian: 'Il conto', english: 'The bill/account', pronunciation: 'eel KOHN-toh' },
+            { italian: 'L\'estratto conto', english: 'The bank statement', pronunciation: 'leh-STRAHT-toh KOHN-toh' },
+          ],
+        },
+      },
+      {
+        type: 'example',
+        content: {
+          dialogue: [
+            { speaker: 'Luca', italian: 'Buongiorno, vorrei aprire un conto corrente.', english: 'Good morning, I would like to open a current account.' },
+            { speaker: 'Clerk', italian: 'Certo. Ha bisogno di un documento di identita.', english: 'Of course. You need an identity document.' },
+            { speaker: 'Luca', italian: 'Vorrei anche cambiare euro in dollari.', english: 'I would also like to exchange euros for dollars.' },
+            { speaker: 'Clerk', italian: 'Il tasso di cambio di oggi e 1 euro = 1.10 dollari.', english: "Today's exchange rate is 1 euro = 1.10 dollars." },
+            { speaker: 'Luca', italian: 'Va bene. Quanto vuole cambiare?', english: 'That is fine. How much would you like to exchange?' },
+          ],
+        },
+      },
+      {
+        type: 'multiple_choice',
+        content: {
+          question: 'How do you say "withdrawal" in Italian?',
+          options: ['Il versamento', 'Il prelievo', 'Il bonifico', 'Il mutuo'],
+          answer: 'Il prelievo',
+        },
+      },
+      {
+        type: 'translation',
+        content: {
+          direction: 'en-to-it',
+          sentence: 'I would like to make a bank transfer.',
+          answer: 'Vorrei fare un bonifico.',
+          hint: 'bonifico = bank transfer, fare = to make',
+        },
+      },
+      {
+        type: 'fill_blank',
+        content: {
+          sentence: 'Vorrei aprire un ___ di risparmio, per favore.',
+          answer: 'conto',
+          hint: 'Bank account for saving money',
+        },
+      },
+      {
+        type: 'review',
+        content: {
+          title: 'Banking Review',
+          items: [
+            { italian: 'La banca', english: 'The bank' },
+            { italian: 'Il conto corrente', english: 'The current account' },
+            { italian: 'Il prelievo', english: 'The withdrawal' },
+            { italian: 'Il bonifico', english: 'The bank transfer' },
+            { italian: 'Il tasso di cambio', english: 'The exchange rate' },
+          ],
+        },
+      },
+    ],
+  },
+  {
+    id: 'lesson-71',
+    title: 'Home Maintenance',
+    level: 'B1',
+    unit: 12,
+    unitTitle: 'Professional Italian',
+    description: 'Learn vocabulary for repairs, tools, and household problems.',
+    duration: 20,
+    steps: [
+      {
+        type: 'learn',
+        content: {
+          title: 'Home & Repair Vocabulary',
+          text: 'Common words for dealing with household issues:',
+          items: [
+            { italian: "L'idraulico", english: 'The plumber', pronunciation: 'lee-DROW-lee-koh' },
+            { italian: "L'elettricista", english: 'The electrician', pronunciation: 'leh-leht-tree-CHEES-tah' },
+            { italian: 'Il falegname', english: 'The carpenter', pronunciation: 'eel fah-leh-NYAH-meh' },
+            { italian: "L'interruttore", english: 'The light switch', pronunciation: 'leent-tehr-rooht-TOH-reh' },
+            { italian: "L'acqua", english: 'The water', pronunciation: 'lahk-KWAH' },
+            { italian: 'La canaletta', english: 'The drain', pronunciation: 'lah kah-nah-LEHT-tah' },
+            { italian: 'La rubinetto', english: 'The faucet', pronunciation: 'lah roo-bee-NEHT-toh' },
+            { italian: "La spina", english: 'The plug', pronunciation: 'lah SPEE-nah' },
+            { italian: 'Il muro', english: 'The wall', pronunciation: 'eel MOO-roh' },
+            { italian: 'Il pavimento', english: 'The floor', pronunciation: 'eel pah-vee-MEHN-toh' },
+            { italian: 'Il tetto', english: 'The roof', pronunciation: 'eel TEHT-toh' },
+            { italian: 'La serratura', english: 'The lock', pronunciation: 'lah sehr-rah-TOO-rah' },
+          ],
+        },
+      },
+      {
+        type: 'example',
+        content: {
+          dialogue: [
+            { speaker: 'Giulia', italian: 'Ho bisogno di un idraulico, c\'e una perdita in cucina.', english: 'I need a plumber, there is a leak in the kitchen.' },
+            { speaker: 'Paolo', italian: 'Cosa succede esattamente?', english: 'What is happening exactly?' },
+            { speaker: 'Giulia', italian: 'Il rubinetto gocciola da tutta la notte.', english: 'The faucet has been dripping all night.' },
+            { speaker: 'Paolo', italian: 'Chiamo l\'idraulico subito.', english: "I'll call the plumber right away." },
+          ],
+        },
+      },
+      {
+        type: 'multiple_choice',
+        content: {
+          question: 'How do you say "plumber" in Italian?',
+          options: ["L'elettricista", "L'idraulico", 'Il falegname', 'Il muratore'],
+          answer: "L'idraulico",
+        },
+      },
+      {
+        type: 'translation',
+        content: {
+          direction: 'en-to-it',
+          sentence: 'The faucet is broken and the water is leaking.',
+          answer: 'Il rubinetto e rotto e l\'acqua cola.',
+          hint: 'rotto = broken, cola = is leaking',
+        },
+      },
+      {
+        type: 'fill_blank',
+        content: {
+          sentence: "Ho bisogno di un ___ per riparare la luce.",
+          answer: "elettricista",
+          hint: 'The person who fixes electrical problems',
+        },
+      },
+      {
+        type: 'review',
+        content: {
+          title: 'Home Maintenance Review',
+          items: [
+            { italian: "L'idraulico", english: 'The plumber' },
+            { italian: "L'elettricista", english: 'The electrician' },
+            { italian: 'Il rubinetto', english: 'The faucet' },
+            { italian: "L'interruttore", english: 'The light switch' },
+            { italian: 'La serratura', english: 'The lock' },
+          ],
+        },
+      },
+    ],
+  },
+  {
+    id: 'lesson-72',
+    title: 'Italian Literature',
+    level: 'B2',
+    unit: 13,
+    unitTitle: 'Culture & Society',
+    description: 'Explore famous Italian authors, reading, and bookstores.',
+    duration: 25,
+    steps: [
+      {
+        type: 'learn',
+        content: {
+          title: 'Literature Vocabulary',
+          text: 'Discuss Italian literature and bookstores with these terms:',
+          items: [
+            { italian: 'La libreria', english: 'The bookstore', pronunciation: 'lah lee-BREH-ryah' },
+            { italian: 'Il libro', english: 'The book', pronunciation: 'eel LEE-broh' },
+            { italian: 'La biblioteca', english: 'The library', pronunciation: 'lah bee-blee-oh-TEH-kah' },
+            { italian: 'Lo scrittore / La scrittrice', english: 'The writer (m/f)', pronunciation: 'loh skreeht-TOH-reh / TREE-cheh' },
+            { italian: 'Il romanzo', english: 'The novel', pronunciation: 'eel roh-MAHN-tsoh' },
+            { italian: 'La poesia', english: 'The poetry', pronunciation: 'lah poh-eh-ZEE-ah' },
+            { italian: 'Il capitolo', english: 'The chapter', pronunciation: 'eel kah-PEE-toh-loh' },
+            { italian: 'La pagina', english: 'The page', pronunciation: 'lah PAH-jee-nah' },
+            { italian: 'Leggere', english: 'To read', pronunciation: 'LEHD-jeh-reh' },
+            { italian: 'La libreria antiquaria', english: 'The antiquarian bookshop', pronunciation: 'lah lee-BREH-ryah ahn-tee-KWAH-ryah' },
+            { italian: "L'autore", english: 'The author', pronunciation: 'lah-TOH-reh' },
+          ],
+        },
+      },
+      {
+        type: 'example',
+        content: {
+          dialogue: [
+            { speaker: 'Elena', italian: 'Stai leggendo un libro interessante?', english: 'Are you reading an interesting book?' },
+            { speaker: 'Marco', italian: 'Si, sto leggendo "I Promessi Sposi" di Manzoni.', english: 'Yes, I am reading "The Betrothed" by Manzoni.' },
+            { speaker: 'Elena', italian: 'Un classico della letteratura italiana!', english: 'A classic of Italian literature!' },
+            { speaker: 'Marco', italian: 'Vado spesso in libreria per cercare nuovi titoli.', english: 'I often go to the bookstore to look for new titles.' },
+          ],
+        },
+      },
+      {
+        type: 'multiple_choice',
+        content: {
+          question: 'How do you say "bookstore" in Italian?',
+          options: ['La biblioteca', 'La libreria', 'La cartoleria', 'L\'edicola'],
+          answer: 'La libreria',
+        },
+      },
+      {
+        type: 'translation',
+        content: {
+          direction: 'en-to-it',
+          sentence: 'Dante is the most famous Italian author.',
+          answer: "Dante e l'autore italiano piu famoso.",
+          hint: 'autore = author, famoso = famous',
+        },
+      },
+      {
+        type: 'fill_blank',
+        content: {
+          sentence: '___ spesso in libreria per comprare nuovi libri.',
+          answer: 'Vado',
+          hint: 'I go (first person singular of andare)',
+        },
+      },
+      {
+        type: 'review',
+        content: {
+          title: 'Literature Review',
+          items: [
+            { italian: 'La libreria', english: 'The bookstore' },
+            { italian: 'Il romanzo', english: 'The novel' },
+            { italian: 'La poesia', english: 'The poetry' },
+            { italian: 'Leggere', english: 'To read' },
+            { italian: 'Lo scrittore', english: 'The writer' },
+          ],
+        },
+      },
+    ],
+  },
+  {
+    id: 'lesson-73',
+    title: 'Job Interview',
+    level: 'B2',
+    unit: 13,
+    unitTitle: 'Culture & Society',
+    description: 'Prepare for job interviews with career and qualifications vocabulary.',
+    duration: 25,
+    steps: [
+      {
+        type: 'learn',
+        content: {
+          title: 'Interview Vocabulary',
+          text: 'Essential phrases for a successful Italian job interview:',
+          items: [
+            { italian: 'Il curriculum vitae', english: 'The resume/CV', pronunciation: 'eel kehr-ree-KOO-loh VEE-tah' },
+            { italian: "L'esperienza lavorativa", english: 'Work experience', pronunciation: 'leh-speh-RYEHn-tsah lah-voh-RAH-tee-vah' },
+            { italian: "L'istruzione", english: 'Education', pronunciation: 'lees-troo-TSYOH-neh' },
+            { italian: 'Le qualifiche', english: 'Qualifications', pronunciation: 'leh kwah-LEE-kee' },
+            { italian: 'Il colloquio di lavoro', english: 'The job interview', pronunciation: 'eel kohl-Loh-kwee-oh dee lah-VOH-roh' },
+            { italian: 'Perche vuole lavorare qui?', english: 'Why do you want to work here?', pronunciation: 'pehr-KEH VWOH-leh lah-VOH-rah-reh kwee' },
+            { italian: 'Quali sono i suoi punti di forza?', english: 'What are your strengths?', pronunciation: 'KWAH-lee SOH-noh ee SWOY pohn-tee dee FOHR-tsah' },
+            { italian: 'Lo stipendio', english: 'The salary', pronunciation: 'loh stee-PEN-dyoh' },
+            { italian: 'Il contratto', english: 'The contract', pronunciation: 'eel kohn-TRAHT-toh' },
+            { italian: 'A tempo pieno', english: 'Full-time', pronunciation: 'ah TEHM-poh PYEH-noh' },
+            { italian: 'Part-time', english: 'Part-time', pronunciation: 'pahrt-tah-eem' },
+          ],
+        },
+      },
+      {
+        type: 'example',
+        content: {
+          dialogue: [
+            { speaker: 'Sofia', italian: 'Buongiorno, sono qui per il colloquio di lavoro.', english: 'Good morning, I am here for the job interview.' },
+            { speaker: 'Interviewer', italian: 'Benvenuta! Ha portato il curriculum vitae?', english: 'Welcome! Did you bring your resume?' },
+            { speaker: 'Sofia', italian: 'Si, eccolo. Ho cinque anni di esperienza nel marketing.', english: 'Yes, here it is. I have five years of experience in marketing.' },
+            { speaker: 'Interviewer', italian: 'Perche vuole cambiare lavoro?', english: 'Why do you want to change jobs?' },
+            { speaker: 'Sofia', italian: 'Cerco nuove sfide professionali.', english: 'I am looking for new professional challenges.' },
+          ],
+        },
+      },
+      {
+        type: 'multiple_choice',
+        content: {
+          question: 'How do you say "job interview" in Italian?',
+          options: ['Il colloquio di lavoro', 'Il curriculum vitae', 'Il contratto', 'Lo stipendio'],
+          answer: 'Il colloquio di lavoro',
+        },
+      },
+      {
+        type: 'translation',
+        content: {
+          direction: 'en-to-it',
+          sentence: 'I have a degree in computer science.',
+          answer: 'Ho una laurea in informatica.',
+          hint: 'laurea = degree, informatica = computer science',
+        },
+      },
+      {
+        type: 'fill_blank',
+        content: {
+          sentence: '___ sono i suoi punti di forza?',
+          answer: 'Quali',
+          hint: 'Question word for "Which/What" (plural)',
+        },
+      },
+      {
+        type: 'review',
+        content: {
+          title: 'Job Interview Review',
+          items: [
+            { italian: 'Il colloquio di lavoro', english: 'The job interview' },
+            { italian: "L'esperienza lavorativa", english: 'Work experience' },
+            { italian: 'Le qualifiche', english: 'Qualifications' },
+            { italian: 'Lo stipendio', english: 'The salary' },
+            { italian: 'Il contratto', english: 'The contract' },
+          ],
+        },
+      },
+    ],
+  },
+  {
+    id: 'lesson-74',
+    title: 'Italian Cinema',
+    level: 'B1',
+    unit: 13,
+    unitTitle: 'Culture & Society',
+    description: 'Explore Italian movies, directors, and cinema vocabulary.',
+    duration: 20,
+    steps: [
+      {
+        type: 'learn',
+        content: {
+          title: 'Cinema Vocabulary',
+          text: 'Discuss Italian cinema with these essential terms:',
+          items: [
+            { italian: 'Il cinema', english: 'The cinema/movie theater', pronunciation: 'eel CHEE-neh-mah' },
+            { italian: 'Il film', english: 'The movie/film', pronunciation: 'eel FEELM' },
+            { italian: 'Il regista', english: 'The director', pronunciation: 'eel reh-JEE-stah' },
+            { italian: "L'attore / L'attrice", english: 'The actor/actress', pronunciation: 'laht-TOH-reh / laht-TREE-cheh' },
+            { italian: 'Il sequel', english: 'The sequel', pronunciation: 'eel SEH-kwehl' },
+            { italian: "La pellicola", english: 'The film/movie (traditional)', pronunciation: 'lah pehl-LEE-koh-lah' },
+            { italian: 'Il doppiaggio', english: 'The dubbing', pronunciation: 'eel dohp-pyah-JOH' },
+            { italian: 'Sottotitolato', english: 'Subtitled', pronunciation: 'soht-toh-tee-toh-LAH-toh' },
+            { italian: 'Il biglietto', english: 'The ticket', pronunciation: 'eel bee-LYEHT-toh' },
+            { italian: 'La proiezione', english: 'The screening', pronunciation: 'lah proh-yeht-TSYOH-neh' },
+            { italian: "Lo schermo", english: 'The screen', pronunciation: 'loh skehr-moh' },
+          ],
+        },
+      },
+      {
+        type: 'example',
+        content: {
+          dialogue: [
+            { speaker: 'Giulia', italian: 'Hai visto il nuovo film di Sorrentino?', english: 'Have you seen the new Sorrentino film?' },
+            { speaker: 'Marco', italian: 'Si, e fantastico! La recitazione e eccezionale.', english: 'Yes, it is fantastic! The acting is exceptional.' },
+            { speaker: 'Giulia', italian: 'Amo i classici del cinema italiano, come Fellini.', english: 'I love Italian cinema classics, like Fellini.' },
+            { speaker: 'Marco', italian: 'Anche io. "La Dolce Vita" e un capolavoro.', english: 'Me too. "La Dolce Vita" is a masterpiece.' },
+          ],
+        },
+      },
+      {
+        type: 'multiple_choice',
+        content: {
+          question: 'How do you say "director" in Italian?',
+          options: ["L'attore", 'Il regista', 'Il produttore', 'Lo scrittore'],
+          answer: 'Il regista',
+        },
+      },
+      {
+        type: 'translation',
+        content: {
+          direction: 'en-to-it',
+          sentence: 'This film is subtitled in Italian.',
+          answer: 'Questo film e sottotitolato in italiano.',
+          hint: 'sottotitolato = subtitled',
+        },
+      },
+      {
+        type: 'fill_blank',
+        content: {
+          sentence: 'Quale è il tuo ___ italiano preferito?',
+          answer: 'film',
+          hint: 'A motion picture',
+        },
+      },
+      {
+        type: 'review',
+        content: {
+          title: 'Cinema Review',
+          items: [
+            { italian: 'Il cinema', english: 'The cinema' },
+            { italian: 'Il film', english: 'The movie' },
+            { italian: 'Il regista', english: 'The director' },
+            { italian: "L'attore", english: 'The actor' },
+            { italian: 'Il doppiaggio', english: 'The dubbing' },
+          ],
+        },
+      },
+    ],
+  },
+  {
+    id: 'lesson-75',
+    title: 'Social Media & Internet',
+    level: 'B1',
+    unit: 14,
+    unitTitle: 'Modern Life',
+    description: 'Learn vocabulary for online communication, technology, and social media.',
+    duration: 20,
+    steps: [
+      {
+        type: 'learn',
+        content: {
+          title: 'Technology Vocabulary',
+          text: 'Navigate the digital world in Italian:',
+          items: [
+            { italian: "L'account", english: 'The account', pronunciation: 'lah-KOWNT' },
+            { italian: 'La password', english: 'The password', pronunciation: 'lah PAHS-wehrt' },
+            { italian: "L'email", english: 'The email', pronunciation: 'leh-MEYL' },
+            { italian: "Il social media", english: 'The social media', pronunciation: 'eel soh-SHYAH-lee MEH-dee-ah' },
+            { italian: 'Pubblicare', english: 'To post/publish', pronunciation: 'poob-blee-KAH-reh' },
+            { italian: 'Condividere', english: 'To share', pronunciation: 'kohn-dee-VEE-deh-reh' },
+            { italian: 'Il commento', english: 'The comment', pronunciation: 'eel kohm-MEHN-toh' },
+            { italian: 'Il like', english: 'The like', pronunciation: 'eel LAHK' },
+            { italian: 'Lo smartphone', english: 'The smartphone', pronunciation: 'loh SMAHRT-fohn' },
+            { italian: 'Il computer', english: 'The computer', pronunciation: 'eel kohm-POO-tehr' },
+            { italian: 'La connessione', english: 'The connection', pronunciation: 'lah kohn-neh-SOH-neh' },
+            { italian: 'Il sito web', english: 'The website', pronunciation: 'eel SEE-toh WEB' },
+          ],
+        },
+      },
+      {
+        type: 'example',
+        content: {
+          dialogue: [
+            { speaker: 'Sofia', italian: 'Hai visto il mio post su Instagram?', english: 'Did you see my post on Instagram?' },
+            { speaker: 'Luca', italian: 'Si, l\'ho commentato e messo like.', english: 'Yes, I commented on it and liked it.' },
+            { speaker: 'Sofia', italian: 'Devo controllare la mia email, ho troppe notifiche.', english: 'I need to check my email, I have too many notifications.' },
+            { speaker: 'Luca', italian: 'Anche io. Il social media mi fa perdere tempo!', english: 'Me too. Social media makes me waste time!' },
+          ],
+        },
+      },
+      {
+        type: 'multiple_choice',
+        content: {
+          question: 'How do you say "to share" in Italian?',
+          options: ['Pubblicare', 'Condividere', 'Commentare', 'Seguire'],
+          answer: 'Condividere',
+        },
+      },
+      {
+        type: 'translation',
+        content: {
+          direction: 'en-to-it',
+          sentence: 'I posted a photo on my social media.',
+          answer: 'Ho pubblicato una foto sul mio social media.',
+          hint: 'pubblicato = posted, foto = photo',
+        },
+      },
+      {
+        type: 'fill_blank',
+        content: {
+          sentence: 'Ho dimenticato la ___ del mio account.',
+          answer: 'password',
+          hint: 'The secret word to log in',
+        },
+      },
+      {
+        type: 'review',
+        content: {
+          title: 'Technology Review',
+          items: [
+            { italian: "L'email", english: 'The email' },
+            { italian: 'Pubblicare', english: 'To post' },
+            { italian: 'Condividere', english: 'To share' },
+            { italian: 'Il commento', english: 'The comment' },
+            { italian: 'Lo smartphone', english: 'The smartphone' },
+          ],
+        },
+      },
+    ],
+  },
+  {
+    id: 'lesson-76',
+    title: 'At the Post Office',
+    level: 'A2',
+    unit: 14,
+    unitTitle: 'Modern Life',
+    description: 'Learn how to send mail and packages and use postal services.',
+    duration: 18,
+    steps: [
+      {
+        type: 'learn',
+        content: {
+          title: 'Post Office Vocabulary',
+          text: 'Handle mailing tasks at the Italian post office:',
+          items: [
+            { italian: "L'ufficio postale", english: 'The post office', pronunciation: 'leh-OO-fyoh pohs-TAH-leh' },
+            { italian: 'La busta', english: 'The envelope', pronunciation: 'lah BOO-stah' },
+            { italian: 'Il francobollo', english: 'The stamp', pronunciation: 'eel frahn-KOH-bohl-loh' },
+            { italian: 'Il pacchetto', english: 'The package', pronunciation: 'eel pahk-KEHT-toh' },
+            { italian: 'La lettera', english: 'The letter', pronunciation: 'lah LEHT-teh-rah' },
+            { italian: 'Il pacco raccomandato', english: 'The registered mail', pronunciation: 'eel PAHK-koh rahk-koh-mahn-DAH-toh' },
+            { italian: 'Il servizio espresso', english: 'The express service', pronunciation: 'eel sehr-VEE-tsyoh eh-SPREHS-soh' },
+            { italian: 'La carta d\'identita', english: 'The identity card', pronunciation: 'lah KAHR-tah dee-dehn-tee-TAH' },
+            { italian: 'Il modulo', english: 'The form', pronunciation: 'eel MOH-doo-loh' },
+            { italian: 'Spedire', english: 'To send', pronunciation: 'speh-DEE-reh' },
+            { italian: 'La consegna', english: 'The delivery', pronunciation: 'lah kohn-SEH-nyah' },
+          ],
+        },
+      },
+      {
+        type: 'example',
+        content: {
+          dialogue: [
+            { speaker: 'Marco', italian: 'Buongiorno, vorrei spedire questo pacco in Francia.', english: 'Good morning, I would like to send this package to France.' },
+            { speaker: 'Clerk', italian: 'Vuole il servizio espresso o ordinario?', english: 'Do you want the express or regular service?' },
+            { speaker: 'Marco', italian: 'Espresso, per favore. Quanto costa?', english: 'Express, please. How much does it cost?' },
+            { speaker: 'Clerk', italian: 'Dodici euro. Compili questo modulo.', english: 'Twelve euros. Fill out this form.' },
+          ],
+        },
+      },
+      {
+        type: 'multiple_choice',
+        content: {
+          question: 'How do you say "stamp" in Italian?',
+          options: ['La busta', 'Il francobollo', 'Il pacchetto', 'La lettera'],
+          answer: 'Il francobollo',
+        },
+      },
+      {
+        type: 'translation',
+        content: {
+          direction: 'en-to-it',
+          sentence: 'I would like to send a registered letter.',
+          answer: 'Vorrei spedire una raccomandata.',
+          hint: 'raccomandata = registered letter',
+        },
+      },
+      {
+        type: 'fill_blank',
+        content: {
+          sentence: 'Vorrei spedire questo ___ in Italia, per favore.',
+          answer: 'pacchetto',
+          hint: 'A wrapped item to send by mail',
+        },
+      },
+      {
+        type: 'review',
+        content: {
+          title: 'Post Office Review',
+          items: [
+            { italian: "L'ufficio postale", english: 'The post office' },
+            { italian: 'Il francobollo', english: 'The stamp' },
+            { italian: 'Il pacchetto', english: 'The package' },
+            { italian: 'La lettera', english: 'The letter' },
+            { italian: 'Spedire', english: 'To send' },
+          ],
+        },
+      },
+    ],
+  },
+  {
+    id: 'lesson-77',
+    title: 'Emotions & Feelings',
+    level: 'A2',
+    unit: 14,
+    unitTitle: 'Modern Life',
+    description: 'Express your emotions and describe mental states in Italian.',
+    duration: 18,
+    steps: [
+      {
+        type: 'learn',
+        content: {
+          title: 'Emotion Vocabulary',
+          text: 'Express a range of emotions and feelings in Italian:',
+          items: [
+            { italian: 'Felice', english: 'Happy', pronunciation: 'feh-LEE-cheh' },
+            { italian: 'Triste', english: 'Sad', pronunciation: 'TREES-teh' },
+            { italian: 'Arrabbiato/a', english: 'Angry', pronunciation: 'ahr-rahb-BYAH-toh/tah' },
+            { italian: 'Preoccupato/a', english: 'Worried', pronunciation: 'preh-oh-koo-PAH-toh/tah' },
+            { italian: 'Sollevato/a', english: 'Relieved', pronunciation: 'sohl-leh-VAH-toh/tah' },
+            { italian: 'Deluso/a', english: 'Disappointed', pronunciation: 'deh-LOO-zoh/zah' },
+            { italian: 'Orgoglioso/a', english: 'Proud', pronunciation: 'ohr-GOH-lyoh-zoh/zah' },
+            { italian: 'Vergognoso/a', english: 'Ashamed', pronunciation: 'vehr-GOH-nyoh-zoh/zah' },
+            { italian: 'Ansioso/a', english: 'Anxious', pronunciation: 'ahn-SYOH-zoh/zah' },
+            { italian: 'Riconoscente', english: 'Grateful', pronunciation: 'ree-koh-noh-SCHEN-teh' },
+            { italian: 'Soffrire', english: 'To suffer', pronunciation: 'sohf-FREE-reh' },
+            { italian: 'Sentirsi', english: 'To feel', pronunciation: 'sehn-TEER-see' },
+          ],
+        },
+      },
+      {
+        type: 'example',
+        content: {
+          dialogue: [
+            { speaker: 'A', italian: 'Come ti senti oggi?', english: 'How do you feel today?' },
+            { speaker: 'B', italian: 'Sto meglio. Ieri ero molto triste, ma ora sono sollevato.', english: 'I am better. Yesterday I was very sad, but now I am relieved.' },
+            { speaker: 'A', italian: 'Cosa ti ha preoccupato tanto?', english: 'What worried you so much?' },
+            { speaker: 'B', italian: 'Un esame importante. Ma l\'ho passato!', english: 'An important exam. But I passed it!' },
+            { speaker: 'A', italian: 'Bravo! Sono orgoglioso di te.', english: 'Well done! I am proud of you.' },
+          ],
+        },
+      },
+      {
+        type: 'multiple_choice',
+        content: {
+          question: 'How do you say "worried" in Italian?',
+          options: ['Felice', 'Triste', 'Preoccupato', 'Orgoglioso'],
+          answer: 'Preoccupato',
+        },
+      },
+      {
+        type: 'translation',
+        content: {
+          direction: 'it-to-en',
+          sentence: 'Mi sento molto ansioso prima dell\'esame.',
+          answer: 'I feel very anxious before the exam.',
+          hint: 'ansioso = anxious, prima = before',
+        },
+      },
+      {
+        type: 'fill_blank',
+        content: {
+          sentence: 'Oggi sono ___. Ho superato l\'esame!',
+          answer: 'felice',
+          hint: 'A positive emotion meaning happy',
+        },
+      },
+      {
+        type: 'review',
+        content: {
+          title: 'Emotions Review',
+          items: [
+            { italian: 'Felice', english: 'Happy' },
+            { italian: 'Triste', english: 'Sad' },
+            { italian: 'Preoccupato/a', english: 'Worried' },
+            { italian: 'Orgoglioso/a', english: 'Proud' },
+            { italian: 'Riconoscente', english: 'Grateful' },
+          ],
+        },
+      },
+    ],
+  },
+  {
+    id: 'lesson-78',
+    title: 'Politics & Current Events',
+    level: 'C1',
+    unit: 15,
+    unitTitle: 'Advanced Communication',
+    description: 'Discuss political vocabulary and current events in Italian.',
+    duration: 30,
+    steps: [
+      {
+        type: 'learn',
+        content: {
+          title: 'Political Vocabulary',
+          text: 'Discuss politics and current events with advanced vocabulary:',
+          items: [
+            { italian: 'Il governo', english: 'The government', pronunciation: 'eel goh-VEHR-noh' },
+            { italian: 'Il presidente', english: 'The president', pronunciation: 'eel preh-zee-DEHN-teh' },
+            { italian: 'Il parlamento', english: 'The parliament', pronunciation: 'eel pahr-lah-MEHN-toh' },
+            { italian: 'Il partito', english: 'The political party', pronunciation: 'eel pahr-TEE-toh' },
+            { italian: 'Le elezioni', english: 'The elections', pronunciation: 'leh eh-leh-TSYOH-nee' },
+            { italian: 'La legge', english: 'The law', pronunciation: 'lah LEHD-jeh' },
+            { italian: 'Il diritto', english: 'The right', pronunciation: 'eel dee-RTOH' },
+            { italian: 'La democrazia', english: 'Democracy', pronunciation: 'lah deh-moh-KRAH-tsyah' },
+            { italian: 'La giustizia', english: 'Justice', pronunciation: 'lah joo-STEE-tsyah' },
+            { italian: 'La politica', english: 'Politics', pronunciation: 'lah poh-LEE-tee-kah' },
+            { italian: 'Il giornale', english: 'The newspaper', pronunciation: 'eel johr-NAH-leh' },
+            { italian: 'Le notizie', english: 'The news', pronunciation: 'leh noh-TEE-tsyeh' },
+          ],
+        },
+      },
+      {
+        type: 'example',
+        content: {
+          dialogue: [
+            { speaker: 'Paolo', italian: 'Hai letto il giornale oggi?', english: 'Did you read the newspaper today?' },
+            { speaker: 'Elena', italian: 'Si, ci sono notizie importanti sul governo.', english: 'Yes, there is important news about the government.' },
+            { speaker: 'Paolo', italian: 'Quali sono le ultime notizie sulle elezioni?', english: 'What are the latest news about the elections?' },
+            { speaker: 'Elena', italian: 'Il presidente ha parlato al parlamento.', english: 'The president spoke at parliament.' },
+            { speaker: 'Paolo', italian: 'La politica italiana e sempre molto interessante.', english: 'Italian politics is always very interesting.' },
+          ],
+        },
+      },
+      {
+        type: 'multiple_choice',
+        content: {
+          question: 'How do you say "government" in Italian?',
+          options: ['Il parlamento', 'Il governo', 'Il partito', 'La legge'],
+          answer: 'Il governo',
+        },
+      },
+      {
+        type: 'translation',
+        content: {
+          direction: 'en-to-it',
+          sentence: 'The elections will be held next year.',
+          answer: 'Le elezioni si terranno il prossimo anno.',
+          hint: 'si terranno = will be held, prossimo anno = next year',
+        },
+      },
+      {
+        type: 'fill_blank',
+        content: {
+          sentence: 'Il ___ ha annunciato nuove leggi per il paese.',
+          answer: 'governo',
+          hint: 'The ruling body of a country',
+        },
+      },
+      {
+        type: 'review',
+        content: {
+          title: 'Politics Review',
+          items: [
+            { italian: 'Il governo', english: 'The government' },
+            { italian: 'Il parlamento', english: 'The parliament' },
+            { italian: 'Le elezioni', english: 'The elections' },
+            { italian: 'La legge', english: 'The law' },
+            { italian: 'La democrazia', english: 'Democracy' },
+          ],
+        },
+      },
+    ],
+  },
+  {
+    id: 'lesson-79',
+    title: 'Italian Geography',
+    level: 'B1',
+    unit: 15,
+    unitTitle: 'Advanced Communication',
+    description: 'Learn about Italian regions, cities, and landmarks.',
+    duration: 22,
+    steps: [
+      {
+        type: 'learn',
+        content: {
+          title: 'Geography Vocabulary',
+          text: 'Explore Italy with these geographical terms and famous places:',
+          items: [
+            { italian: 'La regione', english: 'The region', pronunciation: 'lah reh-JOH-neh' },
+            { italian: 'La citta', english: 'The city', pronunciation: 'lah cheet-TAH' },
+            { italian: 'Il paese', english: 'The country/village', pronunciation: 'eel pah-EH-zeh' },
+            { italian: 'La montagna', english: 'The mountain', pronunciation: 'lah mohn-TAH-nyah' },
+            { italian: 'Il lago', english: 'The lake', pronunciation: 'eel LAH-goh' },
+            { italian: 'Il mare', english: 'The sea', pronunciation: 'eel MAH-reh' },
+            { italian: "L'isola", english: 'The island', pronunciation: 'lee-ZOH-lah' },
+            { italian: 'Il fiume', english: 'The river', pronunciation: 'eel FYOO-meh' },
+            { italian: 'La costa', english: 'The coast', pronunciation: 'lah KOH-stah' },
+            { italian: 'Il ponte', english: 'The bridge', pronunciation: 'eel POHN-teh' },
+            { italian: 'Il Duomo', english: 'The Cathedral', pronunciation: 'eel DWOH-moh' },
+            { italian: 'Il Colosseo', english: 'The Colosseum', pronunciation: 'eel koh-lohs-SEH-oh' },
+          ],
+        },
+      },
+      {
+        type: 'example',
+        content: {
+          dialogue: [
+            { speaker: 'Marco', italian: 'Dove sei stato in vacanza?', english: 'Where have you been on vacation?' },
+            { speaker: 'Giulia', italian: 'Sono stata in Toscana. Abbiamo visitato Firenze e Pisa.', english: 'I was in Tuscany. We visited Florence and Pisa.' },
+            { speaker: 'Marco', italian: 'Che bello! Il Colosseo di Roma e impressionante.', english: 'How nice! The Colosseum in Rome is impressive.' },
+            { speaker: 'Giulia', italian: "L'Italia ha tantissime citta meravigliose.", english: 'Italy has so many wonderful cities.' },
+          ],
+        },
+      },
+      {
+        type: 'multiple_choice',
+        content: {
+          question: 'How do you say "region" in Italian?',
+          options: ['La citta', 'La regione', 'Il paese', "L'isola"],
+          answer: 'La regione',
+        },
+      },
+      {
+        type: 'translation',
+        content: {
+          direction: 'en-to-it',
+          sentence: 'Milan is a beautiful city in the north of Italy.',
+          answer: 'Milano è una citta bellissima nel nord dell\'Italia.',
+          hint: 'bellissima = very beautiful, nord = north',
+        },
+      },
+      {
+        type: 'fill_blank',
+        content: {
+          sentence: 'Roma è la ___ d\'Italia.',
+          answer: 'capitale',
+          hint: 'The main city of a country',
+        },
+      },
+      {
+        type: 'review',
+        content: {
+          title: 'Geography Review',
+          items: [
+            { italian: 'La regione', english: 'The region' },
+            { italian: 'La citta', english: 'The city' },
+            { italian: 'La montagna', english: 'The mountain' },
+            { italian: 'Il mare', english: 'The sea' },
+            { italian: "L'isola", english: 'The island' },
+          ],
+        },
+      },
+    ],
+  },
+  {
+    id: 'lesson-80',
+    title: 'Environmental Issues',
+    level: 'B2',
+    unit: 15,
+    unitTitle: 'Advanced Communication',
+    description: 'Discuss ecology, sustainability, and nature in Italian.',
+    duration: 25,
+    steps: [
+      {
+        type: 'learn',
+        content: {
+          title: 'Environmental Vocabulary',
+          text: 'Discuss environmental topics with these essential terms:',
+          items: [
+            { italian: "L'ambiente", english: 'The environment', pronunciation: 'lahm-BYEN-teh' },
+            { italian: 'Il cambiamento climatico', english: 'Climate change', pronunciation: 'eel kahm-byah-MEHN-toh klee-mah-TEE-koh' },
+            { italian: "L'inquinamento", english: 'The pollution', pronunciation: 'leen-kwee-nah-MEHN-toh' },
+            { italian: 'Il riciclo', english: 'The recycling', pronunciation: 'eel ree-CHEE-kloh' },
+            { italian: "L'energia rinnovabile", english: 'Renewable energy', pronunciation: 'leh-NEHR-jah reen-noh-VAH-bee-leh' },
+            { italian: 'La sostenibilita', english: 'Sustainability', pronunciation: 'lah sohs-teh-nee-bee-lee-TAH' },
+            { italian: "L'ecologia", english: 'Ecology', pronunciation: 'leh-koh-LOH-jah' },
+            { italian: 'La deforestazione', english: 'Deforestation', pronunciation: 'lah deh-foh-rehs-tah-TSYOH-neh' },
+            { italian: "L'estinzione", english: 'Extinction', pronunciation: 'lehs-TEEN-tsyoh-neh' },
+            { italian: 'Il riscaldamento globale', english: 'Global warming', pronunciation: 'eel rees-kahl-dah-MEHN-toh gloh-BAH-leh' },
+            { italian: 'La biodiversita', english: 'Biodiversity', pronunciation: 'lah byoh-dee-vehr-see-TAH' },
+          ],
+        },
+      },
+      {
+        type: 'example',
+        content: {
+          dialogue: [
+            { speaker: 'Elena', italian: 'Hai letto le notizie sul cambiamento climatico?', english: 'Have you read the news about climate change?' },
+            { speaker: 'Luca', italian: "Si, e preoccupante. L'inquinamento sta aumentando.", english: 'Yes, it is worrying. Pollution is increasing.' },
+            { speaker: 'Elena', italian: 'Dobbiamo riciclare di piu e usare energia rinnovabile.', english: 'We need to recycle more and use renewable energy.' },
+            { speaker: 'Luca', italian: 'La sostenibilita e fondamentale per il futuro del pianeta.', english: 'Sustainability is fundamental for the future of the planet.' },
+          ],
+        },
+      },
+      {
+        type: 'multiple_choice',
+        content: {
+          question: 'How do you say "climate change" in Italian?',
+          options: ["L'inquinamento", 'Il cambiamento climatico', 'Il riciclo', "L'ecologia"],
+          answer: 'Il cambiamento climatico',
+        },
+      },
+      {
+        type: 'translation',
+        content: {
+          direction: 'en-to-it',
+          sentence: 'We must protect the environment for future generations.',
+          answer: 'Dobbiamo proteggere l\'ambiente per le generazioni future.',
+          hint: 'dobbiamo = we must, proteggere = to protect, generazioni = generations',
+        },
+      },
+      {
+        type: 'fill_blank',
+        content: {
+          sentence: 'Dobbiamo riciclare per ridurre l\'___.',
+          answer: 'inquinamento',
+          hint: 'The contamination of the environment',
+        },
+      },
+      {
+        type: 'review',
+        content: {
+          title: 'Environment Review',
+          items: [
+            { italian: "L'ambiente", english: 'The environment' },
+            { italian: 'Il cambiamento climatico', english: 'Climate change' },
+            { italian: "L'inquinamento", english: 'The pollution' },
+            { italian: 'Il riciclo', english: 'The recycling' },
+            { italian: "L'energia rinnovabile", english: 'Renewable energy' },
+          ],
+        },
+      },
+    ],
+  },
 ];
 
 export default lessons;
