@@ -2123,6 +2123,552 @@ const grammar = [
       },
     ],
   },
+  {
+    id: 'grammar-51',
+    title: 'Temporal Conjunctions (prima che, dopo che, non appena)',
+    level: 'B2',
+    category: 'Conjunctions',
+    sections: [
+      {
+        subtitle: 'Key Temporal Conjunctions',
+        content: 'Italian uses specific temporal conjunctions to order events in time. Each requires a particular mood.',
+        examples: [
+          { italian: 'Prima che parta, devo fare i bagagli.', english: 'Before I leave, I have to pack.' },
+          { italian: 'Dopo che avro finito, ti chiamero.', english: 'After I have finished, I will call you.' },
+          { italian: 'Non appena ebbi letto la lettera, piansi.', english: 'As soon as I read the letter, I cried.' },
+        ],
+        exercise: {
+          type: 'fill_blank',
+          question: '_____ tu parta, chiudi la porta.',
+          options: ['Prima che', 'Dopo che', 'Non appena', 'Quando'],
+          answer: 'Prima che',
+        },
+      },
+      {
+        subtitle: 'Mood Requirements',
+        content: 'Prima che always requires the subjunctive. Dopo che typically takes the indicative. Non appena can take indicative or passato remoto.',
+        examples: [
+          { italian: 'Prima che sia troppo tardi, agiamo.', english: 'Before it is too late, let us act.' },
+          { italian: 'Dopo che ho mangiato, esco a passeggiare.', english: 'After I eat, I go for a walk.' },
+        ],
+        exercise: {
+          type: 'multiple_choice',
+          question: 'Which conjunction requires the subjunctive mood?',
+          options: ['Dopo che', 'Prima che', 'Non appena', 'Quando'],
+          answer: 'Prima che',
+        },
+      },
+    ],
+  },
+  {
+    id: 'grammar-52',
+    title: 'Emphatic Structures (come, cosi...che, tanto...che)',
+    level: 'B2',
+    category: 'Emphasis',
+    sections: [
+      {
+        subtitle: 'Emphatic Comparisons with Come',
+        content: 'Come is used in exclamatory sentences to emphasize a quality, similar to "how" in English.',
+        examples: [
+          { italian: 'Come e bello questo paesaggio!', english: 'How beautiful this landscape is!' },
+          { italian: 'Come canta bene!', english: 'How well she sings!' },
+        ],
+        exercise: {
+          type: 'fill_blank',
+          question: '_____ e bravo questo studente!',
+          options: ['Come', 'Che', 'Quanto', 'Cosi'],
+          answer: 'Come',
+        },
+      },
+      {
+        subtitle: 'Cosi...che and Tanto...che',
+        content: 'Cosi...che means "so...that" and tanto...che means "so much...that". Both express consequence.',
+        examples: [
+          { italian: 'E cosi stanco che non riesco a camminare.', english: 'I am so tired that I cannot walk.' },
+          { italian: 'Tanto ti voglio bene che farei tutto per te.', english: 'I love you so much that I would do anything for you.' },
+        ],
+        exercise: {
+          type: 'multiple_choice',
+          question: 'Cosi...che translates to:',
+          options: ['so...that', 'as...as', 'more...than', 'such...as'],
+          answer: 'so...that',
+        },
+      },
+    ],
+  },
+  {
+    id: 'grammar-53',
+    title: 'Passive with Venire',
+    level: 'B2',
+    category: 'Voice',
+    sections: [
+      {
+        subtitle: 'Venire as Passive Auxiliary',
+        content: 'Italian forms the passive voice with essere or venire. Venire emphasizes the action rather than the result.',
+        examples: [
+          { italian: 'Il libro viene letto da tutti.', english: 'The book is read by everyone.' },
+          { italian: 'Le finestre vengono aperte ogni mattina.', english: 'The windows are opened every morning.' },
+          { italian: 'Il progetto sara completato domani.', english: 'The project will be completed tomorrow. (with essere)' },
+        ],
+        exercise: {
+          type: 'fill_blank',
+          question: 'La lettera _____ inviata ieri. (send)',
+          options: ['e stata', 'viene', 'e', 'sarà'],
+          answer: 'e stata',
+        },
+      },
+      {
+        subtitle: 'When to Use Venire vs Essere',
+        content: 'Venire is preferred in colloquial speech and for ongoing actions. Essere is more formal and common in written Italian.',
+        examples: [
+          { italian: 'I tiratori vengono arrestati dalla polizia.', english: 'The thieves are being arrested by the police.' },
+          { italian: 'Il premio e stato vinto da lei.', english: 'The prize was won by her.' },
+        ],
+        exercise: {
+          type: 'multiple_choice',
+          question: 'Which auxiliary is more common in formal written Italian for the passive?',
+          options: ['Essere', 'Venire', 'Avere', 'Stare'],
+          answer: 'Essere',
+        },
+      },
+    ],
+  },
+  {
+    id: 'grammar-54',
+    title: 'Personal Infinitive (Infinito Personale)',
+    level: 'B2',
+    category: 'Verb Forms',
+    sections: [
+      {
+        subtitle: 'What is the Personal Infinitive',
+        content: 'The personal infinitive conjugates the infinitive to show who performs the action. It is used in subordinate clauses instead of the subjunctive.',
+        examples: [
+          { italian: 'Bisogna che io parta. -> Bisogna che io parta / Partire.', english: 'It is necessary that I leave.' },
+          { italian: 'E meglio che tu studi di piu.', english: 'It is better that you study more.' },
+        ],
+        exercise: {
+          type: 'fill_blank',
+          question: 'E importante che voi _____ a tempo. (arrive)',
+          options: ['arriviate', 'arrivare', 'arrivando', 'arrivato'],
+          answer: 'arriviate',
+        },
+      },
+      {
+        subtitle: 'When to Use the Personal Infinitive',
+        content: 'It is used after expressions of necessity, possibility, and desire. It is more common in written and formal Italian.',
+        examples: [
+          { italian: 'Prima di tornare a casa, devo finire il lavoro.', english: 'Before returning home, I must finish the work.' },
+          { italian: 'Senza che nessuno sappia, uscimmo di nascosto.', english: 'Without anyone knowing, we left secretly.' },
+        ],
+        exercise: {
+          type: 'multiple_choice',
+          question: 'The personal infinitive is most common in:',
+          options: ['Written and formal Italian', 'Spoken and informal Italian', 'Poetry only', 'Legal documents only'],
+          answer: 'Written and formal Italian',
+        },
+      },
+    ],
+  },
+  {
+    id: 'grammar-55',
+    title: 'Absolute Past (Passato Remoto) Overview',
+    level: 'B2',
+    category: 'Tenses',
+    sections: [
+      {
+        subtitle: 'Forming the Passato Remoto',
+        content: 'The passato remoto is a simple past tense used mainly in written Italian, historical narration, and in southern Italy.',
+        examples: [
+          { italian: 'Ieri ho mangiato una pizza. (passato prossimo)', english: 'Yesterday I ate a pizza. (northern Italy)' },
+          { italian: 'Ieri mangiai una pizza. (passato remoto)', english: 'Yesterday I ate a pizza. (written/southern)' },
+        ],
+        exercise: {
+          type: 'fill_blank',
+          question: 'L\'anno scorso noi _____ in Italia. (travel)',
+          options: ['viaggiammo', 'abbiamo viaggiato', 'viaggiamo', 'viaggeremo'],
+          answer: 'viaggiammo',
+        },
+      },
+      {
+        subtitle: 'Regular Passato Remoto Endings',
+        content: 'For -are: -ai, -asti, -o, -ammo, -aste, -arono. For -ere: -ei, -esti, -e, -emmo, -este, -erono. For -ire: -ii, -isti, -i, -immo, -iste, -irono.',
+        examples: [
+          { italian: 'Parlai, parlasti, parlo, parlammo, parlaste, parlarono', english: 'I spoke, you spoke, he spoke, we spoke...' },
+          { italian: 'Scrissi, scrivesti, scrisse, scrivemmo, scriveste, scrissero', english: 'I wrote, you wrote, he wrote, we wrote...' },
+        ],
+        exercise: {
+          type: 'multiple_choice',
+          question: 'What is the passato remoto ending for "io" with -are verbs?',
+          options: ['-ai', '-ei', '-ii', '-o'],
+          answer: '-ai',
+        },
+      },
+    ],
+  },
+  {
+    id: 'grammar-56',
+    title: 'Historical Present',
+    level: 'B2',
+    category: 'Tenses',
+    sections: [
+      {
+        subtitle: 'Using Present Tense for Past Events',
+        content: 'Italian uses the present tense to narrate past events, making stories more vivid and immediate.',
+        examples: [
+          { italian: 'Ieri vado al cinema e vedo un film fantastico.', english: 'Yesterday I go to the cinema and see a fantastic film.' },
+          { italian: 'Nel 1492 Colombo arriva in America.', english: 'In 1492 Columbus arrives in America.' },
+        ],
+        exercise: {
+          type: 'fill_blank',
+          question: 'Nel 1969, Armstrong _____ sulla Luna. (land)',
+          options: ['atterra', 'atterro', 'atterrava', 'atterrera'],
+          answer: 'atterra',
+        },
+      },
+      {
+        subtitle: 'When to Use the Historical Present',
+        content: 'It is common in storytelling, newspaper headlines, sports commentary, and colloquial speech to make narratives more engaging.',
+        examples: [
+          { italian: 'Allora entra nella stanza e dice: "Non e vero!"', english: 'Then he enters the room and says: "It is not true!"' },
+          { italian: 'Il giocatore tira e segna un gol incredibile!', english: 'The player shoots and scores an incredible goal!' },
+        ],
+        exercise: {
+          type: 'multiple_choice',
+          question: 'The historical present is commonly used in:',
+          options: ['Storytelling and headlines', 'Formal letters', 'Scientific reports', 'Legal documents'],
+          answer: 'Storytelling and headlines',
+        },
+      },
+    ],
+  },
+  {
+    id: 'grammar-57',
+    title: 'Progressive Forms (Stare + Gerund)',
+    level: 'B2',
+    category: 'Verb Forms',
+    sections: [
+      {
+        subtitle: 'Forming the Progressive',
+        content: 'The progressive is formed with stare + gerund. It emphasizes an action in progress.',
+        examples: [
+          { italian: 'Sto studiando per l\'esame.', english: 'I am studying for the exam.' },
+          { italian: 'Stavano mangiando quando sono arrivato.', english: 'They were eating when I arrived.' },
+        ],
+        exercise: {
+          type: 'fill_blank',
+          question: 'Che cosa _____ in questo momento? (do)',
+          options: ['sto facendo', 'faccio', 'farei', 'facesse'],
+          answer: 'sto facendo',
+        },
+      },
+      {
+        subtitle: 'Progressive in Different Tenses',
+        content: 'Stare can be conjugated in any tense to form the progressive: sto facendo, facevo facendo, faro facendo.',
+        examples: [
+          { italian: 'A quest\'ora starai dormendo.', english: 'By now you will probably be sleeping.' },
+          { italian: 'Mentre stavo camminando, ho trovato un portafoglio.', english: 'While I was walking, I found a wallet.' },
+        ],
+        exercise: {
+          type: 'multiple_choice',
+          question: 'Which construction forms the Italian progressive?',
+          options: ['Stare + gerund', 'Essere + past participle', 'Avere + infinitive', 'Dovere + infinitive'],
+          answer: 'Stare + gerund',
+        },
+      },
+    ],
+  },
+  {
+    id: 'grammar-58',
+    title: 'Double and Triple Pronouns',
+    level: 'B2',
+    category: 'Pronouns',
+    sections: [
+      {
+        subtitle: 'Combining Two Object Pronouns',
+        content: 'When two pronouns appear together, the order is: indirect (mi, ti, gli, le, ci, vi, gli) + direct (lo, la, li, le, ne). With third person, gli becomes glielo.',
+        examples: [
+          { italian: 'Me lo dai? (me = indirect, lo = direct)', english: 'Will you give it to me?' },
+          { italian: 'Gliele ho raccontate.', english: 'I told them (stories) to him/her.' },
+        ],
+        exercise: {
+          type: 'fill_blank',
+          question: '_____ puoi prestare? (it to me)',
+          options: ['Me lo', 'Lo me', 'Mi lo', 'Lo mi'],
+          answer: 'Me lo',
+        },
+      },
+      {
+        subtitle: 'Triple Pronoun Combinations',
+        content: 'Three pronouns can combine: indirect + direct + ci/ne. The form glielo combines gli + lo/la.',
+        examples: [
+          { italian: 'Se lo porto io.', english: 'I will bring it to you. (se = te + lo)' },
+          { italian: 'Gliene parlero domani.', english: 'I will speak to him about it tomorrow.' },
+        ],
+        exercise: {
+          type: 'multiple_choice',
+          question: 'What does "glielo" replace?',
+          options: ['gli + lo/la', 'gli + li/le', 'le + lo', 'mi + lo'],
+          answer: 'gli + lo/la',
+        },
+      },
+    ],
+  },
+  {
+    id: 'grammar-59',
+    title: 'Exclamatory and Interrogative Pronouns',
+    level: 'B2',
+    category: 'Pronouns',
+    sections: [
+      {
+        subtitle: 'Exclamatory Use',
+        content: 'Che, quanto, come, and quanto are used in exclamations to express surprise, admiration, or emotion.',
+        examples: [
+          { italian: 'Che bel giorno!', english: 'What a beautiful day!' },
+          { italian: 'Quanta gente!', english: 'So many people!' },
+          { italian: 'Come corre!', english: 'How fast he runs!' },
+        ],
+        exercise: {
+          type: 'fill_blank',
+          question: '_____ tempo bellissimo!',
+          options: ['Che', 'Come', 'Quanto', 'Quale'],
+          answer: 'Che',
+        },
+      },
+      {
+        subtitle: 'Interrogative Use',
+        content: 'The same words function as interrogatives to ask questions. Quale and chi are used for selection and identity.',
+        examples: [
+          { italian: 'Chi e quella persona?', english: 'Who is that person?' },
+          { italian: 'Quale preferisci?', english: 'Which one do you prefer?' },
+          { italian: 'Come si dice in italiano?', english: 'How do you say it in Italian?' },
+        ],
+        exercise: {
+          type: 'multiple_choice',
+          question: 'Which word asks about identity?',
+          options: ['Chi', 'Quale', 'Come', 'Quanto'],
+          answer: 'Chi',
+        },
+      },
+    ],
+  },
+  {
+    id: 'grammar-60',
+    title: 'Negative Constructions (Nessuno, Nulla, Mai, Neanche)',
+    level: 'B2',
+    category: 'Negation',
+    sections: [
+      {
+        subtitle: 'Negative Pronouns and Adverbs',
+        content: 'Italian uses nessuno (nobody/no one), nulla (nothing), mai (never), and neanche (not even/ neither) to negate.',
+        examples: [
+          { italian: 'Non ho visto nessuno.', english: 'I did not see anyone.' },
+          { italian: 'Non c\'e nulla da fare.', english: 'There is nothing to do.' },
+          { italian: 'Non vado mai al cinema.', english: 'I never go to the cinema.' },
+        ],
+        exercise: {
+          type: 'fill_blank',
+          question: 'Non ho _____ tempo per uscire. (no)',
+          options: ['nessun', 'non', 'niente', 'neanche'],
+          answer: 'nessun',
+        },
+      },
+      {
+        subtitle: 'Double Negation in Italian',
+        content: 'Italian often uses non + negative word (double negation), which is grammatically correct and standard.',
+        examples: [
+          { italian: 'Non ho mai parlato con nessuno.', english: 'I have never spoken with anyone.' },
+          { italian: 'Non voglio niente.', english: 'I do not want anything.' },
+        ],
+        exercise: {
+          type: 'multiple_choice',
+          question: 'In Italian, double negation is:',
+          options: ['Grammatically correct', 'An error', 'Only used in formal speech', 'Only used in writing'],
+          answer: 'Grammatically correct',
+        },
+      },
+    ],
+  },
+  {
+    id: 'grammar-61',
+    title: 'Indefinite Pronouns and Adjectives',
+    level: 'B2',
+    category: 'Pronouns',
+    sections: [
+      {
+        subtitle: 'Common Indefinite Words',
+        content: 'Italian has many indefinite pronouns/adjectives: qualcuno (someone), qualcosa (something), tutti (all), ogni (each), alcuni (some).',
+        examples: [
+          { italian: 'Qualcuno ti ha chiamato.', english: 'Someone called you.' },
+          { italian: 'Ho trovato qualcosa di interessante.', english: 'I found something interesting.' },
+          { italian: 'Ogni studente deve studiare.', english: 'Every student must study.' },
+        ],
+        exercise: {
+          type: 'fill_blank',
+          question: '_____ vuole andare alla festa. (everyone)',
+          options: ['Tutti', 'Qualcuno', 'Nessuno', 'Qualcosa'],
+          answer: 'Tutti',
+        },
+      },
+      {
+        subtitle: 'Indefinite Adjectives and Agreement',
+        content: 'Indefinite adjectives agree in gender and number with the noun they modify. Qualche is always singular.',
+        examples: [
+          { italian: 'Ho qualche problema da risolvere.', english: 'I have some problems to solve. (qualche + singular)' },
+          { italian: 'Alcuni amici vengono alla festa.', english: 'Some friends are coming to the party.' },
+        ],
+        exercise: {
+          type: 'multiple_choice',
+          question: 'Which indefinite adjective is always followed by a singular noun?',
+          options: ['Qualche', 'Alcuni', 'Tutti', 'Molti'],
+          answer: 'Qualche',
+        },
+      },
+    ],
+  },
+  {
+    id: 'grammar-62',
+    title: 'Comparative and Superlative Irregular Forms',
+    level: 'B2',
+    category: 'Adjectives',
+    sections: [
+      {
+        subtitle: 'Irregular Comparatives',
+        content: 'Some common adjectives have irregular comparative forms: buono -> migliore, cattivo -> peggiore, grande -> maggiore, piccolo -> minore.',
+        examples: [
+          { italian: 'Questo e migliore di quello.', english: 'This is better than that.' },
+          { italian: 'Il tempo peggiore e in inverno.', english: 'The worst weather is in winter.' },
+        ],
+        exercise: {
+          type: 'fill_blank',
+          question: 'Questo libro e _____ di quello. (better)',
+          options: ['migliore', 'piu buono', 'bonissimo', 'buonissimo'],
+          answer: 'migliore',
+        },
+      },
+      {
+        subtitle: 'Irregular Superlatives',
+        content: 'Irregular superlatives: migliore -> ottimo, peggiore -> pessimo, maggiore -> massimo, minore -> minimo.',
+        examples: [
+          { italian: 'Il cibo italiano e ottimo.', english: 'Italian food is excellent/best.' },
+          { italian: 'La situazione e pessima.', english: 'The situation is terrible/worst.' },
+        ],
+        exercise: {
+          type: 'multiple_choice',
+          question: 'What is the superlative of "peggiore"?',
+          options: ['Pessimo', 'Peggiore', 'Peggissimo', 'Peggio'],
+          answer: 'Pessimo',
+        },
+      },
+    ],
+  },
+  {
+    id: 'grammar-63',
+    title: 'Forming Adverbs from Adjectives',
+    level: 'B2',
+    category: 'Adverbs',
+    sections: [
+      {
+        subtitle: 'Regular Adverb Formation',
+        content: 'Most adverbs are formed by adding -mente to the feminine singular form of the adjective.',
+        examples: [
+          { italian: 'rapido -> rapidamente (quickly)', english: 'rapido -> rapidamente' },
+          { italian: 'bello -> bellamente (beautifully)', english: 'bello -> bellamente' },
+        ],
+        exercise: {
+          type: 'fill_blank',
+          question: 'Parla _____ . (slow)',
+          options: ['lentamente', 'lento', 'lenta', 'lentissimo'],
+          answer: 'lentamente',
+        },
+      },
+      {
+        subtitle: 'Irregular Adverbs',
+        content: 'Some adverbs have irregular forms: buono -> bene, cattivo -> male, grande -> granemente.',
+        examples: [
+          { italian: 'Parla bene italiano.', english: 'She speaks Italian well.' },
+          { italian: 'Ha dormito male stanotte.', english: 'He slept badly last night.' },
+        ],
+        exercise: {
+          type: 'multiple_choice',
+          question: 'What is the adverb form of "buono"?',
+          options: ['Bene', 'Buonamente', 'Bonamente', 'Buenamente'],
+          answer: 'Bene',
+        },
+      },
+    ],
+  },
+  {
+    id: 'grammar-64',
+    title: 'Word Order Variations for Emphasis',
+    level: 'C1',
+    category: 'Syntax',
+    sections: [
+      {
+        subtitle: 'Fronting for Emphasis',
+        content: 'Italian allows fronting (moving elements to the beginning of the sentence) for emphasis or topicalization.',
+        examples: [
+          { italian: 'Questo libro l\'ho letto tre volte.', english: 'This book I have read three times.' },
+          { italian: 'A Maria gli ho dato il regalo.', english: 'To Maria I gave the gift.' },
+        ],
+        exercise: {
+          type: 'fill_blank',
+          question: '_____ non l\'ho mai vista. (That woman)',
+          options: ['Quella donna', 'Non ho mai visto quella donna', 'Non quella donna', 'Quella donna mai'],
+          answer: 'Quella donna',
+        },
+      },
+      {
+        subtitle: 'Cleft Sentences and Focus',
+        content: 'Italian uses e...che (it is...that) for cleft sentences to emphasize a particular element.',
+        examples: [
+          { italian: 'E Maria che ha vinto la gara.', english: 'It is Maria who won the race.' },
+          { italian: 'E domani che partiamo.', english: 'It is tomorrow that we leave.' },
+        ],
+        exercise: {
+          type: 'multiple_choice',
+          question: 'Which structure creates a cleft sentence in Italian?',
+          options: ['E...che', 'Che...e', 'Cosi...che', 'Tanto...che'],
+          answer: 'E...che',
+        },
+      },
+    ],
+  },
+  {
+    id: 'grammar-65',
+    title: 'Italian Sentence Connectors and Discourse Markers',
+    level: 'C1',
+    category: 'Discourse',
+    sections: [
+      {
+        subtitle: 'Additive and Contrastive Connectors',
+        content: 'Common connectors: inoltre (furthermore), pero (but), tuttavia (however), dunque (therefore), invece (instead).',
+        examples: [
+          { italian: 'E bravo. Inoltre, e molto gentile.', english: 'He is good. Furthermore, he is very kind.' },
+          { italian: 'Volevo uscire. Pero piove.', english: 'I wanted to go out. However, it is raining.' },
+        ],
+        exercise: {
+          type: 'fill_blank',
+          question: 'Non posso venire. _____ sono troppo stanco. (however)',
+          options: ['Tuttavia', 'Inoltre', 'Dunque', 'Pero'],
+          answer: 'Tuttavia',
+        },
+      },
+      {
+        subtitle: 'Discourse Markers in Conversation',
+        content: 'Italian uses filler and discourse markers: insomma (in short), comunque (anyway), insomma (well/I mean), allora (so/then).',
+        examples: [
+          { italian: 'Allora, che facciamo oggi?', english: 'So, what shall we do today?' },
+          { italian: 'Insomma, non e stato male.', english: 'Well, it was not bad.' },
+        ],
+        exercise: {
+          type: 'multiple_choice',
+          question: 'Which word means "in short" or "I mean"?',
+          options: ['Insomma', 'Comunque', 'Dunque', 'Allora'],
+          answer: 'Insomma',
+        },
+      },
+    ],
+  },
 ];
 
 export default grammar;

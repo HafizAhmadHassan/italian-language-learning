@@ -14357,6 +14357,2695 @@ const lessons = [
         }
       }
     ]
+  },
+  {
+    "id": "lesson-81",
+    "title": "Legal Italian",
+    "level": "C1",
+    "unit": 16,
+    "unitTitle": "Specialized Topics",
+    "description": "Master legal terminology used in Italian courts, contracts, and bureaucracy.",
+    "duration": 30,
+    "steps": [
+      {
+        "type": "learn",
+        "content": {
+          "title": "Legal Terminology",
+          "text": "Learn essential legal vocabulary for Italian courts and contracts:",
+          "items": [
+            {
+              "italian": "Il tribunale",
+              "english": "The court",
+              "pronunciation": "eel tree-boh-NAH-leh"
+            },
+            {
+              "italian": "La sentenza",
+              "english": "The sentence / ruling",
+              "pronunciation": "lah sehn-TEHN-tsah"
+            },
+            {
+              "italian": "Il contratto",
+              "english": "The contract",
+              "pronunciation": "eel kohn-TRAHT-toh"
+            },
+            {
+              "italian": "L'avvocato",
+              "english": "The lawyer",
+              "pronunciation": "lahv-voh-KAH-toh"
+            },
+            {
+              "italian": "Il giudice",
+              "english": "The judge",
+              "pronunciation": "eel JOO-dee-cheh"
+            },
+            {
+              "italian": "La clausola",
+              "english": "The clause",
+              "pronunciation": "lah klow-SOH-lah"
+            },
+            {
+              "italian": "L'appello",
+              "english": "The appeal",
+              "pronunciation": "lahp-PEL-loh"
+            },
+            {
+              "italian": "La testimonianza",
+              "english": "The testimony",
+              "pronunciation": "lah teh-stoh-mee-ah-NAN-tsah"
+            },
+            {
+              "italian": "Il reato",
+              "english": "The crime / offense",
+              "pronunciation": "eel reh-AH-toh"
+            },
+            {
+              "italian": "La multa",
+              "english": "The fine / penalty",
+              "pronunciation": "lah MOOL-tah"
+            },
+            {
+              "italian": "L'imputato",
+              "english": "The defendant",
+              "pronunciation": "leem-poo-TAH-toh"
+            },
+            {
+              "italian": "La giuria",
+              "english": "The jury",
+              "pronunciation": "lah JOO-ree-ah"
+            }
+          ]
+        }
+      },
+      {
+        "type": "example",
+        "content": {
+          "dialogue": [
+            {
+              "speaker": "A",
+              "italian": "Avvocato, qual è lo stato del processo?",
+              "english": "Lawyer, what is the status of the trial?"
+            },
+            {
+              "speaker": "B",
+              "italian": "Il giudice ha fissato l'udienza per il prossimo mese.",
+              "english": "The judge has set the hearing for next month."
+            },
+            {
+              "speaker": "A",
+              "italian": "E il contratto? Ha trovato delle clausole problematiche?",
+              "english": "And the contract? Have you found any problematic clauses?"
+            },
+            {
+              "speaker": "B",
+              "italian": "Sì, ci sono tre clausole che potrebbero creare problemi legali.",
+              "english": "Yes, there are three clauses that could create legal problems."
+            },
+            {
+              "speaker": "A",
+              "italian": "Dobbiamo fare appello contro la sentenza.",
+              "english": "We need to appeal against the ruling."
+            }
+          ]
+        }
+      },
+      {
+        "type": "multiple_choice",
+        "content": {
+          "question": "What is the Italian word for 'the judge'?",
+          "options": [
+            "L'avvocato",
+            "Il giudice",
+            "L'imputato",
+            "Il tribunale"
+          ],
+          "answer": "Il giudice"
+        }
+      },
+      {
+        "type": "translation",
+        "content": {
+          "direction": "en-to-it",
+          "sentence": "The lawyer reviewed the contract carefully.",
+          "answer": "L'avvocato ha esaminato il contratto con attenzione.",
+          "hint": "avvocato = lawyer, esaminato = reviewed, contratto = contract, attenzione = carefully"
+        }
+      },
+      {
+        "type": "listening",
+        "content": {
+          "italian": "Il tribunale ha emesso una sentenza favorevole.",
+          "answer": "The court issued a favorable ruling.",
+          "options": [
+            "The court issued a favorable ruling.",
+            "The lawyer filed an appeal.",
+            "The jury reached a verdict.",
+            "The crime was reported to police."
+          ]
+        }
+      },
+      {
+        "type": "review",
+        "content": {
+          "title": "Legal Italian Review",
+          "items": [
+            {
+              "italian": "Il tribunale",
+              "english": "The court"
+            },
+            {
+              "italian": "La sentenza",
+              "english": "The sentence / ruling"
+            },
+            {
+              "italian": "Il contratto",
+              "english": "The contract"
+            },
+            {
+              "italian": "L'avvocato",
+              "english": "The lawyer"
+            },
+            {
+              "italian": "Il giudice",
+              "english": "The judge"
+            },
+            {
+              "italian": "La clausola",
+              "english": "The clause"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "lesson-82",
+    "title": "At the Dentist",
+    "level": "B1",
+    "unit": 16,
+    "unitTitle": "Specialized Topics",
+    "description": "Learn dental vocabulary and how to describe dental procedures in Italian.",
+    "duration": 20,
+    "steps": [
+      {
+        "type": "learn",
+        "content": {
+          "title": "Dental Vocabulary",
+          "text": "Essential words for visiting the dentist in Italy:",
+          "items": [
+            {
+              "italian": "Il dentista",
+              "english": "The dentist",
+              "pronunciation": "eel dehn-TEES-tah"
+            },
+            {
+              "italian": "Il dente",
+              "english": "The tooth",
+              "pronunciation": "eel DEHN-teh"
+            },
+            {
+              "italian": "La carie",
+              "english": "The cavity",
+              "pronunciation": "lah KAH-ree-eh"
+            },
+            {
+              "italian": "Lo smalto",
+              "english": "The enamel",
+              "pronunciation": "loh SMAHL-toh"
+            },
+            {
+              "italian": "La puntura",
+              "english": "The injection",
+              "pronunciation": "lah poon-TOO-rah"
+            },
+            {
+              "italian": "L'estrazione",
+              "english": "The extraction",
+              "pronunciation": "lehs-trah-TSYOH-neh"
+            },
+            {
+              "italian": "La pulizia dei denti",
+              "english": "The teeth cleaning",
+              "pronunciation": "lah poo-LEE-tsyah day DEHN-tee"
+            },
+            {
+              "italian": "Il mal di denti",
+              "english": "Toothache",
+              "pronunciation": "eel mahl dee DEHN-tee"
+            },
+            {
+              "italian": "L'apparecchio",
+              "english": "The braces",
+              "pronunciation": "lahp-pah-RECH-kyoh"
+            },
+            {
+              "italian": "L'otturazione",
+              "english": "The filling",
+              "pronunciation": "loht-too-rah-TSYOH-neh"
+            },
+            {
+              "italian": "La masticazione",
+              "english": "Chewing",
+              "pronunciation": "lah mees-tah-kah-TSYOH-neh"
+            },
+            {
+              "italian": "Lo yogurt",
+              "english": "The yogurt (aftercare food)",
+              "pronunciation": "loh YOH-gurt"
+            }
+          ]
+        }
+      },
+      {
+        "type": "example",
+        "content": {
+          "dialogue": [
+            {
+              "speaker": "A",
+              "italian": "Buongiorno, ho un forte mal di denti.",
+              "english": "Good morning, I have a severe toothache."
+            },
+            {
+              "speaker": "B",
+              "italian": "Si sieda, per favore. Mi mostri dov'è il dolore.",
+              "english": "Please sit down. Show me where the pain is."
+            },
+            {
+              "speaker": "A",
+              "italian": "È il dente in alto, a destra.",
+              "english": "It's the tooth on the upper right side."
+            },
+            {
+              "speaker": "B",
+              "italian": "Vedo una carie piuttosto grande. Dovremo fare un'otturazione.",
+              "english": "I see a rather large cavity. We'll need to do a filling."
+            },
+            {
+              "speaker": "A",
+              "italian": "Faràmale la puntura prima?",
+              "english": "Will you give me the injection first?"
+            }
+          ]
+        }
+      },
+      {
+        "type": "multiple_choice",
+        "content": {
+          "question": "How do you say 'toothache' in Italian?",
+          "options": [
+            "La carie",
+            "Il mal di denti",
+            "L'estrazione",
+            "La pulizia"
+          ],
+          "answer": "Il mal di denti"
+        }
+      },
+      {
+        "type": "translation",
+        "content": {
+          "direction": "it-to-en",
+          "sentence": "Il dentista deve estrarre il dente del giudizio.",
+          "answer": "The dentist needs to extract the wisdom tooth.",
+          "hint": "estrarre = to extract, dente del giudizio = wisdom tooth"
+        }
+      },
+      {
+        "type": "listening",
+        "content": {
+          "italian": "Dovremo mettere l'apparecchio per raddrizzare i denti.",
+          "answer": "We'll need to put on braces to straighten the teeth.",
+          "options": [
+            "We'll need to put on braces to straighten the teeth.",
+            "We need to clean the teeth thoroughly.",
+            "The cavity needs to be filled immediately.",
+            "The tooth extraction will be painful."
+          ]
+        }
+      },
+      {
+        "type": "review",
+        "content": {
+          "title": "Dentist Vocabulary Review",
+          "items": [
+            {
+              "italian": "Il dentista",
+              "english": "The dentist"
+            },
+            {
+              "italian": "Il dente",
+              "english": "The tooth"
+            },
+            {
+              "italian": "La carie",
+              "english": "The cavity"
+            },
+            {
+              "italian": "L'estrazione",
+              "english": "The extraction"
+            },
+            {
+              "italian": "Il mal di denti",
+              "english": "Toothache"
+            },
+            {
+              "italian": "L'otturazione",
+              "english": "The filling"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "lesson-83",
+    "title": "Cooking Classes",
+    "level": "B1",
+    "unit": 16,
+    "unitTitle": "Specialized Topics",
+    "description": "Learn vocabulary for Italian cooking lessons and kitchen instructions.",
+    "duration": 25,
+    "steps": [
+      {
+        "type": "learn",
+        "content": {
+          "title": "Cooking Lesson Vocabulary",
+          "text": "Master vocabulary for Italian cooking classes and recipes:",
+          "items": [
+            {
+              "italian": "L'impasto",
+              "english": "The dough / batter",
+              "pronunciation": "leem-PAHS-toh"
+            },
+            {
+              "italian": "Mescolare",
+              "english": "To mix",
+              "pronunciation": "mehs-koh-LAH-reh"
+            },
+            {
+              "italian": "Amalgamare",
+              "english": "To blend",
+              "pronunciation": "ah-mahl-gah-MAH-reh"
+            },
+            {
+              "italian": "L'ingrediente",
+              "english": "The ingredient",
+              "pronunciation": "leen-greh-DYEHN-teh"
+            },
+            {
+              "italian": "La ricetta",
+              "english": "The recipe",
+              "pronunciation": "lah ree-CHEHT-tah"
+            },
+            {
+              "italian": "Foderare",
+              "english": "To line / to grease",
+              "pronunciation": "foh-deh-RAH-reh"
+            },
+            {
+              "italian": "La padella",
+              "english": "The frying pan",
+              "pronunciation": "lah pah-DEHL-lah"
+            },
+            {
+              "italian": "Il fornello",
+              "english": "The stove burner",
+              "pronunciation": "eel for-NEHL-loh"
+            },
+            {
+              "italian": "Arrotolare",
+              "english": "To roll",
+              "pronunciation": "ah-roh-toh-LAH-reh"
+            },
+            {
+              "italian": "Affettare",
+              "english": "To slice",
+              "pronunciation": "ahf-feht-TAH-reh"
+            },
+            {
+              "italian": "La teglia",
+              "english": "The baking tray",
+              "pronunciation": "lah TEHL-yah"
+            },
+            {
+              "italian": "Cuocere al forno",
+              "english": "To bake",
+              "pronunciation": "kwoh-CHEH-reh ahl FOR-noh"
+            }
+          ]
+        }
+      },
+      {
+        "type": "example",
+        "content": {
+          "dialogue": [
+            {
+              "speaker": "A",
+              "italian": "Cosa stiamo preparando oggi?",
+              "english": "What are we making today?"
+            },
+            {
+              "speaker": "B",
+              "italian": "Oggi faremo la pasta fresca con ripieno di ricotta e spinaci.",
+              "english": "Today we'll make fresh pasta with a ricotta and spinach filling."
+            },
+            {
+              "speaker": "A",
+              "italian": "Perfetto! Quali sono gli ingredienti?",
+              "english": "Perfect! What are the ingredients?"
+            },
+            {
+              "speaker": "B",
+              "italian": "Ti serve farina, uova, un po' di sale e la ripieno.",
+              "english": "You need flour, eggs, a little salt, and the filling."
+            },
+            {
+              "speaker": "A",
+              "italian": "Devo mescolare l'impasto ancora?",
+              "english": "Do I need to mix the dough more?"
+            },
+            {
+              "speaker": "B",
+              "italian": "Sì, amalgama bene tutti gli ingredienti prima di arrotolare.",
+              "english": "Yes, blend all the ingredients well before rolling."
+            }
+          ]
+        }
+      },
+      {
+        "type": "multiple_choice",
+        "content": {
+          "question": "What does 'l'impasto' mean?",
+          "options": [
+            "The recipe",
+            "The dough / batter",
+            "The baking tray",
+            "The frying pan"
+          ],
+          "answer": "The dough / batter"
+        }
+      },
+      {
+        "type": "translation",
+        "content": {
+          "direction": "en-to-it",
+          "sentence": "You need to slice the tomatoes before putting them in the pan.",
+          "answer": "Devi affettare i pomodori prima di metterli nella padella.",
+          "hint": "affettare = to slice, pomodori = tomatoes, padella = pan"
+        }
+      },
+      {
+        "type": "listening",
+        "content": {
+          "italian": "Preriscalda il forno a 180 gradi e foderare la teglia.",
+          "answer": "Preheat the oven to 180 degrees and line the baking tray.",
+          "options": [
+            "Preheat the oven to 180 degrees and line the baking tray.",
+            "Turn off the stove and clean the counter.",
+            "Mix the ingredients in the frying pan.",
+            "Roll the dough and slice it into pieces."
+          ]
+        }
+      },
+      {
+        "type": "review",
+        "content": {
+          "title": "Cooking Classes Review",
+          "items": [
+            {
+              "italian": "L'impasto",
+              "english": "The dough / batter"
+            },
+            {
+              "italian": "Mescolare",
+              "english": "To mix"
+            },
+            {
+              "italian": "L'ingrediente",
+              "english": "The ingredient"
+            },
+            {
+              "italian": "La ricetta",
+              "english": "The recipe"
+            },
+            {
+              "italian": "Affettare",
+              "english": "To slice"
+            },
+            {
+              "italian": "Cuocere al forno",
+              "english": "To bake"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "lesson-84",
+    "title": "Real Estate",
+    "level": "B1",
+    "unit": 16,
+    "unitTitle": "Specialized Topics",
+    "description": "Learn vocabulary for buying or renting property and describing house features.",
+    "duration": 25,
+    "steps": [
+      {
+        "type": "learn",
+        "content": {
+          "title": "Real Estate Vocabulary",
+          "text": "Essential words for property transactions in Italy:",
+          "items": [
+            {
+              "italian": "L'immobile",
+              "english": "The property",
+              "pronunciation": "leem-MOH-bee-leh"
+            },
+            {
+              "italian": "L'affitto",
+              "english": "The rent",
+              "pronunciation": "lahf-FEET-toh"
+            },
+            {
+              "italian": "L'appartamento",
+              "english": "The apartment",
+              "pronunciation": "lahp-pahr-tah-MEHN-toh"
+            },
+            {
+              "italian": "Il balcony",
+              "english": "The balcony",
+              "pronunciation": "eel bahl-KOH-neh"
+            },
+            {
+              "italian": "Il bagno",
+              "english": "The bathroom",
+              "pronunciation": "eel BAHN-yoh"
+            },
+            {
+              "italian": "La cucina",
+              "english": "The kitchen",
+              "pronunciation": "lah koo-CHEE-nah"
+            },
+            {
+              "italian": "Il soggiorno",
+              "english": "The living room",
+              "pronunciation": "eel sohj-JOR-noh"
+            },
+            {
+              "italian": "L'affittuario",
+              "english": "The tenant",
+              "pronunciation": "lahf-feet-twah-REE-oh"
+            },
+            {
+              "italian": "Il contratto di locazione",
+              "english": "The lease agreement",
+              "pronunciation": "eel kohn-TRAHT-toh dee loh-kah-TSYOH-neh"
+            },
+            {
+              "italian": "Il deposito cauzionale",
+              "english": "The security deposit",
+              "pronunciation": "eel deh-POH-zee-toh kow-tsyoh-NAH-leh"
+            },
+            {
+              "italian": "La superficie",
+              "english": "The floor area / surface",
+              "pronunciation": "lah soo-pehr-FYOO-cheh"
+            },
+            {
+              "italian": "AIFREDO Studio",
+              "english": "Real estate agency",
+              "pronunciation": "ah-geeHN-tsah dee meh-dee-AH-tsyoh-neh"
+            }
+          ]
+        }
+      },
+      {
+        "type": "example",
+        "content": {
+          "dialogue": [
+            {
+              "speaker": "A",
+              "italian": "Buongiorno, sto cercando un appartamento in affitto.",
+              "english": "Good morning, I'm looking for an apartment to rent."
+            },
+            {
+              "speaker": "B",
+              "italian": "Certo! Abbiamo un bell'appartamento di due locali in centro.",
+              "english": "Of course! We have a nice two-room apartment downtown."
+            },
+            {
+              "speaker": "A",
+              "italian": "Qual è l'affitto mensile?",
+              "english": "What is the monthly rent?"
+            },
+            {
+              "speaker": "B",
+              "italian": "L'affitto è 800 euro al mese più le spese condominiali.",
+              "english": "The rent is 800 euros per month plus condo fees."
+            },
+            {
+              "speaker": "A",
+              "italian": "E il deposito cauzionale?",
+              "english": "And the security deposit?"
+            },
+            {
+              "speaker": "B",
+              "italian": "Il deposito è pari a due mesi di affitto.",
+              "english": "The deposit is equal to two months of rent."
+            }
+          ]
+        }
+      },
+      {
+        "type": "multiple_choice",
+        "content": {
+          "question": "What does 'il soggiorno' refer to?",
+          "options": [
+            "The kitchen",
+            "The living room",
+            "The bathroom",
+            "The bedroom"
+          ],
+          "answer": "The living room"
+        }
+      },
+      {
+        "type": "translation",
+        "content": {
+          "direction": "it-to-en",
+          "sentence": "L'appartamento ha un balcone con vista sul giardino.",
+          "answer": "The apartment has a balcony with a view of the garden.",
+          "hint": "balcone = balcony, vista = view, giardino = garden"
+        }
+      },
+      {
+        "type": "listening",
+        "content": {
+          "italian": "Devo firmare il contratto di locazione prima di entrare.",
+          "answer": "I need to sign the lease agreement before moving in.",
+          "options": [
+            "I need to sign the lease agreement before moving in.",
+            "I need to pay the security deposit today.",
+            "I need to find a new real estate agent.",
+            "I need to renovate the kitchen first."
+          ]
+        }
+      },
+      {
+        "type": "review",
+        "content": {
+          "title": "Real Estate Review",
+          "items": [
+            {
+              "italian": "L'immobile",
+              "english": "The property"
+            },
+            {
+              "italian": "L'affitto",
+              "english": "The rent"
+            },
+            {
+              "italian": "L'appartamento",
+              "english": "The apartment"
+            },
+            {
+              "italian": "Il soggiorno",
+              "english": "The living room"
+            },
+            {
+              "italian": "Il deposito cauzionale",
+              "english": "The security deposit"
+            },
+            {
+              "italian": "Il contratto di locazione",
+              "english": "The lease agreement"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "lesson-85",
+    "title": "Fashion & Design",
+    "level": "B1",
+    "unit": 16,
+    "unitTitle": "Specialized Topics",
+    "description": "Learn vocabulary for Italian fashion brands, clothing, and design terminology.",
+    "duration": 20,
+    "steps": [
+      {
+        "type": "learn",
+        "content": {
+          "title": "Fashion & Design Vocabulary",
+          "text": "Master Italian fashion and design terminology:",
+          "items": [
+            {
+              "italian": "La moda",
+              "english": "Fashion",
+              "pronunciation": "lah MOH-dah"
+            },
+            {
+              "italian": "L'abito",
+              "english": "The dress / outfit",
+              "pronunciation": "lah-BEE-toh"
+            },
+            {
+              "italian": "La camicia",
+              "english": "The shirt",
+              "pronunciation": "lah kah-MEE-ah"
+            },
+            {
+              "italian": "I pantaloni",
+              "english": "The trousers",
+              "pronunciation": "ee pahn-tah-LOH-nee"
+            },
+            {
+              "italian": "Le scarpe",
+              "english": "The shoes",
+              "pronunciation": "leh SKAR-peh"
+            },
+            {
+              "italian": "La borsa",
+              "english": "The handbag",
+              "pronunciation": "lah BOR-sah"
+            },
+            {
+              "italian": "L'elastico",
+              "english": "Elastane / stretch fabric",
+              "pronunciation": "leh-LAHS-tee-koh"
+            },
+            {
+              "italian": "Il tessuto",
+              "english": "The fabric",
+              "pronunciation": "eel tehs-SOO-toh"
+            },
+            {
+              "italian": "La collezione",
+              "english": "The collection",
+              "pronunciation": "lah koh-leh-TSYOH-neh"
+            },
+            {
+              "italian": "Il designer",
+              "english": "The designer",
+              "pronunciation": "eel dee-ZAHY-ner"
+            },
+            {
+              "italian": "L'atelier",
+              "english": "The workshop / studio",
+              "pronunciation": "lah-teh-LYAY"
+            },
+            {
+              "italian": "La sfilata",
+              "english": "The fashion show",
+              "pronunciation": "lah sfee-LAH-tah"
+            }
+          ]
+        }
+      },
+      {
+        "type": "example",
+        "content": {
+          "dialogue": [
+            {
+              "speaker": "A",
+              "italian": "Hai visto l'ultima collezione di Gucci?",
+              "english": "Have you seen Gucci's latest collection?"
+            },
+            {
+              "speaker": "B",
+              "italian": "Sì, è bellissima! I colori sono molto eleganti.",
+              "english": "Yes, it's beautiful! The colors are very elegant."
+            },
+            {
+              "speaker": "A",
+              "italian": "Mi piace molto la sfilata di Armani di quest'anno.",
+              "english": "I really like Armani's fashion show this year."
+            },
+            {
+              "speaker": "B",
+              "italian": "Anche a me. Il tessuto usato è di ottima qualità.",
+              "english": "Me too. The fabric used is excellent quality."
+            },
+            {
+              "speaker": "A",
+              "italian": "Voglio comprare quella borsa di Prada che ho visto ieri.",
+              "english": "I want to buy that Prada handbag I saw yesterday."
+            }
+          ]
+        }
+      },
+      {
+        "type": "multiple_choice",
+        "content": {
+          "question": "What is 'la sfilata' in Italian?",
+          "options": [
+            "The fabric",
+            "The fashion show",
+            "The designer",
+            "The handbag"
+          ],
+          "answer": "The fashion show"
+        }
+      },
+      {
+        "type": "translation",
+        "content": {
+          "direction": "en-to-it",
+          "sentence": "The designer created a beautiful collection using Italian fabric.",
+          "answer": "Il designer ha creato una bellissima collezione usando tessuto italiano.",
+          "hint": "designer = designer, collezione = collection, tessuto = fabric"
+        }
+      },
+      {
+        "type": "review",
+        "content": {
+          "title": "Fashion & Design Review",
+          "items": [
+            {
+              "italian": "La moda",
+              "english": "Fashion"
+            },
+            {
+              "italian": "L'abito",
+              "english": "The dress / outfit"
+            },
+            {
+              "italian": "Il tessuto",
+              "english": "The fabric"
+            },
+            {
+              "italian": "La collezione",
+              "english": "The collection"
+            },
+            {
+              "italian": "La sfilata",
+              "english": "The fashion show"
+            },
+            {
+              "italian": "L'atelier",
+              "english": "The workshop / studio"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "lesson-86",
+    "title": "Wine & Tasting",
+    "level": "B1",
+    "unit": 16,
+    "unitTitle": "Specialized Topics",
+    "description": "Learn wine varieties, sommelier vocabulary, and Italian wine regions.",
+    "duration": 25,
+    "steps": [
+      {
+        "type": "learn",
+        "content": {
+          "title": "Wine Vocabulary",
+          "text": "Essential sommelier and wine vocabulary in Italian:",
+          "items": [
+            {
+              "italian": "Il vino",
+              "english": "The wine",
+              "pronunciation": "eel VEE-noh"
+            },
+            {
+              "italian": "Il rosso",
+              "english": "Red wine",
+              "pronunciation": "eel ROHS-soh"
+            },
+            {
+              "italian": "Il bianco",
+              "english": "White wine",
+              "pronunciation": "eel BYAHN-koh"
+            },
+            {
+              "italian": "Lo spumante",
+              "english": "Sparkling wine",
+              "pronunciation": "loh spoo-MAHN-teh"
+            },
+            {
+              "italian": "La cantina",
+              "english": "The wine cellar",
+              "pronunciation": "lah kahn-TEE-nah"
+            },
+            {
+              "italian": "Il vitigno",
+              "english": "The grape variety",
+              "pronunciation": "eel vee-TEE-nyoh"
+            },
+            {
+              "italian": "La vigna",
+              "english": "The vineyard",
+              "pronunciation": "lah VEE-nyah"
+            },
+            {
+              "italian": "L'uva",
+              "english": "The grapes",
+              "pronunciation": "lah-OO-vah"
+            },
+            {
+              "italian": "Il bere",
+              "english": "Drinking",
+              "pronunciation": "eel BEH-reh"
+            },
+            {
+              "italian": "Annaffiare",
+              "english": "To water / irrigate",
+              "pronunciation": "ahn-nahf-FYAH-reh"
+            },
+            {
+              "italian": "La vendemmia",
+              "english": "The grape harvest",
+              "pronunciation": "lah vehn-DEHM-myah"
+            },
+            {
+              "italian": "La degustazione",
+              "english": "The wine tasting",
+              "pronunciation": "lah deh-goo-stah-TSYOH-neh"
+            }
+          ]
+        }
+      },
+      {
+        "type": "example",
+        "content": {
+          "dialogue": [
+            {
+              "speaker": "A",
+              "italian": "Benvenuto alla cantina! Cosa desidera assaggiare?",
+              "english": "Welcome to the cellar! What would you like to taste?"
+            },
+            {
+              "speaker": "B",
+              "italian": "Vorrei provare un vino rosso toscano, per favore.",
+              "english": "I'd like to try a Tuscan red wine, please."
+            },
+            {
+              "speaker": "A",
+              "italian": "Questo è un Brunello di Montalcino. È fatto con uva Sangiovese.",
+              "english": "This is a Brunello di Montalcino. It's made with Sangiovese grapes."
+            },
+            {
+              "speaker": "B",
+              "italian": "Ha un profumo molto intenso. Quale regione consiglia?",
+              "english": "It has a very intense aroma. Which region do you recommend?"
+            },
+            {
+              "speaker": "A",
+              "italian": "Il Piemonte e la Toscana sono le migliori regioni vinicole.",
+              "english": "Piedmont and Tuscany are the best wine regions."
+            }
+          ]
+        }
+      },
+      {
+        "type": "multiple_choice",
+        "content": {
+          "question": "What does 'la degustazione' mean?",
+          "options": [
+            "The wine cellar",
+            "The grape harvest",
+            "The wine tasting",
+            "The vineyard"
+          ],
+          "answer": "The wine tasting"
+        }
+      },
+      {
+        "type": "translation",
+        "content": {
+          "direction": "it-to-en",
+          "sentence": "Lo spumante italiano è famoso in tutto il mondo.",
+          "answer": "Italian sparkling wine is famous all over the world.",
+          "hint": "spumante = sparkling wine, famoso = famous, mondo = world"
+        }
+      },
+      {
+        "type": "listening",
+        "content": {
+          "italian": "La vendemmia inizia a fine settembre in questa regione.",
+          "answer": "The grape harvest begins at the end of September in this region.",
+          "options": [
+            "The grape harvest begins at the end of September in this region.",
+            "The wine cellar is open every Saturday for tastings.",
+            "The vineyard produces excellent white wine.",
+            "The red wine needs to age for three years."
+          ]
+        }
+      },
+      {
+        "type": "review",
+        "content": {
+          "title": "Wine & Tasting Review",
+          "items": [
+            {
+              "italian": "Il vino",
+              "english": "The wine"
+            },
+            {
+              "italian": "Lo spumante",
+              "english": "Sparkling wine"
+            },
+            {
+              "italian": "La cantina",
+              "english": "The wine cellar"
+            },
+            {
+              "italian": "Il vitigno",
+              "english": "The grape variety"
+            },
+            {
+              "italian": "La vigna",
+              "english": "The vineyard"
+            },
+            {
+              "italian": "La degustazione",
+              "english": "The wine tasting"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "lesson-87",
+    "title": "Space & Astronomy",
+    "level": "B2",
+    "unit": 16,
+    "unitTitle": "Specialized Topics",
+    "description": "Discuss planets, space exploration, and astronomical phenomena in Italian.",
+    "duration": 25,
+    "steps": [
+      {
+        "type": "learn",
+        "content": {
+          "title": "Space Vocabulary",
+          "text": "Essential vocabulary for discussing space and astronomy in Italian:",
+          "items": [
+            {
+              "italian": "Lo spazio",
+              "english": "Space",
+              "pronunciation": "loh SPAH-tsyoh"
+            },
+            {
+              "italian": "Il pianeta",
+              "english": "The planet",
+              "pronunciation": "eel pyah-NEH-tah"
+            },
+            {
+              "italian": "La stella",
+              "english": "The star",
+              "pronunciation": "lah STEHL-lah"
+            },
+            {
+              "italian": "La luna",
+              "english": "The moon",
+              "pronunciation": "lah LOO-nah"
+            },
+            {
+              "italian": "Il sole",
+              "english": "The sun",
+              "pronunciation": "eel SOH-leh"
+            },
+            {
+              "italian": "L'orbita",
+              "english": "The orbit",
+              "pronunciation": "lor-BEE-tah"
+            },
+            {
+              "italian": "L'atmosfera",
+              "english": "The atmosphere",
+              "pronunciation": "laht-mohs-FEH-rah"
+            },
+            {
+              "italian": "L'astronauta",
+              "english": "The astronaut",
+              "pronunciation": "lahs-troh-NAOW-tah"
+            },
+            {
+              "italian": "Il razzo",
+              "english": "The rocket",
+              "pronunciation": "eel RAHT-tsoh"
+            },
+            {
+              "italian": "La galassia",
+              "english": "The galaxy",
+              "pronunciation": "lah gah-LAHS-syah"
+            },
+            {
+              "italian": "L'asteroide",
+              "english": "The asteroid",
+              "pronunciation": "lahs-teh-ROY-deh"
+            },
+            {
+              "italian": "L'espazio cosmico",
+              "english": "Outer space",
+              "pronunciation": "lehs-PAH-tsyoh KOHS-mee-koh"
+            }
+          ]
+        }
+      },
+      {
+        "type": "example",
+        "content": {
+          "dialogue": [
+            {
+              "speaker": "A",
+              "italian": "Hai letto della nuova missione spaziale?",
+              "english": "Did you read about the new space mission?"
+            },
+            {
+              "speaker": "B",
+              "italian": "Sì, la navicella partirà il prossimo mese verso Marte.",
+              "english": "Yes, the spacecraft will launch next month towards Mars."
+            },
+            {
+              "speaker": "A",
+              "italian": "Quanti pianeti ha il nostro sistema solare?",
+              "english": "How many planets does our solar system have?"
+            },
+            {
+              "speaker": "B",
+              "italian": "Otto, incluso il pianeta nano Plutone.",
+              "english": "Eight, including the dwarf planet Pluto."
+            },
+            {
+              "speaker": "A",
+              "italian": "La galassia di Andromeda è la più vicina alla Via Lattea?",
+              "english": "Is the Andromeda galaxy the closest to the Milky Way?"
+            },
+            {
+              "speaker": "B",
+              "italian": "Sì, si trova a circa 2,5 milioni di anni luce.",
+              "english": "Yes, it's located about 2.5 million light-years away."
+            }
+          ]
+        }
+      },
+      {
+        "type": "multiple_choice",
+        "content": {
+          "question": "What is 'il razzo' in Italian?",
+          "options": [
+            "The planet",
+            "The rocket",
+            "The star",
+            "The galaxy"
+          ],
+          "answer": "The rocket"
+        }
+      },
+      {
+        "type": "translation",
+        "content": {
+          "direction": "en-to-it",
+          "sentence": "The astronaut will travel to the International Space Station.",
+          "answer": "L'astronauta viaggerà verso la stazione spaziale internazionale.",
+          "hint": "astronauta = astronaut, viaggerà = will travel, stazione spaziale = space station"
+        }
+      },
+      {
+        "type": "listening",
+        "content": {
+          "italian": "Il sole è una stella al centro del nostro sistema solare.",
+          "answer": "The sun is a star at the center of our solar system.",
+          "options": [
+            "The sun is a star at the center of our solar system.",
+            "The moon orbits the Earth once every month.",
+            "Mars is the closest planet to the sun.",
+            "The galaxy contains billions of stars."
+          ]
+        }
+      },
+      {
+        "type": "review",
+        "content": {
+          "title": "Space & Astronomy Review",
+          "items": [
+            {
+              "italian": "Lo spazio",
+              "english": "Space"
+            },
+            {
+              "italian": "Il pianeta",
+              "english": "The planet"
+            },
+            {
+              "italian": "La stella",
+              "english": "The star"
+            },
+            {
+              "italian": "L'orbita",
+              "english": "The orbit"
+            },
+            {
+              "italian": "L'astronauta",
+              "english": "The astronaut"
+            },
+            {
+              "italian": "La galassia",
+              "english": "The galaxy"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "lesson-88",
+    "title": "Music Theory",
+    "level": "B1",
+    "unit": 16,
+    "unitTitle": "Specialized Topics",
+    "description": "Learn musical instruments, theory terms, and music vocabulary in Italian.",
+    "duration": 20,
+    "steps": [
+      {
+        "type": "learn",
+        "content": {
+          "title": "Music Vocabulary",
+          "text": "Essential music and theory vocabulary in Italian:",
+          "items": [
+            {
+              "italian": "La musica",
+              "english": "Music",
+              "pronunciation": "lah MOO-zee-kah"
+            },
+            {
+              "italian": "Lo strumento",
+              "english": "The instrument",
+              "pronunciation": "loh stroo-MEHN-toh"
+            },
+            {
+              "italian": "Il pianoforte",
+              "english": "The piano",
+              "pronunciation": "eel pyah-noh-FOR-teh"
+            },
+            {
+              "italian": "La chitarra",
+              "english": "The guitar",
+              "pronunciation": "lah kee-TAHR-rah"
+            },
+            {
+              "italian": "Il violino",
+              "english": "The violin",
+              "pronunciation": "eel vee-oh-LEE-noh"
+            },
+            {
+              "italian": "La voce",
+              "english": "The voice",
+              "pronunciation": "lah VOH-cheh"
+            },
+            {
+              "italian": "La nota",
+              "english": "The note",
+              "pronunciation": "lah NOH-tah"
+            },
+            {
+              "italian": "Il ritmo",
+              "english": "The rhythm",
+              "pronunciation": "eel REET-moh"
+            },
+            {
+              "italian": "La melodia",
+              "english": "The melody",
+              "pronunciation": "lah meh-LOH-dyah"
+            },
+            {
+              "italian": "Il cantante",
+              "english": "The singer",
+              "pronunciation": "eel kahn-TAHN-teh"
+            },
+            {
+              "italian": "Il concerto",
+              "english": "The concert",
+              "pronunciation": "eel kohn-CHEHR-toh"
+            },
+            {
+              "italian": "L'orchestra",
+              "english": "The orchestra",
+              "pronunciation": "lor-KEHS-trah"
+            }
+          ]
+        }
+      },
+      {
+        "type": "example",
+        "content": {
+          "dialogue": [
+            {
+              "speaker": "A",
+              "italian": "Suoni qualche strumento musicale?",
+              "english": "Do you play any musical instrument?"
+            },
+            {
+              "speaker": "B",
+              "italian": "Sì, suono il pianoforte da dieci anni.",
+              "english": "Yes, I've been playing the piano for ten years."
+            },
+            {
+              "speaker": "A",
+              "italian": "Che bello! Hai mai partecipato a un concerto?",
+              "english": "How nice! Have you ever participated in a concert?"
+            },
+            {
+              "speaker": "B",
+              "italian": "Sì, ho suonato con l'orchestra del conservatorio.",
+              "english": "Yes, I played with the conservatory orchestra."
+            },
+            {
+              "speaker": "A",
+              "italian": "Qual è il tuo brano musicale preferito da suonare?",
+              "english": "What is your favorite musical piece to play?"
+            }
+          ]
+        }
+      },
+      {
+        "type": "multiple_choice",
+        "content": {
+          "question": "What does 'la melodia' mean?",
+          "options": [
+            "The rhythm",
+            "The melody",
+            "The voice",
+            "The orchestra"
+          ],
+          "answer": "The melody"
+        }
+      },
+      {
+        "type": "translation",
+        "content": {
+          "direction": "it-to-en",
+          "sentence": "L'orchestra suonerà al concerto domani sera.",
+          "answer": "The orchestra will play at the concert tomorrow evening.",
+          "hint": "orchestra = orchestra, suonerà = will play, concerto = concert, domani sera = tomorrow evening"
+        }
+      },
+      {
+        "type": "review",
+        "content": {
+          "title": "Music Theory Review",
+          "items": [
+            {
+              "italian": "La musica",
+              "english": "Music"
+            },
+            {
+              "italian": "Lo strumento",
+              "english": "The instrument"
+            },
+            {
+              "italian": "Il pianoforte",
+              "english": "The piano"
+            },
+            {
+              "italian": "La melodia",
+              "english": "The melody"
+            },
+            {
+              "italian": "Il ritmo",
+              "english": "The rhythm"
+            },
+            {
+              "italian": "L'orchestra",
+              "english": "The orchestra"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "lesson-89",
+    "title": "Emergency Situations",
+    "level": "A2",
+    "unit": 16,
+    "unitTitle": "Specialized Topics",
+    "description": "Learn essential emergency vocabulary and how to call for help in Italian.",
+    "duration": 15,
+    "steps": [
+      {
+        "type": "learn",
+        "content": {
+          "title": "Emergency Vocabulary",
+          "text": "Important words for emergencies in Italy:",
+          "items": [
+            {
+              "italian": "Aiuto!",
+              "english": "Help!",
+              "pronunciation": "ah-YOO-toh"
+            },
+            {
+              "italian": "Emergenza",
+              "english": "Emergency",
+              "pronunciation": "eh-mehr-JEHN-tsah"
+            },
+            {
+              "italian": "La polizia",
+              "english": "The police",
+              "pronunciation": "lah poh-lee-TSEE-ah"
+            },
+            {
+              "italian": "I vigili del fuoco",
+              "english": "The firefighters",
+              "pronunciation": "ee VEE-jee-leh dehl FWOH-koh"
+            },
+            {
+              "italian": "L'ambulanza",
+              "english": "The ambulance",
+              "pronunciation": "lahm-boo-LAHN-tsah"
+            },
+            {
+              "italian": "Il pronto soccorso",
+              "english": "The emergency room",
+              "pronunciation": "eel PRAHN-toh soh-KOR-soh"
+            },
+            {
+              "italian": "Il sinistro",
+              "english": "The accident",
+              "pronunciation": "eel see-NEES-troh"
+            },
+            {
+              "italian": "Un incendio",
+              "english": "A fire",
+              "pronunciation": "oon een-CHEHN-dyah"
+            },
+            {
+              "italian": "Ho bisogno di aiuto",
+              "english": "I need help",
+              "pronunciation": "oh bee-ZOH-nyoh dee ah-YOO-toh"
+            },
+            {
+              "italian": "Chiamate la polizia",
+              "english": "Call the police",
+              "pronunciation": "kyah-MAH-teh lah poh-lee-TSEE-ah"
+            },
+            {
+              "italian": "Sono stato derubato",
+              "english": "I was robbed",
+              "pronunciation": "SOH-noh STAH-toh deh-roo-BAH-toh"
+            },
+            {
+              "italian": "Ho male qui",
+              "english": "It hurts here",
+              "pronunciation": "oh MAH-leh kwee"
+            }
+          ]
+        }
+      },
+      {
+        "type": "example",
+        "content": {
+          "dialogue": [
+            {
+              "speaker": "A",
+              "italian": "Aiuto! C'è stato un incidente!",
+              "english": "Help! There's been an accident!"
+            },
+            {
+              "speaker": "B",
+              "italian": "Chiamo subito l'ambulanza. Dove succede?",
+              "english": "I'll call the ambulance right away. Where is it?"
+            },
+            {
+              "speaker": "A",
+              "italian": "In via Roma, all'angolo con via Milano.",
+              "english": "On Via Roma, at the corner with Via Milano."
+            },
+            {
+              "speaker": "B",
+              "italian": "Qualcuno è ferito? È tutto a posto?",
+              "english": "Is anyone hurt? Is everything okay?"
+            },
+            {
+              "speaker": "A",
+              "italian": "Sì, una persona è ferita. Ho bisogno di aiuto!",
+              "english": "Yes, one person is injured. I need help!"
+            }
+          ]
+        }
+      },
+      {
+        "type": "multiple_choice",
+        "content": {
+          "question": "What is the Italian number to call for an ambulance?",
+          "options": [
+            "112",
+            "113",
+            "118",
+            "115"
+          ],
+          "answer": "118"
+        }
+      },
+      {
+        "type": "translation",
+        "content": {
+          "direction": "en-to-it",
+          "sentence": "Please call the firefighters, there is a fire!",
+          "answer": "Per favore chiamate i vigili del fuoco, c'è un incendio!",
+          "hint": "chiamate = call, vigili del fuoco = firefighters, incendio = fire"
+        }
+      },
+      {
+        "type": "listening",
+        "content": {
+          "italian": "Ho bisogno di un'ambulanza in fretta, per favore!",
+          "answer": "I need an ambulance quickly, please!",
+          "options": [
+            "I need an ambulance quickly, please!",
+            "I need to go to the emergency room.",
+            "I want to report a theft.",
+            "I need the police station address."
+          ]
+        }
+      },
+      {
+        "type": "review",
+        "content": {
+          "title": "Emergency Situations Review",
+          "items": [
+            {
+              "italian": "Aiuto!",
+              "english": "Help!"
+            },
+            {
+              "italian": "L'ambulanza",
+              "english": "The ambulance"
+            },
+            {
+              "italian": "I vigili del fuoco",
+              "english": "The firefighters"
+            },
+            {
+              "italian": "Il pronto soccorso",
+              "english": "The emergency room"
+            },
+            {
+              "italian": "Un incendio",
+              "english": "A fire"
+            },
+            {
+              "italian": "Ho bisogno di aiuto",
+              "english": "I need help"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "lesson-90",
+    "title": "Legal Rights",
+    "level": "B2",
+    "unit": 16,
+    "unitTitle": "Specialized Topics",
+    "description": "Learn vocabulary for legal rights and navigating Italian bureaucracy.",
+    "duration": 25,
+    "steps": [
+      {
+        "type": "learn",
+        "content": {
+          "title": "Legal Rights Vocabulary",
+          "text": "Essential vocabulary for legal rights and bureaucracy in Italy:",
+          "items": [
+            {
+              "italian": "I diritti",
+              "english": "The rights",
+              "pronunciation": "ee dee-REET-tee"
+            },
+            {
+              "italian": "La costituzione",
+              "english": "The constitution",
+              "pronunciation": "lah koh-stee-too-TSYOH-neh"
+            },
+            {
+              "italian": "La democrazia",
+              "english": "Democracy",
+              "pronunciation": "lah deh-moh-KRAH-tsyah"
+            },
+            {
+              "italian": "La libertà",
+              "english": "Freedom",
+              "pronunciation": "lah lee-behr-TAH"
+            },
+            {
+              "italian": "Il permesso di soggiorno",
+              "english": "The residence permit",
+              "pronunciation": "eel pehr-MEHS-soh dee sohj-JOR-noh"
+            },
+            {
+              "italian": "La carta d'identità",
+              "english": "The identity card",
+              "pronunciation": "lah KAR-tah dee-dehn-tee-TAH"
+            },
+            {
+              "italian": "Il passaporto",
+              "english": "The passport",
+              "pronunciation": "eel pahs-sah-POR-toh"
+            },
+            {
+              "italian": "La burocrazia",
+              "english": "Bureaucracy",
+              "pronunciation": "lah boo-roh-KRAH-tsyah"
+            },
+            {
+              "italian": "Il tribunale",
+              "english": "The court",
+              "pronunciation": "eel tree-boh-NAH-leh"
+            },
+            {
+              "italian": "Il testimone",
+              "english": "The witness",
+              "pronunciation": "eel tees-tee-MOH-neh"
+            },
+            {
+              "italian": "L'appartenenza",
+              "english": "Membership / belonging",
+              "pronunciation": "lahp-pahr-teh-NEHN-tsah"
+            },
+            {
+              "italian": "Il processo",
+              "english": "The trial",
+              "pronunciation": "eel proh-SEHS-soh"
+            }
+          ]
+        }
+      },
+      {
+        "type": "example",
+        "content": {
+          "dialogue": [
+            {
+              "speaker": "A",
+              "italian": "Dove posso rinnovare il permesso di soggiorno?",
+              "english": "Where can I renew my residence permit?"
+            },
+            {
+              "speaker": "B",
+              "italian": "Devi andare alla questura con tutti i documenti.",
+              "english": "You need to go to the police station with all your documents."
+            },
+            {
+              "speaker": "A",
+              "italian": "Quali documenti servono?",
+              "english": "What documents are needed?"
+            },
+            {
+              "speaker": "B",
+              "italian": "Carta d'identità, passaporto, e la documentazione del lavoro.",
+              "english": "ID card, passport, and work documentation."
+            },
+            {
+              "speaker": "A",
+              "italian": "La burocrazia italiana è molto complicata.",
+              "english": "Italian bureaucracy is very complicated."
+            },
+            {
+              "speaker": "B",
+              "italian": "Sì, ma i tuoi diritti sono protetti dalla costituzione.",
+              "english": "Yes, but your rights are protected by the constitution."
+            }
+          ]
+        }
+      },
+      {
+        "type": "multiple_choice",
+        "content": {
+          "question": "What is 'la carta d'identità'?",
+          "options": [
+            "The passport",
+            "The identity card",
+            "The residence permit",
+            "The constitution"
+          ],
+          "answer": "The identity card"
+        }
+      },
+      {
+        "type": "translation",
+        "content": {
+          "direction": "en-to-it",
+          "sentence": "Every citizen has the right to freedom of speech.",
+          "answer": "Ogni cittadino ha diritto alla libertà di espressione.",
+          "hint": "ogni = every, cittadino = citizen, diritto = right, libertà = freedom"
+        }
+      },
+      {
+        "type": "listening",
+        "content": {
+          "italian": "Il permesso di soggiorno deve essere rinnovato ogni anno.",
+          "answer": "The residence permit must be renewed every year.",
+          "options": [
+            "The residence permit must be renewed every year.",
+            "The passport is valid for ten years.",
+            "The identity card can be applied for online.",
+            "The trial will take place next month."
+          ]
+        }
+      },
+      {
+        "type": "review",
+        "content": {
+          "title": "Legal Rights Review",
+          "items": [
+            {
+              "italian": "I diritti",
+              "english": "The rights"
+            },
+            {
+              "italian": "La costituzione",
+              "english": "The constitution"
+            },
+            {
+              "italian": "La libertà",
+              "english": "Freedom"
+            },
+            {
+              "italian": "Il permesso di soggiorno",
+              "english": "The residence permit"
+            },
+            {
+              "italian": "La carta d'identità",
+              "english": "The identity card"
+            },
+            {
+              "italian": "La burocrazia",
+              "english": "Bureaucracy"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "lesson-91",
+    "title": "Italian Legends & Folklore",
+    "level": "B1",
+    "unit": 16,
+    "unitTitle": "Specialized Topics",
+    "description": "Explore Italian myths, legends, and folklore vocabulary.",
+    "duration": 20,
+    "steps": [
+      {
+        "type": "learn",
+        "content": {
+          "title": "Legends & Folklore Vocabulary",
+          "text": "Discover Italian legends and folklore with these key terms:",
+          "items": [
+            {
+              "italian": "La leggenda",
+              "english": "The legend",
+              "pronunciation": "lah leh-JEHN-dah"
+            },
+            {
+              "italian": "Il mito",
+              "english": "The myth",
+              "pronunciation": "eel MEE-toh"
+            },
+            {
+              "italian": "La favola",
+              "english": "The fable",
+              "pronunciation": "lah FAH-voh-lah"
+            },
+            {
+              "italian": "Il folklore",
+              "english": "Folklore",
+              "pronunciation": "eel fohl-KLOR"
+            },
+            {
+              "italian": "Il mostro",
+              "english": "The monster",
+              "pronunciation": "eel MOHS-troh"
+            },
+            {
+              "italian": "L'eroe",
+              "english": "The hero",
+              "pronunciation": "leh-ROH-eh"
+            },
+            {
+              "italian": "La strega",
+              "english": "The witch",
+              "pronunciation": "lah STREH-gah"
+            },
+            {
+              "italian": "Il tesoro",
+              "english": "The treasure",
+              "pronunciation": "eel teh-ZOH-roh"
+            },
+            {
+              "italian": "La tradizione",
+              "english": "The tradition",
+              "pronunciation": "lah trah-dee-TSYOH-neh"
+            },
+            {
+              "italian": "L'incantesimo",
+              "english": "The spell",
+              "pronunciation": "leen-kahn-TEH-zee-moh"
+            },
+            {
+              "italian": "Il paese delle meraviglie",
+              "english": "The land of wonders",
+              "pronunciation": "eel pah-EH-zeh DEHL-leh meh-rah-VEE-lyeh"
+            },
+            {
+              "italian": "Il bosco incantato",
+              "english": "The enchanted forest",
+              "pronunciation": "eel BOHS-koh een-kahn-TAH-toh"
+            }
+          ]
+        }
+      },
+      {
+        "type": "example",
+        "content": {
+          "dialogue": [
+            {
+              "speaker": "A",
+              "italian": "Conosci qualche leggenda italiana?",
+              "english": "Do you know any Italian legends?"
+            },
+            {
+              "speaker": "B",
+              "italian": "Sì! La leggenda del Lago di Como parla di un mostro nel lago.",
+              "english": "Yes! The legend of Lake Como speaks of a monster in the lake."
+            },
+            {
+              "speaker": "A",
+              "italian": "È simile alla leggenda del Mostro di Loch Ness?",
+              "english": "Is it similar to the Loch Ness Monster legend?"
+            },
+            {
+              "speaker": "B",
+              "italian": "Sì, si dice che il mostro viva nelle profondità del lago.",
+              "english": "Yes, it's said that the monster lives in the depths of the lake."
+            },
+            {
+              "speaker": "A",
+              "italian": "Qual è la tua leggenda preferita dell'Italia?",
+              "english": "What is your favorite Italian legend?"
+            }
+          ]
+        }
+      },
+      {
+        "type": "multiple_choice",
+        "content": {
+          "question": "What does 'il folklore' mean?",
+          "options": [
+            "The legend",
+            "The myth",
+            "Folklore",
+            "The tradition"
+          ],
+          "answer": "Folklore"
+        }
+      },
+      {
+        "type": "translation",
+        "content": {
+          "direction": "it-to-en",
+          "sentence": "La leggenda racconta che l'eroe ha sconfitto il mostro con un incantesimo.",
+          "answer": "The legend tells that the hero defeated the monster with a spell.",
+          "hint": "leggenda = legend, eroe = hero, sconfitto = defeated, mostro = monster"
+        }
+      },
+      {
+        "type": "listening",
+        "content": {
+          "italian": "Nel bosco incantato vive una strega con un tesoro magico.",
+          "answer": "In the enchanted forest lives a witch with a magical treasure.",
+          "options": [
+            "In the enchanted forest lives a witch with a magical treasure.",
+            "The legend says the hero found a treasure in the forest.",
+            "The monster guards the entrance to the enchanted forest.",
+            "The witch cast a spell on the entire village."
+          ]
+        }
+      },
+      {
+        "type": "review",
+        "content": {
+          "title": "Legends & Folklore Review",
+          "items": [
+            {
+              "italian": "La leggenda",
+              "english": "The legend"
+            },
+            {
+              "italian": "Il mito",
+              "english": "The myth"
+            },
+            {
+              "italian": "La favola",
+              "english": "The fable"
+            },
+            {
+              "italian": "Il mostro",
+              "english": "The monster"
+            },
+            {
+              "italian": "L'eroe",
+              "english": "The hero"
+            },
+            {
+              "italian": "L'incantesimo",
+              "english": "The spell"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "lesson-92",
+    "title": "Renewable Energy",
+    "level": "B2",
+    "unit": 16,
+    "unitTitle": "Specialized Topics",
+    "description": "Learn vocabulary for sustainable energy sources and environmental technology.",
+    "duration": 25,
+    "steps": [
+      {
+        "type": "learn",
+        "content": {
+          "title": "Renewable Energy Vocabulary",
+          "text": "Master vocabulary for sustainable energy and environmental technology:",
+          "items": [
+            {
+              "italian": "L'energia solare",
+              "english": "Solar energy",
+              "pronunciation": "leh-NEHR-jah soh-LAH-reh"
+            },
+            {
+              "italian": "L'energia eolica",
+              "english": "Wind energy",
+              "pronunciation": "leh-NEHR-jah eh-OH-lee-kah"
+            },
+            {
+              "italian": "L'energia idroelettrica",
+              "english": "Hydroelectric energy",
+              "pronunciation": "leh-NEHR-jah ee-droh-eh-LEHK-tree-kah"
+            },
+            {
+              "italian": "Il pannello solare",
+              "english": "The solar panel",
+              "pronunciation": "eel pahn-NEHL-loh soh-LAH-reh"
+            },
+            {
+              "italian": "L'aerogeneratore",
+              "english": "The wind turbine",
+              "pronunciation": "lah-eh-roh-jeh-neh-rah-TOH-reh"
+            },
+            {
+              "italian": "La batteria",
+              "english": "The battery",
+              "pronunciation": "lah baht-TEH-ree-ah"
+            },
+            {
+              "italian": "La centrale",
+              "english": "The power plant",
+              "pronunciation": "lah chehn-TRAH-leh"
+            },
+            {
+              "italian": "L'impatto ambientale",
+              "english": "Environmental impact",
+              "pronunciation": "leem-PAHT-toh ahm-byehn-TAH-leh"
+            },
+            {
+              "italian": "Lo stoccaggio",
+              "english": "Storage",
+              "pronunciation": "loh stohk-KAHJ-joh"
+            },
+            {
+              "italian": "L'emissione zero",
+              "english": "Zero emission",
+              "pronunciation": "leh-mee-SYOH-neh ZEH-roh"
+            },
+            {
+              "italian": "La sostenibilità",
+              "english": "Sustainability",
+              "pronunciation": "lah sohs-teh-nee-bee-lee-TAH"
+            },
+            {
+              "italian": "Il riscaldamento globale",
+              "english": "Global warming",
+              "pronunciation": "eel rees-kahl-dah-MEHN-toh gloh-BAH-leh"
+            }
+          ]
+        }
+      },
+      {
+        "type": "example",
+        "content": {
+          "dialogue": [
+            {
+              "speaker": "A",
+              "italian": "L'Italia sta investendo molto nell'energia solare.",
+              "english": "Italy is investing a lot in solar energy."
+            },
+            {
+              "speaker": "B",
+              "italian": "Sì, i pannelli solari sono ovunque sulle case.",
+              "english": "Yes, solar panels are everywhere on houses."
+            },
+            {
+              "speaker": "A",
+              "italian": "E l'energia eolica? Abbiamo molte centrali eoliche.",
+              "english": "And wind energy? We have many wind power plants."
+            },
+            {
+              "speaker": "B",
+              "italian": "Gli aerogeneratori producono una grande quantità di energia pulita.",
+              "english": "Wind turbines produce a large amount of clean energy."
+            },
+            {
+              "speaker": "A",
+              "italian": "Lo stoccaggio dell'energia è ancora un problema.",
+              "english": "Energy storage is still a problem."
+            },
+            {
+              "speaker": "B",
+              "italian": "Sì, ma la tecnologia sta migliorando ogni anno.",
+              "english": "Yes, but the technology is improving every year."
+            }
+          ]
+        }
+      },
+      {
+        "type": "multiple_choice",
+        "content": {
+          "question": "What is 'un pannello solare'?",
+          "options": [
+            "A wind turbine",
+            "A solar panel",
+            "A power plant",
+            "A battery"
+          ],
+          "answer": "A solar panel"
+        }
+      },
+      {
+        "type": "translation",
+        "content": {
+          "direction": "en-to-it",
+          "sentence": "Renewable energy reduces the environmental impact of climate change.",
+          "answer": "L'energia rinnovabile riduce l'impatto ambientale del cambiamento climatico.",
+          "hint": "energia rinnovabile = renewable energy, riduce = reduces, impatto = impact"
+        }
+      },
+      {
+        "type": "listening",
+        "content": {
+          "italian": "Le emissioni zero sono fondamentali per il futuro del pianeta.",
+          "answer": "Zero emissions are fundamental for the future of the planet.",
+          "options": [
+            "Zero emissions are fundamental for the future of the planet.",
+            "Solar panels are the most efficient technology available.",
+            "Wind turbines produce more energy than power plants.",
+            "Energy storage technology is now completely reliable."
+          ]
+        }
+      },
+      {
+        "type": "review",
+        "content": {
+          "title": "Renewable Energy Review",
+          "items": [
+            {
+              "italian": "L'energia solare",
+              "english": "Solar energy"
+            },
+            {
+              "italian": "L'energia eolica",
+              "english": "Wind energy"
+            },
+            {
+              "italian": "Il pannello solare",
+              "english": "The solar panel"
+            },
+            {
+              "italian": "L'impatto ambientale",
+              "english": "Environmental impact"
+            },
+            {
+              "italian": "Lo stoccaggio",
+              "english": "Storage"
+            },
+            {
+              "italian": "L'emissione zero",
+              "english": "Zero emission"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "lesson-93",
+    "title": "Telecommunications",
+    "level": "B1",
+    "unit": 16,
+    "unitTitle": "Specialized Topics",
+    "description": "Learn vocabulary for phone, internet, and media technology in Italian.",
+    "duration": 20,
+    "steps": [
+      {
+        "type": "learn",
+        "content": {
+          "title": "Telecommunications Vocabulary",
+          "text": "Essential vocabulary for phone and internet technology:",
+          "items": [
+            {
+              "italian": "Il telefono",
+              "english": "The phone",
+              "pronunciation": "eel teh-LEH-foh-noh"
+            },
+            {
+              "italian": "Il cellulare",
+              "english": "The mobile phone",
+              "pronunciation": "eel cheh-loo-LAH-reh"
+            },
+            {
+              "italian": "La connessione",
+              "english": "The connection",
+              "pronunciation": "lah kohn-neh-SYOH-neh"
+            },
+            {
+              "italian": "Il segnale",
+              "english": "The signal",
+              "pronunciation": "eel seh-NYAH-leh"
+            },
+            {
+              "italian": "Il Wi-Fi",
+              "english": "The Wi-Fi",
+              "pronunciation": "eel wai-fai"
+            },
+            {
+              "italian": "L'internet",
+              "english": "The internet",
+              "pronunciation": "leen-tehr-NEHT"
+            },
+            {
+              "italian": "La password",
+              "english": "The password",
+              "pronunciation": "lah PAHS-word"
+            },
+            {
+              "italian": "La rete",
+              "english": "The network",
+              "pronunciation": "lah REH-teh"
+            },
+            {
+              "italian": "Il messaggio",
+              "english": "The message",
+              "pronunciation": "eel mehs-SAHJ-joh"
+            },
+            {
+              "italian": "La smart TV",
+              "english": "The smart TV",
+              "pronunciation": "lah SMAHRT tee-veh"
+            },
+            {
+              "italian": "L'applicazione",
+              "english": "The app / application",
+              "pronunciation": "lahp-plee-kah-TSYOH-neh"
+            },
+            {
+              "italian": "Lo streaming",
+              "english": "Streaming",
+              "pronunciation": "loh STREH-ming"
+            }
+          ]
+        }
+      },
+      {
+        "type": "example",
+        "content": {
+          "dialogue": [
+            {
+              "speaker": "A",
+              "italian": "Riesci a connetterti al Wi-Fi?",
+              "english": "Can you connect to the Wi-Fi?"
+            },
+            {
+              "speaker": "B",
+              "italian": "No, il segnale è troppo debole qui dentro.",
+              "english": "No, the signal is too weak in here."
+            },
+            {
+              "speaker": "A",
+              "italian": "Prova a usare i dati del cellulare.",
+              "english": "Try using your mobile phone data."
+            },
+            {
+              "speaker": "B",
+              "italian": "Funziona! La connessione è più veloce.",
+              "english": "It works! The connection is faster."
+            },
+            {
+              "speaker": "A",
+              "italian": "Hai scaricato la nuova applicazione per lo streaming?",
+              "english": "Have you downloaded the new streaming app?"
+            }
+          ]
+        }
+      },
+      {
+        "type": "multiple_choice",
+        "content": {
+          "question": "How do you say 'mobile phone' in Italian?",
+          "options": [
+            "Il telefono",
+            "Il cellulare",
+            "La smart TV",
+            "Il messaggio"
+          ],
+          "answer": "Il cellulare"
+        }
+      },
+      {
+        "type": "translation",
+        "content": {
+          "direction": "en-to-it",
+          "sentence": "The internet connection is not working, I need to restart the router.",
+          "answer": "La connessione internet non funziona, devo riavviare il router.",
+          "hint": "connessione = connection, funziona = works, riavviare = to restart"
+        }
+      },
+      {
+        "type": "listening",
+        "content": {
+          "italian": "Ho inviato un messaggio sulla rete sociale ma non è arrivato.",
+          "answer": "I sent a message on the social network but it didn't arrive.",
+          "options": [
+            "I sent a message on the social network but it didn't arrive.",
+            "The Wi-Fi password is written on the router.",
+            "I need to download a new application for streaming.",
+            "The mobile phone signal is very strong in this area."
+          ]
+        }
+      },
+      {
+        "type": "review",
+        "content": {
+          "title": "Telecommunications Review",
+          "items": [
+            {
+              "italian": "Il telefono",
+              "english": "The phone"
+            },
+            {
+              "italian": "Il cellulare",
+              "english": "The mobile phone"
+            },
+            {
+              "italian": "La connessione",
+              "english": "The connection"
+            },
+            {
+              "italian": "Il segnale",
+              "english": "The signal"
+            },
+            {
+              "italian": "L'internet",
+              "english": "The internet"
+            },
+            {
+              "italian": "La rete",
+              "english": "The network"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "lesson-94",
+    "title": "Maritime Vocabulary",
+    "level": "B1",
+    "unit": 16,
+    "unitTitle": "Specialized Topics",
+    "description": "Learn vocabulary for the sea, sailing, ports, and Italian coastal towns.",
+    "duration": 20,
+    "steps": [
+      {
+        "type": "learn",
+        "content": {
+          "title": "Maritime Vocabulary",
+          "text": "Essential vocabulary for Italian maritime and coastal life:",
+          "items": [
+            {
+              "italian": "Il mare",
+              "english": "The sea",
+              "pronunciation": "eel MAH-reh"
+            },
+            {
+              "italian": "La barca",
+              "english": "The boat",
+              "pronunciation": "lah BAR-kah"
+            },
+            {
+              "italian": "La nave",
+              "english": "The ship",
+              "pronunciation": "lah NAH-veh"
+            },
+            {
+              "italian": "Il porto",
+              "english": "The port / harbor",
+              "pronunciation": "eel POR-toh"
+            },
+            {
+              "italian": "La spiaggia",
+              "english": "The beach",
+              "pronunciation": "lah SPYAHJ-jah"
+            },
+            {
+              "italian": "Il faro",
+              "english": "The lighthouse",
+              "pronunciation": "eel FAH-roh"
+            },
+            {
+              "italian": "La vela",
+              "english": "The sail",
+              "pronunciation": "lah VEH-lah"
+            },
+            {
+              "italian": "L'ancora",
+              "english": "The anchor",
+              "pronunciation": "lahn-KOH-rah"
+            },
+            {
+              "italian": "Il pescatore",
+              "english": "The fisherman",
+              "pronunciation": "eel pehs-kah-TOH-reh"
+            },
+            {
+              "italian": "La banchina",
+              "english": "The dock / pier",
+              "pronunciation": "lah bahn-KEE-nah"
+            },
+            {
+              "italian": "La Costa Azzurra",
+              "english": "The Blue Coast (Riviera)",
+              "pronunciation": "lah KOH-stah AHT-tsoor-rah"
+            },
+            {
+              "italian": "Il porto turistico",
+              "english": "The tourist harbor",
+              "pronunciation": "eel POR-toh too-REES-tee-koh"
+            }
+          ]
+        }
+      },
+      {
+        "type": "example",
+        "content": {
+          "dialogue": [
+            {
+              "speaker": "A",
+              "italian": "Sei mai stato in un porto turistico?",
+              "english": "Have you ever been to a tourist harbor?"
+            },
+            {
+              "speaker": "B",
+              "italian": "Sì, a Portofino! Il faro è bellissimo dal mare.",
+              "english": "Yes, in Portofino! The lighthouse is beautiful from the sea."
+            },
+            {
+              "speaker": "A",
+              "italian": "Mi piacerebbe prendere una barca a vela lungo la Costa Azzurra.",
+              "english": "I'd love to take a sailboat along the Blue Coast."
+            },
+            {
+              "speaker": "B",
+              "italian": "Possiamo affittare una barca al porto e navigare per tutto il giorno.",
+              "english": "We can rent a boat at the harbor and sail all day."
+            },
+            {
+              "speaker": "A",
+              "italian": "Quanti pescatori ci sono nella banchina?",
+              "english": "How many fishermen are there on the dock?"
+            }
+          ]
+        }
+      },
+      {
+        "type": "multiple_choice",
+        "content": {
+          "question": "What does 'il faro' mean?",
+          "options": [
+            "The port",
+            "The lighthouse",
+            "The boat",
+            "The sail"
+          ],
+          "answer": "The lighthouse"
+        }
+      },
+      {
+        "type": "translation",
+        "content": {
+          "direction": "it-to-en",
+          "sentence": "La nave è ormeggiata nel porto da tre giorni.",
+          "answer": "The ship has been docked in the harbor for three days.",
+          "hint": "nave = ship, ormeggiata = docked, porto = harbor, giorni = days"
+        }
+      },
+      {
+        "type": "listening",
+        "content": {
+          "italian": "Il pescatore ha gettato l'ancora vicino alla banchina.",
+          "answer": "The fisherman dropped the anchor near the dock.",
+          "options": [
+            "The fisherman dropped the anchor near the dock.",
+            "The sailboat left the port early in the morning.",
+            "The lighthouse guide ships safely to shore.",
+            "The beach was full of tourists in the summer."
+          ]
+        }
+      },
+      {
+        "type": "review",
+        "content": {
+          "title": "Maritime Vocabulary Review",
+          "items": [
+            {
+              "italian": "Il mare",
+              "english": "The sea"
+            },
+            {
+              "italian": "La barca",
+              "english": "The boat"
+            },
+            {
+              "italian": "Il porto",
+              "english": "The port / harbor"
+            },
+            {
+              "italian": "La spiaggia",
+              "english": "The beach"
+            },
+            {
+              "italian": "Il faro",
+              "english": "The lighthouse"
+            },
+            {
+              "italian": "Il pescatore",
+              "english": "The fisherman"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "lesson-95",
+    "title": "Philosophy & Ethics",
+    "level": "C1",
+    "unit": 16,
+    "unitTitle": "Specialized Topics",
+    "description": "Explore philosophical concepts and ethical discourse in Italian.",
+    "duration": 30,
+    "steps": [
+      {
+        "type": "learn",
+        "content": {
+          "title": "Philosophy Vocabulary",
+          "text": "Master philosophical concepts and ethical terminology in Italian:",
+          "items": [
+            {
+              "italian": "La filosofia",
+              "english": "Philosophy",
+              "pronunciation": "lah fee-loh-SOH-fyah"
+            },
+            {
+              "italian": "L'etica",
+              "english": "Ethics",
+              "pronunciation": "leh-TEE-kah"
+            },
+            {
+              "italian": "La morale",
+              "english": "Morals / morality",
+              "pronunciation": "lah moh-RAH-leh"
+            },
+            {
+              "italian": "La virtù",
+              "english": "Virtue",
+              "pronunciation": "lah veer-TOO"
+            },
+            {
+              "italian": "Il vizio",
+              "english": "The vice / flaw",
+              "pronunciation": "eel VEE-tsyoh"
+            },
+            {
+              "italian": "La verità",
+              "english": "The truth",
+              "pronunciation": "lah veh-rah-TAH"
+            },
+            {
+              "italian": "La giustizia",
+              "english": "Justice",
+              "pronunciation": "lah joo-STEE-tsyah"
+            },
+            {
+              "italian": "Il dovere",
+              "english": "Duty",
+              "pronunciation": "eel doh-VEH-reh"
+            },
+            {
+              "italian": "La coscienza",
+              "english": "Conscience",
+              "pronunciation": "lah koh-SYAHN-tsah"
+            },
+            {
+              "italian": "La libertà",
+              "english": "Freedom / liberty",
+              "pronunciation": "lah lee-behr-TAH"
+            },
+            {
+              "italian": "Il pensiero",
+              "english": "The thought",
+              "pronunciation": "eel pehn-SYEH-roh"
+            },
+            {
+              "italian": "La ragione",
+              "english": "Reason",
+              "pronunciation": "lah rah-JOH-neh"
+            }
+          ]
+        }
+      },
+      {
+        "type": "example",
+        "content": {
+          "dialogue": [
+            {
+              "speaker": "A",
+              "italian": "Hai studiato filosofia all'università?",
+              "english": "Did you study philosophy at university?"
+            },
+            {
+              "speaker": "B",
+              "italian": "Sì, ho studiato l'etica di Kant e Aristotele.",
+              "english": "Yes, I studied the ethics of Kant and Aristotle."
+            },
+            {
+              "speaker": "A",
+              "italian": "Qual è secondo te il rapporto tra libertà e dovere?",
+              "english": "What, in your opinion, is the relationship between freedom and duty?"
+            },
+            {
+              "speaker": "B",
+              "italian": "La libertà senza responsabilità diventa caos, non giustizia.",
+              "english": "Freedom without responsibility becomes chaos, not justice."
+            },
+            {
+              "speaker": "A",
+              "italian": "È un pensiero profondo. La ragione ci guida nelle decisioni morali.",
+              "english": "That's a profound thought. Reason guides us in moral decisions."
+            },
+            {
+              "speaker": "B",
+              "italian": "Esatto, e la coscienza ci aiuta a distinguere il bene dal male.",
+              "english": "Exactly, and conscience helps us distinguish good from evil."
+            }
+          ]
+        }
+      },
+      {
+        "type": "multiple_choice",
+        "content": {
+          "question": "What does 'la coscienza' mean?",
+          "options": [
+            "Reason",
+            "Conscience",
+            "Justice",
+            "Virtue"
+          ],
+          "answer": "Conscience"
+        }
+      },
+      {
+        "type": "translation",
+        "content": {
+          "direction": "en-to-it",
+          "sentence": "Philosophy teaches us to think critically about the nature of truth.",
+          "answer": "La filosofia ci insegna a pensare criticamente sulla natura della verità.",
+          "hint": "filosofia = philosophy, insegna = teaches, verità = truth, natura = nature"
+        }
+      },
+      {
+        "type": "listening",
+        "content": {
+          "italian": "La giustizia e la virtù sono i pilastri fondamentali della morale.",
+          "answer": "Justice and virtue are the fundamental pillars of morality.",
+          "options": [
+            "Justice and virtue are the fundamental pillars of morality.",
+            "Freedom is the most important concept in philosophy.",
+            "Reason alone can guide our ethical decisions.",
+            "The truth is always easy to find in difficult situations."
+          ]
+        }
+      },
+      {
+        "type": "review",
+        "content": {
+          "title": "Philosophy & Ethics Review",
+          "items": [
+            {
+              "italian": "La filosofia",
+              "english": "Philosophy"
+            },
+            {
+              "italian": "L'etica",
+              "english": "Ethics"
+            },
+            {
+              "italian": "La morale",
+              "english": "Morals / morality"
+            },
+            {
+              "italian": "La virtù",
+              "english": "Virtue"
+            },
+            {
+              "italian": "La giustizia",
+              "english": "Justice"
+            },
+            {
+              "italian": "La coscienza",
+              "english": "Conscience"
+            }
+          ]
+        }
+      }
+    ]
   }
 ];
 
