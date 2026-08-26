@@ -404,6 +404,409 @@ const grammar = [
       },
     ],
   },
+  {
+    id: 'grammar-9',
+    title: 'Imperfect Tense (Imperfetto)',
+    level: 'B1',
+    description: 'Learn the imperfect tense to describe ongoing past actions, habits, and background information.',
+    sections: [
+      {
+        title: 'Formation of the Imperfect',
+        explanation: 'Regular endings: -ARE verbs use -avo, -avi, -ava, -avamo, -avate, -avano. -ERE verbs use -evo, -evi, -eva, -evamo, -evate, -evano. -IRE verbs use -ivo, -ivi, -iva, -ivamo, -ivate, -ivano.',
+        examples: [
+          { italian: 'parlare --> parlavo', translation: 'I was speaking / I used to speak' },
+          { italian: 'scrivere --> scrivevo', translation: 'I was writing / I used to write' },
+          { italian: 'dormire --> dormivo', translation: 'I was sleeping / I used to sleep' },
+        ],
+        exercise: {
+          question: 'What is "We used to eat" (mangiare)?',
+          options: ['mangiavamo', 'mangiavano', 'mangiato', 'mangeremo'],
+          answer: 'mangiavamo',
+        },
+      },
+      {
+        title: 'Imperfetto of Essere',
+        explanation: 'Essere has irregular imperfect forms: ero, eri, era, eravamo, eravate, erano.',
+        examples: [
+          { italian: 'Io ero felice', translation: 'I was happy' },
+          { italian: 'Tu eri stanco', translation: 'You were tired' },
+          { italian: 'Loro erano a casa', translation: 'They were at home' },
+        ],
+        exercise: {
+          question: 'What is "She was" in Italian?',
+          options: ['era', 'ero', 'erano', 'eravamo'],
+          answer: 'era',
+        },
+      },
+      {
+        title: 'When to Use Imperfetto vs Passato Prossimo',
+        explanation: 'Use imperfetto for ongoing past actions, habits, descriptions, and background. Use passato prossimo for completed actions.',
+        examples: [
+          { italian: 'Quando ero piccolo, giocavo nel parco', translation: 'When I was little, I used to play in the park (habit)' },
+          { italian: 'Mentre mangiavo, il telefono ha squillato', translation: 'While I was eating, the phone rang (background vs. completed)' },
+          { italian: 'Il cielo era blu', translation: 'The sky was blue (description)' },
+        ],
+        exercise: {
+          question: 'Which tense is used for: "When I was young, I played in the park"?',
+          options: ['Passato prossimo', 'Imperfetto', 'Futuro', 'Presente'],
+          answer: 'Imperfetto',
+        },
+      },
+    ],
+  },
+  {
+    id: 'grammar-10',
+    title: 'Conditional Mood (Condizionale)',
+    level: 'B1',
+    description: 'Express wishes, hypothetical situations, and polite requests using the conditional.',
+    sections: [
+      {
+        title: 'Conditional Endings',
+        explanation: 'Add these endings to the full infinitive: -ei, -esti, -ebbe, -emmo, -este, -ebbero.',
+        examples: [
+          { italian: 'parlare --> parlerei', translation: 'I would speak' },
+          { italian: 'scrivere --> scriverei', translation: 'I would write' },
+          { italian: 'dormire --> dormirei', translation: 'I would sleep' },
+        ],
+        exercise: {
+          question: 'What is "I would eat" (mangiare)?',
+          options: ['mangerei', 'mangiavo', 'mangerò', 'mangiato'],
+          answer: 'mangerei',
+        },
+      },
+      {
+        title: 'Irregular Conditional Stems',
+        explanation: 'Some verbs have irregular stems: essere (sar-), avere (avr-), fare (far-), dare (dar-), stare (star-).',
+        examples: [
+          { italian: 'essere --> sarei', translation: 'I would be' },
+          { italian: 'avere --> avrei', translation: 'I would have' },
+          { italian: 'fare --> farei', translation: 'I would do/make' },
+          { italian: 'dare --> darei', translation: 'I would give' },
+        ],
+        exercise: {
+          question: 'What is the irregular conditional stem of "avere"?',
+          options: ['averesti', 'avrei', 'averei', 'avro'],
+          answer: 'avrei',
+        },
+      },
+      {
+        title: 'Using the Conditional',
+        explanation: 'The conditional is used for polite requests, wishes, hypothetical situations, and reporting speech.',
+        examples: [
+          { italian: 'Vorrei un caffè, per favore', translation: 'I would like a coffee, please (polite request)' },
+          { italian: 'Potresti aiutarmi?', translation: 'Could you help me? (polite request)' },
+          { italian: 'Vivrei in Italia se potessi', translation: 'I would live in Italy if I could (hypothetical)' },
+        ],
+        exercise: {
+          question: 'How do you make a polite request in Italian?',
+          options: ['Use presente', 'Use condizionale', 'Use imperativo', 'Use futuro'],
+          answer: 'Use condizionale',
+        },
+      },
+    ],
+  },
+  {
+    id: 'grammar-11',
+    title: 'Possessive Adjectives',
+    level: 'B2',
+    description: 'Master Italian possessives and their agreement patterns with nouns.',
+    sections: [
+      {
+        title: 'Possessive Forms',
+        explanation: 'Italian possessives agree with the gender of the noun possessed. Singular family nouns take definite articles.',
+        examples: [
+          { italian: 'il mio / la mia', translation: 'my (m/f)' },
+          { italian: 'il tuo / la tua', translation: 'your (m/f)' },
+          { italian: 'il suo / la sua', translation: 'his/her (m/f)' },
+          { italian: 'il nostro / la nostra', translation: 'our (m/f)' },
+          { italian: 'i nostri / le nostre', translation: 'our (m.pl/f.pl)' },
+        ],
+        exercise: {
+          question: 'Which is correct for "my book"?',
+          options: ['Mio libro', 'Il mio libro', 'Il libro mio', 'Libro mio'],
+          answer: 'Il mio libro',
+        },
+      },
+      {
+        title: 'Possessives with Family',
+        explanation: 'With singular family members, always use the definite article. With plural family members, the article is optional.',
+        examples: [
+          { italian: 'la mia madre', translation: 'my mother (article required)' },
+          { italian: 'il fratello', translation: 'the brother / my brother' },
+          { italian: 'i miei fratelli', translation: 'my brothers (article optional with plural)' },
+        ],
+        exercise: {
+          question: 'Do you use an article with "mia sorella" (my sister)?',
+          options: ['Yes, always', 'Only in formal speech', 'Only with plural', 'No article needed'],
+          answer: 'Yes, always',
+        },
+      },
+    ],
+  },
+  {
+    id: 'grammar-12',
+    title: 'Comparatives and Superlatives',
+    level: 'B2',
+    description: 'Express comparisons and the highest degree using Italian comparative structures.',
+    sections: [
+      {
+        title: 'Comparative Forms',
+        explanation: 'Use "più...di" for more, "meno...di" for less, and "così...come" for as...as.',
+        examples: [
+          { italian: 'più alto di', translation: 'taller than' },
+          { italian: 'meno caro di', translation: 'less expensive than' },
+          { italian: 'così alto come', translation: 'as tall as' },
+        ],
+        exercise: {
+          question: 'How do you say "more beautiful than"?',
+          options: ['meno bella di', 'più bella di', 'bellissima di', 'bella come'],
+          answer: 'più bella di',
+        },
+      },
+      {
+        title: 'Superlative Forms',
+        explanation: 'Use "il/la più" for the most, "il/la meno" for the least, and the suffix "-issimo" for very/extremely.',
+        examples: [
+          { italian: 'il più bello', translation: 'the most beautiful' },
+          { italian: 'la meno cara', translation: 'the least expensive' },
+          { italian: 'bellissimo', translation: 'very beautiful' },
+          { italian: 'altissimo', translation: 'very tall' },
+        ],
+        exercise: {
+          question: 'What does the suffix "-issimo" mean?',
+          options: ['Very/Extremely', 'The most', 'The least', 'Somewhat'],
+          answer: 'Very/Extremely',
+        },
+      },
+      {
+        title: 'Irregular Comparatives',
+        explanation: 'Some adjectives have irregular comparative forms.',
+        examples: [
+          { italian: 'buono --> migliore', translation: 'good --> better' },
+          { italian: 'cattivo --> peggiore', translation: 'bad --> worse' },
+          { italian: 'grande --> maggiore', translation: 'big --> greater' },
+          { italian: 'piccolo --> minore', translation: 'small --> lesser' },
+        ],
+        exercise: {
+          question: 'What is the irregular comparative of "buono" (good)?',
+          options: ['buonissimo', 'migliore', 'più buono', 'meglio'],
+          answer: 'migliore',
+        },
+      },
+    ],
+  },
+  {
+    id: 'grammar-13',
+    title: 'Imperative Mood',
+    level: 'B2',
+    description: 'Give commands, instructions, and make suggestions in Italian.',
+    sections: [
+      {
+        title: 'Imperative Forms by Person',
+        explanation: 'Tu: -a/-e (most verbs). Lei: -i. Noi: -iamo. Voi: -ate/-ite.',
+        examples: [
+          { italian: 'parla! (tu)', translation: 'Speak! (informal)' },
+          { italian: 'parli! (Lei)', translation: 'Speak! (formal)' },
+          { italian: 'parliamo! (noi)', translation: "Let's speak!" },
+          { italian: 'parlate! (voi)', translation: 'Speak! (you all)' },
+        ],
+        exercise: {
+          question: 'What is the imperative of "mangiare" for "tu"?',
+          options: ['mangia', 'mangi', 'mangiamo', 'mangiate'],
+          answer: 'mangia',
+        },
+      },
+      {
+        title: 'Negative Imperative',
+        explanation: 'For negative commands, use "non" + subjunctive form (for tu and voi).',
+        examples: [
+          { italian: 'Non parlare!', translation: "Don't speak! (tu)" },
+          { italian: 'Non parli! (Lei)', translation: "Don't speak! (formal)" },
+          { italian: 'Non parliamo!', translation: "Let's not speak!" },
+          { italian: 'Non parlate! (voi)', translation: "Don't speak! (you all)" },
+        ],
+        exercise: {
+          question: 'What is the negative imperative "Don\'t eat!" for tu?',
+          options: ['Non mangia', 'Non mangi', 'Non mangiamo', 'Non mangiate'],
+          answer: 'Non mangi',
+        },
+      },
+      {
+        title: 'Irregular Imperatives',
+        explanation: 'Essere, dare, stare, andare, fare have irregular imperatives.',
+        examples: [
+          { italian: 'sii! (essere)', translation: 'Be!' },
+          { italian: 'da! (dare)', translation: 'Give!' },
+          { italian: 'sta! (stare)', translation: 'Stay!' },
+          { italian: 'va! (andare)', translation: 'Go!' },
+          { italian: 'fa! (fare)', translation: 'Do/Make!' },
+        ],
+        exercise: {
+          question: 'What is the imperative of "essere" for "tu"?',
+          options: ['sia', 'sii', 'sei', 'stato'],
+          answer: 'sii',
+        },
+      },
+    ],
+  },
+  {
+    id: 'grammar-14',
+    title: 'Object Pronouns',
+    level: 'B2',
+    description: 'Master direct, indirect, and combined object pronouns in Italian.',
+    sections: [
+      {
+        title: 'Direct Object Pronouns',
+        explanation: 'Direct pronouns replace the direct object (answers "what?" or "whom?").',
+        examples: [
+          { italian: 'mi', translation: 'me' },
+          { italian: 'ti', translation: 'you (informal)' },
+          { italian: 'lo', translation: 'him/it (masc.)' },
+          { italian: 'la', translation: 'her/it (fem.)' },
+          { italian: 'ci', translation: 'us' },
+          { italian: 'vi', translation: 'you all' },
+          { italian: 'li', translation: 'them (masc.)' },
+          { italian: 'le', translation: 'them (fem.)' },
+        ],
+        exercise: {
+          question: 'What does "lo" mean as a direct pronoun?',
+          options: ['her', 'him/it', 'them', 'us'],
+          answer: 'him/it',
+        },
+      },
+      {
+        title: 'Indirect Object Pronouns',
+        explanation: 'Indirect pronouns replace the indirect object (answers "to whom?" or "for whom?").',
+        examples: [
+          { italian: 'mi', translation: 'to me' },
+          { italian: 'ti', translation: 'to you' },
+          { italian: 'gli', translation: 'to him' },
+          { italian: 'le', translation: 'to her' },
+          { italian: 'ci', translation: 'to us' },
+          { italian: 'vi', translation: 'to you all' },
+          { italian: 'gli', translation: 'to them' },
+        ],
+        exercise: {
+          question: 'What is the indirect pronoun for "to him"?',
+          options: ['lo', 'gli', 'li', 'le'],
+          answer: 'gli',
+        },
+      },
+      {
+        title: 'Combined Pronouns',
+        explanation: 'When using two pronouns together, the indirect comes first. Use combined forms: me lo, te la, glielo, etc.',
+        examples: [
+          { italian: 'me lo', translation: 'it to me' },
+          { italian: 'te la', translation: 'it to you' },
+          { italian: 'glielo', translation: 'it to him/her' },
+          { italian: 'ce li', translation: 'them to us' },
+        ],
+        exercise: {
+          question: 'What does "me lo dai?" mean?',
+          options: ['Do you see it?', 'Will you give it to me?', 'Can I have it?', 'Where is it?'],
+          answer: 'Will you give it to me?',
+        },
+      },
+    ],
+  },
+  {
+    id: 'grammar-15',
+    title: 'Imperfect Subjunctive',
+    level: 'C1',
+    description: 'Use the imperfect subjunctive for hypothetical and unreal situations in the past.',
+    sections: [
+      {
+        title: 'Formation of Imperfetto Congiuntivo',
+        explanation: 'Regular endings: -ARE verbs: -assi, -assi, -asse, -assimo, -aste, -assero. -ERE verbs: -essi, -essi, -esse, -essimo, -este, -essero. -IRE verbs: -issi, -issi, -isse, -issimo, -iste, -issero.',
+        examples: [
+          { italian: 'parlare --> che io parlassi', translation: 'that I spoke' },
+          { italian: 'scrivere --> che io scrivessi', translation: 'that I wrote' },
+          { italian: 'dormire --> che io dormissi', translation: 'that I slept' },
+        ],
+        exercise: {
+          question: 'What is the imperfect subjunctive of "parlare" for io?',
+          options: ['parlavo', 'parlassi', 'parlerei', 'parlai'],
+          answer: 'parlassi',
+        },
+      },
+      {
+        title: 'Imperfetto Congiuntivo of Essere and Avere',
+        explanation: 'Both essere and avere are irregular in the imperfect subjunctive.',
+        examples: [
+          { italian: 'essere: fossi, fossi, fosse, fossimo, foste, fossero', translation: 'that I/he/she/we/you/they were' },
+          { italian: 'avere: avessi, avessi, avesse, avessimo, aveste, avessero', translation: 'that I/he/she/we/you/they had' },
+        ],
+        exercise: {
+          question: 'What is "if I were" in Italian?',
+          options: ['se io ero', 'se io fossi', 'se io sono', 'se io sarò'],
+          answer: 'se io fossi',
+        },
+      },
+      {
+        title: 'Uses of the Imperfect Subjunctive',
+        explanation: 'Used in hypothetical "if" clauses, after "volevo che", "pensavo che", "era come se", and other expressions of doubt, desire, or unreality.',
+        examples: [
+          { italian: 'Se fossi ricco, viaggerei', translation: 'If I were rich, I would travel' },
+          { italian: 'Volevo che tu venissi', translation: 'I wanted you to come' },
+          { italian: 'Era come se fossimo a casa', translation: 'It was as if we were at home' },
+        ],
+        exercise: {
+          question: 'Which expression requires the imperfect subjunctive?',
+          options: ['So che...', 'Penso che...', 'Spero che...', 'Vado che...'],
+          answer: 'Penso che...',
+        },
+      },
+    ],
+  },
+  {
+    id: 'grammar-16',
+    title: 'Passive Voice',
+    level: 'C1',
+    description: 'Form and use the passive voice in Italian to emphasize the action over the doer.',
+    sections: [
+      {
+        title: 'Formation with Essere',
+        explanation: 'The passive voice is formed with "essere" + past participle. The past participle agrees with the subject.',
+        examples: [
+          { italian: 'Il libro è scritto da Calvino', translation: 'The book is written by Calvino' },
+          { italian: 'La pizza è mangiata ovunque', translation: 'Pizza is eaten everywhere' },
+          { italian: 'La città è stata fondata dai Romani', translation: 'The city was founded by the Romans' },
+        ],
+        exercise: {
+          question: 'How is the passive voice formed in Italian?',
+          options: ['Avere + past participle', 'Essere + past participle', 'Fare + infinitive', 'Stare + gerund'],
+          answer: 'Essere + past participle',
+        },
+      },
+      {
+        title: 'Passive with "venire"',
+        explanation: 'Instead of "essere", you can use "venire" to express an ongoing or repeated passive action.',
+        examples: [
+          { italian: 'Il libro viene letto da milioni', translation: 'The book is (being) read by millions' },
+          { italian: 'La pizza viene mangiata ovunque', translation: 'Pizza is (being) eaten everywhere' },
+        ],
+        exercise: {
+          question: 'What auxiliary is used in place of "essere" for ongoing passive?',
+          options: ['avere', 'venire', 'stare', 'dovere'],
+          answer: 'venire',
+        },
+      },
+      {
+        title: 'Passive with "si"',
+        explanation: 'Italian often uses the impersonal "si" construction as an alternative to the passive voice.',
+        examples: [
+          { italian: 'Si parla italiano', translation: 'Italian is spoken (people speak Italian)' },
+          { italian: 'Si vendono case', translation: 'Houses are for sale (houses are sold)' },
+          { italian: 'Qui si mangia bene', translation: 'Here people eat well / Here food is well eaten' },
+        ],
+        exercise: {
+          question: 'What does "Si parla italiano" mean?',
+          options: ['One speaks Italian', 'Italian is spoken', 'I speak Italian', 'They speak Italian'],
+          answer: 'Italian is spoken',
+        },
+      },
+    ],
+  },
 ];
 
 export default grammar;

@@ -15,7 +15,7 @@ const fadeUp = {
   }),
 };
 
-const TABS = ['All', 'A1', 'A2', 'B1'];
+const TABS = ['All', 'A1', 'A2', 'B1', 'B2', 'C1'];
 
 export default function Learn() {
   useState(() => storage.get('darkMode', false));
