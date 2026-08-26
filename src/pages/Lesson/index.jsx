@@ -172,7 +172,7 @@ function ExampleStep({ content }) {
             <div
               className={`max-w-[80%] p-4 rounded-2xl ${
                 line.speaker === 'A' || line.speaker === 'Tourist' || line.speaker === 'Customer'
-                  ? 'bg-italian-green/5 border border-italian-green/10'
+                  ? 'bg-italian-green/5 dark:bg-italian-green/10 border border-italian-green/10 dark:border-italian-green/20'
                   : 'bg-gray-50 dark:bg-italian-dark-surface border border-gray-100 dark:border-italian-dark-border'
               }`}
             >
@@ -219,7 +219,6 @@ function MultipleChoiceStep({ content, onAnswer }) {
               correct={isCorrect}
               incorrect={isWrong}
               disabled={answered}
-              dark={false}
               onClick={() => handleSelect(option)}
             />
           );
@@ -413,15 +412,15 @@ function ReviewStep({ content, correctCount, incorrectCount, totalSteps }) {
       <div className="grid grid-cols-3 gap-3 mb-6">
         <div className="p-4 rounded-xl bg-white dark:bg-italian-dark-card border border-gray-100 dark:border-italian-dark-border">
           <p className="text-2xl font-heading font-bold text-italian-green">{correctCount}</p>
-          <p className="text-xs text-gray-400 mt-0.5">Correct</p>
+          <p className="text-xs text-gray-400 dark:text-gray-500 mt-0.5">Correct</p>
         </div>
         <div className="p-4 rounded-xl bg-white dark:bg-italian-dark-card border border-gray-100 dark:border-italian-dark-border">
           <p className="text-2xl font-heading font-bold text-italian-red">{incorrectCount}</p>
-          <p className="text-xs text-gray-400 mt-0.5">Incorrect</p>
+          <p className="text-xs text-gray-400 dark:text-gray-500 mt-0.5">Incorrect</p>
         </div>
         <div className="p-4 rounded-xl bg-white dark:bg-italian-dark-card border border-gray-100 dark:border-italian-dark-border">
           <p className="text-2xl font-heading font-bold text-italian-gold">{score}%</p>
-          <p className="text-xs text-gray-400 mt-0.5">Score</p>
+          <p className="text-xs text-gray-400 dark:text-gray-500 mt-0.5">Score</p>
         </div>
       </div>
 
@@ -431,7 +430,7 @@ function ReviewStep({ content, correctCount, incorrectCount, totalSteps }) {
 
       {content.items && content.items.length > 0 && (
         <div className="mb-6">
-          <p className="text-xs font-medium text-gray-400 uppercase tracking-wider mb-3">
+          <p className="text-xs font-medium text-gray-400 dark:text-gray-500 uppercase tracking-wider mb-3">
             Words in this lesson
           </p>
           <div className="flex flex-wrap gap-2 justify-center">
@@ -551,7 +550,7 @@ export default function Lesson() {
               />
             </div>
           </div>
-          <span className="text-xs font-medium text-gray-400 tabular-nums shrink-0">
+          <span className="text-xs font-medium text-gray-400 dark:text-gray-500 tabular-nums shrink-0">
             {stepIndex + 1}/{totalSteps}
           </span>
         </div>

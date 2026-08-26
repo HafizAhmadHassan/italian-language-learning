@@ -293,7 +293,7 @@ export default function Practice() {
                 ))}
               </div>
               <div className="min-h-[60px] p-4 border-2 border-italian-green rounded-xl mb-4 flex flex-wrap gap-2 bg-green-50/50 dark:bg-green-900/10">
-                {!answered && sentenceOrder.length === 0 && <span className="text-gray-400 text-sm">Click words above to build the sentence</span>}
+                {!answered && sentenceOrder.length === 0 && <span className="text-gray-400 dark:text-gray-500 text-sm">Click words above to build the sentence</span>}
               </div>
               {!answered && (
                 <button onClick={() => sentenceOrder.length > 0 && handleAnswer(sentenceOrder)} disabled={sentenceOrder.length === 0} className="px-6 py-3 bg-italian-green text-white rounded-xl font-semibold hover:bg-green-700 transition-colors disabled:opacity-50 cursor-pointer">

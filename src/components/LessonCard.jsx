@@ -41,7 +41,7 @@ export default function LessonCard({ lesson, isCompleted, isLocked, progress = 0
           </span>
         ) : isLocked ? (
           <span className="w-7 h-7 rounded-full bg-gray-200 flex items-center justify-center dark:bg-italian-dark-surface">
-            <Lock size={13} className="text-gray-400" />
+              <Lock size={13} className="text-gray-400 dark:text-gray-500" />
           </span>
         ) : null}
       </div>

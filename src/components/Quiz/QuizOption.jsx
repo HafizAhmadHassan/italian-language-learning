@@ -8,7 +8,6 @@ export default function QuizOption({
   incorrect = false,
   onClick,
   disabled = false,
-  dark = false,
 }) {
   const base = `w-full text-left px-5 py-4 rounded-2xl border-2 font-medium transition-all duration-200`;
 
@@ -18,12 +17,9 @@ export default function QuizOption({
   } else if (incorrect) {
     style = 'border-italian-red bg-italian-red/10 text-italian-red';
   } else if (selected) {
-    style = 'border-blue-500 bg-blue-50 text-blue-700';
+    style = 'border-blue-500 bg-blue-50 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300';
   } else {
-    const bg = dark ? 'bg-italian-dark-surface' : 'bg-white';
-    const border = dark ? 'border-italian-dark-border' : 'border-gray-200';
-    const text = dark ? 'text-gray-200' : 'text-italian-charcoal';
-    style = `${bg} ${border} ${text} hover:border-italian-green/40 hover:bg-italian-green/5`;
+    style = 'bg-white dark:bg-italian-dark-surface border-gray-200 dark:border-italian-dark-border text-italian-charcoal dark:text-gray-200 hover:border-italian-green/40 hover:bg-italian-green/5 dark:hover:bg-italian-green/10';
   }
 
   return (

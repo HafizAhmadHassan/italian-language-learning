@@ -139,10 +139,10 @@ export default function Dashboard() {
               <p className="text-2xl md:text-3xl font-heading font-bold text-italian-charcoal dark:text-white">
                 {card.value}
                 {card.suffix && (
-                  <span className="text-sm font-normal text-gray-400 ml-1">{card.suffix}</span>
+                  <span className="text-sm font-normal text-gray-400 dark:text-gray-500 ml-1">{card.suffix}</span>
                 )}
               </p>
-              <p className="text-xs text-gray-400 mt-0.5">{card.label}</p>
+              <p className="text-xs text-gray-400 dark:text-gray-500 mt-0.5">{card.label}</p>
             </motion.div>
           ))}
         </div>
@@ -175,7 +175,7 @@ export default function Dashboard() {
                     className="h-full rounded-full bg-italian-green"
                   />
                 </div>
-                <p className="text-xs text-gray-400">{lessonProgress}% complete</p>
+                <p className="text-xs text-gray-400 dark:text-gray-500">{lessonProgress}% complete</p>
               </div>
               <Link
                 to={`/lesson/${currentLesson.id}`}
@@ -274,7 +274,7 @@ export default function Dashboard() {
                   dataKey="day"
                   axisLine={false}
                   tickLine={false}
-                  tick={{ fontSize: 12, fill: dark ? '#9CA3AF' : '#9CA3AF' }}
+                  tick={{ fontSize: 12, fill: dark ? '#9CA3AF' : '#6B7280' }}
                 />
                 <YAxis
                   axisLine={false}

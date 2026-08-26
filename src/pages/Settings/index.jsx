@@ -141,7 +141,7 @@ export default function Settings() {
               <Palette size={16} className="text-gray-600 dark:text-gray-400" />
               <span className="font-medium text-gray-700 dark:text-gray-300">Dark Mode</span>
             </div>
-            <button onClick={() => setDarkMode(!darkMode)} className={`w-12 h-6 rounded-full transition-colors relative cursor-pointer ${darkMode ? 'bg-italian-green' : 'bg-gray-300'}`}>
+            <button onClick={() => setDarkMode(!darkMode)} className={`w-12 h-6 rounded-full transition-colors relative cursor-pointer ${darkMode ? 'bg-italian-green' : 'bg-gray-300 dark:bg-gray-600'}`}>
               <div className={`w-5 h-5 bg-white rounded-full absolute top-0.5 transition-transform shadow ${darkMode ? 'translate-x-6' : 'translate-x-0.5'}`} />
             </button>
           </div>
@@ -151,7 +151,7 @@ export default function Settings() {
               <Volume2 size={16} className="text-gray-600 dark:text-gray-400" />
               <span className="font-medium text-gray-700 dark:text-gray-300">Sound Effects</span>
             </div>
-            <button onClick={() => setSoundEnabled(!soundEnabled)} className={`w-12 h-6 rounded-full transition-colors relative cursor-pointer ${soundEnabled ? 'bg-italian-green' : 'bg-gray-300'}`}>
+            <button onClick={() => setSoundEnabled(!soundEnabled)} className={`w-12 h-6 rounded-full transition-colors relative cursor-pointer ${soundEnabled ? 'bg-italian-green' : 'bg-gray-300 dark:bg-gray-600'}`}>
               <div className={`w-5 h-5 bg-white rounded-full absolute top-0.5 transition-transform shadow ${soundEnabled ? 'translate-x-6' : 'translate-x-0.5'}`} />
             </button>
           </div>
@@ -187,7 +187,7 @@ export default function Settings() {
 
       <Modal isOpen={showLogoutModal} onClose={() => setShowLogoutModal(false)} title="Log Out">
         <div className="text-center">
-          <LogOut size={48} className="text-gray-400 mx-auto mb-4" />
+          <LogOut size={48} className="text-gray-400 dark:text-gray-500 mx-auto mb-4" />
           <p className="text-gray-600 dark:text-gray-400 mb-6">Are you sure you want to log out? Your progress is saved locally and will be here when you log back in.</p>
           <div className="flex gap-3 justify-center">
             <button onClick={() => setShowLogoutModal(false)} className="px-6 py-2.5 bg-gray-100 dark:bg-italian-dark-surface text-gray-700 dark:text-gray-300 rounded-xl font-medium hover:bg-gray-200 transition-colors cursor-pointer">Cancel</button>
