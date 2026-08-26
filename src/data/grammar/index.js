@@ -807,6 +807,436 @@ const grammar = [
       },
     ],
   },
+  {
+    id: 'grammar-17',
+    title: 'Personal Pronouns',
+    level: 'A1',
+    description: 'Learn Italian personal subject pronouns and when to use them.',
+    sections: [
+      {
+        title: 'Subject Pronouns',
+        explanation: 'Italian subject pronouns are often dropped because the verb ending indicates who is performing the action.',
+        examples: [
+          { italian: 'io', translation: 'I' },
+          { italian: 'tu', translation: 'you (informal)' },
+          { italian: 'lui / lei / Lei', translation: 'he / she / you (formal)' },
+          { italian: 'noi', translation: 'we' },
+          { italian: 'voi', translation: 'you (plural)' },
+          { italian: 'loro', translation: 'they' },
+        ],
+        exercise: {
+          question: 'When are Italian subject pronouns usually dropped?',
+          options: ['Always', 'Never', 'When the verb form makes the subject clear', 'Only in formal speech'],
+          answer: 'When the verb form makes the subject clear',
+        },
+      },
+      {
+        title: 'Pronoun Usage',
+        explanation: 'Use pronouns for emphasis, clarity, or contrast.',
+        examples: [
+          { italian: 'Io parlo, tu ascolti', translation: 'I speak, you listen (contrast)' },
+          { italian: 'Lui è italiano, lei è francese', translation: 'He is Italian, she is French (clarity)' },
+          { italian: 'Io vado! (io stressed)', translation: "I'm going! (emphasis)" },
+        ],
+        exercise: {
+          question: 'Which is NOT a subject pronoun?',
+          options: ['io', 'mi', 'tu', 'lui'],
+          answer: 'mi',
+        },
+      },
+    ],
+  },
+  {
+    id: 'grammar-18',
+    title: 'Prepositions (Di, A, Da, In)',
+    level: 'A1',
+    description: 'Master basic Italian prepositions and their usage with places and people.',
+    sections: [
+      {
+        title: 'Basic Prepositions',
+        explanation: 'Italian has simple and articulated (contracted) prepositions.',
+        examples: [
+          { italian: 'di', translation: 'of / from' },
+          { italian: 'a', translation: 'to / at' },
+          { italian: 'da', translation: 'from / by' },
+          { italian: 'in', translation: 'in' },
+          { italian: 'con', translation: 'with' },
+          { italian: 'per', translation: 'for' },
+          { italian: 'su', translation: 'on / about' },
+        ],
+        exercise: {
+          question: 'Which preposition means "from" (in the sense of origin)?',
+          options: ['a', 'di', 'da', 'in'],
+          answer: 'da',
+        },
+      },
+      {
+        title: 'Prepositions with Places',
+        explanation: 'Prepositions contract with definite articles: di+il=dell\', a+gli=agli, etc.',
+        examples: [
+          { italian: 'Vado al cinema', translation: "I go to the cinema (a + il = al)" },
+          { italian: 'Vengo dall\'Italia', translation: "I come from Italy (da + l' = dall')" },
+          { italian: 'Studio a scuola', translation: 'I study at school' },
+          { italian: 'Vivo in Italia', translation: 'I live in Italy' },
+        ],
+        exercise: {
+          question: 'What is "a + il" in contracted form?',
+          options: ['allo', 'al', 'ai', 'alla'],
+          answer: 'al',
+        },
+      },
+      {
+        title: 'Prepositions with People',
+        explanation: 'Use "da" for origin, "a" for destination, "con" for accompaniment.',
+        examples: [
+          { italian: 'Vengo da Roma', translation: 'I come from Rome' },
+          { italian: 'Vado a Milano', translation: 'I go to Milan' },
+          { italian: 'Vado con Marco', translation: 'I go with Marco' },
+          { italian: 'Sono di Torino', translation: 'I am from Turin (identity)' },
+        ],
+        exercise: {
+          question: 'How do you say "I come from Rome"?',
+          options: ['Vengo a Roma', 'Vengo di Roma', 'Vengo da Roma', 'Vengo in Roma'],
+          answer: 'Vengo da Roma',
+        },
+      },
+    ],
+  },
+  {
+    id: 'grammar-19',
+    title: 'Adjective Agreement',
+    level: 'A2',
+    description: 'Learn how Italian adjectives agree in gender and number with nouns.',
+    sections: [
+      {
+        title: 'Regular Agreement',
+        explanation: 'Adjectives change endings to match the noun: -o/-a/-i/-e.',
+        examples: [
+          { italian: 'ragazzo alto / ragazza alta', translation: 'tall boy / tall girl' },
+          { italian: 'libri grandi', translation: 'big books (pl.)' },
+          { italian: 'case piccole', translation: 'small houses (f.pl.)' },
+        ],
+        exercise: {
+          question: 'What is the feminine form of "bello"?',
+          options: ['belli', 'belle', 'bella', 'belli'],
+          answer: 'bella',
+        },
+      },
+      {
+        title: 'Placement of Adjectives',
+        explanation: 'Most adjectives follow the noun. Some (like bello, buono, grande, piccolo) precede it.',
+        examples: [
+          { italian: 'una macchina rossa', translation: 'a red car (color follows)' },
+          { italian: 'un bel giorno', translation: 'a beautiful day (bello precedes)' },
+          { italian: 'un buon ristorante', translation: 'a good restaurant (buono precedes)' },
+        ],
+        exercise: {
+          question: 'Where does the color adjective "rosso" go?',
+          options: ['Before the noun', 'After the noun', 'Either position', 'Before the article'],
+          answer: 'After the noun',
+        },
+      },
+      {
+        title: 'Irregular Adjectives',
+        explanation: 'Some adjectives have irregular forms.',
+        examples: [
+          { italian: 'buono/buona/buoni/buone', translation: 'good' },
+          { italian: 'bello/bella/belli/belle', translation: 'beautiful' },
+          { italian: 'grande/grandi', translation: 'big/great (invariable for gender)' },
+          { italian: 'poco/poca/pochi/poque', translation: 'little/few' },
+        ],
+        exercise: {
+          question: 'What is the masculine plural of "bello"?',
+          options: ['bellos', 'belli', 'belle', 'bella'],
+          answer: 'belli',
+        },
+      },
+    ],
+  },
+  {
+    id: 'grammar-20',
+    title: 'Reflexive Verbs',
+    level: 'A2',
+    description: 'Learn to use reflexive verbs for daily routines and self-directed actions.',
+    sections: [
+      {
+        title: 'Reflexive Pronouns',
+        explanation: 'Reflexive pronouns: mi, ti, si, ci, vi, si. They go before the conjugated verb.',
+        examples: [
+          { italian: 'mi lavo', translation: 'I wash myself' },
+          { italian: 'ti alzi', translation: 'you wake up' },
+          { italian: 'si vestono', translation: 'they get dressed' },
+        ],
+        exercise: {
+          question: 'What is the reflexive pronoun for "noi"?',
+          options: ['mi', 'ti', 'ci', 'vi'],
+          answer: 'ci',
+        },
+      },
+      {
+        title: 'Common Reflexive Verbs',
+        explanation: 'Many daily routine verbs are reflexive.',
+        examples: [
+          { italian: 'svegliarsi', translation: 'to wake up' },
+          { italian: 'alzarsi', translation: 'to get up' },
+          { italian: 'lavarsi', translation: 'to wash oneself' },
+          { italian: 'vestirsi', translation: 'to get dressed' },
+          { italian: 'chiamarsi', translation: 'to call oneself' },
+          { italian: 'divertirsi', translation: 'to have fun' },
+        ],
+        exercise: {
+          question: 'What does "chiamarsi" mean?',
+          options: ['To call someone', 'To be called / To call oneself', 'To answer the phone', 'To shout'],
+          answer: 'To be called / To call oneself',
+        },
+      },
+      {
+        title: 'Reflexive Passato Prossimo',
+        explanation: 'Reflexive verbs always use "essere" as auxiliary in passato prossimo.',
+        examples: [
+          { italian: 'Mi sono svegliato/a presto', translation: 'I woke up early' },
+          { italian: 'Ci siamo divertiti', translation: 'We had fun' },
+          { italian: 'Ti sei vestito/a?', translation: 'Did you get dressed?' },
+        ],
+        exercise: {
+          question: 'Which auxiliary do reflexive verbs use in passato prossimo?',
+          options: ['Avere', 'Essere', 'Stare', 'Dovere'],
+          answer: 'Essere',
+        },
+      },
+    ],
+  },
+  {
+    id: 'grammar-21',
+    title: 'Modal Verbs (Dovere, Potere, Volere)',
+    level: 'A2',
+    description: 'Master Italian modal verbs and their usage with infinitives.',
+    sections: [
+      {
+        title: 'Conjugation and Meaning',
+        explanation: 'Modals express obligation, possibility, and desire. They are followed by infinitive without preposition.',
+        examples: [
+          { italian: 'devo studiare', translation: 'I must study (obligation)' },
+          { italian: 'puoi venire', translation: 'you can come (possibility)' },
+          { italian: 'voglio mangiare', translation: 'I want to eat (desire)' },
+          { italian: 'dobbiamo partire', translation: 'we must leave' },
+          { italian: 'possono aiutare', translation: 'they can help' },
+        ],
+        exercise: {
+          question: 'Which modal verb expresses obligation?',
+          options: ['potere', 'volere', 'dovere', 'andare'],
+          answer: 'dovere',
+        },
+      },
+      {
+        title: 'Modals with Passato Prossimo',
+        explanation: 'The choice of auxiliary (avere/essere) depends on the infinitive that follows.',
+        examples: [
+          { italian: 'ho dovuto partire', translation: 'I had to leave (avere because partire takes essere, but double auxiliary is rare — often essere used)' },
+          { italian: 'sono dovuto/a andare', translation: 'I had to go' },
+          { italian: 'ho potuto fare', translation: 'I could do' },
+        ],
+        exercise: {
+          question: 'What does "dovere" mean?',
+          options: ['To be able to', 'To want', 'To have to / must', 'To like'],
+          answer: 'To have to / must',
+        },
+      },
+    ],
+  },
+  {
+    id: 'grammar-22',
+    title: 'Relative Pronouns',
+    level: 'B2',
+    description: 'Use che, cui, il quale, and other relative pronouns to connect clauses.',
+    sections: [
+      {
+        title: 'Che vs Cui',
+        explanation: '"Che" is the most common relative pronoun (subject or direct object). "Cui" follows prepositions.',
+        examples: [
+          { italian: 'Il libro che leggo', translation: 'The book that I read (direct object)' },
+          { italian: 'La persona con cui parlo', translation: 'The person with whom I speak (after preposition)' },
+          { italian: 'Il ristorante dove mangiamo', translation: 'The restaurant where we eat' },
+        ],
+        exercise: {
+          question: 'Which relative pronoun follows prepositions?',
+          options: ['che', 'cui', 'dove', 'quale'],
+          answer: 'cui',
+        },
+      },
+      {
+        title: 'Il quale, La quale',
+        explanation: 'Use "il quale" for more formal or precise reference, especially after prepositions.',
+        examples: [
+          { italian: 'Il professore con il quale studio', translation: 'The professor with whom I study (formal)' },
+          { italian: 'La persona la quale ho incontrato', translation: 'The person whom I met' },
+        ],
+        exercise: {
+          question: 'When is "il quale" preferred over "che"?',
+          options: ['In informal speech', 'After prepositions for clarity', 'Never', 'With verbs only'],
+          answer: 'After prepositions for clarity',
+        },
+      },
+    ],
+  },
+  {
+    id: 'grammar-23',
+    title: 'Future Perfect (Futuro Anteriore)',
+    level: 'B2',
+    description: 'Express actions that will have been completed by a future point in time.',
+    sections: [
+      {
+        title: 'Formation',
+        explanation: 'Future auxiliary (avro/sono stato) + past participle.',
+        examples: [
+          { italian: 'Avro finito entro mezzogiorno', translation: 'I will have finished by noon' },
+          { italian: 'Saro arrivato prima di te', translation: 'I will have arrived before you' },
+          { italian: 'Avremo mangiato quando arrivi', translation: 'We will have eaten when you arrive' },
+        ],
+        exercise: {
+          question: 'What is "I will have spoken" (parlare)?',
+          options: ['parlero', 'avrò parlato', 'parlavo', 'parlerei'],
+          answer: 'avrò parlato',
+        },
+      },
+      {
+        title: 'Usage',
+        explanation: 'Used to express an action completed before another future action.',
+        examples: [
+          { italian: 'Quando arrivero, avro già preparato la cena', translation: 'When I arrive, I will have already prepared dinner' },
+          { italian: 'Domani avro finito il progetto', translation: 'Tomorrow I will have finished the project' },
+        ],
+        exercise: {
+          question: 'When do we use futuro anteriore?',
+          options: ['For past actions', 'For actions completed before another future action', 'For habitual actions', 'For commands'],
+          answer: 'For actions completed before another future action',
+        },
+      },
+    ],
+  },
+  {
+    id: 'grammar-24',
+    title: 'Conjunctive Mood (Congiuntivo Presente)',
+    level: 'B1',
+    description: 'Use the present subjunctive to express doubt, desire, opinion, and emotion.',
+    sections: [
+      {
+        title: 'Formation',
+        explanation: 'Regular endings: -ARE verbs: -i, -i, -i, -iamo, -iate, -ino. -ERE verbs: -a, -a, -a, -iamo, -iate, -ano. -IRE verbs: -a, -a, -a, -iamo, -iate, -ano.',
+        examples: [
+          { italian: 'che io parli', translation: 'that I speak' },
+          { italian: 'che tu scriva', translation: 'that you write' },
+          { italian: 'che lui dorma', translation: 'that he sleeps' },
+        ],
+        exercise: {
+          question: 'What is the present subjunctive of "parlare" for io?',
+          options: ['parlo', 'parli', 'parlerei', 'parlavo'],
+          answer: 'parli',
+        },
+      },
+      {
+        title: 'Irregular Subjunctive',
+        explanation: 'Essere, avere, andare, fare, dire, dare, stare, sapere have irregular forms.',
+        examples: [
+          { italian: 'che io sia', translation: 'that I be' },
+          { italian: 'che io abbia', translation: 'that I have' },
+          { italian: 'che io vada', translation: 'that I go' },
+          { italian: 'che io faccia', translation: 'that I do/make' },
+        ],
+        exercise: {
+          question: 'What is the irregular present subjunctive of "essere" for io?',
+          options: ['sono', 'sia', 'ero', 'sarei'],
+          answer: 'sia',
+        },
+      },
+      {
+        title: 'When to Use Congiuntivo',
+        explanation: 'After expressions of opinion, doubt, desire, emotion, and uncertainty.',
+        examples: [
+          { italian: 'Penso che sia importante', translation: 'I think it is important' },
+          { italian: 'Spero che tu venga', translation: 'I hope you come' },
+          { italian: 'È possibile che piova', translation: 'It is possible that it rains' },
+        ],
+        exercise: {
+          question: 'Which expression requires the subjunctive?',
+          options: ['So che...', 'Penso che...', 'Voglio che...', 'Tutte e due (B e C)'],
+          answer: 'Tutte e due (B e C)',
+        },
+      },
+    ],
+  },
+  {
+    id: 'grammar-25',
+    title: 'Relative Clauses and Subordination',
+    level: 'C1',
+    description: 'Build complex sentences with multiple subordinate clauses.',
+    sections: [
+      {
+        title: 'Types of Subordinate Clauses',
+        explanation: 'Italian has causal, temporal, consecutive, concessive, and conditional clauses.',
+        examples: [
+          { italian: 'Poiché piove, restiamo a casa', translation: 'Since it rains, we stay home (causal)' },
+          { italian: 'Quando arrivo, ti chiamo', translation: 'When I arrive, I call you (temporal)' },
+          { italian: 'Così bello che non riesco a crederci', translation: 'So beautiful that I cannot believe it (consecutive)' },
+          { italian: 'Sebbene sia stanco, continuo', translation: 'Although I am tired, I continue (concessive)' },
+        ],
+        exercise: {
+          question: 'Which word introduces a causal clause?',
+          options: ['quando', 'poiché', 'sebbene', 'così'],
+          answer: 'poiché',
+        },
+      },
+      {
+        title: 'Consecutive Clauses',
+        explanation: 'Use "così...che" or "tanto...che" to express consequence.',
+        examples: [
+          { italian: 'E così stanco che non riesco a camminare', translation: 'He is so tired that he cannot walk' },
+          { italian: 'Piove tanto che le strade sono allagate', translation: 'It rains so much that the streets are flooded' },
+        ],
+        exercise: {
+          question: 'Which structure expresses consequence?',
+          options: ['sebbene...che', 'così...che', 'prima che', 'affinché'],
+          answer: 'così...che',
+        },
+      },
+    ],
+  },
+  {
+    id: 'grammar-26',
+    title: 'Italian Word Order (SVO and Variations)',
+    level: 'B1',
+    description: 'Understand standard Italian word order and common variations for emphasis.',
+    sections: [
+      {
+        title: 'Standard SVO Order',
+        explanation: 'Italian follows Subject-Verb-Object order like English, but pronouns come before the verb.',
+        examples: [
+          { italian: 'Io mangio la pizza', translation: 'I eat pizza (SVO)' },
+          { italian: 'La pizza la mangio io', translation: 'The pizza, I eat it (OSV — topicalization)' },
+          { italian: 'Mangio la pizza', translation: 'I eat pizza (SVO — pronoun dropped)' },
+        ],
+        exercise: {
+          question: 'What is the standard Italian word order?',
+          options: ['SOV', 'SVO', 'VSO', 'OSV'],
+          answer: 'SVO',
+        },
+      },
+      {
+        title: 'Emphatic Word Order',
+        explanation: 'Changing word order can add emphasis or focus.',
+        examples: [
+          { italian: 'Il libro lo leggo domani', translation: 'The book, I\'ll read tomorrow (emphasis on timing)' },
+          { italian: 'Domani leggo il libro', translation: 'Tomorrow I\'ll read the book (emphasis on time)' },
+          { italian: 'Leggo domani il libro', translation: 'I\'ll read the book tomorrow (neutral variation)' },
+        ],
+        exercise: {
+          question: 'Why might a speaker say "La pizza la mangio io" instead of "Io mangio la pizza"?',
+          options: ['It\'s grammatically required', 'To emphasize who eats the pizza', 'To ask a question', 'It\'s more formal'],
+          answer: 'To emphasize who eats the pizza',
+        },
+      },
+    ],
+  },
 ];
 
 export default grammar;
