@@ -3698,6 +3698,958 @@ const lessons = [
       },
     ],
   },
+  {
+    id: 'lesson-51',
+    title: 'At the Beach',
+    level: 'A2',
+    unit: 5,
+    unitTitle: 'Daily Life',
+    description: 'Vocabulary and phrases for beach and summer activities.',
+    duration: 12,
+    steps: [
+      {
+        type: 'learn',
+        content: {
+          title: 'Beach Vocabulary',
+          text: 'Essential Italian vocabulary for beach outings.',
+          items: [
+            { italian: 'La spiaggia', english: 'The beach', pronunciation: 'SPYAHJ-jah' },
+            { italian: 'Il mare', english: 'The sea', pronunciation: 'MAH-reh' },
+            { italian: 'Il sole', english: 'The sun', pronunciation: 'SOH-leh' },
+            { italian: 'La sabbia', english: 'The sand', pronunciation: 'SAHB-byah' },
+            { italian: 'L\'ombrello', english: 'The umbrella', pronunciation: 'ohm-BREHL-loh' },
+            { italian: 'Il costume da bagno', english: 'The swimsuit', pronunciation: 'kohs-TOO-meh dah BAH-nyoh' },
+            { italian: 'Il salvagente', english: 'The life preserver', pronunciation: 'sahl-vah-JEN-teh' },
+            { italian: 'La crema solare', english: 'The sunscreen', pronunciation: 'KREH-mah soh-LAH-reh' },
+          ],
+        },
+      },
+      {
+        type: 'example',
+        content: {
+          dialogue: [
+            { speaker: 'A', italian: 'Andiamo in spiaggia oggi?', english: 'Shall we go to the beach today?' },
+            { speaker: 'B', italian: 'Si! Porta la crema solare.', english: 'Yes! Bring the sunscreen.' },
+            { speaker: 'A', italian: 'Porto anche l\'ombrello.', english: 'I\'ll also bring the umbrella.' },
+          ],
+        },
+      },
+      {
+        type: 'multiple_choice',
+        content: {
+          question: 'What does "la spiaggia" mean?',
+          options: ['The sea', 'The beach', 'The sand', 'The pool'],
+          answer: 'The beach',
+        },
+      },
+      {
+        type: 'translation',
+        content: {
+          direction: 'it-to-en',
+          sentence: 'Il mare e molto bello oggi.',
+          answer: 'The sea is very beautiful today.',
+          hint: 'mare = sea',
+        },
+      },
+      {
+        type: 'fill_blank',
+        content: {
+          sentence: 'Porta la ___(crema) solare.',
+          answer: 'crema',
+          hint: 'sunscreen',
+        },
+      },
+    ],
+  },
+  {
+    id: 'lesson-52',
+    title: 'Animals',
+    level: 'A1',
+    unit: 2,
+    unitTitle: 'Building Blocks',
+    description: 'Learn the names of common animals in Italian.',
+    duration: 10,
+    steps: [
+      {
+        type: 'learn',
+        content: {
+          title: 'Animal Names',
+          text: 'Common Italian animal vocabulary.',
+          items: [
+            { italian: 'Il cane', english: 'The dog', pronunciation: 'KAH-neh' },
+            { italian: 'Il gatto', english: 'The cat', pronunciation: 'GAHT-toh' },
+            { italian: 'Il uccello', english: 'The bird', pronunciation: 'oo-CHEHL-loh' },
+            { italian: 'Il pesce', english: 'The fish', pronunciation: 'PEH-sheh' },
+            { italian: 'La mucca', english: 'The cow', pronunciation: 'MOOK-kah' },
+            { italian: 'Il cavallo', english: 'The horse', pronunciation: 'kah-VAHL-loh' },
+            { italian: 'Il coniglio', english: 'The rabbit', pronunciation: 'koh-NEE-lyoh' },
+            { italian: 'La farfalla', english: 'The butterfly', pronunciation: 'fahr-FAHL-lah' },
+          ],
+        },
+      },
+      {
+        type: 'example',
+        content: {
+          dialogue: [
+            { speaker: 'A', italian: 'Hai un animale domestico?', english: 'Do you have a pet?' },
+            { speaker: 'B', italian: 'Si, ho due cani e un gatto.', english: 'Yes, I have two dogs and a cat.' },
+            { speaker: 'A', italian: 'Che bello! Come si chiamano?', english: 'How nice! What are their names?' },
+          ],
+        },
+      },
+      {
+        type: 'multiple_choice',
+        content: {
+          question: 'What is "il gatto" in English?',
+          options: ['The dog', 'The cat', 'The bird', 'The fish'],
+          answer: 'The cat',
+        },
+      },
+      {
+        type: 'translation',
+        content: {
+          direction: 'it-to-en',
+          sentence: 'Il cane e il migliore amico dell\'uomo.',
+          answer: 'The dog is man\'s best friend.',
+          hint: 'cane = dog',
+        },
+      },
+      {
+        type: 'fill_blank',
+        content: {
+          sentence: 'Ho due ___(cane) e un gatto.',
+          answer: 'cani',
+          hint: 'plural of cane',
+        },
+      },
+    ],
+  },
+  {
+    id: 'lesson-53',
+    title: 'Hobbies and Free Time',
+    level: 'A2',
+    unit: 5,
+    unitTitle: 'Daily Life',
+    description: 'Talk about hobbies and leisure activities in Italian.',
+    duration: 12,
+    steps: [
+      {
+        type: 'learn',
+        content: {
+          title: 'Hobbies Vocabulary',
+          text: 'Common Italian hobby and leisure vocabulary.',
+          items: [
+            { italian: 'Il hobby', english: 'The hobby', pronunciation: 'OH-bee' },
+            { italian: 'Il tempo libero', english: 'Free time', pronunciation: 'TEHM-poh LEE-beh-roh' },
+            { italian: 'Leggere', english: 'To read', pronunciation: 'LEHJ-jeh-reh' },
+            { italian: 'Guardare la TV', english: 'To watch TV', english: 'To watch TV', pronunciation: 'gwahr-DAH-reh lah TV' },
+            { italian: 'Ascoltare la musica', english: 'To listen to music', pronunciation: 'ahskohl-TAH-reh lah MOO-zee-kah' },
+            { italian: 'Giocare a calcio', english: 'To play soccer', pronunciation: 'joh-KAH-reh ahl CHEE-oh' },
+            { italian: 'Fare una passeggiata', english: 'To take a walk', pronunciation: 'FAH-reh OO-nah pahs-seh-JAH-tah' },
+            { italian: 'Cucinare', english: 'To cook', pronunciation: 'koo-chee-NAH-reh' },
+          ],
+        },
+      },
+      {
+        type: 'example',
+        content: {
+          dialogue: [
+            { speaker: 'A', italian: 'Cosa fai nel tempo libero?', english: 'What do you do in your free time?' },
+            { speaker: 'B', italian: 'Mi piace leggere e ascoltare la musica.', english: 'I like reading and listening to music.' },
+            { speaker: 'A', italian: 'Anche a me piace leggere!', english: 'I also like reading!' },
+          ],
+        },
+      },
+      {
+        type: 'multiple_choice',
+        content: {
+          question: 'What does "fare una passeggiata" mean?',
+          options: ['To take a run', 'To take a walk', 'To go shopping', 'To cook dinner'],
+          answer: 'To take a walk',
+        },
+      },
+      {
+        type: 'translation',
+        content: {
+          direction: 'it-to-en',
+          sentence: 'Nel tempo libero mi piace cucinare.',
+          answer: 'In my free time I like to cook.',
+          hint: 'cucinare = to cook',
+        },
+      },
+      {
+        type: 'fill_blank',
+        content: {
+          sentence: 'Mi piace ___(giocare) a calcio.',
+          answer: 'giocare',
+          hint: 'to play',
+        },
+      },
+    ],
+  },
+  {
+    id: 'lesson-54',
+    title: 'At the Restaurant',
+    level: 'A2',
+    unit: 5,
+    unitTitle: 'Daily Life',
+    description: 'Master ordering food and dining in Italian restaurants.',
+    duration: 15,
+    steps: [
+      {
+        type: 'learn',
+        content: {
+          title: 'Restaurant Phrases',
+          text: 'Essential Italian phrases for dining out.',
+          items: [
+            { italian: 'Un tavolo per due, per favore', english: 'A table for two, please' },
+            { italian: 'Il menu, per favore', english: 'The menu, please' },
+            { italian: 'Cosa mi consiglia?', english: 'What do you recommend?' },
+            { italian: 'Vorrei...', english: 'I would like...' },
+            { italian: 'Il conto, per favore', english: 'The check, please' },
+            { italian: 'E delizioso!', english: 'It\'s delicious!' },
+            { italian: 'Posso avere l\'acqua?', english: 'Can I have water?' },
+            { italian: 'Sono allergico a...', english: 'I\'m allergic to...' },
+          ],
+        },
+      },
+      {
+        type: 'example',
+        content: {
+          dialogue: [
+            { speaker: 'A', italian: 'Buonasera, un tavolo per due.', english: 'Good evening, a table for two.' },
+            { speaker: 'B', italian: 'Subito. Ecco il menu.', english: 'Right away. Here\'s the menu.' },
+            { speaker: 'A', italian: 'Vorrei la pasta al pomodoro.', english: 'I\'d like the tomato pasta.' },
+            { speaker: 'B', italian: 'Buona scelta! E per secondo?', english: 'Good choice! And for the second course?' },
+          ],
+        },
+      },
+      {
+        type: 'multiple_choice',
+        content: {
+          question: 'How do you ask for the check in Italian?',
+          options: ['Il menu, per favore', 'Il conto, per favore', 'L\'acqua, per favore', 'Il tavolo, per favore'],
+          answer: 'Il conto, per favore',
+        },
+      },
+      {
+        type: 'translation',
+        content: {
+          direction: 'it-to-en',
+          sentence: 'Cosa mi consiglia come secondo?',
+          answer: 'What do you recommend as a second course?',
+          hint: 'consiglia = recommend',
+        },
+      },
+      {
+        type: 'fill_blank',
+        content: {
+          sentence: '___(vorrei) la pasta al ragu.',
+          answer: 'Vorrei',
+          hint: 'I would like',
+        },
+      },
+    ],
+  },
+  {
+    id: 'lesson-55',
+    title: 'Family Relationships',
+    level: 'A1',
+    unit: 1,
+    unitTitle: 'First Steps',
+    description: 'Expand family vocabulary and talk about relationships.',
+    duration: 10,
+    steps: [
+      {
+        type: 'learn',
+        content: {
+          title: 'Extended Family',
+          text: 'More Italian family vocabulary.',
+          items: [
+            { italian: 'Il nonno', english: 'The grandfather', pronunciation: 'NOHN-noh' },
+            { italian: 'La nonna', english: 'The grandmother', pronunciation: 'NOHN-nah' },
+            { italian: 'Il cugino', english: 'The cousin (male)', pronunciation: 'koo-JEE-noh' },
+            { italian: 'La cugina', english: 'The cousin (female)', pronunciation: 'koo-JEE-nah' },
+            { italian: 'Il nipote', english: 'The nephew/grandchild', pronunciation: 'nee-POH-teh' },
+            { italian: 'Lo zio', english: 'The uncle', pronunciation: 'DZEE-oh' },
+            { italian: 'La zia', english: 'The aunt', pronunciation: 'DZEE-ah' },
+            { italian: 'Il suocero', english: 'The father-in-law', pronunciation: 'SWOH-cheh-roh' },
+          ],
+        },
+      },
+      {
+        type: 'example',
+        content: {
+          dialogue: [
+            { speaker: 'A', italian: 'Quanti anni ha tuo nonno?', english: 'How old is your grandfather?' },
+            { speaker: 'B', italian: 'Ha settantacinque anni.', english: 'He is seventy-five years old.' },
+            { speaker: 'A', italian: 'E in buona salute?', english: 'Is he in good health?' },
+            { speaker: 'B', italian: 'Si, grazie a Dio!', english: 'Yes, thank God!' },
+          ],
+        },
+      },
+      {
+        type: 'multiple_choice',
+        content: {
+          question: 'What is "la nonna" in English?',
+          options: ['The aunt', 'The grandmother', 'The mother', 'The sister'],
+          answer: 'The grandmother',
+        },
+      },
+      {
+        type: 'translation',
+        content: {
+          direction: 'it-to-en',
+          sentence: 'Mio nipote ha cinque anni.',
+          answer: 'My nephew/grandchild is five years old.',
+          hint: 'nipote = nephew/grandchild',
+        },
+      },
+      {
+        type: 'fill_blank',
+        content: {
+          sentence: 'Il ___(zio) di Marco e medico.',
+          answer: 'zio',
+          hint: 'uncle',
+        },
+      },
+    ],
+  },
+  {
+    id: 'lesson-56',
+    title: 'Shopping and Bargaining',
+    level: 'A2',
+    unit: 5,
+    unitTitle: 'Daily Life',
+    description: 'Learn to shop and negotiate prices in Italian markets.',
+    duration: 15,
+    steps: [
+      {
+        type: 'learn',
+        content: {
+          title: 'Shopping Phrases',
+          text: 'Essential Italian shopping vocabulary.',
+          items: [
+            { italian: 'Quanto costa?', english: 'How much does it cost?' },
+            { italian: 'Troppo caro!', english: 'Too expensive!' },
+            { italian: 'Scontato?', english: 'On sale?' },
+            { italian: 'Posso provare?', english: 'Can I try it on?' },
+            { italian: 'Lo prendo.', english: 'I\'ll take it.' },
+            { italian: 'Avete una taglia piu grande?', english: 'Do you have a larger size?' },
+            { italian: 'Posso pagare con la carta?', english: 'Can I pay by card?' },
+            { italian: 'Mi fa uno sconto?', english: 'Can you give me a discount?' },
+          ],
+        },
+      },
+      {
+        type: 'example',
+        content: {
+          dialogue: [
+            { speaker: 'A', italian: 'Buongiorno! Cosa desidera?', english: 'Good morning! What would you like?' },
+            { speaker: 'B', italian: 'Quanto costa questa camicia?', english: 'How much is this shirt?' },
+            { speaker: 'A', italian: 'Costa cinquanta euro.', english: 'It costs fifty euros.' },
+            { speaker: 'B', italian: 'Troppo caro! Me la fa a quaranta?', english: 'Too expensive! Can you do it for forty?' },
+          ],
+        },
+      },
+      {
+        type: 'multiple_choice',
+        content: {
+          question: 'What does "Troppo caro" mean?',
+          options: ['Very nice', 'Too expensive', 'Very cheap', 'Just right'],
+          answer: 'Too expensive',
+        },
+      },
+      {
+        type: 'translation',
+        content: {
+          direction: 'it-to-en',
+          sentence: 'Posso provare questa gonna?',
+          answer: 'Can I try on this skirt?',
+          hint: 'provare = to try',
+        },
+      },
+      {
+        type: 'fill_blank',
+        content: {
+          sentence: 'Quanto ___(costare) le scarpe?',
+          answer: 'costano',
+          hint: 'plural of costa',
+        },
+      },
+    ],
+  },
+  {
+    id: 'lesson-57',
+    title: 'Sports and Fitness',
+    level: 'A2',
+    unit: 6,
+    unitTitle: 'Activities',
+    description: 'Learn Italian vocabulary for sports and exercise.',
+    duration: 12,
+    steps: [
+      {
+        type: 'learn',
+        content: {
+          title: 'Sports Vocabulary',
+          text: 'Common Italian sports and fitness vocabulary.',
+          items: [
+            { italian: 'Il calcio', english: 'Soccer', pronunciation: 'KAHL-choh' },
+            { italian: 'La pallacanestro', english: 'Basketball', pronunciation: 'pahl-lah-kah-NEHS-troh' },
+            { italian: 'Il tennis', english: 'Tennis', pronunciation: 'TEHN-nees' },
+            { italian: 'Il nuoto', english: 'Swimming', pronunciation: 'NWOH-toh' },
+            { italian: 'La corsa', english: 'Running', pronunciation: 'KOHR-sah' },
+            { italian: 'Il ciclismo', english: 'Cycling', pronunciation: 'chee-CHEES-moh' },
+            { italian: 'Lo yoga', english: 'Yoga', pronunciation: 'YOH-gah' },
+            { italian: 'La palestra', english: 'The gym', pronunciation: 'pah-LEHS-trah' },
+          ],
+        },
+      },
+      {
+        type: 'example',
+        content: {
+          dialogue: [
+            { speaker: 'A', italian: 'Che sport fai?', english: 'What sport do you play?' },
+            { speaker: 'B', italian: 'Gioco a calcio il weekend.', english: 'I play soccer on weekends.' },
+            { speaker: 'A', italian: 'A me piace nuotare.', english: 'I like swimming.' },
+            { speaker: 'B', italian: 'Andiamo in palestra insieme!', english: 'Let\'s go to the gym together!' },
+          ],
+        },
+      },
+      {
+        type: 'multiple_choice',
+        content: {
+          question: 'What does "il nuoto" mean?',
+          options: ['Running', 'Swimming', 'Cycling', 'Tennis'],
+          answer: 'Swimming',
+        },
+      },
+      {
+        type: 'translation',
+        content: {
+          direction: 'it-to-en',
+          sentence: 'Vado in palestra tre volte alla settimana.',
+          answer: 'I go to the gym three times a week.',
+          hint: 'palestra = gym',
+        },
+      },
+      {
+        type: 'fill_blank',
+        content: {
+          sentence: 'Gioco a ___(calcio) il sabato.',
+          answer: 'calcio',
+          hint: 'Italian soccer',
+        },
+      },
+    ],
+  },
+  {
+    id: 'lesson-58',
+    title: 'Music and Concerts',
+    level: 'A2',
+    unit: 6,
+    unitTitle: 'Activities',
+    description: 'Discuss music, instruments, and concert experiences.',
+    duration: 12,
+    steps: [
+      {
+        type: 'learn',
+        content: {
+          title: 'Music Vocabulary',
+          text: 'Italian vocabulary for music and concerts.',
+          items: [
+            { italian: 'La musica', english: 'Music', pronunciation: 'MOO-zee-kah' },
+            { italian: 'La canzone', english: 'The song', pronunciation: 'kah-NOH-tsoh-neh' },
+            { italian: 'L\'artista', english: 'The artist', pronunciation: 'ahr-TEES-tah' },
+            { italian: 'Il concerto', english: 'The concert', pronunciation: 'kohn-CHEHR-toh' },
+            { italian: 'La chitarra', english: 'The guitar', pronunciation: 'kee-TAHR-rah' },
+            { italian: 'Il pianoforte', english: 'The piano', pronunciation: 'pyah-noh-FOHR-teh' },
+            { italian: 'Il violino', english: 'The violin', pronunciation: 'vyoh-LEE-noh' },
+            { italian: 'Il cantante', english: 'The singer', pronunciation: 'kahn-TAHN-teh' },
+          ],
+        },
+      },
+      {
+        type: 'example',
+        content: {
+          dialogue: [
+            { speaker: 'A', italian: 'Che tipo di musica ascolti?', english: 'What type of music do you listen to?' },
+            { speaker: 'B', italian: 'Ascolto la musica classica e pop.', english: 'I listen to classical and pop music.' },
+            { speaker: 'A', italian: 'Hai mai stato a un concerto?', english: 'Have you ever been to a concert?' },
+            { speaker: 'B', italian: 'Si, sono stato al concerto di Pavarotti!', english: 'Yes, I went to Pavarotti\'s concert!' },
+          ],
+        },
+      },
+      {
+        type: 'multiple_choice',
+        content: {
+          question: 'What does "la canzone" mean?',
+          options: ['The album', 'The song', 'The concert', 'The instrument'],
+          answer: 'The song',
+        },
+      },
+      {
+        type: 'translation',
+        content: {
+          direction: 'it-to-en',
+          sentence: 'Mi piace ascoltare la musica italiana.',
+          answer: 'I like listening to Italian music.',
+          hint: 'ascoltare = to listen',
+        },
+      },
+      {
+        type: 'fill_blank',
+        content: {
+          sentence: 'Il ___(cantante) e molto bravo.',
+          answer: 'cantante',
+          hint: 'singer',
+        },
+      },
+    ],
+  },
+  {
+    id: 'lesson-59',
+    title: 'Nature and Outdoors',
+    level: 'B1',
+    unit: 7,
+    unitTitle: 'Culture and Society',
+    description: 'Describe nature, landscapes, and outdoor activities.',
+    duration: 15,
+    steps: [
+      {
+        type: 'learn',
+        content: {
+          title: 'Nature Vocabulary',
+          text: 'Italian vocabulary for nature and outdoor environments.',
+          items: [
+            { italian: 'La natura', english: 'Nature', pronunciation: 'nah-TOO-rah' },
+            { italian: 'Il bosco', english: 'The forest', pronunciation: 'BOHS-koh' },
+            { italian: 'Il lago', english: 'The lake', pronunciation: 'LAH-goh' },
+            { italian: 'La spiaggia', english: 'The beach', pronunciation: 'SPYAHJ-jah' },
+            { italian: 'Il fiume', english: 'The river', pronunciation: 'FYOO-meh' },
+            { italian: 'La montagna', english: 'The mountain', pronunciation: 'mohn-TAH-nyah' },
+            { italian: 'La valle', english: 'The valley', pronunciation: 'VAHL-leh' },
+            { italian: 'Il sentiero', english: 'The path/trail', pronunciation: 'sehn-TYEH-roh' },
+          ],
+        },
+      },
+      {
+        type: 'example',
+        content: {
+          dialogue: [
+            { speaker: 'A', italian: 'Dove vai in vacanza?', english: 'Where are you going on vacation?' },
+            { speaker: 'B', italian: 'Vado in montagna per fare escursioni.', english: 'I\'m going to the mountains for hiking.' },
+            { speaker: 'A', italian: 'Che bello! Amo la natura.', english: 'How nice! I love nature.' },
+          ],
+        },
+      },
+      {
+        type: 'multiple_choice',
+        content: {
+          question: 'What does "il sentiero" mean?',
+          options: ['The road', 'The path/trail', 'The bridge', 'The valley'],
+          answer: 'The path/trail',
+        },
+      },
+      {
+        type: 'translation',
+        content: {
+          direction: 'it-to-en',
+          sentence: 'Il bosco e pieno di alberi alti.',
+          answer: 'The forest is full of tall trees.',
+          hint: 'bosco = forest',
+        },
+      },
+      {
+        type: 'fill_blank',
+        content: {
+          sentence: 'Il ___(lago) e molto tranquillo.',
+          answer: 'lago',
+          hint: 'body of water',
+        },
+      },
+    ],
+  },
+  {
+    id: 'lesson-60',
+    title: 'Art and Museums',
+    level: 'B1',
+    unit: 7,
+    unitTitle: 'Culture and Society',
+    description: 'Visit museums and discuss Italian art and culture.',
+    duration: 15,
+    steps: [
+      {
+        type: 'learn',
+        content: {
+          title: 'Art Vocabulary',
+          text: 'Italian vocabulary for art and museums.',
+          items: [
+            { italian: 'Il museo', english: 'The museum', pronunciation: 'moo-ZEH-oh' },
+            { italian: 'Il quadro', english: 'The painting', pronunciation: 'KWAH-droh' },
+            { italian: 'La scultura', english: 'The sculpture', pronunciation: 'skool-TOO-rah' },
+            { italian: 'La galleria', english: 'The gallery', pronunciation: 'gahl-leh-REE-ah' },
+            { italian: "L'opera", english: 'The artwork', pronunciation: 'OH-peh-rah' },
+            { italian: 'L\'artista', english: 'The artist', pronunciation: 'ahr-TEES-tah' },
+            { italian: 'Il biglietto', english: 'The ticket', pronunciation: 'beel-YEHT-toh' },
+            { italian: 'La mostra', english: 'The exhibition', pronunciation: 'MOH-strah' },
+          ],
+        },
+      },
+      {
+        type: 'example',
+        content: {
+          dialogue: [
+            { speaker: 'A', italian: 'Hai mai visitato i musei vaticani?', english: 'Have you ever visited the Vatican museums?' },
+            { speaker: 'B', italian: 'Si, erano impressionanti!', english: 'Yes, they were impressive!' },
+            { speaker: 'A', italian: 'Qual e la tua opera preferita?', english: 'What is your favorite artwork?' },
+            { speaker: 'B', italian: 'La Cappella Sistina, senza dubbio.', english: 'The Sistine Chapel, without a doubt.' },
+          ],
+        },
+      },
+      {
+        type: 'multiple_choice',
+        content: {
+          question: 'What does "la mostra" mean?',
+          options: ['The museum', 'The exhibition', 'The painting', 'The gallery'],
+          answer: 'The exhibition',
+        },
+      },
+      {
+        type: 'translation',
+        content: {
+          direction: 'it-to-en',
+          sentence: 'Ho visitato la galleria degli Uffizi.',
+          answer: 'I visited the Uffizi Gallery.',
+          hint: 'galleria = gallery',
+        },
+      },
+      {
+        type: 'fill_blank',
+        content: {
+          sentence: 'Il ___(quadro) e molto bello.',
+          answer: 'quadro',
+          hint: 'painting',
+        },
+      },
+    ],
+  },
+  {
+    id: 'lesson-61',
+    title: 'Means of Transport',
+    level: 'A2',
+    unit: 5,
+    unitTitle: 'Daily Life',
+    description: 'Discuss different modes of transportation.',
+    duration: 12,
+    steps: [
+      {
+        type: 'learn',
+        content: {
+          title: 'Transport Vocabulary',
+          text: 'Italian vocabulary for various transportation modes.',
+          items: [
+            { italian: "L'automobile", english: 'The car', pronunciation: 'ow-toh-moh-BEE-leh' },
+            { italian: "L'autobus", english: 'The bus', pronunciation: 'OW-toh-boos' },
+            { italian: 'Il treno', english: 'The train', pronunciation: 'TREH-noh' },
+            { italian: "L'aereo", english: 'The airplane', pronunciation: 'ah-EH-reh-oh' },
+            { italian: 'La bicicletta', english: 'The bicycle', pronunciation: 'bee-chee-KLEHT-tah' },
+            { italian: 'La moto', english: 'The motorcycle', pronunciation: 'MOH-toh' },
+            { italian: 'Il taxi', english: 'The taxi', pronunciation: 'TAHK-see' },
+            { italian: 'La barca', english: 'The boat', pronunciation: 'BAHR-kah' },
+          ],
+        },
+      },
+      {
+        type: 'example',
+        content: {
+          dialogue: [
+            { speaker: 'A', italian: 'Come vai al lavoro?', english: 'How do you go to work?' },
+            { speaker: 'B', italian: 'Vado in autobus.', english: 'I go by bus.' },
+            { speaker: 'A', italian: 'E piu veloce in treno?', english: 'Is it faster by train?' },
+            { speaker: 'B', italian: 'Si, ma il bus e piu economico.', english: 'Yes, but the bus is cheaper.' },
+          ],
+        },
+      },
+      {
+        type: 'multiple_choice',
+        content: {
+          question: 'What does "la bicicletta" mean?',
+          options: ['The motorcycle', 'The bicycle', 'The car', 'The bus'],
+          answer: 'The bicycle',
+        },
+      },
+      {
+        type: 'translation',
+        content: {
+          direction: 'it-to-en',
+          sentence: 'Prendo il treno ogni mattina.',
+          answer: 'I take the train every morning.',
+          hint: 'treno = train',
+        },
+      },
+      {
+        type: 'fill_blank',
+        content: {
+          sentence: 'Vado al lavoro in ___(automobile).',
+          answer: 'automobile',
+          hint: 'car',
+        },
+      },
+    ],
+  },
+  {
+    id: 'lesson-62',
+    title: 'Health and Wellness',
+    level: 'A2',
+    unit: 5,
+    unitTitle: 'Daily Life',
+    description: 'Discuss health, symptoms, and wellness in Italian.',
+    duration: 12,
+    steps: [
+      {
+        type: 'learn',
+        content: {
+          title: 'Health Vocabulary',
+          text: 'Essential Italian vocabulary for health and wellness.',
+          items: [
+            { italian: 'La salute', english: 'Health', pronunciation: 'sah-LOO-teh' },
+            { italian: 'Il dolore', english: 'The pain', pronunciation: 'doh-LOH-reh' },
+            { italian: 'La febbre', english: 'The fever', pronunciation: 'FEHB-beh-reh' },
+            { italian: 'Il mal di testa', english: 'Headache', pronunciation: 'mahl dee TEHS-tah' },
+            { italian: 'Il mal di stomaco', english: 'Stomachache', pronunciation: 'mahl dee STOH-mah-koh' },
+            { italian: 'La medicina', english: 'The medicine', pronunciation: 'meh-dee-CHEE-nah' },
+            { italian: 'La ricetta', english: 'The prescription', pronunciation: 'ree-CHEHT-tah' },
+            { italian: 'La farmacia', english: 'The pharmacy', pronunciation: 'fahr-mah-CHEE-ah' },
+          ],
+        },
+      },
+      {
+        type: 'example',
+        content: {
+          dialogue: [
+            { speaker: 'A', italian: 'Come ti senti?', english: 'How do you feel?' },
+            { speaker: 'B', italian: 'Ho un forte mal di testa.', english: 'I have a bad headache.' },
+            { speaker: 'A', italian: 'Prendi una medicina e riposati.', english: 'Take some medicine and rest.' },
+            { speaker: 'B', italian: 'Grazie del consiglio.', english: 'Thanks for the advice.' },
+          ],
+        },
+      },
+      {
+        type: 'multiple_choice',
+        content: {
+          question: 'What does "la febbre" mean?',
+          options: ['The headache', 'The fever', 'The cough', 'The cold'],
+          answer: 'The fever',
+        },
+      },
+      {
+        type: 'translation',
+        content: {
+          direction: 'it-to-en',
+          sentence: 'Devo andare in farmacia a comprare la medicina.',
+          answer: 'I need to go to the pharmacy to buy medicine.',
+          hint: 'farmacia = pharmacy',
+        },
+      },
+      {
+        type: 'fill_blank',
+        content: {
+          sentence: 'Ho un forte mal di ___(testa).',
+          answer: 'testa',
+          hint: 'head',
+        },
+      },
+    ],
+  },
+  {
+    id: 'lesson-63',
+    title: 'Technology in Daily Life',
+    level: 'B1',
+    unit: 7,
+    unitTitle: 'Culture and Society',
+    description: 'Discuss technology and its impact on daily life.',
+    duration: 15,
+    steps: [
+      {
+        type: 'learn',
+        content: {
+          title: 'Technology Vocabulary',
+          text: 'Italian vocabulary for modern technology.',
+          items: [
+            { italian: 'Il computer', english: 'The computer', pronunciation: 'kohm-POO-ter' },
+            { italian: "Lo smartphone", english: 'The smartphone', pronunciation: 'SMART-fon' },
+            { italian: "L'applicazione", english: 'The app', pronunciation: 'ahp-plee-kah-TSYOH-neh' },
+            { italian: 'La rete', english: 'The network', pronunciation: 'REH-teh' },
+            { italian: "L'e-mail", english: 'The email', pronunciation: 'EE-mayl' },
+            { italian: 'Il sito web', english: 'The website', pronunciation: 'SEE-toh WEHB' },
+            { italian: 'La password', english: 'The password', pronunciation: 'PAHS-word' },
+            { italian: 'Il download', english: 'The download', pronunciation: 'DOWN-loh-d' },
+          ],
+        },
+      },
+      {
+        type: 'example',
+        content: {
+          dialogue: [
+            { speaker: 'A', italian: 'Hai scaricato la nuova app?', english: 'Have you downloaded the new app?' },
+            { speaker: 'B', italian: 'Si, e molto utile!', english: 'Yes, it\'s very useful!' },
+            { speaker: 'A', italian: 'Come si chiama?', english: 'What\'s it called?' },
+            { speaker: 'B', italian: 'Si chiama "Parla Italiano".', english: 'It\'s called "Parla Italiano".' },
+          ],
+        },
+      },
+      {
+        type: 'multiple_choice',
+        content: {
+          question: 'What does "la rete" mean?',
+          options: ['The website', 'The network', 'The password', 'The email'],
+          answer: 'The network',
+        },
+      },
+      {
+        type: 'translation',
+        content: {
+          direction: 'it-to-en',
+          sentence: 'Non riesco a connettermi alla rete.',
+          answer: 'I can\'t connect to the network.',
+          hint: 'rete = network',
+        },
+      },
+      {
+        type: 'fill_blank',
+        content: {
+          sentence: 'Ho mandato un\'___(e-mail) al professore.',
+          answer: 'e-mail',
+          hint: 'electronic mail',
+        },
+      },
+    ],
+  },
+  {
+    id: 'lesson-64',
+    title: 'Describing People',
+    level: 'A1',
+    unit: 2,
+    unitTitle: 'Building Blocks',
+    description: 'Learn adjectives to describe people\'s appearance and personality.',
+    duration: 12,
+    steps: [
+      {
+        type: 'learn',
+        content: {
+          title: 'Descriptive Adjectives',
+          text: 'Common Italian adjectives for describing people.',
+          items: [
+            { italian: 'Alto', english: 'Tall', pronunciation: 'AHL-toh' },
+            { italian: 'Basso', english: 'Short', pronunciation: 'BAHS-soh' },
+            { italian: 'Giovane', english: 'Young', pronunciation: 'JOH-vah-neh' },
+            { italian: 'Vecchio', english: 'Old', pronunciation: 'VEH-kyoh' },
+            { italian: 'Bello', english: 'Beautiful/Handsome', pronunciation: 'BEHL-loh' },
+            { italian: 'Gentile', english: 'Kind', pronunciation: 'jehn-TEE-leh' },
+            { italian: 'Intelligente', english: 'Intelligent', pronunciation: 'een-tehl-LEHJ-en-teh' },
+            { italian: 'Timido', english: 'Shy', pronunciation: 'TEE-mee-doh' },
+          ],
+        },
+      },
+      {
+        type: 'example',
+        content: {
+          dialogue: [
+            { speaker: 'A', italian: 'Com\'è tuo fratello?', english: 'What\'s your brother like?' },
+            { speaker: 'B', italian: 'E alto e gentile.', english: 'He\'s tall and kind.' },
+            { speaker: 'A', italian: 'E intelligente?', english: 'Is he intelligent?' },
+            { speaker: 'B', italian: 'Si, e molto intelligente!', english: 'Yes, he\'s very intelligent!' },
+          ],
+        },
+      },
+      {
+        type: 'multiple_choice',
+        content: {
+          question: 'What does "timido" mean?',
+          options: ['Brave', 'Shy', 'Clever', 'Strong'],
+          answer: 'Shy',
+        },
+      },
+      {
+        type: 'translation',
+        content: {
+          direction: 'it-to-en',
+          sentence: 'La mia amica e giovane e bella.',
+          answer: 'My friend is young and beautiful.',
+          hint: 'giovane = young',
+        },
+      },
+      {
+        type: 'fill_blank',
+        content: {
+          sentence: 'Mio padre e ___(gentile) con tutti.',
+          answer: 'gentile',
+          hint: 'kind',
+        },
+      },
+    ],
+  },
+  {
+    id: 'lesson-65',
+    title: 'The Imperfetto Subjunctive (Advanced)',
+    level: 'C1',
+    unit: 10,
+    unitTitle: 'Mastery',
+    description: 'Master the imperfetto del congiuntivo for complex sentences.',
+    duration: 18,
+    steps: [
+      {
+        type: 'learn',
+        content: {
+          title: 'Imperfetto del Congiuntivo',
+          text: 'The imperfetto subjunctive is used for hypothetical and dependent clauses.',
+          items: [
+            { italian: 'Se avessi tempo, viaggerei di piu.', english: 'If I had time, I would travel more.' },
+            { italian: 'Credevo che fosse giusto.', english: 'I believed it was right.' },
+            { italian: 'Sarei felice se potessi aiutarti.', english: 'I would be happy if I could help you.' },
+            { italian: 'Volevo che tu venissi con me.', english: 'I wanted you to come with me.' },
+          ],
+        },
+      },
+      {
+        type: 'example',
+        content: {
+          dialogue: [
+            { speaker: 'A', italian: 'Se tu fossi milionario, cosa faresti?', english: 'If you were a millionaire, what would you do?' },
+            { speaker: 'B', italian: 'Viaggerei per il mondo!', english: 'I would travel the world!' },
+            { speaker: 'A', italian: 'Anche io vorrei poterlo fare.', english: 'I would also like to be able to do that.' },
+            { speaker: 'B', italian: 'Ma purtroppo non abbiamo milioni!', english: 'But unfortunately we don\'t have millions!' },
+          ],
+        },
+      },
+      {
+        type: 'multiple_choice',
+        content: {
+          question: 'In "Se avessi tempo, viaggerei", what mood is "avessi"?',
+          options: ['Indicativo', 'Congiuntivo imperfetto', 'Condizionale', 'Imperativo'],
+          answer: 'Congiuntivo imperfetto',
+        },
+      },
+      {
+        type: 'translation',
+        content: {
+          direction: 'it-to-en',
+          sentence: 'Se fossi piu ricco, comprerei una casa in Toscana.',
+          answer: 'If I were richer, I would buy a house in Tuscany.',
+          hint: 'fossi = were (congiuntivo imperfetto of essere)',
+        },
+      },
+      {
+        type: 'fill_blank',
+        content: {
+          sentence: 'Se ___(potere) aiutarti, lo farei.',
+          answer: 'potessi',
+          hint: 'congiuntivo imperfetto of potere',
+        },
+      },
+    ],
+  },
 ];
 
 export default lessons;
