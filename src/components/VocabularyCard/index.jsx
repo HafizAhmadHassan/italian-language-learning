@@ -23,43 +23,43 @@ export default function VocabularyCard({
       animate={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, y: -20, scale: 0.95 }}
       transition={{ duration: 0.3 }}
-      className="group relative rounded-2xl border border-white/10 bg-[#252540]/80 backdrop-blur-sm p-5 shadow-lg shadow-black/20 hover:border-[#009246]/40 hover:shadow-[#009246]/10 hover:shadow-xl transition-all duration-300"
+      className="group relative rounded-2xl border border-gray-100 dark:border-italian-dark-border bg-white dark:bg-italian-dark-card p-5 shadow-sm hover:shadow-md hover:border-italian-green/30 transition-all duration-300"
     >
       {isLearned && (
         <div className="absolute top-3 right-3">
-          <CheckCircle className="w-5 h-5 text-[#009246]" />
+          <CheckCircle className="w-5 h-5 text-italian-green" />
         </div>
       )}
 
       <div className="flex flex-col gap-3">
         <div>
-          <h3 className="text-xl font-bold text-[#009246] tracking-wide">
+          <h3 className="text-xl font-bold text-italian-green font-heading">
             {word.italian}
           </h3>
-          <p className="text-sm text-white/40 italic mt-0.5 font-mono">
+          <p className="text-sm text-gray-400 dark:text-gray-500 italic mt-0.5 font-mono">
             [{word.pronunciation}]
           </p>
         </div>
 
-        <p className="text-base text-white/80 font-medium">
+        <p className="text-base text-gray-700 dark:text-gray-300 font-medium">
           {translation}
         </p>
 
         {word.example && (
-          <div className="rounded-xl bg-white/5 border border-white/5 p-3">
-            <p className="text-sm text-[#FFF8F0] italic leading-relaxed">
+          <div className="rounded-xl bg-gray-50 dark:bg-italian-dark-surface border border-gray-100 dark:border-italian-dark-border p-3">
+            <p className="text-sm text-italian-charcoal dark:text-gray-200 italic leading-relaxed">
               "{word.example.italian}"
             </p>
-            <p className="text-xs text-white/40 mt-1">
+            <p className="text-xs text-gray-500 dark:text-gray-400 mt-1">
               {exampleTranslation}
             </p>
           </div>
         )}
 
-        <div className="flex items-center gap-2 pt-1 border-t border-white/5">
+        <div className="flex items-center gap-2 pt-2 border-t border-gray-100 dark:border-italian-dark-border">
           <button
             onClick={() => onListen?.(word.italian)}
-            className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-white/5 hover:bg-[#009246]/20 text-white/60 hover:text-[#009246] text-xs font-medium transition-all duration-200"
+            className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-gray-100 dark:bg-italian-dark-surface hover:bg-italian-green/10 text-gray-600 dark:text-gray-400 hover:text-italian-green text-xs font-medium transition-all duration-200"
           >
             <Volume2 className="w-3.5 h-3.5" />
             Listen
@@ -69,8 +69,8 @@ export default function VocabularyCard({
             onClick={() => onToggleSave?.(word.id)}
             className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium transition-all duration-200 ${
               isSaved
-                ? 'bg-[#D4A843]/20 text-[#D4A843] hover:bg-[#D4A843]/30'
-                : 'bg-white/5 text-white/60 hover:bg-[#D4A843]/20 hover:text-[#D4A843]'
+                ? 'bg-italian-gold/15 text-italian-gold hover:bg-italian-gold/25'
+                : 'bg-gray-100 dark:bg-italian-dark-surface text-gray-600 dark:text-gray-400 hover:bg-italian-gold/15 hover:text-italian-gold'
             }`}
           >
             <Star
@@ -84,8 +84,8 @@ export default function VocabularyCard({
             onClick={() => onToggleLearn?.(word.id)}
             className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium transition-all duration-200 ${
               isLearned
-                ? 'bg-[#009246]/20 text-[#009246] hover:bg-[#009246]/30'
-                : 'bg-white/5 text-white/60 hover:bg-[#009246]/20 hover:text-[#009246]'
+                ? 'bg-italian-green/15 text-italian-green hover:bg-italian-green/25'
+                : 'bg-gray-100 dark:bg-italian-dark-surface text-gray-600 dark:text-gray-400 hover:bg-italian-green/15 hover:text-italian-green'
             }`}
           >
             <CheckCircle className="w-3.5 h-3.5" />

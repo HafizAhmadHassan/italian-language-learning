@@ -7,6 +7,15 @@ import progress from '../../services/progress';
 import storage from '../../services/storage';
 import { speak } from '../../services/speech';
 
+const fadeUp = {
+  hidden: { opacity: 0, y: 20 },
+  visible: (i = 0) => ({
+    opacity: 1,
+    y: 0,
+    transition: { delay: i * 0.06, duration: 0.35, ease: 'easeOut' },
+  }),
+};
+
 export default function Flashcards() {
   const [progressData, setProgressData] = useState(progress.getProgress());
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -75,33 +84,33 @@ export default function Flashcards() {
 
   if (sessionComplete) {
     return (
-      <div className="min-h-screen bg-[#1A1A2E] text-white flex items-center justify-center px-4">
+      <div className="min-h-full pb-24 md:pb-8 flex items-center justify-center px-4">
         <motion.div
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
-          className="w-full max-w-md bg-[#252540]/80 backdrop-blur-sm border border-white/10 rounded-3xl p-8 text-center"
+          className="w-full max-w-md bg-white dark:bg-italian-dark-card border border-gray-100 dark:border-italian-dark-border rounded-3xl p-8 text-center shadow-lg"
         >
           <motion.div
             initial={{ scale: 0 }}
             animate={{ scale: 1 }}
             transition={{ type: 'spring', stiffness: 200, delay: 0.2 }}
-            className="w-20 h-20 rounded-2xl bg-gradient-to-br from-[#D4A843] to-[#D4A843]/50 flex items-center justify-center mx-auto mb-6"
+            className="w-20 h-20 rounded-2xl bg-gradient-to-br from-italian-gold to-italian-gold/60 flex items-center justify-center mx-auto mb-6"
           >
             <Trophy className="w-10 h-10 text-white" />
           </motion.div>
 
-          <h2 className="text-2xl font-bold text-[#FFF8F0] mb-2">Session Complete!</h2>
-          <p className="text-white/50 mb-8">Great job practicing your vocabulary</p>
+          <h2 className="text-2xl font-bold text-italian-charcoal dark:text-white mb-2 font-heading">Session Complete!</h2>
+          <p className="text-gray-500 dark:text-gray-400 mb-8">Great job practicing your vocabulary</p>
 
           <div className="grid grid-cols-3 gap-4 mb-8">
             {[
-              { label: 'Reviewed', value: sessionStats.reviewed, color: 'text-white' },
-              { label: 'Knows', value: sessionStats.knows, color: 'text-[#009246]' },
-              { label: 'Practice', value: sessionStats.practice, color: 'text-[#CE2B37]' },
+              { label: 'Reviewed', value: sessionStats.reviewed, color: 'text-gray-700 dark:text-gray-300' },
+              { label: 'Knows', value: sessionStats.knows, color: 'text-italian-green' },
+              { label: 'Practice', value: sessionStats.practice, color: 'text-italian-red' },
             ].map((stat) => (
-              <div key={stat.label} className="bg-white/5 rounded-xl p-4">
+              <div key={stat.label} className="bg-gray-50 dark:bg-italian-dark-surface rounded-xl p-4">
                 <div className={`text-2xl font-bold ${stat.color}`}>{stat.value}</div>
-                <div className="text-xs text-white/40 mt-1">{stat.label}</div>
+                <div className="text-xs text-gray-500 dark:text-gray-400 mt-1">{stat.label}</div>
               </div>
             ))}
           </div>
@@ -109,13 +118,13 @@ export default function Flashcards() {
           <div className="flex flex-col gap-3">
             <button
               onClick={restartSession}
-              className="w-full py-3 rounded-xl bg-gradient-to-r from-[#009246] to-[#7CB69D] text-white font-semibold hover:shadow-lg hover:shadow-[#009246]/25 transition-all duration-300"
+              className="w-full py-3 rounded-xl bg-italian-green text-white font-semibold hover:shadow-lg hover:shadow-italian-green/20 transition-all duration-200"
             >
               Practice Again
             </button>
             <Link
               to="/vocabulary"
-              className="w-full py-3 rounded-xl bg-white/5 border border-white/10 text-white/60 font-medium hover:bg-white/10 transition-all duration-200"
+              className="w-full py-3 rounded-xl bg-gray-100 dark:bg-italian-dark-surface border border-gray-200 dark:border-italian-dark-border text-gray-600 dark:text-gray-400 font-medium hover:bg-gray-200 dark:hover:bg-italian-dark-border transition-all duration-200 text-center"
             >
               Back to Vocabulary
             </Link>
@@ -128,41 +137,46 @@ export default function Flashcards() {
   if (!currentCard) return null;
 
   return (
-    <div className="min-h-screen bg-[#1A1A2E] text-white">
-      <div className="max-w-2xl mx-auto px-4 py-8">
+    <div className="min-h-full pb-24 md:pb-8">
+      <div className="max-w-2xl mx-auto px-4 md:px-8 py-8">
+        {/* Header */}
         <motion.div
-          initial={{ opacity: 0, y: -20 }}
-          animate={{ opacity: 1, y: 0 }}
+          initial="hidden"
+          animate="visible"
+          variants={fadeUp}
+          custom={0}
           className="flex items-center justify-between mb-8"
         >
           <div className="flex items-center gap-3">
             <Link
               to="/vocabulary"
-              className="w-10 h-10 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center text-white/60 hover:text-white hover:bg-white/10 transition-all"
+              className="w-10 h-10 rounded-xl bg-gray-100 dark:bg-italian-dark-surface border border-gray-200 dark:border-italian-dark-border flex items-center justify-center text-gray-500 dark:text-gray-400 hover:text-italian-green hover:border-italian-green/30 transition-all"
             >
               <ArrowLeft className="w-5 h-5" />
             </Link>
             <div>
-              <h1 className="text-2xl font-bold text-[#FFF8F0]">Flashcards</h1>
-              <p className="text-sm text-white/40">
+              <h1 className="font-heading text-2xl md:text-3xl font-bold text-italian-charcoal dark:text-white">Flashcards</h1>
+              <p className="text-sm text-gray-500 dark:text-gray-400">
                 Review {totalCards} cards
               </p>
             </div>
           </div>
-          <div className="text-sm text-white/40 font-mono">
+          <div className="text-sm text-gray-400 dark:text-gray-500 font-mono">
             {currentIndex + 1} / {totalCards}
           </div>
         </motion.div>
 
+        {/* Progress Bar */}
         <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 0.1 }}
+          initial="hidden"
+          animate="visible"
+          variants={fadeUp}
+          custom={1}
           className="mb-6"
         >
-          <div className="w-full h-1.5 bg-[#252540] rounded-full overflow-hidden">
+          <div className="w-full h-1.5 bg-gray-100 dark:bg-italian-dark-surface rounded-full overflow-hidden">
             <motion.div
-              className="h-full bg-gradient-to-r from-[#009246] to-[#7CB69D] rounded-full"
+              className="h-full bg-italian-green rounded-full"
               initial={{ width: 0 }}
               animate={{ width: `${((currentIndex + 1) / totalCards) * 100}%` }}
               transition={{ duration: 0.5, ease: 'easeOut' }}
@@ -170,6 +184,7 @@ export default function Flashcards() {
           </div>
         </motion.div>
 
+        {/* Flashcard */}
         <div className="relative h-[380px] mb-8 perspective-1000">
           <AnimatePresence mode="wait" custom={direction}>
             <motion.div
@@ -188,17 +203,18 @@ export default function Flashcards() {
                 className="w-full h-full"
                 style={{ transformStyle: 'preserve-3d' }}
               >
+                {/* Front */}
                 <div
-                  className={`absolute inset-0 rounded-3xl border border-white/10 bg-gradient-to-br from-[#252540] to-[#2D2D4A] p-8 flex flex-col items-center justify-center text-center backface-hidden ${
+                  className={`absolute inset-0 rounded-3xl border border-gray-200 dark:border-italian-dark-border bg-white dark:bg-italian-dark-card p-8 flex flex-col items-center justify-center text-center shadow-lg backface-hidden ${
                     isFlipped ? 'pointer-events-none' : ''
                   }`}
                   style={{ backfaceVisibility: 'hidden' }}
                 >
-                  <p className="text-xs text-white/30 uppercase tracking-widest mb-6">Italian</p>
-                  <h2 className="text-4xl font-bold text-[#009246] mb-3">
+                  <p className="text-xs text-gray-400 dark:text-gray-500 uppercase tracking-widest mb-6">Italian</p>
+                  <h2 className="text-4xl font-bold text-italian-green mb-3 font-heading">
                     {currentCard.italian}
                   </h2>
-                  <p className="text-base text-white/40 italic font-mono mb-6">
+                  <p className="text-base text-gray-400 dark:text-gray-500 italic font-mono mb-6">
                     [{currentCard.pronunciation}]
                   </p>
                   <button
@@ -206,27 +222,28 @@ export default function Flashcards() {
                       e.stopPropagation();
                       speak(currentCard.italian);
                     }}
-                    className="w-12 h-12 rounded-full bg-[#009246]/10 border border-[#009246]/30 flex items-center justify-center text-[#009246] hover:bg-[#009246]/20 transition-all"
+                    className="w-12 h-12 rounded-full bg-italian-green/10 border border-italian-green/30 flex items-center justify-center text-italian-green hover:bg-italian-green/20 transition-all"
                   >
                     <Volume2 className="w-5 h-5" />
                   </button>
-                  <p className="text-xs text-white/20 mt-6">Tap to flip</p>
+                  <p className="text-xs text-gray-300 dark:text-gray-600 mt-6">Tap to flip</p>
                 </div>
 
+                {/* Back */}
                 <div
-                  className="absolute inset-0 rounded-3xl border border-[#009246]/20 bg-gradient-to-br from-[#1A1A2E] to-[#252540] p-8 flex flex-col items-center justify-center text-center"
+                  className="absolute inset-0 rounded-3xl border border-italian-green/20 bg-gradient-to-br from-gray-50 to-white dark:from-italian-dark-surface dark:to-italian-dark-card p-8 flex flex-col items-center justify-center text-center shadow-lg"
                   style={{ backfaceVisibility: 'hidden', transform: 'rotateY(180deg)' }}
                 >
-                  <p className="text-xs text-white/30 uppercase tracking-widest mb-6">Translation</p>
-                  <h2 className="text-3xl font-bold text-[#FFF8F0] mb-6">
+                  <p className="text-xs text-gray-400 dark:text-gray-500 uppercase tracking-widest mb-6">Translation</p>
+                  <h2 className="text-3xl font-bold text-italian-charcoal dark:text-white mb-6 font-heading">
                     {getTranslation(currentCard)}
                   </h2>
                   {currentCard.example && (
-                    <div className="w-full bg-white/5 rounded-xl border border-white/5 p-4">
-                      <p className="text-base text-white/70 italic">
+                    <div className="w-full bg-gray-50 dark:bg-italian-dark-surface rounded-xl border border-gray-100 dark:border-italian-dark-border p-4">
+                      <p className="text-base text-gray-700 dark:text-gray-300 italic">
                         "{currentCard.example.italian}"
                       </p>
-                      <p className="text-sm text-white/35 mt-2">
+                      <p className="text-sm text-gray-500 dark:text-gray-400 mt-2">
                         {getExampleTranslation(currentCard)}
                       </p>
                     </div>
@@ -237,17 +254,19 @@ export default function Flashcards() {
           </AnimatePresence>
         </div>
 
+        {/* Action Buttons */}
         <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.2 }}
+          initial="hidden"
+          animate="visible"
+          variants={fadeUp}
+          custom={2}
           className="flex items-center justify-center gap-4"
         >
           <motion.button
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             onClick={markWeak}
-            className="flex items-center gap-2 px-6 py-3 rounded-xl bg-[#CE2B37]/15 border border-[#CE2B37]/30 text-[#CE2B37] font-semibold hover:bg-[#CE2B37]/25 transition-all"
+            className="flex items-center gap-2 px-6 py-3 rounded-xl bg-italian-red/10 border border-italian-red/30 text-italian-red font-semibold hover:bg-italian-red/20 transition-all"
           >
             <X className="w-5 h-5" />
             Need Practice
@@ -257,7 +276,7 @@ export default function Flashcards() {
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
             onClick={() => setIsFlipped(!isFlipped)}
-            className="w-14 h-14 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-white/60 hover:text-white hover:bg-white/10 transition-all"
+            className="w-14 h-14 rounded-full bg-gray-100 dark:bg-italian-dark-surface border border-gray-200 dark:border-italian-dark-border flex items-center justify-center text-gray-500 dark:text-gray-400 hover:text-italian-green hover:border-italian-green/30 transition-all"
           >
             <RotateCcw className="w-5 h-5" />
           </motion.button>
@@ -266,7 +285,7 @@ export default function Flashcards() {
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             onClick={markStrong}
-            className="flex items-center gap-2 px-6 py-3 rounded-xl bg-[#009246]/15 border border-[#009246]/30 text-[#009246] font-semibold hover:bg-[#009246]/25 transition-all"
+            className="flex items-center gap-2 px-6 py-3 rounded-xl bg-italian-green/10 border border-italian-green/30 text-italian-green font-semibold hover:bg-italian-green/20 transition-all"
           >
             <Check className="w-5 h-5" />
             I Know This
