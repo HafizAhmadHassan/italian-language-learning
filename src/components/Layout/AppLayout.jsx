@@ -54,40 +54,48 @@ export default function AppLayout() {
     navigate('/login');
   };
 
-  const sidebarBg = dark ? 'bg-[#1A1D24]' : 'bg-italian-cream/60';
-  const sidebarBorder = dark ? 'border-[#2E323C]' : 'border-italian-sage/20';
-  const textColor = dark ? 'text-gray-200' : 'text-italian-charcoal';
-  const textMuted = dark ? 'text-gray-400' : 'text-gray-500';
-  const hoverBg = dark ? 'hover:bg-[#22252E]' : 'hover:bg-italian-sage/10';
-  const activeBg = dark ? 'bg-italian-green/20 text-italian-green' : 'bg-italian-green/10 text-italian-green';
-  const bottomBarBg = dark ? 'bg-[#1A1D24] border-[#2E323C]' : 'bg-white border-gray-200';
+  const getNavClass = ({ isActive }) => {
+    if (isActive) {
+      return dark
+        ? 'flex items-center gap-3 px-4 py-2.5 rounded-xl text-sm font-medium transition-all duration-200 bg-green-500/20 text-green-500'
+        : 'flex items-center gap-3 px-4 py-2.5 rounded-xl text-sm font-medium transition-all duration-200 bg-green-500/10 text-italian-green';
+    }
+    return dark
+      ? 'flex items-center gap-3 px-4 py-2.5 rounded-xl text-sm font-medium transition-all duration-200 hover:bg-[#22252E] text-gray-400 text-gray-200'
+      : 'flex items-center gap-3 px-4 py-2.5 rounded-xl text-sm font-medium transition-all duration-200 hover:bg-italian-sage/10 text-gray-500 text-italian-charcoal';
+  };
+
+  const getMobileNavClass = ({ isActive }) => {
+    if (isActive) {
+      return 'flex flex-col items-center gap-0.5 py-2 px-3 text-[10px] font-medium transition-colors text-italian-green';
+    }
+    return dark
+      ? 'flex flex-col items-center gap-0.5 py-2 px-3 text-[10px] font-medium transition-colors text-gray-400'
+      : 'flex flex-col items-center gap-0.5 py-2 px-3 text-[10px] font-medium transition-colors text-gray-500';
+  };
 
   return (
-    <div className={`flex h-screen overflow-hidden ${dark ? 'bg-[#111318]' : 'bg-italian-light'}`}>
+    <div className="flex h-screen overflow-hidden" style={{ backgroundColor: dark ? '#111318' : '#FEFCF8' }}>
       {/* Desktop Sidebar */}
       <aside
-        className={`hidden md:flex flex-col w-[260px] shrink-0 ${sidebarBg} border-r ${sidebarBorder} transition-colors`}
+        className="hidden md:flex flex-col w-[260px] shrink-0 border-r transition-colors"
+        style={{
+          backgroundColor: dark ? '#1A1D24' : 'rgba(255,248,240,0.6)',
+          borderColor: dark ? '#2E323C' : 'rgba(124,182,157,0.2)',
+        }}
       >
         <div className="flex items-center gap-3 px-6 py-6">
           <div className="w-9 h-9 rounded-xl bg-italian-green flex items-center justify-center text-white font-heading font-bold text-sm">
             IT
           </div>
-          <span className={`font-heading font-semibold text-lg ${textColor}`}>
+          <span className="font-heading font-semibold text-lg" style={{ color: dark ? '#E5E5E5' : '#2D2D2D' }}>
             Parla Italiano
           </span>
         </div>
 
         <nav className="flex-1 px-3 py-2 space-y-1">
           {desktopNavItems.map(({ to, label, icon: Icon }) => (
-            <NavLink
-              key={to}
-              to={to}
-              className={({ isActive }) =>
-                `flex items-center gap-3 px-4 py-2.5 rounded-xl text-sm font-medium transition-all duration-200 ${hoverBg} ${
-                  isActive ? activeBg : textMuted + ' ' + textColor
-                }`
-              }
-            >
+            <NavLink key={to} to={to} className={getNavClass}>
               {({ isActive }) => (
                 <>
                   <Icon size={19} strokeWidth={isActive ? 2.2 : 1.8} />
@@ -98,20 +106,32 @@ export default function AppLayout() {
           ))}
         </nav>
 
-        <div className={`px-4 py-4 border-t ${sidebarBorder}`}>
+        <div
+          className="px-4 py-4 border-t"
+          style={{ borderColor: dark ? '#2E323C' : 'rgba(124,182,157,0.2)' }}
+        >
           <div className="flex items-center gap-3 mb-3">
             <div className="w-9 h-9 rounded-full bg-italian-green/15 flex items-center justify-center text-italian-green font-semibold text-sm">
               {user?.name?.charAt(0)?.toUpperCase() || 'U'}
             </div>
             <div className="flex-1 min-w-0">
-              <p className={`text-sm font-medium truncate ${textColor}`}>{user?.name || 'User'}</p>
-              <p className={`text-xs truncate ${textMuted}`}>{user?.email || ''}</p>
+              <p className="text-sm font-medium truncate" style={{ color: dark ? '#E5E5E5' : '#2D2D2D' }}>
+                {user?.name || 'User'}
+              </p>
+              <p className="text-xs truncate" style={{ color: dark ? '#9CA3AF' : '#6B7280' }}>
+                {user?.email || ''}
+              </p>
             </div>
           </div>
           <motion.button
             whileTap={{ scale: 0.97 }}
             onClick={handleLogout}
-            className={`flex items-center gap-2 w-full px-4 py-2 rounded-xl text-sm font-medium ${hoverBg} ${textMuted} hover:text-italian-red transition-colors`}
+            className="flex items-center gap-2 w-full px-4 py-2 rounded-xl text-sm font-medium transition-colors hover:text-italian-red"
+            style={{
+              color: dark ? '#9CA3AF' : '#6B7280',
+            }}
+            onMouseEnter={(e) => { e.currentTarget.style.backgroundColor = dark ? '#22252E' : 'rgba(124,182,157,0.1)'; }}
+            onMouseLeave={(e) => { e.currentTarget.style.backgroundColor = 'transparent'; }}
           >
             <LogOut size={17} />
             Log Out
@@ -120,24 +140,23 @@ export default function AppLayout() {
       </aside>
 
       {/* Main Content */}
-      <main className={`flex-1 overflow-y-auto ${dark ? 'bg-[#111318]' : 'bg-italian-light'}`}>
+      <main
+        className="flex-1 overflow-y-auto"
+        style={{ backgroundColor: dark ? '#111318' : '#FEFCF8' }}
+      >
         <Outlet />
       </main>
 
       {/* Mobile Bottom Nav */}
       <nav
-        className={`md:hidden fixed bottom-0 inset-x-0 z-50 flex items-center justify-around border-t ${bottomBarBg} backdrop-blur-lg`}
+        className="md:hidden fixed bottom-0 inset-x-0 z-50 flex items-center justify-around border-t backdrop-blur-lg"
+        style={{
+          backgroundColor: dark ? '#1A1D24' : '#FFFFFF',
+          borderColor: dark ? '#2E323C' : '#E5E7EB',
+        }}
       >
         {mobileNavItems.map(({ to, label, icon: Icon }) => (
-          <NavLink
-            key={to}
-            to={to}
-            className={({ isActive }) =>
-              `flex flex-col items-center gap-0.5 py-2 px-3 text-[10px] font-medium transition-colors ${
-                isActive ? 'text-italian-green' : textMuted
-              }`
-            }
-          >
+          <NavLink key={to} to={to} className={getMobileNavClass}>
             {({ isActive }) => (
               <>
                 <Icon size={22} strokeWidth={isActive ? 2.2 : 1.6} />
