@@ -63,7 +63,7 @@ export default function AppLayout() {
   const bottomBarBg = dark ? 'bg-italian-dark-card border-italian-dark-border' : 'bg-white border-gray-200';
 
   return (
-    <div className={`flex h-screen overflow-hidden ${dark ? 'bg-italian-dark' : 'bg-italian-light'}`}>
+    <div className={`flex h-screen overflow-hidden ${dark ? 'bg-[#111318]' : 'bg-italian-light'}`}>
       {/* Desktop Sidebar */}
       <aside
         className={`hidden md:flex flex-col w-[260px] shrink-0 ${sidebarBg} border-r ${sidebarBorder} transition-colors`}
@@ -120,7 +120,7 @@ export default function AppLayout() {
       </aside>
 
       {/* Main Content */}
-      <main className={`flex-1 overflow-y-auto ${dark ? 'bg-italian-dark' : 'bg-italian-light'}`}>
+      <main className={`flex-1 overflow-y-auto ${dark ? 'bg-[#111318]' : 'bg-italian-light'}`}>
         <Outlet />
       </main>
 

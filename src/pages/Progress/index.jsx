@@ -113,10 +113,10 @@ export default function ProgressPage() {
             <BarChart data={weeklyData}>
               <XAxis dataKey="day" tick={{ fontSize: 12, fill: '#9CA3AF' }} axisLine={false} tickLine={false} />
               <YAxis hide />
-              <Tooltip contentStyle={{ borderRadius: '12px', border: 'none', boxShadow: '0 4px 12px rgba(0,0,0,0.1)', backgroundColor: '#252540', color: '#e5e5e5' }} />
+              <Tooltip contentStyle={{ borderRadius: '12px', border: 'none', boxShadow: '0 4px 12px rgba(0,0,0,0.1)', backgroundColor: '#1A1D24', color: '#e5e5e5' }} />
               <Bar dataKey="minutes" radius={[6, 6, 0, 0]} maxBarSize={40}>
                 {weeklyData.map((entry, index) => (
-                  <Cell key={`cell-${index}`} fill={entry.minutes > 0 ? '#009246' : '#3D3D5C'} />
+                  <Cell key={`cell-${index}`} fill={entry.minutes > 0 ? '#009246' : '#2E323C'} />
                 ))}
               </Bar>
             </BarChart>

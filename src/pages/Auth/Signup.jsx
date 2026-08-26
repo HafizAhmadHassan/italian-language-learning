@@ -79,7 +79,7 @@ export default function Signup() {
   ];
 
   return (
-    <div className="min-h-screen flex bg-white dark:bg-italian-dark">
+    <div className="min-h-screen flex bg-white dark:bg-[#111318]">
       {/* Decorative side */}
       <div className="hidden lg:flex lg:w-1/2 relative overflow-hidden bg-gradient-to-br from-italian-dark via-italian-dark-card to-italian-dark items-center justify-center p-12">
         <div className="absolute inset-0 pointer-events-none">

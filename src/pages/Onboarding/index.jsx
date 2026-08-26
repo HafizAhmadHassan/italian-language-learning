@@ -413,7 +413,7 @@ export default function Onboarding() {
     step === 4 ? !!data.dailyGoal : true;
 
   return (
-    <div className="min-h-screen flex flex-col bg-gradient-to-br from-italian-cream via-white to-italian-cream dark:from-italian-dark dark:via-italian-dark dark:to-italian-dark">
+    <div className="min-h-screen flex flex-col bg-gradient-to-br from-italian-cream via-white to-italian-cream dark:from-[#111318] dark:via-[#111318] dark:to-[#111318]">
       {/* Header */}
       <div className="pt-8 pb-4 px-6">
         <StepIndicator current={step} total={TOTAL_STEPS} />
