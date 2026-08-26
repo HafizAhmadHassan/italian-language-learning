@@ -660,8 +660,7 @@ export default function Lesson() {
           ) : (
             <button
               onClick={handleNext}
-              disabled={needsInteraction && incorrectCount + correctCount < stepIndex}
-              className="flex items-center gap-2 px-6 py-3 rounded-xl bg-italian-green text-white text-sm font-medium shadow-md shadow-italian-green/20 hover:bg-italian-green/90 transition-colors disabled:opacity-40 disabled:cursor-not-allowed"
+              className="flex items-center gap-2 px-6 py-3 rounded-xl bg-italian-green text-white text-sm font-medium shadow-md shadow-italian-green/20 hover:bg-italian-green/90 transition-colors"
             >
               Next
               <ArrowRight size={16} />
