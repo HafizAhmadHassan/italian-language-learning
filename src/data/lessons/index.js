@@ -184,6 +184,22 @@ const lessons = [
             }
           ]
         }
+      },
+      {
+        "type": "fill_blank",
+        "content": {
+          "sentence": "Buongiorno, come ___?",
+          "answer": "sta",
+          "hint": "formal \"are you\""
+        }
+      },
+      {
+        "type": "fill_blank",
+        "content": {
+          "sentence": "___! Come stai?",
+          "answer": "Ciao",
+          "hint": "informal greeting"
+        }
       }
     ]
   },
@@ -374,6 +390,22 @@ const lessons = [
               "english": "I am from..."
             }
           ]
+        }
+      },
+      {
+        "type": "fill_blank",
+        "content": {
+          "sentence": "Mi ___ Mario.",
+          "answer": "chiamo",
+          "hint": "I call myself"
+        }
+      },
+      {
+        "type": "fill_blank",
+        "content": {
+          "sentence": "Sono ___ Milano.",
+          "answer": "di",
+          "hint": "from (origin)"
         }
       }
     ]
@@ -959,6 +991,22 @@ const lessons = [
             }
           ]
         }
+      },
+      {
+        "type": "fill_blank",
+        "content": {
+          "sentence": "La ___ è molto gentile.",
+          "answer": "madre",
+          "hint": "mother"
+        }
+      },
+      {
+        "type": "fill_blank",
+        "content": {
+          "sentence": "Il ___ gioca a calcio.",
+          "answer": "fratello",
+          "hint": "brother"
+        }
       }
     ]
   },
@@ -1365,6 +1413,22 @@ const lessons = [
               "english": "Close"
             }
           ]
+        }
+      },
+      {
+        "type": "fill_blank",
+        "content": {
+          "sentence": "Scusi, dove è la ___?",
+          "answer": "stazione",
+          "hint": "train station"
+        }
+      },
+      {
+        "type": "fill_blank",
+        "content": {
+          "sentence": "Vada dritto e poi giri a ___",
+          "answer": "destra",
+          "hint": "right (direction)"
         }
       }
     ]
@@ -1874,6 +1938,22 @@ const lessons = [
               "english": "No problem"
             }
           ]
+        }
+      },
+      {
+        "type": "fill_blank",
+        "content": {
+          "sentence": "Per ___! Come si dice...?",
+          "answer": "favore",
+          "hint": "please"
+        }
+      },
+      {
+        "type": "fill_blank",
+        "content": {
+          "sentence": "___ mille! (Thank you very much!)",
+          "answer": "Grazie",
+          "hint": "thanks"
         }
       }
     ]
@@ -2567,6 +2647,22 @@ const lessons = [
               "english": "Excuse me (passing)"
             }
           ]
+        }
+      },
+      {
+        "type": "fill_blank",
+        "content": {
+          "sentence": "Mi ___, può aiutarmi?",
+          "answer": "scusi",
+          "hint": "excuse me (formal)"
+        }
+      },
+      {
+        "type": "fill_blank",
+        "content": {
+          "sentence": "___ piacere!",
+          "answer": "Il",
+          "hint": "Nice to meet you! (part 1)"
         }
       }
     ]
@@ -3365,6 +3461,22 @@ const lessons = [
               "english": "How?"
             }
           ]
+        }
+      },
+      {
+        "type": "fill_blank",
+        "content": {
+          "sentence": "___ viene da?",
+          "answer": "Di",
+          "hint": "Where are you from?"
+        }
+      },
+      {
+        "type": "fill_blank",
+        "content": {
+          "sentence": "___ ore sono?",
+          "answer": "Che",
+          "hint": "What time is it?"
         }
       }
     ]
@@ -8105,6 +8217,14 @@ const lessons = [
           "sentence": "Ho letto un ___ interessante sul giornale.",
           "answer": "articolo",
           "hint": "article"
+        }
+      },
+      {
+        "type": "fill_blank",
+        "content": {
+          "sentence": "Il ___ ha dato notizie importanti.",
+          "answer": "telegiornale",
+          "hint": "TV news"
         }
       }
     ]
@@ -14534,6 +14654,22 @@ const lessons = [
             }
           ]
         }
+      },
+      {
+        "type": "fill_blank",
+        "content": {
+          "sentence": "Il ___ ha emesso una sentenza.",
+          "answer": "giudice",
+          "hint": "judge"
+        }
+      },
+      {
+        "type": "fill_blank",
+        "content": {
+          "sentence": "L'avvocato ha presentato un ___.",
+          "answer": "ricorso",
+          "hint": "appeal"
+        }
       }
     ]
   },
@@ -14712,6 +14848,22 @@ const lessons = [
               "english": "The filling"
             }
           ]
+        }
+      },
+      {
+        "type": "fill_blank",
+        "content": {
+          "sentence": "Ho un mal di ___ alla mascella.",
+          "answer": "denti",
+          "hint": "toothache"
+        }
+      },
+      {
+        "type": "fill_blank",
+        "content": {
+          "sentence": "Il dentista mi ha fatto una ___",
+          "answer": "pulizia",
+          "hint": "cleaning"
         }
       }
     ]
@@ -14897,6 +15049,22 @@ const lessons = [
             }
           ]
         }
+      },
+      {
+        "type": "fill_blank",
+        "content": {
+          "sentence": "Sto ___ a fare la pasta.",
+          "answer": "imparando",
+          "hint": "I am learning"
+        }
+      },
+      {
+        "type": "fill_blank",
+        "content": {
+          "sentence": "Il chef ha spiegato la ___",
+          "answer": "ricetta",
+          "hint": "recipe"
+        }
       }
     ]
   },
@@ -15081,6 +15249,22 @@ const lessons = [
             }
           ]
         }
+      },
+      {
+        "type": "fill_blank",
+        "content": {
+          "sentence": "L'___ è in centro città.",
+          "answer": "appartamento",
+          "hint": "apartment"
+        }
+      },
+      {
+        "type": "fill_blank",
+        "content": {
+          "sentence": "La ___ è di tre camere.",
+          "answer": "casa",
+          "hint": "house"
+        }
       }
     ]
   },
@@ -15246,6 +15430,22 @@ const lessons = [
               "english": "The workshop / studio"
             }
           ]
+        }
+      },
+      {
+        "type": "fill_blank",
+        "content": {
+          "sentence": "Questa ___ è molto elegante.",
+          "answer": "maglia",
+          "hint": "shirt"
+        }
+      },
+      {
+        "type": "fill_blank",
+        "content": {
+          "sentence": "Indosso un ___ lungo.",
+          "answer": "vestito",
+          "hint": "dress"
         }
       }
     ]
@@ -15425,6 +15625,22 @@ const lessons = [
               "english": "The wine tasting"
             }
           ]
+        }
+      },
+      {
+        "type": "fill_blank",
+        "content": {
+          "sentence": "Questo ___ rosso è buonissimo.",
+          "answer": "vino",
+          "hint": "wine"
+        }
+      },
+      {
+        "type": "fill_blank",
+        "content": {
+          "sentence": "Il ___ è della Toscana.",
+          "answer": "Chianti",
+          "hint": "famous Tuscan wine"
         }
       }
     ]
@@ -15610,6 +15826,22 @@ const lessons = [
             }
           ]
         }
+      },
+      {
+        "type": "fill_blank",
+        "content": {
+          "sentence": "La ___ gira intorno al sole.",
+          "answer": "Terra",
+          "hint": "Earth"
+        }
+      },
+      {
+        "type": "fill_blank",
+        "content": {
+          "sentence": "La ___ è notte è piena di stelle.",
+          "answer": "notte",
+          "hint": "night"
+        }
       }
     ]
   },
@@ -15775,6 +16007,22 @@ const lessons = [
               "english": "The orchestra"
             }
           ]
+        }
+      },
+      {
+        "type": "fill_blank",
+        "content": {
+          "sentence": "La ___ è il ritmo della musica.",
+          "answer": "battuta",
+          "hint": "beat"
+        }
+      },
+      {
+        "type": "fill_blank",
+        "content": {
+          "sentence": "Suono la ___ da cinque anni.",
+          "answer": "chitarra",
+          "hint": "guitar"
         }
       }
     ]
@@ -15954,6 +16202,22 @@ const lessons = [
               "english": "I need help"
             }
           ]
+        }
+      },
+      {
+        "type": "fill_blank",
+        "content": {
+          "sentence": "Ho bisogno di un ___ medico!",
+          "answer": "ambulanza",
+          "hint": "ambulance"
+        }
+      },
+      {
+        "type": "fill_blank",
+        "content": {
+          "sentence": "Chiama il ___ al 113!",
+          "answer": "polizia",
+          "hint": "police"
         }
       }
     ]
@@ -16139,6 +16403,22 @@ const lessons = [
             }
           ]
         }
+      },
+      {
+        "type": "fill_blank",
+        "content": {
+          "sentence": "Ogni ___ ha dei doveri.",
+          "answer": "cittadino",
+          "hint": "citizen"
+        }
+      },
+      {
+        "type": "fill_blank",
+        "content": {
+          "sentence": "La ___ è uguale per tutti.",
+          "answer": "legge",
+          "hint": "law"
+        }
       }
     ]
   },
@@ -16317,6 +16597,22 @@ const lessons = [
               "english": "The spell"
             }
           ]
+        }
+      },
+      {
+        "type": "fill_blank",
+        "content": {
+          "sentence": "Secondo la ___ , il lupo abitava nei boschi.",
+          "answer": "leggenda",
+          "hint": "legend"
+        }
+      },
+      {
+        "type": "fill_blank",
+        "content": {
+          "sentence": "La fiaba inizia con \"C'era una ___...\"",
+          "answer": "volta",
+          "hint": "Once upon a time..."
         }
       }
     ]
@@ -16502,6 +16798,22 @@ const lessons = [
             }
           ]
         }
+      },
+      {
+        "type": "fill_blank",
+        "content": {
+          "sentence": "L'___ solare è una fonte pulita.",
+          "answer": "energia",
+          "hint": "energy"
+        }
+      },
+      {
+        "type": "fill_blank",
+        "content": {
+          "sentence": "L'___ eolica sfrutta il vento.",
+          "answer": "energia",
+          "hint": "wind energy"
+        }
       }
     ]
   },
@@ -16681,6 +16993,22 @@ const lessons = [
             }
           ]
         }
+      },
+      {
+        "type": "fill_blank",
+        "content": {
+          "sentence": "Ho mandato un ___ via email.",
+          "answer": "messaggio",
+          "hint": "message"
+        }
+      },
+      {
+        "type": "fill_blank",
+        "content": {
+          "sentence": "Il ___ è gratis.",
+          "answer": "Wi-Fi",
+          "hint": "Wi-Fi"
+        }
       }
     ]
   },
@@ -16859,6 +17187,22 @@ const lessons = [
               "english": "The fisherman"
             }
           ]
+        }
+      },
+      {
+        "type": "fill_blank",
+        "content": {
+          "sentence": "La ___ è salpata dal porto.",
+          "answer": "nave",
+          "hint": "ship"
+        }
+      },
+      {
+        "type": "fill_blank",
+        "content": {
+          "sentence": "Il ___ sta scaricando le merci.",
+          "answer": "cargo",
+          "hint": "cargo"
         }
       }
     ]
@@ -17043,6 +17387,22 @@ const lessons = [
               "english": "Conscience"
             }
           ]
+        }
+      },
+      {
+        "type": "fill_blank",
+        "content": {
+          "sentence": "Secondo Aristotele, la felicità è il ___ supremo.",
+          "answer": "bene",
+          "hint": "highest good"
+        }
+      },
+      {
+        "type": "fill_blank",
+        "content": {
+          "sentence": "La ___ è la madre di tutte le scienze.",
+          "answer": "filosofia",
+          "hint": "philosophy"
         }
       }
     ]
@@ -18843,7 +19203,12 @@ const lessons = [
         "type": "multiple_choice",
         "content": {
           "question": "How do you say 'I have a headache'?",
-          "options": ["Ho mal di testa", "Ho mal di gola", "Ho mal di stomaco", "Ho mal di schiena"],
+          "options": [
+            "Ho mal di testa",
+            "Ho mal di gola",
+            "Ho mal di stomaco",
+            "Ho mal di schiena"
+          ],
           "answer": "Ho mal di testa"
         }
       },
@@ -18862,6 +19227,14 @@ const lessons = [
           "sentence": "Ho ___(la tosse) da una settimana.",
           "answer": "la tosse",
           "hint": "the cough"
+        }
+      },
+      {
+        "type": "fill_blank",
+        "content": {
+          "sentence": "Il dottore mi ha fatto una ___",
+          "answer": "visita",
+          "hint": "check-up"
         }
       }
     ]
@@ -18965,7 +19338,12 @@ const lessons = [
         "type": "multiple_choice",
         "content": {
           "question": "What does 'la verdura' mean?",
-          "options": ["The fruit", "The vegetable", "The meat", "The bread"],
+          "options": [
+            "The fruit",
+            "The vegetable",
+            "The meat",
+            "The bread"
+          ],
           "answer": "The vegetable"
         }
       },
@@ -18984,6 +19362,14 @@ const lessons = [
           "sentence": "Voglio mangiare della ___(frutta) fresca.",
           "answer": "frutta",
           "hint": "fruit"
+        }
+      },
+      {
+        "type": "fill_blank",
+        "content": {
+          "sentence": "La ___ è calda.",
+          "answer": "pizza",
+          "hint": "pizza"
         }
       }
     ]
@@ -19087,7 +19473,12 @@ const lessons = [
         "type": "multiple_choice",
         "content": {
           "question": "What is 'il soggiorno'?",
-          "options": ["The kitchen", "The living room", "The bedroom", "The bathroom"],
+          "options": [
+            "The kitchen",
+            "The living room",
+            "The bedroom",
+            "The bathroom"
+          ],
           "answer": "The living room"
         }
       },
@@ -19106,6 +19497,14 @@ const lessons = [
           "sentence": "Nella ___(cucina) c'è un tavolo e quattro sedie.",
           "answer": "cucina",
           "hint": "kitchen"
+        }
+      },
+      {
+        "type": "fill_blank",
+        "content": {
+          "sentence": "Il ___ è nel bagno.",
+          "answer": "lavandino",
+          "hint": "sink"
         }
       }
     ]
@@ -19209,7 +19608,12 @@ const lessons = [
         "type": "multiple_choice",
         "content": {
           "question": "What does 'l'avvocato' mean?",
-          "options": ["The doctor", "The lawyer", "The teacher", "The cook"],
+          "options": [
+            "The doctor",
+            "The lawyer",
+            "The teacher",
+            "The cook"
+          ],
           "answer": "The lawyer"
         }
       },
@@ -19228,6 +19632,14 @@ const lessons = [
           "sentence": "Mio padre è ___(l'avvocato) molto bravo.",
           "answer": "l'avvocato",
           "hint": "the lawyer"
+        }
+      },
+      {
+        "type": "fill_blank",
+        "content": {
+          "sentence": "Il ___ insegna a scuola.",
+          "answer": "professore",
+          "hint": "teacher"
         }
       }
     ]
@@ -19331,7 +19743,12 @@ const lessons = [
         "type": "multiple_choice",
         "content": {
           "question": "What does 'la farfalla' mean?",
-          "options": ["The ant", "The butterfly", "The bird", "The fish"],
+          "options": [
+            "The ant",
+            "The butterfly",
+            "The bird",
+            "The fish"
+          ],
           "answer": "The butterfly"
         }
       },
@@ -19350,6 +19767,14 @@ const lessons = [
           "sentence": "Nel ___(cielo) ci sono molte stelle stasera.",
           "answer": "cielo",
           "hint": "sky"
+        }
+      },
+      {
+        "type": "fill_blank",
+        "content": {
+          "sentence": "Il ___ vive nel bosco.",
+          "answer": "cervo",
+          "hint": "deer"
         }
       }
     ]
@@ -19453,7 +19878,12 @@ const lessons = [
         "type": "multiple_choice",
         "content": {
           "question": "What does 'giri a sinistra' mean?",
-          "options": ["Go straight", "Turn right", "Turn left", "Stop"],
+          "options": [
+            "Go straight",
+            "Turn right",
+            "Turn left",
+            "Stop"
+          ],
           "answer": "Turn left"
         }
       },
@@ -19472,6 +19902,14 @@ const lessons = [
           "sentence": "Va ___(dritto) per cento metri.",
           "answer": "dritto",
           "hint": "straight"
+        }
+      },
+      {
+        "type": "fill_blank",
+        "content": {
+          "sentence": "La farmacia è ___ l'angolo.",
+          "answer": "dopo",
+          "hint": "after"
         }
       }
     ]
@@ -19560,7 +19998,12 @@ const lessons = [
         "type": "multiple_choice",
         "content": {
           "question": "How do you say 'I agree' in Italian?",
-          "options": ["Non penso così", "Sono d'accordo", "Hai ragione", "Forse"],
+          "options": [
+            "Non penso così",
+            "Sono d'accordo",
+            "Hai ragione",
+            "Forse"
+          ],
           "answer": "Sono d'accordo"
         }
       },
@@ -19579,6 +20022,14 @@ const lessons = [
           "sentence": "___(secondo) te, quale film è il migliore?",
           "answer": "Secondo",
           "hint": "in your opinion"
+        }
+      },
+      {
+        "type": "fill_blank",
+        "content": {
+          "sentence": "Non sono ___ che sia una buona idea.",
+          "answer": "sicuro",
+          "hint": "sure"
         }
       }
     ]
@@ -19687,7 +20138,12 @@ const lessons = [
         "type": "multiple_choice",
         "content": {
           "question": "How do you ask for a discount?",
-          "options": ["Quanto costa?", "Mi fa uno sconto?", "Lo prendo?", "Vorrei?"],
+          "options": [
+            "Quanto costa?",
+            "Mi fa uno sconto?",
+            "Lo prendo?",
+            "Vorrei?"
+          ],
           "answer": "Mi fa uno sconto?"
         }
       },
@@ -19706,6 +20162,14 @@ const lessons = [
           "sentence": "Quanto ___(costare) i pomodori al chilo?",
           "answer": "costano",
           "hint": "how much do they cost (plural)"
+        }
+      },
+      {
+        "type": "fill_blank",
+        "content": {
+          "sentence": "Vorrei un ___ di pomodori.",
+          "answer": "chilo",
+          "hint": "kilo"
         }
       }
     ]
@@ -19789,7 +20253,12 @@ const lessons = [
         "type": "multiple_choice",
         "content": {
           "question": "Which is correct for 'If I were rich'?",
-          "options": ["Se sono ricco", "Se fossi ricco", "Se sarò ricco", "Se ero ricco"],
+          "options": [
+            "Se sono ricco",
+            "Se fossi ricco",
+            "Se sarò ricco",
+            "Se ero ricco"
+          ],
           "answer": "Se fossi ricco"
         }
       },
@@ -19808,6 +20277,14 @@ const lessons = [
           "sentence": "Se ___(avere) più tempo, studierei di più.",
           "answer": "avessi",
           "hint": "imperfect subjunctive of avere"
+        }
+      },
+      {
+        "type": "fill_blank",
+        "content": {
+          "sentence": "Se piovesse, ___ a casa.",
+          "answer": "resterei",
+          "hint": "I would stay"
         }
       }
     ]
@@ -19911,7 +20388,12 @@ const lessons = [
         "type": "multiple_choice",
         "content": {
           "question": "What does 'condividere' mean?",
-          "options": ["To comment", "To share", "To like", "To follow"],
+          "options": [
+            "To comment",
+            "To share",
+            "To like",
+            "To follow"
+          ],
           "answer": "To share"
         }
       },
@@ -19930,6 +20412,14 @@ const lessons = [
           "sentence": "Ho ___(mettere) mi piace alla sua foto.",
           "answer": "messo",
           "hint": "put (passato prossimo of mettere)"
+        }
+      },
+      {
+        "type": "fill_blank",
+        "content": {
+          "sentence": "Seguo molti ___ su Twitter.",
+          "answer": "account",
+          "hint": "accounts"
         }
       }
     ]
@@ -20033,7 +20523,12 @@ const lessons = [
         "type": "multiple_choice",
         "content": {
           "question": "What does 'antipatico' mean?",
-          "options": ["Nice", "Shy", "Unpleasant", "Intelligent"],
+          "options": [
+            "Nice",
+            "Shy",
+            "Unpleasant",
+            "Intelligent"
+          ],
           "answer": "Unpleasant"
         }
       },
@@ -20052,6 +20547,14 @@ const lessons = [
           "sentence": "Ha gli occhi ___(blu) e i capelli biondi.",
           "answer": "blu",
           "hint": "blue"
+        }
+      },
+      {
+        "type": "fill_blank",
+        "content": {
+          "sentence": "Lui è molto ___ e gentile.",
+          "answer": "alto",
+          "hint": "tall"
         }
       }
     ]
@@ -20135,7 +20638,12 @@ const lessons = [
         "type": "multiple_choice",
         "content": {
           "question": "Which tense for 'I used to go to the park'?",
-          "options": ["Passato prossimo", "Imperfetto", "Passato remoto", "Presente"],
+          "options": [
+            "Passato prossimo",
+            "Imperfetto",
+            "Passato remoto",
+            "Presente"
+          ],
           "answer": "Imperfetto"
         }
       },
@@ -20154,6 +20662,14 @@ const lessons = [
           "sentence": "Quando ero giovane, ___(giocare) a calcio ogni giorno.",
           "answer": "giocavo",
           "hint": "imperfetto of giocare"
+        }
+      },
+      {
+        "type": "fill_blank",
+        "content": {
+          "sentence": "Quando ero piccolo, ___ nel parco.",
+          "answer": "giocavo",
+          "hint": "I used to play (imperfetto)"
         }
       }
     ]
@@ -20247,7 +20763,12 @@ const lessons = [
         "type": "multiple_choice",
         "content": {
           "question": "What is 'I will eat' using mangiare?",
-          "options": ["mangerò", "mangerai", "mangerà", "mangeremo"],
+          "options": [
+            "mangerò",
+            "mangerai",
+            "mangerà",
+            "mangeremo"
+          ],
           "answer": "mangerò"
         }
       },
@@ -20266,6 +20787,14 @@ const lessons = [
           "sentence": "L'anno prossimo ___(viaggiare) in Italia.",
           "answer": "viaggerò",
           "hint": "I will travel"
+        }
+      },
+      {
+        "type": "fill_blank",
+        "content": {
+          "sentence": "L'anno prossimo ___ in Italia.",
+          "answer": "andrò",
+          "hint": "I will go"
         }
       }
     ]
@@ -20369,7 +20898,12 @@ const lessons = [
         "type": "multiple_choice",
         "content": {
           "question": "Which region is Florence (Firenze) in?",
-          "options": ["Lazio", "Toscana", "Lombardia", "Campania"],
+          "options": [
+            "Lazio",
+            "Toscana",
+            "Lombardia",
+            "Campania"
+          ],
           "answer": "Toscana"
         }
       },
@@ -20388,6 +20922,14 @@ const lessons = [
           "sentence": "La ___(Campania) è famosa per la pizza napoletana.",
           "answer": "Campania",
           "hint": "The region where Naples is located"
+        }
+      },
+      {
+        "type": "fill_blank",
+        "content": {
+          "sentence": "Il ___ è la regione del vino.",
+          "answer": "Trentino",
+          "hint": "Trentino (wine region)"
         }
       }
     ]
@@ -20466,7 +21008,12 @@ const lessons = [
         "type": "multiple_choice",
         "content": {
           "question": "Which tense is 'avevo già mangiato'?",
-          "options": ["Passato prossimo", "Imperfetto", "Trapassato prossimo", "Passato remoto"],
+          "options": [
+            "Passato prossimo",
+            "Imperfetto",
+            "Trapassato prossimo",
+            "Passato remoto"
+          ],
           "answer": "Trapassato prossimo"
         }
       },
@@ -20486,6 +21033,14 @@ const lessons = [
           "answer": "erano",
           "hint": "imperfetto of essere"
         }
+      },
+      {
+        "type": "fill_blank",
+        "content": {
+          "sentence": "Il ___ è arrivato alla fine.",
+          "answer": "racconto",
+          "hint": "story"
+        }
       }
     ]
   },
@@ -20504,16 +21059,56 @@ const lessons = [
           "title": "Cinema Vocabulary",
           "text": "Essential vocabulary for discussing Italian cinema and film culture.",
           "items": [
-            { "italian": "Il film", "english": "The film/movie", "pronunciation": "FEELM" },
-            { "italian": "Il regista", "english": "The director", "pronunciation": "reh-JEES-tah" },
-            { "italian": "L'attore/attrice", "english": "The actor/actress", "pronunciation": "aht-TOH-reh/aht-TREE-cheh" },
-            { "italian": "La scena", "english": "The scene", "pronunciation": "SHEH-nah" },
-            { "italian": "La pellicola", "english": "The film/movie (formal)", "pronunciation": "pehl-LEE-koh-lah" },
-            { "italian": "Il doppiaggio", "english": "Dubbing", "pronunciation": "dohp-PYAHJ-joh" },
-            { "italian": "I sottotitoli", "english": "Subtitles", "pronunciation": "soht-toh-TEE-toh-lee" },
-            { "italian": "Il cinema d'autore", "english": "Art house cinema", "pronunciation": "eel CHEE-mah-rah dow-TOH-reh" },
-            { "italian": "La commedia", "english": "Comedy", "pronunciation": "kohm-MEH-dyah" },
-            { "italian": "Il dramma", "english": "Drama", "pronunciation": "DRAHM-mah" }
+            {
+              "italian": "Il film",
+              "english": "The film/movie",
+              "pronunciation": "FEELM"
+            },
+            {
+              "italian": "Il regista",
+              "english": "The director",
+              "pronunciation": "reh-JEES-tah"
+            },
+            {
+              "italian": "L'attore/attrice",
+              "english": "The actor/actress",
+              "pronunciation": "aht-TOH-reh/aht-TREE-cheh"
+            },
+            {
+              "italian": "La scena",
+              "english": "The scene",
+              "pronunciation": "SHEH-nah"
+            },
+            {
+              "italian": "La pellicola",
+              "english": "The film/movie (formal)",
+              "pronunciation": "pehl-LEE-koh-lah"
+            },
+            {
+              "italian": "Il doppiaggio",
+              "english": "Dubbing",
+              "pronunciation": "dohp-PYAHJ-joh"
+            },
+            {
+              "italian": "I sottotitoli",
+              "english": "Subtitles",
+              "pronunciation": "soht-toh-TEE-toh-lee"
+            },
+            {
+              "italian": "Il cinema d'autore",
+              "english": "Art house cinema",
+              "pronunciation": "eel CHEE-mah-rah dow-TOH-reh"
+            },
+            {
+              "italian": "La commedia",
+              "english": "Comedy",
+              "pronunciation": "kohm-MEH-dyah"
+            },
+            {
+              "italian": "Il dramma",
+              "english": "Drama",
+              "pronunciation": "DRAHM-mah"
+            }
           ]
         }
       },
@@ -20521,24 +21116,66 @@ const lessons = [
         "type": "example",
         "content": {
           "dialogue": [
-            { "speaker": "A", "italian": "Hai visto l'ultimo film di Sorrentino?", "english": "Have you seen Sorrentino's latest film?" },
-            { "speaker": "B", "italian": "Si, è fantastico! La regia è impeccabile.", "english": "Yes, it's fantastic! The direction is flawless." },
-            { "speaker": "A", "italian": "Chi è il tuo attore italiano preferito?", "english": "Who is your favorite Italian actor?" },
-            { "speaker": "B", "italian": "Adoro Toni Servillo. Recita in ogni film di Sorrentino.", "english": "I love Toni Servillo. He acts in every Sorrentino film." }
+            {
+              "speaker": "A",
+              "italian": "Hai visto l'ultimo film di Sorrentino?",
+              "english": "Have you seen Sorrentino's latest film?"
+            },
+            {
+              "speaker": "B",
+              "italian": "Si, è fantastico! La regia è impeccabile.",
+              "english": "Yes, it's fantastic! The direction is flawless."
+            },
+            {
+              "speaker": "A",
+              "italian": "Chi è il tuo attore italiano preferito?",
+              "english": "Who is your favorite Italian actor?"
+            },
+            {
+              "speaker": "B",
+              "italian": "Adoro Toni Servillo. Recita in ogni film di Sorrentino.",
+              "english": "I love Toni Servillo. He acts in every Sorrentino film."
+            }
           ]
         }
       },
       {
         "type": "multiple_choice",
-        "content": { "question": "What does 'il doppiaggio' mean?", "options": ["Subtitles", "Dubbing", "Script", "Casting"], "answer": "Dubbing" }
+        "content": {
+          "question": "What does 'il doppiaggio' mean?",
+          "options": [
+            "Subtitles",
+            "Dubbing",
+            "Script",
+            "Casting"
+          ],
+          "answer": "Dubbing"
+        }
       },
       {
         "type": "translation",
-        "content": { "direction": "en-to-it", "sentence": "Italian cinema is famous all over the world.", "answer": "Il cinema italiano è famoso in tutto il mondo.", "hint": "famoso = famous" }
+        "content": {
+          "direction": "en-to-it",
+          "sentence": "Italian cinema is famous all over the world.",
+          "answer": "Il cinema italiano è famoso in tutto il mondo.",
+          "hint": "famoso = famous"
+        }
       },
       {
         "type": "fill_blank",
-        "content": { "sentence": "Il ___(regista) ha vinto la Palma d'Oro a Cannes.", "answer": "regista", "hint": "director" }
+        "content": {
+          "sentence": "Il ___(regista) ha vinto la Palma d'Oro a Cannes.",
+          "answer": "regista",
+          "hint": "director"
+        }
+      },
+      {
+        "type": "fill_blank",
+        "content": {
+          "sentence": "La scena ___ mi ha commosso.",
+          "answer": "finale",
+          "hint": "final"
+        }
       }
     ]
   },
@@ -20557,16 +21194,56 @@ const lessons = [
           "title": "Rental Vocabulary",
           "text": "Essential vocabulary for renting an apartment in Italy.",
           "items": [
-            { "italian": "L'affitto", "english": "The rent", "pronunciation": "ahf-FEET-toh" },
-            { "italian": "Il contratto", "english": "The contract", "pronunciation": "kohn-TRAHT-toh" },
-            { "italian": "Il deposito", "english": "The deposit", "pronunciation": "deh-POH-zee-toh" },
-            { "italian": "L'inquilino", "english": "The tenant", "pronunciation": "een-kee-LEE-noh" },
-            { "italian": "Il proprietario", "english": "The landlord", "pronunciation": "proh-pree-eh-TAH-ryoh" },
-            { "italian": "Le bollette", "english": "The bills (utilities)", "pronunciation": "lehl-bohl-LEHT-teh" },
-            { "italian": "L'imbianchino", "english": "The painter", "pronunciation": "eem-byahn-KEE-noh" },
-            { "italian": "L'idraulico", "english": "The plumber", "pronunciation": "ee-DROW-lee-koh" },
-            { "italian": "L'elettricista", "english": "The electrician", "pronunciation": "eh-leht-tree-CHEES-tah" },
-            { "italian": "IlMobili", "english": "Furniture", "pronunciation": "eel MOH-bee-lee" }
+            {
+              "italian": "L'affitto",
+              "english": "The rent",
+              "pronunciation": "ahf-FEET-toh"
+            },
+            {
+              "italian": "Il contratto",
+              "english": "The contract",
+              "pronunciation": "kohn-TRAHT-toh"
+            },
+            {
+              "italian": "Il deposito",
+              "english": "The deposit",
+              "pronunciation": "deh-POH-zee-toh"
+            },
+            {
+              "italian": "L'inquilino",
+              "english": "The tenant",
+              "pronunciation": "een-kee-LEE-noh"
+            },
+            {
+              "italian": "Il proprietario",
+              "english": "The landlord",
+              "pronunciation": "proh-pree-eh-TAH-ryoh"
+            },
+            {
+              "italian": "Le bollette",
+              "english": "The bills (utilities)",
+              "pronunciation": "lehl-bohl-LEHT-teh"
+            },
+            {
+              "italian": "L'imbianchino",
+              "english": "The painter",
+              "pronunciation": "eem-byahn-KEE-noh"
+            },
+            {
+              "italian": "L'idraulico",
+              "english": "The plumber",
+              "pronunciation": "ee-DROW-lee-koh"
+            },
+            {
+              "italian": "L'elettricista",
+              "english": "The electrician",
+              "pronunciation": "eh-leht-tree-CHEES-tah"
+            },
+            {
+              "italian": "IlMobili",
+              "english": "Furniture",
+              "pronunciation": "eel MOH-bee-lee"
+            }
           ]
         }
       },
@@ -20574,24 +21251,66 @@ const lessons = [
         "type": "example",
         "content": {
           "dialogue": [
-            { "speaker": "A", "italian": "Stai cercando un appartamento?", "english": "Are you looking for an apartment?" },
-            { "speaker": "B", "italian": "Si, il mio affitto è troppo alto. Voglio trasferirmi.", "english": "Yes, my rent is too high. I want to move." },
-            { "speaker": "A", "italian": "Quanto paghi al mese?", "english": "How much do you pay per month?" },
-            { "speaker": "B", "italian": "Pagho mille euro di affitto più le bollette.", "english": "I pay a thousand euros rent plus utilities." }
+            {
+              "speaker": "A",
+              "italian": "Stai cercando un appartamento?",
+              "english": "Are you looking for an apartment?"
+            },
+            {
+              "speaker": "B",
+              "italian": "Si, il mio affitto è troppo alto. Voglio trasferirmi.",
+              "english": "Yes, my rent is too high. I want to move."
+            },
+            {
+              "speaker": "A",
+              "italian": "Quanto paghi al mese?",
+              "english": "How much do you pay per month?"
+            },
+            {
+              "speaker": "B",
+              "italian": "Pagho mille euro di affitto più le bollette.",
+              "english": "I pay a thousand euros rent plus utilities."
+            }
           ]
         }
       },
       {
         "type": "multiple_choice",
-        "content": { "question": "What does 'l'affitto' mean?", "options": ["The deposit", "The rent", "The contract", "The bill"], "answer": "The rent" }
+        "content": {
+          "question": "What does 'l'affitto' mean?",
+          "options": [
+            "The deposit",
+            "The rent",
+            "The contract",
+            "The bill"
+          ],
+          "answer": "The rent"
+        }
       },
       {
         "type": "translation",
-        "content": { "direction": "en-to-it", "sentence": "The lease is for one year.", "answer": "Il contratto è per un anno.", "hint": "contratto = contract/lease" }
+        "content": {
+          "direction": "en-to-it",
+          "sentence": "The lease is for one year.",
+          "answer": "Il contratto è per un anno.",
+          "hint": "contratto = contract/lease"
+        }
       },
       {
         "type": "fill_blank",
-        "content": { "sentence": "Devo pagare le ___(bollette) ogni mese.", "answer": "bollette", "hint": "bills" }
+        "content": {
+          "sentence": "Devo pagare le ___(bollette) ogni mese.",
+          "answer": "bollette",
+          "hint": "bills"
+        }
+      },
+      {
+        "type": "fill_blank",
+        "content": {
+          "sentence": "Ho firmato il ___ ieri.",
+          "answer": "contratto",
+          "hint": "contract"
+        }
       }
     ]
   },
@@ -20610,16 +21329,56 @@ const lessons = [
           "title": "Complex Emotions",
           "text": "Italian has rich vocabulary for expressing nuanced emotional states.",
           "items": [
-            { "italian": "Essere commosso/a", "english": "To be moved/touched", "pronunciation": "ehs-SEH-reh kohm-MOHS-soh" },
-            { "italian": "Essere sollevato/a", "english": "To be relieved", "pronunciation": "ehs-SEH-reh soh-leh-VAH-toh" },
-            { "italian": "Essere deluso/a", "english": "To be disappointed", "pronunciation": "ehs-SEH-reh deh-LOO-zoh" },
-            { "italian": "Essere invidioso/a", "english": "To be jealous/envious", "pronunciation": "ehs-SEH-reh een-vee-DYOH-zoh" },
-            { "italian": "Essere grato/a", "english": "To be grateful", "pronunciation": "ehs-SEH-reh GRAH-toh" },
-            { "italian": "Essere annoiato/a", "english": "To be bored", "pronunciation": "ehs-SEH-reh ahn-noy-AH-toh" },
-            { "italian": "Essere preoccupato/a", "english": "To be worried", "pronunciation": "ehs-SEH-reh preh-ohk-koo-PAH-toh" },
-            { "italian": "Essere Frustrato/a", "english": "To be frustrated", "pronunciation": "ehs-SEH-reh froos-TRAH-toh" },
-            { "italian": "Avere rimpianto", "english": "To have regrets", "pronunciation": "ah-VEH-reh reem-PYAHN-toh" },
-            { "italian": "Avere nostalgia", "english": "To be nostalgic", "pronunciation": "ah-VEH-reh nohs-TAH-lyah" }
+            {
+              "italian": "Essere commosso/a",
+              "english": "To be moved/touched",
+              "pronunciation": "ehs-SEH-reh kohm-MOHS-soh"
+            },
+            {
+              "italian": "Essere sollevato/a",
+              "english": "To be relieved",
+              "pronunciation": "ehs-SEH-reh soh-leh-VAH-toh"
+            },
+            {
+              "italian": "Essere deluso/a",
+              "english": "To be disappointed",
+              "pronunciation": "ehs-SEH-reh deh-LOO-zoh"
+            },
+            {
+              "italian": "Essere invidioso/a",
+              "english": "To be jealous/envious",
+              "pronunciation": "ehs-SEH-reh een-vee-DYOH-zoh"
+            },
+            {
+              "italian": "Essere grato/a",
+              "english": "To be grateful",
+              "pronunciation": "ehs-SEH-reh GRAH-toh"
+            },
+            {
+              "italian": "Essere annoiato/a",
+              "english": "To be bored",
+              "pronunciation": "ehs-SEH-reh ahn-noy-AH-toh"
+            },
+            {
+              "italian": "Essere preoccupato/a",
+              "english": "To be worried",
+              "pronunciation": "ehs-SEH-reh preh-ohk-koo-PAH-toh"
+            },
+            {
+              "italian": "Essere Frustrato/a",
+              "english": "To be frustrated",
+              "pronunciation": "ehs-SEH-reh froos-TRAH-toh"
+            },
+            {
+              "italian": "Avere rimpianto",
+              "english": "To have regrets",
+              "pronunciation": "ah-VEH-reh reem-PYAHN-toh"
+            },
+            {
+              "italian": "Avere nostalgia",
+              "english": "To be nostalgic",
+              "pronunciation": "ah-VEH-reh nohs-TAH-lyah"
+            }
           ]
         }
       },
@@ -20627,24 +21386,66 @@ const lessons = [
         "type": "example",
         "content": {
           "dialogue": [
-            { "speaker": "A", "italian": "Come ti senti dopo l'esame?", "english": "How do you feel after the exam?" },
-            { "speaker": "B", "italian": "Sono sollevato! Pensavo di aver fallito.", "english": "I'm relieved! I thought I had failed." },
-            { "speaker": "A", "italian": "Sono contento per te. Nei tuoi panni sarei stato preoccupatissimo!", "english": "I'm happy for you. In your shoes I would have been very worried!" },
-            { "speaker": "B", "italian": "Era una settimana terribile. Ma ora sono grato per il risultato.", "english": "It was a terrible week. But now I'm grateful for the result." }
+            {
+              "speaker": "A",
+              "italian": "Come ti senti dopo l'esame?",
+              "english": "How do you feel after the exam?"
+            },
+            {
+              "speaker": "B",
+              "italian": "Sono sollevato! Pensavo di aver fallito.",
+              "english": "I'm relieved! I thought I had failed."
+            },
+            {
+              "speaker": "A",
+              "italian": "Sono contento per te. Nei tuoi panni sarei stato preoccupatissimo!",
+              "english": "I'm happy for you. In your shoes I would have been very worried!"
+            },
+            {
+              "speaker": "B",
+              "italian": "Era una settimana terribile. Ma ora sono grato per il risultato.",
+              "english": "It was a terrible week. But now I'm grateful for the result."
+            }
           ]
         }
       },
       {
         "type": "multiple_choice",
-        "content": { "question": "How do you say 'I am relieved'?", "options": ["Sono deluso", "Sono sollevato", "Sono annoiato", "Sono frustrato"], "answer": "Sono sollevato" }
+        "content": {
+          "question": "How do you say 'I am relieved'?",
+          "options": [
+            "Sono deluso",
+            "Sono sollevato",
+            "Sono annoiato",
+            "Sono frustrato"
+          ],
+          "answer": "Sono sollevato"
+        }
       },
       {
         "type": "translation",
-        "content": { "direction": "en-to-it", "sentence": "I am grateful for your help.", "answer": "Sono grato per il tuo aiuto.", "hint": "grato = grateful" }
+        "content": {
+          "direction": "en-to-it",
+          "sentence": "I am grateful for your help.",
+          "answer": "Sono grato per il tuo aiuto.",
+          "hint": "grato = grateful"
+        }
       },
       {
         "type": "fill_blank",
-        "content": { "sentence": "Sono ___(deluso) dal risultato.", "answer": "deluso", "hint": "disappointed" }
+        "content": {
+          "sentence": "Sono ___(deluso) dal risultato.",
+          "answer": "deluso",
+          "hint": "disappointed"
+        }
+      },
+      {
+        "type": "fill_blank",
+        "content": {
+          "sentence": "Mi sento ___ dal risultato.",
+          "answer": "sollevato",
+          "hint": "relieved"
+        }
       }
     ]
   },
@@ -20663,16 +21464,56 @@ const lessons = [
           "title": "Italian Gestures",
           "text": "Italians are famous for using hand gestures while speaking. Learn the most common ones.",
           "items": [
-            { "italian": "Il gesto della mano", "english": "Hand gesture", "pronunciation": "eel JEH-stoh della MAH-noh" },
-            { "italian": "Il mellone", "english": "The melon gesture (what do you want?)", "pronunciation": "eel mehl-LOH-neh" },
-            { "italian": "Le dita a corno", "english": "Horns gesture (cuckold/bad luck)", "pronunciation": "leh DEE-tah ah KOHR-noh" },
-            { "italian": "Il pollice in su", "english": "Thumbs up", "pronunciation": "eel pohl-CHEE-cheh een SOO" },
-            { "italian": "Il pollice in giù", "english": "Thumbs down", "pronunciation": "eel pohl-CHEE-cheh een JOO" },
-            { "italian": "Strizzare l'occhio", "english": "To wink", "author": "stree-TSAH-reh lohk-KYOH" },
-            { "italian": "Battere le mani", "english": "To clap hands", "pronunciation": "baht-TEH-reh leh MAH-nee" },
-            { "italian": "Alzare le spalle", "english": "To shrug shoulders", "pronunciation": "ahl-TSAH-reh leh SPAHL-leh" },
-            { "italian": "Toccare il ferro", "english": "To touch iron (for good luck)", "pronunciation": "tohk-KAH-reh eel FEHR-roh" },
-            { "italian": "Fare la barca", "english": "Rocking hand gesture (what do you mean?)", "pronunciation": "FAH-reh lah BAHR-kah" }
+            {
+              "italian": "Il gesto della mano",
+              "english": "Hand gesture",
+              "pronunciation": "eel JEH-stoh della MAH-noh"
+            },
+            {
+              "italian": "Il mellone",
+              "english": "The melon gesture (what do you want?)",
+              "pronunciation": "eel mehl-LOH-neh"
+            },
+            {
+              "italian": "Le dita a corno",
+              "english": "Horns gesture (cuckold/bad luck)",
+              "pronunciation": "leh DEE-tah ah KOHR-noh"
+            },
+            {
+              "italian": "Il pollice in su",
+              "english": "Thumbs up",
+              "pronunciation": "eel pohl-CHEE-cheh een SOO"
+            },
+            {
+              "italian": "Il pollice in giù",
+              "english": "Thumbs down",
+              "pronunciation": "eel pohl-CHEE-cheh een JOO"
+            },
+            {
+              "italian": "Strizzare l'occhio",
+              "english": "To wink",
+              "author": "stree-TSAH-reh lohk-KYOH"
+            },
+            {
+              "italian": "Battere le mani",
+              "english": "To clap hands",
+              "pronunciation": "baht-TEH-reh leh MAH-nee"
+            },
+            {
+              "italian": "Alzare le spalle",
+              "english": "To shrug shoulders",
+              "pronunciation": "ahl-TSAH-reh leh SPAHL-leh"
+            },
+            {
+              "italian": "Toccare il ferro",
+              "english": "To touch iron (for good luck)",
+              "pronunciation": "tohk-KAH-reh eel FEHR-roh"
+            },
+            {
+              "italian": "Fare la barca",
+              "english": "Rocking hand gesture (what do you mean?)",
+              "pronunciation": "FAH-reh lah BAHR-kah"
+            }
           ]
         }
       },
@@ -20680,24 +21521,66 @@ const lessons = [
         "type": "example",
         "content": {
           "dialogue": [
-            { "speaker": "A", "italian": "Perché gli italiani fanno tanti gesti quando parlano?", "english": "Why do Italians make so many gestures when they talk?" },
-            { "speaker": "B", "italian": "È parte della nostra cultura! I gesti esprimono emozioni.", "english": "It's part of our culture! Gestures express emotions." },
-            { "speaker": "A", "italian": "Qual è il gesto più famoso?", "english": "What is the most famous gesture?" },
-            { "speaker": "B", "italian": "Il gesto del mellone — significa 'che vuoi?' Con le dita unite.", "english": "The melon gesture — it means 'what do you want?' With fingers together." }
+            {
+              "speaker": "A",
+              "italian": "Perché gli italiani fanno tanti gesti quando parlano?",
+              "english": "Why do Italians make so many gestures when they talk?"
+            },
+            {
+              "speaker": "B",
+              "italian": "È parte della nostra cultura! I gesti esprimono emozioni.",
+              "english": "It's part of our culture! Gestures express emotions."
+            },
+            {
+              "speaker": "A",
+              "italian": "Qual è il gesto più famoso?",
+              "english": "What is the most famous gesture?"
+            },
+            {
+              "speaker": "B",
+              "italian": "Il gesto del mellone — significa 'che vuoi?' Con le dita unite.",
+              "english": "The melon gesture — it means 'what do you want?' With fingers together."
+            }
           ]
         }
       },
       {
         "type": "multiple_choice",
-        "content": { "question": "What does 'alzare le spalle' mean?", "options": ["To clap", "To shrug", "To wave", "To point"], "answer": "To shrug" }
+        "content": {
+          "question": "What does 'alzare le spalle' mean?",
+          "options": [
+            "To clap",
+            "To shrug",
+            "To wave",
+            "To point"
+          ],
+          "answer": "To shrug"
+        }
       },
       {
         "type": "translation",
-        "content": { "direction": "en-to-it", "sentence": "Italians use many gestures when they talk.", "answer": "Gli italiani fanno molti gesti quando parlano.", "hint": "gesti = gestures" }
+        "content": {
+          "direction": "en-to-it",
+          "sentence": "Italians use many gestures when they talk.",
+          "answer": "Gli italiani fanno molti gesti quando parlano.",
+          "hint": "gesti = gestures"
+        }
       },
       {
         "type": "fill_blank",
-        "content": { "sentence": "Non capisco cosa significa quel ___(gesto).", "answer": "gesto", "hint": "gesture" }
+        "content": {
+          "sentence": "Non capisco cosa significa quel ___(gesto).",
+          "answer": "gesto",
+          "hint": "gesture"
+        }
+      },
+      {
+        "type": "fill_blank",
+        "content": {
+          "sentence": "Gli italiani usano molti ___ quando parlano.",
+          "answer": "gesti",
+          "hint": "gestures"
+        }
       }
     ]
   },
@@ -20716,16 +21599,56 @@ const lessons = [
           "title": "Kitchen Vocabulary",
           "text": "Essential vocabulary for Italian cooking and kitchen tools.",
           "items": [
-            { "italian": "La pentola", "english": "The pot", "pronunciation": "PEHN-toh-lah" },
-            { "italian": "La padella", "english": "The frying pan", "pronunciation": "pah-DEHL-lah" },
-            { "italian": "Il coltello", "english": "The knife", "pronunciation": "kohl-TEHL-loh" },
-            { "italian": "La forchetta", "english": "The fork", "pronunciation": "fohr-KEHT-tah" },
-            { "italian": "Il cucchiaio", "english": "The spoon", "pronunciation": "kook-KYAH-yoh" },
-            { "italian": "La teglia", "english": "The baking tray", "pronunciation": "TEH-lyah" },
-            { "italian": "Iltagliere", "english": "The cutting board", "pronunciation": "eel tah-LYEH-reh" },
-            { "italian": "La grattugia", "english": "The grater", "pronunciation": "graht-TOO-jah" },
-            { "italian": "La bottiglia d'olio", "english": "The oil bottle", "pronunciation": "boht-TEE-lyah DOH-lyoh" },
-            { "italian": "Il sale", "english": "The salt", "pronunciation": "SAH-leh" }
+            {
+              "italian": "La pentola",
+              "english": "The pot",
+              "pronunciation": "PEHN-toh-lah"
+            },
+            {
+              "italian": "La padella",
+              "english": "The frying pan",
+              "pronunciation": "pah-DEHL-lah"
+            },
+            {
+              "italian": "Il coltello",
+              "english": "The knife",
+              "pronunciation": "kohl-TEHL-loh"
+            },
+            {
+              "italian": "La forchetta",
+              "english": "The fork",
+              "pronunciation": "fohr-KEHT-tah"
+            },
+            {
+              "italian": "Il cucchiaio",
+              "english": "The spoon",
+              "pronunciation": "kook-KYAH-yoh"
+            },
+            {
+              "italian": "La teglia",
+              "english": "The baking tray",
+              "pronunciation": "TEH-lyah"
+            },
+            {
+              "italian": "Iltagliere",
+              "english": "The cutting board",
+              "pronunciation": "eel tah-LYEH-reh"
+            },
+            {
+              "italian": "La grattugia",
+              "english": "The grater",
+              "pronunciation": "graht-TOO-jah"
+            },
+            {
+              "italian": "La bottiglia d'olio",
+              "english": "The oil bottle",
+              "pronunciation": "boht-TEE-lyah DOH-lyoh"
+            },
+            {
+              "italian": "Il sale",
+              "english": "The salt",
+              "pronunciation": "SAH-leh"
+            }
           ]
         }
       },
@@ -20733,24 +21656,66 @@ const lessons = [
         "type": "example",
         "content": {
           "dialogue": [
-            { "speaker": "A", "italian": "Cosa stai preparando?", "english": "What are you making?" },
-            { "speaker": "B", "italian": "Sto facendo la pasta al ragù. Mi passi il coltello?", "english": "I'm making pasta with meat sauce. Can you pass me the knife?" },
-            { "speaker": "A", "italian": "Ecco. Vuoi anche la forchetta?", "english": "Here. Do you want the fork too?" },
-            { "speaker": "B", "italian": "No, grazie. Ho bisogno della teglia per il pane.", "english": "No, thanks. I need the baking tray for the bread." }
+            {
+              "speaker": "A",
+              "italian": "Cosa stai preparando?",
+              "english": "What are you making?"
+            },
+            {
+              "speaker": "B",
+              "italian": "Sto facendo la pasta al ragù. Mi passi il coltello?",
+              "english": "I'm making pasta with meat sauce. Can you pass me the knife?"
+            },
+            {
+              "speaker": "A",
+              "italian": "Ecco. Vuoi anche la forchetta?",
+              "english": "Here. Do you want the fork too?"
+            },
+            {
+              "speaker": "B",
+              "italian": "No, grazie. Ho bisogno della teglia per il pane.",
+              "english": "No, thanks. I need the baking tray for the bread."
+            }
           ]
         }
       },
       {
         "type": "multiple_choice",
-        "content": { "question": "What is 'la forchetta'?", "options": ["The spoon", "The fork", "The knife", "The plate"], "answer": "The fork" }
+        "content": {
+          "question": "What is 'la forchetta'?",
+          "options": [
+            "The spoon",
+            "The fork",
+            "The knife",
+            "The plate"
+          ],
+          "answer": "The fork"
+        }
       },
       {
         "type": "translation",
-        "content": { "direction": "en-to-it", "sentence": "Can you pass me the salt, please?", "answer": "Mi passi il sale, per favore?", "hint": "sale = salt" }
+        "content": {
+          "direction": "en-to-it",
+          "sentence": "Can you pass me the salt, please?",
+          "answer": "Mi passi il sale, per favore?",
+          "hint": "sale = salt"
+        }
       },
       {
         "type": "fill_blank",
-        "content": { "sentence": "Ho bisogno del ___(coltello) per tagliare le verdure.", "answer": "coltello", "hint": "knife" }
+        "content": {
+          "sentence": "Ho bisogno del ___(coltello) per tagliare le verdure.",
+          "answer": "coltello",
+          "hint": "knife"
+        }
+      },
+      {
+        "type": "fill_blank",
+        "content": {
+          "sentence": "Metti l'acqua nella ___.",
+          "answer": "pentola",
+          "hint": "pot"
+        }
       }
     ]
   },
@@ -20769,16 +21734,56 @@ const lessons = [
           "title": "Post Office Vocabulary",
           "text": "Essential vocabulary for using Italian postal services.",
           "items": [
-            { "italian": "L'ufficio postale", "english": "The post office", "pronunciation": "oof-FEE-choh pohs-TAH-leh" },
-            { "italian": "Il francobollo", "english": "The stamp", "pronunciation": "frahn-koh-BOHL-loh" },
-            { "italian": "La busta", "english": "The envelope", "pronunciation": "BOOS-tah" },
-            { "italian": "Il pacco", "english": "The package", "pronunciation": "PAHK-koh" },
-            { "italian": "La raccomandata", "english": "Registered mail", "pronunciation": "raht-koh-mahn-DAH-tah" },
-            { "italian": "Il跟随co", "english": "The tracking number", "pronunciation": "eel FEH-low-koh" },
-            { "italian": "Spedire", "english": "To send", "pronunciation": "speh-DEE-reh" },
-            { "italian": "Ricevere", "english": "To receive", "pronunciation": "ree-cheh-VEH-reh" },
-            { "italian": "Il modulo", "english": "The form", "pronunciation": "MOH-doo-loh" },
-            { "italian": "La coda", "english": "The queue", "pronunciation": "KOH-dah" }
+            {
+              "italian": "L'ufficio postale",
+              "english": "The post office",
+              "pronunciation": "oof-FEE-choh pohs-TAH-leh"
+            },
+            {
+              "italian": "Il francobollo",
+              "english": "The stamp",
+              "pronunciation": "frahn-koh-BOHL-loh"
+            },
+            {
+              "italian": "La busta",
+              "english": "The envelope",
+              "pronunciation": "BOOS-tah"
+            },
+            {
+              "italian": "Il pacco",
+              "english": "The package",
+              "pronunciation": "PAHK-koh"
+            },
+            {
+              "italian": "La raccomandata",
+              "english": "Registered mail",
+              "pronunciation": "raht-koh-mahn-DAH-tah"
+            },
+            {
+              "italian": "Il跟随co",
+              "english": "The tracking number",
+              "pronunciation": "eel FEH-low-koh"
+            },
+            {
+              "italian": "Spedire",
+              "english": "To send",
+              "pronunciation": "speh-DEE-reh"
+            },
+            {
+              "italian": "Ricevere",
+              "english": "To receive",
+              "pronunciation": "ree-cheh-VEH-reh"
+            },
+            {
+              "italian": "Il modulo",
+              "english": "The form",
+              "pronunciation": "MOH-doo-loh"
+            },
+            {
+              "italian": "La coda",
+              "english": "The queue",
+              "pronunciation": "KOH-dah"
+            }
           ]
         }
       },
@@ -20786,24 +21791,66 @@ const lessons = [
         "type": "example",
         "content": {
           "dialogue": [
-            { "speaker": "A", "italian": "Buongiorno, devo spedire un pacco in Germania.", "english": "Good morning, I need to send a package to Germany." },
-            { "speaker": "B", "italian": "Compili questo modulo, per favore. Vuole la raccomandata?", "english": "Fill out this form, please. Do you want registered mail?" },
-            { "speaker": "A", "italian": "Si, per favore. Quanto costa?", "english": "Yes, please. How much does it cost?" },
-            { "speaker": "B", "italian": "Venti euro. Qui ci sono i francobolli per la lettera.", "english": "Twenty euros. Here are the stamps for the letter." }
+            {
+              "speaker": "A",
+              "italian": "Buongiorno, devo spedire un pacco in Germania.",
+              "english": "Good morning, I need to send a package to Germany."
+            },
+            {
+              "speaker": "B",
+              "italian": "Compili questo modulo, per favore. Vuole la raccomandata?",
+              "english": "Fill out this form, please. Do you want registered mail?"
+            },
+            {
+              "speaker": "A",
+              "italian": "Si, per favore. Quanto costa?",
+              "english": "Yes, please. How much does it cost?"
+            },
+            {
+              "speaker": "B",
+              "italian": "Venti euro. Qui ci sono i francobolli per la lettera.",
+              "english": "Twenty euros. Here are the stamps for the letter."
+            }
           ]
         }
       },
       {
         "type": "multiple_choice",
-        "content": { "question": "What is 'il francobollo'?", "options": ["The envelope", "The stamp", "The package", "The form"], "answer": "The stamp" }
+        "content": {
+          "question": "What is 'il francobollo'?",
+          "options": [
+            "The envelope",
+            "The stamp",
+            "The package",
+            "The form"
+          ],
+          "answer": "The stamp"
+        }
       },
       {
         "type": "translation",
-        "content": { "direction": "en-to-it", "sentence": "I need to send a registered letter.", "answer": "Devo spedire una raccomandata.", "hint": "raccomandata = registered mail" }
+        "content": {
+          "direction": "en-to-it",
+          "sentence": "I need to send a registered letter.",
+          "answer": "Devo spedire una raccomandata.",
+          "hint": "raccomandata = registered mail"
+        }
       },
       {
         "type": "fill_blank",
-        "content": { "sentence": "Devo comprare un ___(francobollo) per la lettera.", "answer": "francobollo", "hint": "stamp" }
+        "content": {
+          "sentence": "Devo comprare un ___(francobollo) per la lettera.",
+          "answer": "francobollo",
+          "hint": "stamp"
+        }
+      },
+      {
+        "type": "fill_blank",
+        "content": {
+          "sentence": "Il pacco è in ___.",
+          "answer": "coda",
+          "hint": "line/queue"
+        }
       }
     ]
   },
@@ -20822,14 +21869,46 @@ const lessons = [
           "title": "Modal Verbs",
           "text": "Italian modal verbs express necessity, possibility, desire, and ability. They are followed by an infinitive.",
           "items": [
-            { "italian": "Dovere (must/have to)", "english": "Devo studiare = I must study", "pronunciation": "doh-VEH-reh" },
-            { "italian": "Potere (can/may)", "english": "Posso aiutarti = I can help you", "pronunciation": "poh-TEH-reh" },
-            { "italian": "Volere (want to)", "english": "Voglio imparare = I want to learn", "pronunciation": "voh-LEH-reh" },
-            { "italian": "Sapere (know how to)", "english": "So cucinare = I know how to cook", "pronunciation": "sah-PEH-reh" },
-            { "italian": "Dovrei parlare", "english": "I should speak", "pronunciation": "dohv-RAY pahr-LAH-reh" },
-            { "italian": "Potrei venire", "english": "I could come", "pronunciation": "pohv-RAY veh-NEE-reh" },
-            { "italian": "Vorrei un caffè", "english": "I would like a coffee", "pronunciation": "vohr-RAY oon kahf-FEH" },
-            { "italian": "Sapresti aiutarmi?", "english": "Could you help me? (polite)", "pronunciation": "sahv-REHS-tee ah-yoo-TAHR-mee" }
+            {
+              "italian": "Dovere (must/have to)",
+              "english": "Devo studiare = I must study",
+              "pronunciation": "doh-VEH-reh"
+            },
+            {
+              "italian": "Potere (can/may)",
+              "english": "Posso aiutarti = I can help you",
+              "pronunciation": "poh-TEH-reh"
+            },
+            {
+              "italian": "Volere (want to)",
+              "english": "Voglio imparare = I want to learn",
+              "pronunciation": "voh-LEH-reh"
+            },
+            {
+              "italian": "Sapere (know how to)",
+              "english": "So cucinare = I know how to cook",
+              "pronunciation": "sah-PEH-reh"
+            },
+            {
+              "italian": "Dovrei parlare",
+              "english": "I should speak",
+              "pronunciation": "dohv-RAY pahr-LAH-reh"
+            },
+            {
+              "italian": "Potrei venire",
+              "english": "I could come",
+              "pronunciation": "pohv-RAY veh-NEE-reh"
+            },
+            {
+              "italian": "Vorrei un caffè",
+              "english": "I would like a coffee",
+              "pronunciation": "vohr-RAY oon kahf-FEH"
+            },
+            {
+              "italian": "Sapresti aiutarmi?",
+              "english": "Could you help me? (polite)",
+              "pronunciation": "sahv-REHS-tee ah-yoo-TAHR-mee"
+            }
           ]
         }
       },
@@ -20837,24 +21916,66 @@ const lessons = [
         "type": "example",
         "content": {
           "dialogue": [
-            { "speaker": "A", "italian": "Posso fare una domanda?", "english": "Can I ask a question?" },
-            { "speaker": "B", "italian": "Certo, dimmi. Cosa vuoi sapere?", "english": "Of course, tell me. What do you want to know?" },
-            { "speaker": "A", "italian": "Devo studiare di più per l'esame?", "english": "Do I need to study more for the exam?" },
-            { "speaker": "B", "italian": "Dovresti studiare ogni giorno. Potresti anche fare degli esercizi.", "english": "You should study every day. You could also do some exercises." }
+            {
+              "speaker": "A",
+              "italian": "Posso fare una domanda?",
+              "english": "Can I ask a question?"
+            },
+            {
+              "speaker": "B",
+              "italian": "Certo, dimmi. Cosa vuoi sapere?",
+              "english": "Of course, tell me. What do you want to know?"
+            },
+            {
+              "speaker": "A",
+              "italian": "Devo studiare di più per l'esame?",
+              "english": "Do I need to study more for the exam?"
+            },
+            {
+              "speaker": "B",
+              "italian": "Dovresti studiare ogni giorno. Potresti anche fare degli esercizi.",
+              "english": "You should study every day. You could also do some exercises."
+            }
           ]
         }
       },
       {
         "type": "multiple_choice",
-        "content": { "question": "Which modal verb expresses desire?", "options": ["Dovere", "Potere", "Volere", "Sapere"], "answer": "Volere" }
+        "content": {
+          "question": "Which modal verb expresses desire?",
+          "options": [
+            "Dovere",
+            "Potere",
+            "Volere",
+            "Sapere"
+          ],
+          "answer": "Volere"
+        }
       },
       {
         "type": "translation",
-        "content": { "direction": "en-to-it", "sentence": "I would like a glass of wine, please.", "answer": "Vorrei un bicchiere di vino, per favore.", "hint": "Vorrei = I would like" }
+        "content": {
+          "direction": "en-to-it",
+          "sentence": "I would like a glass of wine, please.",
+          "answer": "Vorrei un bicchiere di vino, per favore.",
+          "hint": "Vorrei = I would like"
+        }
       },
       {
         "type": "fill_blank",
-        "content": { "sentence": "___(dovere) studiare di più per l'esame.", "answer": "Devo", "hint": "I must" }
+        "content": {
+          "sentence": "___(dovere) studiare di più per l'esame.",
+          "answer": "Devo",
+          "hint": "I must"
+        }
+      },
+      {
+        "type": "fill_blank",
+        "content": {
+          "sentence": "Vorrei un caffè, ___.",
+          "answer": "per favore",
+          "hint": "please"
+        }
       }
     ]
   },
@@ -20873,16 +21994,56 @@ const lessons = [
           "title": "Music Vocabulary",
           "text": "Essential vocabulary for discussing music and Italian musical culture.",
           "items": [
-            { "italian": "La musica", "english": "Music", "pronunciation": "MOO-zee-kah" },
-            { "italian": "La canzone", "english": "The song", "pronunciation": "kah-NOH-tsoh-neh" },
-            { "italian": "L'album", "english": "The album", "pronunciation": "AHL-boom" },
-            { "italian": "Il concerto", "english": "The concert", "pronunciation": "kohn-CHEHR-toh" },
-            { "italian": "Lo spartito", "english": "The sheet music", "pronunciation": "spahr-TEE-toh" },
-            { "italian": "L'opera", "english": "Opera", "pronunciation": "OH-peh-rah" },
-            { "italian": "L'orchestra", "english": "The orchestra", "pronunciation": "ohr-KEHS-trah" },
-            { "italian": "Il violino", "english": "The violin", "pronunciation": "vyoh-LEE-noh" },
-            { "italian": "La chitarra", "english": "The guitar", "pronunciation": "kee-TAHR-rah" },
-            { "italian": "Il pianoforte", "english": "The piano", "pronunciation": "pyah-noh-FOHR-teh" }
+            {
+              "italian": "La musica",
+              "english": "Music",
+              "pronunciation": "MOO-zee-kah"
+            },
+            {
+              "italian": "La canzone",
+              "english": "The song",
+              "pronunciation": "kah-NOH-tsoh-neh"
+            },
+            {
+              "italian": "L'album",
+              "english": "The album",
+              "pronunciation": "AHL-boom"
+            },
+            {
+              "italian": "Il concerto",
+              "english": "The concert",
+              "pronunciation": "kohn-CHEHR-toh"
+            },
+            {
+              "italian": "Lo spartito",
+              "english": "The sheet music",
+              "pronunciation": "spahr-TEE-toh"
+            },
+            {
+              "italian": "L'opera",
+              "english": "Opera",
+              "pronunciation": "OH-peh-rah"
+            },
+            {
+              "italian": "L'orchestra",
+              "english": "The orchestra",
+              "pronunciation": "ohr-KEHS-trah"
+            },
+            {
+              "italian": "Il violino",
+              "english": "The violin",
+              "pronunciation": "vyoh-LEE-noh"
+            },
+            {
+              "italian": "La chitarra",
+              "english": "The guitar",
+              "pronunciation": "kee-TAHR-rah"
+            },
+            {
+              "italian": "Il pianoforte",
+              "english": "The piano",
+              "pronunciation": "pyah-noh-FOHR-teh"
+            }
           ]
         }
       },
@@ -20890,24 +22051,66 @@ const lessons = [
         "type": "example",
         "content": {
           "dialogue": [
-            { "speaker": "A", "italian": "Che tipo di musica ascolti?", "english": "What type of music do you listen to?" },
-            { "speaker": "B", "italian": "Mi piace la musica classica e l'opera italiana.", "english": "I like classical music and Italian opera." },
-            { "speaker": "A", "italian": "Hai mai stato a un concerto all'Arena di Verona?", "english": "Have you ever been to a concert at the Arena di Verona?" },
-            { "speaker": "B", "italian": "No, ma è il mio sogno! Adoro Puccini e Verdi.", "english": "No, but it's my dream! I love Puccini and Verdi." }
+            {
+              "speaker": "A",
+              "italian": "Che tipo di musica ascolti?",
+              "english": "What type of music do you listen to?"
+            },
+            {
+              "speaker": "B",
+              "italian": "Mi piace la musica classica e l'opera italiana.",
+              "english": "I like classical music and Italian opera."
+            },
+            {
+              "speaker": "A",
+              "italian": "Hai mai stato a un concerto all'Arena di Verona?",
+              "english": "Have you ever been to a concert at the Arena di Verona?"
+            },
+            {
+              "speaker": "B",
+              "italian": "No, ma è il mio sogno! Adoro Puccini e Verdi.",
+              "english": "No, but it's my dream! I love Puccini and Verdi."
+            }
           ]
         }
       },
       {
         "type": "multiple_choice",
-        "content": { "question": "What does 'lo spartito' mean?", "options": ["The album", "The sheet music", "The concert", "The song"], "answer": "The sheet music" }
+        "content": {
+          "question": "What does 'lo spartito' mean?",
+          "options": [
+            "The album",
+            "The sheet music",
+            "The concert",
+            "The song"
+          ],
+          "answer": "The sheet music"
+        }
       },
       {
         "type": "translation",
-        "content": { "direction": "en-to-it", "sentence": "I like listening to Italian music.", "answer": "Mi piace ascoltare la musica italiana.", "hint": "ascoltare = to listen" }
+        "content": {
+          "direction": "en-to-it",
+          "sentence": "I like listening to Italian music.",
+          "answer": "Mi piace ascoltare la musica italiana.",
+          "hint": "ascoltare = to listen"
+        }
       },
       {
         "type": "fill_blank",
-        "content": { "sentence": "Ho biglietti per il ___(concerto) di domani.", "answer": "concerto", "hint": "concert" }
+        "content": {
+          "sentence": "Ho biglietti per il ___(concerto) di domani.",
+          "answer": "concerto",
+          "hint": "concert"
+        }
+      },
+      {
+        "type": "fill_blank",
+        "content": {
+          "sentence": "Ho comprato un ___ di Måneskin.",
+          "answer": "album",
+          "hint": "album"
+        }
       }
     ]
   },
@@ -20926,14 +22129,46 @@ const lessons = [
           "title": "Discussion Phrases",
           "text": "Advanced phrases for formal discussions, expressing nuanced opinions, and persuading.",
           "items": [
-            { "italian": "Sono convinto che...", "english": "I am convinced that...", "pronunciation": "SOH-noh kohn-VEEN-toh keh" },
-            { "italian": "Il punto è che...", "english": "The point is that...", "pronunciation": "eel POON-toh eh keh" },
-            { "italian": "Non bisogna dimenticare che...", "english": "We must not forget that...", "pronunciation": "nohn bee-ZOH-nyah dee-mehn-TYAH-reh keh" },
-            { "italian": "D'altra parte...", "english": "On the other hand...", "pronunciation": "dahl-TRAH PAHR-teh" },
-            { "italian": "In conclusione...", "english": "In conclusion...", "pronunciation": "een kohn-kloo-ZYOH-neh" },
-            { "italian": "Facciamo un esempio concreto.", "english": "Let's take a concrete example.", "pronunciation": "fahch-CHAH-moh oon eh-ZEHM-pyoh kohn-KREH-toh" },
-            { "italian": "Non sono d'accordo perché...", "english": "I disagree because...", "pronunciation": "nohn SOH-noh dahk-KOHR-doh peh-KYEH" },
-            { "italian": "Ha sollevato un punto importante.", "english": "You raised an important point.", "pronunciation": "ah soh-leh-VAH-toh oon POON-toh eem-pohr-TAHN-teh" }
+            {
+              "italian": "Sono convinto che...",
+              "english": "I am convinced that...",
+              "pronunciation": "SOH-noh kohn-VEEN-toh keh"
+            },
+            {
+              "italian": "Il punto è che...",
+              "english": "The point is that...",
+              "pronunciation": "eel POON-toh eh keh"
+            },
+            {
+              "italian": "Non bisogna dimenticare che...",
+              "english": "We must not forget that...",
+              "pronunciation": "nohn bee-ZOH-nyah dee-mehn-TYAH-reh keh"
+            },
+            {
+              "italian": "D'altra parte...",
+              "english": "On the other hand...",
+              "pronunciation": "dahl-TRAH PAHR-teh"
+            },
+            {
+              "italian": "In conclusione...",
+              "english": "In conclusion...",
+              "pronunciation": "een kohn-kloo-ZYOH-neh"
+            },
+            {
+              "italian": "Facciamo un esempio concreto.",
+              "english": "Let's take a concrete example.",
+              "pronunciation": "fahch-CHAH-moh oon eh-ZEHM-pyoh kohn-KREH-toh"
+            },
+            {
+              "italian": "Non sono d'accordo perché...",
+              "english": "I disagree because...",
+              "pronunciation": "nohn SOH-noh dahk-KOHR-doh peh-KYEH"
+            },
+            {
+              "italian": "Ha sollevato un punto importante.",
+              "english": "You raised an important point.",
+              "pronunciation": "ah soh-leh-VAH-toh oon POON-toh eem-pohr-TAHN-teh"
+            }
           ]
         }
       },
@@ -20941,24 +22176,66 @@ const lessons = [
         "type": "example",
         "content": {
           "dialogue": [
-            { "speaker": "A", "italian": "Secondo me, dovremmo investire di più nell'istruzione.", "english": "In my opinion, we should invest more in education." },
-            { "speaker": "B", "italian": "Sono convinto che abbia ragione. Il punto è che il budget è limitato.", "english": "I am convinced you're right. The point is that the budget is limited." },
-            { "speaker": "A", "italian": "D'altra parte, non possiamo ignorare il problema.", "english": "On the other hand, we can't ignore the problem." },
-            { "speaker": "B", "italian": "Hai sollevato un punto importante. In conclusione, dobbiamo trovare un compromesso.", "english": "You raised an important point. In conclusion, we need to find a compromise." }
+            {
+              "speaker": "A",
+              "italian": "Secondo me, dovremmo investire di più nell'istruzione.",
+              "english": "In my opinion, we should invest more in education."
+            },
+            {
+              "speaker": "B",
+              "italian": "Sono convinto che abbia ragione. Il punto è che il budget è limitato.",
+              "english": "I am convinced you're right. The point is that the budget is limited."
+            },
+            {
+              "speaker": "A",
+              "italian": "D'altra parte, non possiamo ignorare il problema.",
+              "english": "On the other hand, we can't ignore the problem."
+            },
+            {
+              "speaker": "B",
+              "italian": "Hai sollevato un punto importante. In conclusione, dobbiamo trovare un compromesso.",
+              "english": "You raised an important point. In conclusion, we need to find a compromise."
+            }
           ]
         }
       },
       {
         "type": "multiple_choice",
-        "content": { "question": "How do you say 'I am convinced that'?", "options": ["Penso che", "Sono convinto che", "Credo che", "Voglio che"], "answer": "Sono convinto che" }
+        "content": {
+          "question": "How do you say 'I am convinced that'?",
+          "options": [
+            "Penso che",
+            "Sono convinto che",
+            "Credo che",
+            "Voglio che"
+          ],
+          "answer": "Sono convinto che"
+        }
       },
       {
         "type": "translation",
-        "content": { "direction": "en-to-it", "sentence": "On the other hand, we must not forget the consequences.", "answer": "D'altra parte, non bisogna dimenticare le conseguenze.", "hint": "D'altra parte = on the other hand" }
+        "content": {
+          "direction": "en-to-it",
+          "sentence": "On the other hand, we must not forget the consequences.",
+          "answer": "D'altra parte, non bisogna dimenticare le conseguenze.",
+          "hint": "D'altra parte = on the other hand"
+        }
       },
       {
         "type": "fill_blank",
-        "content": { "sentence": "In ___(conclusione), dobbiamo agire subito.", "answer": "conclusione", "hint": "conclusion" }
+        "content": {
+          "sentence": "In ___(conclusione), dobbiamo agire subito.",
+          "answer": "conclusione",
+          "hint": "conclusion"
+        }
+      },
+      {
+        "type": "fill_blank",
+        "content": {
+          "sentence": "In ___, dobbiamo agire.",
+          "answer": "conclusione",
+          "hint": "conclusion"
+        }
       }
     ]
   },
@@ -20977,16 +22254,56 @@ const lessons = [
           "title": "Environment Vocabulary",
           "text": "Advanced vocabulary for discussing environmental challenges and sustainability.",
           "items": [
-            { "italian": "Il cambiamento climatico", "english": "Climate change", "pronunciation": "kahm-byah-MEHN-toh klee-MAH-tee-koh" },
-            { "italian": "L'inquinamento", "english": "Pollution", "pronunciation": "een-kwee-nah-MEHN-toh" },
-            { "italian": "Le emissioni di gas serra", "english": "Greenhouse gas emissions", "pronunciation": "leh eh-mee-SYOH-nee dee gahs SEHR-rah" },
-            { "italian": "L'energia rinnovabile", "english": "Renewable energy", "pronunciation": "eh-NEHR-jah reen-noh-VAH-bee-leh" },
-            { "italian": "La sostenibilità", "english": "Sustainability", "pronunciation": "sohs-teh-nee-bee-lee-TAH" },
-            { "italian": "Il riciclo", "english": "Recycling", "pronunciation": "ree-CHEE-kloh" },
-            { "italian": "La deforestazione", "english": "Deforestation", "pronunciation": "lah deh-foh-rehs-tah-TSYOH-neh" },
-            { "italian": "La biodiversità", "english": "Biodiversity", "pronunciation": "byoh-dee-vehr-see-TAH" },
-            { "italian": "Il riscaldamento globale", "english": "Global warming", "pronunciation": "eel rees-kahl-dah-MEHN-toh gloh-BAH-leh" },
-            { "italian": "L'impronta di carbonio", "english": "Carbon footprint", "pronunciation": "eem-PROHN-tah dee kahr-BOH-nyoh" }
+            {
+              "italian": "Il cambiamento climatico",
+              "english": "Climate change",
+              "pronunciation": "kahm-byah-MEHN-toh klee-MAH-tee-koh"
+            },
+            {
+              "italian": "L'inquinamento",
+              "english": "Pollution",
+              "pronunciation": "een-kwee-nah-MEHN-toh"
+            },
+            {
+              "italian": "Le emissioni di gas serra",
+              "english": "Greenhouse gas emissions",
+              "pronunciation": "leh eh-mee-SYOH-nee dee gahs SEHR-rah"
+            },
+            {
+              "italian": "L'energia rinnovabile",
+              "english": "Renewable energy",
+              "pronunciation": "eh-NEHR-jah reen-noh-VAH-bee-leh"
+            },
+            {
+              "italian": "La sostenibilità",
+              "english": "Sustainability",
+              "pronunciation": "sohs-teh-nee-bee-lee-TAH"
+            },
+            {
+              "italian": "Il riciclo",
+              "english": "Recycling",
+              "pronunciation": "ree-CHEE-kloh"
+            },
+            {
+              "italian": "La deforestazione",
+              "english": "Deforestation",
+              "pronunciation": "lah deh-foh-rehs-tah-TSYOH-neh"
+            },
+            {
+              "italian": "La biodiversità",
+              "english": "Biodiversity",
+              "pronunciation": "byoh-dee-vehr-see-TAH"
+            },
+            {
+              "italian": "Il riscaldamento globale",
+              "english": "Global warming",
+              "pronunciation": "eel rees-kahl-dah-MEHN-toh gloh-BAH-leh"
+            },
+            {
+              "italian": "L'impronta di carbonio",
+              "english": "Carbon footprint",
+              "pronunciation": "eem-PROHN-tah dee kahr-BOH-nyoh"
+            }
           ]
         }
       },
@@ -20994,24 +22311,66 @@ const lessons = [
         "type": "example",
         "content": {
           "dialogue": [
-            { "speaker": "A", "italian": "Cosa ne pensi del cambiamento climatico?", "english": "What do you think about climate change?" },
-            { "speaker": "B", "italian": "È il problema più grande del nostro tempo. Le emissioni devono essere ridotte.", "english": "It's the biggest problem of our time. Emissions must be reduced." },
-            { "speaker": "A", "italian": "Hai ragione. Dobbiamo passare all'energia rinnovabile.", "english": "You're right. We need to switch to renewable energy." },
-            { "speaker": "B", "italian": "E anche ridurre l'impronta di carbonio. Ognuno deve fare la sua parte.", "english": "And also reduce the carbon footprint. Everyone must do their part." }
+            {
+              "speaker": "A",
+              "italian": "Cosa ne pensi del cambiamento climatico?",
+              "english": "What do you think about climate change?"
+            },
+            {
+              "speaker": "B",
+              "italian": "È il problema più grande del nostro tempo. Le emissioni devono essere ridotte.",
+              "english": "It's the biggest problem of our time. Emissions must be reduced."
+            },
+            {
+              "speaker": "A",
+              "italian": "Hai ragione. Dobbiamo passare all'energia rinnovabile.",
+              "english": "You're right. We need to switch to renewable energy."
+            },
+            {
+              "speaker": "B",
+              "italian": "E anche ridurre l'impronta di carbonio. Ognuno deve fare la sua parte.",
+              "english": "And also reduce the carbon footprint. Everyone must do their part."
+            }
           ]
         }
       },
       {
         "type": "multiple_choice",
-        "content": { "question": "What does 'l'impronta di carbonio' mean?", "options": ["Air pollution", "Carbon footprint", "Water waste", "Deforestation"], "answer": "Carbon footprint" }
+        "content": {
+          "question": "What does 'l'impronta di carbonio' mean?",
+          "options": [
+            "Air pollution",
+            "Carbon footprint",
+            "Water waste",
+            "Deforestation"
+          ],
+          "answer": "Carbon footprint"
+        }
       },
       {
         "type": "translation",
-        "content": { "direction": "en-to-it", "sentence": "We must protect the environment for future generations.", "answer": "Dobbiamo proteggere l'ambiente per le generazioni future.", "hint": "ambiente = environment" }
+        "content": {
+          "direction": "en-to-it",
+          "sentence": "We must protect the environment for future generations.",
+          "answer": "Dobbiamo proteggere l'ambiente per le generazioni future.",
+          "hint": "ambiente = environment"
+        }
       },
       {
         "type": "fill_blank",
-        "content": { "sentence": "Il ___(riciclo) è importante per l'ambiente.", "answer": "riciclo", "hint": "recycling" }
+        "content": {
+          "sentence": "Il ___(riciclo) è importante per l'ambiente.",
+          "answer": "riciclo",
+          "hint": "recycling"
+        }
+      },
+      {
+        "type": "fill_blank",
+        "content": {
+          "sentence": "Dobbiamo ridurre l'___ di carbonio.",
+          "answer": "impronta",
+          "hint": "carbon footprint"
+        }
       }
     ]
   }
