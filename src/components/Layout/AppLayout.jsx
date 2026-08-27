@@ -31,6 +31,8 @@ const desktopNavItems = [
 const mobileNavItems = [
   { to: '/dashboard', label: 'Home', icon: Home },
   { to: '/learn', label: 'Learn', icon: GraduationCap },
+  { to: '/vocabulary', label: 'Vocab', icon: BookOpen },
+  { to: '/grammar', label: 'Grammar', icon: MessageSquare },
   { to: '/practice', label: 'Practice', icon: Mic },
   { to: '/progress', label: 'Progress', icon: BarChart3 },
   { to: '/settings', label: 'Profile', icon: User },
@@ -77,11 +79,11 @@ export default function AppLayout() {
 
   const getMobileNavClass = ({ isActive }) => {
     if (isActive) {
-      return 'flex flex-col items-center gap-0.5 py-2 px-3 text-[10px] font-medium transition-colors text-italian-green';
+      return 'flex flex-col items-center gap-0.5 py-2 px-1.5 text-[9px] font-medium transition-colors text-italian-green min-w-0';
     }
     return dark
-      ? 'flex flex-col items-center gap-0.5 py-2 px-3 text-[10px] font-medium transition-colors text-gray-400'
-      : 'flex flex-col items-center gap-0.5 py-2 px-3 text-[10px] font-medium transition-colors text-gray-500';
+      ? 'flex flex-col items-center gap-0.5 py-2 px-1.5 text-[9px] font-medium transition-colors text-gray-400 min-w-0'
+      : 'flex flex-col items-center gap-0.5 py-2 px-1.5 text-[9px] font-medium transition-colors text-gray-500 min-w-0';
   };
 
   return (
@@ -182,7 +184,7 @@ export default function AppLayout() {
           <NavLink key={to} to={to} className={getMobileNavClass}>
             {({ isActive }) => (
               <>
-                <Icon size={22} strokeWidth={isActive ? 2.2 : 1.6} />
+                <Icon size={20} strokeWidth={isActive ? 2.2 : 1.6} />
                 {label}
               </>
             )}
