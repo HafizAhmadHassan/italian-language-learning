@@ -20488,6 +20488,532 @@ const lessons = [
         }
       }
     ]
+  },
+  {
+    "id": "lesson-121",
+    "title": "Italian Cinema",
+    "level": "B2",
+    "unit": 13,
+    "unitTitle": "Culture & Society",
+    "description": "Discuss Italian films, directors, and cinema culture.",
+    "duration": 14,
+    "steps": [
+      {
+        "type": "learn",
+        "content": {
+          "title": "Cinema Vocabulary",
+          "text": "Essential vocabulary for discussing Italian cinema and film culture.",
+          "items": [
+            { "italian": "Il film", "english": "The film/movie", "pronunciation": "FEELM" },
+            { "italian": "Il regista", "english": "The director", "pronunciation": "reh-JEES-tah" },
+            { "italian": "L'attore/attrice", "english": "The actor/actress", "pronunciation": "aht-TOH-reh/aht-TREE-cheh" },
+            { "italian": "La scena", "english": "The scene", "pronunciation": "SHEH-nah" },
+            { "italian": "La pellicola", "english": "The film/movie (formal)", "pronunciation": "pehl-LEE-koh-lah" },
+            { "italian": "Il doppiaggio", "english": "Dubbing", "pronunciation": "dohp-PYAHJ-joh" },
+            { "italian": "I sottotitoli", "english": "Subtitles", "pronunciation": "soht-toh-TEE-toh-lee" },
+            { "italian": "Il cinema d'autore", "english": "Art house cinema", "pronunciation": "eel CHEE-mah-rah dow-TOH-reh" },
+            { "italian": "La commedia", "english": "Comedy", "pronunciation": "kohm-MEH-dyah" },
+            { "italian": "Il dramma", "english": "Drama", "pronunciation": "DRAHM-mah" }
+          ]
+        }
+      },
+      {
+        "type": "example",
+        "content": {
+          "dialogue": [
+            { "speaker": "A", "italian": "Hai visto l'ultimo film di Sorrentino?", "english": "Have you seen Sorrentino's latest film?" },
+            { "speaker": "B", "italian": "Si, è fantastico! La regia è impeccabile.", "english": "Yes, it's fantastic! The direction is flawless." },
+            { "speaker": "A", "italian": "Chi è il tuo attore italiano preferito?", "english": "Who is your favorite Italian actor?" },
+            { "speaker": "B", "italian": "Adoro Toni Servillo. Recita in ogni film di Sorrentino.", "english": "I love Toni Servillo. He acts in every Sorrentino film." }
+          ]
+        }
+      },
+      {
+        "type": "multiple_choice",
+        "content": { "question": "What does 'il doppiaggio' mean?", "options": ["Subtitles", "Dubbing", "Script", "Casting"], "answer": "Dubbing" }
+      },
+      {
+        "type": "translation",
+        "content": { "direction": "en-to-it", "sentence": "Italian cinema is famous all over the world.", "answer": "Il cinema italiano è famoso in tutto il mondo.", "hint": "famoso = famous" }
+      },
+      {
+        "type": "fill_blank",
+        "content": { "sentence": "Il ___(regista) ha vinto la Palma d'Oro a Cannes.", "answer": "regista", "hint": "director" }
+      }
+    ]
+  },
+  {
+    "id": "lesson-122",
+    "title": "Renting an Apartment",
+    "level": "B1",
+    "unit": 7,
+    "unitTitle": "Culture and Society",
+    "description": "Navigate renting an apartment in Italy: contracts, bills, and tenant rights.",
+    "duration": 14,
+    "steps": [
+      {
+        "type": "learn",
+        "content": {
+          "title": "Rental Vocabulary",
+          "text": "Essential vocabulary for renting an apartment in Italy.",
+          "items": [
+            { "italian": "L'affitto", "english": "The rent", "pronunciation": "ahf-FEET-toh" },
+            { "italian": "Il contratto", "english": "The contract", "pronunciation": "kohn-TRAHT-toh" },
+            { "italian": "Il deposito", "english": "The deposit", "pronunciation": "deh-POH-zee-toh" },
+            { "italian": "L'inquilino", "english": "The tenant", "pronunciation": "een-kee-LEE-noh" },
+            { "italian": "Il proprietario", "english": "The landlord", "pronunciation": "proh-pree-eh-TAH-ryoh" },
+            { "italian": "Le bollette", "english": "The bills (utilities)", "pronunciation": "lehl-bohl-LEHT-teh" },
+            { "italian": "L'imbianchino", "english": "The painter", "pronunciation": "eem-byahn-KEE-noh" },
+            { "italian": "L'idraulico", "english": "The plumber", "pronunciation": "ee-DROW-lee-koh" },
+            { "italian": "L'elettricista", "english": "The electrician", "pronunciation": "eh-leht-tree-CHEES-tah" },
+            { "italian": "IlMobili", "english": "Furniture", "pronunciation": "eel MOH-bee-lee" }
+          ]
+        }
+      },
+      {
+        "type": "example",
+        "content": {
+          "dialogue": [
+            { "speaker": "A", "italian": "Stai cercando un appartamento?", "english": "Are you looking for an apartment?" },
+            { "speaker": "B", "italian": "Si, il mio affitto è troppo alto. Voglio trasferirmi.", "english": "Yes, my rent is too high. I want to move." },
+            { "speaker": "A", "italian": "Quanto paghi al mese?", "english": "How much do you pay per month?" },
+            { "speaker": "B", "italian": "Pagho mille euro di affitto più le bollette.", "english": "I pay a thousand euros rent plus utilities." }
+          ]
+        }
+      },
+      {
+        "type": "multiple_choice",
+        "content": { "question": "What does 'l'affitto' mean?", "options": ["The deposit", "The rent", "The contract", "The bill"], "answer": "The rent" }
+      },
+      {
+        "type": "translation",
+        "content": { "direction": "en-to-it", "sentence": "The lease is for one year.", "answer": "Il contratto è per un anno.", "hint": "contratto = contract/lease" }
+      },
+      {
+        "type": "fill_blank",
+        "content": { "sentence": "Devo pagare le ___(bollette) ogni mese.", "answer": "bollette", "hint": "bills" }
+      }
+    ]
+  },
+  {
+    "id": "lesson-123",
+    "title": "Emotions Deep Dive",
+    "level": "B1",
+    "unit": 8,
+    "unitTitle": "Life and Culture",
+    "description": "Express complex emotions, moods, and psychological states in Italian.",
+    "duration": 14,
+    "steps": [
+      {
+        "type": "learn",
+        "content": {
+          "title": "Complex Emotions",
+          "text": "Italian has rich vocabulary for expressing nuanced emotional states.",
+          "items": [
+            { "italian": "Essere commosso/a", "english": "To be moved/touched", "pronunciation": "ehs-SEH-reh kohm-MOHS-soh" },
+            { "italian": "Essere sollevato/a", "english": "To be relieved", "pronunciation": "ehs-SEH-reh soh-leh-VAH-toh" },
+            { "italian": "Essere deluso/a", "english": "To be disappointed", "pronunciation": "ehs-SEH-reh deh-LOO-zoh" },
+            { "italian": "Essere invidioso/a", "english": "To be jealous/envious", "pronunciation": "ehs-SEH-reh een-vee-DYOH-zoh" },
+            { "italian": "Essere grato/a", "english": "To be grateful", "pronunciation": "ehs-SEH-reh GRAH-toh" },
+            { "italian": "Essere annoiato/a", "english": "To be bored", "pronunciation": "ehs-SEH-reh ahn-noy-AH-toh" },
+            { "italian": "Essere preoccupato/a", "english": "To be worried", "pronunciation": "ehs-SEH-reh preh-ohk-koo-PAH-toh" },
+            { "italian": "Essere Frustrato/a", "english": "To be frustrated", "pronunciation": "ehs-SEH-reh froos-TRAH-toh" },
+            { "italian": "Avere rimpianto", "english": "To have regrets", "pronunciation": "ah-VEH-reh reem-PYAHN-toh" },
+            { "italian": "Avere nostalgia", "english": "To be nostalgic", "pronunciation": "ah-VEH-reh nohs-TAH-lyah" }
+          ]
+        }
+      },
+      {
+        "type": "example",
+        "content": {
+          "dialogue": [
+            { "speaker": "A", "italian": "Come ti senti dopo l'esame?", "english": "How do you feel after the exam?" },
+            { "speaker": "B", "italian": "Sono sollevato! Pensavo di aver fallito.", "english": "I'm relieved! I thought I had failed." },
+            { "speaker": "A", "italian": "Sono contento per te. Nei tuoi panni sarei stato preoccupatissimo!", "english": "I'm happy for you. In your shoes I would have been very worried!" },
+            { "speaker": "B", "italian": "Era una settimana terribile. Ma ora sono grato per il risultato.", "english": "It was a terrible week. But now I'm grateful for the result." }
+          ]
+        }
+      },
+      {
+        "type": "multiple_choice",
+        "content": { "question": "How do you say 'I am relieved'?", "options": ["Sono deluso", "Sono sollevato", "Sono annoiato", "Sono frustrato"], "answer": "Sono sollevato" }
+      },
+      {
+        "type": "translation",
+        "content": { "direction": "en-to-it", "sentence": "I am grateful for your help.", "answer": "Sono grato per il tuo aiuto.", "hint": "grato = grateful" }
+      },
+      {
+        "type": "fill_blank",
+        "content": { "sentence": "Sono ___(deluso) dal risultato.", "answer": "deluso", "hint": "disappointed" }
+      }
+    ]
+  },
+  {
+    "id": "lesson-124",
+    "title": "Body Language and Gestures",
+    "level": "B2",
+    "unit": 13,
+    "unitTitle": "Culture & Society",
+    "description": "Understand Italian gestures, body language, and non-verbal communication.",
+    "duration": 12,
+    "steps": [
+      {
+        "type": "learn",
+        "content": {
+          "title": "Italian Gestures",
+          "text": "Italians are famous for using hand gestures while speaking. Learn the most common ones.",
+          "items": [
+            { "italian": "Il gesto della mano", "english": "Hand gesture", "pronunciation": "eel JEH-stoh della MAH-noh" },
+            { "italian": "Il mellone", "english": "The melon gesture (what do you want?)", "pronunciation": "eel mehl-LOH-neh" },
+            { "italian": "Le dita a corno", "english": "Horns gesture (cuckold/bad luck)", "pronunciation": "leh DEE-tah ah KOHR-noh" },
+            { "italian": "Il pollice in su", "english": "Thumbs up", "pronunciation": "eel pohl-CHEE-cheh een SOO" },
+            { "italian": "Il pollice in giù", "english": "Thumbs down", "pronunciation": "eel pohl-CHEE-cheh een JOO" },
+            { "italian": "Strizzare l'occhio", "english": "To wink", "author": "stree-TSAH-reh lohk-KYOH" },
+            { "italian": "Battere le mani", "english": "To clap hands", "pronunciation": "baht-TEH-reh leh MAH-nee" },
+            { "italian": "Alzare le spalle", "english": "To shrug shoulders", "pronunciation": "ahl-TSAH-reh leh SPAHL-leh" },
+            { "italian": "Toccare il ferro", "english": "To touch iron (for good luck)", "pronunciation": "tohk-KAH-reh eel FEHR-roh" },
+            { "italian": "Fare la barca", "english": "Rocking hand gesture (what do you mean?)", "pronunciation": "FAH-reh lah BAHR-kah" }
+          ]
+        }
+      },
+      {
+        "type": "example",
+        "content": {
+          "dialogue": [
+            { "speaker": "A", "italian": "Perché gli italiani fanno tanti gesti quando parlano?", "english": "Why do Italians make so many gestures when they talk?" },
+            { "speaker": "B", "italian": "È parte della nostra cultura! I gesti esprimono emozioni.", "english": "It's part of our culture! Gestures express emotions." },
+            { "speaker": "A", "italian": "Qual è il gesto più famoso?", "english": "What is the most famous gesture?" },
+            { "speaker": "B", "italian": "Il gesto del mellone — significa 'che vuoi?' Con le dita unite.", "english": "The melon gesture — it means 'what do you want?' With fingers together." }
+          ]
+        }
+      },
+      {
+        "type": "multiple_choice",
+        "content": { "question": "What does 'alzare le spalle' mean?", "options": ["To clap", "To shrug", "To wave", "To point"], "answer": "To shrug" }
+      },
+      {
+        "type": "translation",
+        "content": { "direction": "en-to-it", "sentence": "Italians use many gestures when they talk.", "answer": "Gli italiani fanno molti gesti quando parlano.", "hint": "gesti = gestures" }
+      },
+      {
+        "type": "fill_blank",
+        "content": { "sentence": "Non capisco cosa significa quel ___(gesto).", "answer": "gesto", "hint": "gesture" }
+      }
+    ]
+  },
+  {
+    "id": "lesson-125",
+    "title": "In the Kitchen",
+    "level": "A2",
+    "unit": 5,
+    "unitTitle": "Daily Life",
+    "description": "Master cooking vocabulary, kitchen tools, and recipe instructions.",
+    "duration": 14,
+    "steps": [
+      {
+        "type": "learn",
+        "content": {
+          "title": "Kitchen Vocabulary",
+          "text": "Essential vocabulary for Italian cooking and kitchen tools.",
+          "items": [
+            { "italian": "La pentola", "english": "The pot", "pronunciation": "PEHN-toh-lah" },
+            { "italian": "La padella", "english": "The frying pan", "pronunciation": "pah-DEHL-lah" },
+            { "italian": "Il coltello", "english": "The knife", "pronunciation": "kohl-TEHL-loh" },
+            { "italian": "La forchetta", "english": "The fork", "pronunciation": "fohr-KEHT-tah" },
+            { "italian": "Il cucchiaio", "english": "The spoon", "pronunciation": "kook-KYAH-yoh" },
+            { "italian": "La teglia", "english": "The baking tray", "pronunciation": "TEH-lyah" },
+            { "italian": "Iltagliere", "english": "The cutting board", "pronunciation": "eel tah-LYEH-reh" },
+            { "italian": "La grattugia", "english": "The grater", "pronunciation": "graht-TOO-jah" },
+            { "italian": "La bottiglia d'olio", "english": "The oil bottle", "pronunciation": "boht-TEE-lyah DOH-lyoh" },
+            { "italian": "Il sale", "english": "The salt", "pronunciation": "SAH-leh" }
+          ]
+        }
+      },
+      {
+        "type": "example",
+        "content": {
+          "dialogue": [
+            { "speaker": "A", "italian": "Cosa stai preparando?", "english": "What are you making?" },
+            { "speaker": "B", "italian": "Sto facendo la pasta al ragù. Mi passi il coltello?", "english": "I'm making pasta with meat sauce. Can you pass me the knife?" },
+            { "speaker": "A", "italian": "Ecco. Vuoi anche la forchetta?", "english": "Here. Do you want the fork too?" },
+            { "speaker": "B", "italian": "No, grazie. Ho bisogno della teglia per il pane.", "english": "No, thanks. I need the baking tray for the bread." }
+          ]
+        }
+      },
+      {
+        "type": "multiple_choice",
+        "content": { "question": "What is 'la forchetta'?", "options": ["The spoon", "The fork", "The knife", "The plate"], "answer": "The fork" }
+      },
+      {
+        "type": "translation",
+        "content": { "direction": "en-to-it", "sentence": "Can you pass me the salt, please?", "answer": "Mi passi il sale, per favore?", "hint": "sale = salt" }
+      },
+      {
+        "type": "fill_blank",
+        "content": { "sentence": "Ho bisogno del ___(coltello) per tagliare le verdure.", "answer": "coltello", "hint": "knife" }
+      }
+    ]
+  },
+  {
+    "id": "lesson-126",
+    "title": "At the Post Office",
+    "level": "A2",
+    "unit": 6,
+    "unitTitle": "Activities",
+    "description": "Handle postal services, send packages, and buy stamps in Italian.",
+    "duration": 12,
+    "steps": [
+      {
+        "type": "learn",
+        "content": {
+          "title": "Post Office Vocabulary",
+          "text": "Essential vocabulary for using Italian postal services.",
+          "items": [
+            { "italian": "L'ufficio postale", "english": "The post office", "pronunciation": "oof-FEE-choh pohs-TAH-leh" },
+            { "italian": "Il francobollo", "english": "The stamp", "pronunciation": "frahn-koh-BOHL-loh" },
+            { "italian": "La busta", "english": "The envelope", "pronunciation": "BOOS-tah" },
+            { "italian": "Il pacco", "english": "The package", "pronunciation": "PAHK-koh" },
+            { "italian": "La raccomandata", "english": "Registered mail", "pronunciation": "raht-koh-mahn-DAH-tah" },
+            { "italian": "Il跟随co", "english": "The tracking number", "pronunciation": "eel FEH-low-koh" },
+            { "italian": "Spedire", "english": "To send", "pronunciation": "speh-DEE-reh" },
+            { "italian": "Ricevere", "english": "To receive", "pronunciation": "ree-cheh-VEH-reh" },
+            { "italian": "Il modulo", "english": "The form", "pronunciation": "MOH-doo-loh" },
+            { "italian": "La coda", "english": "The queue", "pronunciation": "KOH-dah" }
+          ]
+        }
+      },
+      {
+        "type": "example",
+        "content": {
+          "dialogue": [
+            { "speaker": "A", "italian": "Buongiorno, devo spedire un pacco in Germania.", "english": "Good morning, I need to send a package to Germany." },
+            { "speaker": "B", "italian": "Compili questo modulo, per favore. Vuole la raccomandata?", "english": "Fill out this form, please. Do you want registered mail?" },
+            { "speaker": "A", "italian": "Si, per favore. Quanto costa?", "english": "Yes, please. How much does it cost?" },
+            { "speaker": "B", "italian": "Venti euro. Qui ci sono i francobolli per la lettera.", "english": "Twenty euros. Here are the stamps for the letter." }
+          ]
+        }
+      },
+      {
+        "type": "multiple_choice",
+        "content": { "question": "What is 'il francobollo'?", "options": ["The envelope", "The stamp", "The package", "The form"], "answer": "The stamp" }
+      },
+      {
+        "type": "translation",
+        "content": { "direction": "en-to-it", "sentence": "I need to send a registered letter.", "answer": "Devo spedire una raccomandata.", "hint": "raccomandata = registered mail" }
+      },
+      {
+        "type": "fill_blank",
+        "content": { "sentence": "Devo comprare un ___(francobollo) per la lettera.", "answer": "francobollo", "hint": "stamp" }
+      }
+    ]
+  },
+  {
+    "id": "lesson-127",
+    "title": "Modal Verbs Complete",
+    "level": "B1",
+    "unit": 7,
+    "unitTitle": "Culture and Society",
+    "description": "Master all Italian modal verbs: dovere, potere, volere, and sapere.",
+    "duration": 16,
+    "steps": [
+      {
+        "type": "learn",
+        "content": {
+          "title": "Modal Verbs",
+          "text": "Italian modal verbs express necessity, possibility, desire, and ability. They are followed by an infinitive.",
+          "items": [
+            { "italian": "Dovere (must/have to)", "english": "Devo studiare = I must study", "pronunciation": "doh-VEH-reh" },
+            { "italian": "Potere (can/may)", "english": "Posso aiutarti = I can help you", "pronunciation": "poh-TEH-reh" },
+            { "italian": "Volere (want to)", "english": "Voglio imparare = I want to learn", "pronunciation": "voh-LEH-reh" },
+            { "italian": "Sapere (know how to)", "english": "So cucinare = I know how to cook", "pronunciation": "sah-PEH-reh" },
+            { "italian": "Dovrei parlare", "english": "I should speak", "pronunciation": "dohv-RAY pahr-LAH-reh" },
+            { "italian": "Potrei venire", "english": "I could come", "pronunciation": "pohv-RAY veh-NEE-reh" },
+            { "italian": "Vorrei un caffè", "english": "I would like a coffee", "pronunciation": "vohr-RAY oon kahf-FEH" },
+            { "italian": "Sapresti aiutarmi?", "english": "Could you help me? (polite)", "pronunciation": "sahv-REHS-tee ah-yoo-TAHR-mee" }
+          ]
+        }
+      },
+      {
+        "type": "example",
+        "content": {
+          "dialogue": [
+            { "speaker": "A", "italian": "Posso fare una domanda?", "english": "Can I ask a question?" },
+            { "speaker": "B", "italian": "Certo, dimmi. Cosa vuoi sapere?", "english": "Of course, tell me. What do you want to know?" },
+            { "speaker": "A", "italian": "Devo studiare di più per l'esame?", "english": "Do I need to study more for the exam?" },
+            { "speaker": "B", "italian": "Dovresti studiare ogni giorno. Potresti anche fare degli esercizi.", "english": "You should study every day. You could also do some exercises." }
+          ]
+        }
+      },
+      {
+        "type": "multiple_choice",
+        "content": { "question": "Which modal verb expresses desire?", "options": ["Dovere", "Potere", "Volere", "Sapere"], "answer": "Volere" }
+      },
+      {
+        "type": "translation",
+        "content": { "direction": "en-to-it", "sentence": "I would like a glass of wine, please.", "answer": "Vorrei un bicchiere di vino, per favore.", "hint": "Vorrei = I would like" }
+      },
+      {
+        "type": "fill_blank",
+        "content": { "sentence": "___(dovere) studiare di più per l'esame.", "answer": "Devo", "hint": "I must" }
+      }
+    ]
+  },
+  {
+    "id": "lesson-128",
+    "title": "Music and Instruments",
+    "level": "A2",
+    "unit": 6,
+    "unitTitle": "Activities",
+    "description": "Discuss music genres, instruments, and Italian musical traditions.",
+    "duration": 12,
+    "steps": [
+      {
+        "type": "learn",
+        "content": {
+          "title": "Music Vocabulary",
+          "text": "Essential vocabulary for discussing music and Italian musical culture.",
+          "items": [
+            { "italian": "La musica", "english": "Music", "pronunciation": "MOO-zee-kah" },
+            { "italian": "La canzone", "english": "The song", "pronunciation": "kah-NOH-tsoh-neh" },
+            { "italian": "L'album", "english": "The album", "pronunciation": "AHL-boom" },
+            { "italian": "Il concerto", "english": "The concert", "pronunciation": "kohn-CHEHR-toh" },
+            { "italian": "Lo spartito", "english": "The sheet music", "pronunciation": "spahr-TEE-toh" },
+            { "italian": "L'opera", "english": "Opera", "pronunciation": "OH-peh-rah" },
+            { "italian": "L'orchestra", "english": "The orchestra", "pronunciation": "ohr-KEHS-trah" },
+            { "italian": "Il violino", "english": "The violin", "pronunciation": "vyoh-LEE-noh" },
+            { "italian": "La chitarra", "english": "The guitar", "pronunciation": "kee-TAHR-rah" },
+            { "italian": "Il pianoforte", "english": "The piano", "pronunciation": "pyah-noh-FOHR-teh" }
+          ]
+        }
+      },
+      {
+        "type": "example",
+        "content": {
+          "dialogue": [
+            { "speaker": "A", "italian": "Che tipo di musica ascolti?", "english": "What type of music do you listen to?" },
+            { "speaker": "B", "italian": "Mi piace la musica classica e l'opera italiana.", "english": "I like classical music and Italian opera." },
+            { "speaker": "A", "italian": "Hai mai stato a un concerto all'Arena di Verona?", "english": "Have you ever been to a concert at the Arena di Verona?" },
+            { "speaker": "B", "italian": "No, ma è il mio sogno! Adoro Puccini e Verdi.", "english": "No, but it's my dream! I love Puccini and Verdi." }
+          ]
+        }
+      },
+      {
+        "type": "multiple_choice",
+        "content": { "question": "What does 'lo spartito' mean?", "options": ["The album", "The sheet music", "The concert", "The song"], "answer": "The sheet music" }
+      },
+      {
+        "type": "translation",
+        "content": { "direction": "en-to-it", "sentence": "I like listening to Italian music.", "answer": "Mi piace ascoltare la musica italiana.", "hint": "ascoltare = to listen" }
+      },
+      {
+        "type": "fill_blank",
+        "content": { "sentence": "Ho biglietti per il ___(concerto) di domani.", "answer": "concerto", "hint": "concert" }
+      }
+    ]
+  },
+  {
+    "id": "lesson-129",
+    "title": "Communication Skills",
+    "level": "B2",
+    "unit": 15,
+    "unitTitle": "Advanced Communication",
+    "description": "Master formal discussions, debates, and persuasive communication in Italian.",
+    "duration": 16,
+    "steps": [
+      {
+        "type": "learn",
+        "content": {
+          "title": "Discussion Phrases",
+          "text": "Advanced phrases for formal discussions, expressing nuanced opinions, and persuading.",
+          "items": [
+            { "italian": "Sono convinto che...", "english": "I am convinced that...", "pronunciation": "SOH-noh kohn-VEEN-toh keh" },
+            { "italian": "Il punto è che...", "english": "The point is that...", "pronunciation": "eel POON-toh eh keh" },
+            { "italian": "Non bisogna dimenticare che...", "english": "We must not forget that...", "pronunciation": "nohn bee-ZOH-nyah dee-mehn-TYAH-reh keh" },
+            { "italian": "D'altra parte...", "english": "On the other hand...", "pronunciation": "dahl-TRAH PAHR-teh" },
+            { "italian": "In conclusione...", "english": "In conclusion...", "pronunciation": "een kohn-kloo-ZYOH-neh" },
+            { "italian": "Facciamo un esempio concreto.", "english": "Let's take a concrete example.", "pronunciation": "fahch-CHAH-moh oon eh-ZEHM-pyoh kohn-KREH-toh" },
+            { "italian": "Non sono d'accordo perché...", "english": "I disagree because...", "pronunciation": "nohn SOH-noh dahk-KOHR-doh peh-KYEH" },
+            { "italian": "Ha sollevato un punto importante.", "english": "You raised an important point.", "pronunciation": "ah soh-leh-VAH-toh oon POON-toh eem-pohr-TAHN-teh" }
+          ]
+        }
+      },
+      {
+        "type": "example",
+        "content": {
+          "dialogue": [
+            { "speaker": "A", "italian": "Secondo me, dovremmo investire di più nell'istruzione.", "english": "In my opinion, we should invest more in education." },
+            { "speaker": "B", "italian": "Sono convinto che abbia ragione. Il punto è che il budget è limitato.", "english": "I am convinced you're right. The point is that the budget is limited." },
+            { "speaker": "A", "italian": "D'altra parte, non possiamo ignorare il problema.", "english": "On the other hand, we can't ignore the problem." },
+            { "speaker": "B", "italian": "Hai sollevato un punto importante. In conclusione, dobbiamo trovare un compromesso.", "english": "You raised an important point. In conclusion, we need to find a compromise." }
+          ]
+        }
+      },
+      {
+        "type": "multiple_choice",
+        "content": { "question": "How do you say 'I am convinced that'?", "options": ["Penso che", "Sono convinto che", "Credo che", "Voglio che"], "answer": "Sono convinto che" }
+      },
+      {
+        "type": "translation",
+        "content": { "direction": "en-to-it", "sentence": "On the other hand, we must not forget the consequences.", "answer": "D'altra parte, non bisogna dimenticare le conseguenze.", "hint": "D'altra parte = on the other hand" }
+      },
+      {
+        "type": "fill_blank",
+        "content": { "sentence": "In ___(conclusione), dobbiamo agire subito.", "answer": "conclusione", "hint": "conclusion" }
+      }
+    ]
+  },
+  {
+    "id": "lesson-130",
+    "title": "Environmental Issues",
+    "level": "B2",
+    "unit": 14,
+    "unitTitle": "Modern Life",
+    "description": "Discuss climate change, pollution, and sustainability in Italian.",
+    "duration": 14,
+    "steps": [
+      {
+        "type": "learn",
+        "content": {
+          "title": "Environment Vocabulary",
+          "text": "Advanced vocabulary for discussing environmental challenges and sustainability.",
+          "items": [
+            { "italian": "Il cambiamento climatico", "english": "Climate change", "pronunciation": "kahm-byah-MEHN-toh klee-MAH-tee-koh" },
+            { "italian": "L'inquinamento", "english": "Pollution", "pronunciation": "een-kwee-nah-MEHN-toh" },
+            { "italian": "Le emissioni di gas serra", "english": "Greenhouse gas emissions", "pronunciation": "leh eh-mee-SYOH-nee dee gahs SEHR-rah" },
+            { "italian": "L'energia rinnovabile", "english": "Renewable energy", "pronunciation": "eh-NEHR-jah reen-noh-VAH-bee-leh" },
+            { "italian": "La sostenibilità", "english": "Sustainability", "pronunciation": "sohs-teh-nee-bee-lee-TAH" },
+            { "italian": "Il riciclo", "english": "Recycling", "pronunciation": "ree-CHEE-kloh" },
+            { "italian": "La deforestazione", "english": "Deforestation", "pronunciation": "lah deh-foh-rehs-tah-TSYOH-neh" },
+            { "italian": "La biodiversità", "english": "Biodiversity", "pronunciation": "byoh-dee-vehr-see-TAH" },
+            { "italian": "Il riscaldamento globale", "english": "Global warming", "pronunciation": "eel rees-kahl-dah-MEHN-toh gloh-BAH-leh" },
+            { "italian": "L'impronta di carbonio", "english": "Carbon footprint", "pronunciation": "eem-PROHN-tah dee kahr-BOH-nyoh" }
+          ]
+        }
+      },
+      {
+        "type": "example",
+        "content": {
+          "dialogue": [
+            { "speaker": "A", "italian": "Cosa ne pensi del cambiamento climatico?", "english": "What do you think about climate change?" },
+            { "speaker": "B", "italian": "È il problema più grande del nostro tempo. Le emissioni devono essere ridotte.", "english": "It's the biggest problem of our time. Emissions must be reduced." },
+            { "speaker": "A", "italian": "Hai ragione. Dobbiamo passare all'energia rinnovabile.", "english": "You're right. We need to switch to renewable energy." },
+            { "speaker": "B", "italian": "E anche ridurre l'impronta di carbonio. Ognuno deve fare la sua parte.", "english": "And also reduce the carbon footprint. Everyone must do their part." }
+          ]
+        }
+      },
+      {
+        "type": "multiple_choice",
+        "content": { "question": "What does 'l'impronta di carbonio' mean?", "options": ["Air pollution", "Carbon footprint", "Water waste", "Deforestation"], "answer": "Carbon footprint" }
+      },
+      {
+        "type": "translation",
+        "content": { "direction": "en-to-it", "sentence": "We must protect the environment for future generations.", "answer": "Dobbiamo proteggere l'ambiente per le generazioni future.", "hint": "ambiente = environment" }
+      },
+      {
+        "type": "fill_blank",
+        "content": { "sentence": "Il ___(riciclo) è importante per l'ambiente.", "answer": "riciclo", "hint": "recycling" }
+      }
+    ]
   }
 ];
 

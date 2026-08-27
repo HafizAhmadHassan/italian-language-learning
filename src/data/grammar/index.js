@@ -5805,6 +5805,222 @@ const grammar = [
             ]
           }
       ]
+    },
+  {
+      id: 'grammar-76',
+      title: 'Future Tense (Futuro Semplice)',
+      level: 'B1',
+      description: 'Learn to form and use the simple future tense in Italian.',
+      sections: [
+        {
+          title: 'Regular Formation',
+          explanation: 'Remove final -e of infinitive and add: -ò, -ai, -à, -emo, -ete, -anno. For -ARE and -ERE verbs this is straightforward. For -IRE verbs like finire → finir-ò.',
+          examples: [
+            { italian: 'parlerò', translation: 'I will speak' },
+            { italian: 'scriverai', translation: 'you will write' },
+            { italian: 'dormirà', translation: 'he/she will sleep' }
+          ],
+          exercises: [
+            {
+              question: 'What is the future tense of "parlare" for "io"?',
+              options: ['parlerò', 'parlavo', 'parlerei', 'parli'],
+              answer: 'parlerò'
+            }
+          ]
+        },
+        {
+          title: 'Irregular Futures',
+          explanation: 'Some verbs have irregular stems: essere → sar-, avere → avr-, andare → andr-, fare → far-, dare → dar-, stare → star-, potere → potr-.',
+          examples: [
+            { italian: 'sarò bello', translation: 'I will be handsome' },
+            { italian: 'avrò tempo', translation: 'I will have time' },
+            { italian: 'andrò al cinema', translation: 'I will go to the cinema' }
+          ],
+          exercises: [
+            {
+              question: 'What is the irregular future stem of "essere"?',
+              options: ['esser-', 'sar-', 'foss-', 'sta-'],
+              answer: 'sar-'
+            }
+          ]
+        },
+        {
+          title: 'Future for Probable Present',
+          explanation: 'Italian uses futuro semplice to express a probable or uncertain present event.',
+          examples: [
+            { italian: 'Saranno le tre', translation: 'It must be around three o\'clock' },
+            { italian: 'Avrà 30 anni', translation: 'He must be about 30 years old' },
+            { italian: 'Chi sarà a quest\'ora?', translation: 'Who could it be at this hour?' }
+          ],
+          exercises: [
+            {
+              question: 'Why use futuro semplice in "Saranno le tre"?',
+              options: ['Future action', 'Polite request', 'Probable present', 'Past habit'],
+              answer: 'Probable present'
+            }
+          ]
+        }
+      ]
+    },
+  {
+      id: 'grammar-77',
+      title: 'Past Perfect (Trapassato Prossimo)',
+      level: 'B2',
+      description: 'Express an action completed before another past action using the pluperfect.',
+      sections: [
+        {
+          title: 'Formation',
+          explanation: 'Imperfect of avere/essere + past participle. Used with compounds of both auxiliaries.',
+          examples: [
+            { italian: 'avevo già mangiato quando sei arrivato', translation: 'I had already eaten when you arrived' },
+            { italian: 'ero uscito prima che piovesse', translation: 'I had left before it rained' },
+            { italian: 'avevano finito quando ho chiamato', translation: 'They had finished when I called' }
+          ],
+          exercises: [
+            {
+              question: 'What auxiliary does trapassato prossimo use?',
+              options: ['Present of avere/essere', 'Imperfect of avere/essere', 'Passato prossimo of avere', 'Future of avere'],
+              answer: 'Imperfect of avere/essere'
+            }
+          ]
+        },
+        {
+          title: 'Usage with Time Clauses',
+          explanation: 'Commonly used with "quando", "prima che", "dopo che", "appena", "non appena" to sequence past events.',
+          examples: [
+            { italian: 'Quando sono arrivato, lei era già partita', translation: 'When I arrived, she had already left' },
+            { italian: 'Prima che tu arrivassi, avevo preparato tutto', translation: 'Before you arrived, I had prepared everything' }
+          ],
+          exercises: [
+            {
+              question: 'Which word sequence requires trapassato prossimo?',
+              options: ['quando + passato prossimo', 'prima che + imperfetto', 'mentre + futuro', 'se + presente'],
+              answer: 'prima che + imperfetto'
+            }
+          ]
+        }
+      ]
+    },
+  {
+      id: 'grammar-78',
+      title: 'Direct and Indirect Object Pronouns',
+      level: 'B1',
+      description: 'Master Italian direct (lo, la, li, le) and indirect (mi, ti, gli, le, ci, vi) object pronouns.',
+      sections: [
+        {
+          title: 'Direct Object Pronouns',
+          explanation: 'Replace the direct object: lo (m.sing), la (f.sing), li (m.pl), le (f.pl). They go before the verb.',
+          examples: [
+            { italian: 'Lo vedo', translation: 'I see him/it' },
+            { italian: 'La compro domani', translation: 'I\'ll buy it tomorrow' },
+            { italian: 'Li ho comprati ieri', translation: 'I bought them yesterday' }
+          ],
+          exercises: [
+            {
+              question: 'What does "lo" replace in "Lo vedo"?',
+              options: ['A feminine noun', 'A masculine noun', 'A plural noun', 'A person only'],
+              answer: 'A masculine noun'
+            }
+          ]
+        },
+        {
+          title: 'Indirect Object Pronouns',
+          explanation: 'Replace the indirect object (to/for whom): mi, ti, gli/le (to him/her), ci, vi, gli (to them).',
+          examples: [
+            { italian: 'Mi parla', translation: 'He speaks to me' },
+            { italian: 'Le ho scritto una lettera', translation: 'I wrote her a letter' },
+            { italian: 'Ci hanno dato i libri', translation: 'They gave us the books' }
+          ],
+          exercises: [
+            {
+              question: 'Which pronoun means "to them" (indirect)?',
+              options: ['li', 'gli', 'le', 'ne'],
+              answer: 'gli'
+            }
+          ]
+        }
+      ]
+    },
+  {
+      id: 'grammar-79',
+      title: 'Imperative Mood (Imperativo)',
+      level: 'A2',
+      description: 'Give commands, instructions, and make requests using the Italian imperative.',
+      sections: [
+        {
+          title: 'Regular Forms',
+          explanation: 'Tu: remove -i from present indicative (parla!, scrivi!, dormi!). Lei: add -i (parli!, scriva!, dorma!). Noi: same as present indicative (parliamo!, scriviamo!). Voi: same as present indicative (parlate!, scrivete!, dormite!).',
+          examples: [
+            { italian: 'Parla più lentamente!', translation: 'Speak more slowly! (tu)' },
+            { italian: 'Parli più lentamente, per favore.', translation: 'Speak more slowly, please. (Lei)' },
+            { italian: 'Parliamo italiano!', translation: 'Let\'s speak Italian! (noi)' }
+          ],
+          exercises: [
+            {
+              question: 'What is the imperative (tu) of "parlare"?',
+              options: ['parla', 'parli', 'parlare', 'parlano'],
+              answer: 'parla'
+            }
+          ]
+        },
+        {
+          title: 'Negative Imperative',
+          explanation: 'For negative commands, use "non" + subjunctive for all persons.',
+          examples: [
+            { italian: 'Non parlare!', translation: 'Don\'t speak! (tu)' },
+            { italian: 'Non parli!', translation: 'Don\'t speak! (Lei)' },
+            { italian: 'Non parliamo!', translation: 'Let\'s not speak! (noi)' }
+          ],
+          exercises: [
+            {
+              question: 'What mood follows "non" in negative imperative?',
+              options: ['Indicative', 'Subjunctive', 'Conditional', 'Infinitive'],
+              answer: 'Subjunctive'
+            }
+          ]
+        }
+      ]
+    },
+  {
+      id: 'grammar-80',
+      title: 'Possessive Adjectives and Pronouns',
+      level: 'A1',
+      description: 'Express possession in Italian using possessive forms with correct articles.',
+      sections: [
+        {
+          title: 'Possessive Adjectives',
+          explanation: 'mio/tuo/suo/nostro/vostro/loro agree in gender/number with the noun. Usually require an article before them.',
+          examples: [
+            { italian: 'il mio libro', translation: 'my book' },
+            { italian: 'la tua casa', translation: 'your house' },
+            { italian: 'i suoi occhi', translation: 'his/her eyes' },
+            { italian: 'la nostra macchina', translation: 'our car' }
+          ],
+          exercises: [
+            {
+              question: 'What does "nostro" mean?',
+              options: ['my', 'your', 'our', 'their'],
+              answer: 'our'
+            }
+          ]
+        },
+        {
+          title: 'Without Article',
+          explanation: 'Possessives without article: mia madre, tuo padre, nostro figlio, nostra figlia (close family members without adjective/article).',
+          examples: [
+            { italian: 'mia madre', translation: 'my mother (no article)' },
+            { italian: 'tuo padre', translation: 'your father' },
+            { italian: 'nostro figlio', translation: 'our son' }
+          ],
+          exercises: [
+            {
+              question: 'When do possessives drop the article?',
+              options: ['Before all nouns', 'Before singular close family members', 'Before plural nouns', 'Never'],
+              answer: 'Before singular close family members'
+            }
+          ]
+        }
+      ]
     }
 ];
 
