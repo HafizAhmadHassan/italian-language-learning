@@ -18743,6 +18743,1751 @@ const lessons = [
         }
       }
     ]
+  },
+  {
+    "id": "lesson-106",
+    "title": "At the Doctor",
+    "level": "A2",
+    "unit": 6,
+    "unitTitle": "Activities",
+    "description": "Communicate with doctors, describe symptoms, and understand medical advice.",
+    "duration": 15,
+    "steps": [
+      {
+        "type": "learn",
+        "content": {
+          "title": "Medical Vocabulary",
+          "text": "Learn to describe symptoms and understand medical advice in Italian.",
+          "items": [
+            {
+              "italian": "Ho mal di...",
+              "english": "I have a pain in...",
+              "pronunciation": "oh mahl dee"
+            },
+            {
+              "italian": "La testa",
+              "english": "The head",
+              "pronunciation": "TEHS-tah"
+            },
+            {
+              "italian": "La gola",
+              "english": "The throat",
+              "pronunciation": "GOH-lah"
+            },
+            {
+              "italian": "Lo stomaco",
+              "english": "The stomach",
+              "pronunciation": "STOH-mah-koh"
+            },
+            {
+              "italian": "La schiena",
+              "english": "The back",
+              "pronunciation": "SKYEH-nah"
+            },
+            {
+              "italian": "La febbre",
+              "english": "The fever",
+              "pronunciation": "FEHB-breh"
+            },
+            {
+              "italian": "Il raffreddore",
+              "english": "The cold (illness)",
+              "pronunciation": "rahf-frehd-DOH-reh"
+            },
+            {
+              "italian": "La tosse",
+              "english": "The cough",
+              "pronunciation": "TOHS-seh"
+            },
+            {
+              "italian": "L'allergia",
+              "english": "The allergy",
+              "pronunciation": "ahl-LEHR-jah"
+            },
+            {
+              "italian": "La ricetta",
+              "english": "The prescription",
+              "pronunciation": "ree-CHEHT-tah"
+            }
+          ]
+        }
+      },
+      {
+        "type": "example",
+        "content": {
+          "dialogue": [
+            {
+              "speaker": "A",
+              "italian": "Buongiorno, Dottoressa. Ho un appuntamento.",
+              "english": "Good morning, Doctor. I have an appointment."
+            },
+            {
+              "speaker": "B",
+              "italian": "Buongiorno. Che sintomi ha?",
+              "english": "Good morning. What symptoms do you have?"
+            },
+            {
+              "speaker": "A",
+              "italian": "Ho mal di testa da due giorni e ho la febbre.",
+              "english": "I've had a headache for two days and I have a fever."
+            },
+            {
+              "speaker": "B",
+              "italian": "Apra la bocca e dica 'ah'. Poi le prescrivo una medicina.",
+              "english": "Open your mouth and say 'ah'. Then I'll prescribe you medicine."
+            }
+          ]
+        }
+      },
+      {
+        "type": "multiple_choice",
+        "content": {
+          "question": "How do you say 'I have a headache'?",
+          "options": ["Ho mal di testa", "Ho mal di gola", "Ho mal di stomaco", "Ho mal di schiena"],
+          "answer": "Ho mal di testa"
+        }
+      },
+      {
+        "type": "translation",
+        "content": {
+          "direction": "en-to-it",
+          "sentence": "I've had a fever since yesterday.",
+          "answer": "Ho la febbre da ieri.",
+          "hint": "da = since"
+        }
+      },
+      {
+        "type": "fill_blank",
+        "content": {
+          "sentence": "Ho ___(la tosse) da una settimana.",
+          "answer": "la tosse",
+          "hint": "the cough"
+        }
+      }
+    ]
+  },
+  {
+    "id": "lesson-107",
+    "title": "Food and Drinks",
+    "level": "A1",
+    "unit": 3,
+    "unitTitle": "Everyday Life",
+    "description": "Learn essential food and drink vocabulary for daily conversations.",
+    "duration": 12,
+    "steps": [
+      {
+        "type": "learn",
+        "content": {
+          "title": "Food Vocabulary",
+          "text": "Basic Italian food and drink vocabulary for everyday use.",
+          "items": [
+            {
+              "italian": "Il pane",
+              "english": "The bread",
+              "pronunciation": "PAHN-eh"
+            },
+            {
+              "italian": "Il formaggio",
+              "english": "The cheese",
+              "pronunciation": "fohr-MAHJ-joh"
+            },
+            {
+              "italian": "La carne",
+              "english": "The meat",
+              "pronunciation": "KAHR-neh"
+            },
+            {
+              "italian": "Il pesce",
+              "english": "The fish",
+              "pronunciation": "PEH-sheh"
+            },
+            {
+              "italian": "La frutta",
+              "english": "The fruit",
+              "pronunciation": "FROOT-tah"
+            },
+            {
+              "italian": "La verdura",
+              "english": "The vegetable",
+              "pronunciation": "vehr-DOO-rah"
+            },
+            {
+              "italian": "L'acqua",
+              "english": "The water",
+              "pronunciation": "AHK-kwah"
+            },
+            {
+              "italian": "Il caffè",
+              "english": "The coffee",
+              "pronunciation": "kahf-FEH"
+            },
+            {
+              "italian": "Il vino",
+              "english": "The wine",
+              "pronunciation": "VEE-noh"
+            },
+            {
+              "italian": "La birra",
+              "english": "The beer",
+              "pronunciation": "BEER-rah"
+            }
+          ]
+        }
+      },
+      {
+        "type": "example",
+        "content": {
+          "dialogue": [
+            {
+              "speaker": "A",
+              "italian": "Cosa vuoi mangiare?",
+              "english": "What do you want to eat?"
+            },
+            {
+              "speaker": "B",
+              "italian": "Vorrei pane e formaggio, per favore.",
+              "english": "I would like bread and cheese, please."
+            },
+            {
+              "speaker": "A",
+              "italian": "E da bere?",
+              "english": "And to drink?"
+            },
+            {
+              "speaker": "B",
+              "italian": "Un bicchiere d'acqua naturale, grazie.",
+              "english": "A glass of still water, thanks."
+            }
+          ]
+        }
+      },
+      {
+        "type": "multiple_choice",
+        "content": {
+          "question": "What does 'la verdura' mean?",
+          "options": ["The fruit", "The vegetable", "The meat", "The bread"],
+          "answer": "The vegetable"
+        }
+      },
+      {
+        "type": "translation",
+        "content": {
+          "direction": "en-to-it",
+          "sentence": "I would like a coffee, please.",
+          "answer": "Vorrei un caffè, per favore.",
+          "hint": "Vorrei = I would like"
+        }
+      },
+      {
+        "type": "fill_blank",
+        "content": {
+          "sentence": "Voglio mangiare della ___(frutta) fresca.",
+          "answer": "frutta",
+          "hint": "fruit"
+        }
+      }
+    ]
+  },
+  {
+    "id": "lesson-108",
+    "title": "Home and Furniture",
+    "level": "A2",
+    "unit": 5,
+    "unitTitle": "Daily Life",
+    "description": "Describe your home, rooms, and furniture in Italian.",
+    "duration": 14,
+    "steps": [
+      {
+        "type": "learn",
+        "content": {
+          "title": "Home Vocabulary",
+          "text": "Learn to talk about your home, rooms, and furniture.",
+          "items": [
+            {
+              "italian": "La casa",
+              "english": "The house",
+              "pronunciation": "KAH-zah"
+            },
+            {
+              "italian": "L'appartamento",
+              "english": "The apartment",
+              "pronunciation": "ahp-pahr-tah-MEHN-toh"
+            },
+            {
+              "italian": "La camera da letto",
+              "english": "The bedroom",
+              "pronunciation": "KAH-meh-rah dah LEHT-toh"
+            },
+            {
+              "italian": "Il soggiorno",
+              "english": "The living room",
+              "pronunciation": "sohj-JOHR-noh"
+            },
+            {
+              "italian": "La cucina",
+              "english": "The kitchen",
+              "pronunciation": "koo-CHEE-nah"
+            },
+            {
+              "italian": "Il bagno",
+              "english": "The bathroom",
+              "pronunciation": "BAH-nyoh"
+            },
+            {
+              "italian": "Il divano",
+              "english": "The sofa",
+              "pronunciation": "dee-VAH-noh"
+            },
+            {
+              "italian": "Il letto",
+              "english": "The bed",
+              "pronunciation": "LEHT-toh"
+            },
+            {
+              "italian": "Il tavolo",
+              "english": "The table",
+              "pronunciation": "TAH-voh-loh"
+            },
+            {
+              "italian": "La sedia",
+              "english": "The chair",
+              "pronunciation": "SYEH-dyah"
+            }
+          ]
+        }
+      },
+      {
+        "type": "example",
+        "content": {
+          "dialogue": [
+            {
+              "speaker": "A",
+              "italian": "Com'è la tua casa?",
+              "english": "What's your house like?"
+            },
+            {
+              "speaker": "B",
+              "italian": "È un appartamento grande con tre camere da letto.",
+              "english": "It's a large apartment with three bedrooms."
+            },
+            {
+              "speaker": "A",
+              "italian": "Che bello! Com'è il soggiorno?",
+              "english": "How nice! What's the living room like?"
+            },
+            {
+              "speaker": "B",
+              "italian": "Ha un divano grande e un tavolo per sei persone.",
+              "english": "It has a big sofa and a table for six people."
+            }
+          ]
+        }
+      },
+      {
+        "type": "multiple_choice",
+        "content": {
+          "question": "What is 'il soggiorno'?",
+          "options": ["The kitchen", "The living room", "The bedroom", "The bathroom"],
+          "answer": "The living room"
+        }
+      },
+      {
+        "type": "translation",
+        "content": {
+          "direction": "en-to-it",
+          "sentence": "My bedroom has a big bed and a wardrobe.",
+          "answer": "La mia camera da letto ha un letto grande e un armadio.",
+          "hint": "camera da letto = bedroom"
+        }
+      },
+      {
+        "type": "fill_blank",
+        "content": {
+          "sentence": "Nella ___(cucina) c'è un tavolo e quattro sedie.",
+          "answer": "cucina",
+          "hint": "kitchen"
+        }
+      }
+    ]
+  },
+  {
+    "id": "lesson-109",
+    "title": "Jobs and Professions",
+    "level": "A2",
+    "unit": 6,
+    "unitTitle": "Activities",
+    "description": "Discuss jobs, professions, and work-related conversations.",
+    "duration": 12,
+    "steps": [
+      {
+        "type": "learn",
+        "content": {
+          "title": "Job Vocabulary",
+          "text": "Common Italian job titles and work vocabulary.",
+          "items": [
+            {
+              "italian": "Il lavoro",
+              "english": "The work/job",
+              "pronunciation": "lah-VOHR-roh"
+            },
+            {
+              "italian": "L'ufficio",
+              "english": "The office",
+              "pronunciation": "oof-FEE-choh"
+            },
+            {
+              "italian": "Il/datore di lavoro",
+              "english": "The employer",
+              "pronunciation": "dah-TOH-reh dee lah-VOHR-roh"
+            },
+            {
+              "italian": "L'impiegato/a",
+              "english": "The employee",
+              "pronunciation": "eem-plyeh-GAH-toh/tah"
+            },
+            {
+              "italian": "Il medico",
+              "english": "The doctor",
+              "pronunciation": "MEH-dee-koh"
+            },
+            {
+              "italian": "L'avvocato",
+              "english": "The lawyer",
+              "pronunciation": "ahv-voh-KAH-toh"
+            },
+            {
+              "italian": "L'insegnante",
+              "english": "The teacher",
+              "pronunciation": "een-seh-NYAHN-teh"
+            },
+            {
+              "italian": "Il cuoco",
+              "english": "The cook/chef",
+              "pronunciation": "KWOH-koh"
+            },
+            {
+              "italian": "L'ingegnere",
+              "english": "The engineer",
+              "pronunciation": "een-jeh-NYEH-reh"
+            },
+            {
+              "italian": "Lo studente",
+              "english": "The student",
+              "pronunciation": "stoo-DEN-teh"
+            }
+          ]
+        }
+      },
+      {
+        "type": "example",
+        "content": {
+          "dialogue": [
+            {
+              "speaker": "A",
+              "italian": "Che lavoro fai?",
+              "english": "What do you do for work?"
+            },
+            {
+              "speaker": "B",
+              "italian": "Sono insegnante di italiano.",
+              "english": "I'm an Italian teacher."
+            },
+            {
+              "speaker": "A",
+              "italian": "Che bello! Dove lavori?",
+              "english": "How nice! Where do you work?"
+            },
+            {
+              "speaker": "B",
+              "italian": "Lavoro in un liceo nel centro della città.",
+              "english": "I work at a high school in the city center."
+            }
+          ]
+        }
+      },
+      {
+        "type": "multiple_choice",
+        "content": {
+          "question": "What does 'l'avvocato' mean?",
+          "options": ["The doctor", "The lawyer", "The teacher", "The cook"],
+          "answer": "The lawyer"
+        }
+      },
+      {
+        "type": "translation",
+        "content": {
+          "direction": "en-to-it",
+          "sentence": "I work in an office in the city center.",
+          "answer": "Lavoro in un ufficio nel centro della città.",
+          "hint": "ufficio = office"
+        }
+      },
+      {
+        "type": "fill_blank",
+        "content": {
+          "sentence": "Mio padre è ___(l'avvocato) molto bravo.",
+          "answer": "l'avvocato",
+          "hint": "the lawyer"
+        }
+      }
+    ]
+  },
+  {
+    "id": "lesson-110",
+    "title": "Nature and Wildlife",
+    "level": "A2",
+    "unit": 6,
+    "unitTitle": "Activities",
+    "description": "Describe animals, plants, and natural environments in Italian.",
+    "duration": 12,
+    "steps": [
+      {
+        "type": "learn",
+        "content": {
+          "title": "Nature Vocabulary",
+          "text": "Italian vocabulary for animals, plants, and natural landscapes.",
+          "items": [
+            {
+              "italian": "L'animale",
+              "english": "The animal",
+              "pronunciation": "ah-nee-MAH-leh"
+            },
+            {
+              "italian": "L'albero",
+              "english": "The tree",
+              "pronunciation": "AHL-beh-roh"
+            },
+            {
+              "italian": "Il fiore",
+              "english": "The flower",
+              "pronunciation": "FYOH-reh"
+            },
+            {
+              "italian": "L'uccello",
+              "english": "The bird",
+              "pronunciation": "oo-CHEHL-loh"
+            },
+            {
+              "italian": "Il pesce",
+              "english": "The fish",
+              "pronunciation": "PEH-sheh"
+            },
+            {
+              "italian": "La farfalla",
+              "english": "The butterfly",
+              "pronunciation": "fahr-FAHL-lah"
+            },
+            {
+              "italian": "La formica",
+              "english": "The ant",
+              "pronunciation": "fohr-MEE-kah"
+            },
+            {
+              "italian": "Il leone",
+              "english": "The lion",
+              "pronunciation": "leh-OH-neh"
+            },
+            {
+              "italian": "La lupa",
+              "english": "The she-wolf",
+              "pronunciation": "LOO-pah"
+            },
+            {
+              "italian": "Il cielo",
+              "english": "The sky",
+              "pronunciation": "CHEH-loh"
+            }
+          ]
+        }
+      },
+      {
+        "type": "example",
+        "content": {
+          "dialogue": [
+            {
+              "speaker": "A",
+              "italian": "Ti piace la natura?",
+              "english": "Do you like nature?"
+            },
+            {
+              "speaker": "B",
+              "italian": "Adoro passeggiare nei boschi e guardare gli uccelli.",
+              "english": "I love walking in the woods and watching birds."
+            },
+            {
+              "speaker": "A",
+              "italian": "Anche a me! Ieri ho visto una farfalla bellissima.",
+              "english": "Me too! Yesterday I saw a beautiful butterfly."
+            },
+            {
+              "speaker": "B",
+              "italian": "Nel giardino ci sono molti fiori e alberi alti.",
+              "english": "In the garden there are many flowers and tall trees."
+            }
+          ]
+        }
+      },
+      {
+        "type": "multiple_choice",
+        "content": {
+          "question": "What does 'la farfalla' mean?",
+          "options": ["The ant", "The butterfly", "The bird", "The fish"],
+          "answer": "The butterfly"
+        }
+      },
+      {
+        "type": "translation",
+        "content": {
+          "direction": "en-to-it",
+          "sentence": "The forest is full of tall trees and colorful flowers.",
+          "answer": "Il bosco è pieno di alberi alti e fiori colorati.",
+          "hint": "bosco = forest"
+        }
+      },
+      {
+        "type": "fill_blank",
+        "content": {
+          "sentence": "Nel ___(cielo) ci sono molte stelle stasera.",
+          "answer": "cielo",
+          "hint": "sky"
+        }
+      }
+    ]
+  },
+  {
+    "id": "lesson-111",
+    "title": "Giving Directions",
+    "level": "B1",
+    "unit": 7,
+    "unitTitle": "Culture and Society",
+    "description": "Ask for and give directions in Italian cities and towns.",
+    "duration": 14,
+    "steps": [
+      {
+        "type": "learn",
+        "content": {
+          "title": "Direction Vocabulary",
+          "text": "Learn to ask for and give directions in Italian.",
+          "items": [
+            {
+              "italian": "Dov'è...?",
+              "english": "Where is...?",
+              "pronunciation": "doh-VEH"
+            },
+            {
+              "italian": "Va dritto",
+              "english": "Go straight",
+              "pronunciation": "vah DREET-toh"
+            },
+            {
+              "italian": "Giri a destra",
+              "english": "Turn right",
+              "pronunciation": "JEE-ree ah DEHS-trah"
+            },
+            {
+              "italian": "Giri a sinistra",
+              "english": "Turn left",
+              "pronunciation": "JEE-ree ah see-NEES-trah"
+            },
+            {
+              "italian": "È vicino",
+              "english": "It's close",
+              "pronunciation": "eh VEE-chee-noh"
+            },
+            {
+              "italian": "È lontano",
+              "english": "It's far",
+              "pronunciation": "eh lohn-TAH-noh"
+            },
+            {
+              "italian": "All'angolo",
+              "english": "At the corner",
+              "pronunciation": "ahl-AHN-goh-loh"
+            },
+            {
+              "italian": "Di fronte a",
+              "english": "In front of",
+              "pronunciation": "dee FROHN-teh ah"
+            },
+            {
+              "italian": "Accanto a",
+              "english": "Next to",
+              "pronunciation": "ah-KAHN-toh ah"
+            },
+            {
+              "italian": "Tra... e...",
+              "english": "Between... and...",
+              "pronunciation": "trah eh"
+            }
+          ]
+        }
+      },
+      {
+        "type": "example",
+        "content": {
+          "dialogue": [
+            {
+              "speaker": "A",
+              "italian": "Scusi, dov'è la stazione?",
+              "english": "Excuse me, where is the station?"
+            },
+            {
+              "speaker": "B",
+              "italian": "Va dritto per duecento metri, poi giri a sinistra.",
+              "english": "Go straight for two hundred meters, then turn left."
+            },
+            {
+              "speaker": "A",
+              "italian": "È lontano?",
+              "english": "Is it far?"
+            },
+            {
+              "speaker": "B",
+              "italian": "No, è vicino. Circa dieci minuti a piedi.",
+              "english": "No, it's close. About ten minutes on foot."
+            }
+          ]
+        }
+      },
+      {
+        "type": "multiple_choice",
+        "content": {
+          "question": "What does 'giri a sinistra' mean?",
+          "options": ["Go straight", "Turn right", "Turn left", "Stop"],
+          "answer": "Turn left"
+        }
+      },
+      {
+        "type": "translation",
+        "content": {
+          "direction": "en-to-it",
+          "sentence": "The pharmacy is next to the supermarket.",
+          "answer": "La farmacia è accanto al supermercato.",
+          "hint": "accanto a = next to"
+        }
+      },
+      {
+        "type": "fill_blank",
+        "content": {
+          "sentence": "Va ___(dritto) per cento metri.",
+          "answer": "dritto",
+          "hint": "straight"
+        }
+      }
+    ]
+  },
+  {
+    "id": "lesson-112",
+    "title": "Expressing Opinions",
+    "level": "B1",
+    "unit": 7,
+    "unitTitle": "Culture and Society",
+    "description": "Express opinions, agree, and disagree politely in Italian.",
+    "duration": 14,
+    "steps": [
+      {
+        "type": "learn",
+        "content": {
+          "title": "Opinion Phrases",
+          "text": "Learn to express, agree with, and disagree with opinions in Italian.",
+          "items": [
+            {
+              "italian": "Secondo me...",
+              "english": "In my opinion...",
+              "pronunciation": "seh-KOHN-doh meh"
+            },
+            {
+              "italian": "Penso che...",
+              "english": "I think that...",
+              "pronunciation": "PEHN-soh keh"
+            },
+            {
+              "italian": "Credo che...",
+              "english": "I believe that...",
+              "pronunciation": "KREH-doh keh"
+            },
+            {
+              "italian": "Sono d'accordo",
+              "english": "I agree",
+              "pronunciation": "SOH-noh dahk-KOHR-doh"
+            },
+            {
+              "italian": "Non sono d'accordo",
+              "english": "I disagree",
+              "pronunciation": "nohn SOH-noh dahk-KOHR-doh"
+            },
+            {
+              "italian": "Hai ragione",
+              "english": "You're right",
+              "pronunciation": "ai rah-JOH-neh"
+            },
+            {
+              "italian": "Non penso così",
+              "english": "I don't think so",
+              "pronunciation": "nohn PEHN-soh koh-ZEE"
+            },
+            {
+              "italian": "Forse hai ragione",
+              "english": "Maybe you're right",
+              "pronunciation": "fohr-seh ai rah-JOH-neh"
+            }
+          ]
+        }
+      },
+      {
+        "type": "example",
+        "content": {
+          "dialogue": [
+            {
+              "speaker": "A",
+              "italian": "Secondo te, Roma è meglio di Milano?",
+              "english": "In your opinion, is Rome better than Milan?"
+            },
+            {
+              "speaker": "B",
+              "italian": "Penso che Roma sia più bella, ma Milano è più moderna.",
+              "english": "I think Rome is more beautiful, but Milan is more modern."
+            },
+            {
+              "speaker": "A",
+              "italian": "Sono d'accordo su Milano. Ma per me Roma è la città più bella d'Italia!",
+              "english": "I agree about Milan. But for me Rome is the most beautiful city in Italy!"
+            }
+          ]
+        }
+      },
+      {
+        "type": "multiple_choice",
+        "content": {
+          "question": "How do you say 'I agree' in Italian?",
+          "options": ["Non penso così", "Sono d'accordo", "Hai ragione", "Forse"],
+          "answer": "Sono d'accordo"
+        }
+      },
+      {
+        "type": "translation",
+        "content": {
+          "direction": "en-to-it",
+          "sentence": "In my opinion, Italian food is the best in the world.",
+          "answer": "Secondo me, la cucina italiana è la migliore del mondo.",
+          "hint": "Secondo me = In my opinion"
+        }
+      },
+      {
+        "type": "fill_blank",
+        "content": {
+          "sentence": "___(secondo) te, quale film è il migliore?",
+          "answer": "Secondo",
+          "hint": "in your opinion"
+        }
+      }
+    ]
+  },
+  {
+    "id": "lesson-113",
+    "title": "At the Market",
+    "level": "A2",
+    "unit": 5,
+    "unitTitle": "Daily Life",
+    "description": "Shop at Italian markets, ask for prices, and bargain like a local.",
+    "duration": 14,
+    "steps": [
+      {
+        "type": "learn",
+        "content": {
+          "title": "Market Vocabulary",
+          "text": "Essential vocabulary for shopping at Italian markets.",
+          "items": [
+            {
+              "italian": "Il mercato",
+              "english": "The market",
+              "pronunciation": "mehr-KAH-toh"
+            },
+            {
+              "italian": "Quanto costa?",
+              "english": "How much does it cost?",
+              "pronunciation": "KWAHN-toh KOHS-tah"
+            },
+            {
+              "italian": "È troppo caro!",
+              "english": "It's too expensive!",
+              "pronunciation": "eh TROHP-poh KAH-roh"
+            },
+            {
+              "italian": "Mi fa uno sconto?",
+              "english": "Can you give me a discount?",
+              "pronunciation": "mee fah OO-noh SKOHN-toh"
+            },
+            {
+              "italian": "Lo prendo!",
+              "english": "I'll take it!",
+              "pronunciation": "loh PREHN-doh"
+            },
+            {
+              "italian": "Vorrei un chilo di...",
+              "english": "I would like a kilo of...",
+              "pronunciation": "vohr-RAY oon KEE-loh dee"
+            },
+            {
+              "italian": "Mezzo chilo",
+              "english": "Half a kilo",
+              "pronunciation": "MEH-tsoh KEE-loh"
+            },
+            {
+              "italian": "Le mele",
+              "english": "The apples",
+              "pronunciation": "leh MEH-leh"
+            },
+            {
+              "italian": "I pomodori",
+              "english": "The tomatoes",
+              "pronunciation": "ee poh-moh-DOH-ree"
+            },
+            {
+              "italian": "Le banane",
+              "english": "The bananas",
+              "pronunciation": "leh bah-NAH-neh"
+            }
+          ]
+        }
+      },
+      {
+        "type": "example",
+        "content": {
+          "dialogue": [
+            {
+              "speaker": "A",
+              "italian": "Buongiorno! Quanto costano le mele?",
+              "english": "Good morning! How much are the apples?"
+            },
+            {
+              "speaker": "B",
+              "italian": "Due euro al chilo.",
+              "english": "Two euros per kilo."
+            },
+            {
+              "speaker": "A",
+              "italian": "Sono troppo care! Mi fa uno sconto?",
+              "english": "They're too expensive! Can you give me a discount?"
+            },
+            {
+              "speaker": "B",
+              "italian": "Va bene, un euro e ottanta al chilo per lei.",
+              "english": "Alright, one euro eighty per kilo for you."
+            },
+            {
+              "speaker": "A",
+              "italian": "Perfetto! Ne prendo due chili.",
+              "english": "Perfect! I'll take two kilos."
+            }
+          ]
+        }
+      },
+      {
+        "type": "multiple_choice",
+        "content": {
+          "question": "How do you ask for a discount?",
+          "options": ["Quanto costa?", "Mi fa uno sconto?", "Lo prendo?", "Vorrei?"],
+          "answer": "Mi fa uno sconto?"
+        }
+      },
+      {
+        "type": "translation",
+        "content": {
+          "direction": "en-to-it",
+          "sentence": "I would like half a kilo of tomatoes, please.",
+          "answer": "Vorrei mezzo chilo di pomodori, per favore.",
+          "hint": "mezzo chilo = half a kilo"
+        }
+      },
+      {
+        "type": "fill_blank",
+        "content": {
+          "sentence": "Quanto ___(costare) i pomodori al chilo?",
+          "answer": "costano",
+          "hint": "how much do they cost (plural)"
+        }
+      }
+    ]
+  },
+  {
+    "id": "lesson-114",
+    "title": "Conditional Sentences",
+    "level": "B2",
+    "unit": 9,
+    "unitTitle": "Upper Intermediate Grammar",
+    "description": "Master if-clauses and conditional sentences in Italian.",
+    "duration": 16,
+    "steps": [
+      {
+        "type": "learn",
+        "content": {
+          "title": "If-Clauses (Periodo Ipotetico)",
+          "text": "Italian conditional sentences follow three main patterns depending on the type of condition.",
+          "items": [
+            {
+              "italian": "Se ho tempo, vengo.",
+              "english": "If I have time, I'll come. (Real possibility)",
+              "pronunciation": "seh oh TEHM-poh, VYEN-doh"
+            },
+            {
+              "italian": "Se avessi tempo, verrei.",
+              "english": "If I had time, I would come. (Unreal present)",
+              "pronunciation": "seh ah-VEHS-see TEHM-poh, vehr-RAY"
+            },
+            {
+              "italian": "Se avessi avuto tempo, sarei venuto.",
+              "english": "If I had had time, I would have come. (Unreal past)",
+              "pronunciation": "seh ah-VEHS-see ah-VOO-toh TEHM-poh, sah-REH veh-NOO-toh"
+            },
+            {
+              "italian": "Se potessi, viaggerei di più.",
+              "english": "If I could, I would travel more.",
+              "pronunciation": "seh poh-TEHS-see, vee-ahj-JEH-ree dee PYOO"
+            },
+            {
+              "italian": "Se sapessi cucinare, farei la pasta.",
+              "english": "If I knew how to cook, I would make pasta.",
+              "pronunciation": "seh sah-PEHS-see koo-chee-NAH-reh, fah-REH lah PAH-stah"
+            },
+            {
+              "italian": "Se fossi ricco, comprerei una villa.",
+              "english": "If I were rich, I would buy a villa.",
+              "pronunciation": "seh FOHS-see ree-KOH, kohm-preh-REH OO-nah VEE-lah"
+            }
+          ]
+        }
+      },
+      {
+        "type": "example",
+        "content": {
+          "dialogue": [
+            {
+              "speaker": "A",
+              "italian": "Cosa faresti se vincessi alla lotteria?",
+              "english": "What would you do if you won the lottery?"
+            },
+            {
+              "speaker": "B",
+              "italian": "Se vincessi alla lotteria, comprerei una casa al mare.",
+              "english": "If I won the lottery, I would buy a house by the sea."
+            },
+            {
+              "speaker": "A",
+              "italian": "E se potessi viaggiare ovunque, dove andresti?",
+              "english": "And if you could travel anywhere, where would you go?"
+            },
+            {
+              "speaker": "B",
+              "italian": "Se potessi viaggiare ovunque, andrei in Giappone per un anno.",
+              "english": "If I could travel anywhere, I would go to Japan for a year."
+            }
+          ]
+        }
+      },
+      {
+        "type": "multiple_choice",
+        "content": {
+          "question": "Which is correct for 'If I were rich'?",
+          "options": ["Se sono ricco", "Se fossi ricco", "Se sarò ricco", "Se ero ricco"],
+          "answer": "Se fossi ricco"
+        }
+      },
+      {
+        "type": "translation",
+        "content": {
+          "direction": "en-to-it",
+          "sentence": "If I could speak Italian, I would move to Rome.",
+          "answer": "Se potessi parlare italiano, mi trasferirei a Roma.",
+          "hint": "Se + imperf. congiuntivo + condizionale"
+        }
+      },
+      {
+        "type": "fill_blank",
+        "content": {
+          "sentence": "Se ___(avere) più tempo, studierei di più.",
+          "answer": "avessi",
+          "hint": "imperfect subjunctive of avere"
+        }
+      }
+    ]
+  },
+  {
+    "id": "lesson-115",
+    "title": "Social Media and Internet",
+    "level": "B1",
+    "unit": 14,
+    "unitTitle": "Modern Life",
+    "description": "Discuss social media, technology, and online life in Italian.",
+    "duration": 12,
+    "steps": [
+      {
+        "type": "learn",
+        "content": {
+          "title": "Digital Vocabulary",
+          "text": "Essential vocabulary for discussing technology and social media in Italian.",
+          "items": [
+            {
+              "italian": "I social media",
+              "english": "Social media",
+              "pronunciation": "ee soh-chah-lee MEH-dyah"
+            },
+            {
+              "italian": "Il post",
+              "english": "The post",
+              "pronunciation": "POHST"
+            },
+            {
+              "italian": "Il follower",
+              "english": "The follower",
+              "pronunciation": "FOH-loh-er"
+            },
+            {
+              "italian": "Condividere",
+              "english": "To share",
+              "pronunciation": "kohn-dee-VEE-deh-reh"
+            },
+            {
+              "italian": "Piacere / Mettere mi piace",
+              "english": "To like",
+              "pronunciation": "pyah-CHEH-reh / MEHT-teh mee PYAH-cheh"
+            },
+            {
+              "italian": "Commentare",
+              "english": "To comment",
+              "pronunciation": "koh-mehn-TAH-reh"
+            },
+            {
+              "italian": "Il profilo",
+              "english": "The profile",
+              "pronunciation": "proh-FEE-loh"
+            },
+            {
+              "italian": "La password",
+              "english": "The password",
+              "pronunciation": "PAHS-word"
+            },
+            {
+              "italian": "Il messaggio",
+              "english": "The message",
+              "pronunciation": "mehs-SAHJ-joh"
+            },
+            {
+              "italian": "Chattare",
+              "english": "To chat online",
+              "pronunciation": "chaht-TAH-reh"
+            }
+          ]
+        }
+      },
+      {
+        "type": "example",
+        "content": {
+          "dialogue": [
+            {
+              "speaker": "A",
+              "italian": "Hai visto il mio post su Instagram?",
+              "english": "Did you see my post on Instagram?"
+            },
+            {
+              "speaker": "B",
+              "italian": "Si, l'ho visto! Bella foto. Ti ho messo mi piace.",
+              "english": "Yes, I saw it! Nice photo. I liked it."
+            },
+            {
+              "speaker": "A",
+              "italian": "Grazie! Ho condiviso anche le foto del viaggio.",
+              "english": "Thanks! I also shared the travel photos."
+            },
+            {
+              "speaker": "B",
+              "italian": "Perfetto! Le commento stasera quando ho tempo.",
+              "english": "Perfect! I'll comment on them tonight when I have time."
+            }
+          ]
+        }
+      },
+      {
+        "type": "multiple_choice",
+        "content": {
+          "question": "What does 'condividere' mean?",
+          "options": ["To comment", "To share", "To like", "To follow"],
+          "answer": "To share"
+        }
+      },
+      {
+        "type": "translation",
+        "content": {
+          "direction": "en-to-it",
+          "sentence": "I shared the post and received many comments.",
+          "answer": "Ho condiviso il post e ho ricevuto molti commenti.",
+          "hint": "condiviso = shared (passato prossimo)"
+        }
+      },
+      {
+        "type": "fill_blank",
+        "content": {
+          "sentence": "Ho ___(mettere) mi piace alla sua foto.",
+          "answer": "messo",
+          "hint": "put (passato prossimo of mettere)"
+        }
+      }
+    ]
+  },
+  {
+    "id": "lesson-116",
+    "title": "Describing People",
+    "level": "A2",
+    "unit": 5,
+    "unitTitle": "Daily Life",
+    "description": "Describe people's appearance, personality, and character traits.",
+    "duration": 14,
+    "steps": [
+      {
+        "type": "learn",
+        "content": {
+          "title": "Appearance Vocabulary",
+          "text": "Learn to describe people's physical appearance and personality in Italian.",
+          "items": [
+            {
+              "italian": "Alto/basso",
+              "english": "Tall/short",
+              "pronunciation": "AHL-toh/BAHS-soh"
+            },
+            {
+              "italian": "Grosso/magro",
+              "english": "Fat/thin",
+              "pronunciation": "GROHS-soh/MAH-groh"
+            },
+            {
+              "italian": "Giovane/vecchio",
+              "english": "Young/old",
+              "pronunciation": "JOH-vah-neh/VEHK-kyoh"
+            },
+            {
+              "italian": "Bello/brutto",
+              "english": "Beautiful/ugly",
+              "pronunciation": "BEHL-loh/BROOT-toh"
+            },
+            {
+              "italian": "Gentile",
+              "english": "Kind",
+              "pronunciation": "jehn-TEE-leh"
+            },
+            {
+              "italian": "Intelligente",
+              "english": "Intelligent",
+              "pronunciation": "een-teh-lee-JEN-teh"
+            },
+            {
+              "italian": "Timido",
+              "english": "Shy",
+              "pronunciation": "TEE-mee-doh"
+            },
+            {
+              "italian": "Simpatico/antipatico",
+              "english": "Nice/unpleasant",
+              "pronunciation": "seem-PAH-tee-koh/ahn-tee-PAH-tee-koh"
+            },
+            {
+              "italian": "Capelli biondi/neri",
+              "english": "Blonde/black hair",
+              "pronunciation": "kah-PEHL-lee BYOHN-dee/NEH-ree"
+            },
+            {
+              "italian": "Gli occhi blu/verdi",
+              "english": "Blue/green eyes",
+              "pronunciation": "lyoh-KEE BLOO/VEHR-dee"
+            }
+          ]
+        }
+      },
+      {
+        "type": "example",
+        "content": {
+          "dialogue": [
+            {
+              "speaker": "A",
+              "italian": "Come è Marco?",
+              "english": "What is Marco like?"
+            },
+            {
+              "speaker": "B",
+              "italian": "È alto, ha i capelli neri e gli occhi marroni.",
+              "english": "He's tall, he has black hair and brown eyes."
+            },
+            {
+              "speaker": "A",
+              "italian": "È simpatico?",
+              "english": "Is he nice?"
+            },
+            {
+              "speaker": "B",
+              "italian": "Sì, è molto gentile e intelligente. Però è un po' timido.",
+              "english": "Yes, he's very kind and intelligent. But he's a bit shy."
+            }
+          ]
+        }
+      },
+      {
+        "type": "multiple_choice",
+        "content": {
+          "question": "What does 'antipatico' mean?",
+          "options": ["Nice", "Shy", "Unpleasant", "Intelligent"],
+          "answer": "Unpleasant"
+        }
+      },
+      {
+        "type": "translation",
+        "content": {
+          "direction": "en-to-it",
+          "sentence": "She is young, beautiful, and very kind.",
+          "answer": "Lei è giovane, bella e molto gentile.",
+          "hint": "giovane = young"
+        }
+      },
+      {
+        "type": "fill_blank",
+        "content": {
+          "sentence": "Ha gli occhi ___(blu) e i capelli biondi.",
+          "answer": "blu",
+          "hint": "blue"
+        }
+      }
+    ]
+  },
+  {
+    "id": "lesson-117",
+    "title": "Past Tense Complete",
+    "level": "B1",
+    "unit": 7,
+    "unitTitle": "Culture and Society",
+    "description": "Master all Italian past tenses: passato prossimo, imperfetto, and passato remoto.",
+    "duration": 18,
+    "steps": [
+      {
+        "type": "learn",
+        "content": {
+          "title": "Three Past Tenses",
+          "text": "Italian has three main past tenses, each with specific uses:\n\n1. Passato Prossimo: Recent, completed actions (I ate)\n2. Imperfetto: Descriptions, habits, ongoing states (I was eating / I used to eat)\n3. Passato Remoto: Distant past, literary narratives (I ate — long ago)",
+          "items": [
+            {
+              "italian": "Ho mangiato (passato prossimo)",
+              "english": "I ate / I have eaten",
+              "pronunciation": "oh mahn-JAH-toh"
+            },
+            {
+              "italian": "Mangiavo (imperfetto)",
+              "english": "I was eating / I used to eat",
+              "pronunciation": "mahn-JAH-voh"
+            },
+            {
+              "italian": "Mangiai (passato remoto)",
+              "english": "I ate (long ago)",
+              "pronunciation": "mahn-JAH-ee"
+            },
+            {
+              "italian": "Sono andato (passato prossimo)",
+              "english": "I went / I have gone",
+              "pronunciation": "SOH-noh ahn-DAH-toh"
+            },
+            {
+              "italian": "Andavo (imperfetto)",
+              "english": "I used to go",
+              "pronunciation": "ahn-DAH-voh"
+            },
+            {
+              "italian": "Andai (passato remoto)",
+              "english": "I went (long ago)",
+              "pronunciation": "ahn-DAH-ee"
+            }
+          ]
+        }
+      },
+      {
+        "type": "example",
+        "content": {
+          "dialogue": [
+            {
+              "speaker": "A",
+              "italian": "Quando eri bambino, dove abitavi?",
+              "english": "When you were a child, where did you live?"
+            },
+            {
+              "speaker": "B",
+              "italian": "Abitavo a Napoli. Ogni estate andavo al mare con la mia famiglia.",
+              "english": "I lived in Naples. Every summer I used to go to the sea with my family."
+            },
+            {
+              "speaker": "A",
+              "italian": "Quando hai lasciato Napoli?",
+              "english": "When did you leave Naples?"
+            },
+            {
+              "speaker": "B",
+              "italian": "Ho lasciato Napoli nel 2010 per studiare a Milano.",
+              "english": "I left Naples in 2010 to study in Milan."
+            }
+          ]
+        }
+      },
+      {
+        "type": "multiple_choice",
+        "content": {
+          "question": "Which tense for 'I used to go to the park'?",
+          "options": ["Passato prossimo", "Imperfetto", "Passato remoto", "Presente"],
+          "answer": "Imperfetto"
+        }
+      },
+      {
+        "type": "translation",
+        "content": {
+          "direction": "en-to-it",
+          "sentence": "Yesterday I went to the market and bought some fruit.",
+          "answer": "Ieri sono andato al mercato e ho comprato della frutta.",
+          "hint": "passato prossimo for completed actions"
+        }
+      },
+      {
+        "type": "fill_blank",
+        "content": {
+          "sentence": "Quando ero giovane, ___(giocare) a calcio ogni giorno.",
+          "answer": "giocavo",
+          "hint": "imperfetto of giocare"
+        }
+      }
+    ]
+  },
+  {
+    "id": "lesson-118",
+    "title": "Future Tense",
+    "level": "B1",
+    "unit": 7,
+    "unitTitle": "Culture and Society",
+    "description": "Master the Italian future tense for predictions, plans, and assumptions.",
+    "duration": 14,
+    "steps": [
+      {
+        "type": "learn",
+        "content": {
+          "title": "Futuro Semplice",
+          "text": "The Italian future tense is used for predictions, promises, and assumptions. It's also used to express probability in the present.\n\nRegular formation:\n-ARE → -erò, -erai, -erà, -eremo, -erete, -eranno\n-ERE → -rò, -rai, -rà, -remo, -rete, -ranno\n-IRE → -irò, -irai, -irà, -iremo, -irete, -iranno",
+          "items": [
+            {
+              "italian": "Parlerò",
+              "english": "I will speak",
+              "pronunciation": "pahr-leh-ROH"
+            },
+            {
+              "italian": "Scriverrai",
+              "english": "You will write",
+              "pronunciation": "skree-vehr-RAI"
+            },
+            {
+              "italian": "Dormirà",
+              "english": "He/She will sleep",
+              "pronunciation": "dohr-mee-RAH"
+            },
+            {
+              "italian": "Mangeremo",
+              "english": "We will eat",
+              "pronunciation": "mahn-jeh-REH-moh"
+            },
+            {
+              "italian": "Partirete",
+              "english": "You all will leave",
+              "pronunciation": "pahr-tee-REH-teh"
+            },
+            {
+              "italian": "Voleranno",
+              "english": "They will want",
+              "pronunciation": "voh-leh-RAHN-noh"
+            },
+            {
+              "italian": "Sarà (essere)",
+              "english": "He/She will be",
+              "pronunciation": "sah-RAH"
+            },
+            {
+              "italian": "Avrò (avere)",
+              "english": "I will have",
+              "pronunciation": "ahv-ROH"
+            }
+          ]
+        }
+      },
+      {
+        "type": "example",
+        "content": {
+          "dialogue": [
+            {
+              "speaker": "A",
+              "italian": "Che farai domani?",
+              "english": "What will you do tomorrow?"
+            },
+            {
+              "speaker": "B",
+              "italian": "Andrò al lavoro al mattino e il pomeriggio studierò italiano.",
+              "english": "I'll go to work in the morning and in the afternoon I'll study Italian."
+            },
+            {
+              "speaker": "A",
+              "italian": "Che bello! Quale livello raggiungerai?",
+              "english": "How nice! What level will you reach?"
+            },
+            {
+              "speaker": "B",
+              "italian": "Spero di raggiungere il livello B2 entro la fine dell'anno.",
+              "english": "I hope to reach level B2 by the end of the year."
+            }
+          ]
+        }
+      },
+      {
+        "type": "multiple_choice",
+        "content": {
+          "question": "What is 'I will eat' using mangiare?",
+          "options": ["mangerò", "mangerai", "mangerà", "mangeremo"],
+          "answer": "mangerò"
+        }
+      },
+      {
+        "type": "translation",
+        "content": {
+          "direction": "en-to-it",
+          "sentence": "Tomorrow I will go to the cinema with my friends.",
+          "answer": "Domani andrò al cinema con i miei amici.",
+          "hint": "andrò = I will go"
+        }
+      },
+      {
+        "type": "fill_blank",
+        "content": {
+          "sentence": "L'anno prossimo ___(viaggiare) in Italia.",
+          "answer": "viaggerò",
+          "hint": "I will travel"
+        }
+      }
+    ]
+  },
+  {
+    "id": "lesson-119",
+    "title": "Italian Regions",
+    "level": "B2",
+    "unit": 13,
+    "unitTitle": "Culture & Society",
+    "description": "Learn about Italy's 20 regions, their specialties, and cultural differences.",
+    "duration": 16,
+    "steps": [
+      {
+        "type": "learn",
+        "content": {
+          "title": "Regions of Italy",
+          "text": "Italy is divided into 20 regions, each with unique traditions, food, and dialects. Learn the most important ones.",
+          "items": [
+            {
+              "italian": "Il Lazio (Roma)",
+              "english": "Lazio region (Rome)",
+              "pronunciation": "eel LAH-tsyoh"
+            },
+            {
+              "italian": "La Lombardia (Milano)",
+              "english": "Lombardy (Milan)",
+              "pronunciation": "lah lohm-bahr-DYAH"
+            },
+            {
+              "italian": "La Toscana (Firenze)",
+              "english": "Tuscany (Florence)",
+              "pronunciation": "lah tohs-KAH-nah"
+            },
+            {
+              "italian": "La Campania (Napoli)",
+              "english": "Campania (Naples)",
+              "pronunciation": "lah kahm-PAH-nyah"
+            },
+            {
+              "italian": "La Sicilia (Palermo)",
+              "english": "Sicily (Palermo)",
+              "pronunciation": "lah see-CHEE-lyah"
+            },
+            {
+              "italian": "Il Veneto (Venezia)",
+              "english": "Veneto (Venice)",
+              "pronunciation": "eel veh-NEH-toh"
+            },
+            {
+              "italian": "L'Emilia-Romagna (Bologna)",
+              "english": "Emilia-Romagna (Bologna)",
+              "pronunciation": "leh-MEE-lyah roh-MAH-nyah"
+            },
+            {
+              "italian": "La Sardegna (Cagliari)",
+              "english": "Sardinia (Cagliari)",
+              "pronunciation": "lah sahr-DEH-nyah"
+            },
+            {
+              "italian": "Il Piemonte (Torino)",
+              "english": "Piedmont (Turin)",
+              "pronunciation": "eel pyeh-MOHN-teh"
+            },
+            {
+              "italian": "La Puglia (Bari)",
+              "english": "Puglia (Bari)",
+              "pronunciation": "lah POO-lyah"
+            }
+          ]
+        }
+      },
+      {
+        "type": "example",
+        "content": {
+          "dialogue": [
+            {
+              "speaker": "A",
+              "italian": "Qual è la tua regione preferita in Italia?",
+              "english": "What is your favorite region in Italy?"
+            },
+            {
+              "speaker": "B",
+              "italian": "Mi piace molto la Toscana. Il paesaggio è bellissimo!",
+              "english": "I really like Tuscany. The landscape is beautiful!"
+            },
+            {
+              "speaker": "A",
+              "italian": "Hai ragione! E la cucina toscana è fantastica.",
+              "english": "You're right! And Tuscan cuisine is fantastic."
+            },
+            {
+              "speaker": "B",
+              "italian": "La prossima estate andrò in Sicilia per scoprire la loro cucina.",
+              "english": "Next summer I'll go to Sicily to discover their cuisine."
+            }
+          ]
+        }
+      },
+      {
+        "type": "multiple_choice",
+        "content": {
+          "question": "Which region is Florence (Firenze) in?",
+          "options": ["Lazio", "Toscana", "Lombardia", "Campania"],
+          "answer": "Toscana"
+        }
+      },
+      {
+        "type": "translation",
+        "content": {
+          "direction": "en-to-it",
+          "sentence": "Sicily is the largest island in the Mediterranean.",
+          "answer": "La Sicilia è la più grande isola nel Mediterraneo.",
+          "hint": "la più grande = the largest"
+        }
+      },
+      {
+        "type": "fill_blank",
+        "content": {
+          "sentence": "La ___(Campania) è famosa per la pizza napoletana.",
+          "answer": "Campania",
+          "hint": "The region where Naples is located"
+        }
+      }
+    ]
+  },
+  {
+    "id": "lesson-120",
+    "title": "Storytelling and Narration",
+    "level": "C1",
+    "unit": 15,
+    "unitTitle": "Advanced Communication",
+    "description": "Master narrating stories, using literary tenses, and expressing nuance in Italian.",
+    "duration": 18,
+    "steps": [
+      {
+        "type": "learn",
+        "content": {
+          "title": "Narrative Tenses",
+          "text": "Advanced storytelling in Italian uses trapassato prossimo (pluperfect) and literary past tenses to create vivid narratives.",
+          "items": [
+            {
+              "italian": "Avevo già mangiato quando è arrivato.",
+              "english": "I had already eaten when he arrived.",
+              "pronunciation": "ah-VEH-voh JAH mahn-JAH-toh KWAHN-doh eh ah-ree-VAH-toh"
+            },
+            {
+              "italian": "Era caduta la sera quando ho sentito un rumore.",
+              "english": "Night had fallen when I heard a noise.",
+              "pronunciation": "EH-rah kah-DOO-tah lah SEH-rah KWAHN-doh oh SEHN-tee-toh oon roo-MOH-reh"
+            },
+            {
+              "italian": "Stavo per uscire quando ha telefonato.",
+              "english": "I was about to go out when the phone rang.",
+              "pronunciation": "STAH-voh pehr oos-CHEE-reh KWAHN-doh ah teh-leh-foh-NAH-toh"
+            },
+            {
+              "italian": "Non mi ero accorto che pioveva.",
+              "english": "I hadn't noticed that it was raining.",
+              "pronunciation": "nohn mee EH-roh ahk-KOHR-toh keh pyoh-VEH-vah"
+            },
+            {
+              "italian": "Fino a quel momento non avevo mai visto il mare.",
+              "english": "Until that moment I had never seen the sea.",
+              "pronunciation": "FEE-noh ah kwehl meh-NEHN-toh nohn ah-VEH-voh mai VEE-stoh eel MAH-reh"
+            },
+            {
+              "italian": "Quando sono arrivato, tutti erano già partiti.",
+              "english": "When I arrived, everyone had already left.",
+              "pronunciation": "KWAHN-doh SOH-noh ah-ree-VAH-toh, TOOT-tee eh-RAH-noh JAH pahr-TEE-tee"
+            }
+          ]
+        }
+      },
+      {
+        "type": "example",
+        "content": {
+          "dialogue": [
+            {
+              "speaker": "Narrator",
+              "italian": "Era una sera di novembre. Io stavo leggendo un libro quando ho sentito un rumore alla porta.",
+              "english": "It was a November evening. I was reading a book when I heard a noise at the door."
+            },
+            {
+              "speaker": "Narrator",
+              "italian": "Non mi ero accorto che aveva piovuto tutto il giorno. Ero uscito senza ombrello.",
+              "english": "I hadn't noticed that it had rained all day. I had gone out without an umbrella."
+            },
+            {
+              "speaker": "Narrator",
+              "italian": "A quel punto, ho deciso di restare a casa e continuare a leggere.",
+              "english": "At that point, I decided to stay home and continue reading."
+            }
+          ]
+        }
+      },
+      {
+        "type": "multiple_choice",
+        "content": {
+          "question": "Which tense is 'avevo già mangiato'?",
+          "options": ["Passato prossimo", "Imperfetto", "Trapassato prossimo", "Passato remoto"],
+          "answer": "Trapassato prossimo"
+        }
+      },
+      {
+        "type": "translation",
+        "content": {
+          "direction": "en-to-it",
+          "sentence": "I had already left when she called me.",
+          "answer": "Ero già uscito quando lei mi ha chiamato.",
+          "hint": "Ero uscito = I had left (trapassato prossimo)"
+        }
+      },
+      {
+        "type": "fill_blank",
+        "content": {
+          "sentence": "Quando sono arrivato, loro ___(essere) già partiti.",
+          "answer": "erano",
+          "hint": "imperfetto of essere"
+        }
+      }
+    ]
   }
 ];
 
