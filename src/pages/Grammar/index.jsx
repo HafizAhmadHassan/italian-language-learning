@@ -122,6 +122,12 @@ export default function GrammarPage() {
     return { done, total: topic.sections.length };
   };
 
+  const getSectionExercises = (section) => {
+    if (section.exercises && section.exercises.length > 0) return section.exercises;
+    if (section.exercise) return [section.exercise];
+    return [];
+  };
+
   const levelColor = (level) => {
     switch (level) {
       case 'A1': return 'bg-italian-green/15 text-italian-green border-italian-green/30';
@@ -295,20 +301,23 @@ export default function GrammarPage() {
                                   </div>
                                 )}
 
-                                {section.exercise && (
-                                  <div className="pl-8">
-                                    <div className="flex items-center gap-2 mb-3">
+                                {getSectionExercises(section).length > 0 && (
+                                  <div className="pl-8 space-y-3">
+                                    <div className="flex items-center gap-2">
                                       <Award className="w-4 h-4 text-italian-gold" />
                                       <span className="text-xs font-semibold text-italian-gold uppercase tracking-wider">
-                                        Mini Exercise
+                                        Mini Exercise{getSectionExercises(section).length > 1 ? 's' : ''}
                                       </span>
                                     </div>
-                                    <GrammarExercise
-                                      exercise={section.exercise}
-                                      topicId={topic.id}
-                                      sectionIdx={sIdx}
-                                      onComplete={handleExerciseComplete}
-                                    />
+                                    {getSectionExercises(section).map((ex, exIdx) => (
+                                      <GrammarExercise
+                                        key={exIdx}
+                                        exercise={ex}
+                                        topicId={topic.id}
+                                        sectionIdx={sIdx}
+                                        onComplete={handleExerciseComplete}
+                                      />
+                                    ))}
                                   </div>
                                 )}
                               </div>
