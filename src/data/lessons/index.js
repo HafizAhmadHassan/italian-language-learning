@@ -17046,6 +17046,1703 @@ const lessons = [
         }
       }
     ]
+  },
+  {
+    "id": "lesson-96",
+    "title": "Clothing and Fashion",
+    "level": "A2",
+    "unit": 5,
+    "unitTitle": "Daily Life",
+    "description": "Learn Italian vocabulary for clothing, colors, and shopping for clothes.",
+    "duration": 12,
+    "steps": [
+      {
+        "type": "learn",
+        "content": {
+          "title": "Clothing Vocabulary",
+          "text": "Essential Italian vocabulary for clothing and fashion.",
+          "items": [
+            {
+              "italian": "La maglia",
+              "english": "The t-shirt/shirt",
+              "pronunciation": "MAH-lyah"
+            },
+            {
+              "italian": "I pantaloni",
+              "english": "The pants",
+              "pronunciation": "pahn-tah-LOH-nee"
+            },
+            {
+              "italian": "La gonna",
+              "english": "The skirt",
+              "pronunciation": "GOHN-nah"
+            },
+            {
+              "italian": "Il vestito",
+              "english": "The dress",
+              "pronunciation": "veh-STEE-toh"
+            },
+            {
+              "italian": "Le scarpe",
+              "english": "The shoes",
+              "pronunciation": "SKAHR-peh"
+            },
+            {
+              "italian": "Il cappotto",
+              "english": "The coat",
+              "pronunciation": "kahp-POHT-toh"
+            },
+            {
+              "italian": "La camicia",
+              "english": "The shirt (button-down)",
+              "pronunciation": "kah-MEE-chah"
+            },
+            {
+              "italian": "I jeans",
+              "english": "The jeans",
+              "pronunciation": "jeens"
+            },
+            {
+              "italian": "La giacca",
+              "english": "The jacket",
+              "pronunciation": "jahk-KAH"
+            },
+            {
+              "italian": "Il cappello",
+              "english": "The hat",
+              "pronunciation": "kahp-PEHL-loh"
+            },
+            {
+              "italian": "La borsa",
+              "english": "The bag",
+              "pronunciation": "BOHR-sah"
+            },
+            {
+              "italian": "Giallo",
+              "english": "Yellow",
+              "pronunciation": "JAHL-loh"
+            },
+            {
+              "italian": "Blu",
+              "english": "Blue",
+              "pronunciation": "BLOO"
+            },
+            {
+              "italian": "Verde",
+              "english": "Green",
+              "pronunciation": "VEHR-deh"
+            }
+          ]
+        }
+      },
+      {
+        "type": "example",
+        "content": {
+          "dialogue": [
+            {
+              "speaker": "A",
+              "italian": "Ti piace questa gonna rossa?",
+              "english": "Do you like this red skirt?"
+            },
+            {
+              "speaker": "B",
+              "italian": "Si, e bellissima! Quanto costa?",
+              "english": "Yes, it's beautiful! How much does it cost?"
+            },
+            {
+              "speaker": "A",
+              "italian": "Costa quaranta euro.",
+              "english": "It costs forty euros."
+            },
+            {
+              "speaker": "B",
+              "italian": "Posso provare la taglia media?",
+              "english": "Can I try the medium size?"
+            },
+            {
+              "speaker": "A",
+              "italian": "Cosa vuoi comprare oggi?",
+              "english": "What do you want to buy today?"
+            },
+            {
+              "speaker": "B",
+              "italian": "Voglio comprare un paio di scarpe nuove.",
+              "english": "I want to buy a pair of new shoes."
+            }
+          ]
+        }
+      },
+      {
+        "type": "multiple_choice",
+        "content": {
+          "question": "What does \"la gonna\" mean?",
+          "options": [
+            "The pants",
+            "The skirt",
+            "The dress",
+            "The coat"
+          ],
+          "answer": "The skirt"
+        }
+      },
+      {
+        "type": "translation",
+        "content": {
+          "direction": "it-to-en",
+          "sentence": "Ho bisogno di un cappotto nuovo per l'inverno.",
+          "answer": "I need a new coat for winter.",
+          "hint": "cappotto = coat, inverno = winter"
+        }
+      },
+      {
+        "type": "fill_blank",
+        "content": {
+          "sentence": "Voglio comprare una ___(maglia) blu.",
+          "answer": "maglia",
+          "hint": "t-shirt/shirt"
+        }
+      },
+      {
+        "type": "review",
+        "content": {
+          "title": "Clothing Review",
+          "items": [
+            {
+              "italian": "La maglia",
+              "english": "The t-shirt"
+            },
+            {
+              "italian": "I pantaloni",
+              "english": "The pants"
+            },
+            {
+              "italian": "Le scarpe",
+              "english": "The shoes"
+            },
+            {
+              "italian": "La giacca",
+              "english": "The jacket"
+            },
+            {
+              "italian": "Il vestito",
+              "english": "The dress"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "lesson-97",
+    "title": "Weather and Seasons",
+    "level": "A1",
+    "unit": 2,
+    "unitTitle": "Building Blocks",
+    "description": "Talk about weather, seasons, and climate in Italian.",
+    "duration": 12,
+    "steps": [
+      {
+        "type": "learn",
+        "content": {
+          "title": "Weather Vocabulary",
+          "text": "Learn to describe weather and seasons in Italian. Use 'fare' for weather expressions:",
+          "items": [
+            {
+              "italian": "Che tempo fa?",
+              "english": "What's the weather like?"
+            },
+            {
+              "italian": "Fa caldo",
+              "english": "It's hot"
+            },
+            {
+              "italian": "Fa freddo",
+              "english": "It's cold"
+            },
+            {
+              "italian": "Piove",
+              "english": "It's raining"
+            },
+            {
+              "italian": "Nevica",
+              "english": "It's snowing"
+            },
+            {
+              "italian": "Tira vento",
+              "english": "It's windy"
+            },
+            {
+              "italian": "La primavera",
+              "english": "Spring",
+              "pronunciation": "preh-mah-VEH-rah"
+            },
+            {
+              "italian": "L'estate",
+              "english": "Summer",
+              "pronunciation": "lehs-TAH-teh"
+            },
+            {
+              "italian": "L'autunno",
+              "english": "Autumn",
+              "pronunciation": "lah-TOON-noh"
+            },
+            {
+              "italian": "L'inverno",
+              "english": "Winter",
+              "pronunciation": "leen-VEHR-noh"
+            },
+            {
+              "italian": "Il sole",
+              "english": "The sun",
+              "pronunciation": "SOH-leh"
+            },
+            {
+              "italian": "La nuvola",
+              "english": "The cloud",
+              "pronunciation": "NWOO-voh-lah"
+            }
+          ]
+        }
+      },
+      {
+        "type": "example",
+        "content": {
+          "dialogue": [
+            {
+              "speaker": "A",
+              "italian": "Che tempo fa oggi?",
+              "english": "What's the weather like today?"
+            },
+            {
+              "speaker": "B",
+              "italian": "Fa caldo e c'e il sole.",
+              "english": "It's hot and sunny."
+            },
+            {
+              "speaker": "A",
+              "italian": "E la settimana prossima?",
+              "english": "And next week?"
+            },
+            {
+              "speaker": "B",
+              "italian": "Piovera per tre giorni.",
+              "english": "It will rain for three days."
+            },
+            {
+              "speaker": "A",
+              "italian": "Quale stagione ti piace di piu?",
+              "english": "Which season do you like most?"
+            },
+            {
+              "speaker": "B",
+              "italian": "Mi piace la primavera perche fa bel tempo.",
+              "english": "I like spring because the weather is nice."
+            }
+          ]
+        }
+      },
+      {
+        "type": "multiple_choice",
+        "content": {
+          "question": "What does \"nevica\" mean?",
+          "options": [
+            "It's raining",
+            "It's snowing",
+            "It's windy",
+            "It's foggy"
+          ],
+          "answer": "It's snowing"
+        }
+      },
+      {
+        "type": "translation",
+        "content": {
+          "direction": "en-to-it",
+          "sentence": "In autumn it gets cold and it rains often.",
+          "answer": "In autunno fa freddo e piove spesso.",
+          "hint": "autunno = autumn, fa freddo = it's cold"
+        }
+      },
+      {
+        "type": "fill_blank",
+        "content": {
+          "sentence": "In estate fa ___(caldo) e si va al mare.",
+          "answer": "caldo",
+          "hint": "hot"
+        }
+      },
+      {
+        "type": "review",
+        "content": {
+          "title": "Weather Review",
+          "items": [
+            {
+              "italian": "Fa caldo",
+              "english": "It's hot"
+            },
+            {
+              "italian": "Fa freddo",
+              "english": "It's cold"
+            },
+            {
+              "italian": "Piove",
+              "english": "It rains"
+            },
+            {
+              "italian": "Nevica",
+              "english": "It snows"
+            },
+            {
+              "italian": "Tira vento",
+              "english": "It's windy"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "lesson-98",
+    "title": "Health and Body",
+    "level": "A2",
+    "unit": 6,
+    "unitTitle": "Activities",
+    "description": "Learn Italian vocabulary for body parts, health, and visiting the doctor.",
+    "duration": 15,
+    "steps": [
+      {
+        "type": "learn",
+        "content": {
+          "title": "Body and Health",
+          "text": "Essential Italian vocabulary for the body, health, and medical situations.",
+          "items": [
+            {
+              "italian": "La testa",
+              "english": "The head",
+              "pronunciation": "TEHS-tah"
+            },
+            {
+              "italian": "Gli occhi",
+              "english": "The eyes",
+              "pronunciation": "LYOH-kee"
+            },
+            {
+              "italian": "Le orecchie",
+              "english": "The ears",
+              "pronunciation": "leh oh-REHK-kyeh"
+            },
+            {
+              "italian": "Il naso",
+              "english": "The nose",
+              "pronunciation": "NAH-zoh"
+            },
+            {
+              "italian": "La bocca",
+              "english": "The mouth",
+              "pronunciation": "BOHK-kah"
+            },
+            {
+              "italian": "La mano",
+              "english": "The hand",
+              "pronunciation": "MAH-noh"
+            },
+            {
+              "italian": "Il braccio",
+              "english": "The arm",
+              "pronunciation": "BRAH-choh"
+            },
+            {
+              "italian": "La gamba",
+              "english": "The leg",
+              "pronunciation": "GAHM-bah"
+            },
+            {
+              "italian": "Il cuore",
+              "english": "The heart",
+              "pronunciation": "KWOH-reh"
+            },
+            {
+              "italian": "La febbre",
+              "english": "The fever",
+              "pronunciation": "FEHB-breh"
+            },
+            {
+              "italian": "Il mal di testa",
+              "english": "The headache",
+              "pronunciation": "eel mahl dee TEHS-tah"
+            },
+            {
+              "italian": "Il dottore",
+              "english": "The doctor",
+              "pronunciation": "dohk-TOH-reh"
+            },
+            {
+              "italian": "La medicina",
+              "english": "The medicine",
+              "pronunciation": "meh-dee-CHEE-nah"
+            },
+            {
+              "italian": "La farmacia",
+              "english": "The pharmacy",
+              "pronunciation": "fahr-mah-CHEE-ah"
+            }
+          ]
+        }
+      },
+      {
+        "type": "example",
+        "content": {
+          "dialogue": [
+            {
+              "speaker": "A",
+              "italian": "Come stai? Non sembri in forma.",
+              "english": "How are you? You don't look well."
+            },
+            {
+              "speaker": "B",
+              "italian": "Ho mal di testa e ho la febbre.",
+              "english": "I have a headache and a fever."
+            },
+            {
+              "speaker": "A",
+              "italian": "Dovresti andare dal dottore.",
+              "english": "You should go to the doctor."
+            },
+            {
+              "speaker": "B",
+              "italian": "Hai ragione. Vado in farmacia a comprare la medicina.",
+              "english": "You're right. I'll go to the pharmacy to buy medicine."
+            },
+            {
+              "speaker": "A",
+              "italian": "Che hai? Ti fa male qualcosa?",
+              "english": "What's wrong? Does something hurt?"
+            },
+            {
+              "speaker": "B",
+              "italian": "Mi fa male la gola e ho il raffreddore.",
+              "english": "My throat hurts and I have a cold."
+            }
+          ]
+        }
+      },
+      {
+        "type": "multiple_choice",
+        "content": {
+          "question": "What does \"la febbre\" mean?",
+          "options": [
+            "The headache",
+            "The fever",
+            "The cold",
+            "The cough"
+          ],
+          "answer": "The fever"
+        }
+      },
+      {
+        "type": "translation",
+        "content": {
+          "direction": "en-to-it",
+          "sentence": "I need to go to the pharmacy to buy medicine.",
+          "answer": "Devo andare in farmacia a comprare la medicina.",
+          "hint": "farmacia = pharmacy, medicina = medicine"
+        }
+      },
+      {
+        "type": "fill_blank",
+        "content": {
+          "sentence": "Ho il ___(mal di testa) da stamattina.",
+          "answer": "mal di testa",
+          "hint": "headache"
+        }
+      },
+      {
+        "type": "review",
+        "content": {
+          "title": "Health Review",
+          "items": [
+            {
+              "italian": "La testa",
+              "english": "The head"
+            },
+            {
+              "italian": "La febbre",
+              "english": "The fever"
+            },
+            {
+              "italian": "Il dottore",
+              "english": "The doctor"
+            },
+            {
+              "italian": "La farmacia",
+              "english": "The pharmacy"
+            },
+            {
+              "italian": "Il cuore",
+              "english": "The heart"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "lesson-99",
+    "title": "Education and School",
+    "level": "A2",
+    "unit": 6,
+    "unitTitle": "Activities",
+    "description": "Discuss school, studies, and education in Italian.",
+    "duration": 12,
+    "steps": [
+      {
+        "type": "learn",
+        "content": {
+          "title": "School Vocabulary",
+          "text": "Essential Italian vocabulary for school and education.",
+          "items": [
+            {
+              "italian": "La scuola",
+              "english": "The school",
+              "pronunciation": "SKWOOH-lah"
+            },
+            {
+              "italian": "L'universita",
+              "english": "The university",
+              "pronunciation": "oo-nee-vehr-see-TAH"
+            },
+            {
+              "italian": "Lo studente",
+              "english": "The student (male)",
+              "pronunciation": "stoo-DEN-teh"
+            },
+            {
+              "italian": "La studentessa",
+              "english": "The student (female)",
+              "pronunciation": "stoo-den-TEHS-sah"
+            },
+            {
+              "italian": "Il professore",
+              "english": "The professor",
+              "pronunciation": "proh-fehs-TOH-reh"
+            },
+            {
+              "italian": "La professoressa",
+              "english": "The professor (female)",
+              "pronunciation": "proh-fehs-oh-REHS-sah"
+            },
+            {
+              "italian": "L'esame",
+              "english": "The exam",
+              "pronunciation": "leh-ZAH-meh"
+            },
+            {
+              "italian": "Il compito",
+              "english": "The homework/assignment",
+              "pronunciation": "kohm-PEE-toh"
+            },
+            {
+              "italian": "La lezione",
+              "english": "The lesson",
+              "pronunciation": "leh-TSYOH-neh"
+            },
+            {
+              "italian": "La materia",
+              "english": "The subject",
+              "pronunciation": "mah-TYEH-ryah"
+            },
+            {
+              "italian": "Il libro",
+              "english": "The book",
+              "pronunciation": "LEE-broh"
+            },
+            {
+              "italian": "Lo zaino",
+              "english": "The backpack",
+              "pronunciation": "DZYEYE-noh"
+            }
+          ]
+        }
+      },
+      {
+        "type": "example",
+        "content": {
+          "dialogue": [
+            {
+              "speaker": "A",
+              "italian": "Sei studente?",
+              "english": "Are you a student?"
+            },
+            {
+              "speaker": "B",
+              "italian": "Si, studio informatica all'universita.",
+              "english": "Yes, I study computer science at university."
+            },
+            {
+              "speaker": "A",
+              "italian": "Che materia preferisci?",
+              "english": "What subject do you prefer?"
+            },
+            {
+              "speaker": "B",
+              "italian": "Mi piace la matematica, ma e difficile.",
+              "english": "I like math, but it's difficult."
+            },
+            {
+              "speaker": "A",
+              "italian": "Quando hai l'esame?",
+              "english": "When is your exam?"
+            },
+            {
+              "speaker": "B",
+              "italian": "L'esame e lunedi. Devo studiare molto!",
+              "english": "The exam is Monday. I need to study a lot!"
+            }
+          ]
+        }
+      },
+      {
+        "type": "multiple_choice",
+        "content": {
+          "question": "What does \"il compito\" mean?",
+          "options": [
+            "The exam",
+            "The homework",
+            "The lesson",
+            "The book"
+          ],
+          "answer": "The homework"
+        }
+      },
+      {
+        "type": "translation",
+        "content": {
+          "direction": "en-to-it",
+          "sentence": "I have an exam on Friday and I need to study.",
+          "answer": "Ho un esame venerdi e devo studiare.",
+          "hint": "esame = exam, studiare = to study"
+        }
+      },
+      {
+        "type": "fill_blank",
+        "content": {
+          "sentence": "Il ___(professore) di italiano e molto simpatico.",
+          "answer": "professore",
+          "hint": "professor"
+        }
+      },
+      {
+        "type": "review",
+        "content": {
+          "title": "School Review",
+          "items": [
+            {
+              "italian": "La scuola",
+              "english": "The school"
+            },
+            {
+              "italian": "L'esame",
+              "english": "The exam"
+            },
+            {
+              "italian": "Il professore",
+              "english": "The professor"
+            },
+            {
+              "italian": "La lezione",
+              "english": "The lesson"
+            },
+            {
+              "italian": "Lo studente",
+              "english": "The student"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "lesson-100",
+    "title": "Emotions and Feelings",
+    "level": "B1",
+    "unit": 7,
+    "unitTitle": "Culture and Society",
+    "description": "Express emotions, feelings, and states of mind in Italian.",
+    "duration": 15,
+    "steps": [
+      {
+        "type": "learn",
+        "content": {
+          "title": "Emotion Vocabulary",
+          "text": "Learn to express emotions and feelings in Italian. Use 'sentirsi' (to feel) or 'essere' (to be):",
+          "items": [
+            {
+              "italian": "Essere felice",
+              "english": "To be happy",
+              "pronunciation": "ehs-SEH-reh feh-LEE-cheh"
+            },
+            {
+              "italian": "Essere triste",
+              "english": "To be sad",
+              "pronunciation": "ehs-SEH-reh TREE-steh"
+            },
+            {
+              "italian": "Essere arrabbiato",
+              "english": "To be angry",
+              "pronunciation": "ehs-SEH-reh ahr-rahb-BYAH-toh"
+            },
+            {
+              "italian": "Essere nervoso",
+              "english": "To be nervous",
+              "pronunciation": "ehs-SEH-reh nehr-VOH-zoh"
+            },
+            {
+              "italian": "Essere stanco",
+              "english": "To be tired",
+              "pronunciation": "ehs-SEH-reh STAHN-koh"
+            },
+            {
+              "italian": "Essere eccitato",
+              "english": "To be excited",
+              "pronunciation": "ehs-SEH-reh ehk-chee-TAH-toh"
+            },
+            {
+              "italian": "Essere orgoglioso",
+              "english": "To be proud",
+              "pronunciation": "ehs-SEH-reh ohr-GOH-lyoh-zoh"
+            },
+            {
+              "italian": "Essere confuso",
+              "english": "To be confused",
+              "pronunciation": "ehs-SEH-reh kohn-FOO-zoh"
+            },
+            {
+              "italian": "Avere paura",
+              "english": "To be afraid",
+              "pronunciation": "ah-VEH-reh pah-OO-rah"
+            },
+            {
+              "italian": "Avere nostalgia",
+              "english": "To be nostalgic",
+              "pronunciation": "ah-VEH-reh nohs-TAH-lyah"
+            },
+            {
+              "italian": "Amare",
+              "english": "To love",
+              "pronunciation": "ah-MAH-reh"
+            },
+            {
+              "italian": "Odiare",
+              "english": "To hate",
+              "pronunciation": "oh-DYAH-reh"
+            }
+          ]
+        }
+      },
+      {
+        "type": "example",
+        "content": {
+          "dialogue": [
+            {
+              "speaker": "A",
+              "italian": "Come ti senti oggi?",
+              "english": "How do you feel today?"
+            },
+            {
+              "speaker": "B",
+              "italian": "Sono molto contento. Domani parte le vacanze!",
+              "english": "I'm very happy. Tomorrow the vacation starts!"
+            },
+            {
+              "speaker": "A",
+              "italian": "Ti invidio! Io sono stressato per il lavoro.",
+              "english": "I'm jealous! I'm stressed about work."
+            },
+            {
+              "speaker": "B",
+              "italian": "Non essere triste. Tutto andra bene!",
+              "english": "Don't be sad. Everything will be fine!"
+            },
+            {
+              "speaker": "A",
+              "italian": "Hai mai avuto paura di qualcosa?",
+              "english": "Have you ever been afraid of something?"
+            },
+            {
+              "speaker": "B",
+              "italian": "Si, ho avuto paura dei ragni da piccolo.",
+              "english": "Yes, I was afraid of spiders when I was little."
+            }
+          ]
+        }
+      },
+      {
+        "type": "multiple_choice",
+        "content": {
+          "question": "How do you say \"to be nervous\" in Italian?",
+          "options": [
+            "Essere triste",
+            "Essere nervoso",
+            "Essere stanco",
+            "Essere felice"
+          ],
+          "answer": "Essere nervoso"
+        }
+      },
+      {
+        "type": "translation",
+        "content": {
+          "direction": "en-to-it",
+          "sentence": "I feel happy when I listen to music.",
+          "answer": "Mi sento felice quando ascolto la musica.",
+          "hint": "mi sento = I feel, felice = happy"
+        }
+      },
+      {
+        "type": "fill_blank",
+        "content": {
+          "sentence": "Oggi sono molto ___(felice) per la notizia.",
+          "answer": "felice",
+          "hint": "happy"
+        }
+      },
+      {
+        "type": "review",
+        "content": {
+          "title": "Emotions Review",
+          "items": [
+            {
+              "italian": "Essere felice",
+              "english": "To be happy"
+            },
+            {
+              "italian": "Essere triste",
+              "english": "To be sad"
+            },
+            {
+              "italian": "Essere arrabbiato",
+              "english": "To be angry"
+            },
+            {
+              "italian": "Essere stanco",
+              "english": "To be tired"
+            },
+            {
+              "italian": "Avere paura",
+              "english": "To be afraid"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "lesson-101",
+    "title": "Numbers and Time",
+    "level": "A1",
+    "unit": 1,
+    "unitTitle": "First Steps",
+    "description": "Master numbers, telling time, and talking about schedules.",
+    "duration": 14,
+    "steps": [
+      {
+        "type": "learn",
+        "content": {
+          "title": "Numbers and Time",
+          "text": "Learn Italian numbers and how to tell time. Numbers 1-20 are irregular, then follow patterns:",
+          "items": [
+            {
+              "italian": "Uno, due, tre",
+              "english": "One, two, three"
+            },
+            {
+              "italian": "Quattro, cinque, sei",
+              "english": "Four, five, six"
+            },
+            {
+              "italian": "Sette, otto, nove, dieci",
+              "english": "Seven, eight, nine, ten"
+            },
+            {
+              "italian": "Quindici, venti, trenta",
+              "english": "Fifteen, twenty, thirty"
+            },
+            {
+              "italian": "Che ore sono?",
+              "english": "What time is it?"
+            },
+            {
+              "italian": "Sono le tre",
+              "english": "It's three o'clock"
+            },
+            {
+              "italian": "E mezzogiorno",
+              "english": "It's noon"
+            },
+            {
+              "italian": "E mezzanotte",
+              "english": "It's midnight"
+            },
+            {
+              "italian": "Le otto e mezza",
+              "english": "Half past eight"
+            },
+            {
+              "italian": "Le dieci e un quarto",
+              "english": "Quarter past ten"
+            },
+            {
+              "italian": "Le cinque senza dieci",
+              "english": "Five to five"
+            },
+            {
+              "italian": "Da che ora e?",
+              "english": "Since what time?"
+            }
+          ]
+        }
+      },
+      {
+        "type": "example",
+        "content": {
+          "dialogue": [
+            {
+              "speaker": "A",
+              "italian": "Che ore sono?",
+              "english": "What time is it?"
+            },
+            {
+              "speaker": "B",
+              "italian": "Sono le quattro e mezza.",
+              "english": "It's four thirty."
+            },
+            {
+              "speaker": "A",
+              "italian": "A che ora inizia il film?",
+              "english": "What time does the movie start?"
+            },
+            {
+              "speaker": "B",
+              "italian": "Alle sette e mezza. Arrivo in anticipo!",
+              "english": "At seven thirty. I'll arrive early!"
+            },
+            {
+              "speaker": "A",
+              "italian": "Quanti anni hai?",
+              "english": "How old are you?"
+            },
+            {
+              "speaker": "B",
+              "italian": "Ho ventiquattro anni.",
+              "english": "I am twenty-four years old."
+            }
+          ]
+        }
+      },
+      {
+        "type": "multiple_choice",
+        "content": {
+          "question": "What does \"Sono le tre\" mean?",
+          "options": [
+            "I have three",
+            "It's three o'clock",
+            "There are three",
+            "We are three"
+          ],
+          "answer": "It's three o'clock"
+        }
+      },
+      {
+        "type": "translation",
+        "content": {
+          "direction": "en-to-it",
+          "sentence": "It's quarter past two.",
+          "answer": "Sono le due e un quarto.",
+          "hint": "un quarto = quarter past"
+        }
+      },
+      {
+        "type": "fill_blank",
+        "content": {
+          "sentence": "Che ___(ore) sono? Sono le otto.",
+          "answer": "ore",
+          "hint": "hours (what time)"
+        }
+      },
+      {
+        "type": "review",
+        "content": {
+          "title": "Numbers and Time Review",
+          "items": [
+            {
+              "italian": "Uno-dieci",
+              "english": "One-ten"
+            },
+            {
+              "italian": "Sono le tre",
+              "english": "It's three o'clock"
+            },
+            {
+              "italian": "E mezza",
+              "english": "It's half past"
+            },
+            {
+              "italian": "E un quarto",
+              "english": "It's quarter past"
+            },
+            {
+              "italian": "Senza dieci",
+              "english": "Ten to (the hour)"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "lesson-102",
+    "title": "Travel and Tourism",
+    "level": "B1",
+    "unit": 7,
+    "unitTitle": "Culture and Society",
+    "description": "Plan trips, navigate airports, and explore Italy like a local.",
+    "duration": 15,
+    "steps": [
+      {
+        "type": "learn",
+        "content": {
+          "title": "Travel Vocabulary",
+          "text": "Essential vocabulary for traveling in Italy.",
+          "items": [
+            {
+              "italian": "Il volo",
+              "english": "The flight",
+              "pronunciation": "VOH-loh"
+            },
+            {
+              "italian": "L'aeroporto",
+              "english": "The airport",
+              "pronunciation": "ah-eh-roh-POHR-toh"
+            },
+            {
+              "italian": "Il passaporto",
+              "english": "The passport",
+              "pronunciation": "pahs-sah-POHR-toh"
+            },
+            {
+              "italian": "La prenotazione",
+              "english": "The reservation",
+              "pronunciation": "preh-noh-tah-TSYOH-neh"
+            },
+            {
+              "italian": "L'albergo",
+              "english": "The hotel",
+              "pronunciation": "ahl-BEHR-goh"
+            },
+            {
+              "italian": "L'appartamento",
+              "english": "The apartment",
+              "pronunciation": "ahp-pahr-tah-MEHN-toh"
+            },
+            {
+              "italian": "Il bagaglio",
+              "english": "The luggage",
+              "pronunciation": "bah-GAH-lyoh"
+            },
+            {
+              "italian": "Il controllo passaporti",
+              "english": "Passport control",
+              "pronunciation": "kohn-TROH-loh pahs-sah-POHR-tee"
+            },
+            {
+              "italian": "La dogana",
+              "english": "Customs",
+              "pronunciation": "doh-GAH-nah"
+            },
+            {
+              "italian": "La guida turistica",
+              "english": "The tourist guide",
+              "pronunciation": "GWEE-dah too-REES-tee-kah"
+            },
+            {
+              "italian": "Il biglietto aereo",
+              "english": "The plane ticket",
+              "pronunciation": "beel-YEHT-toh ah-EH-reh-oh"
+            },
+            {
+              "italian": "La partenza",
+              "english": "The departure",
+              "pronunciation": "pahr-TEHN-tsah"
+            },
+            {
+              "italian": "L'arrivo",
+              "english": "The arrival",
+              "pronunciation": "ah-REE-voh"
+            }
+          ]
+        }
+      },
+      {
+        "type": "example",
+        "content": {
+          "dialogue": [
+            {
+              "speaker": "A",
+              "italian": "Stai andando in vacanza?",
+              "english": "Are you going on vacation?"
+            },
+            {
+              "speaker": "B",
+              "italian": "Si, vado in Sicilia per una settimana.",
+              "english": "Yes, I'm going to Sicily for a week."
+            },
+            {
+              "speaker": "A",
+              "italian": "Che bello! Come arrivi?",
+              "english": "How nice! How are you getting there?"
+            },
+            {
+              "speaker": "B",
+              "italian": "Prendo un volo diretto da Milano a Palermo.",
+              "english": "I'm taking a direct flight from Milan to Palermo."
+            },
+            {
+              "speaker": "A",
+              "italian": "Hai prenotato l'albergo?",
+              "english": "Did you book the hotel?"
+            },
+            {
+              "speaker": "B",
+              "italian": "Si, ho prenotato un appartamento nel centro storico.",
+              "english": "Yes, I booked an apartment in the historic center."
+            }
+          ]
+        }
+      },
+      {
+        "type": "multiple_choice",
+        "content": {
+          "question": "What does \"la prenotazione\" mean?",
+          "options": [
+            "The cancellation",
+            "The reservation",
+            "The passport",
+            "The ticket"
+          ],
+          "answer": "The reservation"
+        }
+      },
+      {
+        "type": "translation",
+        "content": {
+          "direction": "en-to-it",
+          "sentence": "My flight departs at eight in the morning.",
+          "answer": "Il mio volo parte alle otto di mattina.",
+          "hint": "volo = flight, parte = departs"
+        }
+      },
+      {
+        "type": "fill_blank",
+        "content": {
+          "sentence": "Ho prenotato un ___(albergo) vicino alla stazione.",
+          "answer": "albergo",
+          "hint": "hotel"
+        }
+      },
+      {
+        "type": "review",
+        "content": {
+          "title": "Travel Review",
+          "items": [
+            {
+              "italian": "Il volo",
+              "english": "The flight"
+            },
+            {
+              "italian": "L'aeroporto",
+              "english": "The airport"
+            },
+            {
+              "italian": "La prenotazione",
+              "english": "The reservation"
+            },
+            {
+              "italian": "Il passaporto",
+              "english": "The passport"
+            },
+            {
+              "italian": "La guida turistica",
+              "english": "The tourist guide"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "lesson-103",
+    "title": "Volare Conjugation",
+    "level": "B1",
+    "unit": 7,
+    "unitTitle": "Intermediate Grammar",
+    "description": "Master the complete conjugation of volare (to fly) and its uses.",
+    "duration": 12,
+    "steps": [
+      {
+        "type": "learn",
+        "content": {
+          "title": "Volare - To Fly",
+          "text": "Volare is an irregular verb meaning 'to fly'. It also means 'to want' colloquially in some regions:",
+          "items": [
+            {
+              "italian": "Io volo",
+              "english": "I fly",
+              "pronunciation": "VOH-loh"
+            },
+            {
+              "italian": "Tu voli",
+              "english": "You fly",
+              "pronunciation": "VOH-lee"
+            },
+            {
+              "italian": "Lui/Lei vola",
+              "english": "He/She flies",
+              "pronunciation": "VOH-lah"
+            },
+            {
+              "italian": "Noi voliamo",
+              "english": "We fly",
+              "pronunciation": "voh-LYAH-moh"
+            },
+            {
+              "italian": "Voi volate",
+              "english": "You all fly",
+              "pronunciation": "voh-LAH-teh"
+            },
+            {
+              "italian": "Loro volano",
+              "english": "They fly",
+              "pronunciation": "VOH-lah-noh"
+            },
+            {
+              "italian": "Il passato prossimo",
+              "english": "Ho volato",
+              "pronunciation": "oh voh-LAH-toh"
+            },
+            {
+              "italian": "Il futuro semplice",
+              "english": "Volerò",
+              "pronunciation": "voh-leh-ROH"
+            }
+          ]
+        }
+      },
+      {
+        "type": "example",
+        "content": {
+          "dialogue": [
+            {
+              "speaker": "A",
+              "italian": "A che ora vola il tuo aereo?",
+              "english": "What time does your plane fly?"
+            },
+            {
+              "speaker": "B",
+              "italian": "Vola alle sei di mattina.",
+              "english": "It flies at six in the morning."
+            },
+            {
+              "speaker": "A",
+              "italian": "Hai volato mai con Ryanair?",
+              "english": "Have you ever flown with Ryanair?"
+            },
+            {
+              "speaker": "B",
+              "italian": "Si, ho volato con loro l'anno scorso.",
+              "english": "Yes, I flew with them last year."
+            },
+            {
+              "speaker": "A",
+              "italian": "Quando volerai per Roma?",
+              "english": "When will you fly to Rome?"
+            },
+            {
+              "speaker": "B",
+              "italian": "Volerò la settimana prossima.",
+              "english": "I will fly next week."
+            }
+          ]
+        }
+      },
+      {
+        "type": "multiple_choice",
+        "content": {
+          "question": "What is the io form of volare in the present?",
+          "options": [
+            "Voli",
+            "Volo",
+            "Vola",
+            "Voliamo"
+          ],
+          "answer": "Volo"
+        }
+      },
+      {
+        "type": "fill_blank",
+        "content": {
+          "sentence": "Noi ___(volare) per Firenze domani.",
+          "answer": "voliamo",
+          "hint": "we fly (present tense)"
+        }
+      },
+      {
+        "type": "translation",
+        "content": {
+          "direction": "en-to-it",
+          "sentence": "I will fly to Venice next summer.",
+          "answer": "Volerò a Venezia la prossima estate.",
+          "hint": "volerò = I will fly, estate = summer"
+        }
+      },
+      {
+        "type": "review",
+        "content": {
+          "title": "Volare Review",
+          "items": [
+            {
+              "italian": "Io volo",
+              "english": "I fly"
+            },
+            {
+              "italian": "Tu voli",
+              "english": "You fly"
+            },
+            {
+              "italian": "Lui/Lei vola",
+              "english": "He/She flies"
+            },
+            {
+              "italian": "Noi voliamo",
+              "english": "We fly"
+            },
+            {
+              "italian": "Ho volato",
+              "english": "I flew"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "lesson-104",
+    "title": "Past Tense Review",
+    "level": "B1",
+    "unit": 7,
+    "unitTitle": "Intermediate Grammar",
+    "description": "Review and master the passato prossimo and imperfetto tenses.",
+    "duration": 16,
+    "steps": [
+      {
+        "type": "learn",
+        "content": {
+          "title": "Passato Prossimo vs Imperfetto",
+          "text": "Italian has two main past tenses. Passato prossimo for completed actions, imperfetto for descriptions and habits:",
+          "items": [
+            {
+              "italian": "Ho mangiato la pizza",
+              "english": "I ate / I have eaten pizza",
+              "pronunciation": "oh mahn-JAH-toh lah PEET-tsah"
+            },
+            {
+              "italian": "Mangiavo la pizza ogni giorno",
+              "english": "I used to eat pizza every day",
+              "pronunciation": "mahn-JAH-voh lah PEET-tsah OH-nee JOHR-noh"
+            },
+            {
+              "italian": "Sono andato al cinema",
+              "english": "I went to the movies",
+              "pronunciation": "SOH-noh ahn-DAH-toh ahl CHEE-mah-rah"
+            },
+            {
+              "italian": "Andavo al cinema da bambino",
+              "english": "I used to go to the movies as a child",
+              "pronunciation": "ahn-DAH-voh ahl CHEE-mah-rah dah bahm-BEE-noh"
+            },
+            {
+              "italian": "Ho studiato italiano",
+              "english": "I studied Italian",
+              "pronunciation": "oh stoo-DYAH-toh ee-tah-LYAH-noh"
+            },
+            {
+              "italian": "Studiavo italiano all'universita",
+              "english": "I studied Italian at university",
+              "pronunciation": "stoo-DYAH-voh ee-tah-LYAH-noh ah-loo-nee-vehr-see-TAH"
+            }
+          ]
+        }
+      },
+      {
+        "type": "example",
+        "content": {
+          "dialogue": [
+            {
+              "speaker": "A",
+              "italian": "Che hai fatto ieri?",
+              "english": "What did you do yesterday?"
+            },
+            {
+              "speaker": "B",
+              "italian": "Sono andato al mare. Il tempo era bellissimo!",
+              "english": "I went to the sea. The weather was beautiful!"
+            },
+            {
+              "speaker": "A",
+              "italian": "Che bello! Quando ero piccolo, andavo al mare ogni estate.",
+              "english": "How nice! When I was little, I used to go to the sea every summer."
+            },
+            {
+              "speaker": "B",
+              "italian": "Ieri ho mangiato una pizza margherita deliziosa.",
+              "english": "Yesterday I ate a delicious margherita pizza."
+            },
+            {
+              "speaker": "A",
+              "italian": "Quando ero giovane, mangiavo spesso la pizza.",
+              "english": "When I was young, I used to eat pizza often."
+            }
+          ]
+        }
+      },
+      {
+        "type": "multiple_choice",
+        "content": {
+          "question": "Which tense do you use for habits in the past?",
+          "options": [
+            "Passato prossimo",
+            "Imperfetto",
+            "Futuro semplice",
+            "Presente"
+          ],
+          "answer": "Imperfetto"
+        }
+      },
+      {
+        "type": "fill_blank",
+        "content": {
+          "sentence": "Quando ero bambino, ___(andare) al parco ogni giorno.",
+          "answer": "andavo",
+          "hint": "imperfetto of andare for io"
+        }
+      },
+      {
+        "type": "translation",
+        "content": {
+          "direction": "en-to-it",
+          "sentence": "Yesterday I studied Italian for two hours.",
+          "answer": "Ieri ho studiato italiano per due ore.",
+          "hint": "ho studiato = passato prossimo of studiare"
+        }
+      },
+      {
+        "type": "review",
+        "content": {
+          "title": "Past Tenses Review",
+          "items": [
+            {
+              "italian": "Ho mangiato",
+              "english": "I ate (completed)"
+            },
+            {
+              "italian": "Mangiavo",
+              "english": "I used to eat (habit)"
+            },
+            {
+              "italian": "Sono andato",
+              "english": "I went (completed)"
+            },
+            {
+              "italian": "Andavo",
+              "english": "I used to go (habit)"
+            },
+            {
+              "italian": "Era bello",
+              "english": "It was beautiful (description)"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "lesson-105",
+    "title": "Italian Wines and Regions",
+    "level": "C1",
+    "unit": 10,
+    "unitTitle": "Mastery",
+    "description": "Discuss Italian wine culture, grape varieties, and regional specialties.",
+    "duration": 15,
+    "steps": [
+      {
+        "type": "learn",
+        "content": {
+          "title": "Wine Vocabulary",
+          "text": "Learn to discuss Italian wine culture and regional specialties:",
+          "items": [
+            {
+              "italian": "Il vino",
+              "english": "The wine",
+              "pronunciation": "VEE-noh"
+            },
+            {
+              "italian": "La cantina",
+              "english": "The wine cellar",
+              "pronunciation": "kahn-TEE-nah"
+            },
+            {
+              "italian": "La vigna",
+              "english": "The vineyard",
+              "pronunciation": "VEE-nyah"
+            },
+            {
+              "italian": "Il vitigno",
+              "english": "The grape variety",
+              "pronunciation": "vee-TEE-nyoh"
+            },
+            {
+              "italian": "La bottiglia",
+              "english": "The bottle",
+              "pronunciation": "boht-TEE-lyah"
+            },
+            {
+              "italian": "Il bicchiere",
+              "english": "The glass",
+              "pronunciation": "beek-KYEH-reh"
+            },
+            {
+              "italian": "Rosso",
+              "english": "Red (wine)",
+              "pronunciation": "ROHS-soh"
+            },
+            {
+              "italian": "Bianco",
+              "english": "White (wine)",
+              "pronunciation": "BYAHN-koh"
+            },
+            {
+              "italian": "Rose",
+              "english": "Rosé",
+              "pronunciation": "roh-ZEH"
+            },
+            {
+              "italian": "Il Barolo",
+              "english": "Barolo (Piedmont wine)",
+              "pronunciation": "eel bah-ROH-loh"
+            },
+            {
+              "italian": "Il Chianti",
+              "english": "Chianti (Tuscan wine)",
+              "pronunciation": "eel KYAHN-tee"
+            },
+            {
+              "italian": "La Prosecco",
+              "english": "Prosecco (sparkling)",
+              "pronunciation": "lah proh-SEHK-koh"
+            }
+          ]
+        }
+      },
+      {
+        "type": "example",
+        "content": {
+          "dialogue": [
+            {
+              "speaker": "A",
+              "italian": "Cosa vuoi bere? Abbiamo vino rosso e bianco.",
+              "english": "What do you want to drink? We have red and white wine."
+            },
+            {
+              "speaker": "B",
+              "italian": "Vorrei un bicchiere di Barolo, per favore.",
+              "english": "I would like a glass of Barolo, please."
+            },
+            {
+              "speaker": "A",
+              "italian": "Buona scelta! Il Barolo e il re dei vini italiani.",
+              "english": "Good choice! Barolo is the king of Italian wines."
+            },
+            {
+              "speaker": "B",
+              "italian": "Qual e il vostro vino della casa?",
+              "english": "What is your house wine?"
+            },
+            {
+              "speaker": "A",
+              "italian": "Abbiamo un Chianti Classico toscano. E ottimo!",
+              "english": "We have a Tuscan Chianti Classico. It's excellent!"
+            }
+          ]
+        }
+      },
+      {
+        "type": "multiple_choice",
+        "content": {
+          "question": "What is \"la vigna\"?",
+          "options": [
+            "The wine cellar",
+            "The vineyard",
+            "The bottle",
+            "The glass"
+          ],
+          "answer": "The vineyard"
+        }
+      },
+      {
+        "type": "translation",
+        "content": {
+          "direction": "en-to-it",
+          "sentence": "A glass of Prosecco, please. It's for a celebration.",
+          "answer": "Un bicchiere di Prosecco, per favore. E per una celebrazione.",
+          "hint": "bicchiere = glass, celebrazione = celebration"
+        }
+      },
+      {
+        "type": "fill_blank",
+        "content": {
+          "sentence": "Vorrei una ___(bottiglia) di Chianti, per favore.",
+          "answer": "bottiglia",
+          "hint": "bottle"
+        }
+      },
+      {
+        "type": "review",
+        "content": {
+          "title": "Wine Review",
+          "items": [
+            {
+              "italian": "Il vino rosso",
+              "english": "Red wine"
+            },
+            {
+              "italian": "Il vino bianco",
+              "english": "White wine"
+            },
+            {
+              "italian": "La bottiglia",
+              "english": "The bottle"
+            },
+            {
+              "italian": "Il bicchiere",
+              "english": "The glass"
+            },
+            {
+              "italian": "La cantina",
+              "english": "The wine cellar"
+            }
+          ]
+        }
+      }
+    ]
   }
 ];
 

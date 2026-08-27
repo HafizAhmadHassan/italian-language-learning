@@ -2669,6 +2669,227 @@ const grammar = [
       },
     ],
   },
+  {
+    id: 'grammar-66',
+    title: 'Porridge Words (Vocativi)',
+    level: 'A2',
+    description: 'Learn Italian vocative expressions and how to address people directly.',
+    sections: [
+      {
+        title: 'Vocative Forms',
+        explanation: 'Italian uses vocative forms to address people directly. These are common in daily conversation.',
+        examples: [
+          { italian: 'Signora, scusi!', translation: 'Madam, excuse me!' },
+          { italian: 'Dottore, come sta?', translation: 'Doctor, how are you?' },
+          { italian: 'Professoressa, una domanda.', translation: 'Professor, a question.' },
+        ],
+        exercise: {
+          question: 'How do you politely address a female doctor?',
+          options: ['Dottoressa', 'Signora', 'Amica', 'Donna'],
+          answer: 'Dottoressa',
+        },
+      },
+    ],
+  },
+  {
+    id: 'grammar-67',
+    title: 'Future Conditional (Condizionale)',
+    level: 'B2',
+    description: 'Master the conditional mood for polite requests, hypothetical situations, and wishes.',
+    sections: [
+      {
+        title: 'Formation of the Conditional',
+        explanation: 'The conditional is formed with the future stem + imperfect endings: -ei, -esti, -ebbe, -emmo, -este, -ebbero.',
+        examples: [
+          { italian: 'Vorrei un caffè', translation: 'I would like a coffee' },
+          { italian: 'Potresti aiutarmi?', translation: 'Could you help me?' },
+          { italian: 'Dovremmo studiare di più.', translation: 'We should study more.' },
+        ],
+        exercise: {
+          question: 'What is "I would like" in Italian?',
+          options: ['Voglio', 'Vorrei', 'Volerò', 'Volevo'],
+          answer: 'Vorrei',
+        },
+      },
+    ],
+  },
+  {
+    id: 'grammar-68',
+    title: 'Double Pronouns',
+    level: 'B2',
+    description: 'Learn to combine direct and indirect object pronouns in Italian.',
+    sections: [
+      {
+        title: 'Combined Pronoun Order',
+        explanation: 'When combining pronouns, indirect comes before direct: me lo, te la, glielo, ce li, ve le.',
+        examples: [
+          { italian: 'Me lo dai?', translation: 'Will you give it to me?' },
+          { italian: 'Glielo ho detto.', translation: 'I told him/her (it).' },
+          { italian: 'Ce l\'hanno data.', translation: 'They gave it to us.' },
+        ],
+        exercise: {
+          question: 'What does "glielo" mean?',
+          options: ['To me it', 'To him/her it', 'To us them', 'To you it'],
+          answer: 'To him/her it',
+        },
+      },
+    ],
+  },
+  {
+    id: 'grammar-69',
+    title: 'Relative Pronouns',
+    level: 'B1',
+    description: 'Master Italian relative pronouns for connecting clauses.',
+    sections: [
+      {
+        title: 'Common Relative Pronouns',
+        explanation: 'Italian uses che, cui, il quale, chi, and dove as relative pronouns.',
+        examples: [
+          { italian: 'L\'uomo che vedo', translation: 'The man that I see' },
+          { italian: 'La persona a cui parlo', translation: 'The person to whom I speak' },
+          { italian: 'Il libro il quale ho letto', translation: 'The book which I read' },
+        ],
+        exercise: {
+          question: 'Which relative pronoun is used for people and things after prepositions?',
+          options: ['che', 'cui', 'chi', 'dove'],
+          answer: 'cui',
+        },
+      },
+    ],
+  },
+  {
+    id: 'grammar-70',
+    title: 'Direct Object Pronouns',
+    level: 'A2',
+    description: 'Learn to use direct object pronouns (lo, la, li, le) to replace nouns.',
+    sections: [
+      {
+        title: 'Direct Object Pronouns',
+        explanation: 'Direct pronouns replace the direct object: lo (him/it m), la (her/it f), li (them m), le (them f).',
+        examples: [
+          { italian: 'Lo vedo ogni giorno.', translation: 'I see him every day.' },
+          { italian: 'La conosco bene.', translation: 'I know her well.' },
+          { italian: 'Li ho comprati ieri.', translation: 'I bought them yesterday.' },
+        ],
+        exercise: {
+          question: 'What is the direct object pronoun for "her"?',
+          options: ['lo', 'la', 'li', 'le'],
+          answer: 'la',
+        },
+      },
+    ],
+  },
+  {
+    id: 'grammar-71',
+    title: 'Indirect Object Pronouns',
+    level: 'A2',
+    description: 'Learn to use indirect object pronouns (mi, ti, gli, le, ci, vi) for "to/for someone".',
+    sections: [
+      {
+        title: 'Indirect Object Pronouns',
+        explanation: 'Indirect pronouns indicate to whom or for whom: mi (to me), ti (to you), gli (to him), le (to her), ci (to us), vi (to you all).',
+        examples: [
+          { italian: 'Mi parla sempre.', translation: 'He/She always speaks to me.' },
+          { italian: 'Gli ho dato il libro.', translation: 'I gave the book to him.' },
+          { italian: 'Ci ha scritto una lettera.', translation: 'She wrote us a letter.' },
+        ],
+        exercise: {
+          question: 'What does "gli" mean as an indirect pronoun?',
+          options: ['To me', 'To you', 'To him', 'To her'],
+          answer: 'To him',
+        },
+      },
+    ],
+  },
+  {
+    id: 'grammar-72',
+    title: 'The Subjunctive Mood (Congiuntivo Presente)',
+    level: 'B1',
+    description: 'Learn when and how to use the present subjunctive in Italian.',
+    sections: [
+      {
+        title: 'Subjunctive Triggers',
+        explanation: 'The subjunctive is used after expressions of doubt, desire, opinion, and emotion: penso che, spero che, voglio che.',
+        examples: [
+          { italian: 'Penso che sia importante.', translation: 'I think it is important.' },
+          { italian: 'Spero che venga alla festa.', translation: 'I hope he comes to the party.' },
+          { italian: 'Voglio che tu studi.', translation: 'I want you to study.' },
+        ],
+        exercise: {
+          question: 'Which phrase triggers the subjunctive?',
+          options: ['So che', 'Penso che', 'Vedo che', 'Dico che'],
+          answer: 'Penso che',
+        },
+      },
+    ],
+  },
+  {
+    id: 'grammar-73',
+    title: 'Imperative Mood (Imperativo)',
+    level: 'A2',
+    description: 'Learn to give commands and make requests in Italian.',
+    sections: [
+      {
+        title: 'Imperative Forms',
+        explanation: 'The imperative has forms for tu (-a/-e), Lei (-i), noi (-iamo), voi (-ate/-ite).',
+        examples: [
+          { italian: 'Parla! (tu)', translation: 'Speak! (informal)' },
+          { italian: 'Parli! (Lei)', translation: 'Speak! (formal)' },
+          { italian: 'Parliamo! (noi)', translation: "Let's speak!" },
+          { italian: 'Parlate! (voi)', translation: 'Speak! (you all)' },
+        ],
+        exercise: {
+          question: 'What is the imperative of "parlare" for "tu"?',
+          options: ['Parli', 'Parla', 'Parlate', 'Parlare'],
+          answer: 'Parla',
+        },
+      },
+    ],
+  },
+  {
+    id: 'grammar-74',
+    title: 'Passato Prossimo vs. Imperfetto',
+    level: 'B1',
+    description: 'Understand when to use the passato prossimo (completed actions) versus imperfetto (descriptions and habits).',
+    sections: [
+      {
+        title: 'Key Differences',
+        explanation: 'Passato prossimo = completed actions. Imperfetto = descriptions, habits, ongoing states in the past.',
+        examples: [
+          { italian: 'Ho mangiato la pizza. (completed)', translation: 'I ate pizza.' },
+          { italian: 'Mangiavo la pizza ogni giorno. (habit)', translation: 'I used to eat pizza every day.' },
+          { italian: 'Era bello. (description)', translation: 'It was beautiful.' },
+        ],
+        exercise: {
+          question: 'Which tense for "I used to go to the park"?',
+          options: ['Passato prossimo', 'Imperfetto', 'Futuro', 'Presente'],
+          answer: 'Imperfetto',
+        },
+      },
+    ],
+  },
+  {
+    id: 'grammar-75',
+    title: 'Prepositions (Preposizioni)',
+    level: 'A1',
+    description: 'Master Italian prepositions and their contractions with articles.',
+    sections: [
+      {
+        title: 'Simple and Articulated Prepositions',
+        explanation: 'Simple: di, a, da, in, con, su, per, tra/fra. Articulated: di+il=dello, a+il=allo, in+il=nello, etc.',
+        examples: [
+          { italian: 'Vado al cinema.', translation: 'I go to the cinema.' },
+          { italian: 'Abito in Italia.', translation: 'I live in Italy.' },
+          { italian: 'Vengo da Roma.', translation: 'I come from Rome.' },
+        ],
+        exercise: {
+          question: 'What is "in + il" in Italian?',
+          options: ['nel', 'nello', 'nell', 'nella'],
+          answer: 'nel',
+        },
+      },
+    ],
+  },
 ];
 
 export default grammar;
