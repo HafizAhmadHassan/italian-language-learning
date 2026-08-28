@@ -1835,7 +1835,7 @@ const practice = [
     question: 'What does the Italian idiom "In bocca al lupo" mean?',
     italian: 'In bocca al lupo',
     options: ['In the mouth of the wolf', 'Good luck', 'In danger', 'Run away'],
-    correct: 'Good luck',
+    answer: 'Good luck',
     hint: 'Literally "into the mouth of the wolf" — said to wish someone well',
   },
   {
@@ -1845,7 +1845,7 @@ const practice = [
     question: 'What does "Non è tutto oro quel che luccica" mean?',
     italian: 'Non è tutto oro quel che luccica',
     options: ['All that glitters is not gold', 'Money doesn\'t grow on trees', 'The early bird catches the worm', 'Actions speak louder than words'],
-    correct: 'All that glitters is not gold',
+    answer: 'All that glitters is not gold',
     hint: 'A proverb about appearances being deceiving',
   },
   {
@@ -1855,7 +1855,7 @@ const practice = [
     question: 'What does the expression "Avere il sangue freddo" mean?',
     italian: 'Avere il sangue freddo',
     options: ['To be cold-blooded', 'To be calm and composed', 'To be scared', 'To be sick'],
-    correct: 'To be calm and composed',
+    answer: 'To be calm and composed',
     hint: 'Sangue = blood, freddo = cold',
   },
   {
@@ -1865,7 +1865,7 @@ const practice = [
     question: 'Complete the idiom: "Tra il dire e il fare c\'è di mezzo il ___."',
     italian: 'Tra il dire e il fare c\'è di mezzo il mare',
     options: ['mare', 'tempo', 'mondo', 'fiume'],
-    correct: 'mare',
+    answer: 'mare',
     hint: 'Literally "between saying and doing there is the ___"',
   },
   {
@@ -1875,7 +1875,7 @@ const practice = [
     question: 'What is the meaning of "Hai voluto la bicicletta? Ecco il cadere"?',
     italian: 'Hai voluto la bicicletta? Ecco il cadere',
     options: ['You wanted the bike, now you fell', 'You asked for it — there are consequences', 'Cycling is dangerous', 'Buy a new bicycle'],
-    correct: 'You asked for it — there are consequences',
+    answer: 'You asked for it — there are consequences',
     hint: 'A proverb about accepting the consequences of your choices',
   },
   {
@@ -1885,7 +1885,7 @@ const practice = [
     question: 'Translate to Italian: "Every cloud has a silver lining."',
     italian: 'Non tutto il male vien per nuocere',
     options: ['Non tutto il male vien per nuocere', 'Il cielo è sempre azzurro', 'Dopo la pioggia viene il sole', 'Le nuvole sono grigie'],
-    correct: 'Non tutto il male vien per nuocere',
+    answer: 'Non tutto il male vien per nuocere',
     hint: 'Not all that is bad comes to harm',
   },
   {
@@ -1895,7 +1895,7 @@ const practice = [
     question: 'What does the expression "Mettere la mano sul fuoco" mean?',
     italian: 'Mettere la mano sul fuoco',
     options: ['To burn your hand', 'To swear something is true', 'To cook dinner', 'To warm your hands'],
-    correct: 'To swear something is true',
+    answer: 'To swear something is true',
     hint: 'Literally "to put your hand on the fire"',
   },
   {
@@ -1905,7 +1905,7 @@ const practice = [
     question: 'What does "Chi dorme non piglia pesci" mean?',
     italian: 'Chi dorme non piglia pesci',
     options: ['Sleeping is good for fishing', 'The early bird catches the fish', 'You snooze, you lose', 'Fish don\'t sleep'],
-    correct: 'You snooze, you lose',
+    answer: 'You snooze, you lose',
     hint: 'About laziness preventing you from achieving things',
   },
   {
@@ -1915,7 +1915,7 @@ const practice = [
     question: 'Complete the expression: "Le parole volano, le scritti restano ___."',
     italian: 'Le parole volano, le scritti restano aparte',
     options: ['aparte', 'ferme', 'sole', 'mute'],
-    correct: 'aparte',
+    answer: 'aparte',
     hint: 'Words fly away, written ones stay ___',
   },
   {
@@ -1925,7 +1925,7 @@ const practice = [
     question: 'Translate to Italian: "Don\'t put the cart before the horse."',
     italian: 'Non mettere il carro davanti ai buoi',
     options: ['Non mettere il carro davanti ai buoi', 'Non andare troppo veloce', 'Non guidare di notte', 'Non caricare troppo'],
-    correct: 'Non mettere il carro davanti ai buoi',
+    answer: 'Non mettere il carro davanti ai buoi',
     hint: 'Literally "don\'t put the cart in front of the oxen"',
   },
   {
@@ -1935,7 +1935,7 @@ const practice = [
     question: 'Which tense describes habitual actions in the past: Imperfetto or Passato Prossimo?',
     italian: 'Imperfetto vs Passato Prossimo',
     options: ['Imperfetto', 'Passato Prossimo', 'Futuro semplice', 'Condizionale'],
-    correct: 'Imperfetto',
+    answer: 'Imperfetto',
     hint: 'Used for repeated or ongoing actions in the past',
   },
   {
@@ -1945,7 +1945,7 @@ const practice = [
     question: 'Conjugate: Ieri io ___ (andare) al mercato.',
     italian: 'Ieri io sono andato/a al mercato',
     options: ['sono andato', 'andavo', 'andrò', 'andrei'],
-    correct: 'sono andato',
+    answer: 'sono andato',
     hint: 'A completed action yesterday — which tense?',
   },
   {
@@ -1955,7 +1955,7 @@ const practice = [
     question: 'Which is correct? "Quando ero piccolo ___ tutti i giorni in bicicletta."',
     italian: 'Quando ero piccolo andavo tutti i giorni in bicicletta',
     options: ['andavo', 'sono andato', 'vado', 'andrei'],
-    correct: 'andavo',
+    answer: 'andavo',
     hint: 'Habitual past action — use imperfetto',
   },
   {
@@ -1965,7 +1965,7 @@ const practice = [
     question: 'What does "Imperfetto" mean in the context of Italian grammar?',
     italian: 'Imperfetto',
     options: ['Imperfect tense — past habitual/ongoing', 'Future tense', 'Present tense', 'Past participle'],
-    correct: 'Imperfect tense — past habitual/ongoing',
+    answer: 'Imperfect tense — past habitual/ongoing',
     hint: 'Used for background descriptions and habits in the past',
   },
   {
@@ -1975,7 +1975,7 @@ const practice = [
     question: 'Conjugate: Mentre io ___ (studiare), il telefono ha squillato.',
     italian: 'Mentre io studiavo, il telefono ha squillato',
     options: ['studiavo', 'ho studiato', 'studio', 'studierò'],
-    correct: 'studiavo',
+    answer: 'studiavo',
     hint: 'Ongoing action interrupted by a completed event',
   },
   {
@@ -1985,7 +1985,7 @@ const practice = [
     question: '"L\'anno scorso我们在罗马" — which tense for "L\'anno scorso io a Roma"?',
     italian: 'L\'anno scorso sono stato a Roma',
     options: ['Passato Prossimo: sono stato', 'Imperfetto: ero', 'Passato Remoto: fui', 'Trapassato: ero stato'],
-    correct: 'Passato Prossimo: sono stato',
+    answer: 'Passato Prossimo: sono stato',
     hint: 'A single completed trip — specific and one-time',
   },
   {
@@ -1995,7 +1995,7 @@ const practice = [
     question: 'Translate: "When I was young, I used to play in the park every day."',
     italian: 'Quando ero giovane, giocavo nel parco ogni giorno',
     options: ['Quando ero giovane, giocavo nel parco ogni giorno', 'Quando sono stato giovane, ho giocato nel parco ogni giorno', 'Quando sarò giovane, giocherò nel parco ogni giorno', 'Quando giocavo, ero giovane ogni giorno'],
-    correct: 'Quando ero giovane, giocavo nel parco ogni giorno',
+    answer: 'Quando ero giovane, giocavo nel parco ogni giorno',
     hint: 'Habitual past action requires imperfetto',
   },
   {
@@ -2005,7 +2005,7 @@ const practice = [
     question: 'Complete: Ieri pomeriggio io ___ (leggere) un libro.',
     italian: 'Ieri pomeriggio io ho letto un libro',
     options: ['ho letto', 'leggevo', 'leggerò', 'leggerei'],
-    correct: 'ho letto',
+    answer: 'ho letto',
     hint: 'A specific completed action yesterday',
   },
   {
@@ -2015,7 +2015,7 @@ const practice = [
     question: 'Choose the correct sentence: "Quando mi ___ (svegliare), era già buio."',
     italian: 'Quando mi sono svegliato, era già buio',
     options: ['sono svegliato', 'svegliavo', 'mi sveglio', 'sveglierò'],
-    correct: 'sono svegliato',
+    answer: 'sono svegliato',
     hint: 'A single completed event — passato prossimo',
   },
   {
@@ -2025,7 +2025,7 @@ const practice = [
     question: 'Translate: "She was reading while he was cooking."',
     italian: 'Lei leggeva mentre lui cucinava',
     options: ['Lei leggeva mentre lui cucinava', 'Lei ha letto mentre lui ha cucinato', 'Lei leggerà mentre lui cucinerà', 'Lei leggeva mentre lui ha cucinato'],
-    correct: 'Lei leggeva mentre lui cucinava',
+    answer: 'Lei leggeva mentre lui cucinava',
     hint: 'Two simultaneous ongoing past actions — both imperfetto',
   },
   {
@@ -2035,7 +2035,7 @@ const practice = [
     question: 'What does "La padella" mean?',
     italian: 'La padella',
     options: ['Frying pan', 'Plate', 'Pot', 'Bowl'],
-    correct: 'Frying pan',
+    answer: 'Frying pan',
     hint: 'Used for frying and sautéing',
   },
   {
@@ -2045,7 +2045,7 @@ const practice = [
     question: 'What is "Il forno" in English?',
     italian: 'Il forno',
     options: ['The fridge', 'The oven', 'The stove', 'The microwave'],
-    correct: 'The oven',
+    answer: 'The oven',
     hint: 'Used for baking and roasting',
   },
   {
@@ -2055,7 +2055,7 @@ const practice = [
     question: 'Complete: Io voglio una ___ di pasta.',
     italian: 'Io voglio una porzione di pasta',
     options: ['porzione', 'casa', 'strada', 'libro'],
-    correct: 'porzione',
+    answer: 'porzione',
     hint: 'A serving of food',
   },
   {
@@ -2065,7 +2065,7 @@ const practice = [
     question: 'Translate to Italian: "Can you pass me the salt?"',
     italian: 'Può passarmi il sale?',
     options: ['Può passarmi il sale?', 'Dov\'è il sale?', 'Io voglio il sale', 'Il sale è buono'],
-    correct: 'Può passarmi il sale?',
+    answer: 'Può passarmi il sale?',
     hint: 'Polite request at the table',
   },
   {
@@ -2075,7 +2075,7 @@ const practice = [
     question: 'What does "Sbattere le uova" mean?',
     italian: 'Sbattere le uova',
     options: ['To break eggs', 'To beat/whisk eggs', 'To fry eggs', 'To boil eggs'],
-    correct: 'To beat/whisk eggs',
+    answer: 'To beat/whisk eggs',
     hint: 'A cooking technique for mixing eggs quickly',
   },
   {
@@ -2085,7 +2085,7 @@ const practice = [
     question: 'What is "Il soffritto" in Italian cooking?',
     italian: 'Il soffritto',
     options: ['A dessert', 'A base of finely chopped onions, carrots, and celery sautéed in oil', 'A type of pasta', 'A cheese sauce'],
-    correct: 'A base of finely chopped onions, carrots, and celery sautéed in oil',
+    answer: 'A base of finely chopped onions, carrots, and celery sautéed in oil',
     hint: 'The foundation of many Italian dishes',
   },
   {
@@ -2095,7 +2095,7 @@ const practice = [
     question: 'Complete: Il ___ è rosso e si usa nella pizza.',
     italian: 'Il pomodoro è rosso e si usa nella pizza',
     options: ['pomodoro', 'formaggio', 'pane', 'riso'],
-    correct: 'pomodoro',
+    answer: 'pomodoro',
     hint: 'Red fruit essential for Italian cuisine',
   },
   {
@@ -2105,7 +2105,7 @@ const practice = [
     question: 'What does "Al dente" mean when describing pasta?',
     italian: 'Al dente',
     options: ['Overcooked', 'Firm to the bite', 'Very soft', 'Cold'],
-    correct: 'Firm to the bite',
+    answer: 'Firm to the bite',
     hint: 'Literally "to the tooth" — the ideal pasta texture',
   },
   {
@@ -2115,7 +2115,7 @@ const practice = [
     question: 'Translate to Italian: "Add a pinch of salt and some pepper."',
     italian: 'Aggiungi un pizzico di sale e un po\' di pepe',
     options: ['Aggiungi un pizzico di sale e un po\' di pepe', 'Metti il sale e il pepe', 'Compra sale e pepe', 'Il sale e il pepe sono buoni'],
-    correct: 'Aggiungi un pizzico di sale e un po\' di pepe',
+    answer: 'Aggiungi un pizzico di sale e un po\' di pepe',
     hint: 'A pinch = un pizzico',
   },
   {
@@ -2125,7 +2125,7 @@ const practice = [
     question: 'What does "Far bollire l\'acqua" mean?',
     italian: 'Far bollire l\'acqua',
     options: ['To drink water', 'To boil water', 'To cold water', 'To spill water'],
-    correct: 'To boil water',
+    answer: 'To boil water',
     hint: 'Bollire = to boil',
   },
   {
@@ -2135,7 +2135,7 @@ const practice = [
     question: 'What does "La stazione" mean?',
     italian: 'La stazione',
     options: ['The hospital', 'The station', 'The airport', 'The restaurant'],
-    correct: 'The station',
+    answer: 'The station',
     hint: 'Where you catch trains',
   },
   {
@@ -2145,7 +2145,7 @@ const practice = [
     question: 'How do you say "Where is the airport?" in Italian?',
     italian: 'Dov\'è l\'aeroporto?',
     options: ['Dov\'è l\'aeroporto?', 'Dov\'è il treno?', 'Dov\'è la macchina?', 'Dov\'è la strada?'],
-    correct: 'Dov\'è l\'aeroporto?',
+    answer: 'Dov\'è l\'aeroporto?',
     hint: 'Dov\'è = Where is',
   },
   {
@@ -2155,7 +2155,7 @@ const practice = [
     question: 'Complete: Per favore, mi dica come arrivare alla ___.',
     italian: 'Per favore, mi dica come arrivare alla piazza',
     options: ['piazza', 'cucina', 'scuola', 'casa'],
-    correct: 'piazza',
+    answer: 'piazza',
     hint: 'A town square — common destination when asking directions',
   },
   {
@@ -2165,7 +2165,7 @@ const practice = [
     question: 'Translate: "Turn left at the traffic light."',
     italian: 'Giri a sinistra al semaforo',
     options: ['Giri a sinistra al semaforo', 'Vada dritto al ponte', 'Giri a destra alla porta', 'Cammini lungo la strada'],
-    correct: 'Giri a sinistra al semaforo',
+    answer: 'Giri a sinistra al semaforo',
     hint: 'Giri = turn (polite form), semaforo = traffic light',
   },
   {
@@ -2175,7 +2175,7 @@ const practice = [
     question: 'What does "Girare a destra" mean?',
     italian: 'Girare a destra',
     options: ['To turn left', 'To turn right', 'To go straight', 'To go back'],
-    correct: 'To turn right',
+    answer: 'To turn right',
     hint: 'Destra = right',
   },
   {
@@ -2185,7 +2185,7 @@ const practice = [
     question: 'What does "È a due passi da qui" mean?',
     italian: 'È a due passi da qui',
     options: ['It\'s two bus stops away', 'It\'s within walking distance', 'It\'s very far', 'You need two tickets'],
-    correct: 'It\'s within walking distance',
+    answer: 'It\'s within walking distance',
     hint: 'Literally "it\'s two steps from here"',
   },
   {
@@ -2195,7 +2195,7 @@ const practice = [
     question: 'Complete: Scusi, come si va alla ___ centrale?',
     italian: 'Scusi, come si va alla stazione centrale?',
     options: ['stazione', 'ristorante', 'palestra', 'biblioteca'],
-    correct: 'stazione',
+    answer: 'stazione',
     hint: 'The main train station',
   },
   {
@@ -2205,7 +2205,7 @@ const practice = [
     question: 'Translate: "How long does it take to get to the hotel?"',
     italian: 'Quanto tempo ci vuole per arrivare all\'hotel?',
     options: ['Quanto tempo ci vuole per arrivare all\'hotel?', 'Dov\'è l\'hotel?', 'Quanto costa l\'hotel?', 'L\'hotel è bello'],
-    correct: 'Quanto tempo ci vuole per arrivare all\'hotel?',
+    answer: 'Quanto tempo ci vuole per arrivare all\'hotel?',
     hint: 'Quanto tempo ci vuole = How long does it take',
   },
   {
@@ -2215,7 +2215,7 @@ const practice = [
     question: 'What does "Proseguire dritto per circa due chilometri" mean?',
     italian: 'Proseguire dritto per circa due chilometri',
     options: ['Turn around after two kilometers', 'Continue straight for about two kilometers', 'Stop after two kilometers', 'Go back two kilometers'],
-    correct: 'Continue straight for about two kilometers',
+    answer: 'Continue straight for about two kilometers',
     hint: 'Proseguire = continue, dritto = straight',
   },
   {
@@ -2225,7 +2225,7 @@ const practice = [
     question: 'What does "Il biglietto" mean?',
     italian: 'Il biglietto',
     options: ['The ticket', 'The luggage', 'The passport', 'The map'],
-    correct: 'The ticket',
+    answer: 'The ticket',
     hint: 'You need this to board a train or bus',
   },
   {
@@ -2235,7 +2235,7 @@ const practice = [
     question: 'Which form is correct? "Spero che tu ___ (venire) domani."',
     italian: 'Spero che tu venga domani',
     options: ['venga', 'vieni', 'verrà', 'venuto'],
-    correct: 'venga',
+    answer: 'venga',
     hint: 'After "spero che" use the present subjunctive',
   },
   {
@@ -2245,7 +2245,7 @@ const practice = [
     question: 'Complete: Credo che lui ___ (avere) ragione.',
     italian: 'Credo che lui abbia ragione',
     options: ['abbia', 'ha', 'avrà', 'avuto'],
-    correct: 'abbia',
+    answer: 'abbia',
     hint: 'After "credo che" — present subjunctive of "avere"',
   },
   {
@@ -2255,7 +2255,7 @@ const practice = [
     question: 'What is the subjunctive mood used for in Italian?',
     italian: 'Congiuntivo',
     options: ['Expressing certainty', 'Expressing doubt, wishes, opinions, and hypotheticals', 'Giving commands', 'Asking questions'],
-    correct: 'Expressing doubt, wishes, opinions, and hypotheticals',
+    answer: 'Expressing doubt, wishes, opinions, and hypotheticals',
     hint: 'Il congiuntivo — used after certain conjunctions and expressions',
   },
   {
@@ -2265,7 +2265,7 @@ const practice = [
     question: 'Choose the correct form: "Se io ___ (potere), ti aiuterei."',
     italian: 'Se io potessi, ti aiuterei',
     options: ['potessi', 'posso', 'potrò', 'potuto'],
-    correct: 'potessi',
+    answer: 'potessi',
     hint: 'Imperfect subjunctive in the "se" clause for hypothetical situations',
   },
   {
@@ -2275,7 +2275,7 @@ const practice = [
     question: 'Complete: Penso che sia importante ___ (studiare) ogni giorno.',
     italian: 'Penso che sia importante studiare ogni giorno',
     options: ['studiare', 'studia', 'studiato', 'studierà'],
-    correct: 'studiare',
+    answer: 'studiare',
     hint: 'Infinitive after "importante"',
   },
   {
@@ -2285,7 +2285,7 @@ const practice = [
     question: 'Translate: "I wish I were taller."',
     italian: 'Vorrei che fossi più alto',
     options: ['Vorrei che fossi più alto', 'Io sono più alto', 'Sarò più alto', 'Io voglio essere alto'],
-    correct: 'Vorrei che fossi più alto',
+    answer: 'Vorrei che fossi più alto',
     hint: 'Express a wish about reality — use imperfect subjunctive',
   },
   {
@@ -2295,7 +2295,7 @@ const practice = [
     question: 'Which is correct? "Bisogna che tu ___ (fare) i compiti."',
     italian: 'Bisogna che tu faccia i compiti',
     options: ['faccia', 'fai', 'farà', 'fatto'],
-    correct: 'faccia',
+    answer: 'faccia',
     hint: 'After "bisogna che" — present subjunctive of "fare"',
   },
   {
@@ -2305,7 +2305,7 @@ const practice = [
     question: 'Complete: Come se niente ___ (essere) successo.',
     italian: 'Come se niente fosse successo',
     options: ['fosse', 'è', 'sarà', 'stato'],
-    correct: 'fosse',
+    answer: 'fosse',
     hint: 'After "come se" — imperfect subjunctive',
   },
   {
@@ -2315,7 +2315,7 @@ const practice = [
     question: 'Translate: "Even if I had time, I wouldn\'t go."',
     italian: 'Anche se avessi tempo, non andrei',
     options: ['Anche se avessi tempo, non andrei', 'Anche se ho tempo, non vado', 'Anche se avrò tempo, non andrò', 'Anche se avuto tempo, non sono andato'],
-    correct: 'Anche se avessi tempo, non andrei',
+    answer: 'Anche se avessi tempo, non andrei',
     hint: 'Hypothetical — imperfect subjunctive + condizionale',
   },
   {
@@ -2325,7 +2325,7 @@ const practice = [
     question: 'Which sentence correctly uses the subjunctive?',
     italian: 'Subjunctive usage',
     options: ['Sono sicuro che sia vero', 'Sono sicuro che è vero', 'Sono sicuro che sarà vero', 'Sono sicuro che sia stato vero'],
-    correct: 'Sono sicuro che sia vero',
+    answer: 'Sono sicuro che sia vero',
     hint: 'After expressions of opinion/belief, use the subjunctive',
   },
   {
@@ -2335,7 +2335,7 @@ const practice = [
     question: 'What does "Il bilancio" mean in a business context?',
     italian: 'Il bilancio',
     options: ['The balance sheet / budget', 'The bank', 'The invoice', 'The contract'],
-    correct: 'The balance sheet / budget',
+    answer: 'The balance sheet / budget',
     hint: 'A financial statement of a company',
   },
   {
@@ -2345,7 +2345,7 @@ const practice = [
     question: 'What is "La riunione" in a workplace?',
     italian: 'La riunione',
     options: ['The interview', 'The meeting', 'The deadline', 'The office'],
-    correct: 'The meeting',
+    answer: 'The meeting',
     hint: 'A gathering of colleagues to discuss work',
   },
   {
@@ -2355,7 +2355,7 @@ const practice = [
     question: 'Complete: Il ___ è fissato per venerdì prossimo.',
     italian: 'Il colloquio è fissato per venerdì prossimo',
     options: ['colloquio', 'pasto', 'giorno', 'mese'],
-    correct: 'colloquio',
+    answer: 'colloquio',
     hint: 'A job interview',
   },
   {
@@ -2365,7 +2365,7 @@ const practice = [
     question: 'Translate to Italian: "I would like to schedule a meeting with the director."',
     italian: 'Vorrei fissare un appuntamento con il direttore',
     options: ['Vorrei fissare un appuntamento con il direttore', 'Voglio parlare al direttore', 'Il direttore è in riunione', 'Dov\'è l\'ufficio del direttore'],
-    correct: 'Vorrei fissare un appuntamento con il direttore',
+    answer: 'Vorrei fissare un appuntamento con il direttore',
     hint: 'Fissare un appuntamento = to schedule an appointment',
   },
   {
@@ -2375,7 +2375,7 @@ const practice = [
     question: 'What does "L\'ordine del giorno" mean?',
     italian: 'L\'ordine del giorno',
     options: ['The daily routine', 'The agenda', 'The schedule', 'The morning shift'],
-    correct: 'The agenda',
+    answer: 'The agenda',
     hint: 'The list of items to discuss in a meeting',
   },
   {
@@ -2385,7 +2385,7 @@ const practice = [
     question: 'What does "Avere responsabilità" mean in a professional setting?',
     italian: 'Avere responsabilità',
     options: ['To have free time', 'To have responsibility / to be in charge', 'To have a meeting', 'To have a break'],
-    correct: 'To have responsibility / to be in charge',
+    answer: 'To have responsibility / to be in charge',
     hint: 'Responsabilità = responsibility',
   },
   {
@@ -2395,7 +2395,7 @@ const practice = [
     question: 'Complete: Il contratto di ___ è stato firmato ieri.',
     italian: 'Il contratto di lavoro è stato firmato ieri',
     options: ['lavoro', 'viaggio', 'studio', 'casa'],
-    correct: 'lavoro',
+    answer: 'lavoro',
     hint: 'Employment contract',
   },
   {
@@ -2405,7 +2405,7 @@ const practice = [
     question: 'Translate: "The deadline has been extended to next month."',
     italian: 'La scadenza è stata prorogata al mese prossimo',
     options: ['La scadenza è stata prorogata al mese prossimo', 'La data è cambiata', 'Il lavoro è finito', 'Il mese è lungo'],
-    correct: 'La scadenza è stata prorogata al mese prossimo',
+    answer: 'La scadenza è stata prorogata al mese prossimo',
     hint: 'Scadenza = deadline, prorogata = extended',
   },
   {
@@ -2415,7 +2415,7 @@ const practice = [
     question: 'What does "Mettere a disposizione" mean?',
     italian: 'Mettere a disposizione',
     options: ['To take away', 'To make available', 'To put aside', 'To remove'],
-    correct: 'To make available',
+    answer: 'To make available',
     hint: 'Literally "to put at the disposal of"',
   },
   {
@@ -2425,7 +2425,7 @@ const practice = [
     question: 'What does "Il datore di lavoro" mean?',
     italian: 'Il datore di lavoro',
     options: ['The employee', 'The employer', 'The client', 'The manager'],
-    correct: 'The employer',
+    answer: 'The employer',
     hint: 'The person or entity that gives work',
   },
   {
@@ -2435,7 +2435,7 @@ const practice = [
     question: 'What does "La diagnosi" mean?',
     italian: 'La diagnosi',
     options: ['The prescription', 'The diagnosis', 'The surgery', 'The pharmacy'],
-    correct: 'The diagnosis',
+    answer: 'The diagnosis',
     hint: 'The identification of a disease',
   },
   {
@@ -2445,7 +2445,7 @@ const practice = [
     question: 'What is "Il medico di base"?',
     italian: 'Il medico di base',
     options: ['The surgeon', 'The general practitioner / family doctor', 'The dentist', 'The pharmacist'],
-    correct: 'The general practitioner / family doctor',
+    answer: 'The general practitioner / family doctor',
     hint: 'Your primary care physician',
   },
   {
@@ -2455,7 +2455,7 @@ const practice = [
     question: 'Complete: Ho bisogno di una ___ per farmaci.',
     italian: 'Ho bisogno di una ricetta per farmaci',
     options: ['ricetta', 'prenotazione', 'fattura', 'garanzia'],
-    correct: 'ricetta',
+    answer: 'ricetta',
     hint: 'A doctor\'s prescription',
   },
   {
@@ -2465,7 +2465,7 @@ const practice = [
     question: 'Translate: "I have an appointment with the specialist tomorrow."',
     italian: 'Ho un appuntamento con lo specialista domani',
     options: ['Ho un appuntamento con lo specialista domani', 'Vado dal dottore domani', 'Devo prendere i farmaci domani', 'Mi sento meglio domani'],
-    correct: 'Ho un appuntamento con lo specialista domani',
+    answer: 'Ho un appuntamento con lo specialista domani',
     hint: 'Specialista = specialist doctor',
   },
   {
@@ -2475,7 +2475,7 @@ const practice = [
     question: 'What does "Fare un esame del sangue" mean?',
     italian: 'Fare un esame del sangue',
     options: ['To draw blood for testing', 'To give blood', 'To check blood pressure', 'To study hematology'],
-    correct: 'To draw blood for testing',
+    answer: 'To draw blood for testing',
     hint: 'A common medical test — sangue = blood',
   },
   {
@@ -2485,7 +2485,7 @@ const practice = [
     question: 'What does "La farmacia" mean?',
     italian: 'La farmacia',
     options: ['The hospital', 'The pharmacy / drugstore', 'The laboratory', 'The clinic'],
-    correct: 'The pharmacy / drugstore',
+    answer: 'The pharmacy / drugstore',
     hint: 'Where you buy medicine',
   },
   {
@@ -2495,7 +2495,7 @@ const practice = [
     question: 'Complete: Il ___ ha prescritto una terapia antibiotica.',
     italian: 'Il medico ha prescritto una terapia antibiotica',
     options: ['medico', 'paziente', 'farmacista', 'infermiere'],
-    correct: 'medico',
+    answer: 'medico',
     hint: 'The person who prescribes medication',
   },
   {
@@ -2505,7 +2505,7 @@ const practice = [
     question: 'Translate: "Take two pills a day with water."',
     italian: 'Prenda due compresse al giorno con acqua',
     options: ['Prenda due compresse al giorno con acqua', 'Mangi due pasti al giorno', 'Bevi due litri di acqua', 'Prenda la medicina una volta'],
-    correct: 'Prenda due compresse al giorno con acqua',
+    answer: 'Prenda due compresse al giorno con acqua',
     hint: 'Compresse = pills/tablets, prenda = take (imperative polite)',
   },
   {
@@ -2515,7 +2515,7 @@ const practice = [
     question: 'What does "L\'intervento chirurgico" mean?',
     italian: 'L\'intervento chirurgico',
     options: ['The check-up', 'The surgical operation', 'The vaccination', 'The examination'],
-    correct: 'The surgical operation',
+    answer: 'The surgical operation',
     hint: 'Chirurgico = surgical',
   },
   {
@@ -2525,7 +2525,7 @@ const practice = [
     question: 'What does "La sintomatologia" mean?',
     italian: 'La sintomatologia',
     options: ['The treatment plan', 'The set of symptoms', 'The recovery period', 'The medical history'],
-    correct: 'The set of symptoms',
+    answer: 'The set of symptoms',
     hint: 'The collection of signs indicating a disease',
   },
   {
@@ -2535,7 +2535,7 @@ const practice = [
     question: 'What does "Lo schermo" mean?',
     italian: 'Lo schermo',
     options: ['The keyboard', 'The screen', 'The mouse', 'The printer'],
-    correct: 'The screen',
+    answer: 'The screen',
     hint: 'What you look at on your device',
   },
   {
@@ -2545,7 +2545,7 @@ const practice = [
     question: 'What is "La connessione internet"?',
     italian: 'La connessione internet',
     options: ['The website', 'The internet connection', 'The password', 'The email'],
-    correct: 'The internet connection',
+    answer: 'The internet connection',
     hint: 'Required to go online',
   },
   {
@@ -2555,7 +2555,7 @@ const practice = [
     question: 'Complete: Ho bisogno di scaricare una ___ dal sito web.',
     italian: 'Ho bisogno di scaricare una applicazione dal sito web',
     options: ['applicazione', 'fotografia', 'prenotazione', 'medaglia'],
-    correct: 'applicazione',
+    answer: 'applicazione',
     hint: 'An app — shortened from "applicazione"',
   },
   {
@@ -2565,7 +2565,7 @@ const practice = [
     question: 'Translate: "The software needs to be updated."',
     italian: 'Il software deve essere aggiornato',
     options: ['Il software deve essere aggiornato', 'Il computer è rotto', 'Devo comprare un nuovo software', 'Il software è gratuito'],
-    correct: 'Il software deve essere aggiornato',
+    answer: 'Il software deve essere aggiornato',
     hint: 'Aggiornato = updated',
   },
   {
@@ -2575,7 +2575,7 @@ const practice = [
     question: 'What does "La sicurezza informatica" mean?',
     italian: 'La sicurezza informatica',
     options: ['Computer repair', 'Cybersecurity', 'Software design', 'Hardware engineering'],
-    correct: 'Cybersecurity',
+    answer: 'Cybersecurity',
     hint: 'Informatica = computer science, sicurezza = security',
   },
   {
@@ -2585,7 +2585,7 @@ const practice = [
     question: 'What does "La tastiera" mean?',
     italian: 'La tastiera',
     options: ['The speaker', 'The keyboard', 'The screen', 'The cable'],
-    correct: 'The keyboard',
+    answer: 'The keyboard',
     hint: 'You type on this',
   },
   {
@@ -2595,7 +2595,7 @@ const practice = [
     question: 'Complete: Il ___ è diventato più veloce dopo l\'aggiornamento.',
     italian: 'Il computer è diventato più veloce dopo l\'aggiornamento',
     options: ['computer', 'telefono', 'cavo', 'mouse'],
-    correct: 'computer',
+    answer: 'computer',
     hint: 'The device that became faster',
   },
   {
@@ -2605,7 +2605,7 @@ const practice = [
     question: 'Translate: "I forgot my password."',
     italian: 'Ho dimenticato la mia password',
     options: ['Ho dimenticato la mia password', 'Ho perso il telefono', 'Non ho internet', 'Il computer è spento'],
-    correct: 'Ho dimenticato la mia password',
+    answer: 'Ho dimenticato la mia password',
     hint: 'Dimenticato = forgotten',
   },
   {
@@ -2615,7 +2615,7 @@ const practice = [
     question: 'What does "La rete neurale artificiale" mean?',
     italian: 'La rete neurale artificiale',
     options: ['The social network', 'The artificial neural network', 'The web server', 'The database'],
-    correct: 'The artificial neural network',
+    answer: 'The artificial neural network',
     hint: 'A concept from AI and machine learning',
   },
   {
@@ -2625,7 +2625,7 @@ const practice = [
     question: 'What does "Scaricare un file" mean?',
     italian: 'Scaricare un file',
     options: ['To upload a file', 'To download a file', 'To delete a file', 'To share a file'],
-    correct: 'To download a file',
+    answer: 'To download a file',
     hint: 'Scaricare = to download (or to unload)',
   },
   {
@@ -2635,7 +2635,7 @@ const practice = [
     question: 'What does "La festa patronale" mean?',
     italian: 'La festa patronale',
     options: ['The birthday party', 'The patron saint festival', 'The national holiday', 'The wedding'],
-    correct: 'The patron saint festival',
+    answer: 'The patron saint festival',
     hint: 'A celebration honoring a town\'s patron saint',
   },
   {
@@ -2645,7 +2645,7 @@ const practice = [
     question: 'What is celebrated on "La Festa della Repubblica"?',
     italian: 'La Festa della Repubblica',
     options: ['Italian Republic Day — June 2', 'Christmas', 'Easter', 'New Year\'s Day'],
-    correct: 'Italian Republic Day — June 2',
+    answer: 'Italian Republic Day — June 2',
     hint: 'A national holiday celebrating the Italian Republic',
   },
   {
@@ -2655,7 +2655,7 @@ const practice = [
     question: 'Complete: Il ___ è il giorno di Natale in Italia.',
     italian: 'Il 25 dicembre è il giorno di Natale in Italia',
     options: ['25 dicembre', '1 gennaio', '2 giugno', '15 agosto'],
-    correct: '25 dicembre',
+    answer: '25 dicembre',
     hint: 'Christmas Day',
   },
   {
@@ -2665,7 +2665,7 @@ const practice = [
     question: 'Translate: "Carnival is celebrated before Lent."',
     italian: 'Il Carnevale si celebra prima della Quaresima',
     options: ['Il Carnevale si celebra prima della Quaresima', 'Il Natale è in dicembre', 'Pasqua è in primavera', 'La festa è lunedì'],
-    correct: 'Il Carnevale si celebra prima della Quaresima',
+    answer: 'Il Carnevale si celebra prima della Quaresima',
     hint: 'Carnevale = Carnival, Quaresima = Lent',
   },
   {
@@ -2675,7 +2675,7 @@ const practice = [
     question: 'What does "La transennazione" refer to during Italian festivals?',
     italian: 'La transennazione',
     options: ['The food stall', 'The parade float', 'The barrier/fencing', 'The music band'],
-    correct: 'The barrier/fencing',
+    answer: 'The barrier/fencing',
     hint: 'Barriers set up for street festivals and processions',
   },
   {
@@ -2685,7 +2685,7 @@ const practice = [
     question: 'What is "La Sagra" in Italian culture?',
     italian: 'La Sagra',
     options: ['A religious procession', 'A local food or cultural festival', 'A museum exhibition', 'A sports event'],
-    correct: 'A local food or cultural festival',
+    answer: 'A local food or cultural festival',
     hint: 'Many Italian towns hold a sagra for local products',
   },
   {
@@ -2695,7 +2695,7 @@ const practice = [
     question: 'Complete: A Pasqua, gli Italiani mangiano la ___ diPasqua.',
     italian: 'A Pasqua, gli Italiani mangiano la colomba di Pasqua',
     options: ['colomba', 'torta', 'pizza', 'focaccia'],
-    correct: 'colomba',
+    answer: 'colomba',
     hint: 'A dove-shaped Easter cake',
   },
   {
@@ -2705,7 +2705,7 @@ const practice = [
     question: 'Translate: "On August 15th we celebrate Ferragosto."',
     italian: 'Il 15 agosto celebriamo il Ferragosto',
     options: ['Il 15 agosto celebriamo il Ferragosto', 'Il 15 agosto è estate', 'Il 15 agosto andiamo al mare', 'Il 15 agosto si lavora'],
-    correct: 'Il 15 agosto celebriamo il Ferragosto',
+    answer: 'Il 15 agosto celebriamo il Ferragosto',
     hint: 'Ferragosto — a major summer holiday in Italy',
   },
   {
@@ -2715,7 +2715,7 @@ const practice = [
     question: 'What happens during "La Notte dei Musei"?',
     italian: 'La Notte dei Musei',
     options: ['Museums close early', 'Museums stay open late with special events', 'New museums open', 'Museums are free all year'],
-    correct: 'Museums stay open late with special events',
+    answer: 'Museums stay open late with special events',
     hint: 'An annual event across Europe',
   },
   {
@@ -2725,7 +2725,7 @@ const practice = [
     question: 'What does "Il presepe" represent?',
     italian: 'Il presepe',
     options: ['A Christmas tree', 'A nativity scene', 'An Easter egg', 'A carnival mask'],
-    correct: 'A nativity scene',
+    answer: 'A nativity scene',
     hint: 'A traditional Italian Christmas decoration',
   },
   {
@@ -2735,7 +2735,7 @@ const practice = [
     question: 'Which is the correct pluperfect? "Quando sono arrivato, lei ___ già."',
     italian: 'Quando sono arrivato, lei era già partita',
     options: ['era già partita', 'ha già partito', 'partiva già', 'sarà già partita'],
-    correct: 'era già partita',
+    answer: 'era già partita',
     hint: 'Trapassato prossimo — action completed before another past action',
   },
   {
@@ -2745,7 +2745,7 @@ const practice = [
     question: 'Complete: Se io ___ (sapere), te l\'avrei detto.',
     italian: 'Se io avessi saputo, te l\'avrei detto',
     options: ['avessi saputo', 'sapevo', 'so', 'saprò'],
-    correct: 'avessi saputo',
+    answer: 'avessi saputo',
     hint: 'Past hypothetical — trapassato congiuntivo',
   },
   {
@@ -2755,7 +2755,7 @@ const practice = [
     question: 'Translate: "He will have finished by tomorrow."',
     italian: 'Avrà finito entro domani',
     options: ['Avrà finito entro domani', 'Ha finito ieri', 'Finisce domani', 'Stava finendo'],
-    correct: 'Avrà finito entro domani',
+    answer: 'Avrà finito entro domani',
     hint: 'Futuro anteriore — future perfect tense',
   },
   {
@@ -2765,7 +2765,7 @@ const practice = [
     question: 'What is the "Futuro anteriore" tense used for?',
     italian: 'Futuro anteriore',
     options: ['Actions happening now', 'Actions that will be completed before another future action', 'Habitual past actions', 'Commands'],
-    correct: 'Actions that will be completed before another future action',
+    answer: 'Actions that will be completed before another future action',
     hint: 'Futuro semplice + avoir/essere past participle',
   },
   {
@@ -2775,7 +2775,7 @@ const practice = [
     question: 'Choose the correct form: "Nonostante la pioggia, ___."',
     italian: 'Nonostante la pioggia, siamo usciti',
     options: ['siamo usciti', 'uscivamo', 'usciremmo', 'eravamo usciti'],
-    correct: 'siamo usciti',
+    answer: 'siamo usciti',
     hint: '"Nonostante" (despite) does not require the subjunctive here',
   },
   {
@@ -2785,7 +2785,7 @@ const practice = [
     question: 'Complete: Sarebbe meglio che tu ___ (partire) prima.',
     italian: 'Sarebbe meglio che tu partissi prima',
     options: ['partissi', 'parti', 'partirai', 'partito'],
-    correct: 'partissi',
+    answer: 'partissi',
     hint: 'After "sarebbe meglio che" — imperfect subjunctive',
   },
   {
@@ -2795,7 +2795,7 @@ const practice = [
     question: 'Translate: "Had I known, I would have acted differently."',
     italian: 'Avessi saputo, avrei agito diversamente',
     options: ['Avessi saputo, avrei agito diversamente', 'Se sapessi, agirei diversamente', 'Sapendo, agisco diversamente', 'Saputo, ho agito diversamente'],
-    correct: 'Avessi saputo, avrei agito diversamente',
+    answer: 'Avessi saputo, avrei agito diversamente',
     hint: 'Inverted conditional — no "se" needed with subjunctive first',
   },
   {
@@ -2805,7 +2805,7 @@ const practice = [
     question: 'Which sentence uses the "trapassato remoto" correctly?',
     italian: 'Trapassato remoto',
     options: ['Ebbe finito quando arrivai', 'Ha finito quando arriva', 'Finiva quando arrivò', 'Aveva finito quando arrivava'],
-    correct: 'Ebbe finito quando arrivai',
+    answer: 'Ebbe finito quando arrivai',
     hint: 'Literary past perfect — passato remoto of avere/essere + past participle',
   },
   {
@@ -2815,7 +2815,7 @@ const practice = [
     question: 'Complete: Appena ___ (avere) finito, ti chiamerò.',
     italian: 'Appena avrò finito, ti chiamerò',
     options: ['avrò finito', 'ho finito', 'finisco', 'avevo finito'],
-    correct: 'avrò finito',
+    answer: 'avrò finito',
     hint: '"Appena" (as soon as) + futuro anteriore in the dependent clause',
   },
   {
@@ -2825,7 +2825,7 @@ const practice = [
     question: 'Translate: "It is necessary that everyone be present."',
     italian: 'È necessario che tutti siano presenti',
     options: ['È necessario che tutti siano presenti', 'È necessario che tutti sono presenti', 'È necessario che tutti saranno presenti', 'È necessario tutti presenti'],
-    correct: 'È necessario che tutti siano presenti',
+    answer: 'È necessario che tutti siano presenti',
     hint: 'After "è necessario che" — use present subjunctive',
   },
   // Technology vocabulary (B1-B2)
@@ -2836,7 +2836,7 @@ const practice = [
     question: 'What is "software" in Italian?',
     italian: 'software',
     options: ['software', 'programma', 'sistema', 'dispositivo'],
-    correct: 'software',
+    answer: 'software',
     hint: 'Same word used in Italian',
   },
   {
@@ -2846,7 +2846,7 @@ const practice = [
     question: 'Which word means "smartphone" in Italian?',
     italian: 'smartphone',
     options: ['smartphone', 'telefonino intelligente', 'cellulare nuovo', 'telefono cellulare smart'],
-    correct: 'smartphone',
+    answer: 'smartphone',
     hint: 'The English loanword is commonly used',
   },
   {
@@ -2856,7 +2856,7 @@ const practice = [
     question: 'What does "scaricare" mean in a tech context?',
     italian: 'scaricare',
     options: ['to download', 'to upload', 'to save', 'to delete'],
-    correct: 'to download',
+    answer: 'to download',
     hint: 'Literally means "to unload"',
   },
   {
@@ -2866,7 +2866,7 @@ const practice = [
     question: 'Translate: "I need to update my operating system."',
     italian: 'Devo aggiornare il mio sistema operativo',
     options: ['Devo aggiornare il mio sistema operativo', 'Devo caricare il mio sistema operativo', 'Devo scaricare il mio sistema operativo', 'Devo modificare il mio sistema operativo'],
-    correct: 'Devo aggiornare il mio sistema operativo',
+    answer: 'Devo aggiornare il mio sistema operativo',
     hint: '"To update" = aggiornare',
   },
   {
@@ -2876,7 +2876,7 @@ const practice = [
     question: 'What is "la tastiera" in English?',
     italian: 'la tastiera',
     options: ['the keyboard', 'the mouse', 'the screen', 'the printer'],
-    correct: 'the keyboard',
+    answer: 'the keyboard',
     hint: 'From "tasto" (key)',
   },
   {
@@ -2886,7 +2886,7 @@ const practice = [
     question: 'Complete: Il ___ ha smesso di funzionare ieri.',
     italian: 'Il computer ha smesso di funzionare ieri',
     options: ['computer', 'programma', 'internet', 'disco'],
-    correct: 'computer',
+    answer: 'computer',
     hint: 'The device that stops working',
   },
   {
@@ -2896,7 +2896,7 @@ const practice = [
     question: 'What does "la rete" mean in technology?',
     italian: 'la rete',
     options: ['the network', 'the website', 'the data', 'the code'],
-    correct: 'the network',
+    answer: 'the network',
     hint: 'Literally "the net"',
   },
   {
@@ -2906,7 +2906,7 @@ const practice = [
     question: 'What is "l\'algoritmo" in English?',
     italian: 'l\'algoritmo',
     options: ['the algorithm', 'the database', 'the function', 'the variable'],
-    correct: 'the algorithm',
+    answer: 'the algorithm',
     hint: 'Same root as in English',
   },
   {
@@ -2916,7 +2916,7 @@ const practice = [
     question: 'Translate: "My Wi-Fi connection is slow."',
     italian: 'La mia connessione Wi-Fi è lenta',
     options: ['La mia connessione Wi-Fi è lenta', 'Il mio Wi-Fi è veloce', 'La mia rete è cattiva', 'Il mio internet è lento'],
-    correct: 'La mia connessione Wi-Fi è lenta',
+    answer: 'La mia connessione Wi-Fi è lenta',
     hint: '"Connection" = connessione, "slow" = lenta',
   },
   {
@@ -2926,7 +2926,7 @@ const practice = [
     question: 'What is "il mouse" in Italian?',
     italian: 'il mouse',
     options: ['the mouse', 'the keyboard', 'the monitor', 'the speaker'],
-    correct: 'the mouse',
+    answer: 'the mouse',
     hint: 'English loanword for computer mouse',
   },
   {
@@ -2936,7 +2936,7 @@ const practice = [
     question: 'Complete: Devi ___ una password sicura.',
     italian: 'Devi creare una password sicura',
     options: ['creare', 'scrivere', 'vedere', 'togliere'],
-    correct: 'creare',
+    answer: 'creare',
     hint: '"To create" = creare',
   },
   {
@@ -2946,7 +2946,7 @@ const practice = [
     question: 'Which word means "to print"?',
     italian: 'stampare',
     options: ['stampare', 'copiaire', 'inserire', 'digitare'],
-    correct: 'stampare',
+    answer: 'stampare',
     hint: 'Also used for printing documents',
   },
   {
@@ -2956,7 +2956,7 @@ const practice = [
     question: 'What is "la cyber sicurezza"?',
     italian: 'la cyber sicurezza',
     options: ['cybersecurity', 'cyber attack', 'cyber law', 'cyber space'],
-    correct: 'cybersecurity',
+    answer: 'cybersecurity',
     hint: '"Sicurezza" means security',
   },
   {
@@ -2966,7 +2966,7 @@ const practice = [
     question: 'Translate: "The app crashed and I lost all my data."',
     italian: 'L\'app è crashed e ho perso tutti i miei dati',
     options: ['L\'app è crashata e ho perso tutti i miei dati', 'L\'app ha chiuso e ho perso tutti i dati', 'Il programma è caduto e ho perso tutti i miei dati', 'L\'app è rotta e ho perso i miei dati'],
-    correct: 'L\'app è crashata e ho perso tutti i miei dati',
+    answer: 'L\'app è crashata e ho perso tutti i miei dati',
     hint: '"Crashare" is used as a loanword, "dati" = data',
   },
   {
@@ -2976,7 +2976,7 @@ const practice = [
     question: 'What does "digitare" mean?',
     italian: 'digitare',
     options: ['to type', 'to count', 'to touch', 'to press'],
-    correct: 'to type',
+    answer: 'to type',
     hint: 'Related to "digit" (dito)',
   },
   {
@@ -2986,7 +2986,7 @@ const practice = [
     question: 'Complete: Ho bisogno di un ___ per salvare i file.',
     italian: 'Ho bisogno di un hard disk per salvare i file',
     options: ['hard disk', 'schermo', 'tastiera', 'cavo'],
-    correct: 'hard disk',
+    answer: 'hard disk',
     hint: 'Storage device',
   },
   {
@@ -2996,7 +2996,7 @@ const practice = [
     question: 'What is "l\'intelligenza artificiale"?',
     italian: 'l\'intelligenza artificiale',
     options: ['artificial intelligence', 'natural language', 'machine learning', 'virtual reality'],
-    correct: 'artificial intelligence',
+    answer: 'artificial intelligence',
     hint: '"Intelligenza" = intelligence, "artificiale" = artificial',
   },
   {
@@ -3006,7 +3006,7 @@ const practice = [
     question: 'Translate: "Please reboot your computer."',
     italian: 'Per favore riavvia il tuo computer',
     options: ['Per favore riavvia il tuo computer', 'Per favore chiudi il tuo computer', 'Per favore spegni il tuo computer', 'Per favore accendi il tuo computer'],
-    correct: 'Per favore riavvia il tuo computer',
+    answer: 'Per favore riavvia il tuo computer',
     hint: '"To reboot" = riavviare',
   },
   {
@@ -3016,7 +3016,7 @@ const practice = [
     question: 'What is "il cloud computing" in Italian?',
     italian: 'il cloud computing',
     options: ['cloud computing', 'nuvola digitale', 'calcolo a distanza', 'archiviazione web'],
-    correct: 'cloud computing',
+    answer: 'cloud computing',
     hint: 'English term used as-is',
   },
   {
@@ -3026,7 +3026,7 @@ const practice = [
     question: 'Complete: Il ___ è fondamentale per programmare.',
     italian: 'Il linguaggio di programmazione è fondamentale per programmare',
     options: ['linguaggio di programmazione', 'sistema operativo', 'browser web', 'processore'],
-    correct: 'linguaggio di programmazione',
+    answer: 'linguaggio di programmazione',
     hint: 'What you use to program',
   },
   // Food & cooking terms (A1-B1)
@@ -3037,7 +3037,7 @@ const practice = [
     question: 'What is "la pasta" in English?',
     italian: 'la pasta',
     options: ['pasta', 'bread', 'rice', 'pizza'],
-    correct: 'pasta',
+    answer: 'pasta',
     hint: 'The most famous Italian food',
   },
   {
@@ -3047,7 +3047,7 @@ const practice = [
     question: 'What does "il pane" mean?',
     italian: 'il pane',
     options: ['bread', 'cheese', 'milk', 'water'],
-    correct: 'bread',
+    answer: 'bread',
     hint: 'Basic food staple',
   },
   {
@@ -3057,7 +3057,7 @@ const practice = [
     question: 'What is "il pomodoro"?',
     italian: 'il pomodoro',
     options: ['tomato', 'potato', 'onion', 'garlic'],
-    correct: 'tomato',
+    answer: 'tomato',
     hint: 'Red vegetable used in many Italian sauces',
   },
   {
@@ -3067,7 +3067,7 @@ const practice = [
     question: 'Translate: "I would like a coffee, please."',
     italian: 'Vorrei un caffè, per favore',
     options: ['Vorrei un caffè, per favore', 'Voglio un caffè, per favore', 'Prendo un caffè, per favore', 'Ho un caffè, per favore'],
-    correct: 'Vorrei un caffè, per favore',
+    answer: 'Vorrei un caffè, per favore',
     hint: '"Vorrei" is the polite form of "I would like"',
   },
   {
@@ -3077,7 +3077,7 @@ const practice = [
     question: 'Complete: ___ sono le uova nella dispensa?',
     italian: 'Quante sono le uova nella dispensa',
     options: ['Quante', 'Quanto', 'Quale', 'Come'],
-    correct: 'Quante',
+    answer: 'Quante',
     hint: '"Uova" is plural feminine — how many?',
   },
   {
@@ -3087,7 +3087,7 @@ const practice = [
     question: 'What is "il formaggio"?',
     italian: 'il formaggio',
     options: ['cheese', 'butter', 'milk', 'cream'],
-    correct: 'cheese',
+    answer: 'cheese',
     hint: 'Essential pizza topping',
   },
   {
@@ -3097,7 +3097,7 @@ const practice = [
     question: 'Which word means "olive oil"?',
     italian: 'l\'olio d\'oliva',
     options: ['l\'olio d\'oliva', 'il succo d\'oliva', 'l\'acqua d\'oliva', 'il latte d\'oliva'],
-    correct: 'l\'olio d\'oliva',
+    answer: 'l\'olio d\'oliva',
     hint: 'Essential Italian cooking ingredient',
   },
   {
@@ -3107,7 +3107,7 @@ const practice = [
     question: 'Translate: "The risotto is very delicious."',
     italian: 'Il risotto è molto buono',
     options: ['Il risotto è molto buono', 'Il risotto è molto caldo', 'Il risotto è molto grande', 'Il risotto è molto bello'],
-    correct: 'Il risotto è molto buono',
+    answer: 'Il risotto è molto buono',
     hint: '"Delicious" = buono',
   },
   {
@@ -3117,7 +3117,7 @@ const practice = [
     question: 'What is "il soffritto"?',
     italian: 'il soffritto',
     options: ['the sautéed base', 'the sauce', 'the seasoning', 'the marinade'],
-    correct: 'the sautéed base',
+    answer: 'the sautéed base',
     hint: 'Base of onions, carrots, and celery sautéed in olive oil',
   },
   {
@@ -3127,7 +3127,7 @@ const practice = [
     question: 'Complete: Metti ___ nel tegame e fai soffriggere.',
     italian: 'Metti l\'olio nel tegame e fai soffriggere',
     options: ['l\'olio', 'il sale', 'l\'acqua', 'il pepe'],
-    correct: 'l\'olio',
+    answer: 'l\'olio',
     hint: 'You sauté with this liquid fat',
   },
   {
@@ -3137,7 +3137,7 @@ const practice = [
     question: 'What does "cuocere" mean?',
     italian: 'cuocere',
     options: ['to cook', 'to cut', 'to wash', 'to eat'],
-    correct: 'to cook',
+    answer: 'to cook',
     hint: 'Basic cooking verb',
   },
   {
@@ -3147,7 +3147,7 @@ const practice = [
     question: 'What is "il mestolo"?',
     italian: 'il mestolo',
     options: ['the ladle', 'the knife', 'the fork', 'the pan'],
-    correct: 'the ladle',
+    answer: 'the ladle',
     hint: 'Kitchen utensil for serving soup',
   },
   {
@@ -3157,7 +3157,7 @@ const practice = [
     question: 'Translate: "You need to let the dough rise for two hours."',
     italian: 'Devi lasciar lievitare l\'impasto per due ore',
     options: ['Devi lasciar lievitare l\'impasto per due ore', 'Devi cuocere l\'impasto per due ore', 'Devi tagliare l\'impasto per due ore', 'Devi mescolare l\'impasto per due ore'],
-    correct: 'Devi lasciar lievitare l\'impasto per due ore',
+    answer: 'Devi lasciar lievitare l\'impasto per due ore',
     hint: '"To let rise" = lasciar lievitare, "dough" = impasto',
   },
   {
@@ -3167,7 +3167,7 @@ const practice = [
     question: 'What is "la ricetta"?',
     italian: 'la ricetta',
     options: ['the recipe', 'the receipt', 'the tradition', 'the ingredient'],
-    correct: 'the recipe',
+    answer: 'the recipe',
     hint: 'Instructions for cooking a dish',
   },
   {
@@ -3177,7 +3177,7 @@ const practice = [
     question: 'Complete: ___ la pasta al dente.',
     italian: 'Cuoci la pasta al dente',
     options: ['Cuoci', 'Taglia', 'Mangia', 'Lava'],
-    correct: 'Cuoci',
+    answer: 'Cuoci',
     hint: '"To cook" = cuocere (imperative)',
   },
   {
@@ -3187,7 +3187,7 @@ const practice = [
     question: 'What is "il vino"?',
     italian: 'il vino',
     options: ['wine', 'vinegar', 'water', 'juice'],
-    correct: 'wine',
+    answer: 'wine',
     hint: 'Common Italian beverage with meals',
   },
   {
@@ -3197,7 +3197,7 @@ const practice = [
     question: 'What does "a temperatura ambiente" mean?',
     italian: 'a temperatura ambiente',
     options: ['at room temperature', 'at high temperature', 'at low temperature', 'at body temperature'],
-    correct: 'at room temperature',
+    answer: 'at room temperature',
     hint: '"Ambiente" = surrounding/environment',
   },
   {
@@ -3207,7 +3207,7 @@ const practice = [
     question: 'Translate: "Add a pinch of salt and some pepper."',
     italian: 'Aggiungi un pizzico di sale e un po\' di pepe',
     options: ['Aggiungi un pizzico di sale e un po\' di pepe', 'Metti molto sale e pepe', 'Togli il sale e il pepe', 'Compra sale e pepe'],
-    correct: 'Aggiungi un pizzico di sale e un po\' di pepe',
+    answer: 'Aggiungi un pizzico di sale e un po\' di pepe',
     hint: '"A pinch" = un pizzico, "add" = aggiungere',
   },
   {
@@ -3217,7 +3217,7 @@ const practice = [
     question: 'What is "la mela"?',
     italian: 'la mela',
     options: ['apple', 'orange', 'banana', 'grape'],
-    correct: 'apple',
+    answer: 'apple',
     hint: 'Common fruit, red or green',
   },
   {
@@ -3227,7 +3227,7 @@ const practice = [
     question: 'Complete: Per questo piatto servono ___ ingredienti.',
     italian: 'Per questo piatto servono cinque ingredienti',
     options: ['cinque', 'quattro', 'sei', 'dieci'],
-    correct: 'cinque',
+    answer: 'cinque',
     hint: 'Number five',
   },
   // Travel & directions (A1-B1)
@@ -3238,7 +3238,7 @@ const practice = [
     question: 'What is "la stazione"?',
     italian: 'la stazione',
     options: ['station', 'street', 'square', 'airport'],
-    correct: 'station',
+    answer: 'station',
     hint: 'Where you catch trains',
   },
   {
@@ -3248,7 +3248,7 @@ const practice = [
     question: 'What does "a destra" mean?',
     italian: 'a destra',
     options: ['to the right', 'to the left', 'straight ahead', 'behind'],
-    correct: 'to the right',
+    answer: 'to the right',
     hint: 'Directional opposite of "a sinistra"',
   },
   {
@@ -3258,7 +3258,7 @@ const practice = [
     question: 'Translate: "Where is the nearest hotel?"',
     italian: 'Dov\'è l\'hotel più vicino?',
     options: ['Dov\'è l\'hotel più vicino?', 'Dov\'è la stazione più vicina?', 'Dov\'è il ristorante più vicino?', 'Dov\'è il museo più vicino?'],
-    correct: 'Dov\'è l\'hotel più vicino?',
+    answer: 'Dov\'è l\'hotel più vicino?',
     hint: '"Dov\'è" = where is, "più vicino" = nearest',
   },
   {
@@ -3268,7 +3268,7 @@ const practice = [
     question: 'What is "l\'aeroporto"?',
     italian: 'l\'aeroporto',
     options: ['airport', 'harbor', 'bus stop', 'taxi stand'],
-    correct: 'airport',
+    answer: 'airport',
     hint: 'Where planes depart and arrive',
   },
   {
@@ -3278,7 +3278,7 @@ const practice = [
     question: 'Complete: Vado in ___ per prendere il treno.',
     italian: 'Vado in stazione per prendere il treno',
     options: ['stazione', 'aeroporto', 'porta', 'piazza'],
-    correct: 'stazione',
+    answer: 'stazione',
     hint: 'Where trains depart from',
   },
   {
@@ -3288,7 +3288,7 @@ const practice = [
     question: 'What is "il biglietto"?',
     italian: 'il biglietto',
     options: ['ticket', 'luggage', 'passport', 'map'],
-    correct: 'ticket',
+    answer: 'ticket',
     hint: 'You need this to travel by train or bus',
   },
   {
@@ -3298,7 +3298,7 @@ const practice = [
     question: 'What does "proseguire dritto" mean?',
     italian: 'proseguire dritto',
     options: ['continue straight', 'turn right', 'go back', 'stop here'],
-    correct: 'continue straight',
+    answer: 'continue straight',
     hint: '"Dritto" = straight',
   },
   {
@@ -3308,7 +3308,7 @@ const practice = [
     question: 'Translate: "I would like to book a room for three nights."',
     italian: 'Vorrei prenotare una camera per tre notti',
     options: ['Vorrei prenotare una camera per tre notti', 'Vorrei affittare una casa per tre giorni', 'Voglio prendere un biglietto per tre notti', 'Ho bisogno di un albergo per tre notti'],
-    correct: 'Vorrei prenotare una camera per tre notti',
+    answer: 'Vorrei prenotare una camera per tre notti',
     hint: '"To book" = prenotare, "room" = camera',
   },
   {
@@ -3318,7 +3318,7 @@ const practice = [
     question: 'What is "la destinazione"?',
     italian: 'la destinazione',
     options: ['destination', 'departure', 'distance', 'direction'],
-    correct: 'destination',
+    answer: 'destination',
     hint: 'Where you are going',
   },
   {
@@ -3328,7 +3328,7 @@ const practice = [
     question: 'Complete: Scusi, ___ si va alla spiaggia?',
     italian: 'Scusi, come si va alla spiaggia?',
     options: ['come', 'quando', 'perché', 'quanto'],
-    correct: 'come',
+    answer: 'come',
     hint: 'Asking about how to get somewhere',
   },
   {
@@ -3338,7 +3338,7 @@ const practice = [
     question: 'What is "la mappa"?',
     italian: 'la mappa',
     options: ['map', 'guide', 'book', 'photo'],
-    correct: 'map',
+    answer: 'map',
     hint: 'Helps you navigate a city',
   },
   {
@@ -3348,7 +3348,7 @@ const practice = [
     question: 'What does "l\'itinerario" mean?',
     italian: 'l\'itinerario',
     options: ['itinerary', 'insurance', 'investment', 'invitation'],
-    correct: 'itinerary',
+    answer: 'itinerary',
     hint: 'A planned route or journey',
   },
   {
@@ -3358,7 +3358,7 @@ const practice = [
     question: 'Translate: "Turn left at the traffic light."',
     italian: 'Gira a sinistra al semaforo',
     options: ['Gira a sinistra al semaforo', 'Gira a destra al semaforo', 'Vai dritto al semaforo', 'Fermati al semaforo'],
-    correct: 'Gira a sinistra al semaforo',
+    answer: 'Gira a sinistra al semaforo',
     hint: '"Turn left" = gira a sinistra, "traffic light" = semaforo',
   },
   {
@@ -3368,7 +3368,7 @@ const practice = [
     question: 'What is "il passaporto"?',
     italian: 'il passaporto',
     options: ['passport', 'visa', 'ID card', 'driver\'s license'],
-    correct: 'passport',
+    answer: 'passport',
     hint: 'Required document for international travel',
   },
   {
@@ -3378,7 +3378,7 @@ const practice = [
     question: 'Complete: Il ___ parte alle otto e arriva a mezzogiorno.',
     italian: 'Il volo parte alle otto e arriva a mezzogiorno',
     options: ['volo', 'treno', 'autobus', 'taxi'],
-    correct: 'volo',
+    answer: 'volo',
     hint: 'What you take in an airplane',
   },
   {
@@ -3388,7 +3388,7 @@ const practice = [
     question: 'What is "la valigia"?',
     italian: 'la valigia',
     options: ['suitcase', 'backpack', 'handbag', 'box'],
-    correct: 'suitcase',
+    answer: 'suitcase',
     hint: 'What you pack for a trip',
   },
   {
@@ -3398,7 +3398,7 @@ const practice = [
     question: 'What does "imbarchi" mean in a travel context?',
     italian: 'imbarchi',
     options: ['boarding', 'departures', 'arrivals', 'delays'],
-    correct: 'boarding',
+    answer: 'boarding',
     hint: 'The process of getting on a plane',
   },
   {
@@ -3408,7 +3408,7 @@ const practice = [
     question: 'Translate: "We will need to change trains in Milan."',
     italian: 'Dovremo cambiare treno a Milano',
     options: ['Dovremo cambiare treno a Milano', 'Dobbiamo prendere un altro treno a Milano', 'Cambieremo il treno di Milano', 'Il treno cambia a Milano'],
-    correct: 'Dovremo cambiare treno a Milano',
+    answer: 'Dovremo cambiare treno a Milano',
     hint: '"To change" = cambiare, "we will need" = dovremo',
   },
   {
@@ -3418,7 +3418,7 @@ const practice = [
     question: 'What is "la partenza"?',
     italian: 'la partenza',
     options: ['departure', 'arrival', 'return', 'transfer'],
-    correct: 'departure',
+    answer: 'departure',
     hint: 'Opposite of "l\'arrivo"',
   },
   {
@@ -3428,7 +3428,7 @@ const practice = [
     question: 'Complete: A che ___ parte il treno?',
     italian: 'A che ora parte il treno?',
     options: ['ora', 'giorno', 'data', 'posto'],
-    correct: 'ora',
+    answer: 'ora',
     hint: 'Asking about the time',
   },
   // Emotions & personality (A2-B1)
@@ -3439,7 +3439,7 @@ const practice = [
     question: 'What is "la gioia"?',
     italian: 'la gioia',
     options: ['joy', 'anger', 'fear', 'sadness'],
-    correct: 'gioia',
+    answer: 'gioia',
     hint: 'A positive, happy emotion',
   },
   {
@@ -3449,7 +3449,7 @@ const practice = [
     question: 'What does "essere triste" mean?',
     italian: 'essere triste',
     options: ['to be sad', 'to be happy', 'to be angry', 'to be tired'],
-    correct: 'to be sad',
+    answer: 'to be sad',
     hint: 'Opposite of "essere felice"',
   },
   {
@@ -3459,7 +3459,7 @@ const practice = [
     question: 'Translate: "She is very patient with children."',
     italian: 'È molto paziente con i bambini',
     options: ['È molto paziente con i bambini', 'È molto contenta con i bambini', 'È molto gentile con i bambini', 'È molto simpatica con i bambini'],
-    correct: 'È molto paziente con i bambini',
+    answer: 'È molto paziente con i bambini',
     hint: '"Patient" = paziente',
   },
   {
@@ -3469,7 +3469,7 @@ const practice = [
     question: 'What does "timido" mean?',
     italian: 'timido',
     options: ['shy', 'brave', 'proud', 'generous'],
-    correct: 'shy',
+    answer: 'shy',
     hint: 'A personality trait describing someone reserved',
   },
   {
@@ -3479,7 +3479,7 @@ const practice = [
     question: 'Complete: Mi sento ___ oggi. Tutto va bene.',
     italian: 'Mi sento felice oggi. Tutto va bene.',
     options: ['felice', 'triste', 'arrabbiato', 'spaventato'],
-    correct: 'felice',
+    answer: 'felice',
     hint: 'Everything is going well — how do you feel?',
   },
   {
@@ -3489,7 +3489,7 @@ const practice = [
     question: 'What is "l\'ansia"?',
     italian: 'l\'ansia',
     options: ['anxiety', 'happiness', 'boredom', 'hunger'],
-    correct: 'ansia',
+    answer: 'ansia',
     hint: 'A feeling of worry or nervousness',
   },
   {
@@ -3499,7 +3499,7 @@ const practice = [
     question: 'Which word means "compassionate"?',
     italian: 'compassionevole',
     options: ['compassionevole', 'egoista', 'arrogante', 'scortese'],
-    correct: 'compassionevole',
+    answer: 'compassionevole',
     hint: 'Related to "compassione" (compassion)',
   },
   {
@@ -3509,7 +3509,7 @@ const practice = [
     question: 'Translate: "He is very optimistic about the future."',
     italian: 'È molto ottimista riguardo al futuro',
     options: ['È molto ottimista riguardo al futuro', 'È molto pessimista riguardo al futuro', 'È molto curioso riguardo al futuro', 'È molto ansioso riguardo al futuro'],
-    correct: 'È molto ottimista riguardo al futuro',
+    answer: 'È molto ottimista riguardo al futuro',
     hint: '"Optimistic" = ottimista',
   },
   {
@@ -3519,7 +3519,7 @@ const practice = [
     question: 'What does "geloso" mean?',
     italian: 'geloso',
     options: ['jealous', 'generous', 'grateful', 'guilty'],
-    correct: 'jealous',
+    answer: 'jealous',
     hint: 'Envious of someone else',
   },
   {
@@ -3529,7 +3529,7 @@ const practice = [
     question: 'Complete: Non essere ___, tanto alla fine riuscirai!',
     italian: 'Non essere scoraggiato, tanto alla fine riuscirai!',
     options: ['scoraggiato', 'contento', 'calmo', 'orgoglioso'],
-    correct: 'scoraggiato',
+    answer: 'scoraggiato',
     hint: 'Don\'t give up! Be encouraged!',
   },
   {
@@ -3539,7 +3539,7 @@ const practice = [
     question: 'What is "l\'empatia"?',
     italian: 'l\'empatia',
     options: ['empathy', 'energy', 'enthusiasm', 'envy'],
-    correct: 'empathia',
+    answer: 'empathia',
     hint: 'Understanding and sharing the feelings of others',
   },
   {
@@ -3549,7 +3549,7 @@ const practice = [
     question: 'What does "arrabbiato" mean?',
     italian: 'arrabbiato',
     options: ['angry', 'happy', 'worried', 'surprised'],
-    correct: 'angry',
+    answer: 'angry',
     hint: 'A strong negative emotion',
   },
   {
@@ -3559,7 +3559,7 @@ const practice = [
     question: 'Translate: "She is a very generous and kind person."',
     italian: 'È una persona molto generosa e gentile',
     options: ['È una persona molto generosa e gentile', 'È una persona molto ricca e gentile', 'È una persona molto contenta e gentile', 'È una persona molto intelligente e gentile'],
-    correct: 'È una persona molto generosa e gentile',
+    answer: 'È una persona molto generosa e gentile',
     hint: '"Generous" = generosa, "kind" = gentile',
   },
   {
@@ -3569,7 +3569,7 @@ const practice = [
     question: 'What does "orgoglioso" mean?',
     italian: 'orgoglioso',
     options: ['proud', 'embarrassed', 'confused', 'worried'],
-    correct: 'proud',
+    answer: 'proud',
     hint: 'Feeling of satisfaction about achievements',
   },
   {
@@ -3579,7 +3579,7 @@ const practice = [
     question: 'Complete: La sua ___ è davvero ammirevole.',
     italian: 'La sua pazienza è davvero ammirevole',
     options: ['pazienza', 'rabbia', 'paura', 'noia'],
-    correct: 'pazienza',
+    answer: 'pazienza',
     hint: 'An admirable quality — the ability to wait calmly',
   },
   {
@@ -3589,7 +3589,7 @@ const practice = [
     question: 'What is "la determinazione"?',
     italian: 'la determinazione',
     options: ['determination', 'description', 'destination', 'destination'],
-    correct: 'determination',
+    answer: 'determination',
     hint: 'The quality of being firm in purpose',
   },
   {
@@ -3599,7 +3599,7 @@ const practice = [
     question: 'Which word means "curious"?',
     italian: 'curioso',
     options: ['curioso', 'timido', 'noioso', 'serio'],
-    correct: 'curioso',
+    answer: 'curioso',
     hint: 'Eager to know or learn something',
   },
   {
@@ -3609,7 +3609,7 @@ const practice = [
     question: 'Translate: "I am afraid of the dark."',
     italian: 'Ho paura del buio',
     options: ['Ho paura del buio', 'Ho sonno nel buio', 'Sono triste nel buio', 'Sono arrabbiato nel buio'],
-    correct: 'Ho paura del buio',
+    answer: 'Ho paura del buio',
     hint: '"To be afraid" = avere paura, "dark" = buio',
   },
   {
@@ -3619,7 +3619,7 @@ const practice = [
     question: 'Complete: Lei è una donna molto ___ e intelligente.',
     italian: 'Lei è una donna molto dinamica e intelligente',
     options: ['dinamica', 'lenta', 'calma', 'fredda'],
-    correct: 'dinamica',
+    answer: 'dinamica',
     hint: 'Full of energy and activity',
   },
   {
@@ -3629,7 +3629,7 @@ const practice = [
     question: 'What does "la frustrazione" mean?',
     italian: 'la frustrazione',
     options: ['frustration', 'satisfaction', 'inspiration', 'relaxation'],
-    correct: 'frustration',
+    answer: 'frustration',
     hint: 'The feeling when things don\'t go as planned',
   },
   // Business & economics (B1-C1)
@@ -3640,7 +3640,7 @@ const practice = [
     question: 'What is "il fatturato"?',
     italian: 'il fatturato',
     options: ['revenue', 'profit', 'expense', 'budget'],
-    correct: 'revenue',
+    answer: 'revenue',
     hint: 'Total income from sales',
   },
   {
@@ -3650,7 +3650,7 @@ const practice = [
     question: 'What does "l\'utile netto" mean?',
     italian: 'l\'utile netto',
     options: ['net profit', 'gross income', 'total revenue', 'cash flow'],
-    correct: 'net profit',
+    answer: 'net profit',
     hint: '"Netto" = net, "utile" = profit',
   },
   {
@@ -3660,7 +3660,7 @@ const practice = [
     question: 'Translate: "We need to increase our market share."',
     italian: 'Dobbiamo aumentare la nostra quota di mercato',
     options: ['Dobbiamo aumentare la nostra quota di mercato', 'Dobbiamo vendere la nostra quota di mercato', 'Dobbiamo creare la nostra quota di mercato', 'Dobbiamo perdere la nostra quota di mercato'],
-    correct: 'Dobbiamo aumentare la nostra quota di mercato',
+    answer: 'Dobbiamo aumentare la nostra quota di mercato',
     hint: '"To increase" = aumentare, "market share" = quota di mercato',
   },
   {
@@ -3670,7 +3670,7 @@ const practice = [
     question: 'What is "il bilancio"?',
     italian: 'il bilancio',
     options: ['balance sheet', 'budget', 'profit', 'invoice'],
-    correct: 'balance sheet',
+    answer: 'balance sheet',
     hint: 'Financial statement of a company',
   },
   {
@@ -3680,7 +3680,7 @@ const practice = [
     question: 'Complete: L\'___ dell\'azienda è cresciuto del 15%.',
     italian: 'Il fatturato dell\'azienda è cresciuto del 15%',
     options: ['fatturato', 'costo', 'debito', 'prezzo'],
-    correct: 'fatturato',
+    answer: 'fatturato',
     hint: 'What grows when sales increase',
   },
   {
@@ -3690,7 +3690,7 @@ const practice = [
     question: 'What does "l\'investimento" mean?',
     italian: 'l\'investimento',
     options: ['investment', 'interest', 'income', 'insurance'],
-    correct: 'investment',
+    answer: 'investment',
     hint: 'Putting money into something for future gain',
   },
   {
@@ -3700,7 +3700,7 @@ const practice = [
     question: 'Which term means "supply chain"?',
     italian: 'la catena di approvvigionamento',
     options: ['la catena di approvvigionamento', 'la linea di produzione', 'la rete di vendita', 'la filiera di prodotti'],
-    correct: 'la catena di approvvigionamento',
+    answer: 'la catena di approvvigionamento',
     hint: 'The entire process from raw materials to delivery',
   },
   {
@@ -3710,7 +3710,7 @@ const practice = [
     question: 'Translate: "The company has laid off 200 employees."',
     italian: 'L\'azienda ha licenziato 200 dipendenti',
     options: ['L\'azienda ha licenziato 200 dipendenti', 'L\'azienda ha assunto 200 dipendenti', 'L\'azienda ha formato 200 dipendenti', 'L\'azienda ha trasferito 200 dipendenti'],
-    correct: 'L\'azienda ha licenziato 200 dipendenti',
+    answer: 'L\'azienda ha licenziato 200 dipendenti',
     hint: '"To lay off" = licenziare',
   },
   {
@@ -3720,7 +3720,7 @@ const practice = [
     question: 'What is "la privatizzazione"?',
     italian: 'la privatizzazione',
     options: ['privatization', 'nationalization', 'liberalization', 'globalization'],
-    correct: 'privatization',
+    answer: 'privatization',
     hint: 'Transfer from public to private ownership',
   },
   {
@@ -3730,7 +3730,7 @@ const practice = [
     question: 'Complete: Il ___ è in aumento quest\'anno.',
     italian: 'Il profitto è in aumento quest\'anno',
     options: ['profitto', 'debito', 'costo', 'prezzo'],
-    correct: 'profitto',
+    answer: 'profitto',
     hint: 'What companies aim to maximize',
   },
   {
@@ -3740,7 +3740,7 @@ const practice = [
     question: 'What does "il turnover" mean in business Italian?',
     italian: 'il turnover',
     options: ['turnover', 'profit margin', 'cash flow', 'market cap'],
-    correct: 'turnover',
+    answer: 'turnover',
     hint: 'English loanword used for employee turnover or revenue',
   },
   {
@@ -3750,7 +3750,7 @@ const practice = [
     question: 'What is "l\'holding"?',
     italian: 'l\'holding',
     options: ['holding company', 'headquarters', 'branch office', 'subsidiary'],
-    correct: 'holding company',
+    answer: 'holding company',
     hint: 'A company that owns controlling interests in other companies',
   },
   {
@@ -3760,7 +3760,7 @@ const practice = [
     question: 'Translate: "We need to reduce operating costs."',
     italian: 'Dobbiamo ridurre i costi operativi',
     options: ['Dobbiamo ridurre i costi operativi', 'Dobbiamo aumentare i costi operativi', 'Dobbiamo calcolare i costi operativi', 'Dobbiamo pagare i costi operativi'],
-    correct: 'Dobbiamo ridurre i costi operativi',
+    answer: 'Dobbiamo ridurre i costi operativi',
     hint: '"To reduce" = ridurre, "operating costs" = costi operativi',
   },
   {
@@ -3770,7 +3770,7 @@ const practice = [
     question: 'What is "la concorrenza"?',
     italian: 'la concorrenza',
     options: ['competition', 'cooperation', 'collaboration', 'concentration'],
-    correct: 'competition',
+    answer: 'competition',
     hint: 'Rival companies in the same market',
   },
   {
@@ -3780,7 +3780,7 @@ const practice = [
     question: 'Complete: Il ___ ha presentato il business plan.',
     italian: 'Il direttore ha presentato il business plan',
     options: ['direttore', 'impiegato', 'cliente', 'fornitore'],
-    correct: 'direttore',
+    answer: 'direttore',
     hint: 'The person who presents strategic plans',
   },
   {
@@ -3790,7 +3790,7 @@ const practice = [
     question: 'What does "l\'esposizione debitoria" mean?',
     italian: 'l\'esposizione debitoria',
     options: ['debt exposure', 'debt collection', 'debt restructuring', 'debt forgiveness'],
-    correct: 'debt exposure',
+    answer: 'debt exposure',
     hint: 'The total amount of debt a company carries',
   },
   {
@@ -3800,7 +3800,7 @@ const practice = [
     question: 'What is "il raggiungimento degli obiettivi"?',
     italian: 'il raggiungimento degli obiettivi',
     options: ['goal achievement', 'goal setting', 'goal planning', 'goal tracking'],
-    correct: 'goal achievement',
+    answer: 'goal achievement',
     hint: '"Raggiungimento" = reaching/achieving',
   },
   {
@@ -3810,7 +3810,7 @@ const practice = [
     question: 'Translate: "The merger created synergies between the two companies."',
     italian: 'La fusione ha creato sinergie tra le due aziende',
     options: ['La fusione ha creato sinergie tra le due aziende', 'La partnership ha creato sinergie tra le due aziende', 'La vendita ha creato sinergie tra le due aziende', 'La separazione ha creato sinergie tra le due aziende'],
-    correct: 'La fusione ha creato sinergie tra le due aziende',
+    answer: 'La fusione ha creato sinergie tra le due aziende',
     hint: '"Merger" = fusione, "synergies" = sinergie',
   },
   {
@@ -3820,7 +3820,7 @@ const practice = [
     question: 'Complete: Dobbiamo analizzare il ___ del mercato.',
     italian: 'Dobbiamo analizzare il comportamento del mercato',
     options: ['comportamento', 'prezzo', 'costo', 'valore'],
-    correct: 'comportamento',
+    answer: 'comportamento',
     hint: 'How the market behaves',
   },
   {
@@ -3830,7 +3830,7 @@ const practice = [
     question: 'What is "la redditività"?',
     italian: 'la redditività',
     options: ['profitability', 'productivity', 'popularity', 'priority'],
-    correct: 'profitability',
+    answer: 'profitability',
     hint: 'The ability to generate profit',
   },
   // Science & nature (B1-B2)
@@ -3841,7 +3841,7 @@ const practice = [
     question: 'What is "l\'ecosistema"?',
     italian: 'l\'ecosistema',
     options: ['ecosystem', 'economy', 'ecology', 'education'],
-    correct: 'ecosystem',
+    answer: 'ecosystem',
     hint: 'Community of living organisms and their environment',
   },
   {
@@ -3851,7 +3851,7 @@ const practice = [
     question: 'What does "la fotosintesi" mean?',
     italian: 'la fotosintesi',
     options: ['photosynthesis', 'photography', 'photon', 'photocopy'],
-    correct: 'photosynthesis',
+    answer: 'photosynthesis',
     hint: 'Process by which plants make food from sunlight',
   },
   {
@@ -3861,7 +3861,7 @@ const practice = [
     question: 'Translate: "Biodiversity is essential for the planet."',
     italian: 'La biodiversità è essenziale per il pianeta',
     options: ['La biodiversità è essenziale per il pianeta', 'La biologia è essenziale per il pianeta', 'La biochimica è essenziale per il pianeta', 'La bioetica è essenziale per il pianeta'],
-    correct: 'La biodiversità è essenziale per il pianeta',
+    answer: 'La biodiversità è essenziale per il pianeta',
     hint: '"Biodiversity" = biodiversità',
   },
   {
@@ -3871,7 +3871,7 @@ const practice = [
     question: 'What is "il ghiacciaio"?',
     italian: 'il ghiacciaio',
     options: ['glacier', 'volcano', 'canyon', 'desert'],
-    correct: 'glacier',
+    answer: 'glacier',
     hint: 'A large body of ice that moves slowly',
   },
   {
@@ -3881,7 +3881,7 @@ const practice = [
     question: 'Complete: L\'___ provoca terremoti e vulcani.',
     italian: 'La tettonica provoca terremoti e vulcani',
     options: ['tettonica', 'geografia', 'biologia', 'chimica'],
-    correct: 'tettonica',
+    answer: 'tettonica',
     hint: 'Plate tectonics cause earthquakes',
   },
   {
@@ -3891,7 +3891,7 @@ const practice = [
     question: 'What is "l\'effetto serra"?',
     italian: 'l\'effetto serra',
     options: ['greenhouse effect', 'global warming', 'acid rain', 'ozone depletion'],
-    correct: 'greenhouse effect',
+    answer: 'greenhouse effect',
     hint: 'Warming of Earth due to trapped heat',
   },
   {
@@ -3901,7 +3901,7 @@ const practice = [
     question: 'Which word means "evolution"?',
     italian: 'l\'evoluzione',
     options: ['l\'evoluzione', 'la rivoluzione', 'la rivelazione', 'la devoluzione'],
-    correct: 'l\'evoluzione',
+    answer: 'l\'evoluzione',
     hint: 'Darwin\'s theory of species development',
   },
   {
@@ -3911,7 +3911,7 @@ const practice = [
     question: 'Translate: "Climate change is affecting marine ecosystems."',
     italian: 'Il cambiamento climatico sta influenzando gli ecosistemi marini',
     options: ['Il cambiamento climatico sta influenzando gli ecosistemi marini', 'Il cambiamento climatico sta creando gli ecosistemi marini', 'Il cambiamento climatico sta distruggendo gli ecosistemi marini', 'Il cambiamento climatico sta migliorando gli ecosistemi marini'],
-    correct: 'Il cambiamento climatico sta influenzando gli ecosistemi marini',
+    answer: 'Il cambiamento climatico sta influenzando gli ecosistemi marini',
     hint: '"Climate change" = cambiamento climatico, "to affect" = influenzare',
   },
   {
@@ -3921,7 +3921,7 @@ const practice = [
     question: 'What is "il pianeta"?',
     italian: 'il pianeta',
     options: ['planet', 'asteroid', 'comet', 'satellite'],
-    correct: 'planet',
+    answer: 'planet',
     hint: 'Earth is one of these',
   },
   {
@@ -3931,7 +3931,7 @@ const practice = [
     question: 'Complete: Le ___ stanno diminuendo a causa dell\'inquinamento.',
     italian: 'Le specie stanno diminuendo a causa dell\'inquinamento',
     options: ['specie', 'piante', 'nuvole', 'onde'],
-    correct: 'specie',
+    answer: 'specie',
     hint: 'Groups of animals or plants',
   },
   {
@@ -3941,7 +3941,7 @@ const practice = [
     question: 'What is "l\'atmosfera"?',
     italian: 'l\'atmosfera',
     options: ['atmosphere', 'temperature', 'altitude', 'latitude'],
-    correct: 'atmosphere',
+    answer: 'atmosphere',
     hint: 'The layer of gases surrounding Earth',
   },
   {
@@ -3951,7 +3951,7 @@ const practice = [
     question: 'What does "rinnovabile" mean?',
     italian: 'rinnovabile',
     options: ['renewable', 'reusable', 'recyclable', 'replaceable'],
-    correct: 'renewable',
+    answer: 'renewable',
     hint: 'Sole and wind are ___ energy sources',
   },
   {
@@ -3961,7 +3961,7 @@ const practice = [
     question: 'Translate: "Water is composed of hydrogen and oxygen."',
     italian: 'L\'acqua è composta da idrogeno e ossigeno',
     options: ['L\'acqua è composta da idrogeno e ossigeno', 'L\'acqua è formata da carbonio e ossigeno', 'L\'acqua è mista a idrogeno e azoto', 'L\'acqua è creata da idrogeno e ossigeno'],
-    correct: 'L\'acqua è composta da idrogeno e ossigeno',
+    answer: 'L\'acqua è composta da idrogeno e ossigeno',
     hint: '"Is composed of" = è composta da',
   },
   {
@@ -3971,7 +3971,7 @@ const practice = [
     question: 'What is "la deforestazione"?',
     italian: 'la deforestazione',
     options: ['deforestation', 'reforestation', 'forest fire', 'forestry'],
-    correct: 'deforestation',
+    answer: 'deforestation',
     hint: 'Clearing of forests',
   },
   {
@@ -3981,7 +3981,7 @@ const practice = [
     question: 'Complete: L\'___ solare è una fonte di energia pulita.',
     italian: 'L\'energia solare è una fonte di energia pulita',
     options: ['energia', 'acqua', 'aria', 'terra'],
-    correct: 'energia',
+    answer: 'energia',
     hint: 'Solar ___',
   },
   {
@@ -3991,7 +3991,7 @@ const practice = [
     question: 'What is "il vulcano"?',
     italian: 'il vulcano',
     options: ['volcano', 'cave', 'canyon', 'mountain'],
-    correct: 'volcano',
+    answer: 'volcano',
     hint: 'Mountain that erupts with lava',
   },
   {
@@ -4001,7 +4001,7 @@ const practice = [
     question: 'What does "l\'inquinamento" mean?',
     italian: 'l\'inquinamento',
     options: ['pollution', 'inflation', 'innovation', 'investigation'],
-    correct: 'pollution',
+    answer: 'pollution',
     hint: 'Contamination of the environment',
   },
   {
@@ -4011,7 +4011,7 @@ const practice = [
     question: 'Translate: "Scientists are studying the effects of global warming."',
     italian: 'Gli scienziati stanno studiando gli effetti del riscaldamento globale',
     options: ['Gli scienziati stanno studiando gli effetti del riscaldamento globale', 'Gli scienziati stanno creando gli effetti del riscaldamento globale', 'Gli scienziati stanno evitando gli effetti del riscaldamento globale', 'Gli scienziati stanno negando gli effetti del riscaldamento globale'],
-    correct: 'Gli scienziati stanno studiando gli effetti del riscaldamento globale',
+    answer: 'Gli scienziati stanno studiando gli effetti del riscaldamento globale',
     hint: '"To study" = studiare, "effects" = effetti',
   },
   {
@@ -4021,7 +4021,7 @@ const practice = [
     question: 'Complete: La ___ è fondamentale per il nostro pianeta.',
     italian: 'La foresta pluviale è fondamentale per il nostro pianeta',
     options: ['foresta pluviale', 'città industriale', 'autostrada', 'piazza centrale'],
-    correct: 'foresta pluviale',
+    answer: 'foresta pluviale',
     hint: 'The jungle — most biodiverse ecosystem',
   },
   {
@@ -4031,7 +4031,7 @@ const practice = [
     question: 'What is "la sostenibilità"?',
     italian: 'la sostenibilità',
     options: ['sustainability', 'sustainability', 'stability', 'similarity'],
-    correct: 'sustainability',
+    answer: 'sustainability',
     hint: 'Meeting present needs without compromising the future',
   },
   // Idioms & proverbs (B1-C1)
@@ -4042,7 +4042,7 @@ const practice = [
     question: 'What does "in bocca al lupo" mean?',
     italian: 'in bocca al lupo',
     options: ['good luck', 'bad luck', 'be careful', 'well done'],
-    correct: 'good luck',
+    answer: 'good luck',
     hint: 'Literal: "into the wolf\'s mouth" — said before exams',
   },
   {
@@ -4052,7 +4052,7 @@ const practice = [
     question: 'What does "ogni morte di papa" mean?',
     italian: 'ogni morte di papa',
     options: ['very rarely', 'every day', 'once in a while', 'frequently'],
-    correct: 'very rarely',
+    answer: 'very rarely',
     hint: 'Literal: "every time a pope dies"',
   },
   {
@@ -4062,7 +4062,7 @@ const practice = [
     question: 'Translate the idiom: "Avere le mani in pasta" means:',
     italian: 'Avere le mani in pasta',
     options: ['to be involved in something', 'to be a good cook', 'to have dirty hands', 'to knead dough'],
-    correct: 'to be involved in something',
+    answer: 'to be involved in something',
     hint: 'Literal: "to have one\'s hands in the dough"',
   },
   {
@@ -4072,7 +4072,7 @@ const practice = [
     question: 'What does "mettere il carro before i buoi" mean?',
     italian: 'Mettere il carro prima dei buoi',
     options: ['to do things in the wrong order', 'to work hard', 'to go too fast', 'to be patient'],
-    correct: 'to do things in the wrong order',
+    answer: 'to do things in the wrong order',
     hint: 'Literal: "to put the cart before the oxen"',
   },
   {
@@ -4082,7 +4082,7 @@ const practice = [
     question: 'Complete the proverb: "Chi dorme non ___ pesce."',
     italian: 'Chi dorme non piglia pesce',
     options: ['piglia', 'vede', 'mangia', 'compra'],
-    correct: 'piglia',
+    answer: 'piglia',
     hint: 'Those who sleep don\'t catch fish — the early bird catches the worm',
   },
   {
@@ -4092,7 +4092,7 @@ const practice = [
     question: 'What does "non avere peli sulla lingua" mean?',
     italian: 'Non avere peli sulla lingua',
     options: ['to speak bluntly', 'to be speechless', 'to have good manners', 'to be eloquent'],
-    correct: 'to speak bluntly',
+    answer: 'to speak bluntly',
     hint: 'Literal: "not to have hairs on one\'s tongue"',
   },
   {
@@ -4102,7 +4102,7 @@ const practice = [
     question: 'Translate: "Tra il dire e il fare c\'è di mezzo il mare."',
     italian: 'Tra il dire e il fare c\'è di mezzo il mare',
     options: ['Easier said than done', 'Actions speak louder than words', 'The sea is beautiful', 'Talk is cheap'],
-    correct: 'Easier said than done',
+    answer: 'Easier said than done',
     hint: 'Literal: "Between saying and doing there is the sea"',
   },
   {
@@ -4112,7 +4112,7 @@ const practice = [
     question: 'What does "avere ilwallet in mano" mean?',
     italian: 'Avere il lupo per le corna',
     options: ['to face a difficult situation', 'to run away', 'to be brave', 'to be lucky'],
-    correct: 'to face a difficult situation',
+    answer: 'to face a difficult situation',
     hint: 'Literal: "to have the wolf by the horns"',
   },
   {
@@ -4122,7 +4122,7 @@ const practice = [
     question: 'Complete the proverb: "La goccia scavata la ___."',
     italian: 'La goccia scava la pietra',
     options: ['pietra', 'montagna', 'legna', 'sabbia'],
-    correct: 'pietra',
+    answer: 'pietra',
     hint: 'Persistence pays off — drops of water carve stone',
   },
   {
@@ -4132,7 +4132,7 @@ const practice = [
     question: 'What does "far pdere l\'occasione" mean?',
     italian: 'Far perdere l\'occasione',
     options: ['to miss an opportunity', 'to find a solution', 'to gain experience', 'to create a problem'],
-    correct: 'to miss an opportunity',
+    answer: 'to miss an opportunity',
     hint: '"To let an opportunity slip away"',
   },
   {
@@ -4142,7 +4142,7 @@ const practice = [
     question: 'What does "ogni scarpa trova il suo piede" mean?',
     italian: 'Ogni scarpa trova il suo piede',
     options: ['every pot has its lid', 'opposites attract', 'two wrongs make a right', 'birds of a feather'],
-    correct: 'every pot has its lid',
+    answer: 'every pot has its lid',
     hint: 'Every shoe finds its foot — everyone finds their match',
   },
   {
@@ -4152,7 +4152,7 @@ const practice = [
     question: 'Translate: "Non tutte le ciambelle riescono col buco."',
     italian: 'Non tutte le ciambelle riescono col buco',
     options: ['Not everything works out as planned', 'Doughnuts are hard to make', 'Not everyone is honest', 'Life is full of surprises'],
-    correct: 'Not everything works out as planned',
+    answer: 'Not everything works out as planned',
     hint: 'Literal: "Not all doughnuts come out with a hole"',
   },
   {
@@ -4162,7 +4162,7 @@ const practice = [
     question: 'Complete: "Chi trova un ___ trova un tesoro."',
     italian: 'Chi trova un amico trova un tesoro',
     options: ['amico', 'soldo', 'lavoro', 'libro'],
-    correct: 'amico',
+    answer: 'amico',
     hint: 'A friend is a treasure',
   },
   {
@@ -4172,7 +4172,7 @@ const practice = [
     question: 'What does "rompere il ghiaccio" mean?',
     italian: 'Rompere il ghiaccio',
     options: ['to break the ice', 'to start a fight', 'to solve a problem', 'to take a risk'],
-    correct: 'to break the ice',
+    answer: 'to break the ice',
     hint: 'Same idiom as in English — to initiate conversation',
   },
   {
@@ -4182,7 +4182,7 @@ const practice = [
     question: 'What does "andare come il pane" mean?',
     italian: 'Andare come il pane',
     options: ['to sell very well', 'to be delicious', 'to go fast', 'to be fresh'],
-    correct: 'to sell very well',
+    answer: 'to sell very well',
     hint: 'Bread is always in demand — something that sells quickly',
   },
   {
@@ -4192,7 +4192,7 @@ const practice = [
     question: 'Complete: "Chi semina vento raccoglie ___."',
     italian: 'Chi semina vento raccoglie tempesta',
     options: ['tempesta', 'pioggia', 'sole', 'neve'],
-    correct: 'tempesta',
+    answer: 'tempesta',
     hint: 'Sow the wind, reap the storm',
   },
   {
@@ -4202,7 +4202,7 @@ const practice = [
     question: 'What does "perdere la testa" mean?',
     italian: 'Perdere la testa',
     options: ['to go crazy', 'to lose weight', 'to feel confident', 'to be tired'],
-    correct: 'to go crazy',
+    answer: 'to go crazy',
     hint: 'To lose one\'s mind',
   },
   {
@@ -4212,7 +4212,7 @@ const practice = [
     question: 'Translate: "Il mondo è bello perché è vario."',
     italian: 'Il mondo è bello perché è vario',
     options: ['The world is beautiful because it is diverse', 'The world is beautiful because it is big', 'The world is beautiful because it is rich', 'The world is beautiful because it is small'],
-    correct: 'Il mondo è bello perché è vario',
+    answer: 'Il mondo è bello perché è vario',
     hint: '"Vario" = diverse/variety',
   },
   {
@@ -4222,7 +4222,7 @@ const practice = [
     question: 'Complete: "A caval donato non si guarda in ___."',
     italian: 'A caval donato non si guarda in bocca',
     options: ['bocca', 'occhi', 'naso', 'orecchi'],
-    correct: 'bocca',
+    answer: 'bocca',
     hint: 'Don\'t look a gift horse in the mouth',
   },
   {
@@ -4232,7 +4232,7 @@ const practice = [
     question: 'What does "il lupo perde il pelo ma non il vizio" mean?',
     italian: 'Il lupo perde il pelo ma non il vizio',
     options: ['old habits die hard', 'wolves are dangerous', 'animals never change', 'fur grows back'],
-    correct: 'old habits die hard',
+    answer: 'old habits die hard',
     hint: 'The wolf loses its hair but not its habit',
   },
   // Mixed review (A1-C1)
@@ -4243,7 +4243,7 @@ const practice = [
     question: 'What is "la casa"?',
     italian: 'la casa',
     options: ['house', 'car', 'school', 'park'],
-    correct: 'house',
+    answer: 'house',
     hint: 'Where you live',
   },
   {
@@ -4253,7 +4253,7 @@ const practice = [
     question: 'Translate: "I like to read books in the evening."',
     italian: 'Mi piace leggere libri la sera',
     options: ['Mi piace leggere libri la sera', 'Mi piace leggere libri al mattino', 'Mi piace guardare libri la sera', 'Mi piace comprare libri la sera'],
-    correct: 'Mi piace leggere libri la sera',
+    answer: 'Mi piace leggere libri la sera',
     hint: '"To read" = leggere, "in the evening" = la sera',
   },
   {
@@ -4263,7 +4263,7 @@ const practice = [
     question: 'Complete: Se ___ più tempo, studierei l\'italiano.',
     italian: 'Se avessi più tempo, studierei l\'italiano',
     options: ['avessi', 'ho', 'avrò', 'avevo'],
-    correct: 'avessi',
+    answer: 'avessi',
     hint: 'Second conditional — imperfect subjunctive',
   },
   {
@@ -4273,7 +4273,7 @@ const practice = [
     question: 'Which sentence uses the subjunctive correctly?',
     italian: 'Subjunctive usage',
     options: ['Penso che sia importante studiare', 'Penso che è importante studiare', 'Penso che sarà importante studiare', 'Penso cheImportante studiare'],
-    correct: 'Penso che sia importante studiare',
+    answer: 'Penso che sia importante studiare',
     hint: '"Penso che" triggers the subjunctive',
   },
   {
@@ -4283,7 +4283,7 @@ const practice = [
     question: 'What is "l\'amico/a"?',
     italian: 'l\'amico/amica',
     options: ['friend', 'enemy', 'colleague', 'neighbor'],
-    correct: 'friend',
+    answer: 'friend',
     hint: 'A person you like and trust',
   },
   {
@@ -4293,7 +4293,7 @@ const practice = [
     question: 'Translate: "He pretended not to understand what was happening."',
     italian: 'Ha fatto finta di non capire quello che stava succedendo',
     options: ['Ha fatto finta di non capire quello che stava succedendo', 'Ha fatto finta di capire quello che stava succedendo', 'Non ha capito quello che è successo', 'Ha capito tutto quello che stava succedendo'],
-    correct: 'Ha fatto finta di non capire quello che stava succedendo',
+    answer: 'Ha fatto finta di non capire quello che stava succedendo',
     hint: '"To pretend" = fare finta di',
   },
   {
@@ -4303,7 +4303,7 @@ const practice = [
     question: 'Complete: Questo libro ___ interessante.',
     italian: 'Questo libro è interessante',
     options: ['è', 'ha', 'fa', 'va'],
-    correct: 'è',
+    answer: 'è',
     hint: '"To be" = essere (third person singular)',
   },
   {
@@ -4313,7 +4313,7 @@ const practice = [
     question: 'What does "mettersi nei panni degli altri" mean?',
     italian: 'Metter nei panni degli altri',
     options: ['to put yourself in someone else\'s shoes', 'to change clothes', 'to be selfish', 'to follow others'],
-    correct: 'to put yourself in someone else\'s shoes',
+    answer: 'to put yourself in someone else\'s shoes',
     hint: 'To empathize with others',
   },
   {
@@ -4323,7 +4323,7 @@ const practice = [
     question: 'What does "sottovalutare" mean?',
     italian: 'sottovalutare',
     options: ['to underestimate', 'to overestimate', 'to evaluate', 'to calculate'],
-    correct: 'to underestimate',
+    answer: 'to underestimate',
     hint: '"Sotto" = under, "valutare" = to evaluate',
   },
   {
@@ -4333,7 +4333,7 @@ const practice = [
     question: 'Translate: "Although it was raining, we decided to go out."',
     italian: 'Nonostante piovesse, abbiamo deciso di uscire',
     options: ['Nonostante piovesse, abbiamo deciso di uscire', 'Anche se pioveva, abbiamo deciso di uscire', 'Perché pioveva, abbiamo deciso di uscire', 'Mentre pioveva, abbiamo deciso di uscire'],
-    correct: 'Nonostante piovesse, abbiamo deciso di uscire',
+    answer: 'Nonostante piovesse, abbiamo deciso di uscire',
     hint: '"Nonostante" (despite/although) + subjunctive',
   },
   {
@@ -4343,7 +4343,7 @@ const practice = [
     question: 'What does "dente" mean?',
     italian: 'dente',
     options: ['tooth', 'hand', 'eye', 'ear'],
-    correct: 'tooth',
+    answer: 'tooth',
     hint: 'A body part used for chewing',
   },
   {
@@ -4353,7 +4353,7 @@ const practice = [
     question: 'What does "gola" mean?',
     italian: 'gola',
     options: ['throat', 'stomach', 'nose', 'mouth'],
-    correct: 'throat',
+    answer: 'throat',
     hint: 'Where you feel pain when you have a cold',
   },
   {
@@ -4363,7 +4363,7 @@ const practice = [
     question: 'What does "maglia" mean?',
     italian: 'maglia',
     options: ['skirt', 't-shirt', 'dress', 'jacket'],
-    correct: 't-shirt',
+    answer: 't-shirt',
     hint: 'A common piece of clothing',
   },
   {
@@ -4373,7 +4373,7 @@ const practice = [
     question: 'What does "giacca" mean?',
     italian: 'giacca',
     options: ['pants', 'shirt', 'jacket', 'shoes'],
-    correct: 'jacket',
+    answer: 'jacket',
     hint: 'Worn over a shirt for warmth',
   },
   {
@@ -4383,7 +4383,7 @@ const practice = [
     question: 'What does "scarpe" mean?',
     italian: 'scarpe',
     options: ['socks', 'shoes', 'hat', 'gloves'],
-    correct: 'shoes',
+    answer: 'shoes',
     hint: 'You wear them on your feet',
   },
   {
@@ -4393,7 +4393,7 @@ const practice = [
     question: 'What does "gonna" mean?',
     italian: 'gonna',
     options: ['dress', 'skirt', 'pants', 'coat'],
-    correct: 'skirt',
+    answer: 'skirt',
     hint: 'A female clothing item',
   },
   {
@@ -4403,7 +4403,7 @@ const practice = [
     question: 'What does "orecchia" mean?',
     italian: 'orecchia',
     options: ['eye', 'nose', 'ear', 'mouth'],
-    correct: 'ear',
+    answer: 'ear',
     hint: 'You use it to hear',
   },
   {
@@ -4413,7 +4413,7 @@ const practice = [
     question: 'What does "braccio" mean?',
     italian: 'braccio',
     options: ['leg', 'arm', 'hand', 'foot'],
-    correct: 'arm',
+    answer: 'arm',
     hint: 'Used to carry things',
   },
   {
@@ -4423,7 +4423,7 @@ const practice = [
     question: 'What does "gamba" mean?',
     italian: 'gamba',
     options: ['arm', 'hand', 'leg', 'head'],
-    correct: 'leg',
+    answer: 'leg',
     hint: 'You walk with these',
   },
   {
@@ -4433,7 +4433,7 @@ const practice = [
     question: 'What does "scuola" mean?',
     italian: 'scuola',
     options: ['hospital', 'school', 'office', 'park'],
-    correct: 'school',
+    answer: 'school',
     hint: 'Where children learn',
   },
   {
@@ -4443,7 +4443,7 @@ const practice = [
     question: 'What does "professore" mean?',
     italian: 'professore',
     options: ['student', 'professor', 'doctor', 'lawyer'],
-    correct: 'professor',
+    answer: 'professor',
     hint: 'Teaches at a school',
   },
   {
@@ -4453,7 +4453,7 @@ const practice = [
     question: 'What does "esame" mean?',
     italian: 'esame',
     options: ['homework', 'exam', 'lesson', 'book'],
-    correct: 'exam',
+    answer: 'exam',
     hint: 'A test at the end of a course',
   },
   {
@@ -4463,7 +4463,7 @@ const practice = [
     question: 'What does "compito" mean?',
     italian: 'compito',
     options: ['exam', 'homework', 'teacher', 'school'],
-    correct: 'homework',
+    answer: 'homework',
     hint: 'Work done at home for school',
   },
   {
@@ -4473,7 +4473,7 @@ const practice = [
     question: 'What does "felice" mean?',
     italian: 'felice',
     options: ['sad', 'happy', 'angry', 'tired'],
-    correct: 'happy',
+    answer: 'happy',
     hint: 'A positive emotion',
   },
   {
@@ -4483,7 +4483,7 @@ const practice = [
     question: 'What does "triste" mean?',
     italian: 'triste',
     options: ['happy', 'angry', 'sad', 'excited'],
-    correct: 'sad',
+    answer: 'sad',
     hint: 'A negative emotion',
   },
   {
@@ -4493,7 +4493,7 @@ const practice = [
     question: 'What does "arrabbiato" mean?',
     italian: 'arrabbiato',
     options: ['happy', 'nervous', 'angry', 'proud'],
-    correct: 'angry',
+    answer: 'angry',
     hint: 'A strong negative emotion',
   },
   {
@@ -4503,7 +4503,7 @@ const practice = [
     question: 'What does "stanco" mean?',
     italian: 'stanco',
     options: ['excited', 'tired', 'nervous', 'proud'],
-    correct: 'tired',
+    answer: 'tired',
     hint: 'How you feel after a long day',
   },
   {
@@ -4513,7 +4513,7 @@ const practice = [
     question: 'What does "paura" mean?',
     italian: 'paura',
     options: ['joy', 'fear', 'love', 'anger'],
-    correct: 'fear',
+    answer: 'fear',
     hint: 'Being scared of something',
   },
   {
@@ -4523,7 +4523,7 @@ const practice = [
     question: 'What does "orgoglioso" mean?',
     italian: 'orgoglioso',
     options: ['confused', 'proud', 'nervous', 'excited'],
-    correct: 'proud',
+    answer: 'proud',
     hint: 'Feeling good about an achievement',
   },
   {
@@ -4533,7 +4533,7 @@ const practice = [
     question: 'What does "confuso" mean?',
     italian: 'confuso',
     options: ['proud', 'confused', 'angry', 'happy'],
-    correct: 'confused',
+    answer: 'confused',
     hint: 'Not understanding something',
   },
   {
@@ -4543,7 +4543,7 @@ const practice = [
     question: 'What does "nostalgia" mean?',
     italian: 'nostalgia',
     options: ['joy', 'fear', 'nostalgia', 'anger'],
-    correct: 'nostalgia',
+    answer: 'nostalgia',
     hint: 'Missing the past',
   },
   {
@@ -4553,7 +4553,7 @@ const practice = [
     question: 'What does "aereo" mean?',
     italian: 'aereo',
     options: ['train', 'car', 'airplane', 'bus'],
-    correct: 'airplane',
+    answer: 'airplane',
     hint: 'Flies in the sky',
   },
   {
@@ -4563,7 +4563,7 @@ const practice = [
     question: 'What does "passaporto" mean?',
     italian: 'passaporto',
     options: ['ticket', 'passport', 'luggage', 'visa'],
-    correct: 'passport',
+    answer: 'passport',
     hint: 'Required for international travel',
   },
   {
@@ -4573,7 +4573,7 @@ const practice = [
     question: 'What does "bagaglio" mean?',
     italian: 'bagaglio',
     options: ['ticket', 'passport', 'luggage', 'hotel'],
-    correct: 'luggage',
+    answer: 'luggage',
     hint: 'Bags you carry when traveling',
   },
   {
@@ -4583,7 +4583,7 @@ const practice = [
     question: 'What does "albergo" mean?',
     italian: 'albergo',
     options: ['restaurant', 'hotel', 'station', 'airport'],
-    correct: 'hotel',
+    answer: 'hotel',
     hint: 'Where you stay when traveling',
   },
   {
@@ -4593,7 +4593,7 @@ const practice = [
     question: 'What does "prenotazione" mean?',
     italian: 'prenotazione',
     options: ['cancellation', 'reservation', 'ticket', 'departure'],
-    correct: 'reservation',
+    answer: 'reservation',
     hint: 'Booking something in advance',
   },
   {
@@ -4603,7 +4603,7 @@ const practice = [
     question: 'What does "ospedale" mean?',
     italian: 'ospedale',
     options: ['pharmacy', 'hospital', 'clinic', 'school'],
-    correct: 'hospital',
+    answer: 'hospital',
     hint: 'Where sick people go for treatment',
   },
   {
@@ -4613,7 +4613,7 @@ const practice = [
     question: 'What does "ambulanza" mean?',
     italian: 'ambulanza',
     options: ['police car', 'fire truck', 'ambulance', 'bus'],
-    correct: 'ambulance',
+    answer: 'ambulance',
     hint: 'Emergency vehicle',
   },
   {
@@ -4623,7 +4623,7 @@ const practice = [
     question: 'What does "occhiali" mean?',
     italian: 'occhiali',
     options: ['gloves', 'hat', 'glasses', 'scarf'],
-    correct: 'glasses',
+    answer: 'glasses',
     hint: 'Worn to help you see',
   },
   {
@@ -4633,7 +4633,7 @@ const practice = [
     question: 'What does "ricetta" mean?',
     italian: 'ricetta',
     options: ['menu', 'recipe', 'ingredient', 'restaurant'],
-    correct: 'recipe',
+    answer: 'recipe',
     hint: 'Instructions for cooking a dish',
   },
   {
@@ -4643,7 +4643,7 @@ const practice = [
     question: 'What does "forno" mean?',
     italian: 'forno',
     options: ['stove', 'microwave', 'oven', 'fridge'],
-    correct: 'oven',
+    answer: 'oven',
     hint: 'Used for baking',
   },
   {
@@ -4653,7 +4653,7 @@ const practice = [
     question: 'What does "padella" mean?',
     italian: 'padella',
     options: ['pot', 'pan', 'plate', 'bowl'],
-    correct: 'pan',
+    answer: 'pan',
     hint: 'Used for frying',
   },
   {
@@ -4663,7 +4663,7 @@ const practice = [
     question: 'What does "ingrediente" mean?',
     italian: 'ingrediente',
     options: ['recipe', 'ingredient', 'cooking', 'kitchen'],
-    correct: 'ingredient',
+    answer: 'ingredient',
     hint: 'Part of a recipe',
   },
   {
@@ -4673,7 +4673,7 @@ const practice = [
     question: 'What does "lezione" mean?',
     italian: 'lezione',
     options: ['exam', 'lesson', 'homework', 'school'],
-    correct: 'lesson',
+    answer: 'lesson',
     hint: 'A class session',
   },
   {
@@ -4683,7 +4683,7 @@ const practice = [
     question: 'What does "zaino" mean?',
     italian: 'zaino',
     options: ['bag', 'backpack', 'suitcase', 'purse'],
-    correct: 'backpack',
+    answer: 'backpack',
     hint: 'Carried on your back',
   },
   {
@@ -4693,7 +4693,7 @@ const practice = [
     question: 'What does "eccitato" mean?',
     italian: 'eccitato',
     options: ['bored', 'excited', 'nervous', 'tired'],
-    correct: 'excited',
+    answer: 'excited',
     hint: 'Looking forward to something',
   },
   {
@@ -4703,7 +4703,7 @@ const practice = [
     question: 'What does "nervoso" mean?',
     italian: 'nervoso',
     options: ['calm', 'nervous', 'happy', 'proud'],
-    correct: 'nervous',
+    answer: 'nervous',
     hint: 'Feeling anxious',
   },
   {
@@ -4713,7 +4713,7 @@ const practice = [
     question: 'What does "volo" mean?',
     italian: 'volo',
     options: ['trip', 'flight', 'train', 'bus'],
-    correct: 'flight',
+    answer: 'flight',
     hint: 'Travel by airplane',
   },
   {
@@ -4723,7 +4723,7 @@ const practice = [
     question: 'What does "cantina" mean?',
     italian: 'cantina',
     options: ['kitchen', 'cellar', 'restaurant', 'bar'],
-    correct: 'cellar',
+    answer: 'cellar',
     hint: 'Where wine is stored',
   },
   {
@@ -4733,7 +4733,7 @@ const practice = [
     question: 'What does "bottiglia" mean?',
     italian: 'bottiglia',
     options: ['glass', 'bottle', 'cup', 'plate'],
-    correct: 'bottle',
+    answer: 'bottle',
     hint: 'Container for liquids',
   },
   {
@@ -4743,7 +4743,7 @@ const practice = [
     question: 'What does "bicchiere" mean?',
     italian: 'bicchiere',
     options: ['bottle', 'glass', 'cup', 'bowl'],
-    correct: 'glass',
+    answer: 'glass',
     hint: 'Used for drinking',
   },
   {
@@ -4753,7 +4753,7 @@ const practice = [
     question: 'What does "vigna" mean?',
     italian: 'vigna',
     options: ['garden', 'vineyard', 'farm', 'orchard'],
-    correct: 'vineyard',
+    answer: 'vineyard',
     hint: 'Where grapes are grown',
   },
   {
@@ -4763,7 +4763,7 @@ const practice = [
     question: 'Complete: Ho mal di ___.',
     italian: 'Ho mal di testa',
     options: ['testa', 'mano', 'gamba', 'occhio'],
-    correct: 'testa',
+    answer: 'testa',
     hint: 'Head = testa',
   },
   {
@@ -4773,7 +4773,7 @@ const practice = [
     question: 'Complete: Porta la ___ per il freddo.',
     italian: 'Porta la giacca per il freddo',
     options: ['giacca', 'gonna', 'scarpe', 'cappello'],
-    correct: 'giacca',
+    answer: 'giacca',
     hint: 'Jacket for the cold',
   },
   {
@@ -4783,7 +4783,7 @@ const practice = [
     question: 'Complete: Sono ___ di vederti.',
     italian: 'Sono felice di vederti',
     options: ['felice', 'triste', 'stanco', 'nervoso'],
-    correct: 'felice',
+    answer: 'felice',
     hint: 'Happy to see you',
   },
   {
@@ -4793,7 +4793,7 @@ const practice = [
     question: 'Complete: Ho ___ dei ragni.',
     italian: 'Ho paura dei ragni',
     options: ['paura', 'gioia', 'amore', 'odio'],
-    correct: 'paura',
+    answer: 'paura',
     hint: 'Being afraid of spiders',
   },
   {
@@ -4803,7 +4803,7 @@ const practice = [
     question: 'Complete: Vado a ___ ogni giorno.',
     italian: 'Vado a scuola ogni giorno',
     options: ['scuola', 'ospedale', 'ufficio', 'palestra'],
-    correct: 'scuola',
+    answer: 'scuola',
     hint: 'Where children learn',
   },
   {
@@ -4813,7 +4813,7 @@ const practice = [
     question: 'Complete: Il ___ è lunedì.',
     italian: 'L\'esame è lunedì',
     options: ['esame', 'compito', 'lezione', 'libro'],
-    correct: 'esame',
+    answer: 'esame',
     hint: 'A test at the end of a course',
   },
   {
@@ -4823,7 +4823,7 @@ const practice = [
     question: 'Complete: Devo fare i ___.',
     italian: 'Devo fare i compiti',
     options: ['compiti', 'esami', 'lezioni', 'libri'],
-    correct: 'compiti',
+    answer: 'compiti',
     hint: 'Work done at home',
   },
   {
@@ -4833,7 +4833,7 @@ const practice = [
     question: 'Complete: L\'___ è vicino alla stazione.',
     italian: 'L\'albergo è vicino alla stazione',
     options: ['albergo', 'ospedale', 'scuola', 'negozio'],
-    correct: 'albergo',
+    answer: 'albergo',
     hint: 'A place to stay',
   },
   {
@@ -4843,7 +4843,7 @@ const practice = [
     question: 'Complete: Ho fatto una ___.',
     italian: 'Ho fatto una prenotazione',
     options: ['prenotazione', 'cancellazione', 'prenotazione', 'prenotazione'],
-    correct: 'prenotazione',
+    answer: 'prenotazione',
     hint: 'Booking in advance',
   },
   {
@@ -4853,7 +4853,7 @@ const practice = [
     question: 'Complete: Il mio ___ è pesante.',
     italian: 'Il mio bagaglio è pesante',
     options: ['bagaglio', 'passaporto', 'biglietto', 'libro'],
-    correct: 'bagaglio',
+    answer: 'bagaglio',
     hint: 'Bags for traveling',
   },
   {
@@ -4863,7 +4863,7 @@ const practice = [
     question: 'Complete: Ho bisogno degli ___.',
     italian: 'Ho bisogno degli occhiali',
     options: ['occhiali', 'orecchini', 'anelli', 'braccialetti'],
-    correct: 'occhiali',
+    answer: 'occhiali',
     hint: 'For seeing better',
   },
   {
@@ -4873,7 +4873,7 @@ const practice = [
     question: 'Complete: Metti la pizza nel ___.',
     italian: 'Metti la pizza nel forno',
     options: ['forno', 'padella', 'frigo', 'microonde'],
-    correct: 'forno',
+    answer: 'forno',
     hint: 'For baking',
   },
   {
@@ -4883,7 +4883,7 @@ const practice = [
     question: 'Complete: Scalda l\'olio nella ___.',
     italian: 'Scalda l\'olio nella padella',
     options: ['padella', 'pentola', 'teglia', 'casseruola'],
-    correct: 'padella',
+    answer: 'padella',
     hint: 'For frying',
   },
   {
@@ -4893,7 +4893,7 @@ const practice = [
     question: 'Translate: "My throat hurts."',
     italian: 'Mi fa male la gola',
     options: ['Mi fa male la gola', 'Ho mal di testa', 'Mi fa male la mano', 'Ho mal di stomaco'],
-    correct: 'Mi fa male la gola',
+    answer: 'Mi fa male la gola',
     hint: 'gola = throat',
   },
   {
@@ -4903,7 +4903,7 @@ const practice = [
     question: 'Translate: "I need to go to the pharmacy."',
     italian: 'Devo andare in farmacia',
     options: ['Devo andare in farmacia', 'Devo andare in ospedale', 'Devo andare al cinema', 'Devo andare a scuola'],
-    correct: 'Devo andare in farmacia',
+    answer: 'Devo andare in farmacia',
     hint: 'farmacia = pharmacy',
   },
   {
@@ -4913,7 +4913,7 @@ const practice = [
     question: 'Translate: "I am happy."',
     italian: 'Sono felice',
     options: ['Sono felice', 'Sono triste', 'Sono stanco', 'Sono nervoso'],
-    correct: 'Sono felice',
+    answer: 'Sono felice',
     hint: 'felice = happy',
   },
   {
@@ -4923,7 +4923,7 @@ const practice = [
     question: 'Translate: "She is angry."',
     italian: 'Lei è arrabbiata',
     options: ['Lei è arrabbiata', 'Lei è felice', 'Lei è stanca', 'Lei è confusa'],
-    correct: 'Lei è arrabbiata',
+    answer: 'Lei è arrabbiata',
     hint: 'arrabbiata = angry (feminine)',
   },
   {
@@ -4933,7 +4933,7 @@ const practice = [
     question: 'Translate: "I am afraid of the dark."',
     italian: 'Ho paura del buio',
     options: ['Ho paura del buio', 'Ho paura del gatto', 'Ho paura della pioggia', 'Ho paura del vento'],
-    correct: 'Ho paura del buio',
+    answer: 'Ho paura del buio',
     hint: 'buio = dark',
   },
   {
@@ -4943,7 +4943,7 @@ const practice = [
     question: 'Translate: "I go to school every day."',
     italian: 'Vado a scuola ogni giorno',
     options: ['Vado a scuola ogni giorno', 'Vado al cinema ogni giorno', 'Vado in ospedale ogni giorno', 'Vado al negozio ogni giorno'],
-    correct: 'Vado a scuola ogni giorno',
+    answer: 'Vado a scuola ogni giorno',
     hint: 'scuola = school',
   },
   {
@@ -4953,7 +4953,7 @@ const practice = [
     question: 'Translate: "The exam is on Monday."',
     italian: 'L\'esame è lunedì',
     options: ['L\'esame è lunedì', 'Il compito è lunedì', 'La lezione è lunedì', 'La scuola è lunedì'],
-    correct: 'L\'esame è lunedì',
+    answer: 'L\'esame è lunedì',
     hint: 'esame = exam',
   },
   {
@@ -4963,7 +4963,7 @@ const practice = [
     question: 'Translate: "I need to do homework."',
     italian: 'Devo fare i compiti',
     options: ['Devo fare i compiti', 'Devo fare gli esami', 'Devo fare la lezione', 'Devo fare il libro'],
-    correct: 'Devo fare i compiti',
+    answer: 'Devo fare i compiti',
     hint: 'compiti = homework',
   },
   {
@@ -4973,7 +4973,7 @@ const practice = [
     question: 'Translate: "The hotel is near the station."',
     italian: 'L\'albergo è vicino alla stazione',
     options: ['L\'albergo è vicino alla stazione', 'L\'ospedale è vicino alla stazione', 'La scuola è vicino alla stazione', 'Il negozio è vicino alla stazione'],
-    correct: 'L\'albergo è vicino alla stazione',
+    answer: 'L\'albergo è vicino alla stazione',
     hint: 'albergo = hotel',
   },
   {
@@ -4983,7 +4983,7 @@ const practice = [
     question: 'Translate: "My luggage is heavy."',
     italian: 'Il mio bagaglio è pesante',
     options: ['Il mio bagaglio è pesante', 'Il mio passaporto è pesante', 'Il mio biglietto è pesante', 'Il mio libro è pesante'],
-    correct: 'Il mio bagaglio è pesante',
+    answer: 'Il mio bagaglio è pesante',
     hint: 'bagaglio = luggage',
   },
   {
@@ -4993,7 +4993,7 @@ const practice = [
     question: 'Which is the correct response to "Come stai?"',
     italian: 'Come stai?',
     options: ['Sto bene, grazie!', 'Sono italiano', 'Ho vent\'anni', 'Mi chiamo Marco'],
-    correct: 'Sto bene, grazie!',
+    answer: 'Sto bene, grazie!',
     hint: 'How are you? → I am fine, thanks!',
   },
   {
@@ -5003,7 +5003,7 @@ const practice = [
     question: 'What does "mi fa male la testa" mean?',
     italian: 'Mi fa male la testa',
     options: ['I have a headache', 'I have a stomachache', 'My hand hurts', 'My leg hurts'],
-    correct: 'I have a headache',
+    answer: 'I have a headache',
     hint: 'testa = head',
   },
   {
@@ -5013,7 +5013,7 @@ const practice = [
     question: 'Which is the correct form: "Sono ___ per il viaggio"?',
     italian: 'Sono ___ per il viaggio',
     options: ['eccitato', 'eccitata', 'eccitati', 'Both A and B'],
-    correct: 'Both A and B',
+    answer: 'Both A and B',
     hint: 'Depends on gender of speaker',
   },
   {
@@ -5023,7 +5023,7 @@ const practice = [
     question: 'Which is correct: "Penso che sia importante" or "Penso che è importante"?',
     italian: 'Penso che ___ importante',
     options: ['sia', 'è', 'era', 'sarà'],
-    correct: 'sia',
+    answer: 'sia',
     hint: 'Subjunctive after "penso che"',
   },
   {
@@ -5033,7 +5033,7 @@ const practice = [
     question: 'What is the opposite of "felice"?',
     italian: 'felice',
     options: ['triste', 'arrabbiato', 'nervoso', 'eccitato'],
-    correct: 'triste',
+    answer: 'triste',
     hint: 'Happy vs. sad',
   },
   {
@@ -5043,7 +5043,7 @@ const practice = [
     question: 'Which sentence uses the imperfetto correctly?',
     italian: 'When I was young...',
     options: ['Quando ero giovane, giocavo nel parco.', 'Quando ero giovane, ho giocato nel parco.', 'Quando ero giovane, giocherò nel parco.', 'Quando ero giovane, gioco nel parco.'],
-    correct: 'Quando ero giovane, giocavo nel parco.',
+    answer: 'Quando ero giovane, giocavo nel parco.',
     hint: 'Imperfetto for habits in the past',
   },
   {
@@ -5053,7 +5053,7 @@ const practice = [
     question: 'Which is the correct plural: "il dente"?',
     italian: 'il dente',
     options: ['i denti', 'gli denti', 'le denti', 'i denti'],
-    correct: 'i denti',
+    answer: 'i denti',
     hint: 'Masculine plural',
   },
   {
@@ -5063,7 +5063,7 @@ const practice = [
     question: 'How do you say "goodbye" in Italian?',
     italian: 'Goodbye',
     options: ['Arrivederci', 'Buongiorno', 'Grazie', 'Prego'],
-    correct: 'Arrivederci',
+    answer: 'Arrivederci',
     hint: 'Formal goodbye',
   },
   {
@@ -5073,7 +5073,7 @@ const practice = [
     question: 'Which is correct: "Se avessi tempo, viaggerei" or "Se ho tempo, viaggio"?',
     italian: 'Se ___ tempo, ___',
     options: ['avessi, viaggerei', 'ho, viaggio', 'avrò, viaggerò', 'avevo, viaggiavo'],
-    correct: 'avessi, viaggerei',
+    answer: 'avessi, viaggerei',
     hint: 'Unreal conditional: imperfect subjunctive + conditional',
   },
   {
@@ -5083,7 +5083,7 @@ const practice = [
     question: 'What does "andare al mare" mean?',
     italian: 'andare al mare',
     options: ['to go to the sea', 'to go to the mountain', 'to go to the city', 'to go to the park'],
-    correct: 'to go to the sea',
+    answer: 'to go to the sea',
     hint: 'mare = sea',
   },
   {
@@ -5093,7 +5093,7 @@ const practice = [
     question: 'Complete: Se ___ (potere), lo farei.',
     italian: 'Se potessi, lo farei',
     options: ['potessi', 'posso', 'potrò', 'potevo'],
-    correct: 'potessi',
+    answer: 'potessi',
     hint: 'Imperfect subjunctive of potere',
   },
   {
@@ -5103,7 +5103,7 @@ const practice = [
     question: 'Complete: Voglio che tu ___ (venire).',
     italian: 'Voglio che tu venga',
     options: ['venga', 'vieni', 'verrà', 'venivi'],
-    correct: 'venga',
+    answer: 'venga',
     hint: 'Subjunctive after "voglio che"',
   },
   {
@@ -5113,7 +5113,7 @@ const practice = [
     question: 'Complete: ___ fa male la gola.',
     italian: 'Mi fa male la gola',
     options: ['Mi', 'Ti', 'Gli', 'Ci'],
-    correct: 'Mi',
+    answer: 'Mi',
     hint: 'To me = mi',
   },
   {
@@ -5123,7 +5123,7 @@ const practice = [
     question: 'Complete: ___ sono nervoso per l\'esame.',
     italian: 'Sono nervoso per l\'esame',
     options: ['Io', 'Tu', 'Lui', 'Lei'],
-    correct: 'Io',
+    answer: 'Io',
     hint: 'I am nervous',
   },
   {
@@ -5133,7 +5133,7 @@ const practice = [
     question: 'Complete: ___ chiami?',
     italian: 'Come ti chiami?',
     options: ['Come', 'Chi', 'Dove', 'Quando'],
-    correct: 'Come',
+    answer: 'Come',
     hint: 'What is your name? = Come ti chiami?',
   },
   {
@@ -5143,7 +5143,7 @@ const practice = [
     question: 'Complete: L\'___ parte alle otto.',
     italian: 'Il volo parte alle otto',
     options: ['volo', 'treno', 'autobus', 'aereo'],
-    correct: 'volo',
+    answer: 'volo',
     hint: 'Flight = volo',
   },
   {
@@ -5153,7 +5153,7 @@ const practice = [
     question: 'Complete: Ho bisogno del ___.',
     italian: 'Ho bisogno del passaporto',
     options: ['passaporto', 'biglietto', 'bagaglio', 'volo'],
-    correct: 'passaporto',
+    answer: 'passaporto',
     hint: 'Required for international travel',
   },
   {
@@ -5163,7 +5163,7 @@ const practice = [
     question: 'Complete: Una ___ d\'acqua, per favore.',
     italian: 'Una bottiglia d\'acqua, per favore',
     options: ['bottiglia', 'bicchiere', 'tazza', 'piatto'],
-    correct: 'bottiglia',
+    answer: 'bottiglia',
     hint: 'Bottle = bottiglia',
   },
   {
@@ -5173,7 +5173,7 @@ const practice = [
     question: 'Complete: Un ___ di vino, per favore.',
     italian: 'Un bicchiere di vino, per favore',
     options: ['bicchiere', 'bottiglia', 'calice', 'fiasco'],
-    correct: 'bicchiere',
+    answer: 'bicchiere',
     hint: 'Glass = bicchiere',
   },
   {
@@ -5183,7 +5183,7 @@ const practice = [
     question: 'Translate: "I would like a glass of wine, please."',
     italian: 'Vorrei un bicchiere di vino, per favore',
     options: ['Vorrei un bicchiere di vino, per favore', 'Voglio un bicchiere di vino, per favore', 'Prendo un bicchiere di vino, per favore', 'Bevo un bicchiere di vino, per favore'],
-    correct: 'Vorrei un bicchiere di vino, per favore',
+    answer: 'Vorrei un bicchiere di vino, per favore',
     hint: 'Vorrei = I would like (conditional)',
   },
   {
@@ -5193,7 +5193,7 @@ const practice = [
     question: 'Translate: "I told him the truth."',
     italian: 'Gli ho detto la verità',
     options: ['Gli ho detto la verità', 'Ho detto la verità a lui', 'Lui ha detto la verità', 'La verità gli ho detto'],
-    correct: 'Gli ho detto la verità',
+    answer: 'Gli ho detto la verità',
     hint: 'gli = to him (indirect pronoun)',
   },
   {
@@ -5203,7 +5203,7 @@ const practice = [
     question: 'Translate: "If I had money, I would travel."',
     italian: 'Se avessi soldi, viaggerei',
     options: ['Se avessi soldi, viaggerei', 'Se ho soldi, viaggio', 'Se avrò soldi, viaggerò', 'Se avevo soldi, viaggiavo'],
-    correct: 'Se avessi soldi, viaggerei',
+    answer: 'Se avessi soldi, viaggerei',
     hint: 'Se + imperfect subjunctive + conditional',
   },
   {
@@ -5213,7 +5213,7 @@ const practice = [
     question: 'Translate: "I used to play soccer as a child."',
     italian: 'Giocavo a calcio da bambino',
     options: ['Giocavo a calcio da bambino', 'Ho giocato a calcio da bambino', 'Gioco a calcio da bambino', 'Giocherò a calcio da bambino'],
-    correct: 'Giocavo a calcio da bambino',
+    answer: 'Giocavo a calcio da bambino',
     hint: 'Imperfetto for past habits',
   },
   {
@@ -5223,7 +5223,7 @@ const practice = [
     question: 'Translate: "What time is it?"',
     italian: 'Che ore sono?',
     options: ['Che ore sono?', 'Che ora è?', 'Che tempo fa?', 'Che giorno è?'],
-    correct: 'Che ore sono?',
+    answer: 'Che ore sono?',
     hint: 'Common way to ask the time',
   },
   {
@@ -5233,7 +5233,7 @@ const practice = [
     question: 'Translate: "It\'s raining a lot today."',
     italian: 'Oggi piove molto',
     options: ['Oggi piove molto', 'Oggi nevica molto', 'Oggi tira vento', 'Oggi fa caldo'],
-    correct: 'Oggi piove molto',
+    answer: 'Oggi piove molto',
     hint: 'piove = it rains',
   },
   {
@@ -5243,7 +5243,7 @@ const practice = [
     question: 'Translate: "My flight is delayed."',
     italian: 'Il mio volo è in ritardo',
     options: ['Il mio volo è in ritardo', 'Il mio treno è in ritardo', 'Il mio autobus è in ritardo', 'La mia macchina è in ritardo'],
-    correct: 'Il mio volo è in ritardo',
+    answer: 'Il mio volo è in ritardo',
     hint: 'volo = flight, in ritardo = delayed',
   },
   {
@@ -5253,7 +5253,7 @@ const practice = [
     question: 'Translate: "I think it is important to study."',
     italian: 'Penso che sia importante studiare',
     options: ['Penso che sia importante studiare', 'Penso che è importante studiare', 'Penso che era importante studiare', 'Penso che sarà importante studiare'],
-    correct: 'Penso che sia importante studiare',
+    answer: 'Penso che sia importante studiare',
     hint: 'Subjunctive after "penso che"',
   },
   {
@@ -5263,7 +5263,7 @@ const practice = [
     question: 'What does "buongiorno" mean?',
     italian: 'buongiorno',
     options: ['good evening', 'good morning', 'goodbye', 'good night'],
-    correct: 'good morning',
+    answer: 'good morning',
     hint: 'Morning greeting',
   },
   {
@@ -5273,7 +5273,7 @@ const practice = [
     question: 'Which is correct: "Io ___ italiano"?',
     italian: 'Io ___ italiano',
     options: ['sono', 'sei', 'è', 'siamo'],
-    correct: 'sono',
+    answer: 'sono',
     hint: 'First person of essere',
   },
   {
@@ -5283,7 +5283,7 @@ const practice = [
     question: 'What does "mi scusi" mean?',
     italian: 'mi scusi',
     options: ['thank you', 'excuse me', 'I\'m sorry', 'please'],
-    correct: 'excuse me',
+    answer: 'excuse me',
     hint: 'Polite way to get attention',
   },
   {
@@ -5293,7 +5293,7 @@ const practice = [
     question: 'Which is the correct form of "avere" for "io"?',
     italian: 'Io ___ fame',
     options: ['ho', 'hai', 'ha', 'abbiamo'],
-    correct: 'ho',
+    answer: 'ho',
     hint: 'I have = ho',
   },
   {
@@ -5303,7 +5303,7 @@ const practice = [
     question: 'Which is correct: "Spero che venga" or "Spero che viene"?',
     italian: 'Spero che ___',
     options: ['venga', 'viene', 'verrà', 'veniva'],
-    correct: 'venga',
+    answer: 'venga',
     hint: 'Subjunctive after sperare',
   },
   {
@@ -5313,7 +5313,7 @@ const practice = [
     question: 'What is "l\'autobus" in English?',
     italian: 'l\'autobus',
     options: ['the train', 'the bus', 'the subway', 'the taxi'],
-    correct: 'the bus',
+    answer: 'the bus',
     hint: 'Public road transport',
   },
   {
@@ -5323,7 +5323,7 @@ const practice = [
     question: 'Complete: ___ è un gatto.',
     italian: 'Questo è un gatto',
     options: ['Questo', 'Questa', 'Questi', 'Queste'],
-    correct: 'Questo',
+    answer: 'Questo',
     hint: 'This (masculine singular)',
   },
   {
@@ -5333,7 +5333,7 @@ const practice = [
     question: 'Complete: Nonostante la pioggia, ___ (uscire).',
     italian: 'Nonostante la pioggia, siamo usciti',
     options: ['siamo usciti', 'usciamo', 'usciremo', 'uscivamo'],
-    correct: 'siamo usciti',
+    answer: 'siamo usciti',
     hint: 'Passato prossimo after nonostante',
   },
   {
@@ -5343,7 +5343,7 @@ const practice = [
     question: 'Translate: "I will speak" (parlare)',
     italian: 'parlerò',
     options: ['parlerò', 'parlavo', 'parlerei', 'parli'],
-    correct: 'parlerò',
+    answer: 'parlerò',
     hint: 'Future tense of parlare',
   },
   {
@@ -5353,7 +5353,7 @@ const practice = [
     question: 'What is the future stem of "essere"?',
     italian: 'sar-',
     options: ['esser-', 'sar-', 'foss-', 'sta-'],
-    correct: 'sar-',
+    answer: 'sar-',
     hint: 'Irregular future stem',
   },
   {
@@ -5363,7 +5363,7 @@ const practice = [
     question: 'Complete: Domani ___ (andare) al mare.',
     italian: 'andrò',
     options: ['andrò', 'andavo', 'andrei', 'vado'],
-    correct: 'andrò',
+    answer: 'andrò',
     hint: 'Irregular future of andare',
   },
   {
@@ -5373,7 +5373,7 @@ const practice = [
     question: 'How do you say "He must be about 30"?',
     italian: 'Avrà 30 anni',
     options: ['Ha 30 anni', 'Avrà 30 anni', 'Aveva 30 anni', 'Sarebbe 30 anni'],
-    correct: 'Avrà 30 anni',
+    answer: 'Avrà 30 anni',
     hint: 'Future used for probable present',
   },
   {
@@ -5383,7 +5383,7 @@ const practice = [
     question: 'Complete: Quando sono arrivato, lei ___ (partire) già.',
     italian: 'era partita',
     options: ['era partita', 'è partita', 'sarà partita', 'partiva'],
-    correct: 'era partita',
+    answer: 'era partita',
     hint: 'Trapassato prossimo',
   },
   {
@@ -5393,7 +5393,7 @@ const practice = [
     question: 'What auxiliary does trapassato prossimo use?',
     italian: 'Imperfect of avere/essere',
     options: ['Present of avere', 'Imperfect of avere/essere', 'Future of avere', 'Passato prossimo'],
-    correct: 'Imperfect of avere/essere',
+    answer: 'Imperfect of avere/essere',
     hint: 'Past perfect auxiliary',
   },
   {
@@ -5403,7 +5403,7 @@ const practice = [
     question: 'Complete: Prima che tu arrivassi, avevo ___ (finire) tutto.',
     italian: 'finito',
     options: ['finito', 'finivo', 'finirò', 'finirei'],
-    correct: 'finito',
+    answer: 'finito',
     hint: 'Past participle with trapassato',
   },
   {
@@ -5413,7 +5413,7 @@ const practice = [
     question: 'What does "lo" replace in "Lo vedo"?',
     italian: 'A masculine noun',
     options: ['A feminine noun', 'A masculine noun', 'A plural noun', 'A person only'],
-    correct: 'A masculine noun',
+    answer: 'A masculine noun',
     hint: 'Direct object pronoun',
   },
   {
@@ -5423,7 +5423,7 @@ const practice = [
     question: 'Complete: ___ vedo ogni giorno.',
     italian: 'La',
     options: ['La', 'Lo', 'Li', 'Le'],
-    correct: 'La',
+    answer: 'La',
     hint: 'Direct object pronoun for feminine noun',
   },
   {
@@ -5433,7 +5433,7 @@ const practice = [
     question: 'Which pronoun means "to them" (indirect)?',
     italian: 'gli',
     options: ['li', 'gli', 'le', 'ne'],
-    correct: 'gli',
+    answer: 'gli',
     hint: 'Indirect object pronoun',
   },
   {
@@ -5443,7 +5443,7 @@ const practice = [
     question: 'Complete: ___ hanno dato i libri.',
     italian: 'Ci',
     options: ['Ci', 'Vi', 'Mi', 'Ti'],
-    correct: 'Ci',
+    answer: 'Ci',
     hint: 'Indirect object pronoun for "to us"',
   },
   {
@@ -5453,7 +5453,7 @@ const practice = [
     question: 'What is the imperative (tu) of "parlare"?',
     italian: 'parla',
     options: ['parla', 'parli', 'parlare', 'parlano'],
-    correct: 'parla',
+    answer: 'parla',
     hint: 'Imperative mood',
   },
   {
@@ -5463,7 +5463,7 @@ const practice = [
     question: 'Complete: ___ più lentamente, per favore!',
     italian: 'Parla',
     options: ['Parla', 'Parli', 'Parlare', 'Parlano'],
-    correct: 'Parla',
+    answer: 'Parla',
     hint: 'Imperative tu form',
   },
   {
@@ -5473,7 +5473,7 @@ const practice = [
     question: 'What mood follows "non" in negative imperative?',
     italian: 'Subjunctive',
     options: ['Indicative', 'Subjunctive', 'Conditional', 'Infinitive'],
-    correct: 'Subjunctive',
+    answer: 'Subjunctive',
     hint: 'Negative imperative rule',
   },
   {
@@ -5483,7 +5483,7 @@ const practice = [
     question: 'Complete: Non ___ parlare!',
     italian: 'parlare',
     options: ['parlare', 'parli', 'parla', 'parlano'],
-    correct: 'parlare',
+    answer: 'parlare',
     hint: 'Negative imperative with infinitive for tu',
   },
   {
@@ -5493,7 +5493,7 @@ const practice = [
     question: 'What does "nostro" mean?',
     italian: 'our',
     options: ['my', 'your', 'our', 'their'],
-    correct: 'our',
+    answer: 'our',
     hint: 'Possessive adjective',
   },
   {
@@ -5503,7 +5503,7 @@ const practice = [
     question: 'Complete: Questo è ___ libro.',
     italian: 'il mio',
     options: ['il mio', 'il tuo', 'il suo', 'il nostro'],
-    correct: 'il mio',
+    answer: 'il mio',
     hint: 'Possessive adjective with article',
   },
   {
@@ -5513,7 +5513,7 @@ const practice = [
     question: 'When do possessives drop the article?',
     italian: 'Before singular close family members',
     options: ['Before all nouns', 'Before singular close family members', 'Before plural nouns', 'Never'],
-    correct: 'Before singular close family members',
+    answer: 'Before singular close family members',
     hint: 'Family members without adjective',
   },
   {
@@ -5523,7 +5523,7 @@ const practice = [
     question: 'Complete: Mia ___ si chiama Anna.',
     italian: 'madre',
     options: ['madre', 'libro', 'casa', 'amica'],
-    correct: 'madre',
+    answer: 'madre',
     hint: 'Close family member without article',
   },
   {
@@ -5533,7 +5533,7 @@ const practice = [
     question: 'Which is the correct future of "scrivere" for "voi"?',
     italian: 'scriverete',
     options: ['scrivete', 'scriverete', 'scriveresti', 'scriveranno'],
-    correct: 'scriverete',
+    answer: 'scriverete',
     hint: 'Future tense voi form',
   },
   {
@@ -5543,7 +5543,7 @@ const practice = [
     question: 'Complete: Quando ___ (arrivare), avevo già mangiato.',
     italian: 'sei arrivato',
     options: ['sei arrivato', 'arrivi', 'arriverai', 'arrivavi'],
-    correct: 'sei arrivato',
+    answer: 'sei arrivato',
     hint: 'Passato prossimo in temporal clause',
   },
   {
@@ -5553,7 +5553,7 @@ const practice = [
     question: 'What is the future of "dare" for "io"?',
     italian: 'darò',
     options: ['darò', 'diedi', 'darei', 'do'],
-    correct: 'darò',
+    answer: 'darò',
     hint: 'Irregular future stem of dare',
   },
   {
@@ -5563,7 +5563,7 @@ const practice = [
     question: 'Complete: Ieri ___ (essere) molto stanco.',
     italian: 'ero',
     options: ['ero', 'sarò', 'sarei', 'sono'],
-    correct: 'ero',
+    answer: 'ero',
     hint: 'Imperfetto of essere',
   },
   {
@@ -5573,7 +5573,7 @@ const practice = [
     question: 'Which sentence correctly uses trapassato prossimo?',
     italian: 'Avevo già mangiato quando sei arrivato',
     options: ['Ho già mangiato quando sei arrivato', 'Avevo già mangiato quando sei arrivato', 'Mangiavo già quando sei arrivato', 'Mangerò già quando arriverai'],
-    correct: 'Avevo già mangiato quando sei arrivato',
+    answer: 'Avevo già mangiato quando sei arrivato',
     hint: 'Pluperfect for earlier past action',
   },
   {
@@ -5583,7 +5583,7 @@ const practice = [
     question: 'Complete: Mi ___ (parlare) italiano per favore.',
     italian: 'parli',
     options: ['parli', 'parla', 'parlare', 'parlano'],
-    correct: 'parli',
+    answer: 'parli',
     hint: 'Imperative Lei form',
   },
   {
@@ -5593,7 +5593,7 @@ const practice = [
     question: 'What is the imperative (Lei) of "scrivere"?',
     italian: 'scriva',
     options: ['scrivi', 'scriva', 'scrivere', 'scrivono'],
-    correct: 'scriva',
+    answer: 'scriva',
     hint: 'Formal imperative',
   },
   {
@@ -5603,7 +5603,7 @@ const practice = [
     question: 'Complete: Questa è ___ casa.',
     italian: 'la tua',
     options: ['la tua', 'il tuo', 'la sua', 'la nostra'],
-    correct: 'la tua',
+    answer: 'la tua',
     hint: 'Possessive adjective feminine',
   },
   {
@@ -5613,7 +5613,7 @@ const practice = [
     question: 'Which is the future of "potere" for "loro"?',
     italian: 'potranno',
     options: ['potete', 'potranno', 'potrebbero', 'potevano'],
-    correct: 'potranno',
+    answer: 'potranno',
     hint: 'Irregular future of potere',
   },
   {
@@ -5623,7 +5623,7 @@ const practice = [
     question: 'Complete: Prima che voi ___ (partire), vi chiamo.',
     italian: 'partiate',
     options: ['partiate', 'partite', 'partirete', 'partivate'],
-    correct: 'partiate',
+    answer: 'partiate',
     hint: 'Subjunctive after prima che',
   },
   {
@@ -5633,7 +5633,7 @@ const practice = [
     question: 'What does "gli" mean as indirect pronoun?',
     italian: 'to him',
     options: ['to her', 'to him', 'to them', 'to us'],
-    correct: 'to him',
+    answer: 'to him',
     hint: 'Indirect object pronoun',
   },
   {
@@ -5643,7 +5643,7 @@ const practice = [
     question: 'Complete: Non ___ dire!',
     italian: 'dire',
     options: ['dire', 'dica', 'di', 'dice'],
-    correct: 'dire',
+    answer: 'dire',
     hint: 'Negative imperative with infinitive for tu',
   },
   {
@@ -5653,7 +5653,7 @@ const practice = [
     question: 'Which is correct for "my parents"?',
     italian: 'i miei genitori',
     options: ['il mio genitore', 'i miei genitori', 'la mia genitori', 'miei genitori'],
-    correct: 'i miei genitori',
+    answer: 'i miei genitori',
     hint: 'Plural possessive with article',
   },
   {
@@ -5663,7 +5663,7 @@ const practice = [
     question: 'Complete: Domani ___ (scrivere) una lettera.',
     italian: 'scriverò',
     options: ['scriverò', 'scrivevo', 'scriverei', 'scrivo'],
-    correct: 'scriverò',
+    answer: 'scriverò',
     hint: 'Future tense io form',
   },
   {
@@ -5673,7 +5673,7 @@ const practice = [
     question: 'When do we use trapassato prossimo?',
     italian: 'For an action completed before another past action',
     options: ['For future actions', 'For habitual past actions', 'For an action completed before another past action', 'For commands'],
-    correct: 'For an action completed before another past action',
+    answer: 'For an action completed before another past action',
     hint: 'Pluperfect usage',
   },
   {
@@ -5683,7 +5683,7 @@ const practice = [
     question: 'Complete: ___ vedo domani.',
     italian: 'Ti',
     options: ['Ti', 'Mi', 'Ci', 'Vi'],
-    correct: 'Ti',
+    answer: 'Ti',
     hint: 'Direct object pronoun "you"',
   },
   {
@@ -5693,7 +5693,7 @@ const practice = [
     question: 'What is the imperative (noi) of "andare"?',
     italian: 'andiamo',
     options: ['anda', 'andiamo', 'andate', 'andrà'],
-    correct: 'andiamo',
+    answer: 'andiamo',
     hint: 'Let\'s go!',
   },
   {
@@ -5703,7 +5703,7 @@ const practice = [
     question: 'Complete: Questi sono ___ libri.',
     italian: 'i suoi',
     options: ['i suoi', 'i miei', 'i tuoi', 'i nostri'],
-    correct: 'i suoi',
+    answer: 'i suoi',
     hint: 'Possessive adjective plural',
   },
   {
@@ -5713,7 +5713,7 @@ const practice = [
     question: 'Which is the irregular future of "fare" for "tu"?',
     italian: 'farai',
     options: ['farei', 'farai', 'facevi', 'fai'],
-    correct: 'farai',
+    answer: 'farai',
     hint: 'Irregular future stem',
   },
   {
@@ -5723,7 +5723,7 @@ const practice = [
     question: 'Complete: Avevano già ___ (mangiare) quando sono arrivato.',
     italian: 'mangiato',
     options: ['mangiato', 'mangiavo', 'mangerò', 'mangiare'],
-    correct: 'mangiato',
+    answer: 'mangiato',
     hint: 'Past participle with trapassato',
   },
   {
@@ -5733,7 +5733,7 @@ const practice = [
     question: 'What is the future of "stare" for "io"?',
     italian: 'starò',
     options: ['starei', 'starò', 'stavo', 'sto'],
-    correct: 'starò',
+    answer: 'starò',
     hint: 'Irregular future stem',
   },
   {
@@ -5743,7 +5743,7 @@ const practice = [
     question: 'Complete: Non ___ mangiare!',
     italian: 'mangiare',
     options: ['mangiare', 'mangi', 'mangia', 'mangino'],
-    correct: 'mangiare',
+    answer: 'mangiare',
     hint: 'Negative imperative tu',
   },
   {
@@ -5753,7 +5753,7 @@ const practice = [
     question: 'Which is correct for "her house"?',
     italian: 'la sua casa',
     options: ['il suo casa', 'la sua casa', 'la sua case', 'sua casa'],
-    correct: 'la sua casa',
+    answer: 'la sua casa',
     hint: 'Possessive with article',
   },
   {
@@ -5763,7 +5763,7 @@ const practice = [
     question: 'Complete: ___ hanno detto la verità.',
     italian: 'Gli',
     options: ['Gli', 'Le', 'Li', 'Ne'],
-    correct: 'Gli',
+    answer: 'Gli',
     hint: 'Indirect object pronoun "to them"',
   },
   {
@@ -5773,7 +5773,7 @@ const practice = [
     question: 'Which sentence uses direct object pronoun correctly?',
     italian: 'Lo vedo ogni giorno',
     options: ['Lo vedo ogni giorno', 'Lui vedo ogni giorno', 'Vedo lo ogni giorno', 'Ogni giorno lo vedo lui'],
-    correct: 'Lo vedo ogni giorno',
+    answer: 'Lo vedo ogni giorno',
     hint: 'Direct object pronoun placement',
   },
   {
@@ -5783,7 +5783,7 @@ const practice = [
     question: 'Complete: ___ (parlare) più lentamente!',
     italian: 'Parla',
     options: ['Parla', 'Parli', 'Parlare', 'Parlano'],
-    correct: 'Parla',
+    answer: 'Parla',
     hint: 'Imperative tu form',
   },
   {
@@ -5793,7 +5793,7 @@ const practice = [
     question: 'What is the imperative (voi) of "venire"?',
     italian: 'venite',
     options: ['venga', 'venite', 'veniamo', 'verrà'],
-    correct: 'venite',
+    answer: 'venite',
     hint: 'Imperative voi form',
   },
   {
@@ -5803,7 +5803,7 @@ const practice = [
     question: 'Complete: Questa è ___ macchina.',
     italian: 'la nostra',
     options: ['la nostra', 'il nostro', 'la loro', 'le nostre'],
-    correct: 'la nostra',
+    answer: 'la nostra',
     hint: 'Possessive feminine singular',
   },
   {
@@ -5813,7 +5813,7 @@ const practice = [
     question: 'Which is the future of "venire" for "noi"?',
     italian: 'verremo',
     options: ['veniamo', 'verremo', 'verremmo', 'venivamo'],
-    correct: 'verremo',
+    answer: 'verremo',
     hint: 'Irregular future of venire',
   },
   {
@@ -5823,7 +5823,7 @@ const practice = [
     question: 'Complete: Quando ___ (arrivare), loro erano già partiti.',
     italian: 'sono arrivato',
     options: ['sono arrivato', 'arrivo', 'arriverò', 'arrivavo'],
-    correct: 'sono arrivato',
+    answer: 'sono arrivato',
     hint: 'Passato prossimo in temporal clause',
   },
   {
@@ -5833,9 +5833,512 @@ const practice = [
     question: 'What does "ne" replace in "Ne ho tre"?',
     italian: 'di + noun',
     options: ['A noun directly', 'di + noun', 'a + noun', 'per + noun'],
-    correct: 'di + noun',
+    answer: 'di + noun',
     hint: 'Ne replaces "of it/them"',
   },
+  {
+    id: 'p651',
+    type: 'vocabulary',
+    question: 'What does "Nuotare" mean in Italian?',
+    answer: 'To swim',
+    hint: 'You do this in the sea or in a pool',
+  },  {
+    id: 'p652',
+    type: 'vocabulary',
+    question: 'What does "Partire" mean in Italian?',
+    answer: 'To leave / depart',
+    hint: 'What a train does from the station',
+  },  {
+    id: 'p653',
+    type: 'vocabulary',
+    question: 'What does "Scegliere" mean in Italian?',
+    answer: 'To choose',
+    hint: 'Picking one option among many',
+  },  {
+    id: 'p654',
+    type: 'vocabulary',
+    question: 'What does "Cucinare" mean in Italian?',
+    answer: 'To cook',
+    hint: 'Preparing food',
+  },  {
+    id: 'p655',
+    type: 'vocabulary',
+    question: 'What does "Ricordare" mean in Italian?',
+    answer: 'To remember',
+    hint: 'Opposite of forgetting',
+  },  {
+    id: 'p656',
+    type: 'vocabulary',
+    question: 'What does "Ricevere" mean in Italian?',
+    answer: 'To receive',
+    hint: 'Getting something from someone',
+  },  {
+    id: 'p657',
+    type: 'translation',
+    question: 'Translate to English: "Il treno parte alle nove."',
+    answer: 'The train leaves at nine.',
+    hint: 'About the train schedule',
+  },  {
+    id: 'p658',
+    type: 'translation',
+    question: 'Translate to Italian: "To cook pasta"',
+    answer: 'Cucinare la pasta',
+    hint: 'Action in the kitchen',
+  },  {
+    id: 'p659',
+    type: 'translation',
+    question: 'Translate to English: "Ti ho mandato un messaggio."',
+    answer: 'I sent you a message.',
+    hint: 'A text you send to a friend',
+  },  {
+    id: 'p660',
+    type: 'translation',
+    question: 'Translate to English: "Adoro i dolci."',
+    answer: 'I love desserts.',
+    hint: 'Sweet things',
+  },  {
+    id: 'p661',
+    type: 'translation',
+    question: 'Translate to Italian: "I help you"',
+    answer: 'Ti aiuto',
+    hint: 'Two words',
+  },  {
+    id: 'p662',
+    type: 'translation',
+    question: 'Translate to English: "Voglio diventare medico."',
+    answer: 'I want to become a doctor.',
+    hint: 'A future profession',
+  },  {
+    id: 'p663',
+    type: 'translation',
+    question: 'Translate to English: "Arrivo a casa stasera."',
+    answer: 'I arrive home tonight.',
+    hint: 'Coming back home this evening',
+  },  {
+    id: 'p664',
+    type: 'translation',
+    question: 'Translate to English: "Qual e la scelta migliore?"',
+    answer: 'What is the best choice?',
+    hint: 'Asking for the best option',
+  },  {
+    id: 'p665',
+    type: 'fill_blank',
+    question: 'Completa: Il treno ___(leaves) alle nove.',
+    answer: 'parte',
+    hint: '3rd person singular of "partire"',
+  },  {
+    id: 'p666',
+    type: 'fill_blank',
+    question: 'Completa: Stasera ___ (I cook) io.',
+    answer: 'cucino',
+    hint: '1st person of "cucinare"',
+  },  {
+    id: 'p667',
+    type: 'fill_blank',
+    question: 'Completa: ___ (Remember) di comprare il pane!',
+    answer: 'Ricorda',
+    hint: 'Imperative, informal',
+  },  {
+    id: 'p668',
+    type: 'fill_blank',
+    question: 'Completa: Ti ___ (I give) un regalo.',
+    answer: 'regalo',
+    hint: '1st person of "regalare"',
+  },  {
+    id: 'p669',
+    type: 'fill_blank',
+    question: 'Completa: Mi ___ (I relax) la sera.',
+    answer: 'rilasso',
+    hint: 'Reflexive verb "rilassarsi"',
+  },  {
+    id: 'p670',
+    type: 'fill_blank',
+    question: 'Completa: Il bambino ___ (swims) nel mare.',
+    answer: 'nuota',
+    hint: '3rd person of "nuotare"',
+  },  {
+    id: 'p671',
+    type: 'multiple_choice',
+    question: 'Quale verbo significa "to choose"?',
+    options: ['Cucinare', 'Scegliere', 'Partire', 'Ricevere'],
+    answer: 'Scegliere',
+    hint: 'Picking one option among many',
+  },  {
+    id: 'p672',
+    type: 'multiple_choice',
+    question: 'Quale verbo significa "to cook"?',
+    options: ['Cucinare', 'Volare', 'Saltare', 'Offrire'],
+    answer: 'Cucinare',
+    hint: 'Preparing food',
+  },  {
+    id: 'p673',
+    type: 'multiple_choice',
+    question: 'Quale verbo significa "to remember"?',
+    options: ['Dimenticare', 'Ricordare', 'Risparmiare', 'Scegliere'],
+    answer: 'Ricordare',
+    hint: 'Opposite of forgetting',
+  },  {
+    id: 'p674',
+    type: 'multiple_choice',
+    question: 'Qual e il numero "quaranta" in inglese?',
+    options: ['Fourteen', 'Forty', 'Fifty', 'Four hundred'],
+    answer: 'Forty',
+    hint: '30 + 10',
+  },
+  {
+    id: 'p675',
+    type: 'fill_blank',
+    question: 'Nel frigo ___ del latte. (There is milk in the fridge.)',
+    answer: 'c\'e',
+    hint: 'Singular: there is',
+  },
+  {
+    id: 'p676',
+    type: 'fill_blank',
+    question: '___ due gatti in giardino. (There are two cats in the garden.)',
+    answer: 'Ci sono',
+    hint: 'Plural: there are',
+  },
+  {
+    id: 'p677',
+    type: 'multiple_choice',
+    question: 'Which sentence is correct?',
+    options: ['C\'e un problema con la macchina', 'Ci sono un problema con la macchina', 'C\'e uno problema con la macchina', 'Ce un problema con la macchina'],
+    answer: 'C\'e un problema con la macchina',
+    hint: 'c\'e = there is',
+  },
+  {
+    id: 'p678',
+    type: 'fill_blank',
+    question: 'Non ___ tempo! (There is no time!)',
+    answer: 'c\'e',
+    hint: 'Negative of c\'e',
+  },
+  {
+    id: 'p679',
+    type: 'fill_blank',
+    question: 'Mi ___ il film. (I like the film.)',
+    answer: 'piace',
+    hint: 'Singular thing + mi piace',
+  },
+  {
+    id: 'p680',
+    type: 'fill_blank',
+    question: 'Le ___ i libri. (She likes the books.)',
+    answer: 'piacciono',
+    hint: 'Plural things + le piacciono',
+  },
+  {
+    id: 'p681',
+    type: 'fill_blank',
+    question: 'Ti ___ il tè? (Do you like tea?)',
+    answer: 'piace',
+    hint: 'ti = to you',
+  },
+  {
+    id: 'p682',
+    type: 'multiple_choice',
+    question: 'What does "il cibo mi piace" mean?',
+    options: ['I make the food', 'The food likes me', 'I like the food', 'I love cooking'],
+    answer: 'I like the food',
+    hint: 'mi piace il cibo',
+  },
+  {
+    id: 'p683',
+    type: 'fill_blank',
+    question: 'Dove ___ oggi? (Io) — Where do I go today? (andare)',
+    answer: 'vado',
+    hint: 'andare: io vado',
+  },
+  {
+    id: 'p684',
+    type: 'fill_blank',
+    question: 'Lei ___ da Roma. (She comes from Rome.) (venire)',
+    answer: 'viene',
+    hint: 'venire: lei viene',
+  },
+  {
+    id: 'p685',
+    type: 'multiple_choice',
+    question: 'Complete: "Loro ___ i compiti." (They do the homework.) (fare)',
+    options: ['fanno', 'facono', 'fardono', 'fa'],
+    answer: 'fanno',
+    hint: 'fare: loro fanno',
+  },
+  {
+    id: 'p686',
+    type: 'fill_blank',
+    question: 'Noi ___ parlare italiano. (We can speak Italian.) (potere)',
+    answer: 'possiamo',
+    hint: 'potere: noi possiamo',
+  },
+  {
+    id: 'p687',
+    type: 'fill_blank',
+    question: 'Io ___ bevo caffè. (I do not drink coffee.)',
+    answer: 'non',
+    hint: 'non + verb',
+  },
+  {
+    id: 'p688',
+    type: 'multiple_choice',
+    question: 'How do you negate "Ho fame"?',
+    options: ['Non ho fame', 'No ho fame', 'Ho non fame', 'Hanno fame'],
+    answer: 'Non ho fame',
+    hint: 'non goes before the verb',
+  },
+  {
+    id: 'p689',
+    type: 'fill_blank',
+    question: 'Noi ___ parliamo francese. (We do not speak French.)',
+    answer: 'non',
+    hint: 'non + verb',
+  },
+  {
+    id: 'p690',
+    type: 'multiple_choice',
+    question: 'Which sentence is NOT negated?',
+    options: ['Non sento niente', 'Non ho visto nessuno', 'C\'è una penna sul tavolo', 'Non ne so niente'],
+    answer: 'C\'è una penna sul tavolo',
+    hint: 'A positive sentence',
+  },
+  {
+    id: 'p691',
+    type: 'fill_blank',
+    question: 'Mi lavo ___ i denti. (I always brush my teeth.)',
+    answer: 'sempre',
+    hint: 'always',
+  },
+  {
+    id: 'p692',
+    type: 'multiple_choice',
+    question: 'Which adverb means "sometimes"?',
+    options: ['sempre', 'mai', 'qualche volta', 'raramente'],
+    answer: 'qualche volta',
+    hint: 'occasionally',
+  },
+  {
+    id: 'p693',
+    type: 'fill_blank',
+    question: 'Leggi ___? (Do you often read?)',
+    answer: 'spesso',
+    hint: 'often',
+  },
+  {
+    id: 'p694',
+    type: 'multiple_choice',
+    question: 'Which order goes from most to least frequent?',
+    options: ['sempre, spesso, raramente, mai', 'mai, raramente, spesso, sempre', 'spesso, sempre, mai, raramente', 'raramente, mai, sempre, spesso'],
+    answer: 'sempre, spesso, raramente, mai',
+    hint: 'always > often > rarely > never',
+  },
+  {
+    id: 'p695',
+    type: 'fill_blank',
+    question: 'Gennaio è il ___ mese dell\'anno.',
+    answer: 'primo',
+    hint: 'the first month',
+  },
+  {
+    id: 'p696',
+    type: 'fill_blank',
+    question: 'Abitiamo al ___ piano. (We live on the second floor.)',
+    answer: 'secondo',
+    hint: 'the second floor',
+  },
+  {
+    id: 'p697',
+    type: 'multiple_choice',
+    question: 'What is "quinto" in English?',
+    options: ['five', 'fifth', 'fifty', 'fifteen'],
+    answer: 'fifth',
+    hint: 'Questo è il quinto giorno = this is the fifth day',
+  },
+  {
+    id: 'p698',
+    type: 'fill_blank',
+    question: 'Il ___ anniversario del museo. (The hundredth anniversary.)',
+    answer: 'centesimo',
+    hint: '100th',
+  },
+  {
+    id: 'p699',
+    type: 'fill_blank',
+    question: 'Mi ___ le mani prima di mangiare. (I wash my hands before eating.)',
+    answer: 'lavo',
+    hint: 'lavarsi: mi lavo',
+  },
+  {
+    id: 'p700',
+    type: 'fill_blank',
+    question: 'A che ora ti ___? (What time do you get up?)',
+    answer: 'alzi',
+    hint: 'alzarsi: ti alzi',
+  },
+  {
+    id: 'p701',
+    type: 'multiple_choice',
+    question: 'Which is the reflexive verb for "to wake up"?',
+    options: ['svegliare', 'svegliarsi', 'svegliato', 'svegliando'],
+    answer: 'svegliarsi',
+    hint: 'add -si to the infinitive',
+  },
+  {
+    id: 'p702',
+    type: 'fill_blank',
+    question: 'Lui si ___ Marco. (His name is Marco.)',
+    answer: 'chiama',
+    hint: 'chiamarsi: si chiama',
+  },
+  {
+    id: 'p703',
+    type: 'multiple_choice',
+    question: 'Complete: "Noi ___ laviamo le mani."',
+    options: ['ci', 'si', 'vi', 'mi'],
+    answer: 'ci',
+    hint: 'noi + ci',
+  },
+  {
+    id: 'p704',
+    type: 'fill_blank',
+    question: 'Io mi ___ a giocare in giardino. (I enjoy playing in the garden.)',
+    answer: 'diverto',
+    hint: 'divertirsi: mi diverto',
+  },
+  {
+    id: 'p705',
+    type: 'fill_blank',
+    question: 'Il libro? ___ leggo stasera. (I will read it tonight.)',
+    answer: 'Lo',
+    hint: 'lo = it (masculine)',
+  },
+  {
+    id: 'p706',
+    type: 'fill_blank',
+    question: 'La pizza? ___ mangio volentieri. (I gladly eat it.)',
+    answer: 'La',
+    hint: 'la = it (feminine)',
+  },
+  {
+    id: 'p707',
+    type: 'fill_blank',
+    question: 'Mamma, ___ chiamo dopo. (Mom, I will call you later.)',
+    answer: 'ti',
+    hint: 'ti = you',
+  },
+  {
+    id: 'p708',
+    type: 'multiple_choice',
+    question: 'Which pronoun means "to him" (indirect object)?',
+    options: ['lo', 'la', 'gli', 'le'],
+    answer: 'gli',
+    hint: 'gli = to him',
+  },
+  {
+    id: 'p709',
+    type: 'fill_blank',
+    question: '___ ho dato il libro a Luca. (I gave the book to him.)',
+    answer: 'Gli',
+    hint: 'gli = to him',
+  },
+  {
+    id: 'p710',
+    type: 'multiple_choice',
+    question: 'Complete: "___ piacciono le fragole." (We like strawberries.)',
+    options: ['Ci', 'Vi', 'Gli', 'Le'],
+    answer: 'Ci',
+    hint: 'ci = to us',
+  },
+  {
+    id: 'p711',
+    type: 'fill_blank',
+    question: 'Vengo ___ Roma. (I come from Rome.)',
+    answer: 'da',
+    hint: 'da = from',
+  },
+  {
+    id: 'p712',
+    type: 'fill_blank',
+    question: 'Giorgio lavora ___ banca. (Giorgio works at the bank.)',
+    answer: 'in',
+    hint: 'in = in/at',
+  },
+  {
+    id: 'p713',
+    type: 'multiple_choice',
+    question: 'Complete: "Vado ___ cinema."',
+    options: ['a', 'in', 'da', 'di'],
+    answer: 'a',
+    hint: 'andare a + place',
+  },
+  {
+    id: 'p714',
+    type: 'fill_blank',
+    question: 'Questo regalo è ___ mia sorella. (This gift is for my sister.)',
+    answer: 'per',
+    hint: 'per = for',
+  },
+  {
+    id: 'p715',
+    type: 'fill_blank',
+    question: 'Il libro è ___ Paolo. (The book is Paolo\'s.)',
+    answer: 'di',
+    hint: 'di = of / belonging to',
+  },
+  {
+    id: 'p716',
+    type: 'multiple_choice',
+    question: 'Complete: "Esco ___ casa alle otto."',
+    options: ['da', 'di', 'in', 'a'],
+    answer: 'da',
+    hint: 'uscire da = to leave',
+  },
+  {
+    id: 'p717',
+    type: 'fill_blank',
+    question: 'La pizza è ___ da tutti. (is eaten by everyone)',
+    answer: 'mangiata',
+    hint: 'essere + past participle',
+  },
+  {
+    id: 'p718',
+    type: 'multiple_choice',
+    question: 'What does "Il libro è stato letto" mean?',
+    options: ['The book is reading', 'The book was read', 'The book will read', 'Reading the book'],
+    answer: 'The book was read',
+    hint: 'is + past participle',
+  },
+  {
+    id: 'p719',
+    type: 'fill_blank',
+    question: 'La casa ___ costruita dagli operai. (The house is built by the workers.)',
+    answer: 'è',
+    hint: 'essere + past participle',
+  },
+  {
+    id: 'p720',
+    type: 'multiple_choice',
+    question: 'What does "La porta viene aperta" mean?',
+    options: ['The door opens', 'The door is opened', 'The door will open', 'Opening the door'],
+    answer: 'The door is opened',
+    hint: 'venire = passive voice',
+  },
+  {
+    id: 'p721',
+    type: 'fill_blank',
+    question: 'Il giornale ___ letto da mio padre ogni mattina. (is read by my father)',
+    answer: 'viene',
+    hint: 'venire + past participle',
+  },
+  {
+    id: 'p722',
+    type: 'multiple_choice',
+    question: 'Which sentence is in the passive voice?',
+    options: ['Lucia mangia la pizza', 'La pizza è mangiata da Lucia', 'Lucia mangia', 'Pizza!'],
+    answer: 'La pizza è mangiata da Lucia',
+    hint: 'subject receives the action',
+  },
 ];
+
 
 export default practice;

@@ -933,6 +933,21 @@ const lessons = [
               "italian": "La zia",
               "english": "The aunt",
               "pronunciation": "lah TSYAH"
+            },
+            {
+              "italian": "Il marito",
+              "english": "Husband",
+              "pronunciation": "eel mah-REE-toh"
+            },
+            {
+              "italian": "La moglie",
+              "english": "Wife",
+              "pronunciation": "lah MOH-lyeh"
+            },
+            {
+              "italian": "La bambina",
+              "english": "Little girl",
+              "pronunciation": "lah bahm-BEE-nah"
             }
           ]
         }
@@ -2081,6 +2096,11 @@ const lessons = [
               "italian": "Il rosa",
               "english": "Pink",
               "pronunciation": "eel ROH-zah"
+            },
+            {
+              "italian": "Il viola",
+              "english": "Purple",
+              "pronunciation": "eel VYOH-lah"
             }
           ]
         }
@@ -22517,6 +22537,718 @@ const lessons = [
           "sentence": "Dobbiamo ridurre l'___ di carbonio.",
           "answer": "impronta",
           "hint": "carbon footprint"
+        }
+      }
+    ]
+  },
+  {
+    "id": "lesson-131",
+    "title": "C'è and Ci Sono",
+    "level": "A1",
+    "unit": 2,
+    "unitTitle": "Building Blocks",
+    "description": "Learn to say \"there is\" and \"there are\" in Italian.",
+    "duration": 9,
+    "steps": [
+      {
+        "type": "learn",
+        "content": {
+          "title": "C'è and Ci Sono",
+          "text": "Use c'è for singular nouns and ci sono for plural nouns.",
+          "items": [
+            {
+              "italian": "C'è",
+              "english": "There is",
+              "pronunciation": "cheh"
+            },
+            {
+              "italian": "Ci sono",
+              "english": "There are",
+              "pronunciation": "chee SOH-noh"
+            },
+            {
+              "italian": "C'è una mela sul tavolo.",
+              "english": "There is an apple on the table.",
+              "pronunciation": "cheh OO-nah MEH-lah sool tah-VOH-loh"
+            },
+            {
+              "italian": "Ci sono molte persone in piazza.",
+              "english": "There are many people in the square.",
+              "pronunciation": "chee SOH-noh MOHL-teh pehr-SOH-neh een PYAHT-tsah"
+            },
+            {
+              "italian": "Non c'è zucchero.",
+              "english": "There is no sugar.",
+              "pronunciation": "nohn cheh TSOO-keh-roh"
+            },
+            {
+              "italian": "Non ci sono problemi.",
+              "english": "There are no problems.",
+              "pronunciation": "nohn chee SOH-noh proh-BLEH-mee"
+            }
+          ]
+        }
+      },
+      {
+        "type": "example",
+        "content": {
+          "dialogue": [
+            {
+              "speaker": "A",
+              "italian": "C'è un bar qui vicino?",
+              "english": "Is there a bar nearby?"
+            },
+            {
+              "speaker": "B",
+              "italian": "Sì, c'è un bar in via Roma.",
+              "english": "Yes, there is a bar on Via Roma."
+            },
+            {
+              "speaker": "A",
+              "italian": "E ci sono posti a sedere?",
+              "english": "And are there places to sit?"
+            },
+            {
+              "speaker": "B",
+              "italian": "Sì, ci sono molti tavoli.",
+              "english": "Yes, there are many tables."
+            }
+          ]
+        }
+      },
+      {
+        "type": "multiple_choice",
+        "content": {
+          "question": "Which sentence means \"there is a problem\"?",
+          "options": [
+            "Ci sono un problema",
+            "C'è un problema",
+            "C'è una problema",
+            "Ci sono problemi"
+          ],
+          "answer": "C'è un problema"
+        }
+      },
+      {
+        "type": "translation",
+        "content": {
+          "direction": "en-to-it",
+          "sentence": "Are there any seats?",
+          "answer": "Ci sono dei posti a sedere?",
+          "hint": "ci sono = there are"
+        }
+      },
+      {
+        "type": "fill_blank",
+        "content": {
+          "sentence": "___ due cani nel parco.",
+          "answer": "Ci sono",
+          "hint": "there are (plural)"
+        }
+      },
+      {
+        "type": "review",
+        "content": {
+          "title": "C'è and Ci Sono Review",
+          "items": [
+            {
+              "italian": "C'è",
+              "english": "There is"
+            },
+            {
+              "italian": "Ci sono",
+              "english": "There are"
+            },
+            {
+              "italian": "Non c'è",
+              "english": "There is not"
+            },
+            {
+              "italian": "Non ci sono",
+              "english": "There are not"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "lesson-132",
+    "title": "The Verb Piacere",
+    "level": "A1",
+    "unit": 2,
+    "unitTitle": "Building Blocks",
+    "description": "Express likes and dislikes with the verb piacere.",
+    "duration": 9,
+    "steps": [
+      {
+        "type": "learn",
+        "content": {
+          "title": "The Verb Piacere",
+          "text": "With piacere the thing you like becomes the subject: \"mi piace\" = it pleases me.",
+          "items": [
+            {
+              "italian": "Mi piace",
+              "english": "I like (one thing)",
+              "pronunciation": "mee PYAH-cheh"
+            },
+            {
+              "italian": "Mi piacciono",
+              "english": "I like (many things)",
+              "pronunciation": "mee pyahk-CHOH-noh"
+            },
+            {
+              "italian": "Mi piace la pizza.",
+              "english": "I like pizza.",
+              "pronunciation": "mee PYAH-cheh lah PEET-tsah"
+            },
+            {
+              "italian": "Mi piacciono i libri.",
+              "english": "I like the books.",
+              "pronunciation": "mee pyahk-CHOH-noh ee LEE-bree"
+            },
+            {
+              "italian": "Ti piace la musica?",
+              "english": "Do you like music?",
+              "pronunciation": "tee PYAH-cheh lah MOO-zee-kah"
+            },
+            {
+              "italian": "A Marco piace il calcio.",
+              "english": "Marco likes football.",
+              "pronunciation": "ah MAR-koh PYAH-cheh eel KAL-choh"
+            }
+          ]
+        }
+      },
+      {
+        "type": "example",
+        "content": {
+          "dialogue": [
+            {
+              "speaker": "A",
+              "italian": "Ti piace il cinema?",
+              "english": "Do you like cinema?"
+            },
+            {
+              "speaker": "B",
+              "italian": "Sì, mi piace molto!",
+              "english": "Yes, I like it a lot!"
+            },
+            {
+              "speaker": "A",
+              "italian": "E ti piacciono i film italiani?",
+              "english": "And do you like Italian films?"
+            },
+            {
+              "speaker": "B",
+              "italian": "Sì, mi piacciono moltissimo.",
+              "english": "Yes, I really like them."
+            }
+          ]
+        }
+      },
+      {
+        "type": "multiple_choice",
+        "content": {
+          "question": "Complete: \"Mi ___ i libri.\" (I like the books.)",
+          "options": [
+            "piace",
+            "piacciono",
+            "piacerà",
+            "piacere"
+          ],
+          "answer": "piacciono"
+        }
+      },
+      {
+        "type": "translation",
+        "content": {
+          "direction": "en-to-it",
+          "sentence": "Do you like coffee?",
+          "answer": "Ti piace il caffè?",
+          "hint": "ti piace + singular noun"
+        }
+      },
+      {
+        "type": "fill_blank",
+        "content": {
+          "sentence": "A Giulia ___ il gelato.",
+          "answer": "piace",
+          "hint": "piacere with a singular thing"
+        }
+      },
+      {
+        "type": "fill_blank",
+        "content": {
+          "sentence": "Mi ___ le fragole.",
+          "answer": "piacciono",
+          "hint": "fragole is plural"
+        }
+      },
+      {
+        "type": "review",
+        "content": {
+          "title": "The Verb Piacere Review",
+          "items": [
+            {
+              "italian": "Mi piace",
+              "english": "I like (one thing)"
+            },
+            {
+              "italian": "Mi piacciono",
+              "english": "I like (many things)"
+            },
+            {
+              "italian": "Ti piace?",
+              "english": "Do you like...?"
+            },
+            {
+              "italian": "A Marco piace",
+              "english": "Marco likes"
+            },
+            {
+              "italian": "Le piace",
+              "english": "She likes"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "lesson-133",
+    "title": "Basic Negation",
+    "level": "A1",
+    "unit": 2,
+    "unitTitle": "Building Blocks",
+    "description": "Say \"not\" with the key word non.",
+    "duration": 8,
+    "steps": [
+      {
+        "type": "learn",
+        "content": {
+          "title": "Basic Negation",
+          "text": "Place non before the verb to make a sentence negative.",
+          "items": [
+            {
+              "italian": "Non",
+              "english": "not",
+              "pronunciation": "nohn"
+            },
+            {
+              "italian": "Non parlo tedesco.",
+              "english": "I do not speak German.",
+              "pronunciation": "nohn PAR-loh teh-DEHS-koh"
+            },
+            {
+              "italian": "Non capisco.",
+              "english": "I do not understand.",
+              "pronunciation": "nohn kah-PEES-koh"
+            },
+            {
+              "italian": "Non sono stanco.",
+              "english": "I am not tired.",
+              "pronunciation": "nohn SOH-noh STAN-koh"
+            },
+            {
+              "italian": "Non ho tempo.",
+              "english": "I have no time.",
+              "pronunciation": "nohn oh TEM-poh"
+            },
+            {
+              "italian": "Non c'è problema.",
+              "english": "There is no problem.",
+              "pronunciation": "nohn cheh proh-BLEH-mah"
+            }
+          ]
+        }
+      },
+      {
+        "type": "example",
+        "content": {
+          "dialogue": [
+            {
+              "speaker": "A",
+              "italian": "Parli italiano?",
+              "english": "Do you speak Italian?"
+            },
+            {
+              "speaker": "B",
+              "italian": "Non parlo molto bene.",
+              "english": "I do not speak very well."
+            },
+            {
+              "speaker": "A",
+              "italian": "Capisci?",
+              "english": "Do you understand?"
+            },
+            {
+              "speaker": "B",
+              "italian": "Non capisco, scusa.",
+              "english": "I do not understand, sorry."
+            }
+          ]
+        }
+      },
+      {
+        "type": "multiple_choice",
+        "content": {
+          "question": "How do you say \"I don't have time\"?",
+          "options": [
+            "Non ho tempo",
+            "Ho non tempo",
+            "Non sono tempo",
+            "Non tempo ho"
+          ],
+          "answer": "Non ho tempo"
+        }
+      },
+      {
+        "type": "translation",
+        "content": {
+          "direction": "en-to-it",
+          "sentence": "I am not tired.",
+          "answer": "Non sono stanco.",
+          "hint": "non + essere"
+        }
+      },
+      {
+        "type": "fill_blank",
+        "content": {
+          "sentence": "Io ___ bevo caffè.",
+          "answer": "non",
+          "hint": "negative word before the verb"
+        }
+      },
+      {
+        "type": "fill_blank",
+        "content": {
+          "sentence": "Non ___ problema.",
+          "answer": "c'è",
+          "hint": "there is no problem"
+        }
+      },
+      {
+        "type": "review",
+        "content": {
+          "title": "Basic Negation Review",
+          "items": [
+            {
+              "italian": "Non parlo",
+              "english": "I do not speak"
+            },
+            {
+              "italian": "Non capisco",
+              "english": "I do not understand"
+            },
+            {
+              "italian": "Non ho tempo",
+              "english": "I have no time"
+            },
+            {
+              "italian": "Non sono stanco",
+              "english": "I am not tired"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "lesson-134",
+    "title": "Adverbs of Frequency",
+    "level": "A1",
+    "unit": 2,
+    "unitTitle": "Building Blocks",
+    "description": "Say how often you do things.",
+    "duration": 8,
+    "steps": [
+      {
+        "type": "learn",
+        "content": {
+          "title": "Adverbs of Frequency",
+          "text": "Frequency adverbs usually go after the verb (or after non).",
+          "items": [
+            {
+              "italian": "Sempre",
+              "english": "always",
+              "pronunciation": "SEM-preh"
+            },
+            {
+              "italian": "Di solito",
+              "english": "usually",
+              "pronunciation": "dee SOH-lee-toh"
+            },
+            {
+              "italian": "Spesso",
+              "english": "often",
+              "pronunciation": "SPES-soh"
+            },
+            {
+              "italian": "Qualche volta",
+              "english": "sometimes",
+              "pronunciation": "KWAL-keh VOL-tah"
+            },
+            {
+              "italian": "Raramente",
+              "english": "rarely",
+              "pronunciation": "rah-rah-MEN-teh"
+            },
+            {
+              "italian": "Mai",
+              "english": "never",
+              "pronunciation": "my"
+            }
+          ]
+        }
+      },
+      {
+        "type": "example",
+        "content": {
+          "dialogue": [
+            {
+              "speaker": "A",
+              "italian": "Fai spesso sport?",
+              "english": "Do you often do sport?"
+            },
+            {
+              "speaker": "B",
+              "italian": "Sì, spesso vado in palestra.",
+              "english": "Yes, I often go to the gym."
+            },
+            {
+              "speaker": "A",
+              "italian": "E guardi mai la TV?",
+              "english": "And do you ever watch TV?"
+            },
+            {
+              "speaker": "B",
+              "italian": "Raramente.",
+              "english": "Rarely."
+            }
+          ]
+        }
+      },
+      {
+        "type": "multiple_choice",
+        "content": {
+          "question": "Which adverb means \"never\"?",
+          "options": [
+            "sempre",
+            "spesso",
+            "mai",
+            "qualche volta"
+          ],
+          "answer": "mai"
+        }
+      },
+      {
+        "type": "translation",
+        "content": {
+          "direction": "en-to-it",
+          "sentence": "I always have breakfast.",
+          "answer": "Faccio sempre colazione.",
+          "hint": "sempre = always"
+        }
+      },
+      {
+        "type": "fill_blank",
+        "content": {
+          "sentence": "Mi lavo ___ i denti.",
+          "answer": "sempre",
+          "hint": "always"
+        }
+      },
+      {
+        "type": "fill_blank",
+        "content": {
+          "sentence": "___ volte vado al cinema.",
+          "answer": "Qualche",
+          "hint": "sometimes"
+        }
+      },
+      {
+        "type": "review",
+        "content": {
+          "title": "Adverbs of Frequency Review",
+          "items": [
+            {
+              "italian": "Sempre",
+              "english": "always"
+            },
+            {
+              "italian": "Di solito",
+              "english": "usually"
+            },
+            {
+              "italian": "Spesso",
+              "english": "often"
+            },
+            {
+              "italian": "Qualche volta",
+              "english": "sometimes"
+            },
+            {
+              "italian": "Raramente",
+              "english": "rarely"
+            },
+            {
+              "italian": "Mai",
+              "english": "never"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "lesson-135",
+    "title": "Ordinal Numbers",
+    "level": "A2",
+    "unit": 2,
+    "unitTitle": "Building Blocks",
+    "description": "First, second, third... and how to use them.",
+    "duration": 9,
+    "steps": [
+      {
+        "type": "learn",
+        "content": {
+          "title": "Ordinal Numbers",
+          "text": "Ordinals agree in gender and number with the noun, like adjectives.",
+          "items": [
+            {
+              "italian": "Primo",
+              "english": "first",
+              "pronunciation": "PREE-moh"
+            },
+            {
+              "italian": "Secondo",
+              "english": "second",
+              "pronunciation": "seh-KON-doh"
+            },
+            {
+              "italian": "Terzo",
+              "english": "third",
+              "pronunciation": "TEHR-tsoh"
+            },
+            {
+              "italian": "Quinto",
+              "english": "fifth",
+              "pronunciation": "KWEEN-toh"
+            },
+            {
+              "italian": "Decimo",
+              "english": "tenth",
+              "pronunciation": "DEH-chee-moh"
+            },
+            {
+              "italian": "Gennaio è il primo mese.",
+              "english": "January is the first month.",
+              "pronunciation": "jeh-NAH-yoh eh eel PREE-moh MEH-zeh"
+            },
+            {
+              "italian": "La seconda porta.",
+              "english": "The second door.",
+              "pronunciation": "lah seh-KON-dah POR-tah"
+            }
+          ]
+        }
+      },
+      {
+        "type": "example",
+        "content": {
+          "dialogue": [
+            {
+              "speaker": "A",
+              "italian": "A che piano abiti?",
+              "english": "What floor do you live on?"
+            },
+            {
+              "speaker": "B",
+              "italian": "Abito al secondo piano.",
+              "english": "I live on the second floor."
+            },
+            {
+              "speaker": "A",
+              "italian": "E il tuo ufficio?",
+              "english": "And your office?"
+            },
+            {
+              "speaker": "B",
+              "italian": "È al quinto piano.",
+              "english": "It is on the fifth floor."
+            }
+          ]
+        }
+      },
+      {
+        "type": "multiple_choice",
+        "content": {
+          "question": "How do you say \"the third book\"?",
+          "options": [
+            "Il tresse libro",
+            "Il terzo libro",
+            "Il tre libro",
+            "La terza libro"
+          ],
+          "answer": "Il terzo libro"
+        }
+      },
+      {
+        "type": "translation",
+        "content": {
+          "direction": "en-to-it",
+          "sentence": "She is my first friend.",
+          "answer": "È la mia prima amica.",
+          "hint": "prima agrees with amica"
+        }
+      },
+      {
+        "type": "fill_blank",
+        "content": {
+          "sentence": "Oggi è il ___ giorno dell'anno.",
+          "answer": "primo",
+          "hint": "first"
+        }
+      },
+      {
+        "type": "fill_blank",
+        "content": {
+          "sentence": "Il ___ anniversario.",
+          "answer": "decimo",
+          "hint": "tenth"
+        }
+      },
+      {
+        "type": "review",
+        "content": {
+          "title": "Ordinal Numbers Review",
+          "items": [
+            {
+              "italian": "Primo",
+              "english": "first"
+            },
+            {
+              "italian": "Secondo",
+              "english": "second"
+            },
+            {
+              "italian": "Terzo",
+              "english": "third"
+            },
+            {
+              "italian": "Quarto",
+              "english": "fourth"
+            },
+            {
+              "italian": "Quinto",
+              "english": "fifth"
+            },
+            {
+              "italian": "Decimo",
+              "english": "tenth"
+            }
+          ]
         }
       }
     ]
