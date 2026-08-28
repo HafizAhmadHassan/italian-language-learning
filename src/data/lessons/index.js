@@ -549,6 +549,28 @@ const lessons = [
         }
       },
       {
+        "type": "example",
+        "content": {
+          "dialogue": [
+            {
+              "speaker": "A",
+              "italian": "Quanti anni hai?",
+              "english": "How old are you?"
+            },
+            {
+              "speaker": "B",
+              "italian": "Ho venti anni. E tu?",
+              "english": "I am twenty years old. And you?"
+            },
+            {
+              "speaker": "A",
+              "italian": "Ne ho venticinque.",
+              "english": "I am twenty-five."
+            }
+          ]
+        }
+      },
+      {
         "type": "multiple_choice",
         "content": {
           "question": "What is the number 7 in Italian?",
@@ -911,6 +933,33 @@ const lessons = [
               "italian": "La zia",
               "english": "The aunt",
               "pronunciation": "lah TSYAH"
+            }
+          ]
+        }
+      },
+      {
+        "type": "example",
+        "content": {
+          "dialogue": [
+            {
+              "speaker": "A",
+              "italian": "Quant'alti siete nella vostra famiglia?",
+              "english": "How many are there in your family?"
+            },
+            {
+              "speaker": "B",
+              "italian": "Siamo in cinque: mamma, papà, due fratelli e io.",
+              "english": "We are five: mom, dad, two brothers and me."
+            },
+            {
+              "speaker": "A",
+              "italian": "Avete anche una sorella?",
+              "english": "Do you also have a sister?"
+            },
+            {
+              "speaker": "B",
+              "italian": "Sì, ho una sorellina piccola.",
+              "english": "Yes, I have a little sister."
             }
           ]
         }
@@ -2037,6 +2086,28 @@ const lessons = [
         }
       },
       {
+        "type": "example",
+        "content": {
+          "dialogue": [
+            {
+              "speaker": "A",
+              "italian": "Che colore è la tua macchina?",
+              "english": "What color is your car?"
+            },
+            {
+              "speaker": "B",
+              "italian": "È rossa. E la tua?",
+              "english": "It's red. And yours?"
+            },
+            {
+              "speaker": "A",
+              "italian": "La mia è blu. Mi piace il blu.",
+              "english": "Mine is blue. I like blue."
+            }
+          ]
+        }
+      },
+      {
         "type": "multiple_choice",
         "content": {
           "question": "What is \"green\" in Italian?",
@@ -2198,6 +2269,33 @@ const lessons = [
               "italian": "L'umidità",
               "english": "The humidity",
               "pronunciation": "loo-mee-dee-TAH"
+            }
+          ]
+        }
+      },
+      {
+        "type": "example",
+        "content": {
+          "dialogue": [
+            {
+              "speaker": "A",
+              "italian": "Che tempo fa oggi?",
+              "english": "What's the weather like today?"
+            },
+            {
+              "speaker": "B",
+              "italian": "Fa bel tempo. C'è il sole.",
+              "english": "The weather is nice. The sun is shining."
+            },
+            {
+              "speaker": "A",
+              "italian": "Ieri pioveva tantissimo!",
+              "english": "Yesterday it was raining a lot!"
+            },
+            {
+              "speaker": "B",
+              "italian": "Sì, e domani nevicherà.",
+              "english": "Yes, and tomorrow it will snow."
             }
           ]
         }
@@ -2989,6 +3087,28 @@ const lessons = [
               "italian": "La settimana",
               "english": "The week",
               "pronunciation": "lah seht-tee-MAH-nah"
+            }
+          ]
+        }
+      },
+      {
+        "type": "example",
+        "content": {
+          "dialogue": [
+            {
+              "speaker": "A",
+              "italian": "Che giorno è oggi?",
+              "english": "What day is it today?"
+            },
+            {
+              "speaker": "B",
+              "italian": "Oggi è venerdì. Domani è sabato!",
+              "english": "Today is Friday. Tomorrow is Saturday!"
+            },
+            {
+              "speaker": "A",
+              "italian": "Perfetto, è quasi il weekend.",
+              "english": "Perfect, it's almost the weekend."
             }
           ]
         }
@@ -5307,6 +5427,33 @@ const lessons = [
               "italian": "Andare",
               "english": "To go",
               "pronunciation": "ahn-DAH-reh"
+            }
+          ]
+        }
+      },
+      {
+        "type": "example",
+        "content": {
+          "dialogue": [
+            {
+              "speaker": "A",
+              "italian": "Quali sono i verbi irregolari più comuni?",
+              "english": "What are the most common irregular verbs?"
+            },
+            {
+              "speaker": "B",
+              "italian": "Essere, avere, andare, fare e dire sono i più usati.",
+              "english": "Essere, avere, andare, fare and dire are the most used."
+            },
+            {
+              "speaker": "A",
+              "italian": "Come si coniuga \"fare\" al passato prossimo?",
+              "english": "How do you conjugate \"fare\" in passato prossimo?"
+            },
+            {
+              "speaker": "B",
+              "italian": "Ho fatto, hai fatto, ha fatto... usa \"avere\".",
+              "english": "Ho fatto, hai fatto, ha fatto... it uses \"avere\"."
             }
           ]
         }
@@ -17594,11 +17741,11 @@ const lessons = [
   },
   {
     "id": "lesson-97",
-    "title": "Weather and Seasons",
+    "title": "Seasons and Weather Expressions",
     "level": "A1",
     "unit": 2,
     "unitTitle": "Building Blocks",
-    "description": "Talk about weather, seasons, and climate in Italian.",
+    "description": "Expand your weather vocabulary and learn seasonal expressions.",
     "duration": 12,
     "steps": [
       {
@@ -18123,11 +18270,11 @@ const lessons = [
   },
   {
     "id": "lesson-100",
-    "title": "Emotions and Feelings",
+    "title": "Advanced Emotions Vocabulary",
     "level": "B1",
     "unit": 7,
     "unitTitle": "Culture and Society",
-    "description": "Express emotions, feelings, and states of mind in Italian.",
+    "description": "Express complex feelings and nuanced emotions in Italian.",
     "duration": 15,
     "steps": [
       {
@@ -19106,11 +19253,11 @@ const lessons = [
   },
   {
     "id": "lesson-106",
-    "title": "At the Doctor",
+    "title": "Health and Symptoms",
     "level": "A2",
     "unit": 6,
     "unitTitle": "Activities",
-    "description": "Communicate with doctors, describe symptoms, and understand medical advice.",
+    "description": "Describe symptoms, illnesses, and medical situations in Italian.",
     "duration": 15,
     "steps": [
       {
@@ -19241,11 +19388,11 @@ const lessons = [
   },
   {
     "id": "lesson-107",
-    "title": "Food and Drinks",
+    "title": "Italian Cuisine Basics",
     "level": "A1",
     "unit": 3,
     "unitTitle": "Everyday Life",
-    "description": "Learn essential food and drink vocabulary for daily conversations.",
+    "description": "Learn essential Italian cooking vocabulary, ingredients, and recipes.",
     "duration": 12,
     "steps": [
       {
@@ -20426,11 +20573,11 @@ const lessons = [
   },
   {
     "id": "lesson-116",
-    "title": "Describing People",
+    "title": "Personality Traits",
     "level": "A2",
     "unit": 5,
     "unitTitle": "Daily Life",
-    "description": "Describe people's appearance, personality, and character traits.",
+    "description": "Describe character and personality with rich Italian vocabulary.",
     "duration": 14,
     "steps": [
       {
@@ -21046,11 +21193,11 @@ const lessons = [
   },
   {
     "id": "lesson-121",
-    "title": "Italian Cinema",
+    "title": "Italian Film Industry",
     "level": "B2",
     "unit": 13,
     "unitTitle": "Culture & Society",
-    "description": "Discuss Italian films, directors, and cinema culture.",
+    "description": "Discuss Italian cinema, famous directors, and film culture.",
     "duration": 14,
     "steps": [
       {
@@ -21721,11 +21868,11 @@ const lessons = [
   },
   {
     "id": "lesson-126",
-    "title": "At the Post Office",
+    "title": "Postal Services",
     "level": "A2",
     "unit": 6,
     "unitTitle": "Activities",
-    "description": "Handle postal services, send packages, and buy stamps in Italian.",
+    "description": "Navigate Italian postal services, send packages, and handle mail.",
     "duration": 12,
     "steps": [
       {
@@ -22241,11 +22388,11 @@ const lessons = [
   },
   {
     "id": "lesson-130",
-    "title": "Environmental Issues",
+    "title": "Climate and Sustainability",
     "level": "B2",
     "unit": 14,
     "unitTitle": "Modern Life",
-    "description": "Discuss climate change, pollution, and sustainability in Italian.",
+    "description": "Discuss environmental challenges, climate change, and green solutions.",
     "duration": 14,
     "steps": [
       {
