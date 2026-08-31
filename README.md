@@ -1,4 +1,5 @@
 # Parla Italiano 🇮🇹
+*Created: 2026-08-26*
 
 A premium Italian language learning website built with React, Vite, and Tailwind CSS.
 
