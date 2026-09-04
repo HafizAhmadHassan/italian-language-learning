@@ -3,6 +3,7 @@
 
 A premium Italian language learning website built with React, Vite, and Tailwind CSS.
 
+A1 to C1 level
 ## Features
 
 - **Structured Lessons** — Interactive Italian lessons with multiple exercise types
