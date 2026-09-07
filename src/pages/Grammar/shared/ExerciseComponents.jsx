@@ -479,9 +479,10 @@ export function ConjugationTableExercise({ verb, prompt, options, answer, explan
   );
 }
 
-export function StoryExercise({ story, title, vocab, questions, onComplete }) {
+export function StoryExercise({ story, title, vocab, translation, questions, onComplete }) {
   const [answers, setAnswers] = useState({});
   const [submitted, setSubmitted] = useState({});
+  const [showTranslation, setShowTranslation] = useState(false);
 
   const handleAnswer = (qIdx, answer) => {
     setAnswers({ ...answers, [qIdx]: answer });
@@ -506,6 +507,26 @@ export function StoryExercise({ story, title, vocab, questions, onComplete }) {
         {title && <p className="text-xs font-semibold text-italian-green mb-2 uppercase tracking-wider">{title}</p>}
         <p className="text-sm text-gray-700 dark:text-gray-300 leading-relaxed whitespace-pre-line">{story}</p>
       </div>
+
+      {translation && (
+        <div>
+          <button
+            onClick={() => setShowTranslation(!showTranslation)}
+            className="text-xs font-semibold text-italian-gold hover:text-italian-gold/80 transition-colors flex items-center gap-1"
+          >
+            {showTranslation ? 'Hide' : 'Show'} English translation
+          </button>
+          {showTranslation && (
+            <motion.div
+              initial={{ opacity: 0, y: -4 }}
+              animate={{ opacity: 1, y: 0 }}
+              className="mt-2 px-4 py-3 rounded-xl bg-italian-gold/5 border border-italian-gold/15 text-sm text-gray-600 dark:text-gray-400 leading-relaxed whitespace-pre-line"
+            >
+              {translation}
+            </motion.div>
+          )}
+        </div>
+      )}
 
       {vocab && vocab.length > 0 && (
         <div className="px-4 py-3 rounded-xl bg-italian-gold/5 border border-italian-gold/20">
