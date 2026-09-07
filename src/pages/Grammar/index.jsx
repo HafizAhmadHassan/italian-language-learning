@@ -1,6 +1,7 @@
 import { useState, useMemo, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { ChevronDown, CheckCircle, Circle, BookOpen, Award } from 'lucide-react';
+import { ChevronDown, CheckCircle, Circle, BookOpen, Award, ArrowRight, PlayCircle } from 'lucide-react';
+import { Link } from 'react-router-dom';
 import grammar from '../../data/grammar';
 import storage from '../../services/storage';
 
@@ -163,12 +164,49 @@ export default function GrammarPage() {
           </p>
         </motion.div>
 
-        {/* Level Tabs */}
+        {/* Featured Mini-Course */}
         <motion.div
           initial="hidden"
           animate="visible"
           variants={fadeUp}
           custom={1}
+          className="mb-8"
+        >
+          <Link
+            to="/grammar/presente"
+            className="group flex flex-col sm:flex-row sm:items-center gap-4 rounded-2xl border border-italian-green/30 bg-gradient-to-r from-italian-green/10 to-italian-cream dark:from-italian-dark-card dark:to-italian-dark-card p-5 transition-all duration-300 hover:shadow-lg hover:shadow-italian-green/10"
+          >
+            <div className="w-12 h-12 rounded-xl bg-italian-green flex items-center justify-center shrink-0">
+              <PlayCircle className="w-6 h-6 text-white" />
+            </div>
+            <div className="flex-1 min-w-0">
+              <div className="flex items-center gap-2 flex-wrap">
+                <h3 className="text-base font-semibold text-italian-charcoal dark:text-white">
+                  Present Tense — Presente
+                </h3>
+                <span className="px-2 py-0.5 rounded-md text-xs font-bold border bg-italian-green/15 text-italian-green border-italian-green/30">
+                  A1
+                </span>
+                <span className="px-2 py-0.5 rounded-md text-xs font-semibold bg-italian-gold/15 text-italian-gold border border-italian-gold/25">
+                  Mini-course
+                </span>
+              </div>
+              <p className="text-sm text-gray-500 dark:text-gray-400 mt-1">
+                30 progressive exercises, 4 stories, and a final proficiency test — learn to use regular -are, -ere, and -ire verbs in the present tense.
+              </p>
+            </div>
+            <span className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-italian-green text-white text-sm font-semibold group-hover:shadow-md transition-all shrink-0">
+              Start Lesson <ArrowRight size={16} className="group-hover:translate-x-0.5 transition-transform" />
+            </span>
+          </Link>
+        </motion.div>
+
+        {/* Level Tabs */}
+        <motion.div
+          initial="hidden"
+          animate="visible"
+          variants={fadeUp}
+          custom={2}
           className="flex gap-2 mb-8 overflow-x-auto pb-1"
         >
           {TABS.map((tab) => (
