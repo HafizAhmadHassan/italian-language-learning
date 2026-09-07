@@ -14,6 +14,7 @@ import Flashcards from './pages/Vocabulary/Flashcards';
 import Grammar from './pages/Grammar';
 import PresenteLesson from './pages/Grammar/Presente';
 import PassatoLesson from './pages/Grammar/Passato';
+import ImperfettoLesson from './pages/Grammar/Imperfetto';
 import Practice from './pages/Practice';
 import Progress from './pages/Progress';
 import Settings from './pages/Settings';
@@ -55,6 +56,7 @@ function App() {
           <Route path="/grammar" element={<Grammar />} />
           <Route path="/grammar/presente" element={<PresenteLesson />} />
           <Route path="/grammar/passato" element={<PassatoLesson />} />
+          <Route path="/grammar/imperfetto" element={<ImperfettoLesson />} />
           <Route path="/practice" element={<Practice />} />
           <Route path="/progress" element={<Progress />} />
           <Route path="/settings" element={<Settings />} />
