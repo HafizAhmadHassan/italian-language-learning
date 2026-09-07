@@ -1,0 +1,789 @@
+export const futuroStages = [
+  {
+    id: 'concept',
+    title: 'What is the Futuro Semplice?',
+    subtitle: 'Understanding what the futuro semplice is and the time words that signal it',
+    sections: [
+      {
+        heading: 'Part 1 — What is the futuro semplice?',
+        explanation: 'The futuro semplice is the main Italian tense for talking about the future. It describes actions, events, predictions, and plans that will happen after now.',
+        bullets: [
+          { text: 'Oggi lavoro. → Today I work. (present)', example: 'Ieri ho lavorato. → Yesterday I worked. (past: passato prossimo)' },
+          { text: 'Domani lavorerò. → Tomorrow I will work. (futuro semplice)', example: 'The action happens after NOW — use the future tense.' },
+        ],
+        timeline: { left: 'PAST', center: 'NOW', right: 'FUTURE', examples: ['Ieri ho lavorato', 'Oggi lavoro', 'Domani lavorerò'] },
+        note: 'Futuro semplice = an action, event, prediction, or situation that will happen in the future.',
+      },
+      {
+        heading: 'Part 2 — Future time expressions',
+        explanation: 'These words and phrases often appear in future sentences and help you recognize them:',
+        bullets: [
+          { text: 'Domani andrò al lavoro.', example: 'Tomorrow I will go to work.' },
+          { text: 'La prossima settimana visiteremo Roma.', example: 'Next week we will visit Rome.' },
+          { text: 'Tra due giorni partirò.', example: 'In two days I will leave.' },
+          { text: 'L\'anno prossimo viaggeranno in Italia.', example: 'Next year they will travel to Italy.' },
+          { text: 'Stasera mangeremo al ristorante.', example: 'Tonight we will eat at the restaurant.' },
+        ],
+        note: 'Signal words: domani, stasera, questa sera, la prossima settimana, il prossimo mese, l\'anno prossimo, tra due giorni, tra una settimana, più tardi, in futuro.',
+      },
+    ],
+  },
+  {
+    id: 'formation',
+    title: 'Forming the Futuro',
+    subtitle: 'Regular -are, -ere, and -ire endings, plus spelling changes',
+    sections: [
+      {
+        heading: 'Part 3 — The formula',
+        explanation: 'Most verbs change the final vowel of the infinitive and then add future endings:\n\n• -ARE verbs change A → E: parlare → parler-\n• -ERE verbs keep -ER: vedere → vedr- (short stem)\n• -IRE verbs keep -IR: partire → partir-\n\nThen you add the future endings:',
+        comparison: [
+          { form: 'io', are: '-erò', ere: '-erò', ire: '-irò' },
+          { form: 'tu', are: '-erai', ere: '-erai', ire: '-irai' },
+          { form: 'lui/lei', are: '-erà', ere: '-erà', ire: '-irà' },
+          { form: 'noi', are: '-eremo', ere: '-eremo', ire: '-iremo' },
+          { form: 'voi', are: '-erete', ere: '-erete', ire: '-irete' },
+          { form: 'loro', are: '-eranno', ere: '-eranno', ire: '-iranno' },
+        ],
+        note: 'The accented endings -ò (io) and -à (lui/lei) are important — the accent tells you which person it is.',
+      },
+      {
+        heading: 'Part 4 — Regular -ARE verbs',
+        explanation: 'Parlare → parlerò, mangiare → mangerò, lavorare → lavorerò, studiare → studierò.',
+        verbs: [
+          { infinitive: 'parlare', meaning: 'parlerò — I will speak' },
+          { infinitive: 'lavorare', meaning: 'lavorerò — I will work' },
+          { infinitive: 'studiare', meaning: 'studierò — I will study' },
+          { infinitive: 'mangiare', meaning: 'mangerò — I will eat' },
+          { infinitive: 'guardare', meaning: 'guarderò — I will watch' },
+          { infinitive: 'comprare', meaning: 'comprerò — I will buy' },
+          { infinitive: 'visitare', meaning: 'visiterò — I will visit' },
+          { infinitive: 'aspettare', meaning: 'aspetterò — I will wait' },
+        ],
+        group: '-ARE',
+        focus: { sentence: 'Domani lavorerò.', breakdown: [{ part: 'Domani', role: 'time expression' }, { part: 'lavor-', role: 'verb stem' }, { part: '-erò', role: 'future ending (io)' }], meaning: 'Tomorrow I will work.' },
+      },
+      {
+        heading: 'Part 5 — Regular -ERE verbs',
+        explanation: 'Many -ERE verbs drop the final -e of the infinitive, giving a shorter stem: vedere → vedr-, vivere → vivr-.',
+        verbs: [
+          { infinitive: 'vedere', meaning: 'vedrò — I will see' },
+          { infinitive: 'credere', meaning: 'crederò — I will believe' },
+          { infinitive: 'ricevere', meaning: 'riceverò — I will receive' },
+          { infinitive: 'vivere', meaning: 'vivrò — I will live' },
+        ],
+        group: '-ERE',
+        examples: [
+          { italian: 'Domani vedrò Marco.', translation: 'Tomorrow I will see Marco.' },
+          { italian: 'Vivremo in Italia.', translation: 'We will live in Italy.' },
+        ],
+      },
+      {
+        heading: 'Part 6 — Regular -IRE verbs',
+        explanation: '-IRE verbs keep the -IR- stem and add the endings: partire → partir-, dormire → dormir-.',
+        verbs: [
+          { infinitive: 'partire', meaning: 'partirò — I will leave' },
+          { infinitive: 'dormire', meaning: 'dormirò — I will sleep' },
+          { infinitive: 'finire', meaning: 'finirò — I will finish' },
+          { infinitive: 'sentire', meaning: 'sentirò — I will hear/feel' },
+          { infinitive: 'aprire', meaning: 'aprirò — I will open' },
+        ],
+        group: '-IRE',
+        examples: [
+          { italian: 'Partiremo domani mattina.', translation: 'We will leave tomorrow morning.' },
+          { italian: 'Dormirò presto stasera.', translation: 'I will sleep early tonight.' },
+        ],
+      },
+      {
+        heading: 'Part 7 — Spelling changes',
+        explanation: 'A few verb groups need small changes before adding the future endings:',
+        bullets: [
+          { text: '-CARE / -GARE → add an H to keep the hard sound.', example: 'giocare → giocherò (NOT "giocerò"), pagare → pagherò, cercare → cercherò.' },
+          { text: '-CIARE / -GIARE → drop the I before -er-', example: 'mangiare → mangerò (NOT "mangierò"), cominciare → comincerò, viaggiare → viaggerò.' },
+        ],
+        patterns: ['giocare → giocherò', 'pagare → pagherò', 'cercare → cercherò', 'mangiare → mangerò', 'cominciare → comincerò', 'viaggiare → viaggerò'],
+      },
+    ],
+  },
+  {
+    id: 'irregulars',
+    title: 'Essere, Avere & Irregular Stems',
+    subtitle: 'The most useful irregular future verbs and their stems',
+    sections: [
+      {
+        heading: 'Part 8 — Essere',
+        explanation: 'Essere has the irregular future stem SAR-: sarò, sarai, sarà... Learn these forms by heart:',
+        conjugations: { rows: [{ pronoun: 'io', ending: 'sarò' }, { pronoun: 'tu', ending: 'sarai' }, { pronoun: 'lui/lei', ending: 'sarà' }, { pronoun: 'noi', ending: 'saremo' }, { pronoun: 'voi', ending: 'sarete' }, { pronoun: 'loro', ending: 'saranno' }] },
+        examples: [
+          { italian: 'Sarò a casa domani.', translation: 'I will be at home tomorrow.' },
+          { italian: 'Sarà una bella giornata.', translation: 'It will be a beautiful day.' },
+          { italian: 'Saremo stanchi dopo il viaggio.', translation: 'We will be tired after the trip.' },
+        ],
+      },
+      {
+        heading: 'Part 9 — Avere',
+        explanation: 'Avere has the irregular future stem AVR-:',
+        conjugations: { rows: [{ pronoun: 'io', ending: 'avrò' }, { pronoun: 'tu', ending: 'avrai' }, { pronoun: 'lui/lei', ending: 'avrà' }, { pronoun: 'noi', ending: 'avremo' }, { pronoun: 'voi', ending: 'avrete' }, { pronoun: 'loro', ending: 'avranno' }] },
+        examples: [
+          { italian: 'Avrò molto lavoro domani.', translation: 'I will have a lot of work tomorrow.' },
+          { italian: 'Avremo tempo.', translation: 'We will have time.' },
+          { italian: 'Avranno una casa nuova.', translation: 'They will have a new house.' },
+        ],
+        note: 'Avere appears in common expressions: avere fame (to be hungry), avere sete (thirsty), avere sonno (sleepy), avere tempo (to have time), avere bisogno di (to need).',
+      },
+      {
+        heading: 'Part 10 — Common irregular stems',
+        explanation: 'Most irregular future verbs change only the STEM; the endings stay the same and predictable:',
+        patterns: ['andare → andr-', 'avere → avr-', 'essere → sar-', 'fare → far-', 'venire → verr-', 'volere → vorr-', 'potere → potr-', 'dovere → dovr-', 'sapere → sapr-', 'vedere → vedr-', 'vivere → vivr-', 'rimanere → rimarr-'],
+        examples: [
+          { italian: 'Andrò a Roma.', translation: 'I will go to Rome.' },
+          { italian: 'Farò il mio lavoro.', translation: 'I will do my work.' },
+          { italian: 'Verrà con noi.', translation: 'He/She will come with us.' },
+          { italian: 'Potrò aiutarti.', translation: 'I will be able to help you.' },
+          { italian: 'Dovrò studiare.', translation: 'I will have to study.' },
+        ],
+        note: 'The endings -ò, -ai, -à, -emo, -ete, -anno never change — only the stem is irregular.',
+      },
+    ],
+  },
+  {
+    id: 'usage',
+    title: 'Time, Plans, Predictions & Questions',
+    subtitle: 'Negatives, questions, time expressions, and the present-for-future contrast',
+    sections: [
+      {
+        heading: 'Part 11 — Negative and questions',
+        explanation: 'The negative is simple: non + futuro. Questions often start with a question word.',
+        bullets: [
+          { text: 'Non lavorerò domani.', example: 'I won\'t work tomorrow.' },
+          { text: 'Non andremo al cinema.', example: 'We won\'t go to the cinema.' },
+          { text: 'Andrai a Roma?', example: 'Will you go to Rome?' },
+          { text: 'Quando arriverai?', example: 'When will you arrive?' },
+          { text: 'Verrai con noi?', example: 'Will you come with us?' },
+        ],
+      },
+      {
+        heading: 'Part 12 — Time expressions',
+        explanation: 'Useful expressions with complete sentences:',
+        patterns: ['domani', 'domani mattina', 'domani sera', 'stasera', 'più tardi', 'tra un\'ora', 'tra due giorni', 'tra una settimana', 'la prossima settimana', 'il prossimo mese', 'l\'anno prossimo', 'quest\'estate', 'in futuro'],
+        examples: [
+          { italian: 'Domani partirò.', translation: 'I will leave tomorrow.' },
+          { italian: 'Tra una settimana andremo in vacanza.', translation: 'In a week we will go on holiday.' },
+          { italian: 'L\'anno prossimo vivrò in Italia.', translation: 'Next year I will live in Italy.' },
+        ],
+      },
+      {
+        heading: 'Part 13 — Present or futuro for future plans?',
+        explanation: 'Italian can use the PRESENT tense for a definite, arranged future plan. The futuro semplice explicitly marks the action as future. Both are natural:',
+        comparison: [
+          { form: 'Plan (definite)', are: 'Domani vado a Roma.', ere: 'Stasera mangio fuori.', ire: 'Sabato lavoro.' },
+          { form: 'Future (explicit)', are: 'Domani andrò a Roma.', ere: 'Stasera mangerò fuori.', ire: 'Sabato lavorerò.' },
+        ],
+        note: 'Neither form is "more correct" — the present feels more arranged, the futuro emphasizes the future. Meaning over rules.',
+      },
+      {
+        heading: 'Part 14 — Predictions, guesses, and modal verbs',
+        explanation: 'The futuro semplice is also used for predictions of the weather/events, for guesses about the present, and with modal verbs.',
+        bullets: [
+          { text: 'PREDICTION — Domani pioverà.', example: 'It will rain tomorrow.' },
+          { text: 'PREDICTION — Andrà tutto bene.', example: 'Everything will be fine.' },
+          { text: 'GUESS / PROBABILITY — Sarà a casa.', example: '"Where is Marco? — He\'s probably at home." An additional, useful use.' },
+          { text: 'MODALS — Domani dovrò lavorare.', example: 'potrò (I will be able to), dovrò (I will have to), vorrò (I will want), saprò (I will know).' },
+        ],
+        note: 'Do not focus too much on the probability meaning at first — but recognize it when you see it.',
+      },
+    ],
+  },
+];
+
+export const futuroExercises = [
+  // LEVEL 1 — RECOGNITION
+  {
+    id: 1,
+    type: 'multiple',
+    level: 'Level 1 — Recognition',
+    title: 'Present, Past, or Future?',
+    instruction: 'Read each sentence and identify the tense.',
+    questions: [
+      { question: '"Oggi lavoro." is:', options: ['Present', 'Past', 'Future'], answer: 'Present', explanation: '"Oggi" (today) + lavoro → present tense.' },
+      { question: '"Ieri ho lavorato." is:', options: ['Past', 'Present', 'Future'], answer: 'Past', explanation: '"Ieri" (yesterday) + passato prossimo → past.' },
+      { question: '"Domani lavorerò." is:', options: ['Future', 'Present', 'Past'], answer: 'Future', explanation: '"Domani" (tomorrow) + lavorerò → futuro semplice.' },
+      { question: '"La prossima settimana visiteremo Roma." is:', options: ['Future', 'Present', 'Past'], answer: 'Future', explanation: '"La prossima settimana" + visiteremo → futuro.' },
+      { question: '"Stasera mangio al ristorante." is:', options: ['Present (talking about a plan)', 'Past', 'Future with future ending'], answer: 'Present (talking about a plan)', explanation: 'The verb is present tense, used for a definite plan tonight.' },
+    ],
+  },
+  {
+    id: 2,
+    type: 'multiple',
+    level: 'Level 1 — Recognition',
+    title: 'Identify the Future Verb',
+    instruction: 'Find the future-tense verb in each sentence.',
+    questions: [
+      { question: '"Domani partirò per Roma." — which word is the future verb?', options: ['partirò', 'Domani', 'per', 'Roma'], answer: 'partirò', explanation: 'Partirò = partire (io), futuro semplice.' },
+      { question: '"Luca lavorerà in ufficio domani." — which word is the future verb?', options: ['lavorerà', 'Luca', 'in', 'domani'], answer: 'lavorerà', explanation: 'Lavorerà = lui lavorare, futuro.' },
+      { question: '"Andremo al cinema stasera." — which word is the future verb?', options: ['Andremo', 'al', 'cinema', 'stasera'], answer: 'Andremo', explanation: 'Andremo = noi andare (irregular stem andr-), futuro.' },
+      { question: '"Sarai a casa domani?" — which word is the future verb?', options: ['Sarai', 'a', 'casa', 'domani'], answer: 'Sarai', explanation: 'Sarai = tu essere (irregular stem sar-), futuro.' },
+    ],
+  },
+  {
+    id: 3,
+    type: 'multiple',
+    level: 'Level 1 — Recognition',
+    title: 'Identify the Future Ending',
+    instruction: 'Choose the future ending used in each word.',
+    questions: [
+      { question: '"parleranno" — which future ending is used?', options: ['-eranno', '-ano', '-avano'], answer: '-eranno', explanation: 'Loro ending: -eranno. "Parlavano" was the imperfetto (-avano).' },
+      { question: '"mangerò" — which future ending is used?', options: ['-erò', '-ò', '-emo'], answer: '-erò', explanation: 'Io ending: -erò, with an accent on the ò.' },
+      { question: '"finiremo" — which future ending is used?', options: ['-iremo', '-eremo', '-amo'], answer: '-iremo', explanation: 'Noi ending for -IRE verbs: -iremo.' },
+      { question: '"partirà" — which future ending is used?', options: ['-irà', '-erà', '-ava'], answer: '-irà', explanation: 'Lui/lei ending: -irà, with an accent on the à.' },
+      { question: '"studierete" — which future ending is used?', options: ['-erete', '-ete', '-ate'], answer: '-erete', explanation: 'Voi ending: -erete.' },
+    ],
+  },
+  {
+    id: 4,
+    type: 'multiple',
+    level: 'Level 1 — Recognition',
+    title: 'Identify the Future Stem',
+    instruction: 'Choose the correct future stem of each verb.',
+    questions: [
+      { question: '"parlerò" — what is the future stem?', options: ['parler-', 'parlo-', 'parl-'], answer: 'parler-', explanation: 'Parlare → parl- + -er → parler-. Then add -ò.' },
+      { question: '"andrò" — what is the future stem?', options: ['andr-', 'and-', 'anda-'], answer: 'andr-', explanation: 'Andare has the irregular stem andr-.' },
+      { question: '"farò" — what is the future stem?', options: ['far-', 'fai-', 'fare-'], answer: 'far-', explanation: 'Fare has the irregular stem far-.' },
+      { question: '"potrò" — what is the future stem?', options: ['potr-', 'pot-', 'potet-'], answer: 'potr-', explanation: 'Potere has the irregular stem potr-.' },
+    ],
+  },
+  {
+    id: 5,
+    type: 'matching',
+    level: 'Level 1 — Recognition',
+    title: 'Match Infinitive to Future',
+    instruction: 'Match each infinitive with its future (io) form.',
+    pairs: [
+      { left: 'parlare (to speak)', right: 'parlerò' },
+      { left: 'mangiare (to eat)', right: 'mangerò' },
+      { left: 'partire (to leave)', right: 'partirò' },
+      { left: 'dormire (to sleep)', right: 'dormirò' },
+      { left: 'andare (to go)', right: 'andrò' },
+    ],
+    explanation: 'Regular verbs keep the infinitive stem and add the ending; andare is irregular (andr-).',
+  },
+  // LEVEL 2 — FORMATION
+  {
+    id: 6,
+    type: 'fillblank',
+    level: 'Level 2 — Formation',
+    title: 'Conjugate -ARE Verbs',
+    instruction: 'Choose the correct future form of each -ARE verb.',
+    questions: [
+      { sentence: 'Domani io ___ italiano. (studiare)', options: ['studierò', 'studio', 'studiavo'], answer: 'studierò', explanation: 'io + studiare → studierò.' },
+      { sentence: 'Lei ___ il film stasera. (guardare)', options: ['guarderà', 'guarda', 'guardava'], answer: 'guarderà', explanation: 'lei + guardare → guarderà.' },
+      { sentence: 'Noi ___ la cena domani. (preparare)', options: ['prepareremo', 'prepariamo', 'preparavamo'], answer: 'prepareremo', explanation: 'noi + preparare → prepareremo.' },
+      { sentence: 'Tu ___ una pizza più tardi. (mangiare)', options: ['mangerai', 'mangi', 'mangiavi'], answer: 'mangerai', explanation: 'tu + mangiare → mangerai.' },
+      { sentence: 'Loro ___ i biglietti. (comprare)', options: ['compreranno', 'comprano', 'compravano'], answer: 'compreranno', explanation: 'loro + comprare → compreranno.' },
+    ],
+  },
+  {
+    id: 7,
+    type: 'fillblank',
+    level: 'Level 2 — Formation',
+    title: 'Conjugate -ERE Verbs',
+    instruction: 'Choose the correct future form of each -ERE verb.',
+    questions: [
+      { sentence: 'Domani ___ Marco. (vedere)', options: ['vedrò', 'vedo', 'vedevo'], answer: 'vedrò', explanation: 'io + vedere → vedrò (short stem vedr-).' },
+      { sentence: 'Loro ___ una lettera la prossima settimana. (ricevere)', options: ['riceveranno', 'ricevono', 'ricevevano'], answer: 'riceveranno', explanation: 'loro + ricevere → riceveranno.' },
+      { sentence: 'Noi ___ in una casa nuova. (vivere)', options: ['vivremo', 'viviamo', 'vivevamo'], answer: 'vivremo', explanation: 'noi + vivere → vivremo (short stem vivr-).' },
+      { sentence: 'Tu ___ la risposta domani. (sapere)', options: ['saprai', 'sai', 'sapevi'], answer: 'saprai', explanation: 'tu + sapere → saprai (irregular stem sapr-).' },
+      { sentence: 'Io ___ che hai ragione. (credere)', options: ['crederò', 'credo', 'credevo'], answer: 'crederò', explanation: 'io + credere → crederò.' },
+    ],
+  },
+  {
+    id: 8,
+    type: 'fillblank',
+    level: 'Level 2 — Formation',
+    title: 'Conjugate -IRE Verbs',
+    instruction: 'Choose the correct future form of each -IRE verb.',
+    questions: [
+      { sentence: 'Domani ___ per Roma. (partire)', options: ['partirò', 'parto', 'partivo'], answer: 'partirò', explanation: 'io + partire → partirò.' },
+      { sentence: 'Noi ___ presto stasera. (dormire)', options: ['dormiremo', 'dormiamo', 'dormivamo'], answer: 'dormiremo', explanation: 'noi + dormire → dormiremo.' },
+      { sentence: 'Loro ___ il lavoro domani. (finire)', options: ['finiranno', 'finiscono', 'finivano'], answer: 'finiranno', explanation: 'loro + finire → finiranno.' },
+      { sentence: 'Io ___ la musica più forte. (sentire)', options: ['sentirò', 'sento', 'sentivo'], answer: 'sentirò', explanation: 'io + sentire → sentirò.' },
+      { sentence: 'Tu ___ la porta dopo. (aprire)', options: ['aprirai', 'apri', 'aprivi'], answer: 'aprirai', explanation: 'tu + aprire → aprirai.' },
+    ],
+  },
+  {
+    id: 9,
+    type: 'fillblank',
+    level: 'Level 2 — Formation',
+    title: 'Complete the Future Conjugation',
+    instruction: 'Complete the full future conjugation of parlare.',
+    questions: [
+      { sentence: 'parlare — io parlerò → tu ___', options: ['parlerai', 'parlerà', 'parleremo', 'parlai'], answer: 'parlerai', explanation: 'tu ending: -erai → parlerai.' },
+      { sentence: 'parlare — tu parlerai → lui/lei ___', options: ['parlerà', 'parlerai', 'parlerete', 'parlavo'], answer: 'parlerà', explanation: 'lui/lei ending: -erà → parlerà.' },
+      { sentence: 'parlare — lui parlerà → noi ___', options: ['parleremo', 'parlerò', 'parleranno', 'parliamo'], answer: 'parleremo', explanation: 'noi ending: -eremo → parleremo.' },
+      { sentence: 'parlare — noi parleremo → voi ___', options: ['parlerete', 'parleremo', 'parlerà', 'parlate'], answer: 'parlerete', explanation: 'voi ending: -erete → parlerete.' },
+      { sentence: 'parlare — voi parlerete → loro ___', options: ['parleranno', 'parleremo', 'parlerete', 'parlavano'], answer: 'parleranno', explanation: 'loro ending: -eranno → parleranno.' },
+    ],
+  },
+  {
+    id: 10,
+    type: 'fillblank',
+    level: 'Level 2 — Formation',
+    title: 'Complete the Sentence',
+    instruction: 'Fill in the blank with the correct future form.',
+    questions: [
+      { sentence: 'Domani io ___ italiano. (studiare)', options: ['studierò', 'studiavo', 'studio'], answer: 'studierò', explanation: 'Domani + io + studiare → studierò.' },
+      { sentence: 'Stasera noi ___ al ristorante. (mangiare)', options: ['mangeremo', 'mangiavamo', 'mangiamo'], answer: 'mangeremo', explanation: 'Stasera + noi → mangeremo.' },
+      { sentence: 'Domani io ___ il film. (guardare)', options: ['guarderò', 'guardavo', 'guardo'], answer: 'guarderò', explanation: 'io + guardare → guarderò.' },
+      { sentence: 'La prossima settimana ___ il Colosseo. (visitare)', options: ['visiterò', 'visitavo', 'visito'], answer: 'visiterò', explanation: 'io + visitare → visiterò.' },
+    ],
+  },
+  // LEVEL 3 — IRREGULAR VERBS
+  {
+    id: 11,
+    type: 'multiple',
+    level: 'Level 3 — Irregular Verbs',
+    title: 'Essere',
+    instruction: 'Choose the correct future form of essere.',
+    questions: [
+      { question: 'Domani ___ a casa. (essere)', options: ['sarò', 'saro', 'sono', 'ero'], answer: 'sarò', explanation: 'io + essere → sarò.' },
+      { question: 'Noi ___ stanchi dopo il viaggio. (essere)', options: ['saremo', 'siamo', 'eravamo', 'sarete'], answer: 'saremo', explanation: 'noi + essere → saremo.' },
+      { question: 'Penso che ___ una bella giornata. (essere)', options: ['sarà', 'sara', 'è', 'sarai'], answer: 'sarà', explanation: 'Lui/lei (impersonal) + essere → sarà.' },
+      { question: 'Loro ___ qui presto. (essere)', options: ['saranno', 'saremo', 'sarete', 'erano'], answer: 'saranno', explanation: 'loro + essere → saranno.' },
+      { question: 'Tu ___ felice con la tua scelta. (essere)', options: ['sarai', 'sarà', 'sarò', 'sei'], answer: 'sarai', explanation: 'tu + essere → sarai.' },
+    ],
+  },
+  {
+    id: 12,
+    type: 'multiple',
+    level: 'Level 3 — Irregular Verbs',
+    title: 'Avere',
+    instruction: 'Choose the correct future form of avere.',
+    questions: [
+      { question: 'Domani ___ molto da fare. (avere)', options: ['avrò', 'avro', 'ho', 'avevo'], answer: 'avrò', explanation: 'io + avere → avrò.' },
+      { question: 'Noi ___ tempo. (avere)', options: ['avremo', 'abbiamo', 'avevamo', 'avrete'], answer: 'avremo', explanation: 'noi + avere → avremo.' },
+      { question: 'Loro ___ una casa nuova. (avere)', options: ['avranno', 'hanno', 'avevano', 'avremo'], answer: 'avranno', explanation: 'loro + avere → avranno.' },
+      { question: 'Tu ___ sete dopo la partita. (avere)', options: ['avrai', 'hai', 'avevi', 'avrà'], answer: 'avrai', explanation: 'tu + avere → avrai.' },
+      { question: 'Luca ___ bisogno di aiuto. (avere)', options: ['avrà', 'ha', 'aveva', 'avrai'], answer: 'avrà', explanation: 'Luca (lui) + avere → avrà.' },
+    ],
+  },
+  {
+    id: 13,
+    type: 'multiple',
+    level: 'Level 3 — Irregular Verbs',
+    title: 'Common Irregular Stems',
+    instruction: 'Choose the correct future stem for each verb.',
+    questions: [
+      { question: 'andare → ___', options: ['andr-', 'and-', 'ander-'], answer: 'andr-', explanation: 'Irregular stem: andr-. Andrò, andrai, andrà...' },
+      { question: 'fare → ___', options: ['far-', 'fai-', 'facer-'], answer: 'far-', explanation: 'Irregular stem: far-. Farò, farai, farà...' },
+      { question: 'venire → ___', options: ['verr-', 'ven-', 'venir-'], answer: 'verr-', explanation: 'Irregular stem: verr-. Verrò, verrai, verrà...' },
+      { question: 'potere → ___', options: ['potr-', 'pot-', 'poder-'], answer: 'potr-', explanation: 'Irregular stem: potr-. Potrò, potrai...' },
+      { question: 'sapere → ___', options: ['sapr-', 'sap-', 'saper-'], answer: 'sapr-', explanation: 'Irregular stem: sapr-. Saprò, saprai...' },
+    ],
+  },
+  {
+    id: 14,
+    type: 'multiple',
+    level: 'Level 3 — Irregular Verbs',
+    title: 'Choose the Correct Future Form',
+    instruction: 'Select the correct future form for each sentence.',
+    questions: [
+      { question: 'Domani Marco ___ a Roma. (andare)', options: ['andrà', 'andava', 'è andato', 'andrò'], answer: 'andrà', explanation: 'Marco (lui) + andare → andrà.' },
+      { question: 'Noi ___ con voi stasera. (venire)', options: ['verremo', 'veniamo', 'venivamo', 'verrai'], answer: 'verremo', explanation: 'noi + venire → verremo.' },
+      { question: 'Cosa ___ domani? (fare)', options: ['farai', 'fai', 'facevi', 'farà'], answer: 'farai', explanation: 'tu + fare → farai.' },
+      { question: 'Loro ___ la risposta domani. (sapere)', options: ['sapranno', 'sanno', 'sapevano', 'saprai'], answer: 'sapranno', explanation: 'loro + sapere → sapranno.' },
+      { question: 'Io ___ aiutarti. (potere)', options: ['potrò', 'posso', 'potevo', 'potrai'], answer: 'potrò', explanation: 'io + potere → potrò.' },
+    ],
+  },
+  {
+    id: 15,
+    type: 'fillblank',
+    level: 'Level 3 — Irregular Verbs',
+    title: 'Complete With an Irregular Future',
+    instruction: 'Fill in the blank with an irregular future form.',
+    questions: [
+      { sentence: 'Domani ___ molto lavoro. (avere)', options: ['avrò', 'avrai', 'avrà', 'ho'], answer: 'avrò', explanation: 'io + avere → avrò.' },
+      { sentence: 'Venerdì ___ a Roma. (andare)', options: ['andrò', 'andrai', 'andrà', 'vado'], answer: 'andrò', explanation: 'io + andare → andrò.' },
+      { sentence: 'Lui ___ con noi stasera. (venire)', options: ['verrà', 'verrò', 'verrai', 'viene'], answer: 'verrà', explanation: 'lui + venire → verrà.' },
+      { sentence: 'Cosa ___ domani? (fare)', options: ['farai', 'farò', 'farà', 'fai'], answer: 'farai', explanation: 'tu + fare → farai.' },
+      { sentence: 'Ti ___ aiutare. (potere)', options: ['potrò', 'potrai', 'potrà', 'posso'], answer: 'potrò', explanation: 'io + potere → potrò.' },
+    ],
+  },
+  // LEVEL 4 — MEANING AND USAGE
+  {
+    id: 16,
+    type: 'multiple',
+    level: 'Level 4 — Meaning and Usage',
+    title: 'Identify Future Meaning',
+    instruction: 'Choose the meaning/use of each future sentence.',
+    questions: [
+      { question: '"Domani andrò al cinema." expresses:', options: ['A future action/plan', 'A guess', 'A past habit', 'A command'], answer: 'A future action/plan', explanation: 'A clear planned action tomorrow.' },
+      { question: '"Domani pioverà." expresses:', options: ['A prediction', 'A promise', 'A question', 'A past event'], answer: 'A prediction', explanation: 'Weather prediction using the future.' },
+      { question: '"Ti aiuterò." expresses:', options: ['A promise', 'A prediction', 'A guess', 'A habit'], answer: 'A promise', explanation: 'A promise/intention to help.' },
+      { question: '"Sarà a casa." can express:', options: ['A guess/probability about the present', 'A past action', 'A command', 'A habit'], answer: 'A guess/probability about the present', explanation: 'An assumption: "He is probably at home."' },
+      { question: '"Studierò di più." expresses:', options: ['An intention', 'A past event', 'A prediction about the weather', 'A question'], answer: 'An intention', explanation: 'An intention to study more.' },
+    ],
+  },
+  {
+    id: 17,
+    type: 'multiple',
+    level: 'Level 4 — Meaning and Usage',
+    title: 'Future or Present for a Future Plan?',
+    instruction: 'Decide what each present-form sentence refers to.',
+    questions: [
+      { question: '"Domani vado a Roma." — the sentence refers to the:', options: ['Future (a definitely planned arrangement)', 'Past', 'Present moment only'], answer: 'Future (a definitely planned arrangement)', explanation: 'The present tense can describe a planned future event: "I\'m going to Rome tomorrow."' },
+      { question: '"Stasera mangio fuori." — when does the action happen?', options: ['Tonight', 'Yesterday', 'Last week'], answer: 'Tonight', explanation: 'Present tense used for a definite plan tonight.' },
+      { question: '"La prossima settimana andrò a Roma." — which tense is used?', options: ['Futuro semplice', 'Imperfetto', 'Passato prossimo'], answer: 'Futuro semplice', explanation: 'The -ò ending shows the futuro semplice, explicitly future.' },
+    ],
+  },
+  {
+    id: 18,
+    type: 'multiple',
+    level: 'Level 4 — Meaning and Usage',
+    title: 'Choose Present or Futuro Semplice',
+    instruction: 'Both can be natural for a plan. Pick the natural form for each context.',
+    questions: [
+      { question: 'For a definite arrangement tonight: "Stasera ___ fuori."', options: ['mangio (present plan)', 'mangiavo', 'ho mangiato', 'mangerò (this is also fine!)'], answer: 'mangio (present plan)', explanation: 'Both "Stasera mangio" and "Stasera mangerò" are natural. The present feels more arranged.' },
+      { question: 'For a definite plan on Saturday: "Sabato ___."', options: ['lavoro (present plan)', 'lavoravo', 'ho lavorato', 'lavorerò (this is also fine!)'], answer: 'lavoro (present plan)', explanation: 'Both "Sabato lavoro" and "Sabato lavorerò" are correct and natural.' },
+      { question: '"Domani ___ a Roma. (andare)" — which makes the future EXPLICIT?', options: ['andrò', 'vado', 'andavo', 'sono andato'], answer: 'andrò', explanation: '"Andrò" (futuro semplice) explicitly marks the action as future.' },
+    ],
+  },
+  {
+    id: 19,
+    type: 'multiple',
+    level: 'Level 4 — Meaning and Usage',
+    title: 'Choose Future for a Prediction',
+    instruction: 'Complete each prediction with the future form.',
+    questions: [
+      { question: 'Domani ___ . (piovere)', options: ['pioverà', 'piove', 'ha piovuto', 'pioveva'], answer: 'pioverà', explanation: 'Weather prediction → pioverà.' },
+      { question: '___ una bella giornata. (essere)', options: ['Sarà', 'È', 'Era', 'Sarai'], answer: 'Sarà', explanation: 'Prediction about the day → sarà.' },
+      { question: 'Penso che ___ interessante. (essere)', options: ['sarà', 'è', 'era', 'sarai'], answer: 'sarà', explanation: '"Penso che" + future → sarà.' },
+      { question: 'Andrà ___ bene. (andare)', options: ['tutto', 'molto', 'molti', 'nulla'], answer: 'tutto', explanation: '"Andrà tutto bene." = Everything will be fine.' },
+    ],
+  },
+  {
+    id: 20,
+    type: 'multiple',
+    level: 'Level 4 — Meaning and Usage',
+    title: 'Choose the Correct Meaning',
+    instruction: 'Choose the best meaning, including the "guess" use of the future.',
+    questions: [
+      { question: '"Sarà a casa." — in a guess context, it means:', options: ['He is probably at home.', 'He was at home.', 'He is leaving home.', 'He will be at home tomorrow.'], answer: 'He is probably at home.', explanation: 'The future can express a guess/assumption about the present.' },
+      { question: '"Che ore sono? Saranno le otto." — "saranno le otto" means:', options: ['It must be around eight.', 'It will be eight hours.', 'It was eight.', 'Eight people are here.'], answer: 'It must be around eight.', explanation: 'A guess: "It must be around eight o\'clock."' },
+      { question: '"Dov\'è Marco?" — "Non so. Sarà in ufficio." — "sarà in ufficio" means:', options: ['He is probably in the office.', 'He will go to the office.', 'He was in the office.', 'He never goes to the office.'], answer: 'He is probably in the office.', explanation: 'A probable assumption about the present using the future.' },
+    ],
+  },
+  // LEVEL 5 — SENTENCE BUILDING
+  {
+    id: 21,
+    type: 'wordorder',
+    level: 'Level 5 — Sentence Building',
+    title: 'Put the Words in Order',
+    instruction: 'Arrange the words to form a correct future sentence.',
+    questions: [
+      { words: ['domani', 'lavorerò', 'io'], answer: 'domani lavorerò', explanation: '"Domani lavorerò." = Tomorrow I will work.' },
+      { words: ['a', 'roma', 'andrò', 'prossima', 'la', 'settimana'], answer: 'la prossima settimana andrò a roma', explanation: '"La prossima settimana andrò a Roma." = Next week I will go to Rome.' },
+      { words: ['stasera', 'al', 'cinema', 'andrò'], answer: 'stasera andrò al cinema', explanation: '"Stasera andrò al cinema." = Tonight I will go to the cinema.' },
+    ],
+  },
+  {
+    id: 22,
+    type: 'fillblank',
+    level: 'Level 5 — Sentence Building',
+    title: 'Complete the Future Sentence',
+    instruction: 'Fill in the correct future form.',
+    questions: [
+      { sentence: 'La prossima settimana noi ___ a Roma. (andare)', options: ['andremo', 'andiamo', 'andavamo', 'andavano'], answer: 'andremo', explanation: 'noi + andare → andremo.' },
+      { sentence: 'Domani ___ il Colosseo. (visitare)', options: ['visiterò', 'visito', 'visitavo', 'visiteranno'], answer: 'visiterò', explanation: 'io + visitare → visiterò.' },
+      { sentence: 'L\'anno prossimo io ___ in Italia. (vivere)', options: ['vivrò', 'vivo', 'vivevo', 'vivremo'], answer: 'vivrò', explanation: 'io + vivere → vivrò (short stem vivr-).' },
+      { sentence: 'Stasera ___ la pizza. (mangiare)', options: ['mangerò', 'mangio', 'mangiavo', 'mangerai'], answer: 'mangerò', explanation: 'io + mangiare → mangerò.' },
+      { sentence: 'Sabato ___ al mare. (andare)', options: ['andrò', 'andrà', 'andavo', 'vado'], answer: 'andrò', explanation: 'io + andare → andrò. Careful with the accent!' },
+    ],
+  },
+  {
+    id: 23,
+    type: 'multiple',
+    level: 'Level 5 — Sentence Building',
+    title: 'Change the Subject',
+    instruction: 'Rewrite "Io andrò a Roma" with the new subject.',
+    questions: [
+      { question: 'Io andrò a Roma. → Tu ___ a Roma.', options: ['andrai', 'andrà', 'andavo', 'andate'], answer: 'andrai', explanation: 'tu + andare → andrai.' },
+      { question: 'Io andrò a Roma. → Lui ___ a Roma.', options: ['andrà', 'andrai', 'andrò', 'andavano'], answer: 'andrà', explanation: 'lui + andare → andrà.' },
+      { question: 'Io andrò a Roma. → Noi ___ a Roma.', options: ['andremo', 'andrete', 'andrei', 'andavano'], answer: 'andremo', explanation: 'noi + andare → andremo.' },
+      { question: 'Io andrò a Roma. → Voi ___ a Roma.', options: ['andrete', 'andremo', 'andrai', 'andavano'], answer: 'andrete', explanation: 'voi + andare → andrete.' },
+      { question: 'Io andrò a Roma. → Loro ___ a Roma.', options: ['andranno', 'andrete', 'andremo', 'andrai'], answer: 'andranno', explanation: 'loro + andare → andranno.' },
+    ],
+  },
+  {
+    id: 24,
+    type: 'fillblank',
+    level: 'Level 5 — Sentence Building',
+    title: 'Make It Negative',
+    instruction: 'Add the correct negative word before the future verb.',
+    questions: [
+      { sentence: 'Domani ___ lavorerò.', options: ['non', 'mai', 'noi', 'una'], answer: 'non', explanation: 'The negative is formed with non + future verb → Domani non lavorerò.' },
+      { sentence: 'Noi ___ andremo al cinema.', options: ['non', 'mai', 'alle', 'sarà'], answer: 'non', explanation: 'Noi non andremo al cinema. = We won\'t go to the cinema.' },
+      { sentence: '___ sarà facile.', options: ['Non', 'Mai', 'Ne', 'Sì'], answer: 'Non', explanation: 'Non sarà facile. = It won\'t be easy.' },
+    ],
+  },
+  {
+    id: 25,
+    type: 'translation',
+    level: 'Level 5 — Sentence Building',
+    title: 'Create Your Own Sentence',
+    instruction: 'Build the sentence described by the cues.',
+    direction: 'en-it',
+    questions: [
+      { sentence: 'Make a sentence with: domani + andare + cinema', options: ['Domani andrò al cinema.', 'Domani sono andato al cinema.', 'Domani vado al cinema?', 'Domani andavo al cinema.'], answer: 'Domani andrò al cinema.', explanation: 'Future plan: Domani + andrò + al cinema.' },
+      { sentence: 'Make a sentence with: domani + studiare + italiano', options: ['Domani studierò italiano.', 'Domani ho studiato italiano.', 'Domani studio italiano?', 'Domani studiavo italiano.'], answer: 'Domani studierò italiano.', explanation: 'Domani + studierò (io).' },
+      { sentence: 'Make a sentence with: l\'anno prossimo + vivere + Italia', options: ['L\'anno prossimo vivrò in Italia.', 'L\'anno prossimo ho vissuto in Italia.', 'L\'anno prossimo vivo in Italia?', 'L\'anno prossimo vivevo in Italia.'], answer: 'L\'anno prossimo vivrò in Italia.', explanation: 'L\'anno prossimo + vivrò (short stem vivr-).' },
+    ],
+  },
+  // LEVEL 6 — REAL-LIFE COMMUNICATION
+  {
+    id: 26,
+    type: 'story',
+    level: 'Level 6 — Real-Life Communication',
+    title: 'Tomorrow\'s Plans',
+    storyTitle: 'Cosa farai domani?',
+    story: 'Anna: Cosa farai domani?\n\nMarco: Domani mattina lavorerò in ufficio. Dopo il lavoro andrò al cinema per vedere il nuovo film.\n\nAnna: Che film guarderai?\n\nMarco: Guarderò un film italiano. Dopo il film mangeremo una pizza con Luca.\n\nAnna: E la sera?\n\nMarco: La sera tornerò a casa e mi riposerò. Domani sarà una giornata lunga!',
+    vocab: [
+      { word: 'lavorerò', meaning: 'I will work (lavorare)' },
+      { word: 'andrò', meaning: 'I will go (andare — irregular)' },
+      { word: 'guarderai', meaning: 'you will watch (guardare)' },
+      { word: 'tornerò', meaning: 'I will return (tornare)' },
+      { word: 'mi riposerò', meaning: 'I will rest (riposarsi)' },
+      { word: 'giornata lunga', meaning: 'a long day' },
+    ],
+    translation: 'Anna: What will you do tomorrow?\n\nMarco: Tomorrow morning I will work in the office. After work I will go to the cinema to see the new film.\n\nAnna: What film will you watch?\n\nMarco: I will watch an Italian film. After the film we will eat a pizza with Luca.\n\nAnna: And in the evening?\n\nMarco: In the evening I will return home and I will rest. Tomorrow will be a long day!',
+    questions: [
+      { question: 'What will Marco do tomorrow morning?', options: ['Work in the office', 'Go to the cinema', 'Visit his family', 'Study Italian'], answer: 'Work in the office', explanation: '"Domani mattina lavorerò in ufficio."' },
+      { question: 'Where will he go after work?', options: ['To the cinema', 'Home', 'To the gym', 'To Rome'], answer: 'To the cinema', explanation: '"Dopo il lavoro andrò al cinema."' },
+      { question: 'What kind of film will he watch?', options: ['An Italian film', 'A horror film', 'A documentary', 'A comedy'], answer: 'An Italian film', explanation: '"Guarderò un film italiano."' },
+      { question: 'Who will they eat pizza with?', options: ['Luca', 'Anna', 'His parents', 'Nobody'], answer: 'Luca', explanation: '"mangeremo una pizza con Luca."' },
+      { question: 'How many future verbs can you find in the dialogue?', options: ['At least 10', 'Only 2', 'None', 'Just 1'], answer: 'At least 10', explanation: 'farai, lavorerò, andrò, guarderai, guarderò, mangeremo, tornerò, riposerò, sarà.' },
+      { question: 'Write a sentence about what YOU will do tomorrow.', type: 'text', answer: 'any', acceptedAnswers: [], explanation: 'Example: Domani studierò italiano. / Domani lavorerò. Any correct future is accepted.' },
+    ],
+  },
+  {
+    id: 27,
+    type: 'story',
+    level: 'Level 6 — Real-Life Communication',
+    title: 'Weekend and Vacation Planning',
+    storyTitle: 'Dove andrete questo weekend?',
+    story: 'Marco: Dove andrete questo weekend?\n\nAnna: Andremo al mare con la mia famiglia. Non torneremo fino a domenica sera.\n\nMarco: Partirete sabato mattina?\n\nAnna: No, partiremo venerdì dopo il lavoro. Così avremo più tempo per nuotare.\n\nMarco: Farete una gita in barca?\n\nAnna: Sì, sabato pomeriggio navigheremo lungo la costa. Poi ceneremo in un ristorante di pesce.\n\nMarco: Che bello! Io non partirò, perché dovrò studiare per l\'esame.',
+    vocab: [
+      { word: 'andrete', meaning: 'you (pl.) will go — andare' },
+      { word: 'nuotare', meaning: 'to swim' },
+      { word: 'gita', meaning: 'trip/outing' },
+      { word: 'barca', meaning: 'boat' },
+      { word: 'navigheremo', meaning: 'we will sail (navigare — -gare, keeps h)' },
+      { word: 'ceneremo', meaning: 'we will have dinner (cenare)' },
+      { word: 'esame', meaning: 'exam' },
+    ],
+    translation: 'Marco: Where will you go this weekend?\n\nAnna: We will go to the sea with my family. We won\'t return until Sunday evening.\n\nMarco: Will you leave on Saturday morning?\n\nAnna: No, we will leave on Friday after work. That way we will have more time to swim.\n\nMarco: Will you take a boat trip?\n\nAnna: Yes, on Saturday afternoon we will sail along the coast. Then we will have dinner at a fish restaurant.\n\nMarco: Nice! I won\'t leave, because I will have to study for the exam.',
+    questions: [
+      { question: 'Where will Anna\'s family go this weekend?', options: ['To the sea', 'To the mountains', 'To Rome', 'To the lake'], answer: 'To the sea', explanation: '"Andremo al mare."' },
+      { question: 'When will they leave?', options: ['On Friday after work', 'On Saturday morning', 'On Sunday night', 'Next month'], answer: 'On Friday after work', explanation: '"partiremo venerdì dopo il lavoro."' },
+      { question: 'What will they do on Saturday afternoon?', options: ['Sail along the coast', 'Go shopping', 'Visit a museum', 'Stay at home'], answer: 'Sail along the coast', explanation: '"navigheremo lungo la costa."' },
+      { question: 'Why won\'t Marco go?', options: ['He must study for an exam', 'He is tired', 'He has no money', 'He works'], answer: 'He must study for an exam', explanation: '"io non partirò, perché dovrò studiare per l\'esame."' },
+      { question: 'Which negative future verbs appear in the dialogue?', options: ['Non torneremo, non partirò', 'Non mangiamo', 'Non sono andato', 'Non farà nulla'], answer: 'Non torneremo, non partirò', explanation: 'Negatives: "non torneremo" (we won\'t return) and "non partirò" (I won\'t leave).' },
+      { question: 'Write a future question you could ask someone about their weekend plans.', type: 'text', answer: 'any', acceptedAnswers: [], explanation: 'Example: Dove andrai? / Cosa farai? / Partirai domani? Any correct future question is accepted.' },
+    ],
+  },
+  // LEVEL 7 — STORIES
+  {
+    id: 28,
+    type: 'story',
+    level: 'Level 7 — Stories',
+    title: 'Beginner Story — Il mio prossimo weekend',
+    storyTitle: 'Il mio prossimo weekend',
+    story: 'Questo fine settimana sarà speciale. Domani è sabato. Mi sveglierò presto e preparerò una colazione speciale. Poi uscirò e incontrerò i miei amici al parco. Là giocheremo a pallone e mangeremo un panino. Il sabato sera guarderemo un film e berremo una cioccolata calda.\n\nDomenica andremo al mare con la mia famiglia. Il sole splenderà e nuoteremo tutto il giorno. La sera guarderemo il tramonto e torneremo a casa felici. Io sarò molto stanco, ma sarà un weekend bellissimo!',
+    vocab: [
+      { word: 'sveglierò', meaning: 'I will wake up (svegliarsi)' },
+      { word: 'incontrerò', meaning: 'I will meet (incontrare)' },
+      { word: 'a pallone', meaning: 'soccer (lit. ball)' },
+      { word: 'splenderà', meaning: 'will shine (splendere)' },
+      { word: 'tramonto', meaning: 'sunset' },
+      { word: 'bellissimo', meaning: 'very beautiful' },
+    ],
+    translation: 'This weekend will be special. Tomorrow is Saturday. I will wake up early and prepare a special breakfast. Then I will go out and meet my friends at the park. There we will play soccer and eat a sandwich. On Saturday evening we will watch a film and drink a hot chocolate.\n\nOn Sunday we will go to the sea with my family. The sun will shine and we will swim all day. In the evening we will watch the sunset and return home happy. I will be very tired, but it will be a wonderful weekend!',
+    questions: [
+      { question: 'What day is tomorrow according to the story?', options: ['Saturday', 'Sunday', 'Friday', 'Monday'], answer: 'Saturday', explanation: '"Domani è sabato."' },
+      { question: 'Where will the narrator meet friends?', options: ['At the park', 'At the cinema', 'At the beach', 'At home'], answer: 'At the park', explanation: '"incontrerò i miei amici al parco."' },
+      { question: 'What will they drink on Saturday evening?', options: ['Hot chocolate', 'Wine', 'Water', 'Coffee'], answer: 'Hot chocolate', explanation: '"berremo una cioccolata calda."' },
+      { question: 'What will the family do on Sunday?', options: ['Go to the sea', 'Go to the mountains', 'Visit relatives', 'Stay home'], answer: 'Go to the sea', explanation: '"Domenica andremo al mare."' },
+      { question: 'How will the narrator feel at the end?', options: ['Tired but happy', 'Angry', 'Sad', 'Bored'], answer: 'Tired but happy', explanation: '"sarò molto stanco, ma sarà un weekend bellissimo!"' },
+      { question: 'Find the future verb meaning "will be" (the narrator).', options: ['sarò', 'sarà', 'saremo', 'ero'], answer: 'sarò', explanation: '"sarò" — io + essere, future.' },
+      { question: 'Write one sentence about your own plan for the week-end.', type: 'text', answer: 'any', acceptedAnswers: [], explanation: 'Example: Domenica andrò al mare. / Sabato studierò. Any correct future is accepted.' },
+    ],
+  },
+  {
+    id: 29,
+    type: 'story',
+    level: 'Level 7 — Stories',
+    title: 'Story With Missing Verbs',
+    storyTitle: 'Il mio viaggio in Italia',
+    story: 'L\'anno prossimo ___ (andare) in Italia con la mia famiglia. ___ (Partire) a giugno e ___ (rimanere) per due settimane a Roma. Là ___ (visitare) il Colosseo e ___ (mangiare) la vera pizza italiana.\n\nDopo Roma, noi ___ (viaggiare) in Toscana. ___ (Vedere) paesaggi bellissimi e ___ (scattare) molte fotografie. A Firenze ___ (camminare) tra i musei.\n\nAlla fine io ___ (essere) molto felice. ___ (Avere) tanti ricordi belli. Non ___ (dimenticare) mai questo viaggio: ___ (essere) un\'esperienza indimenticabile!',
+    vocab: [
+      { word: 'vista', meaning: 'view/sights' },
+      { word: 'paesaggi', meaning: 'landscapes' },
+      { word: 'scattare', meaning: 'to take (photos)' },
+      { word: 'fotografie', meaning: 'photographs' },
+      { word: 'musei', meaning: 'museums' },
+      { word: 'ricordi', meaning: 'memories' },
+      { word: 'indimenticabile', meaning: 'unforgettable' },
+    ],
+    questions: [
+      { question: 'Fill blank 1: L\'anno prossimo ___ in Italia. (andare)', options: ['andremo', 'andiamo', 'andavamo', 'andrete'], answer: 'andremo', explanation: 'noi + andare → andremo.' },
+      { question: 'Fill blank 2: ___ a giugno. (partire)', options: ['Partiremo', 'Partiamo', 'Partivamo', 'Partirebbe'], answer: 'Partiremo', explanation: 'noi + partire → partiremo.' },
+      { question: 'Fill blank 3: ___ per due settimane a Roma. (rimanere)', options: ['rimarremo', 'rimaniamo', 'rimandiamo', 'rimarrò'], answer: 'rimarremo', explanation: 'noi + rimanere → rimarremo (irregular stem rimarr-).' },
+      { question: 'Fill blank 4: Là ___ il Colosseo. (visitare)', options: ['visiteremo', 'visitiamo', 'visitavamo', 'visiterò'], answer: 'visiteremo', explanation: 'noi + visitare → visiteremo.' },
+      { question: 'Fill blank 5: ___ la vera pizza. (mangiare)', options: ['mangeremo', 'mangiamo', 'mangiavamo', 'mangerete'], answer: 'mangeremo', explanation: 'noi + mangiare → mangeremo.' },
+      { question: 'Fill blank 6: noi ___ in Toscana. (viaggiare)', options: ['viaggeremo', 'viaggiamo', 'facevamo', 'viaggerete'], answer: 'viaggeremo', explanation: 'noi + viaggiare → viaggeremo (-giare drops the i).' },
+      { question: 'Fill blank 7: ___ paesaggi bellissimi. (vedere)', options: ['Vedremo', 'Vediamo', 'Vedevamo', 'Vedrete'], answer: 'Vedremo', explanation: 'noi + vedere → vedremo (short stem vedr-).' },
+      { question: 'Fill blank 8: Alla fine io ___ molto felice. (essere)', options: ['sarò', 'sarà', 'saremo', 'sono'], answer: 'sarò', explanation: 'io + essere → sarò.' },
+      { question: 'Fill blank 9: ___ tanti ricordi belli. (avere)', options: ['Avrò', 'Avrà', 'Avrete', 'Ho'], answer: 'Avrò', explanation: 'io + avere → avrò.' },
+      { question: 'Fill blank 10: Non ___ mai questo viaggio. (dimenticare)', options: ['dimenticherò', 'dimentico', 'dimenticavo', 'dimenticherai'], answer: 'dimenticherò', explanation: '-care keeps the hard sound with h → dimenticherò.' },
+    ],
+  },
+  // LEVEL 8 — FINAL PROFICIENCY TEST
+  {
+    id: 30,
+    type: 'mastery',
+    level: 'Level 8 — Final Proficiency Test',
+    title: 'Futuro Semplice Mastery Test',
+    instruction: 'Answer all the questions to complete the test. Take your time — accuracy matters more than speed.',
+    questions: [
+      // Present vs past vs future recognition
+      { question: '"Domani lavorerò" is:', options: ['Future', 'Present', 'Past'], answer: 'Future' },
+      // Identify future verb
+      { question: '"Marco partirà per Milano domani" — the future verb is:', options: ['partirà', 'Marco', 'per', 'domani'], answer: 'partirà' },
+      // Regular -are formation
+      { question: 'Domani io ___ italiano. (studiare)', options: ['studierò', 'studierei', 'studiavo', 'studierai'], answer: 'studierò' },
+      // Regular -ere formation
+      { question: 'Loro ___ una lettera la prossima settimana. (ricevere)', options: ['riceveranno', 'ricevono', 'ricevevano', 'riceverete'], answer: 'riceveranno' },
+      // Regular -ire formation
+      { question: 'Noi ___ presto stasera. (dormire)', options: ['dormiremo', 'dormiamo', 'dormivamo', 'dormirete'], answer: 'dormiremo' },
+      // Future endings
+      { question: '"parleranno" uses the ending:', options: ['-eranno', '-ano', '-avano', '-ando'], answer: '-eranno' },
+      // Future stems
+      { question: '"sarà" — essere has the future stem:', options: ['sar-', 'si-', 'so-', 'sare-'], answer: 'sar-' },
+      // Essere
+      { question: 'Domani ___ a casa tutto il giorno. (essere)', options: ['sarò', 'sono', 'sarai', 'ero'], answer: 'sarò' },
+      // Avere
+      { question: 'Luca ___ molto lavoro domani. (avere)', options: ['avrà', 'ha', 'aveva', 'avrai'], answer: 'avrà' },
+      // Fare
+      { question: 'Cosa ___ stasera? (fare)', options: ['farai', 'fai', 'facevi', 'farà'], answer: 'farai' },
+      // Andare
+      { question: 'La prossima settimana noi ___ in vacanza. (andare)', options: ['andremo', 'andiamo', 'andavamo', 'andrete'], answer: 'andremo' },
+      // Venire
+      { question: '"Verrà con noi" means:', options: ['He/She will come with us', 'He/She came with us', 'He/She comes with us', 'He/She used to come with us'], answer: 'He/She will come with us' },
+      // Potere/Dovere/Volere/Sapere (modal)
+      { question: 'Domani ___ studiare per l\'esame. (dovere)', options: ['dovrò', 'devo', 'dovevo', 'dovrai'], answer: 'dovrò' },
+      // Spelling changes
+      { question: 'Domani ___ a calcio. (giocare)', options: ['giocherò', 'giocerò', 'gioco', 'giocavo'], answer: 'giocherò' },
+      // Negative future
+      { question: '"Non lavorerò domani" means:', options: ['I won\'t work tomorrow', 'I didn\'t work yesterday', 'I never work', 'I will work tomorrow'], answer: 'I won\'t work tomorrow' },
+      // Future questions
+      { question: '"Andrai a Roma?" means:', options: ['Will you go to Rome?', 'Did you go to Rome?', 'Are you in Rome?', 'Do you like Rome?'], answer: 'Will you go to Rome?' },
+      // Time expressions
+      { question: '"l\'anno prossimo" means:', options: ['next year', 'last year', 'every year', 'this year'], answer: 'next year' },
+      // Future vs present for planned events
+      { question: '"Domani vado a Roma" refers to:', options: ['The future (a planned arrangement)', 'The past', 'Yesterday', 'A habit'], answer: 'The future (a planned arrangement)' },
+      // Predictions
+      { question: '"Domani pioverà" is a:', options: ['Prediction', 'Question', 'Command', 'Past event'], answer: 'Prediction' },
+      // Assumption/probability
+      { question: '"Sarà a casa" can mean:', options: ['He is probably at home', 'He was at home', 'He is leaving', 'He likes home'], answer: 'He is probably at home' },
+      // Italian → English
+      { question: '"L\'anno prossimo vivrò in Italia" means:', options: ['Next year I will live in Italy', 'Last year I lived in Italy', 'I live in Italy', 'I used to live in Italy'], answer: 'Next year I will live in Italy' },
+      // English → Italian
+      { question: '"I won\'t go out tonight" =', options: ['Non uscirò stasera', 'Non sono uscito stasera', 'Uscirò stasera', 'Non esco mai'], answer: 'Non uscirò stasera' },
+      // Sentence ordering
+      { question: 'Choose the correct order: "settimana / andremo / prossima / la / Roma / a"', options: ['La prossima settimana andremo a Roma', 'Andremo la prossima settimana Roma a', 'La settimana prossima a Roma andremo', 'Roma la prossima settimana andremo a'], answer: 'La prossima settimana andremo a Roma' },
+      // Reading passage (Challenge story "La mia vita l\'anno prossimo")
+      { question: 'READ FIRST: "L\'anno prossimo cambierò molte cose. A settembre mi trasferirò a Roma per l\'università. Sarà la prima volta che vivrò da solo, e credo che sarà un\'esperienza fantastica. Il prossimo mese affitterò un piccolo appartamento vicino al centro. La mia famiglia verrà a trovarmi spesso, e mia madre mi porterà i suoi biscotti famosi. Durante l\'anno studierò italiano e inglese ogni giorno. Farò nuove amicizie e visiterò tutti i musei di Roma. D\'estate prenderò il treno per il mare e passerò le vacanze con i miei cugini. Non vivrò più con i miei genitori, ma parleremo ogni giorno. Sarà un anno pieno di sorprese. Spero solo che sarà felice e che io non avrò troppa nostalgia di casa."\n\nWhere will the narrator move in September?', options: ['To Rome for university', 'To Milan', 'To the sea', 'To another country'], answer: 'To Rome for university' },
+      { question: 'READ AGAIN: "La mia famiglia verrà a trovarmi spesso" — "verrà" is the future of:', options: ['venire', 'vedere', 'volere', 'vivere'], answer: 'venire' },
+      { question: 'READ AGAIN: "Non vivrò più con i miei genitori" is:', options: ['A negative future sentence', 'A past sentence', 'A question', 'A command'], answer: 'A negative future sentence' },
+      { question: 'READ AGAIN: "D\'estate prenderò il treno per il mare" — "prenderò" means:', options: ['I will take', 'I took', 'I take', 'I used to take'], answer: 'I will take' },
+      // Sentence production
+      { question: 'Write "Tomorrow I will work" in Italian:', type: 'text', answer: 'Domani lavorerò', acceptedAnswers: ['domani lavorerò', 'lavorerò domani'] },
+      { question: 'Write "Next year we will visit Rome" in Italian:', type: 'text', answer: 'L\'anno prossimo visiteremo Roma', acceptedAnswers: ['l\'anno prossimo visiteremo roma', 'il prossimo anno visiteremo roma', 'visiteremo roma l\'anno prossimo', 'l\'anno prossimo andremo a roma'] },
+    ],
+  },
+];
+
+export const futuroStories = [
+  {
+    title: 'Il mio prossimo weekend',
+    level: 'Beginner',
+    wordCount: '~70',
+    story: 'Questo fine settimana sarà speciale. Domani è sabato. Mi sveglierò presto e preparerò una colazione speciale. Poi uscirò e incontrerò i miei amici al parco. Là giocheremo a pallone e mangeremo un panino. Il sabato sera guarderemo un film e berremo una cioccolata calda.\n\nDomenica andremo al mare con la mia famiglia. Il sole splenderà e nuoteremo tutto il giorno. La sera guarderemo il tramonto e torneremo a casa felici. Io sarò molto stanco, ma sarà un weekend bellissimo!',
+    vocab: [
+      { word: 'sveglierò', meaning: 'I will wake up' },
+      { word: 'incontrerò', meaning: 'I will meet' },
+      { word: 'splenderà', meaning: 'will shine' },
+      { word: 'tramonto', meaning: 'sunset' },
+      { word: 'bellissimo', meaning: 'very beautiful' },
+    ],
+    translation: 'This weekend will be special. Tomorrow is Saturday. I will wake up early and prepare a special breakfast. Then I will go out and meet my friends at the park. There we will play soccer and eat a sandwich. On Saturday evening we will watch a film and drink a hot chocolate.\n\nOn Sunday we will go to the sea with my family. The sun will shine and we will swim all day. In the evening we will watch the sunset and return home happy. I will be very tired, but it will be a wonderful weekend!',
+    questions: [
+      { question: 'What day is tomorrow?', options: ['Saturday', 'Sunday', 'Friday'], answer: 'Saturday', explanation: '"Domani è sabato."' },
+      { question: 'Where will the narrator meet friends?', options: ['At the park', 'At the cinema', 'At home'], answer: 'At the park', explanation: '"incontrerò i miei amici al parco."' },
+      { question: 'What will the family do on Sunday?', options: ['Go to the sea', 'Go hiking', 'Stay home'], answer: 'Go to the sea', explanation: '"Domenica andremo al mare."' },
+      { question: 'How will the narrator feel at the end?', options: ['Tired but happy', 'Angry', 'Sad'], answer: 'Tired but happy', explanation: '"sarò molto stanco, ma sarà un weekend bellissimo!"' },
+      { question: 'Write a sentence about your own plan for the weekend.', type: 'text', answer: 'any', acceptedAnswers: [], explanation: 'Example: Domenica andrò al mare. Any correct future is accepted.' },
+    ],
+  },
+  {
+    title: 'Il mio viaggio in Italia',
+    level: 'Intermediate',
+    wordCount: '~100',
+    story: 'L\'anno prossimo ___ (andare) in Italia con la mia famiglia. ___ (Partire) a giugno e ___ (rimanere) per due settimane a Roma. Là ___ (visitare) il Colosseo e ___ (mangiare) la vera pizza italiana.\n\nDopo Roma, noi ___ (viaggiare) in Toscana. ___ (Vedere) paesaggi bellissimi e ___ (scattare) molte fotografie. A Firenze ___ (camminare) tra i musei.\n\nAlla fine io ___ (essere) molto felice. ___ (Avere) tanti ricordi belli. Non ___ (dimenticare) mai questo viaggio: ___ (essere) un\'esperienza indimenticabile!',
+    vocab: [
+      { word: 'paesaggi', meaning: 'landscapes' },
+      { word: 'scattare', meaning: 'to take (photos)' },
+      { word: 'fotografie', meaning: 'photographs' },
+      { word: 'ricordi', meaning: 'memories' },
+      { word: 'indimenticabile', meaning: 'unforgettable' },
+    ],
+    translation: 'Next year we will go to Italy with my family. We will leave in June and stay in Rome for two weeks. There we will visit the Colosseum and eat real Italian pizza.\n\nAfter Rome, we will travel to Tuscany. We will see beautiful landscapes and take many photographs. In Florence we will walk among the museums.\n\nIn the end I will be very happy. I will have many beautiful memories. I will never forget this trip: it will be an unforgettable experience!',
+    questions: [
+      { question: 'Who is the narrator travelling with?', options: ['His family', 'His friends', 'Alone'], answer: 'His family', explanation: '"in Italia con la mia famiglia."' },
+      { question: 'When will they leave?', options: ['In June', 'In May', 'In December'], answer: 'In June', explanation: '"Partiremo a giugno."' },
+      { question: 'What will they visit in Rome?', options: ['The Colosseum', 'The mountains', 'The museum of science'], answer: 'The Colosseum', explanation: '"visiteremo il Colosseo."' },
+      { question: 'The words "andr-", "rimarr-", "vedr-" are examples of:', options: ['Irregular or shortened future stems', 'Past participles', 'Present endings'], answer: 'Irregular or shortened future stems', explanation: 'andare → andr-, rimanere → rimarr-, vedere → vedr-.' },
+      { question: 'Write a sentence about what you will do on your next trip.', type: 'text', answer: 'any', acceptedAnswers: [], explanation: 'Example: L\'anno prossimo andrò in Italia. Any correct future is accepted.' },
+    ],
+  },
+  {
+    title: 'La mia vita l\'anno prossimo',
+    level: 'Challenge',
+    wordCount: '~135',
+    story: 'L\'anno prossimo cambierò molte cose. A settembre mi trasferirò a Roma per l\'università. Sarà la prima volta che vivrò da solo, e credo che sarà un\'esperienza fantastica.\n\nIl prossimo mese affitterò un piccolo appartamento vicino al centro. La mia famiglia verrà a trovarmi spesso, e mia madre mi porterà i suoi biscotti famosi.\n\nDurante l\'anno studierò italiano e inglese ogni giorno. Farò nuove amicizie e visiterò tutti i musei di Roma. D\'estate prenderò il treno per il mare e passerò le vacanze con i miei cugini.\n\nNon vivrò più con i miei genitori, ma parleremo ogni giorno. Sarà un anno pieno di sorprese. Spero solo che sarà felice e che io non avrò troppa nostalgia di casa.',
+    vocab: [
+      { word: 'mi trasferirò', meaning: 'I will move (trasferirsi)' },
+      { word: 'affitterò', meaning: 'I will rent (affittare)' },
+      { word: 'vicino', meaning: 'near' },
+      { word: 'amicizie', meaning: 'friendships/friends' },
+      { word: 'sorprese', meaning: 'surprises' },
+      { word: 'nostalgia', meaning: 'homesickness' },
+    ],
+    translation: 'Next year I will change many things. In September I will move to Rome for university. It will be the first time I live alone, and I think it will be a fantastic experience.\n\nThe next month I will rent a small apartment near the centre. My family will come to visit me often, and my mother will bring me her famous biscuits.\n\nDuring the year I will study Italian and English every day. I will make new friends and visit all the museums in Rome. In summer I will take the train to the sea and spend the holidays with my cousins.\n\nI will no longer live with my parents, but we will talk every day. It will be a year full of surprises. I just hope it will be happy and that I won\'t be too homesick.',
+    questions: [
+      { question: 'Where will the narrator move in September?', options: ['To Rome', 'To Milan', 'To Florence'], answer: 'To Rome', explanation: '"mi trasferirò a Roma per l\'università."' },
+      { question: 'Who will bring biscuits?', options: ['His mother', 'His cousin', 'His sister'], answer: 'His mother', explanation: '"mia madre mi porterà i suoi biscotti famosi."' },
+      { question: 'What will the narrator do in the summer?', options: ['Take the train to the sea', 'Work in an office', 'Stay in Rome'], answer: 'Take the train to the sea', explanation: '"D\'estate prenderò il treno per il mare."' },
+      { question: 'The sentence "Non vivrò più con i miei genitori" is:', options: ['A negative future sentence', 'A past-tense sentence', 'A command'], answer: 'A negative future sentence', explanation: '"non + vivrò" → negative futuro semplice.' },
+      { question: 'Which verb is used for the present-tense future plan: "Il prossimo mese ___ un piccolo appartamento"? It cannot be told from the stem alone — choose the future form.', options: ['affitterò', 'affittare', 'affittava'], answer: 'affitterò', explanation: '"Il prossimo mese affitterò" — future, marked by -erò.' },
+      { question: 'Write a sentence about your own life using the future tense.', type: 'text', answer: 'any', acceptedAnswers: [], explanation: 'Example: L\'anno prossimo vivrò in una città nuova. Any correct future is accepted.' },
+    ],
+  },
+];
+
+export const futuroFinalTest = futuroExercises.find((e) => e.id === 30).questions;
+
+export const futuroFinalBands = [
+  { min: 90, grade: 'Excellent!', message: 'You can confidently understand and form common futuro semplice sentences.' },
+  { min: 75, grade: 'Very good!', message: 'You understand the main future patterns. Review irregular stems and future endings.' },
+  { min: 60, grade: 'Almost there!', message: 'Review regular formation, irregular verbs, and future time expressions.' },
+  { min: 0, grade: 'Keep practicing!', message: 'Review the lessons before taking the final test again.' },
+];

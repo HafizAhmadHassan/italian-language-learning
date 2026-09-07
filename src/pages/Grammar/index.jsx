@@ -275,12 +275,49 @@ export default function GrammarPage() {
           </Link>
         </motion.div>
 
-        {/* Level Tabs */}
+        {/* Future Tense Mini-Course */}
         <motion.div
           initial="hidden"
           animate="visible"
           variants={fadeUp}
           custom={4}
+          className="mb-8"
+        >
+          <Link
+            to="/grammar/futuro"
+            className="group flex flex-col sm:flex-row sm:items-center gap-4 rounded-2xl border border-italian-gold/30 bg-gradient-to-r from-italian-gold/10 to-italian-cream dark:from-italian-dark-card dark:to-italian-dark-card p-5 transition-all duration-300 hover:shadow-lg hover:shadow-italian-gold/10"
+          >
+            <div className="w-12 h-12 rounded-xl bg-italian-gold flex items-center justify-center shrink-0">
+              <PlayCircle className="w-6 h-6 text-white" />
+            </div>
+            <div className="flex-1 min-w-0">
+              <div className="flex items-center gap-2 flex-wrap">
+                <h3 className="text-base font-semibold text-italian-charcoal dark:text-white">
+                  Future Tense — Futuro Semplice
+                </h3>
+                <span className="px-2 py-0.5 rounded-md text-xs font-bold border bg-italian-gold/15 text-italian-gold border-italian-gold/30">
+                  A1–A2
+                </span>
+                <span className="px-2 py-0.5 rounded-md text-xs font-semibold bg-italian-gold/15 text-italian-gold border border-italian-gold/25">
+                  Mini-course
+                </span>
+              </div>
+              <p className="text-sm text-gray-500 dark:text-gray-400 mt-1">
+                30 progressive exercises, 3 stories, and a final mastery test — make plans, predictions, and questions with essere, avere, and irregular stems.
+              </p>
+            </div>
+            <span className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-italian-gold text-white text-sm font-semibold group-hover:shadow-md transition-all shrink-0">
+              Start Lesson <ArrowRight size={16} className="group-hover:translate-x-0.5 transition-transform" />
+            </span>
+          </Link>
+        </motion.div>
+
+        {/* Level Tabs */}
+        <motion.div
+          initial="hidden"
+          animate="visible"
+          variants={fadeUp}
+          custom={5}
           className="flex gap-2 mb-8 overflow-x-auto pb-1"
         >
           {TABS.map((tab) => (
@@ -312,7 +349,7 @@ export default function GrammarPage() {
                   initial="hidden"
                   animate="visible"
                   variants={fadeUp}
-                  custom={i + 4}
+                  custom={i + 5}
                   className={`rounded-2xl border transition-all duration-300 overflow-hidden ${
                     isOpen
                       ? 'bg-white dark:bg-italian-dark-card border-italian-green/30 shadow-lg shadow-italian-green/5'

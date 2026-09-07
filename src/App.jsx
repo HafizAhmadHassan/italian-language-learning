@@ -15,6 +15,7 @@ import Grammar from './pages/Grammar';
 import PresenteLesson from './pages/Grammar/Presente';
 import PassatoLesson from './pages/Grammar/Passato';
 import ImperfettoLesson from './pages/Grammar/Imperfetto';
+import FuturoLesson from './pages/Grammar/Futuro';
 import Practice from './pages/Practice';
 import Progress from './pages/Progress';
 import Settings from './pages/Settings';
@@ -57,6 +58,7 @@ function App() {
           <Route path="/grammar/presente" element={<PresenteLesson />} />
           <Route path="/grammar/passato" element={<PassatoLesson />} />
           <Route path="/grammar/imperfetto" element={<ImperfettoLesson />} />
+          <Route path="/grammar/futuro" element={<FuturoLesson />} />
           <Route path="/practice" element={<Practice />} />
           <Route path="/progress" element={<Progress />} />
           <Route path="/settings" element={<Settings />} />
