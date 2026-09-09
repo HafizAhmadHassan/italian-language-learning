@@ -45,6 +45,17 @@ function Feedback({ isCorrect, correctAnswer, explanation }) {
   );
 }
 
+function ResetButton({ onClick, label = 'Reset' }) {
+  return (
+    <button
+      onClick={onClick}
+      className="flex items-center gap-2 px-4 py-2 text-sm text-gray-500 hover:text-italian-green dark:text-gray-400 dark:hover:text-italian-green transition-colors"
+    >
+      <RotateCcw size={14} /> {label}
+    </button>
+  );
+}
+
 export function MultipleChoiceExercise({ question, options, answer, explanation, onComplete }) {
   const [selected, setSelected] = useState(null);
   const [submitted, setSubmitted] = useState(false);
@@ -55,10 +66,16 @@ export function MultipleChoiceExercise({ question, options, answer, explanation,
     if (selected === answer) onComplete(true);
   };
 
+  const reset = () => {
+    setSelected(null);
+    setSubmitted(false);
+  };
+
   if (submitted) {
     return (
       <div className="space-y-3">
         <Feedback isCorrect={selected === answer} correctAnswer={answer} explanation={explanation} />
+        <ResetButton onClick={reset} label="Try Again" />
       </div>
     );
   }
@@ -88,6 +105,7 @@ export function MultipleChoiceExercise({ question, options, answer, explanation,
       >
         Check Answer
       </button>
+      {selected !== null && <ResetButton onClick={reset} label="Clear selection" />}
     </div>
   );
 }
@@ -102,6 +120,11 @@ export function FillBlankExercise({ sentence, options, answer, explanation, onCo
     if (selected === answer) onComplete(true);
   };
 
+  const reset = () => {
+    setSelected(null);
+    setSubmitted(false);
+  };
+
   const parts = sentence.split('___');
 
   if (submitted) {
@@ -111,6 +134,7 @@ export function FillBlankExercise({ sentence, options, answer, explanation, onCo
           {parts[0]}<span className="font-bold text-italian-green">{answer}</span>{parts[1] || ''}
         </p>
         <Feedback isCorrect={selected === answer} correctAnswer={answer} explanation={explanation} />
+        <ResetButton onClick={reset} label="Try Again" />
       </div>
     );
   }
@@ -142,6 +166,7 @@ export function FillBlankExercise({ sentence, options, answer, explanation, onCo
       >
         Check Answer
       </button>
+      {selected !== null && <ResetButton onClick={reset} label="Clear selection" />}
     </div>
   );
 }
@@ -158,10 +183,16 @@ export function TextInputExercise({ question, acceptedAnswers, answer, explanati
     if (isCorrect) onComplete(true);
   };
 
+  const reset = () => {
+    setInput('');
+    setSubmitted(false);
+  };
+
   if (submitted) {
     return (
       <div className="space-y-3">
         <Feedback isCorrect={isCorrect} correctAnswer={answer} explanation={explanation} />
+        <ResetButton onClick={reset} label="Try Again" />
       </div>
     );
   }
@@ -184,6 +215,7 @@ export function TextInputExercise({ question, acceptedAnswers, answer, explanati
       >
         Check Answer
       </button>
+      {input.trim() !== '' && <ResetButton onClick={reset} label="Clear answer" />}
     </div>
   );
 }
@@ -387,10 +419,16 @@ export function TranslationExercise({ sentence, direction, options, answer, expl
     if (selected === answer) onComplete(true);
   };
 
+  const reset = () => {
+    setSelected(null);
+    setSubmitted(false);
+  };
+
   if (submitted) {
     return (
       <div className="space-y-3">
         <Feedback isCorrect={selected === answer} correctAnswer={answer} explanation={explanation} />
+        <ResetButton onClick={reset} label="Try Again" />
       </div>
     );
   }
@@ -425,6 +463,7 @@ export function TranslationExercise({ sentence, direction, options, answer, expl
       >
         Check Answer
       </button>
+      {selected !== null && <ResetButton onClick={reset} label="Clear selection" />}
     </div>
   );
 }
@@ -439,10 +478,16 @@ export function ConjugationTableExercise({ verb, prompt, options, answer, explan
     if (selected === answer) onComplete(true);
   };
 
+  const reset = () => {
+    setSelected(null);
+    setSubmitted(false);
+  };
+
   if (submitted) {
     return (
       <div className="space-y-3">
         <Feedback isCorrect={selected === answer} correctAnswer={answer} explanation={explanation} />
+        <ResetButton onClick={reset} label="Try Again" />
       </div>
     );
   }
@@ -475,6 +520,7 @@ export function ConjugationTableExercise({ verb, prompt, options, answer, explan
       >
         Check Answer
       </button>
+      {selected !== null && <ResetButton onClick={reset} label="Clear selection" />}
     </div>
   );
 }
@@ -494,6 +540,12 @@ export function StoryExercise({ story, title, vocab, translation, questions, onC
     const correct = answers[qIdx] === q.answer;
     setSubmitted({ ...submitted, [qIdx]: true });
     if (correct) onComplete(true);
+  };
+
+  const reset = () => {
+    setAnswers({});
+    setSubmitted({});
+    setShowTranslation(false);
   };
 
   const allSubmitted = questions.every((_, idx) => submitted[idx]);
@@ -617,6 +669,10 @@ export function StoryExercise({ story, title, vocab, translation, questions, onC
           </p>
         </div>
       )}
+
+      {(Object.keys(answers).length > 0 || allSubmitted) && (
+        <ResetButton onClick={reset} label="Reset Story" />
+      )}
     </div>
   );
 }
@@ -624,6 +680,11 @@ export function StoryExercise({ story, title, vocab, translation, questions, onC
 export function MasteryTestExercise({ questions, onComplete }) {
   const [answers, setAnswers] = useState({});
   const [submitted, setSubmitted] = useState(false);
+
+  const reset = () => {
+    setAnswers({});
+    setSubmitted(false);
+  };
 
   const gradeQuestion = (q, idx) =>
     q.type === 'text'
@@ -699,6 +760,10 @@ export function MasteryTestExercise({ questions, onComplete }) {
             </div>
           );
         })}
+
+        <div className="flex justify-center">
+          <ResetButton onClick={reset} label="Retake Test" />
+        </div>
       </div>
     );
   }
@@ -745,6 +810,10 @@ export function MasteryTestExercise({ questions, onComplete }) {
       >
         Submit Final Test ({Object.keys(answers).length}/{questions.length})
       </button>
+
+      <div className="flex justify-center">
+        <ResetButton onClick={reset} label="Clear answers" />
+      </div>
     </div>
   );
 }

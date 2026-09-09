@@ -17,6 +17,7 @@ import PassatoLesson from './pages/Grammar/Passato';
 import ImperfettoLesson from './pages/Grammar/Imperfetto';
 import FuturoLesson from './pages/Grammar/Futuro';
 import PreposizioniLesson from './pages/Grammar/Preposizioni';
+import VerbiIrregolariLesson from './pages/Grammar/VerbiIrregolari';
 import Practice from './pages/Practice';
 import Progress from './pages/Progress';
 import Settings from './pages/Settings';
@@ -61,6 +62,7 @@ function App() {
           <Route path="/grammar/imperfetto" element={<ImperfettoLesson />} />
           <Route path="/grammar/futuro" element={<FuturoLesson />} />
           <Route path="/grammar/preposizioni" element={<PreposizioniLesson />} />
+          <Route path="/grammar/verbi-irregolari" element={<VerbiIrregolariLesson />} />
           <Route path="/practice" element={<Practice />} />
           <Route path="/progress" element={<Progress />} />
           <Route path="/settings" element={<Settings />} />

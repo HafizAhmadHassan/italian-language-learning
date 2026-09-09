@@ -718,7 +718,7 @@ export default function ImperfettoLessonPage() {
                   </div>
 
                   <div className="rounded-2xl border border-gray-100 dark:border-italian-dark-border bg-white dark:bg-italian-dark-card p-5 md:p-7">
-                    <ExerciseView exercise={currentEx} results={results} onResult={handleResult} />
+                    <ExerciseView key={currentEx.id} exercise={currentEx} results={results} onResult={handleResult} />
                   </div>
 
                   <div className="flex items-center justify-between">
@@ -730,7 +730,7 @@ export default function ImperfettoLessonPage() {
                       <ArrowLeft size={16} /> Previous
                     </button>
                     <span className="text-xs font-semibold text-gray-400 dark:text-gray-500">
-                      Exercise {currentEx.id} / 30
+                      Exercise {currentEx.id} / {imperfettoExercises.length}
                     </span>
                     <button
                       onClick={() => goToExercise(currentExercise + 1)}
@@ -774,7 +774,7 @@ export default function ImperfettoLessonPage() {
                   </div>
 
                   <div className="rounded-2xl border border-gray-100 dark:border-italian-dark-border bg-white dark:bg-italian-dark-card p-5 md:p-7">
-                    <ExerciseView exercise={currentEx} results={results} onResult={handleResult} />
+                    <ExerciseView key={currentEx.id} exercise={currentEx} results={results} onResult={handleResult} />
                   </div>
 
                   {/* Navigation */}
@@ -787,7 +787,7 @@ export default function ImperfettoLessonPage() {
                       <ArrowLeft size={16} /> Previous
                     </button>
                     <span className="text-xs font-semibold text-gray-400 dark:text-gray-500">
-                      Exercise {currentEx.id} / 30
+                      Exercise {currentEx.id} / {imperfettoExercises.length}
                     </span>
                     <button
                       onClick={() => goToExercise(currentExercise + 1)}

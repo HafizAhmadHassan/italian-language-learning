@@ -1433,6 +1433,340 @@ export const presenteExercises = [
     ],
   },
 
+  // STORY 5 — La famiglia Bianchi (Exercise 31)
+  {
+    id: 31,
+    level: 'Level 6 — Reading and Stories',
+    title: 'Story: La famiglia Bianchi',
+    instruction: 'Read the story, then answer the comprehension questions.',
+    type: 'story',
+    storyTitle: 'Story 5 — Family Life',
+    story:
+      'Ogni mattina la famiglia Bianchi fa colazione insieme. Il signor Bianchi legge il giornale e beve un caffè. Sua moglie prepara il pane con il burro per i bambini. Alle otto tutti partono: i genitori vanno al lavoro e i bambini vanno a scuola.\n\nLa sera la famiglia cena insieme e racconta la giornata. Marco, il figlio più grande, studia il francese. La piccola Giulia gioca con il cane. Dopo cena tutti guardano un film o leggono un libro. Vive una vita tranquilla ma piena.',
+    vocab: [
+      { word: 'fa colazione', meaning: 'has breakfast' },
+      { word: 'il pane', meaning: 'bread' },
+      { word: 'il burro', meaning: 'butter' },
+      { word: 'racconta', meaning: 'tells / recounts' },
+      { word: 'il figlio', meaning: 'the son' },
+      { word: 'tranquilla', meaning: 'quiet / peaceful' },
+    ],
+    translation:
+      'Every morning the Bianchi family has breakfast together. Mr. Bianchi reads the newspaper and drinks a coffee. His wife prepares bread and butter for the children. At eight everyone leaves: the parents go to work and the children go to school.\n\nIn the evening the family has dinner together and tells about their day. Marco, the oldest son, studies French. Little Giulia plays with the dog. After dinner everyone watches a film or reads a book. They live a quiet but full life.',
+    questions: [
+      {
+        question: 'Who prepares the bread and butter for the children?',
+        options: ['Mr. Bianchi', 'The signora Bianchi', 'Giulia'],
+        answer: 'The signora Bianchi',
+        explanation: '"Sua moglie prepara il pane con il burro per i bambini."',
+      },
+      {
+        question: 'What does Mr. Bianchi do in the morning?',
+        options: ['Reads the newspaper and drinks a coffee', 'Cooks breakfast', 'Takes the children to school'],
+        answer: 'Reads the newspaper and drinks a coffee',
+        explanation: '"Il signor Bianchi legge il giornale e beve un caffè."',
+      },
+      {
+        question: 'What happens at eight?',
+        options: ['Everyone leaves', 'The family sleeps', 'They eat dinner'],
+        answer: 'Everyone leaves',
+        explanation: '"Alle otto tutti partono."',
+      },
+      {
+        question: 'What does Marco study in the evening?',
+        options: ['French', 'Mathematics', 'English'],
+        answer: 'French',
+        explanation: '"Marco, il figlio più grande, studia il francese."',
+      },
+      {
+        question: 'What does Giulia do after dinner?',
+        options: ['Plays with the dog', 'Reads a book', 'Studies French'],
+        answer: 'Plays with the dog',
+        explanation: '"La piccola Giulia gioca con il cane."',
+      },
+      {
+        question: 'Which present-tense verb means "tells / recounts" in the story?',
+        options: ['racconta', 'leggere', 'partono'],
+        answer: 'racconta',
+        explanation: 'racconta = he/she tells (from raccontare), used in "la famiglia racconta la giornata".',
+      },
+      {
+        question: 'Write one sentence about your own family using a present-tense verb.',
+        type: 'text',
+        acceptedAnswers: [],
+        answer: 'Write any correct sentence in Italian.',
+        explanation: 'Example: "La mia famiglia cena insieme ogni sera." The subject and verb must agree.',
+      },
+    ],
+  },
+
+  // STORY 6 — Il mercato di sabato (Exercise 32)
+  {
+    id: 32,
+    level: 'Level 6 — Reading and Stories',
+    title: 'Story: Il mercato di sabato',
+    instruction: 'Read the story, then answer the comprehension questions.',
+    type: 'story',
+    storyTitle: 'Story 6 — At the Market',
+    story:
+      'Ogni sabato mia madre e io andiamo al mercato. Il mercato è nel centro della città. Ci sono molte bancarelle: la frutta, la verdura, il pesce e i fiori.\n\nMia madre parla con i venditori e compra le cose per la settimana. Io porto le borse e aiuto a scegliere la frutta. A mezzogiorno compriamo il pane fresco e torniamo a casa. La domenica mangiamo tutto insieme. Mia madre dice che il mercato è il suo posto preferito.',
+    vocab: [
+      { word: 'le bancarelle', meaning: 'the stalls' },
+      { word: 'la verdura', meaning: 'vegetables' },
+      { word: 'i venditori', meaning: 'the sellers' },
+      { word: 'le borse', meaning: 'the bags' },
+      { word: 'fresco', meaning: 'fresh' },
+      { word: 'il posto preferito', meaning: 'favourite place' },
+    ],
+    translation:
+      'Every Saturday my mother and I go to the market. The market is in the centre of the city. There are many stalls: fruit, vegetables, fish and flowers.\n\nMy mother talks to the sellers and buys the things for the week. I carry the bags and help to choose the fruit. At noon we buy fresh bread and return home. On Sunday we eat everything together. My mother says the market is her favourite place.',
+    questions: [
+      {
+        question: 'When do they go to the market?',
+        options: ['Every Saturday', 'Every Sunday', 'Only in summer'],
+        answer: 'Every Saturday',
+        explanation: '"Ogni sabato mia madre e io andiamo al mercato."',
+      },
+      {
+        question: 'Where is the market?',
+        options: ['In the centre of the city', 'Near the sea', 'Outside the city'],
+        answer: 'In the centre of the city',
+        explanation: '"Il mercato è nel centro della città."',
+      },
+      {
+        question: 'Who carries the bags?',
+        options: ['The narrator (I)', 'The mother', 'The sellers'],
+        answer: 'The narrator (I)',
+        explanation: '"Io porto le borse."',
+      },
+      {
+        question: 'What does the narrator help to choose?',
+        options: ['The fruit', 'The fish', 'The flowers'],
+        answer: 'The fruit',
+        explanation: '"aiuto a scegliere la frutta."',
+      },
+      {
+        question: 'What do they buy at noon?',
+        options: ['Fresh bread', 'Fish', 'Flowers'],
+        answer: 'Fresh bread',
+        explanation: '"A mezzogiorno compriamo il pane fresco."',
+      },
+      {
+        question: 'Which verb in the story means "to choose"?',
+        options: ['scegliere', 'comprare', 'portare'],
+        answer: 'scegliere',
+        explanation: '"aiuto a scegliere la frutta" — scegliere = to choose.',
+      },
+      {
+        question: 'Write one sentence about a place you visit regularly, using the present tense.',
+        type: 'text',
+        acceptedAnswers: [],
+        answer: 'Write any correct sentence in Italian.',
+        explanation: 'Example: "Vado spesso in palestra." Any correct third-person or first-person sentence is accepted.',
+      },
+    ],
+  },
+
+  // STORY 7 — Una domenica in famiglia (Exercise 33)
+  {
+    id: 33,
+    level: 'Level 6 — Reading and Stories',
+    title: 'Story: Una domenica in famiglia',
+    instruction: 'Read the story, then answer the comprehension questions.',
+    type: 'story',
+    storyTitle: 'Story 7 — A Sunday with the Family',
+    story:
+      'La domenica è il giorno della famiglia. La mattina dormiamo fino a tardi e poi facciamo una lunga colazione. Mio padre prepara i pancake e mia madre fa il succo d\'arancia.\n\nNel pomeriggio andiamo a trovare i nonni. La nonna cucina il pranzo per tutti e il nonno racconta le storie di quando era giovane. Dopo il pranzo giochiamo a carte o facciamo una passeggiata nel parco. La sera torniamo a casa e guardiamo un bel film. Amo queste domeniche.',
+    vocab: [
+      { word: 'fino a tardi', meaning: 'until late' },
+      { word: 'il succo', meaning: 'the juice' },
+      { word: 'i nonni', meaning: 'the grandparents' },
+      { word: 'una passeggiata', meaning: 'a walk' },
+      { word: 'giochiamo a carte', meaning: 'we play cards' },
+      { word: 'amo', meaning: 'I love' },
+    ],
+    translation:
+      'Sunday is the day of the family. In the morning we sleep until late and then we have a long breakfast. My father makes pancakes and my mother makes orange juice.\n\nIn the afternoon we go to visit our grandparents. Grandmother cooks lunch for everyone and grandfather tells stories from when he was young. After lunch we play cards or take a walk in the park. In the evening we return home and watch a nice film. I love these Sundays.',
+    questions: [
+      {
+        question: 'What do they do on Sunday morning?',
+        options: ['Sleep late and have a long breakfast', 'Go to work', 'Visit the market'],
+        answer: 'Sleep late and have a long breakfast',
+        explanation: '"La mattina dormiamo fino a tardi e poi facciamo una lunga colazione."',
+      },
+      {
+        question: 'Who makes pancakes?',
+        options: ['The father', 'The mother', 'The grandmother'],
+        answer: 'The father',
+        explanation: '"Mio padre prepara i pancake."',
+      },
+      {
+        question: 'Who do they visit in the afternoon?',
+        options: ['Their grandparents', 'Their friends', 'Their cousins'],
+        answer: 'Their grandparents',
+        explanation: '"Andiamo a trovare i nonni."',
+      },
+      {
+        question: 'What does the grandfather do?',
+        options: ['Tells stories from his youth', 'Cooks lunch', 'Plays cards'],
+        answer: 'Tells stories from his youth',
+        explanation: '"il nonno racconta le storie di quando era giovane."',
+      },
+      {
+        question: 'What do they do after lunch?',
+        options: ['Play cards or take a walk', 'Go to the market', 'Study Italian'],
+        answer: 'Play cards or take a walk',
+        explanation: '"Dopo il pranzo giochiamo a carte o facciamo una passeggiata nel parco."',
+      },
+      {
+        question: 'Which pronoun matches the verb forms "dormiamo, facciamo, andiamo"?',
+        options: ['noi', 'loro', 'io'],
+        answer: 'noi',
+        explanation: 'All these verbs end in -iamo/-iamo/-iamo, the noi forms: dormiamo, facciamo, andiamo.',
+      },
+      {
+        question: 'Write one sentence about what your family likes to do on Sundays.',
+        type: 'text',
+        acceptedAnswers: [],
+        answer: 'Write any correct sentence in Italian.',
+        explanation: 'Example: "La domenica la mia famiglia guarda un film." Any correct present-tense sentence is accepted.',
+      },
+    ],
+  },
+
+  // STORY 8 — A scuola (Exercise 34)
+  {
+    id: 34,
+    level: 'Level 6 — Reading and Stories',
+    title: 'Story: A scuola',
+    instruction: 'Read the story, then answer the comprehension questions.',
+    type: 'story',
+    storyTitle: 'Story 8 — At School',
+    story:
+      'La classe di italiano ha venti studenti. Gli studenti vengono da molti paesi: dalla Francia, dalla Spagna, dal Brasile e dal Giappone. La professoressa parla sempre in italiano e gli studenti ascoltano con attenzione.\n\nOggi la professoressa spiega il presente. Gli studenti fanno molti esercizi e parlano in coppia. Marco, uno studente brasiliano, dice: "L\'italiano è difficile ma bello." Tutti ridono. Alla fine della lezione la professoressa assegna i compiti per casa. La prossima lezione è lunedì.',
+    vocab: [
+      { word: 'gli studenti', meaning: 'the students' },
+      { word: 'da molti paesi', meaning: 'from many countries' },
+      { word: 'la professoressa', meaning: 'the teacher (female)' },
+      { word: 'con attenzione', meaning: 'carefully' },
+      { word: 'in coppia', meaning: 'in pairs' },
+      { word: 'i compiti', meaning: 'the homework' },
+    ],
+    translation:
+      'The Italian class has twenty students. The students come from many countries: from France, Spain, Brazil and Japan. The teacher always speaks in Italian and the students listen carefully.\n\nToday the teacher explains the present tense. The students do many exercises and talk in pairs. Marco, a Brazilian student, says: "Italian is difficult but beautiful." Everyone laughs. At the end of the lesson the teacher assigns homework. The next lesson is Monday.',
+    questions: [
+      {
+        question: 'How many students are in the Italian class?',
+        options: ['Twenty', 'Twelve', 'Thirty'],
+        answer: 'Twenty',
+        explanation: '"La classe di italiano ha venti studenti."',
+      },
+      {
+        question: 'Where do the students come from?',
+        options: ['France, Spain, Brazil and Japan', 'Only from Italy', 'Italy, France and Germany'],
+        answer: 'France, Spain, Brazil and Japan',
+        explanation: '"dalla Francia, dalla Spagna, dal Brasile e dal Giappone."',
+      },
+      {
+        question: 'What does the teacher explain today?',
+        options: ['The present tense', 'The future tense', 'The alphabet'],
+        answer: 'The present tense',
+        explanation: '"Oggi la professoressa spiega il presente."',
+      },
+      {
+        question: 'What does Marco say about Italian?',
+        options: ['It is difficult but beautiful', 'It is easy', 'He does not like it'],
+        answer: 'It is difficult but beautiful',
+        explanation: '"L\'italiano è difficile ma bello."',
+      },
+      {
+        question: '"Gli studenti vengono..." — "vengono" comes from which verb?',
+        options: ['venire', 'vedere', 'vendere'],
+        answer: 'venire',
+        explanation: 'vengono = they come, from venire (irregular present).',
+      },
+      {
+        question: 'When is the next lesson?',
+        options: ['On Monday', 'On Friday', 'Tomorrow'],
+        answer: 'On Monday',
+        explanation: '"La prossima lezione è lunedì."',
+      },
+      {
+        question: 'Write one sentence in Italian about your Italian class or your studies.',
+        type: 'text',
+        acceptedAnswers: [],
+        answer: 'Write any correct sentence in Italian.',
+        explanation: 'Example: "Studio italiano ogni giorno." Any correct present-tense sentence is accepted.',
+      },
+    ],
+  },
+
+  // STORY 9 — Lavoro e passioni (Exercise 35)
+  {
+    id: 35,
+    level: 'Level 6 — Reading and Stories',
+    title: 'Read and Answer in Italian: Lavoro e passioni',
+    instruction: 'Read the story, then answer the questions IN ITALIAN. Type full sentences.',
+    type: 'story',
+    storyTitle: 'Story 9 — Work and Passions',
+    story:
+      'Il signor Ferri lavora in una grande azienda a Milano. Ogni giorno prende il treno alle sette e arriva in ufficio alle otto e mezza. Al lavoro scrive email, parla con i clienti e partecipa a molte riunioni.\n\nMa il signor Ferri ha anche una passione: la fotografia. Nel fine settimana esce con la sua macchina fotografica e fotografa la natura, le persone e le città. Le sue foto piacciono a tutti. Dice sempre: "Il lavoro dà il pane, ma la fotografia dà la gioia."',
+    vocab: [
+      { word: 'l\'azienda', meaning: 'the company' },
+      { word: 'i clienti', meaning: 'the clients' },
+      { word: 'le riunioni', meaning: 'the meetings' },
+      { word: 'la passione', meaning: 'the passion' },
+      { word: 'la macchina fotografica', meaning: 'the camera' },
+      { word: 'la gioia', meaning: 'the joy' },
+    ],
+    translation:
+      'Mr. Ferri works in a big company in Milan. Every day he takes the train at seven and arrives at the office at eight thirty. At work he writes emails, talks to clients and takes part in many meetings.\n\nBut Mr. Ferri also has a passion: photography. At the weekend he goes out with his camera and photographs nature, people and cities. His photos are liked by everyone. He always says: "Work gives you bread, but photography gives you joy."',
+    questions: [
+      {
+        question: 'Dove lavora il signor Ferri? (Where does Mr. Ferri work?)',
+        type: 'text',
+        acceptedAnswers: ['in una grande azienda a milano', 'a milano', 'lavora in una grande azienda a milano', 'in una grande azienda'],
+        answer: 'Il signor Ferri lavora in una grande azienda a Milano.',
+        explanation: 'The story says: "Il signor Ferri lavora in una grande azienda a Milano."',
+      },
+      {
+        question: 'Che mezzo prende ogni giorno? (What transport does he take every day?)',
+        type: 'text',
+        acceptedAnswers: ['il treno', 'prende il treno', 'prende il treno alle sette'],
+        answer: 'Prende il treno.',
+        explanation: 'The story says: "prende il treno alle sette."',
+      },
+      {
+        question: 'Cosa fa al lavoro? (What does he do at work?)',
+        type: 'text',
+        acceptedAnswers: ['scrive email', 'scrive le email', 'scrive email e parla con i clienti', 'scrive email parla con i clienti e partecipa alle riunioni'],
+        answer: 'Scrive email, parla con i clienti e partecipa a riunioni.',
+        explanation: 'The story says: "scrive email, parla con i clienti e partecipa a molte riunioni."',
+      },
+      {
+        question: 'Che passione ha il signor Ferri? (What passion does Mr. Ferri have?)',
+        type: 'text',
+        acceptedAnswers: ['la fotografia', 'fotografa', 'la passione della fotografia'],
+        answer: 'La fotografia.',
+        explanation: 'The story says: "ha anche una passione: la fotografia."',
+      },
+      {
+        question: 'Cosa fotografa nel fine settimana? (What does he photograph at the weekend?)',
+        type: 'text',
+        acceptedAnswers: ['la natura le persone e le città', 'la natura', 'la natura e le persone', 'le persone e le città', 'fotografa la natura le persone e le città'],
+        answer: 'Fotografa la natura, le persone e le città.',
+        explanation: 'The story says: "fotografa la natura, le persone e le città."',
+      },
+      {
+        question: 'Trova due verbi al presente nella storia. (Find two present-tense verbs in the story.)',
+        type: 'text',
+        acceptedAnswers: [],
+        answer: 'Any two, e.g. lavora, prende, arriva, scrive, parla, partecipa, esce, fotografa, piacciono, dice, dà.',
+        explanation: 'Examples: lavora, prende, arriva, scrive, parla, partecipa, esce, fotografa, piacciono, dice, dà.',
+      },
+    ],
+  },
+
   // Exercise 30 — Final Mastery Test
   {
     id: 30,
