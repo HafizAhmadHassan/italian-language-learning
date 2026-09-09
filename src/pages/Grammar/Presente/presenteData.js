@@ -1767,6 +1767,621 @@ export const presenteExercises = [
     ],
   },
 
+  // STORY 10 — Un caffè al bar (Exercise 36)
+  {
+    id: 36,
+    level: 'Level 6 — Reading and Stories',
+    title: 'Story: Un caffè al bar',
+    instruction: 'Read the story, then answer the comprehension questions.',
+    type: 'story',
+    storyTitle: 'Story 10 — A Daily Ritual',
+    story:
+      'Il signor Moretti va ogni giorno allo stesso bar. Il barista lo conosce e sa già cosa vuole: un cappuccino e una brioche. Il signor Moretti legge il giornale e beve il caffè lentamente.\n\nAl bar incontra i suoi amici. Parlano di politica, di sport e del tempo. Alle nove il signor Moretti paga e va al lavoro. Dice sempre: "Il caffè è il mio piccolo rito del mattino!"',
+    vocab: [
+      { word: 'il barista', meaning: 'the bartender' },
+      { word: 'la brioche', meaning: 'the croissant / sweet bun' },
+      { word: 'lentamente', meaning: 'slowly' },
+      { word: 'il rito', meaning: 'the ritual' },
+      { word: 'paga', meaning: 'he/she pays (pagare)' },
+      { word: 'il tempo', meaning: 'the weather' },
+    ],
+    translation:
+      'Mr. Moretti goes to the same bar every day. The bartender knows him and already knows what he wants: a cappuccino and a brioche. Mr. Moretti reads the newspaper and drinks his coffee slowly.\n\nAt the bar he meets his friends. They talk about politics, sport and the weather. At nine Mr. Moretti pays and goes to work. He always says: "Coffee is my little morning ritual!"',
+    questions: [
+      {
+        question: 'Where does Mr. Moretti go every day?',
+        options: ['To the same bar', 'To a different café', 'To the office'],
+        answer: 'To the same bar',
+        explanation: '"Il signor Moretti va ogni giorno allo stesso bar."',
+      },
+      {
+        question: 'What does the barista already know?',
+        options: ['What he wants: a cappuccino and a brioche', 'His name', 'His job'],
+        answer: 'What he wants: a cappuccino and a brioche',
+        explanation: '"sa già cosa vuole: un cappuccino e una brioche."',
+      },
+      {
+        question: 'What do the friends talk about?',
+        options: ['Politics, sport and the weather', 'Their jobs only', 'Football only'],
+        answer: 'Politics, sport and the weather',
+        explanation: '"Parlano di politica, di sport e del tempo."',
+      },
+      {
+        question: 'What happens at nine?',
+        options: ['He pays and goes to work', 'He drinks a second coffee', 'He goes home'],
+        answer: 'He pays and goes to work',
+        explanation: '"Alle nove il signor Moretti paga e va al lavoro."',
+      },
+      {
+        question: '"Il caffè è il mio piccolo rito" — which verb means "it is"?',
+        options: ['è', 'va', 'beve'],
+        answer: 'è',
+        explanation: 'è = is, from essere.',
+      },
+      {
+        question: 'Write one sentence in Italian about a daily morning routine of yours (using the present tense).',
+        type: 'text',
+        acceptedAnswers: [],
+        answer: 'Write any correct sentence in Italian.',
+        explanation: 'Example: "La mattina leggo il giornale e bevo un caffè." Any correct present-tense sentence is accepted.',
+      },
+    ],
+  },
+
+  // STORY 11 — Al supermercato (Exercise 37)
+  {
+    id: 37,
+    level: 'Level 6 — Reading and Stories',
+    title: 'Story: Al supermercato',
+    instruction: 'Read the story, then answer the comprehension questions.',
+    type: 'story',
+    storyTitle: 'Story 11 — At the Supermarket',
+    story:
+      'Ogni venerdì sera, Elena e suo marito vanno al supermercato. Elena scrive una lista: la pasta, il pomodoro, il pane, il latte e i biscotti. Al negozio leggono le etichette e cercano le offerte.\n\nMentre Elena confronta i prezzi, suo marito mette le cose nel carrello. Alla cassa, la cassiera sorride e dice buonasera. Pagano con la carta e tornano a casa. La lista è troppo lunga, ma per loro è una piccola ma piacevole abitudine.',
+    vocab: [
+      { word: 'la lista', meaning: 'the list' },
+      { word: 'le etichette', meaning: 'the labels' },
+      { word: 'le offerte', meaning: 'the offers' },
+      { word: 'i prezzi', meaning: 'the prices' },
+      { word: 'il carrello', meaning: 'the trolley' },
+      { word: 'la cassiera', meaning: 'the checkout assistant' },
+    ],
+    translation:
+      'Every Friday evening, Elena and her husband go to the supermarket. Elena writes a list: pasta, tomatoes, bread, milk and biscuits. At the shop they read the labels and look for offers.\n\nWhile Elena compares prices, her husband puts things in the trolley. At the checkout the assistant smiles and says good evening. They pay by card and go home. The list is too long, but for them it is a small but pleasant habit.',
+    questions: [
+      {
+        question: 'When do Elena and her husband go to the supermarket?',
+        options: ['Every Friday evening', 'Every Monday morning', 'Only on holidays'],
+        answer: 'Every Friday evening',
+        explanation: '"Ogni venerdì sera, Elena e suo marito vanno al supermercato."',
+      },
+      {
+        question: 'Who writes the shopping list?',
+        options: ['Elena', 'Her husband', 'The checkout assistant'],
+        answer: 'Elena',
+        explanation: '"Elena scrive una lista."',
+      },
+      {
+        question: 'What does Elena do while her husband fills the trolley?',
+        options: ['Compares prices', 'Talks on the phone', 'Reads a book'],
+        answer: 'Compares prices',
+        explanation: '"Mentre Elena confronta i prezzi, suo marito mette le cose nel carrello."',
+      },
+      {
+        question: 'How do they pay?',
+        options: ['By card', 'By cash', 'By phone'],
+        answer: 'By card',
+        explanation: '"Pagano con la carta."',
+      },
+      {
+        question: '"mette le cose nel carrello" — "mette" is the present of which verb?',
+        options: ['mettere', 'mangiare', 'parlare'],
+        answer: 'mettere',
+        explanation: 'mettere (to put): io metto, lui/lei mette.',
+      },
+      {
+        question: 'Write one sentence about where you do your weekly shopping, using the present tense.',
+        type: 'text',
+        acceptedAnswers: [],
+        answer: 'Write any correct sentence in Italian.',
+        explanation: 'Example: "Faccio la spesa al supermercato vicino a casa." Any correct sentence is accepted.',
+      },
+    ],
+  },
+
+  // STORY 12 — I piatti della nonna (Exercise 38)
+  {
+    id: 38,
+    level: 'Level 6 — Reading and Stories',
+    title: 'Story: I piatti della nonna',
+    instruction: 'Read the story, then answer the comprehension questions.',
+    type: 'story',
+    storyTitle: 'Story 12 — Grandma\'s Recipes',
+    story:
+      'La nonna Maria cucina da cinquant\'anni. Ogni domenica prepara il pranzo per tutta la famiglia: le lasagne, l\'arrosto e il tiramisù. Il segreto? Usa pochi ingredienti ma buonissimi.\n\nMentre cucina, la nonna mette la musica e canta. Mia madre l\'aiuta in cucina e io apparecchio la tavola. La nonna dice: "Il cibo è amore!" Nessuno resiste ai suoi piatti.',
+    vocab: [
+      { word: 'le lasagne', meaning: 'lasagne' },
+      { word: 'l\'arrosto', meaning: 'the roast' },
+      { word: 'gli ingredienti', meaning: 'the ingredients' },
+      { word: 'apparecchio la tavola', meaning: 'I set the table' },
+      { word: 'resiste', meaning: 'he/she resists (resistere)' },
+      { word: 'il segreto', meaning: 'the secret' },
+    ],
+    translation:
+      'Grandma Maria has been cooking for fifty years. Every Sunday she prepares lunch for the whole family: lasagne, roast and tiramisù. The secret? She uses few but excellent ingredients.\n\nWhile she cooks, Grandma puts on music and sings. My mother helps her in the kitchen and I set the table. Grandma says: "Food is love!" Nobody can resist her dishes.',
+    questions: [
+      {
+        question: 'How long has Grandma Maria been cooking?',
+        options: ['For fifty years', 'For five years', 'For fifteen years'],
+        answer: 'For fifty years',
+        explanation: '"La nonna Maria cucina da cinquant\'anni."',
+      },
+      {
+        question: 'What does Grandma prepare every Sunday?',
+        options: ['Lasagne, roast and tiramisù', 'Pizza and salad', 'Soup only'],
+        answer: 'Lasagne, roast and tiramisù',
+        explanation: '"le lasagne, l\'arrosto e il tiramisù."',
+      },
+      {
+        question: 'What is her secret?',
+        options: ['Few but excellent ingredients', 'Very expensive ingredients', 'A special oven'],
+        answer: 'Few but excellent ingredients',
+        explanation: '"Usa pochi ingredienti ma buonissimi."',
+      },
+      {
+        question: 'What does Grandma do while she cooks?',
+        options: ['Puts on music and sings', 'Watches TV', 'Talks on the phone'],
+        answer: 'Puts on music and sings',
+        explanation: '"la nonna mette la musica e canta."',
+      },
+      {
+        question: '"l\'aiuta in cucina" — "aiuta" refers to whom?',
+        options: ['Grandma (the mother helps her)', 'The narrator', 'The father'],
+        answer: 'Grandma (the mother helps her)',
+        explanation: '"Mia madre l\'aiuta (aiuta la nonna) in cucina."',
+      },
+      {
+        question: 'Write one sentence about a traditional dish of your family.',
+        type: 'text',
+        acceptedAnswers: [],
+        answer: 'Write any correct sentence in Italian.',
+        explanation: 'Example: "Mia nonna prepara la pasta al forno." Any correct present-tense sentence is accepted.',
+      },
+    ],
+  },
+
+  // STORY 13 — Al parco nel weekend (Exercise 39)
+  {
+    id: 39,
+    level: 'Level 6 — Reading and Stories',
+    title: 'Story: Al parco nel weekend',
+    instruction: 'Read the story, then answer the comprehension questions.',
+    type: 'story',
+    storyTitle: 'Story 13 — At the Park at the Weekend',
+    story:
+      'Nel fine settimana, il parco si riempie di vita. Le famiglie fanno un picnic sull\'erba, i bambini giocano a calcio e i cani corrono felici. Le coppie passeggiano lungo il lago e molti leggono sotto gli alberi.\n\nIo e i miei amici veniamo qui quasi sempre. Portiamo la chitarra, cantiamo e parliamo fino a sera. Quando il sole tramonta, torniamo a casa contenti. Il parco è il nostro posto del cuore.',
+    vocab: [
+      { word: 'si riempie', meaning: 'it fills up (riempirsi)' },
+      { word: 'un picnic', meaning: 'a picnic' },
+      { word: 'passeggiano', meaning: 'they stroll (passeggiare)' },
+      { word: 'gli alberi', meaning: 'the trees' },
+      { word: 'la chitarra', meaning: 'the guitar' },
+      { word: 'tramonta', meaning: 'it sets (tramontare)' },
+    ],
+    translation:
+      'At the weekend, the park fills with life. Families have a picnic on the grass, children play football and happy dogs run around. Couples stroll along the lake and many people read under the trees.\n\nMy friends and I come here almost always. We bring the guitar, sing and talk until evening. When the sun sets, we go home happy. The park is our place of the heart.',
+    questions: [
+      {
+        question: 'What do families do in the park?',
+        options: ['Have a picnic on the grass', 'Go fishing', 'Ride bikes'],
+        answer: 'Have a picnic on the grass',
+        explanation: '"Le famiglie fanno un picnic sull\'erba."',
+      },
+      {
+        question: 'What do children do?',
+        options: ['Play football', 'Swim', 'Read'],
+        answer: 'Play football',
+        explanation: '"i bambini giocano a calcio."',
+      },
+      {
+        question: 'Who strolls along the lake?',
+        options: ['Couples', 'Grandparents', 'The dogs'],
+        answer: 'Couples',
+        explanation: '"Le coppie passeggiano lungo il lago."',
+      },
+      {
+        question: 'When do the friends go home?',
+        options: ['When the sun sets', 'At noon', 'In the early morning'],
+        answer: 'When the sun sets',
+        explanation: '"Quando il sole tramonta, torniamo a casa."',
+      },
+      {
+        question: '"torniamo a casa contenti" — "contenti" refers to...?',
+        options: ['We (the friends)', 'The dogs', 'The children'],
+        answer: 'We (the friends)',
+        explanation: 'torniamo (we return) ... contenti (happy) — the narrator and his/her friends.',
+      },
+      {
+        question: 'Write one sentence about what you like to do at the weekend.',
+        type: 'text',
+        acceptedAnswers: [],
+        answer: 'Write any correct sentence in Italian.',
+        explanation: 'Example: "Nel weekend vado al parco con gli amici." Any correct present-tense sentence is accepted.',
+      },
+    ],
+  },
+
+  // STORY 14 — La mia giornata tipo (Exercise 40)
+  {
+    id: 40,
+    level: 'Level 6 — Reading and Stories',
+    title: 'Story: La mia giornata tipo',
+    instruction: 'Read the story, then answer the comprehension questions.',
+    type: 'story',
+    storyTitle: 'Story 14 — A Typical Day',
+    story:
+      'La mia giornata inizia alle sei e mezza. Faccio colazione, preparo lo zaino e vado a scuola in bici. Io studio al liceo e amo soprattutto la storia e l\'inglese.\n\nAlle otto entra la professoressa e cominciano le lezioni. Durante l\'intervallo parlo con gli amici e mangio una merenda. A mezzogiorno finisco a scuola e torno a casa. Nel pomeriggio faccio i compiti, suono la chitarra e leggo un po\'. La sera sono stanco ma felice.',
+    vocab: [
+      { word: 'lo zaino', meaning: 'the backpack' },
+      { word: 'il liceo', meaning: 'the high school' },
+      { word: 'l\'intervallo', meaning: 'the break' },
+      { word: 'la merenda', meaning: 'the snack' },
+      { word: 'i compiti', meaning: 'the homework' },
+      { word: 'suono la chitarra', meaning: 'I play the guitar' },
+    ],
+    translation:
+      'My day starts at six thirty. I have breakfast, pack my backpack and go to school by bike. I study at high school and I especially love history and English.\n\nAt eight the teacher comes in and the lessons begin. During the break I talk with my friends and eat a snack. At midday school finishes and I go home. In the afternoon I do my homework, play the guitar and read a bit. In the evening I am tired but happy.',
+    questions: [
+      {
+        question: 'When does the day start?',
+        options: ['At six thirty', 'At eight', 'At noon'],
+        answer: 'At six thirty',
+        explanation: '"La mia giornata inizia alle sei e mezza."',
+      },
+      {
+        question: 'How does the narrator go to school?',
+        options: ['By bike', 'By bus', 'On foot'],
+        answer: 'By bike',
+        explanation: '"vado a scuola in bici."',
+      },
+      {
+        question: 'Which subjects does the narrator love?',
+        options: ['History and English', 'Maths and Physics', 'Art and Music'],
+        answer: 'History and English',
+        explanation: '"amo soprattutto la storia e l\'inglese."',
+      },
+      {
+        question: 'What happens during the break?',
+        options: ['The narrator talks with friends and eats a snack', 'The lessons start', 'The narrator sleeps'],
+        answer: 'The narrator talks with friends and eats a snack',
+        explanation: '"Durante l\'intervallo parlo con gli amici e mangio una merenda."',
+      },
+      {
+        question: 'What does the narrator do in the afternoon?',
+        options: ['Homework, guitar and reading', 'Sleeps all afternoon', 'Plays videogames only'],
+        answer: 'Homework, guitar and reading',
+        explanation: '"faccio i compiti, suono la chitarra e leggo un po\'."',
+      },
+      {
+        question: 'Write one sentence in Italian about your typical day.',
+        type: 'text',
+        acceptedAnswers: [],
+        answer: 'Write any correct sentence in Italian.',
+        explanation: 'Example: "La mia giornata comincia alle sette." Any correct present-tense sentence is accepted.',
+      },
+    ],
+  },
+
+  // STORY 15 — Sul treno (Exercise 41)
+  {
+    id: 41,
+    level: 'Level 6 — Reading and Stories',
+    title: 'Story: Sul treno',
+    instruction: 'Read the story, then answer the comprehension questions.',
+    type: 'story',
+    storyTitle: 'Story 15 — On the Train',
+    story:
+      'Ogni mattina prendo il treno per andare al lavoro. Il viaggio dura mezz\'ora. All\'inizio la folla mi infastidiva, ma adesso mi piace: osservo le persone e invento le loro storie.\n\nLa signora in rosso legge un romanzo. Il ragazzo con gli auricolari ascolta la musica e muove la testa. Un signore dorme con il giornale in mano. Poi arriva la mia fermata e scendo. Ogni giorno è un piccolo film.',
+    vocab: [
+      { word: 'la folla', meaning: 'the crowd' },
+      { word: 'osservo', meaning: 'I observe (osservare)' },
+      { word: 'invento', meaning: 'I invent (inventare)' },
+      { word: 'gli auricolari', meaning: 'the earphones' },
+      { word: 'la fermata', meaning: 'the stop' },
+      { word: 'scendo', meaning: 'I get off (scendere)' },
+    ],
+    translation:
+      'Every morning I take the train to go to work. The journey lasts half an hour. At first the crowd annoyed me, but now I like it: I observe the people and invent their stories.\n\nThe lady in red reads a novel. The boy with earphones listens to music and moves his head. A man sleeps with the newspaper in his hand. Then my stop arrives and I get off. Every day is a little film.',
+    questions: [
+      {
+        question: 'How long does the journey last?',
+        options: ['Half an hour', 'Two hours', 'Ten minutes'],
+        answer: 'Half an hour',
+        explanation: '"Il viaggio dura mezz\'ora."',
+      },
+      {
+        question: 'What does the narrator do on the train?',
+        options: ['Observes people and invents their stories', 'Reads the newspaper', 'Sleeps'],
+        answer: 'Observes people and invents their stories',
+        explanation: '"osservo le persone e invento le loro storie."',
+      },
+      {
+        question: 'What does the lady in red do?',
+        options: ['Reads a novel', 'Listens to music', 'Sleeps'],
+        answer: 'Reads a novel',
+        explanation: '"La signora in rosso legge un romanzo."',
+      },
+      {
+        question: 'What does the boy with earphones do?',
+        options: ['Listens to music and moves his head', 'Reads a book', 'Talks on the phone'],
+        answer: 'Listens to music and moves his head',
+        explanation: '"il ragazzo con gli auricolari ascolta la musica e muove la testa."',
+      },
+      {
+        question: '"scendo" is the present of which verb?',
+        options: ['scendere', 'salire', 'sentire'],
+        answer: 'scendere',
+        explanation: 'scendere (to get off / go down): io scendo.',
+      },
+      {
+        question: 'Write one sentence about what you observe during a commute or a trip.',
+        type: 'text',
+        acceptedAnswers: [],
+        answer: 'Write any correct sentence in Italian.',
+        explanation: 'Example: "Sul treno leggo o ascolto la musica." Any correct present-tense sentence is accepted.',
+      },
+    ],
+  },
+
+  // STORY 16 — Allo stadio (Exercise 42)
+  {
+    id: 42,
+    level: 'Level 6 — Reading and Stories',
+    title: 'Story: Allo stadio',
+    instruction: 'Read the story, then answer the comprehension questions.',
+    type: 'story',
+    storyTitle: 'Story 16 — At the Stadium',
+    story:
+      'La squadra della nostra città gioca in casa sabato. Lo stadio è pieno di tifosi che agitano le bandiere e cantano. Io vado sempre con mio padre: per lui il calcio è una religione.\n\nDurante la partita tutti urlano. Quando la squadra segna, il pubblico esplode in un urlo di gioia. Mio padre salta e mi abbraccia. Se la squadra perde, invece, nessuno parla. Ma noi ci divertiamo lo stesso: è la nostra tradizione.',
+    vocab: [
+      { word: 'i tifosi', meaning: 'the fans' },
+      { word: 'le bandiere', meaning: 'the flags' },
+      { word: 'una religione', meaning: 'a religion' },
+      { word: 'segna', meaning: 'he/she scores (segnare)' },
+      { word: 'esplode', meaning: 'he/she explodes (esplodere)' },
+      { word: 'perde', meaning: 'he/she loses (perdere)' },
+    ],
+    translation:
+      'Our city\'s team plays at home on Saturday. The stadium is full of fans who wave flags and sing. I always go with my father: for him football is a religion.\n\nDuring the match everyone shouts. When the team scores, the crowd explodes with a cry of joy. My father jumps and hugs me. If the team loses, instead, nobody talks. But we enjoy ourselves anyway: it is our tradition.',
+    questions: [
+      {
+        question: 'What do the fans do?',
+        options: ['Wave flags and sing', 'Read newspapers', 'Sell food'],
+        answer: 'Wave flags and sing',
+        explanation: '"tifosi che agitano le bandiere e cantano."',
+      },
+      {
+        question: 'Who does the narrator always go to the stadium with?',
+        options: ['With his father', 'With his friends', 'With his brother'],
+        answer: 'With his father',
+        explanation: '"Io vado sempre con mio padre."',
+      },
+      {
+        question: 'What happens when the team scores?',
+        options: ['The crowd explodes with joy', 'Everyone goes home', 'The stadium goes silent'],
+        answer: 'The crowd explodes with joy',
+        explanation: '"il pubblico esplode in un urlo di gioia."',
+      },
+      {
+        question: 'What happens if the team loses?',
+        options: ['Nobody talks', 'They sing louder', 'They change teams'],
+        answer: 'Nobody talks',
+        explanation: '"Se la squadra perde, invece, nessuno parla."',
+      },
+      {
+        question: '"per lui il calcio è una religione" — what does "per lui" mean?',
+        options: ['for him', 'for her', 'for us'],
+        answer: 'for him',
+        explanation: 'per lui = for him (the father), a fixed phrase with per.',
+      },
+      {
+        question: 'Write one sentence about a sport or hobby you practice or watch regularly.',
+        type: 'text',
+        acceptedAnswers: [],
+        answer: 'Write any correct sentence in Italian.',
+        explanation: 'Example: "La domenica guardo la partita con mio padre." Any correct sentence is accepted.',
+      },
+    ],
+  },
+
+  // STORY 17 — Dal dentista (Exercise 43)
+  {
+    id: 43,
+    level: 'Level 6 — Reading and Stories',
+    title: 'Story: Dal dentista',
+    instruction: 'Read the story, then answer the comprehension questions.',
+    type: 'story',
+    storyTitle: 'Story 17 — At the Dentist',
+    story:
+      'Oggi vado dal dentista: mi fa male un dente. La mia visita è alle dieci. Quando entro nello studio, sento il tipico profumo di disinfettante e il mio cuore batte forte.\n\nIl dentista è gentile e mi tranquillizza. "Apri la bocca, per favore," dice con calma. Dopo un controllo veloce, mi spiega che devo usare il filo interdentale. Esco sollevato: nessun buco!',
+    vocab: [
+      { word: 'mi fa male', meaning: 'it hurts me' },
+      { word: 'lo studio', meaning: 'the surgery / office' },
+      { word: 'batte forte', meaning: 'beats strongly' },
+      { word: 'mi tranquillizza', meaning: 'he/she reassures me' },
+      { word: 'il filo interdentale', meaning: 'the dental floss' },
+      { word: 'sollevato', meaning: 'relieved' },
+    ],
+    translation:
+      'Today I go to the dentist: a tooth hurts me. My appointment is at ten. When I enter the surgery, I smell the typical smell of disinfectant and my heart beats strongly.\n\nMy dentist is kind and reassures me. "Open your mouth, please," he says calmly. After a quick check, he explains that I have to use dental floss. I leave relieved: no cavity!',
+    questions: [
+      {
+        question: 'Why does the narrator go to the dentist?',
+        options: ['A tooth hurts', 'He has a headache', 'He needs a check-up for work'],
+        answer: 'A tooth hurts',
+        explanation: '"mi fa male un dente."',
+      },
+      {
+        question: 'What time is the appointment?',
+        options: ['At ten', 'At eight', 'At twelve'],
+        answer: 'At ten',
+        explanation: '"La mia visita è alle dieci."',
+      },
+      {
+        question: 'What does the narrator feel when entering the surgery?',
+        options: ['The smell of disinfectant and a beating heart', 'A headache', 'Cold'],
+        answer: 'The smell of disinfectant and a beating heart',
+        explanation: '"sento il tipico profumo di disinfettante e il mio cuore batte forte."',
+      },
+      {
+        question: 'What must the narrator use?',
+        options: ['Dental floss', 'A new toothbrush', 'Mouthwash'],
+        answer: 'Dental floss',
+        explanation: '"devo usare il filo interdentale."',
+      },
+      {
+        question: 'How does the narrator leave?',
+        options: ['Relieved, with no cavity', 'Worried', 'Angry'],
+        answer: 'Relieved, with no cavity',
+        explanation: '"Esco sollevato: nessun buco!"',
+      },
+      {
+        question: 'Write one sentence in Italian about what you do when you have a health problem.',
+        type: 'text',
+        acceptedAnswers: [],
+        answer: 'Write any correct sentence in Italian.',
+        explanation: 'Example: "Quando ho mal di testa, prendo una medicina." Any correct present-tense sentence is accepted.',
+      },
+    ],
+  },
+
+  // STORY 18 — Shopping in centro (Exercise 44)
+  {
+    id: 44,
+    level: 'Level 6 — Reading and Stories',
+    title: 'Story: Shopping in centro',
+    instruction: 'Read the story, then answer the comprehension questions.',
+    type: 'story',
+    storyTitle: 'Story 18 — Shopping in the Centre',
+    story:
+      'Sabato pomeriggio, io e mia sorella andiamo a fare shopping in centro. I negozi sono pieni di vetrine colorate. Prima compriamo un regalo per nostra madre, poi cerchiamo una maglietta per me.\n\nIo provo tre taglie diverse. Mia sorella dice che il blu mi sta meglio. Alla fine scelgo la maglietta blu e paghiamo alla cassa. Prendiamo anche un gelato al volo e torniamo a casa soddisfatte.',
+    vocab: [
+      { word: 'le vetrine', meaning: 'the shop windows' },
+      { word: 'il regalo', meaning: 'the gift' },
+      { word: 'la maglietta', meaning: 'the t-shirt' },
+      { word: 'le taglie', meaning: 'the sizes' },
+      { word: 'mi sta meglio', meaning: 'it suits me better' },
+      { word: 'soddisfatte', meaning: 'satisfied (feminine plural)' },
+    ],
+    translation:
+      'On Saturday afternoon my sister and I go shopping in the centre. The shops are full of colourful windows. First we buy a gift for our mother, then we look for a t-shirt for me.\n\nI try three different sizes. My sister says that blue suits me better. In the end I choose the blue t-shirt and we pay at the cash desk. We also grab a gelato and go home satisfied.',
+    questions: [
+      {
+        question: 'When do the sisters go shopping?',
+        options: ['On Saturday afternoon', 'On Sunday morning', 'On Friday evening'],
+        answer: 'On Saturday afternoon',
+        explanation: '"Sabato pomeriggio, io e mia sorella andiamo a fare shopping."',
+      },
+      {
+        question: 'What do they buy first?',
+        options: ['A gift for their mother', 'A t-shirt', 'A gelato'],
+        answer: 'A gift for their mother',
+        explanation: '"Prima compriamo un regalo per nostra madre."',
+      },
+      {
+        question: 'What are the sisters looking for for the narrator?',
+        options: ['A t-shirt', 'A pair of shoes', 'A bag'],
+        answer: 'A t-shirt',
+        explanation: '"poi cerchiamo una maglietta per me."',
+      },
+      {
+        question: 'Which colour suits the narrator better according to her sister?',
+        options: ['Blue', 'Red', 'Green'],
+        answer: 'Blue',
+        explanation: '"il blu mi sta meglio."',
+      },
+      {
+        question: 'How do they end the afternoon?',
+        options: ['With a gelato, going home satisfied', 'With another shop', 'With a coffee'],
+        answer: 'With a gelato, going home satisfied',
+        explanation: '"Prendiamo anche un gelato al volo e torniamo a casa soddisfatte."',
+      },
+      {
+        question: 'Write one sentence about shopping with someone you like.',
+        type: 'text',
+        acceptedAnswers: [],
+        answer: 'Write any correct sentence in Italian.',
+        explanation: 'Example: "Con la mia amica andiamo spesso in centro." Any correct present-tense sentence is accepted.',
+      },
+    ],
+  },
+
+  // STORY 19 — La nuova collega (Exercise 45)
+  {
+    id: 45,
+    level: 'Level 6 — Reading and Stories',
+    title: 'Read and Answer in Italian: La nuova collega',
+    instruction: 'Read the story, then answer the questions IN ITALIAN. Type full sentences.',
+    type: 'story',
+    storyTitle: 'Story 19 — The New Colleague',
+    story:
+      'All\'ufficio c\'è una nuova collega: si chiama Paola. Ogni giorno arriva alle otto e mezza, saluta tutti con un sorriso e accende il computer. Lei lavora con ordine, risponde al telefono e partecipa alle riunioni.\n\nLa pausa caffè la passiamo insieme: Paola ride spesso e racconta tante storie divertenti. Quando ha un problema, chiede subito aiuto e non si vergogna mai. Tutti all\'ufficio la stimano molto. Lei dice sempre che la squadra è la cosa più importante.',
+    vocab: [
+      { word: 'la collega', meaning: 'the (female) colleague' },
+      { word: 'accende', meaning: 'he/she turns on (accendere)' },
+      { word: 'con ordine', meaning: 'in an orderly way' },
+      { word: 'la pausa', meaning: 'the break' },
+      { word: 'si vergogna', meaning: 'he/she feels ashamed (vergognarsi)' },
+      { word: 'la stimano', meaning: 'they esteem her (stimare)' },
+    ],
+    translation:
+      'At the office there is a new colleague: her name is Paola. Every day she arrives at eight thirty, greets everyone with a smile and switches on the computer. She works in an orderly way, answers the phone and takes part in the meetings.\n\nWe spend the coffee break together: Paola often laughs and tells many funny stories. When she has a problem, she immediately asks for help and is never ashamed. Everyone at the office esteems her a lot. She always says that the team is the most important thing.',
+    questions: [
+      {
+        question: 'Come si chiama la nuova collega? (What is the new colleague\'s name?)',
+        type: 'text',
+        acceptedAnswers: ['paola', 'si chiama paola', 'la nuova collega si chiama paola', 'il suo nome è paola'],
+        answer: 'Si chiama Paola.',
+        explanation: 'The story says: "si chiama Paola."',
+      },
+      {
+        question: 'Quando arriva ogni giorno? (When does she arrive every day?)',
+        type: 'text',
+        acceptedAnswers: ['alle otto e mezza', 'arriva alle otto e mezza', 'alle otto e trenta'],
+        answer: 'Arriva alle otto e mezza.',
+        explanation: 'The story says: "Ogni giorno arriva alle otto e mezza."',
+      },
+      {
+        question: 'Cosa fa nella pausa caffè? (What does she do during the coffee break?)',
+        type: 'text',
+        acceptedAnswers: ['ride e racconta storie', 'ride spesso e racconta storie divertenti', 'racconta storie divertenti', 'ride', 'lavora', 'parla con i colleghi'],
+        answer: 'Nella pausa caffè ride e racconta storie divertenti.',
+        explanation: 'The story says: "Paola ride spesso e racconta tante storie divertenti."',
+      },
+      {
+        question: 'Cosa fa quando ha un problema? (What does she do when she has a problem?)',
+        type: 'text',
+        acceptedAnswers: ['chiede aiuto', 'chiede subito aiuto', 'chiede aiuto e non si vergogna', 'aiuta i colleghi'],
+        answer: 'Quando ha un problema chiede subito aiuto.',
+        explanation: 'The story says: "Quando ha un problema, chiede subito aiuto."',
+      },
+      {
+        question: 'Cosa dice che è la cosa più importante? (What does she say is the most important thing?)',
+        type: 'text',
+        acceptedAnswers: ['la squadra', 'dice che la squadra è la cosa più importante', 'che la squadra è la cosa più importante', 'la cosa più importante è la squadra'],
+        answer: 'Dice che la squadra è la cosa più importante.',
+        explanation: 'The story says: "Lei dice sempre che la squadra è la cosa più importante."',
+      },
+      {
+        question: 'Trova due verbi al presente nella storia. (Find two present-tense verbs in the story.)',
+        type: 'text',
+        acceptedAnswers: [],
+        answer: 'Any two, e.g. arriva, saluta, lavora, risponde, partecipa, ride, racconta, chiede, stima.',
+        explanation: 'Examples: arriva, saluta, lavora, risponde, partecipa, ride, racconta, chiede, stima.',
+      },
+    ],
+  },
+
   // Exercise 30 — Final Mastery Test
   {
     id: 30,
