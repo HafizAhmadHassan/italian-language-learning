@@ -125,13 +125,22 @@ export default function VocabularyPage() {
           custom={0}
           className="mb-6"
         >
-          <div className="flex items-center gap-3 mb-1">
-            <div className="w-10 h-10 rounded-xl bg-italian-green/10 flex items-center justify-center">
-              <BookOpen size={20} className="text-italian-green" />
+          <div className="flex items-center justify-between gap-3 mb-1">
+            <div className="flex items-center gap-3">
+              <div className="w-10 h-10 rounded-xl bg-italian-green/10 flex items-center justify-center">
+                <BookOpen size={20} className="text-italian-green" />
+              </div>
+              <h1 className="font-heading text-2xl md:text-3xl font-bold text-italian-charcoal dark:text-white">
+                Vocabulary
+              </h1>
             </div>
-            <h1 className="font-heading text-2xl md:text-3xl font-bold text-italian-charcoal dark:text-white">
-              Vocabulary
-            </h1>
+            <Link
+              to="/flashcards"
+              className="shrink-0 flex items-center gap-2 px-4 py-2 rounded-xl bg-italian-gold text-white text-sm font-semibold shadow-md shadow-italian-gold/20 hover:bg-italian-gold/90 hover:shadow-lg transition-all duration-200"
+            >
+              <Sparkles size={16} />
+              Flashcards
+            </Link>
           </div>
           <p className="text-sm text-gray-500 dark:text-gray-400 mt-1">
             {learnedCount} of {vocabulary.length} words learned
