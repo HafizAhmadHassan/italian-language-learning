@@ -19,6 +19,8 @@ import FuturoLesson from './pages/Grammar/Futuro';
 import PreposizioniLesson from './pages/Grammar/Preposizioni';
 import VerbiIrregolariLesson from './pages/Grammar/VerbiIrregolari';
 import Practice from './pages/Practice';
+import Conversation from './pages/Conversation';
+import Dialogue from './pages/Conversation/Dialogue';
 import Progress from './pages/Progress';
 import Settings from './pages/Settings';
 import storage from './services/storage';
@@ -64,6 +66,8 @@ function App() {
           <Route path="/grammar/preposizioni" element={<PreposizioniLesson />} />
           <Route path="/grammar/verbi-irregolari" element={<VerbiIrregolariLesson />} />
           <Route path="/practice" element={<Practice />} />
+          <Route path="/conversation" element={<Conversation />} />
+          <Route path="/conversation/:id" element={<Dialogue />} />
           <Route path="/progress" element={<Progress />} />
           <Route path="/settings" element={<Settings />} />
         </Route>

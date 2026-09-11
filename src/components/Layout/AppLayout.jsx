@@ -9,6 +9,7 @@ import {
   Trophy,
   GraduationCap,
   Mic,
+  MessagesSquare,
   LogOut,
   User,
   Sun,
@@ -24,6 +25,7 @@ const desktopNavItems = [
   { to: '/vocabulary', label: 'Vocabulary', icon: BookOpen },
   { to: '/grammar', label: 'Grammar', icon: MessageSquare },
   { to: '/practice', label: 'Practice', icon: Mic },
+  { to: '/conversation', label: 'Conversation', icon: MessagesSquare },
   { to: '/progress', label: 'Progress', icon: BarChart3 },
   { to: '/settings', label: 'Settings', icon: Settings },
 ];
@@ -34,6 +36,7 @@ const mobileNavItems = [
   { to: '/vocabulary', label: 'Vocab', icon: BookOpen },
   { to: '/grammar', label: 'Grammar', icon: MessageSquare },
   { to: '/practice', label: 'Practice', icon: Mic },
+  { to: '/conversation', label: 'Conv', icon: MessagesSquare },
   { to: '/progress', label: 'Progress', icon: BarChart3 },
   { to: '/settings', label: 'Profile', icon: User },
 ];

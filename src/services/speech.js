@@ -1,5 +1,76 @@
 let recognition = null;
 
+function normalize(text) {
+  return text
+    .toLowerCase()
+    .trim()
+    .replace(/[.,!?;:'"—"«»]/g, '')
+    .replace(/\s+/g, ' ')
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .trim();
+}
+
+function levenshteinDistance(a, b) {
+  const matrix = Array.from({ length: a.length + 1 }, () =>
+    Array(b.length + 1).fill(0)
+  );
+  for (let i = 0; i <= a.length; i++) matrix[i][0] = i;
+  for (let j = 0; j <= b.length; j++) matrix[0][j] = j;
+  for (let i = 1; i <= a.length; i++) {
+    for (let j = 1; j <= b.length; j++) {
+      matrix[i][j] = Math.min(
+        matrix[i - 1][j] + 1,
+        matrix[i][j - 1] + 1,
+        matrix[i - 1][j - 1] + (a[i - 1] === b[j - 1] ? 0 : 1)
+      );
+    }
+  }
+  return matrix[a.length][b.length];
+}
+
+function sequenceSimilarity(a, b) {
+  const maxLen = Math.max(a.length, b.length);
+  if (maxLen === 0) return 1;
+  const distance = levenshteinDistance(a, b);
+  return 1 - distance / maxLen;
+}
+
+function wordOverlap(a, b) {
+  const aWords = new Set(a.split(' ').filter(Boolean));
+  const bWords = new Set(b.split(' ').filter(Boolean));
+  if (aWords.size === 0 && bWords.size === 0) return 1;
+  const union = new Set([...aWords, ...bWords]);
+  const intersection = new Set(
+    [...aWords].filter((word) => bWords.has(word))
+  );
+  return intersection.size / union.size;
+}
+
+function calculateSimilarity(spoken, expected) {
+  const seqScore = sequenceSimilarity(spoken, expected);
+  const overlapScore = wordOverlap(spoken, expected);
+  return seqScore * 0.7 + overlapScore * 0.3;
+}
+
+export function matchSpeech(transcript, acceptedResponses) {
+  const spoken = normalize(transcript);
+
+  let bestMatch = { score: 0, response: null };
+
+  for (const response of acceptedResponses) {
+    const expected = normalize(response.text);
+    const rawScore = calculateSimilarity(spoken, expected);
+    const weightedScore = rawScore * (response.weight || 1);
+
+    if (weightedScore > bestMatch.score) {
+      bestMatch = { score: weightedScore, response };
+    }
+  }
+
+  return bestMatch;
+}
+
 export function isSupported() {
   return (
     typeof window !== 'undefined' &&
