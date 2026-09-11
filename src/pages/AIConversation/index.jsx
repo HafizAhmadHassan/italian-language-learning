@@ -84,8 +84,10 @@ export default function AIConversation() {
   const [activeProvider, setActiveProvider] = useState(getProviderIds()[0]);
   const [apiKey, setApiKey] = useState('');
   const [model, setModel] = useState(() => {
-    const saved = getModel(getProviderIds()[0]);
-    return saved || getAvailableModels(getProviderIds()[0])[0]?.id || '';
+    const first = getProviderIds()[0];
+    const models = getAvailableModels(first);
+    const saved = getModel(first);
+    return models.some((m) => m.id === saved) ? saved : models[0]?.id || '';
   });
   const [testing, setTesting] = useState(false);
   const [status, setStatus] = useState(null);
@@ -105,8 +107,9 @@ export default function AIConversation() {
 
   const handleProviderChange = (id) => {
     setActiveProvider(id);
+    const models = getAvailableModels(id);
     const savedModel = getModel(id);
-    setModel(savedModel || getAvailableModels(id)[0]?.id || '');
+    setModel(models.some((m) => m.id === savedModel) ? savedModel : models[0]?.id || '');
     setApiKey('');
     setStatus(null);
   };
