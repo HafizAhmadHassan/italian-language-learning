@@ -149,6 +149,9 @@ export default function Conversation() {
                           {c.icon}
                         </div>
                         <div className="flex items-center gap-2">
+                          <span className="px-2 py-0.5 rounded-lg bg-italian-red/10 text-italian-red text-[11px] font-bold">
+                            Role-play
+                          </span>
                           <span
                             className={`px-2 py-0.5 rounded-lg text-[11px] font-bold ${
                               c.difficulty === 'A1'
