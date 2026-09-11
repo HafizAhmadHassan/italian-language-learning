@@ -45,6 +45,18 @@ const MISSION_OBJECTIVES = {
   'refund-request': ['Explain the problem', 'Ask for a solution', 'Reach an agreement'],
   'transport-delay': ['Find out what happened', 'Get an alternative plan', 'Protect your rights'],
   'lost-wallet': ['Report the loss', 'Describe the wallet', 'Follow the advice'],
+  'buying-clothes': ['Ask for help', 'Try on clothes', 'Make a purchase'],
+  'hairdresser-salon': ['Explain your haircut', 'Ask the price', 'Book a follow-up'],
+  'making-weekend-plans': ['Suggest activities', 'Agree on a plan', 'Pick a time and place'],
+  'hotel-checkout': ['Settle the bill', 'Ask about extras', 'Arrange a taxi'],
+  'food-recommendations': ['Ask for recommendations', 'Check ingredients', 'Choose a dish'],
+  'meeting-neighbor': ['Introduce yourself', 'Ask about the neighborhood', 'Offer help'],
+  'bank-visit': ['Ask about accounts', 'Understand fees', 'Ask about documents'],
+  'post-office': ['Ask about shipping', 'Check cost and time', 'Send the package'],
+  'asking-clarification': ['Ask to repeat', 'Ask to speak slowly', 'Confirm meaning'],
+  'payment-problem': ['Find out what happened', 'Check alternatives', 'Solve the payment'],
+  'broken-item': ['Explain the problem', 'Ask for a fix', 'Get a replacement'],
+  'morning-routine': ['Describe your routine', 'Ask about theirs', 'Respond to the invitation'],
 };
 
 const USEFUL_PHRASES = {
@@ -68,6 +80,18 @@ const USEFUL_PHRASES = {
   'refund-request': ['Vorrei restituire questo articolo', 'Ho scontrino', 'C\'è un problema con la giacca'],
   'transport-delay': ['C\'è un ritardo di 40 minuti', 'Esiste un\'alternativa?', 'Posso prendere un altro treno?'],
   'lost-wallet': ['Ho perso il portafoglio', 'Dentro c\'erano i documenti', 'Cosa devo fare?'],
+  'buying-clothes': ['Vorrei una camicia', 'Che taglia porta?', 'Posso provarla?'],
+  'hairdresser-salon': ['Vorrei un taglio corto', 'Quanto costa?', 'Un po\' più corto, grazie'],
+  'making-weekend-plans': ['Hai voglia di fare qualcosa?', 'Che ne dici di…?', 'Perfetto, ci vediamo lì!'],
+  'hotel-checkout': ['Posso pagare il conto?', 'Cos\'è questa voce?', 'Potete chiamare un taxi?'],
+  'food-recommendations': ['Cosa mi consiglia?', 'Contiene nocciole?', 'Allora prendo questo'],
+  'meeting-neighbor': ['Piacere, sono…', 'Come sono i negozi qui vicino?', 'Posso aiutarti a traslocare?'],
+  'bank-visit': ['Vorrei aprire un conto', 'Ci sono commissioni?', 'Che documenti servono?'],
+  'post-office': ['Vorrei spedire un pacco', 'Quanto costa?', 'In quanto tempo arriva?'],
+  'asking-clarification': ['Puoi ripetere, per favore?', 'Puoi parlare più lentamente?', 'Vuoi dire che…?'],
+  'payment-problem': ['La carta non funziona', 'Possiamo riprovare?', 'Posso pagare in contanti?'],
+  'broken-item': ['Questo è rotto', 'Posso cambiarlo?', 'Vorrei un rimborso'],
+  'morning-routine': ['Mi alzo alle sette', 'E tu, cosa fai al mattino?', 'Sarei tentato a correre con te'],
 };
 
 function getFeedback(score) {
