@@ -6,6 +6,15 @@ import conversations from '../../data/conversations';
 import storage from '../../services/storage';
 
 const TABS = ['All', 'A1', 'A2', 'B1'];
+const CATEGORIES = ['All', 'Everyday', 'Food & Drink', 'Shopping', 'Travel', 'Services', 'Social', 'Problems'];
+const TYPE_LABELS = {
+  normal: 'Conversation',
+  'goal-based': 'Goal-based',
+  'problem-solving': 'Problem-solving',
+  'info-gap': 'Information gap',
+  social: 'Social',
+  unexpected: 'Unexpected',
+};
 
 const fadeUp = {
   hidden: { opacity: 0, y: 20 },
@@ -18,14 +27,15 @@ const fadeUp = {
 
 export default function Conversation() {
   const [activeTab, setActiveTab] = useState('All');
+  const [activeCat, setActiveCat] = useState('All');
   const [results] = useState(() =>
     storage.get('conversationResults', {})
   );
 
   const filtered =
-    activeTab === 'All'
-      ? conversations
-      : conversations.filter((c) => c.difficulty === activeTab);
+    conversations
+      .filter((c) => activeTab === 'All' || c.difficulty === activeTab)
+      .filter((c) => activeCat === 'All' || c.category === activeCat);
 
   const completedCount = conversations.filter(
     (c) => results[c.id]?.completed
@@ -114,9 +124,31 @@ export default function Conversation() {
           ))}
         </motion.div>
 
+        <motion.div
+          initial="hidden"
+          animate="visible"
+          variants={fadeUp}
+          custom={2.25}
+          className="flex flex-wrap gap-2 mb-6"
+        >
+          {CATEGORIES.map((cat) => (
+            <button
+              key={cat}
+              onClick={() => setActiveCat(cat)}
+              className={`px-3 py-1.5 rounded-lg text-xs font-medium transition-all duration-200 ${
+                activeCat === cat
+                  ? 'bg-italian-purple text-white shadow-md shadow-italian-purple/20'
+                  : 'bg-white dark:bg-[#1A1D24] text-gray-500 dark:text-gray-400 border border-gray-100 dark:border-[#2E323C] hover:bg-gray-50 dark:hover:bg-[#22252E]'
+              }`}
+            >
+              {cat}
+            </button>
+          ))}
+        </motion.div>
+
         <AnimatePresence mode="wait">
           <motion.div
-            key={activeTab}
+            key={`${activeTab}-${activeCat}`}
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -10 }}
@@ -158,11 +190,18 @@ export default function Conversation() {
                                 ? 'bg-italian-green/10 text-italian-green'
                                 : c.difficulty === 'B1'
                                 ? 'bg-italian-purple/10 text-italian-purple'
+                                : c.difficulty === 'B2'
+                                ? 'bg-italian-red/10 text-italian-red'
                                 : 'bg-italian-blue/10 text-italian-blue'
                             }`}
                           >
                             {c.difficulty}
                           </span>
+                          {c.type && (
+                            <span className="px-2 py-0.5 rounded-lg bg-italian-blue/10 text-italian-blue text-[11px] font-bold">
+                              {TYPE_LABELS[c.type] || c.type}
+                            </span>
+                          )}
                           {complete && (
                             <span className="flex items-center gap-1 px-2 py-0.5 rounded-lg bg-italian-gold/10 text-italian-gold text-[11px] font-bold">
                               <CheckCircle2 size={12} />
@@ -182,6 +221,7 @@ export default function Conversation() {
                       <div className="flex items-center justify-between">
                         <span className="text-xs font-medium text-gray-400 dark:text-gray-500">
                           {c.category} · {c.turns.length} exchanges
+                          {c.personality ? ` · ${c.personality}` : ''}
                         </span>
                         {complete ? (
                           <span className="flex items-center gap-1.5 text-sm font-semibold text-italian-sage">

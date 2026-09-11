@@ -1,6 +1,8 @@
 const conversations = [
   {
     id: 'cafe-ordering',
+    type: 'normal',
+    personality: 'Friendly barista',
     title: 'Ordering at a Café',
     description: 'Practice ordering coffee and pastries at an Italian bar.',
     category: 'Food & Drink',
@@ -221,6 +223,8 @@ const conversations = [
   },
   {
     id: 'asking-directions',
+    type: 'info-gap',
+    personality: 'Helpful local',
     title: 'Asking for Directions',
     description: 'Ask how to get to a landmark and understand the answer.',
     category: 'Travel',
@@ -441,6 +445,8 @@ const conversations = [
   },
   {
     id: 'market-shopping',
+    type: 'goal-based',
+    personality: 'Friendly vendor',
     title: 'Shopping at a Market',
     description: 'Buy fruit and vegetables from a market stall.',
     category: 'Shopping',
@@ -661,6 +667,8 @@ const conversations = [
   },
   {
     id: 'restaurant-dinner',
+    type: 'normal',
+    personality: 'Professional waiter',
     title: 'Dinner at a Restaurant',
     description: 'Order a meal and pay the bill at an Italian restaurant.',
     category: 'Food & Drink',
@@ -880,6 +888,8 @@ const conversations = [
   },
   {
     id: 'meeting-people',
+    type: 'social',
+    personality: 'Talkative colleague',
     title: 'Meeting New People',
     description: 'Introduce yourself and make small talk with a new friend.',
     category: 'Social',
@@ -1100,6 +1110,8 @@ const conversations = [
   },
   {
     id: 'train-station',
+    type: 'info-gap',
+    personality: 'Efficient employee',
     title: 'At the Train Station',
     description: 'Buy a ticket and find your train at the station.',
     category: 'Travel',
@@ -1318,9 +1330,11 @@ const conversations = [
   },
   {
     id: 'pharmacy-visit',
+    type: 'problem-solving',
+    personality: 'Helpful pharmacist',
     title: 'At the Pharmacy',
     description: 'Describe minor symptoms and buy some medicine.',
-    category: 'Health',
+    category: 'Services',
     difficulty: 'A2',
     icon: '💊',
     turns: [
@@ -1536,6 +1550,8 @@ const conversations = [
   },
   {
     id: 'hotel-booking',
+    type: 'goal-based',
+    personality: 'Helpful receptionist',
     title: 'Booking a Hotel Room',
     description: 'Reserve a room for the night and ask about breakfast.',
     category: 'Travel',
@@ -1755,9 +1771,11 @@ const conversations = [
   },
   {
     id: 'doctor-visit',
+    type: 'problem-solving',
+    personality: 'Reassuring doctor',
     title: 'At the Doctor',
     description: 'Describe your symptoms and get a prescription.',
-    category: 'Health',
+    category: 'Services',
     difficulty: 'B1',
     icon: '🩺',
     turns: [
@@ -1975,6 +1993,8 @@ const conversations = [
   },
   {
     id: 'airport-checkin',
+    type: 'info-gap',
+    personality: 'Busy agent',
     title: 'At the Airport',
     description: 'Check in for your flight and find your gate.',
     category: 'Travel',
@@ -2195,9 +2215,11 @@ const conversations = [
   },
   {
     id: 'talking-hobbies',
+    type: 'social',
+    personality: 'Friendly stranger',
     title: 'Talking about Hobbies',
     description: 'Share your interests and make small talk with a friend.',
-    category: 'Social',
+    category: 'Everyday',
     difficulty: 'A1',
     icon: '🎨',
     turns: [
@@ -2415,6 +2437,8 @@ const conversations = [
   },
   {
     id: 'department-store',
+    type: 'goal-based',
+    personality: 'Polite shop assistant',
     title: 'At the Department Store',
     description: 'Buy clothes and find your size in a department store.',
     category: 'Shopping',
@@ -2634,6 +2658,8 @@ const conversations = [
   },
   {
     id: 'phone-reservation',
+    type: 'goal-based',
+    personality: 'Professional host',
     title: 'Booking a Table by Phone',
     description: 'Reserve a restaurant table over the phone politely.',
     category: 'Food & Drink',
@@ -2854,6 +2880,8 @@ const conversations = [
   },
   {
     id: 'calling-taxi',
+    type: 'problem-solving',
+    personality: 'Calm operator',
     title: 'Calling a Taxi',
     description: 'Call a taxi and tell them where to pick you up.',
     category: 'Travel',

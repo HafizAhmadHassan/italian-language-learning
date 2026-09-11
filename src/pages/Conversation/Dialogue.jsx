@@ -24,6 +24,40 @@ const PASS_THRESHOLD = 0.5;
 const EXCELLENT_THRESHOLD = 0.8;
 const LISTEN_TIMEOUT = 9000;
 
+const MISSION_OBJECTIVES = {
+  'cafe-ordering': ['Order a drink', 'Order something to eat', 'Ask for the price'],
+  'asking-directions': ['Ask for directions', 'Understand the route', 'Confirm the location'],
+  'market-shopping': ['Ask about products', 'Negotiate the price', 'Buy something'],
+  'restaurant-dinner': ['Ask for a table', 'Order food', 'Ask for the bill'],
+  'meeting-people': ['Introduce yourself', 'Ask about their job', 'Find common interests'],
+  'train-station': ['Ask about schedules', 'Buy a ticket', 'Find the platform'],
+  'pharmacy-visit': ['Explain your symptoms', 'Ask about medicine', 'Follow instructions'],
+  'hotel-booking': ['Book a room', 'Ask about amenities', 'Check-in'],
+  'doctor-visit': ['Describe symptoms', 'Ask about treatment', 'Understand instructions'],
+  'airport-checkin': ['Check in for your flight', 'Ask about gate', 'Handle luggage'],
+  'talking-hobbies': ['Share your hobbies', 'Ask about theirs', 'Make plans'],
+  'department-store': ['Find what you need', 'Ask about sizes', 'Make a purchase'],
+  'phone-reservation': ['Make a reservation', 'Confirm details', 'Handle changes'],
+  'calling-taxi': ['Call for a taxi', 'Give your address', 'Ask about arrival time'],
+};
+
+const USEFUL_PHRASES = {
+  'cafe-ordering': ['Vorrei un caffè, per favore', 'Quanto costa in tutto?', 'Un cornetto, grazie'],
+  'asking-directions': ['Dov\'è la stazione?', 'È lontano da qui?', 'Grazie mille!'],
+  'market-shopping': ['Quanto costa?', 'Posso provarlo?', 'Faccio un giro', 'Vorrei comprare…'],
+  'restaurant-dinner': ['Hai un tavolo libero?', 'Vorrei ordinare…', 'Il conto, per favore'],
+  'meeting-people': ['Piacere di conoscerti', 'Cosa fai nella vita?', 'Di dove sei?'],
+  'train-station': ['Vorrei un biglietto per…', 'A che ora parte?', 'Da quale binario?'],
+  'pharmacy-visit': ['Mi serve qualcosa per…', 'Quanto costa?', 'Sono allergico a…'],
+  'hotel-booking': ['Ho una prenotazione', 'Ha una camera libera?', 'Che prezzo ha la camera?'],
+  'doctor-visit': ['Mi sento male', 'Da quanto tempo?', 'Grazie, dottore'],
+  'airport-checkin': ['Il mio volo è alle…', 'Dov\'è il gate?', 'Ho una valigia'],
+  'talking-hobbies': ['Mi piace molto…', 'Ti piace…?', 'Possiamo farlo insieme'],
+  'department-store': ['Dov\'è il reparto…?', 'Hai la mia taglia?', 'Posso pagare con carta?'],
+  'phone-reservation': ['Vorrei prenotare…', 'A che ora?', 'Confermo la prenotazione'],
+  'calling-taxi': ['Mi serve un taxi', 'Quanto ci vuole?', 'Posso pagare con carta?'],
+};
+
 function getFeedback(score) {
   if (score >= EXCELLENT_THRESHOLD) {
     return { label: 'Excellent!', color: 'text-italian-green', bg: 'bg-italian-green/10' };
@@ -57,6 +91,7 @@ export default function Dialogue() {
   const [useTyping, setUseTyping] = useState(false);
   const [typedInput, setTypedInput] = useState('');
   const [noSpeech, setNoSpeech] = useState(false);
+  const [showMission, setShowMission] = useState(true);
 
   const recognitionRef = useRef(null);
   const listeningRef = useRef(false);
@@ -68,12 +103,12 @@ export default function Dialogue() {
   const totalTurns = scenario?.turns.length || 0;
 
   useEffect(() => {
-    if (!scenario) return;
+    if (!scenario || showMission) return;
     const delay = setTimeout(() => {
       speak(currentTurn.italian);
     }, 500);
     return () => clearTimeout(delay);
-  }, [turnIdx, scenario, currentTurn?.italian]);
+  }, [turnIdx, scenario, currentTurn?.italian, showMission]);
 
   useEffect(() => {
     if (!scenario) return;
@@ -85,6 +120,7 @@ export default function Dialogue() {
     setXpEarned(0);
     setCompleted(false);
     setNoSpeech(false);
+    setShowMission(true);
   }, [scenario]);
 
   useEffect(() => {
@@ -339,8 +375,73 @@ export default function Dialogue() {
           </div>
         )}
 
+        {/* Mission screen */}
+        {showMission && (
+          <motion.div
+            initial={{ opacity: 0, y: 16 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.3 }}
+            className="rounded-3xl border border-italian-green/30 bg-white dark:bg-[#1A1D24] shadow-lg p-8 max-w-md mx-auto"
+          >
+            <div className="w-16 h-16 rounded-full bg-italian-green/10 flex items-center justify-center text-3xl mx-auto mb-4">
+              {scenario.icon}
+            </div>
+            <h1 className="font-heading text-xl font-bold text-italian-charcoal dark:text-white text-center mb-1">
+              {scenario.title}
+            </h1>
+            <p className="text-sm text-gray-500 dark:text-gray-400 text-center mb-6">
+              {scenario.description}
+            </p>
+
+            <div className="space-y-4 mb-6">
+              {scenario.personality && (
+                <div>
+                  <p className="text-xs font-semibold text-gray-400 dark:text-gray-500 uppercase tracking-wide mb-1">
+                    Conversation partner
+                  </p>
+                  <p className="text-sm font-semibold text-italian-charcoal dark:text-white">
+                    {scenario.personality} ({scenario.turns?.[0]?.label || 'Conversation partner'})
+                  </p>
+                </div>
+              )}
+              <div>
+                <p className="text-xs font-semibold text-gray-400 dark:text-gray-500 uppercase tracking-wide mb-1">
+                  Your role
+                </p>
+                <p className="text-sm font-semibold text-italian-charcoal dark:text-white">
+                  You
+                </p>
+              </div>
+              <div>
+                <p className="text-xs font-semibold text-gray-400 dark:text-gray-500 uppercase tracking-wide mb-2">
+                  Your mission
+                </p>
+                <ul className="space-y-1.5">
+                  {(MISSION_OBJECTIVES[scenario.id] || ['Have a conversation', 'Respond naturally', 'Complete the dialogue']).map((m) => (
+                    <li key={m} className="flex items-center gap-2 text-sm text-italian-charcoal dark:text-gray-200">
+                      <span className="w-1.5 h-1.5 rounded-full bg-italian-green" />
+                      {m}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+
+            <button
+              onClick={() => {
+                setShowMission(false);
+                speak(scenario.turns[0].italian);
+              }}
+              className="w-full flex items-center justify-center gap-2 px-5 py-3 rounded-xl bg-italian-green text-white font-semibold shadow-md shadow-italian-green/20 hover:bg-italian-green/90 transition-colors"
+            >
+              <Mic size={18} />
+              Start Role-play
+            </button>
+          </motion.div>
+        )}
+
         {/* Chat transcript + player */}
-        {!completed ? (
+        {!completed && !showMission ? (
           <div
             ref={scrollRef}
             className="max-h-[62vh] overflow-y-auto pr-1 space-y-4 scroll-smooth"
@@ -641,6 +742,33 @@ export default function Dialogue() {
               </div>
             </div>
 
+            <div className="rounded-2xl bg-italian-warm dark:bg-[#22252E] border border-gray-100 dark:border-[#2E323C] p-5 mb-6 text-left">
+              <p className="text-xs font-semibold text-gray-400 dark:text-gray-500 uppercase tracking-wide mb-3">
+                Useful expressions
+              </p>
+              <div className="space-y-2">
+                {USEFUL_PHRASES[scenario.id]?.map((p) => (
+                  <p key={p} className="text-sm font-medium text-italian-charcoal dark:text-gray-200 italic">
+                    “{p}”
+                  </p>
+                ))}
+                {!USEFUL_PHRASES[scenario.id] && (
+                  <p className="text-sm text-gray-500 dark:text-gray-400 italic">
+                    “Could I have…?”, “How much is…?”, “Would you recommend…?”
+                  </p>
+                )}
+              </div>
+            </div>
+
+            <div className="rounded-2xl bg-italian-sage/10 border border-italian-sage/20 p-5 mb-6 text-left">
+              <p className="text-xs font-semibold text-italian-sage uppercase tracking-wide mb-2">
+                Try to improve
+              </p>
+              <p className="text-sm text-gray-600 dark:text-gray-300">
+                Ask more follow-up questions — it keeps the conversation going and sounds more natural in Italian.
+              </p>
+            </div>
+
             <div className="flex flex-col gap-2">
               <button
                 onClick={() => {
@@ -651,6 +779,7 @@ export default function Dialogue() {
                   setXpEarned(0);
                   setCompleted(false);
                   bestScoreRef.current = {};
+                  setShowMission(true);
                 }}
                 className="flex items-center justify-center gap-2 px-5 py-3 rounded-xl bg-italian-green text-white font-semibold shadow-md shadow-italian-green/20 hover:bg-italian-green/90 transition-colors"
               >
