@@ -39,6 +39,12 @@ const MISSION_OBJECTIVES = {
   'department-store': ['Find what you need', 'Ask about sizes', 'Make a purchase'],
   'phone-reservation': ['Make a reservation', 'Confirm details', 'Handle changes'],
   'calling-taxi': ['Call for a taxi', 'Give your address', 'Ask about arrival time'],
+  'work-meeting': ['Introduce yourself', 'Get to know your colleague', 'Make plans together'],
+  'job-interview': ['Present your experience', 'Answer questions well', 'Ask your own questions'],
+  'dinner-invitation': ['Accept the invitation', 'Confirm the details', 'Arrange the plan'],
+  'refund-request': ['Explain the problem', 'Ask for a solution', 'Reach an agreement'],
+  'transport-delay': ['Find out what happened', 'Get an alternative plan', 'Protect your rights'],
+  'lost-wallet': ['Report the loss', 'Describe the wallet', 'Follow the advice'],
 };
 
 const USEFUL_PHRASES = {
@@ -56,6 +62,12 @@ const USEFUL_PHRASES = {
   'department-store': ['Dov\'è il reparto…?', 'Hai la mia taglia?', 'Posso pagare con carta?'],
   'phone-reservation': ['Vorrei prenotare…', 'A che ora?', 'Confermo la prenotazione'],
   'calling-taxi': ['Mi serve un taxi', 'Quanto ci vuole?', 'Posso pagare con carta?'],
+  'work-meeting': ['Piacere!', 'Cosa fai nel tempo libero?', 'Mi piacerebbe tanto!'],
+  'job-interview': ['Ho esperienza in…', 'Quali sono i punti di forza di questa azienda?', 'Sono disposto a negoziare'],
+  'dinner-invitation': ['Con piacere, grazie!', 'A che ora?', 'Posso portare qualcosa?'],
+  'refund-request': ['Vorrei restituire questo articolo', 'Ho scontrino', 'C\'è un problema con la giacca'],
+  'transport-delay': ['C\'è un ritardo di 40 minuti', 'Esiste un\'alternativa?', 'Posso prendere un altro treno?'],
+  'lost-wallet': ['Ho perso il portafoglio', 'Dentro c\'erano i documenti', 'Cosa devo fare?'],
 };
 
 function getFeedback(score) {

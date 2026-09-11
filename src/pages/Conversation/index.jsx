@@ -5,8 +5,8 @@ import { MessagesSquare, CheckCircle2, Mic, Sparkles, TrendingUp, Star } from 'l
 import conversations from '../../data/conversations';
 import storage from '../../services/storage';
 
-const TABS = ['All', 'A1', 'A2', 'B1'];
-const CATEGORIES = ['All', 'Everyday', 'Food & Drink', 'Shopping', 'Travel', 'Services', 'Social', 'Problems'];
+const TABS = ['All', 'A1', 'A2', 'B1', 'B2'];
+const CATEGORIES = ['All', 'Everyday', 'Food & Drink', 'Shopping', 'Travel', 'Work', 'Services', 'Social', 'Problems'];
 const TYPE_LABELS = {
   normal: 'Conversation',
   'goal-based': 'Goal-based',
