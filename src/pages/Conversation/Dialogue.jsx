@@ -57,6 +57,18 @@ const MISSION_OBJECTIVES = {
   'payment-problem': ['Find out what happened', 'Check alternatives', 'Solve the payment'],
   'broken-item': ['Explain the problem', 'Ask for a fix', 'Get a replacement'],
   'morning-routine': ['Describe your routine', 'Ask about theirs', 'Respond to the invitation'],
+  'buying-shoes': ['Ask about sizes', 'Try on shoes', 'Ask the price'],
+  'exchanging-item': ['Explain the issue', 'Ask about the policy', 'Choose a replacement'],
+  'lost-phone': ['Explain what happened', 'Describe the phone', 'Recover the phone'],
+  'dentist-visit': ['Book an appointment', 'Describe the pain', 'Follow the treatment'],
+  'customer-service': ['Explain the problem', 'Verify your details', 'Agree on a solution'],
+  'booking-appointment': ['Say why you need it', 'Pick a time', 'Confirm your details'],
+  'going-to-party': ['Get the details', 'Offer to bring something', 'Make party plans'],
+  'declining-invitation': ['Thank them', 'Explain politely', 'Keep the friendship'],
+  'giving-compliments': ['Give a compliment', 'Respond kindly', 'Have a small chat'],
+  'introducing-yourself': ['Say hello', 'Introduce yourself', 'Ask about them'],
+  'talking-your-day': ['Describe your morning', 'Talk about now', 'Share your plans'],
+  'rescheduling-meeting': ['Explain the reason', 'Propose new times', 'Confirm'],
 };
 
 const USEFUL_PHRASES = {
@@ -92,6 +104,18 @@ const USEFUL_PHRASES = {
   'payment-problem': ['La carta non funziona', 'Possiamo riprovare?', 'Posso pagare in contanti?'],
   'broken-item': ['Questo è rotto', 'Posso cambiarlo?', 'Vorrei un rimborso'],
   'morning-routine': ['Mi alzo alle sette', 'E tu, cosa fai al mattino?', 'Sarei tentato a correre con te'],
+  'buying-shoes': ['Che numero porta?', 'Posso provarle?', 'Quanto costano?'],
+  'exchanging-item': ['Vorrei cambiare questo maglione', 'Posso vedere un\'altra taglia?', 'Quanto devo pagare in più?'],
+  'lost-phone': ['Ho perso il telefono', 'È un telefono nero', 'Avete trovato un telefono?'],
+  'dentist-visit': ['Ho mal di denti', 'Quando posso venire?', 'Sarà doloroso?'],
+  'customer-service': ['Il pacco non è mai arrivato', 'Il mio numero d\'ordine è…', 'Preferirei un rimborso'],
+  'booking-appointment': ['Vorrei prenotare una visita', 'Ci sono posti oggi?', 'Va bene, confermo'],
+  'going-to-party': ['Quando inizia la festa?', 'Posso portare qualcosa?', 'Perfetto, ci sarò!'],
+  'declining-invitation': ['Grazie mille per l\'invito', 'Purtroppo non posso venire', 'Magari la prossima volta!'],
+  'giving-compliments': ['Che bella camicia!', 'Grazie, sei molto gentile', 'Mi piace molto come lavori'],
+  'introducing-yourself': ['Mi chiamo…', 'Piacere di conoscerti', 'Di dove sei?'],
+  'talking-your-day': ['Stamattina ho lavorato', 'Adesso sto…', 'Più tardi voglio…'],
+  'rescheduling-meeting': ['Devo spostare la riunione', 'Puoi venerdì?', 'Ok, lo metto in calendario'],
 };
 
 function getFeedback(score) {
