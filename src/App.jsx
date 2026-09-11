@@ -21,6 +21,8 @@ import VerbiIrregolariLesson from './pages/Grammar/VerbiIrregolari';
 import Practice from './pages/Practice';
 import Conversation from './pages/Conversation';
 import Dialogue from './pages/Conversation/Dialogue';
+import AIConversation from './pages/AIConversation';
+import AIChat from './pages/AIConversation/Conversation';
 import Progress from './pages/Progress';
 import Settings from './pages/Settings';
 import storage from './services/storage';
@@ -68,6 +70,8 @@ function App() {
           <Route path="/practice" element={<Practice />} />
           <Route path="/conversation" element={<Conversation />} />
           <Route path="/conversation/:id" element={<Dialogue />} />
+          <Route path="/ai" element={<AIConversation />} />
+          <Route path="/ai/conversation/:conversationId" element={<AIChat />} />
           <Route path="/progress" element={<Progress />} />
           <Route path="/settings" element={<Settings />} />
         </Route>

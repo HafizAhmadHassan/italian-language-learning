@@ -10,6 +10,7 @@ import {
   GraduationCap,
   Mic,
   MessagesSquare,
+  Bot,
   LogOut,
   User,
   Sun,
@@ -26,6 +27,7 @@ const desktopNavItems = [
   { to: '/grammar', label: 'Grammar', icon: MessageSquare },
   { to: '/practice', label: 'Practice', icon: Mic },
   { to: '/conversation', label: 'Conversation', icon: MessagesSquare },
+  { to: '/ai', label: 'AI Chat', icon: Bot },
   { to: '/progress', label: 'Progress', icon: BarChart3 },
   { to: '/settings', label: 'Settings', icon: Settings },
 ];
@@ -37,6 +39,7 @@ const mobileNavItems = [
   { to: '/grammar', label: 'Grammar', icon: MessageSquare },
   { to: '/practice', label: 'Practice', icon: Mic },
   { to: '/conversation', label: 'Conv', icon: MessagesSquare },
+  { to: '/ai', label: 'AI', icon: Bot },
   { to: '/progress', label: 'Progress', icon: BarChart3 },
   { to: '/settings', label: 'Profile', icon: User },
 ];
