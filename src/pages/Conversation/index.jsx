@@ -5,7 +5,7 @@ import { MessagesSquare, CheckCircle2, Mic, Sparkles, TrendingUp, Star } from 'l
 import conversations from '../../data/conversations';
 import storage from '../../services/storage';
 
-const TABS = ['All', 'A1', 'A2'];
+const TABS = ['All', 'A1', 'A2', 'B1'];
 
 const fadeUp = {
   hidden: { opacity: 0, y: 20 },
@@ -153,6 +153,8 @@ export default function Conversation() {
                             className={`px-2 py-0.5 rounded-lg text-[11px] font-bold ${
                               c.difficulty === 'A1'
                                 ? 'bg-italian-green/10 text-italian-green'
+                                : c.difficulty === 'B1'
+                                ? 'bg-italian-purple/10 text-italian-purple'
                                 : 'bg-italian-blue/10 text-italian-blue'
                             }`}
                           >
