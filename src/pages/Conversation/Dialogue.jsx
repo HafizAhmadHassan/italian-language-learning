@@ -196,16 +196,41 @@ export default function Dialogue() {
 
   useEffect(() => {
     if (!scenario) return;
-    bestScoreRef.current = {};
-    setTurnLog([]);
-    setTurnIdx(0);
+    const saved = storage.get('conversationProgress', {})[scenario.id];
+    if (saved && saved.turnIdx > 0 && saved.turnIdx < scenario.turns.length) {
+      bestScoreRef.current = saved.bestScores || {};
+      setTurnLog(saved.turnLog || []);
+      setTurnIdx(saved.turnIdx);
+      setXpEarned(saved.xpEarned || 0);
+      setShowMission(false);
+    } else {
+      bestScoreRef.current = {};
+      setTurnLog([]);
+      setTurnIdx(0);
+      setXpEarned(0);
+      setShowMission(true);
+    }
     setResult(null);
     setPassed(false);
-    setXpEarned(0);
     setCompleted(false);
     setNoSpeech(false);
-    setShowMission(true);
   }, [scenario]);
+
+  useEffect(() => {
+    if (!scenario || completed) return;
+    const prev = storage.get('conversationProgress', {});
+    storage.set('conversationProgress', {
+      ...prev,
+      [scenario.id]: {
+        turnIdx,
+        turnLog,
+        xpEarned,
+        bestScores: { ...bestScoreRef.current },
+        showMission,
+        updatedAt: new Date().toISOString(),
+      },
+    });
+  }, [scenario, turnIdx, turnLog, xpEarned, showMission, completed]);
 
   useEffect(() => {
     return () => {
@@ -418,7 +443,31 @@ export default function Dialogue() {
 
     setXpEarned((x) => x + bonus);
     progress.recordActivity(Math.max(2, Math.round(totalTurns * 0.5)));
+    const saved = storage.get('conversationProgress', {});
+    delete saved[scenario.id];
+    storage.set('conversationProgress', saved);
     setCompleted(true);
+  };
+
+  const restartScenario = () => {
+    bestScoreRef.current = {};
+    setTurnLog([]);
+    setTurnIdx(0);
+    setResult(null);
+    setPassed(false);
+    setXpEarned(0);
+    setCompleted(false);
+    setNoSpeech(false);
+    setShowMission(true);
+    const saved = storage.get('conversationProgress', {});
+    delete saved[scenario.id];
+    storage.set('conversationProgress', saved);
+  };
+
+  const confirmRestart = () => {
+    if (window.confirm('Start this conversation over from the beginning?')) {
+      restartScenario();
+    }
   };
 
   const stars = xpEarned > 40 ? 3 : xpEarned >= 20 ? 2 : 1;
@@ -441,9 +490,18 @@ export default function Dialogue() {
             </span>
           </Link>
           {!completed && (
-            <span className="shrink-0 text-sm font-semibold text-gray-500 dark:text-gray-400">
-              {turnNumber} / {totalTurns}
-            </span>
+            <div className="flex items-center gap-2">
+              <button
+                onClick={confirmRestart}
+                className="shrink-0 w-9 h-9 flex items-center justify-center rounded-xl bg-white dark:bg-[#22252E] border border-gray-100 dark:border-[#2E323C] text-gray-500 dark:text-gray-400 hover:text-italian-red transition-colors"
+                title="Restart conversation"
+              >
+                <RotateCcw size={16} />
+              </button>
+              <span className="shrink-0 text-sm font-semibold text-gray-500 dark:text-gray-400">
+                {turnNumber} / {totalTurns}
+              </span>
+            </div>
           )}
         </div>
 
@@ -855,16 +913,7 @@ export default function Dialogue() {
 
             <div className="flex flex-col gap-2">
               <button
-                onClick={() => {
-                  setTurnIdx(0);
-                  setResult(null);
-                  setPassed(false);
-                  setTurnLog([]);
-                  setXpEarned(0);
-                  setCompleted(false);
-                  bestScoreRef.current = {};
-                  setShowMission(true);
-                }}
+                onClick={restartScenario}
                 className="flex items-center justify-center gap-2 px-5 py-3 rounded-xl bg-italian-green text-white font-semibold shadow-md shadow-italian-green/20 hover:bg-italian-green/90 transition-colors"
               >
                 <RotateCcw size={16} />
