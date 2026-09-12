@@ -69,6 +69,18 @@ const MISSION_OBJECTIVES = {
   'introducing-yourself': ['Say hello', 'Introduce yourself', 'Ask about them'],
   'talking-your-day': ['Describe your morning', 'Talk about now', 'Share your plans'],
   'rescheduling-meeting': ['Explain the reason', 'Propose new times', 'Confirm'],
+  'paying-bill': ['Ask for the bill', 'Check the charges', 'Settle the payment'],
+  'wrong-order': ['Explain the mistake', 'Request the right dish', 'Manage the wait'],
+  'asking-ingredients': ['Ask about ingredients', 'Check for allergies', 'Choose safely'],
+  'lost-luggage': ['Explain the situation', 'Give your details', 'Agree on follow-up'],
+  'hotel-facilities': ['Ask about amenities', 'Check the schedule', 'Plan your stay'],
+  'buying-ticket': ['Ask about ticket types', 'Check the price', 'Complete the purchase'],
+  'small-talk': ['Make friendly chatter', 'Ask about the weekend', 'Keep it light'],
+  'inviting-someone': ['Suggest the visit', 'Propose a date', 'Arrange the details'],
+  'asking-favor': ['Explain what you need', 'Respond to questions', 'Say thank you'],
+  'giving-update': ['Summarize your progress', 'Mention any problems', 'Answer questions'],
+  'asking-help-work': ['Explain the task', 'Request assistance', 'Agree on a time'],
+  'giving-opinion': ['Share your view', 'Argue politely', 'Respond to challenges'],
 };
 
 const USEFUL_PHRASES = {
@@ -116,6 +128,18 @@ const USEFUL_PHRASES = {
   'introducing-yourself': ['Mi chiamo…', 'Piacere di conoscerti', 'Di dove sei?'],
   'talking-your-day': ['Stamattina ho lavorato', 'Adesso sto…', 'Più tardi voglio…'],
   'rescheduling-meeting': ['Devo spostare la riunione', 'Puoi venerdì?', 'Ok, lo metto in calendario'],
+  'paying-bill': ['Il conto, per favore', 'Cos\'è questa voce?', 'Posso pagare con la carta?'],
+  'wrong-order': ['Ho ordinato la pasta, non questo', 'Puoi portarmi il piatto giusto?', 'Va bene, aspetto'],
+  'asking-ingredients': ['Cosa contiene questo piatto?', 'C\'è del lattosio?', 'Riesco a mangiarlo?'],
+  'lost-luggage': ['La mia valigia non è arrivata', 'Ecco il mio biglietto', 'Come faccio ad averla?'],
+  'hotel-facilities': ['A che ora è la colazione?', 'C\'è una piscina?', 'Come funziona il Wi-Fi?'],
+  'buying-ticket': ['Quanto costa un biglietto?', 'Copre anche il centro?', 'Accetta la carta?'],
+  'small-talk': ['Che bella giornata oggi!', 'Cosa hai fatto nel weekend?', 'Ti piace il cibo italiano?'],
+  'inviting-someone': ['Dovresti venire a trovarmi!', 'Quando sei libero?', 'Ti preparo tutto io'],
+  'asking-favor': ['Posso chiederti un favore?', 'Puoi aiutarmi con…?', 'Grazie mille!'],
+  'giving-update': ['Ho finito la parte principale', 'Un problema: ci manca il materiale', 'Non credo di fare in tempo'],
+  'asking-help-work': ['Puoi aiutarmi con questo?', 'Come posso risolverlo?', 'Quando puoi, mi diresti?'],
+  'giving-opinion': ['Penso che sia una buona idea', 'Non sono del tutto d\'accordo', 'Lo vedo in un altro modo'],
 };
 
 function getFeedback(score) {
