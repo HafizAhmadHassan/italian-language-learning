@@ -18,6 +18,7 @@ import ImperfettoLesson from './pages/Grammar/Imperfetto';
 import FuturoLesson from './pages/Grammar/Futuro';
 import PreposizioniLesson from './pages/Grammar/Preposizioni';
 import VerbiIrregolariLesson from './pages/Grammar/VerbiIrregolari';
+import CondizionaleLesson from './pages/Grammar/Condizionale';
 import Practice from './pages/Practice';
 import Conversation from './pages/Conversation';
 import Dialogue from './pages/Conversation/Dialogue';
@@ -67,6 +68,7 @@ function App() {
           <Route path="/grammar/futuro" element={<FuturoLesson />} />
           <Route path="/grammar/preposizioni" element={<PreposizioniLesson />} />
           <Route path="/grammar/verbi-irregolari" element={<VerbiIrregolariLesson />} />
+          <Route path="/grammar/condizionale" element={<CondizionaleLesson />} />
           <Route path="/practice" element={<Practice />} />
           <Route path="/conversation" element={<Conversation />} />
           <Route path="/conversation/:id" element={<Dialogue />} />
