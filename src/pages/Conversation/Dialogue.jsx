@@ -81,6 +81,18 @@ const MISSION_OBJECTIVES = {
   'giving-update': ['Summarize your progress', 'Mention any problems', 'Answer questions'],
   'asking-help-work': ['Explain the task', 'Request assistance', 'Agree on a time'],
   'giving-opinion': ['Share your view', 'Argue politely', 'Respond to challenges'],
+  'buying-groceries': ['Greet the shopkeeper', 'Ask for products', 'Pay'],
+  'renting-car': ['Request a car', 'Ask about insurance', 'Complete paperwork'],
+  'changing-ticket': ['Explain the reason', 'Check the options', 'Pay the difference'],
+  'vet-visit': ['Explain the symptoms', 'Answer questions', 'Follow the treatment'],
+  'dry-cleaning': ['Explain the stain', 'Ask when ready', 'Get the receipt'],
+  'receiving-feedback': ['Listen carefully', 'Ask questions', 'Respond maturely'],
+  'buying-gifts': ['Say who it is for', 'Ask for ideas', 'Choose one'],
+  'calling-friend-plans': ['Greet warmly', 'Propose a plan', 'Settle details'],
+  'apologizing': ['Apologize sincerely', 'Explain yourself', 'Make it up'],
+  'bar-drinks': ['Order a drink', 'Ask for options', 'Pay'],
+  'breakfast-hotel': ['Ask about the buffet', 'Request items', 'Chat a little'],
+  'car-breakdown': ['Call for help', 'Explain the problem', 'Understand the cost'],
 };
 
 const USEFUL_PHRASES = {
@@ -140,6 +152,18 @@ const USEFUL_PHRASES = {
   'giving-update': ['Ho finito la parte principale', 'Un problema: ci manca il materiale', 'Non credo di fare in tempo'],
   'asking-help-work': ['Puoi aiutarmi con questo?', 'Come posso risolverlo?', 'Quando puoi, mi diresti?'],
   'giving-opinion': ['Penso che sia una buona idea', 'Non sono del tutto d\'accordo', 'Lo vedo in un altro modo'],
+  'buying-groceries': ['Buongiorno!', 'Vorrei un chilo di mele', 'Quanto costa in tutto?'],
+  'renting-car': ['Vorrei noleggiare una macchina', 'Quanto costa il noleggio?', 'È inclusa l\'assicurazione?'],
+  'changing-ticket': ['Vorrei cambiare il biglietto', 'È ancora possibile?', 'Quanto devo pagare in più?'],
+  'vet-visit': ['Il mio cane non mangia', 'Da ieri sta male', 'Cosa devo fargli fare?'],
+  'dry-cleaning': ['Questa camicia ha una macchia', 'Quando sarà pronta?', 'Quanto costa?'],
+  'receiving-feedback': ['Capisco, puoi fare un esempio?', 'Su cosa devo migliorare?', 'Grazie del feedback'],
+  'buying-gifts': ['È un regalo per un amico', 'Cosa mi consiglia?', 'Quanto costa questo?'],
+  'calling-friend-plans': ['Ciao! Come stai?', 'Hai voglia di uscire sabato?', 'Alle 18 davanti al bar va bene?'],
+  'apologizing': ['Mi dispiace tantissimo', 'Mi sono dimenticato per sbaglio', 'Ti va di rifarla domani?'],
+  'bar-drinks': ['Una birra, per favore', 'Che cosa avete?', 'Quanto viene?'],
+  'breakfast-hotel': ['Dov\'è il succo?', 'È incluso il caffè?', 'Posso avere un altro cornetto?'],
+  'car-breakdown': ['La macchina non parte', 'Mi trovo sull\'autostrada', 'Quanto costa la riparazione?'],
 };
 
 function getFeedback(score) {
