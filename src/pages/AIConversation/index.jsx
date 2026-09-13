@@ -133,9 +133,10 @@ export default function AIConversation() {
   };
 
   const startConversation = () => {
-    const key = getKey(activeProvider);
-    if (!key) return;
-    saveKey(activeProvider, { key, model });
+    if (!isLocal && !getKey(activeProvider)) return;
+    if (!isLocal) {
+      saveKey(activeProvider, { key: getKey(activeProvider), model });
+    }
     const conversationId = createConversationId();
     const config = {
       id: conversationId,
@@ -166,7 +167,8 @@ export default function AIConversation() {
   };
 
   const provider = getProviderInfo(activeProvider);
-  const hasConfigured = hasKey(activeProvider);
+  const isLocal = provider?.id === 'local';
+  const hasConfigured = provider?.needsKey === false ? true : hasKey(activeProvider);
 
   return (
     <div className="min-h-full pb-24 md:pb-8">
@@ -200,6 +202,8 @@ export default function AIConversation() {
             communicate with the provider you choose. It is never sent to
             analytics or saved in conversation history. API usage is billed by
             your selected provider according to your account and provider pricing.
+            The <span className="font-semibold text-italian-charcoal dark:text-white">Local (Free)</span> option runs a
+            free model entirely in your browser — no key and no billing.
           </p>
         </div>
 
@@ -219,7 +223,7 @@ export default function AIConversation() {
               </h2>
             </div>
             <p className="text-sm text-gray-500 dark:text-gray-400 mb-5">
-              Connect your own API key to talk with an AI partner.
+              Connect your own API key, or pick the free local model that runs in your browser.
             </p>
 
             <div className="grid grid-cols-3 gap-2 mb-5">
@@ -238,7 +242,7 @@ export default function AIConversation() {
               ))}
             </div>
 
-            {hasConfigured && (
+            {hasConfigured && !isLocal && (
               <div className="mb-4 p-3 rounded-xl bg-italian-green/10 border border-italian-green/20 flex items-center gap-2 text-sm">
                 <CheckCircle2 size={16} className="text-italian-green shrink-0" />
                 <span className="text-italian-green font-medium">Connected</span>
@@ -248,16 +252,30 @@ export default function AIConversation() {
               </div>
             )}
 
-            <label className="block text-xs font-semibold text-gray-500 dark:text-gray-400 uppercase tracking-wide mb-1.5">
-              API Key
-            </label>
-            <input
-              type="password"
-              value={apiKey}
-              onChange={(e) => setApiKey(e.target.value)}
-              placeholder={hasConfigured ? 'Key saved — enter a new one to replace' : `Enter your ${provider.name} API key`}
-              className="w-full px-4 py-3 rounded-xl bg-white dark:bg-[#22252E] border border-gray-200 dark:border-[#2E323C] text-sm text-italian-charcoal dark:text-white placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-italian-green/40 mb-4"
-            />
+            {isLocal && (
+              <div className="mb-4 p-3 rounded-xl bg-italian-sage/10 border border-italian-sage/20 flex items-start gap-2 text-sm text-italian-charcoal dark:text-gray-200">
+                <Cpu size={16} className="text-italian-sage shrink-0 mt-0.5" />
+                <span>
+                  Free local model — no API key needed. The model runs in your
+                  browser and downloads once (~0.5 GB). Best speed with WebGPU.
+                </span>
+              </div>
+            )}
+
+            {!isLocal && (
+              <>
+                <label className="block text-xs font-semibold text-gray-500 dark:text-gray-400 uppercase tracking-wide mb-1.5">
+                  API Key
+                </label>
+                <input
+                  type="password"
+                  value={apiKey}
+                  onChange={(e) => setApiKey(e.target.value)}
+                  placeholder={hasConfigured ? 'Key saved — enter a new one to replace' : `Enter your ${provider.name} API key`}
+                  className="w-full px-4 py-3 rounded-xl bg-white dark:bg-[#22252E] border border-gray-200 dark:border-[#2E323C] text-sm text-italian-charcoal dark:text-white placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-italian-green/40 mb-4"
+                />
+              </>
+            )}
 
             <label className="block text-xs font-semibold text-gray-500 dark:text-gray-400 uppercase tracking-wide mb-1.5">
               Model
@@ -279,9 +297,9 @@ export default function AIConversation() {
                 className="flex items-center gap-2 px-4 py-2.5 rounded-xl bg-italian-green text-white text-sm font-semibold shadow-md shadow-italian-green/20 hover:bg-italian-green/90 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
               >
                 {testing ? <Loader2 size={16} className="animate-spin" /> : <Plug size={16} />}
-                Test Connection
+                {isLocal ? 'Download model' : 'Test Connection'}
               </button>
-              {hasConfigured && (
+              {hasConfigured && !isLocal && (
                 <button
                   onClick={handleRemoveKey}
                   className="flex items-center gap-2 px-4 py-2.5 rounded-xl bg-italian-red/10 text-italian-red text-sm font-semibold hover:bg-italian-red/20 transition-colors"
@@ -303,9 +321,9 @@ export default function AIConversation() {
                   }`}
                 >
                   {status === 'connected' ? (
-                    <><CheckCircle2 size={16} /> Connected</>
+                    <><CheckCircle2 size={16} /> {isLocal ? 'Model ready' : 'Connected'}</>
                   ) : (
-                    <><XCircle size={16} /> Connection failed. Check your key and try again.</>
+                    <><XCircle size={16} /> {isLocal ? 'Model not ready. Check your internet connection and try again.' : 'Connection failed. Check your key and try again.'}</>
                   )}
                 </motion.div>
               )}

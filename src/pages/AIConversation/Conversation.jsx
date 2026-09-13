@@ -92,6 +92,7 @@ export default function AIChat() {
   const [error, setError] = useState(null);
   const [recording, setRecording] = useState(false);
   const [showFeedback, setShowFeedback] = useState(false);
+  const [localStatus, setLocalStatus] = useState(null);
 
   const recognitionRef = useRef(null);
   const listeningRef = useRef(false);
@@ -143,6 +144,7 @@ export default function AIChat() {
         systemPrompt,
         messages: [],
         temperature: 0.8,
+        onProgress: setLocalStatus,
       });
       const updated = { ...config, messages: [{ role: 'assistant', content: reply, id: Date.now() }] };
       setConfig(updated);
@@ -178,6 +180,7 @@ export default function AIChat() {
         systemPrompt,
         messages: newMessages.filter((m) => m.content),
         temperature: 0.8,
+        onProgress: setLocalStatus,
       });
 
       const aiMsg = { role: 'assistant', content: reply, id: Date.now() + 1 };
@@ -296,7 +299,7 @@ export default function AIChat() {
           </Link>
           <div className="flex items-center gap-2">
             <span className="hidden sm:flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-italian-purple/10 text-italian-purple text-xs font-medium">
-              {config.provider} · {config.level}
+              {config.provider === 'local' ? 'Local (Free)' : config.provider} · {config.level}
             </span>
             <button
               onClick={endConversation}
@@ -324,7 +327,9 @@ export default function AIChat() {
               <p className="text-sm text-gray-500 dark:text-gray-400 mt-1">
                 {config.mode === 'scenario' && config.scenarioText
                   ? config.scenarioText
-                  : 'Say something to start the conversation. The AI will respond in ' + config.language + '.'}
+                  : config.provider === 'local'
+                    ? 'You are using the free local model. The first reply downloads it to your browser (~0.5 GB).'
+                    : 'Say something to start the conversation. The AI will respond in ' + config.language + '.'}
               </p>
               <button
                 onClick={sendInitialGreeting}
@@ -386,7 +391,14 @@ export default function AIChat() {
                 <Bot size={15} />
               </div>
               <div className="rounded-2xl rounded-tl-md bg-white dark:bg-[#22252E] border border-gray-100 dark:border-[#2E323C] px-4 py-3">
-                <Loader2 size={18} className="animate-spin text-italian-purple" />
+                <div className="flex items-center gap-2">
+                  <Loader2 size={18} className="animate-spin text-italian-purple shrink-0" />
+                  {config.provider === 'local' && (
+                    <span className="text-xs text-gray-500 dark:text-gray-400">
+                      {localStatus || 'Running the free local model… (first reply may take a minute)'}
+                    </span>
+                  )}
+                </div>
               </div>
             </div>
           )}

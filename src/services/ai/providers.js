@@ -37,6 +37,32 @@ const PROVIDER_CONFIG = {
       { id: 'groq/compound', name: 'Groq Compound' },
     ],
   },
+  openrouter: {
+    id: 'openrouter',
+    name: 'OpenRouter',
+    baseUrl: 'https://openrouter.ai/api/v1',
+    endpoint: '/chat/completions',
+    models: [
+      { id: 'google/gemma-4-31b-it:free', name: 'Gemma 4 31B (free)' },
+      { id: 'meta-llama/llama-3.3-70b-instruct:free', name: 'Llama 3.3 70B (free)' },
+      { id: 'nvidia/nemotron-3-ultra-550b-a55b:free', name: 'Nemotron 3 Ultra (free)' },
+      { id: 'nvidia/nemotron-3.5-lightning:free', name: 'Nemotron 3.5 Lightning (free)' },
+      { id: 'liquid/lfm-2.5-2.6b:free', name: 'Liquid LFM 2.6B (free)' },
+      { id: 'poolside/laguna-s-2.1:free', name: 'Poolside Laguna S (free)' },
+      { id: 'openrouter/auto:free', name: 'Auto pick (free)' },
+    ],
+  },
+  local: {
+    id: 'local',
+    name: 'Local (Free)',
+    needsKey: false,
+    baseUrl: '',
+    endpoint: '',
+    models: [
+      { id: 'onnx-community/Qwen2.5-0.5B-Instruct', name: 'Qwen 2.5 0.5B (in browser)' },
+      { id: 'onnx-community/Llama-3.2-1B-Instruct', name: 'Llama 3.2 1B (in browser)' },
+    ],
+  },
 };
 
 function buildMessages(messages, systemPrompt) {
@@ -136,11 +162,17 @@ function completionTarget(cfg, model) {
   return `${cfg.baseUrl}${cfg.endpoint}`;
 }
 
-export async function sendChatMessage({ providerId, model, apiKey, systemPrompt, messages, temperature = 0.8 }) {
+export async function sendChatMessage({ providerId, model, apiKey, systemPrompt, messages, temperature = 0.8, onProgress }) {
   const cfg = PROVIDER_CONFIG[providerId];
   if (!cfg) throw new Error('Unknown provider.');
-  if (!apiKey) throw new Error('API key missing.');
   if (!model) throw new Error('No model selected.');
+
+  if (providerId === 'local') {
+    const { sendLocalMessage } = await import('./localModel');
+    return sendLocalMessage({ systemPrompt, messages, model, temperature, onProgress });
+  }
+
+  if (!apiKey) throw new Error('API key missing.');
 
   const msgs = buildMessages(messages, systemPrompt);
   const body = {
@@ -179,7 +211,19 @@ async function process(apiKey, url, body, providerId) {
 
 export async function testConnection({ providerId, model, apiKey }) {
   const cfg = PROVIDER_CONFIG[providerId];
-  if (!cfg || !apiKey) return false;
+  if (!cfg) return false;
+
+  if (providerId === 'local') {
+    const { loadLocalModel } = await import('./localModel');
+    try {
+      await loadLocalModel(model);
+      return true;
+    } catch {
+      return false;
+    }
+  }
+
+  if (!apiKey) return false;
 
   if (providerId === 'gemini') {
     try {
