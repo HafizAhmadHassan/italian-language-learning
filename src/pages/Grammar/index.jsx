@@ -460,12 +460,49 @@ export default function GrammarPage() {
           </Link>
         </motion.div>
 
-        {/* Level Tabs */}
+        {/* Subjunctive Mini-Course */}
         <motion.div
           initial="hidden"
           animate="visible"
           variants={fadeUp}
           custom={9}
+          className="mb-8"
+        >
+          <Link
+            to="/grammar/congiuntivo"
+            className="group flex flex-col sm:flex-row sm:items-center gap-4 rounded-2xl border border-italian-rose/30 bg-gradient-to-r from-italian-rose/10 to-italian-cream dark:from-italian-dark-card dark:to-italian-dark-card p-5 transition-all duration-300 hover:shadow-lg hover:shadow-italian-rose/10"
+          >
+            <div className="w-12 h-12 rounded-xl bg-italian-rose flex items-center justify-center shrink-0">
+              <PlayCircle className="w-6 h-6 text-white" />
+            </div>
+            <div className="flex-1 min-w-0">
+              <div className="flex items-center gap-2 flex-wrap">
+                <h3 className="text-base font-semibold text-italian-charcoal dark:text-white">
+                  The Subjunctive — Congiuntivo
+                </h3>
+                <span className="px-2 py-0.5 rounded-md text-xs font-bold border bg-italian-rose/15 text-italian-rose border-italian-rose/30">
+                  B1–B2
+                </span>
+                <span className="px-2 py-0.5 rounded-md text-xs font-semibold bg-italian-gold/15 text-italian-gold border border-italian-gold/25">
+                  Mini-course
+                </span>
+              </div>
+              <p className="text-sm text-gray-500 dark:text-gray-400 mt-1">
+                30 progressive exercises, 4 stories, and a final mastery test — master opinions, wishes, emotions, and hypotheses with the presente, passato, imperfetto &amp; trapassato congiuntivo.
+              </p>
+            </div>
+            <span className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-italian-rose text-white text-sm font-semibold group-hover:shadow-md transition-all shrink-0">
+              Start Lesson <ArrowRight size={16} className="group-hover:translate-x-0.5 transition-transform" />
+            </span>
+          </Link>
+        </motion.div>
+
+        {/* Level Tabs */}
+        <motion.div
+          initial="hidden"
+          animate="visible"
+          variants={fadeUp}
+          custom={10}
           className="flex gap-2 mb-8 overflow-x-auto pb-1"
         >
           {TABS.map((tab) => (
@@ -497,7 +534,7 @@ export default function GrammarPage() {
                   initial="hidden"
                   animate="visible"
                   variants={fadeUp}
-                  custom={i + 9}
+                  custom={i + 10}
                   className={`rounded-2xl border transition-all duration-300 overflow-hidden ${
                     isOpen
                       ? 'bg-white dark:bg-italian-dark-card border-italian-green/30 shadow-lg shadow-italian-green/5'
