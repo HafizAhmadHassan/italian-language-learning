@@ -21,6 +21,7 @@ import VerbiIrregolariLesson from './pages/Grammar/VerbiIrregolari';
 import CondizionaleLesson from './pages/Grammar/Condizionale';
 import ModaliLesson from './pages/Grammar/Modali';
 import CongiuntivoLesson from './pages/Grammar/Congiuntivo';
+import PronomiRelativiLesson from './pages/Grammar/PronomiRelativi';
 import Practice from './pages/Practice';
 import Conversation from './pages/Conversation';
 import Dialogue from './pages/Conversation/Dialogue';
@@ -73,6 +74,7 @@ function App() {
           <Route path="/grammar/condizionale" element={<CondizionaleLesson />} />
           <Route path="/grammar/verbi-modali" element={<ModaliLesson />} />
           <Route path="/grammar/congiuntivo" element={<CongiuntivoLesson />} />
+          <Route path="/grammar/pronomi-relativi" element={<PronomiRelativiLesson />} />
           <Route path="/practice" element={<Practice />} />
           <Route path="/conversation" element={<Conversation />} />
           <Route path="/conversation/:id" element={<Dialogue />} />
